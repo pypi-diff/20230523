@@ -623,3 +623,99 @@
 [2023-05-23 00:53:54] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
 [2023-05-23 00:53:54] INFO root fetch - main [MainThread]: End processing [sage-conf] error
 [2023-05-23 00:53:54] INFO root fetch - main [MainThread]: Store serial: [18204868]
+[2023-05-23 00:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204868]
+[2023-05-23 00:59:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ort-nightly
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finlogic
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: disnake-ext-i18n
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talondoc
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: urllib3-ext-hface
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicommeta
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathsym-adasneves
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tecton
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opshin
+[2023-05-23 00:59:14] INFO root fetch - processPackages [coiled]: New version: [0.6.7.dev9] Old Version: [0.6.7.dev8]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [dicommeta]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [talondoc]: New version: [1.0.0rc0] Old Version: [0.6.0]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ort-nightly]: New version: [1.16.0.dev20230516002] Old Version: [1.11.0.dev20220320001]
+[2023-05-23 00:59:14] WARNING root fetch - processPackages [disnake-ext-i18n]: Skipping, unable to determine old version
+[2023-05-23 00:59:14] INFO root fetch - processPackages [disnake-ext-i18n]: Start processing: copier-template-tester
+[2023-05-23 00:59:14] INFO root fetch - main [MainThread]: End processing [disnake-ext-i18n] error
+[2023-05-23 00:59:14] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [finlogic]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [mathsym-adasneves]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.7.dev8.tar.gz tmp/coiled-0.6.7.dev9.tar.gz --markdown 20230523/c/coiled/0.6.7.dev8-0.6.7.dev9/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [copier-template-tester]: New version: [1.2.4] Old Version: [1.2.3rc0]
+[2023-05-23 00:59:14] INFO root fetch - processPackages [ort-nightly]: Downloading https://files.pythonhosted.org/packages/f2/ea/adab7d5b86baa0e36adc768c4197935ba80d3fee335b1842c62551716ef8/ort_nightly-1.11.0.dev20220320001-cp39-cp39-win_amd64.whl
+[2023-05-23 00:59:14] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/43/66/8bb17048400b713a7135c6381e76ec717868eec107a1c874222874df6e52/dicommeta-0.5.7.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/ea/91/32e978086fc8ce4dc6ef53ce8c57c921d2eedb7bff835fa4124dd7916f9d/finlogic-0.4.8.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [talondoc]: Downloading https://files.pythonhosted.org/packages/71/00/4be46ab61a43cea583280924c0b4608f40eeeed45f668b0ce479b433eb92/talondoc-1.0.0rc0.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/3c/2a/8c5efafe5ef0beb7afabadbc0c7c6d72c2d5cb9d93943cbcf84292c68959/urllib3_ext_hface-0.2.9.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [mathsym-adasneves]: Downloading https://files.pythonhosted.org/packages/0b/11/63c24ae49b4b4682ae60afd24bf9b1adccdc22a923e6c2fdb91fbf1ca57b/mathsym_adasneves-1.1.4.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/a5/bb/2f5b645c24df40d3c907f4258413a10a82e4cb12d8fd3bec356a7ee67c28/dicommeta-0.5.8.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230523/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.2.8.tar.gz tmp/urllib3_ext_hface-0.2.9.tar.gz --markdown 20230523/u/urllib3-ext-hface/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [copier-template-tester]: Downloading https://files.pythonhosted.org/packages/dc/81/a4c07e1a04adc2151d2bced7d8e639ab1977c54a8c13733d1be0c9b186e5/copier_template_tester-1.2.4.tar.gz
+[2023-05-23 00:59:14] INFO root fetch - processPackages [mathsym-adasneves]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [mathsym-adasneves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathsym_adasneves-1.1.3.tar.gz tmp/mathsym_adasneves-1.1.4.tar.gz --markdown 20230523/m/mathsym-adasneves/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.4.7.tar.gz tmp/finlogic-0.4.8.tar.gz --markdown 20230523/f/finlogic/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [talondoc]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [talondoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talondoc-0.6.0.tar.gz tmp/talondoc-1.0.0rc0.tar.gz --markdown 20230523/t/talondoc/0.6.0-1.0.0rc0/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [dicommeta]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [copier-template-tester]: executing diffoscope
+[2023-05-23 00:59:14] INFO root fetch - processPackages [dicommeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicommeta-0.5.7.tar.gz tmp/dicommeta-0.5.8.tar.gz --markdown 20230523/d/dicommeta/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [copier-template-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copier_template_tester-1.2.3rc0.tar.gz tmp/copier_template_tester-1.2.4.tar.gz --markdown 20230523/c/copier-template-tester/1.2.3rc0-1.2.4/diff.md --exclude *.pyd
+[2023-05-23 00:59:14] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-05-23 00:59:15] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-05-23 00:59:15] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230523/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-05-23 00:59:15] INFO root fetch - processPackages [ort-nightly]: Downloading https://files.pythonhosted.org/packages/4d/17/73d0f0f66b6a212c6385ec574c9dabda80b9c8dfe7ad904e49d60311f05a/ort_nightly-1.16.0.dev20230516002-cp39-cp39-win_amd64.whl
+[2023-05-23 00:59:16] INFO root fetch - processPackages [dicommeta]: Start processing: oci
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [dicommeta]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [mathsym-adasneves]: Start processing: vbcore
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [mathsym-adasneves]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [copier-template-tester]: Start processing: maggma
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [copier-template-tester]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-05-23 00:59:16] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 00:59:16] INFO root fetch - processPackages [urllib3-ext-hface]: Start processing: cloud-files
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [vbcore]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2023-05-23 00:59:16] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-05-23 00:59:16] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230523/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 00:59:16] INFO root fetch - processPackages [ort-nightly]: executing diffoscope
+[2023-05-23 00:59:16] INFO root fetch - processPackages [ort-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ort_nightly-1.11.0.dev20220320001-cp39-cp39-win_amd64.whl.zip tmp/ort_nightly-1.16.0.dev20230516002-cp39-cp39-win_amd64.whl.zip --markdown 20230523/o/ort-nightly/1.11.0.dev20220320001-1.16.0.dev20230516002/diff.md --exclude *.pyd
+[2023-05-23 00:59:16] INFO root fetch - processPackages [cloud-files]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-23 00:59:16] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2023-05-23 00:59:16] INFO root fetch - processPackages [finlogic]: Start processing: wrapenv
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-05-23 00:59:16] WARNING root fetch - processPackages [wrapenv]: Skipping, unable to determine old version
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [wrapenv] error
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [cloud-files]: Downloading https://files.pythonhosted.org/packages/f0/c8/1670e09d59d1c4e03277e61e4bba0d8e81cfa625158c04efd19bee4c1aa8/cloud-files-4.9.0.tar.gz
+[2023-05-23 00:59:16] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/41/4b/e3388d6cada093544a3c4ae1446303205b9bdf86a55e6d8518363b04fc0f/vbcore-2.0.0rc3.tar.gz
+[2023-05-23 00:59:16] INFO root fetch - main [MainThread]: End processing [talondoc]: success
+[2023-05-23 00:59:16] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-05-23 00:59:16] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.0.0rc2.tar.gz tmp/vbcore-2.0.0rc3.tar.gz --markdown 20230523/v/vbcore/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2023-05-23 00:59:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-23 00:59:17] INFO root fetch - processPackages [cloud-files]: Downloading https://files.pythonhosted.org/packages/6c/69/68998e8e8025bf7860d9cdef6ff6c18032f8995566053e1b5e13c3e18851/cloud-files-4.9.1.tar.gz
+[2023-05-23 00:59:17] INFO root fetch - processPackages [cloud-files]: executing diffoscope
+[2023-05-23 00:59:17] INFO root fetch - processPackages [cloud-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-files-4.9.0.tar.gz tmp/cloud-files-4.9.1.tar.gz --markdown 20230523/c/cloud-files/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-23 00:59:17] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-05-23 00:59:18] INFO root fetch - main [MainThread]: End processing [cloud-files]: success
+[2023-05-23 00:59:18] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2023-05-23 00:59:18] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-05-23 00:59:19] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-05-23 00:59:19] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230523/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-05-23 00:59:19] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-23 00:59:20] INFO root fetch - main [MainThread]: End processing [ort-nightly]: success
+[2023-05-23 01:02:19] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-05-23 01:02:19] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-05-23 01:02:19] INFO root fetch - main [MainThread]: Store serial: [18204941]

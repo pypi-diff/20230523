@@ -1189,3 +1189,82 @@
 [2023-05-23 01:48:29] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
 [2023-05-23 01:48:29] INFO root fetch - main [MainThread]: End processing [grpcio] error
 [2023-05-23 01:48:29] INFO root fetch - main [MainThread]: Store serial: [18205228]
+[2023-05-23 01:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205228]
+[2023-05-23 01:53:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsversioner
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grpcio-reflection
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grpcio-status
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpcio-testing
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcio-tools
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cardamom-ai
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oregpt
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ez-bloxflipapi
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-wait
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jtbl
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-testing]: New version: [1.55.0rc1] Old Version: [1.55.0]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [oregpt]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [cardamom-ai]: New version: [0.1] Old Version: [0.0.1]
+[2023-05-23 01:53:38] WARNING root fetch - processPackages [ez-bloxflipapi]: Skipping, unable to determine old version
+[2023-05-23 01:53:38] INFO root fetch - processPackages [ez-bloxflipapi]: Start processing: cellmaps-pipeline
+[2023-05-23 01:53:38] INFO root fetch - main [MainThread]: End processing [ez-bloxflipapi] error
+[2023-05-23 01:53:38] WARNING root fetch - processPackages [simple-wait]: Skipping, unable to determine old version
+[2023-05-23 01:53:38] INFO root fetch - processPackages [simple-wait]: Start processing: devstats
+[2023-05-23 01:53:38] INFO root fetch - main [MainThread]: End processing [simple-wait] error
+[2023-05-23 01:53:38] INFO root fetch - processPackages [jtbl]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-status]: New version: [1.55.0rc1] Old Version: [1.55.0]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [dsversioner]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-23 01:53:38] WARNING root fetch - processPackages [devstats]: Skipping, unable to determine old version
+[2023-05-23 01:53:38] INFO root fetch - processPackages [devstats]: Start processing: dsversioner
+[2023-05-23 01:53:38] INFO root fetch - main [MainThread]: End processing [devstats] error
+[2023-05-23 01:53:38] WARNING root fetch - processPackages [cellmaps-pipeline]: Skipping, unable to determine old version
+[2023-05-23 01:53:38] INFO root fetch - processPackages [cellmaps-pipeline]: Start processing: prettyqt
+[2023-05-23 01:53:38] INFO root fetch - main [MainThread]: End processing [cellmaps-pipeline] error
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-tools]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [dsversioner]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/61/a0/8254cc8486461146eb47d5c453925129d39e3f46c23709d34647feed3a9a/grpcio-testing-1.55.0.tar.gz
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/b1/60/3601e1afe92b9b5eafa054ce5ededa30ca9d54f17ee6aecd1633ccd3938b/grpcio-status-1.55.0.tar.gz
+[2023-05-23 01:53:38] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-23 01:53:38] INFO root fetch - processPackages [cardamom-ai]: Downloading https://files.pythonhosted.org/packages/bd/41/9edcdfd61b8376719dfc28930c2664736dcc91118325148596bf6e53e0d1/cardamom_ai-0.0.1.tar.gz
+[2023-05-23 01:53:38] INFO root fetch - processPackages [oregpt]: Downloading https://files.pythonhosted.org/packages/66/7f/204df62b3b4f3d5c3f00bfa794efcd3c6db98fd4ecfaf8d45c233543e64a/oregpt-0.1.3.tar.gz
+[2023-05-23 01:53:38] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/c5/04/1e6e73100e408d346552703ab15b45318d7fae3a7e45b0c4c810795dbcda/grpcio-tools-1.9.0rc3.tar.gz
+[2023-05-23 01:53:38] INFO root fetch - processPackages [jtbl]: Downloading https://files.pythonhosted.org/packages/a2/1d/890fc89f207932af16e82ae26aea109d8d45e6ca1ff5bfe4eff829e21401/jtbl-1.5.1.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20230523/g/grpcio-reflection/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/90/d9/7c9ebe0855232f981fedd3acc3eeae5c554311bad2ad98cafe715bfb6753/grpcio-testing-1.55.0rc1.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/48/62/334221edaea0488686823f735e547b680983053c2e6cc5f22fedba964ed7/dsversioner-0.9.2.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/48/62/334221edaea0488686823f735e547b680983053c2e6cc5f22fedba964ed7/dsversioner-0.9.2.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/ab/cf/af71ea1d05cb49d63e035dad21ab17120cd0baf86de6dae6fd00e9114eac/grpcio-status-1.55.0rc1.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [oregpt]: Downloading https://files.pythonhosted.org/packages/3a/35/b9ec23dff2eef5d9fefcb843aef5c1b5d7c469c762a70c050e1a4803fef8/oregpt-0.2.0.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [cardamom-ai]: Downloading https://files.pythonhosted.org/packages/c0/02/1aa94f9f6f5fe1f1d6da751e0537b12f31c9a3ab0ab2d1598f4894d36c5f/cardamom_ai-0.1.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsversioner-0.9.1.tar.gz tmp/dsversioner-0.9.2.tar.gz --markdown 20230523/d/dsversioner/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [dsversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsversioner-0.9.1.tar.gz tmp/dsversioner-0.9.2.tar.gz --markdown 20230523/d/dsversioner/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [oregpt]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [oregpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oregpt-0.1.3.tar.gz tmp/oregpt-0.2.0.tar.gz --markdown 20230523/o/oregpt/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [cardamom-ai]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [cardamom-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardamom_ai-0.0.1.tar.gz tmp/cardamom_ai-0.1.tar.gz --markdown 20230523/c/cardamom-ai/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [jtbl]: Downloading https://files.pythonhosted.org/packages/ea/f6/61355d928f82dc3266af0ed7a6b9005895510d78e8cd8ff9f6d8380efd12/jtbl-1.5.2.tar.gz
+[2023-05-23 01:53:39] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230523/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-testing]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-testing-1.55.0.tar.gz tmp/grpcio-testing-1.55.0rc1.tar.gz --markdown 20230523/g/grpcio-testing/1.55.0-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-status]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-status-1.55.0.tar.gz tmp/grpcio-status-1.55.0rc1.tar.gz --markdown 20230523/g/grpcio-status/1.55.0-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [jtbl]: executing diffoscope
+[2023-05-23 01:53:39] INFO root fetch - processPackages [jtbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtbl-1.5.1.tar.gz tmp/jtbl-1.5.2.tar.gz --markdown 20230523/j/jtbl/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-23 01:53:39] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/26/3d/061e0162aeb88dba757e56bc8a9bdacfce70ad6e43b8181a48b29acd827c/grpcio-tools-1.9.1.tar.gz
+[2023-05-23 01:53:40] INFO root fetch - processPackages [grpcio-tools]: executing diffoscope
+[2023-05-23 01:53:40] INFO root fetch - processPackages [grpcio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-tools-1.9.0rc3.tar.gz tmp/grpcio-tools-1.9.1.tar.gz --markdown 20230523/g/grpcio-tools/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:53:40] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2023-05-23 01:53:40] INFO root fetch - main [MainThread]: End processing [cardamom-ai]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [dsversioner]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [dsversioner]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [grpcio-status]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [oregpt]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [jtbl]: success
+[2023-05-23 01:53:41] INFO root fetch - main [MainThread]: End processing [grpcio-testing]: success
+[2023-05-23 01:53:47] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-23 01:53:49] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
+[2023-05-23 01:53:49] INFO root fetch - main [MainThread]: Store serial: [18205326]

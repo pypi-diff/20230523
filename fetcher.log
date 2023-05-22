@@ -460,3 +460,72 @@
 [2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
 [2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [azure-eventgrid]: success
 [2023-05-23 00:40:27] INFO root fetch - main [MainThread]: Store serial: [18204760]
+[2023-05-23 00:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204760]
+[2023-05-23 00:45:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPLNmodels
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asgihandler
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kynaylibs
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parsl
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rasterio
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ufbt
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: damo
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-agents
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkbox-api
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: core-models
+[2023-05-23 00:45:36] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ufbt]: New version: [0.2.2rc2] Old Version: [0.2.2rc0]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-23 00:45:36] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.6.tar.gz tmp/kynaylibs-1.7.7.tar.gz --markdown 20230523/k/kynaylibs/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-05-23 00:45:36] INFO root fetch - processPackages [asgihandler]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ufbt]: executing diffoscope
+[2023-05-23 00:45:36] INFO root fetch - processPackages [ufbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufbt-0.2.2rc0.tar.gz tmp/ufbt-0.2.2rc2.tar.gz --markdown 20230523/u/ufbt/0.2.2rc0-0.2.2rc2/diff.md --exclude *.pyd
+[2023-05-23 00:45:36] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-23 00:45:36] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230523/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 00:45:36] INFO root fetch - processPackages [core-models]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [tf-agents]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [parsl]: New version: [2023.5.8] Old Version: [2023.5.22]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [damo]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [rasterio]: New version: [1.3b3] Old Version: [1.3b2]
+[2023-05-23 00:45:36] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/de/10/64ece4407e8c75c642de09dfd44dfad94ef5f7b079ba3bd4d6fd407e9142/asgihandler-0.4.0.tar.gz
+[2023-05-23 00:45:36] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/5a/7e49ae36d644d216dc4036f7e42765d66eb576ed82966cc5f052de332fed/parsl-2023.5.22.tar.gz
+[2023-05-23 00:45:36] INFO root fetch - processPackages [tf-agents]: Downloading https://files.pythonhosted.org/packages/78/7e/1fdb01c0e5b884eeb20328a007db6fb9171a934181fc1dce4eb1ac9ea159/tf_agents-0.9.0-py3-none-any.whl
+[2023-05-23 00:45:36] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/2a/a7/aaf8741c8fd497777d28066fe65799321f6cae32635620024bd422172aba/damo-1.8.1.tar.gz
+[2023-05-23 00:45:36] INFO root fetch - processPackages [rasterio]: Downloading https://files.pythonhosted.org/packages/43/59/7ee072b7ba489416eb8b220e764bf95bec8da0f33a03c5abb4d30ba188d5/rasterio-1.3b2.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/41/ff/773ff02ca7f2f1f8cce6c68b37705554aee298496a1b26801d08438713f8/core_models-0.0.5.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/88/20/b52a1ec0c9e5475631e2f6968482c73882f236b13056bd9905b18ae8412b/asgihandler-0.4.1.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.0.4.tar.gz tmp/core_models-0.0.5.tar.gz --markdown 20230523/c/core-models/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/21/20/9c85c79163de5fde6bf939911800f0781f04fba37a273004ae46640a5ce0/damo-1.8.2.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/4d/9e/cd09cfd1048ae5b90d606eb634587248820b8d470107c3f0dbc358fb75c2/parsl-2023.5.8.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.4.0.tar.gz tmp/asgihandler-0.4.1.tar.gz --markdown 20230523/a/asgihandler/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230523/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [tf-agents]: Downloading https://files.pythonhosted.org/packages/10/22/5703b623fd4ae0cac2ed6aa33332206690bf069be28146bc7615b1ef6124/tf_agents-0.9.0rc0-py3-none-any.whl
+[2023-05-23 00:45:37] INFO root fetch - processPackages [rasterio]: Downloading https://files.pythonhosted.org/packages/8e/fd/ba97fe214d15c9f5bbac70574cc8972ccdc63ca82c4dd13ee4184cd59146/rasterio-1.3b3.tar.gz
+[2023-05-23 00:45:37] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.8.1.tar.gz tmp/damo-1.8.2.tar.gz --markdown 20230523/d/damo/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.5.22.tar.gz tmp/parsl-2023.5.8.tar.gz --markdown 20230523/p/parsl/2023.5.22-2023.5.8/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [rasterio]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasterio-1.3b2.tar.gz tmp/rasterio-1.3b3.tar.gz --markdown 20230523/r/rasterio/1.3b2-1.3b3/diff.md --exclude *.pyd
+[2023-05-23 00:45:37] INFO root fetch - processPackages [tf-agents]: executing diffoscope
+[2023-05-23 00:45:37] INFO root fetch - processPackages [tf-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents-0.9.0-py3-none-any.whl.zip tmp/tf_agents-0.9.0rc0-py3-none-any.whl.zip --markdown 20230523/t/tf-agents/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-23 00:45:38] INFO root fetch - processPackages [ufbt]: Start processing: infra-buddy-too
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [ufbt]: success
+[2023-05-23 00:45:38] INFO root fetch - processPackages [infra-buddy-too]: New version: [64] Old Version: [63]
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-23 00:45:38] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-23 00:45:38] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-63.tar.gz tmp/infra-buddy-too-64.tar.gz --markdown 20230523/i/infra-buddy-too/63-64/diff.md --exclude *.pyd
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-05-23 00:45:38] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-05-23 00:45:39] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-23 00:45:39] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-05-23 00:45:42] INFO root fetch - main [MainThread]: End processing [rasterio]: success
+[2023-05-23 00:45:43] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-05-23 00:45:44] INFO root fetch - main [MainThread]: End processing [tf-agents]: success
+[2023-05-23 00:45:44] INFO root fetch - main [MainThread]: Store serial: [18204807]

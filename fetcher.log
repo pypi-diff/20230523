@@ -207,3 +207,63 @@
 [2023-05-23 00:17:51] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-05-23 00:18:22] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-23 00:18:22] INFO root fetch - main [MainThread]: Store serial: [18204516]
+[2023-05-23 00:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204516]
+[2023-05-23 00:23:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Maxar-OGC
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynbps
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-typings
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlitopencvideoplayer
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsii
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyresidfp
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robyn
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lukasfirst
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moto
+[2023-05-23 00:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlitopencvplayer
+[2023-05-23 00:23:31] WARNING root fetch - processPackages [streamlitopencvplayer]: Skipping, unable to determine old version
+[2023-05-23 00:23:31] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer] error
+[2023-05-23 00:23:31] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [discord-typings]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [lukasfirst]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-23 00:23:31] WARNING root fetch - processPackages [streamlitopencvideoplayer]: Skipping, unable to determine old version
+[2023-05-23 00:23:31] INFO root fetch - main [MainThread]: End processing [streamlitopencvideoplayer] error
+[2023-05-23 00:23:31] INFO root fetch - processPackages [dynbps]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [pyresidfp]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [Maxar-OGC]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [jsii]: New version: [1.9.0] Old Version: [1.82.0]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230523/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [discord-typings]: Downloading https://files.pythonhosted.org/packages/d2/5a/f96373658a0e99be6af8cf7bfd483f6e96c3f0a0cd370731e3aa8ea96287/discord-typings-0.5.1.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/fb/d3/af20c87e6be4d0efea836c1e88c8b12eece8f6a3ce2f0fcf0357602b8a7a/jsii-1.82.0.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/db/ba/6849b363fd050cf2a9d3d28acf8e985c68076c96cbe5091a03b6ef9cd835/pyresidfp-0.6.5.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [lukasfirst]: Downloading https://files.pythonhosted.org/packages/a0/1c/e80bc76829c8ec250403c38c8eaab364dc9a6324f3ecf34cc5e7b8f8d233/lukasfirst-1.0.0.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-23 00:23:31] INFO root fetch - processPackages [Maxar-OGC]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [Maxar-OGC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Maxar_OGC-1.3.0.tar.gz tmp/Maxar_OGC-1.3.1.tar.gz --markdown 20230523/M/Maxar-OGC/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/df/7b/f58a1f70e52ed8b936d562f434b4d005322708be43347f0d4d623073631b/dynbps-0.0.8.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [pyresidfp]: Downloading https://files.pythonhosted.org/packages/7b/4e/6e83c63d9291d3ad0754f6203fbd4093caef3b0c2a2a7e8cb754a6af1807/pyresidfp-0.6.6.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.7.tar.gz tmp/dynbps-0.0.8.tar.gz --markdown 20230523/d/dynbps/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [discord-typings]: Downloading https://files.pythonhosted.org/packages/5b/c0/cc874a754fe3f2d36b9887c30f6b62210a1c3bd33e391ce017b02a71badc/discord_typings-0.6.0.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [lukasfirst]: Downloading https://files.pythonhosted.org/packages/d9/d2/c85df0f98b9d07dac0dddc1f426262ce0fe5e2bac66d6d2b6386a03cdd3f/lukasfirst-1.1.0.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/78/20/6098655fcf481a83444339de8b2275a7c0eaf7b4b960911939b279a0b5e6/jsii-1.9.0.tar.gz
+[2023-05-23 00:23:31] INFO root fetch - processPackages [discord-typings]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [discord-typings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-typings-0.5.1.tar.gz tmp/discord_typings-0.6.0.tar.gz --markdown 20230523/d/discord-typings/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [lukasfirst]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [lukasfirst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lukasfirst-1.0.0.tar.gz tmp/lukasfirst-1.1.0.tar.gz --markdown 20230523/l/lukasfirst/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.82.0.tar.gz tmp/jsii-1.9.0.tar.gz --markdown 20230523/j/jsii/1.82.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 00:23:31] INFO root fetch - processPackages [pyresidfp]: executing diffoscope
+[2023-05-23 00:23:31] INFO root fetch - processPackages [pyresidfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresidfp-0.6.5.tar.gz tmp/pyresidfp-0.6.6.tar.gz --markdown 20230523/p/pyresidfp/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-23 00:23:32] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-05-23 00:23:32] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-05-23 00:23:32] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230523/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [Maxar-OGC]: success
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [lukasfirst]: success
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [discord-typings]: success
+[2023-05-23 00:23:33] INFO root fetch - main [MainThread]: End processing [pyresidfp]: success
+[2023-05-23 00:23:34] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-05-23 00:24:07] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-23 00:24:07] INFO root fetch - main [MainThread]: Store serial: [18204635]

@@ -1268,3 +1268,32 @@
 [2023-05-23 01:53:47] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-05-23 01:53:49] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
 [2023-05-23 01:53:49] INFO root fetch - main [MainThread]: Store serial: [18205326]
+[2023-05-23 01:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205326]
+[2023-05-23 01:58:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: componentize-py
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brickschema
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsrg
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cardamom-ai
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bloxflipeasily
+[2023-05-23 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: methylink
+[2023-05-23 01:58:58] WARNING root fetch - processPackages [methylink]: Skipping, unable to determine old version
+[2023-05-23 01:58:58] INFO root fetch - main [MainThread]: End processing [methylink] error
+[2023-05-23 01:58:58] INFO root fetch - processPackages [cardamom-ai]: New version: [0.1] Old Version: [0.0.1]
+[2023-05-23 01:58:58] WARNING root fetch - processPackages [componentize-py]: Skipping, unable to determine old version
+[2023-05-23 01:58:58] INFO root fetch - main [MainThread]: End processing [componentize-py] error
+[2023-05-23 01:58:58] INFO root fetch - processPackages [libsrg]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-23 01:58:58] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2023-05-23 01:58:58] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-3.3.2-py3-none-any.whl.zip tmp/libsrg-3.3.3-py3-none-any.whl.zip --markdown 20230523/l/libsrg/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-23 01:58:58] INFO root fetch - processPackages [cardamom-ai]: executing diffoscope
+[2023-05-23 01:58:58] INFO root fetch - processPackages [cardamom-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardamom_ai-0.0.1.tar.gz tmp/cardamom_ai-0.1.tar.gz --markdown 20230523/c/cardamom-ai/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-05-23 01:58:58] INFO root fetch - processPackages [brickschema]: New version: [0.7.1a5] Old Version: [0.7.1a3]
+[2023-05-23 01:58:58] WARNING root fetch - processPackages [bloxflipeasily]: Skipping, unable to determine old version
+[2023-05-23 01:58:58] INFO root fetch - main [MainThread]: End processing [bloxflipeasily] error
+[2023-05-23 01:58:58] INFO root fetch - processPackages [brickschema]: Downloading https://files.pythonhosted.org/packages/50/e0/eed70a05adff236fcba8c8fb607b1d04b06b1034fe0b754fe333232c608c/brickschema-0.7.1a3.tar.gz
+[2023-05-23 01:58:59] INFO root fetch - processPackages [brickschema]: Downloading https://files.pythonhosted.org/packages/7c/43/16d07bd1e50fec11713921cf32189b3a6adaa45dd8ae1f700fbfec666416/brickschema-0.7.1a5.tar.gz
+[2023-05-23 01:58:59] INFO root fetch - processPackages [brickschema]: executing diffoscope
+[2023-05-23 01:58:59] INFO root fetch - processPackages [brickschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickschema-0.7.1a3.tar.gz tmp/brickschema-0.7.1a5.tar.gz --markdown 20230523/b/brickschema/0.7.1a3-0.7.1a5/diff.md --exclude *.pyd
+[2023-05-23 01:58:59] INFO root fetch - main [MainThread]: End processing [cardamom-ai]: success
+[2023-05-23 01:58:59] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2023-05-23 01:59:01] INFO root fetch - main [MainThread]: End processing [brickschema]: success
+[2023-05-23 01:59:01] INFO root fetch - main [MainThread]: Store serial: [18205351]

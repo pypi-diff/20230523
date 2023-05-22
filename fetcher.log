@@ -1051,3 +1051,26 @@
 [2023-05-23 01:29:03] INFO root fetch - main [MainThread]: End processing [omemo-dr]: success
 [2023-05-23 01:29:46] INFO root fetch - main [MainThread]: End processing [estela]: success
 [2023-05-23 01:29:46] INFO root fetch - main [MainThread]: Store serial: [18205117]
+[2023-05-23 01:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205117]
+[2023-05-23 01:34:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-23 01:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-wait
+[2023-05-23 01:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsversioner
+[2023-05-23 01:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fling-start
+[2023-05-23 01:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TapisCL-ICICLE
+[2023-05-23 01:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faissknn
+[2023-05-23 01:34:55] WARNING root fetch - processPackages [dsversioner]: Skipping, unable to determine old version
+[2023-05-23 01:34:55] INFO root fetch - main [MainThread]: End processing [dsversioner] error
+[2023-05-23 01:34:55] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.51] Old Version: [0.0.5]
+[2023-05-23 01:34:55] WARNING root fetch - processPackages [simple-wait]: Skipping, unable to determine old version
+[2023-05-23 01:34:55] INFO root fetch - main [MainThread]: End processing [simple-wait] error
+[2023-05-23 01:34:55] INFO root fetch - processPackages [fling-start]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 01:34:55] WARNING root fetch - processPackages [faissknn]: Skipping, unable to determine old version
+[2023-05-23 01:34:55] INFO root fetch - main [MainThread]: End processing [faissknn] error
+[2023-05-23 01:34:55] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/ca/d6/28836b4204635407702468974eabd5dc42b81a3ca2f580383bfa38eba403/TapisCL-ICICLE-0.0.51.tar.gz
+[2023-05-23 01:34:55] INFO root fetch - processPackages [fling-start]: executing diffoscope
+[2023-05-23 01:34:55] INFO root fetch - processPackages [fling-start]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_start-0.1.8.tar.gz tmp/fling_start-0.1.9.tar.gz --markdown 20230523/f/fling-start/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 01:34:55] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-05-23 01:34:55] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.5.tar.gz tmp/TapisCL-ICICLE-0.0.51.tar.gz --markdown 20230523/T/TapisCL-ICICLE/0.0.5-0.0.51/diff.md --exclude *.pyd
+[2023-05-23 01:34:56] INFO root fetch - main [MainThread]: End processing [fling-start]: success
+[2023-05-23 01:34:56] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-05-23 01:34:56] INFO root fetch - main [MainThread]: Store serial: [18205137]

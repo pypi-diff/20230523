@@ -1107,3 +1107,85 @@
 [2023-05-23 01:40:07] INFO root fetch - main [MainThread]: End processing [home-assistant-streamdeck-yaml]: success
 [2023-05-23 01:40:12] INFO root fetch - main [MainThread]: End processing [getdaft]: success
 [2023-05-23 01:40:12] INFO root fetch - main [MainThread]: Store serial: [18205155]
+[2023-05-23 01:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205155]
+[2023-05-23 01:45:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monarch-py
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2aff
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-wrap
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpcio
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidetrek
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerevu-api-utils
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grpcio-admin
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grpcio-channelz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grpcio-csds
+[2023-05-23 01:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpcio-health-checking
+[2023-05-23 01:45:24] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [nerevu-api-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [s2aff]: New version: [0.55] Old Version: [0.54]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [monarch-py]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.54.tar.gz tmp/s2aff-0.55.tar.gz --markdown 20230523/s/s2aff/0.54-0.55/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-admin]: New version: [1.55.0rc1] Old Version: [1.55.0]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-channelz]: New version: [1.55.0rc1] Old Version: [1.55.0]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [spacy-wrap]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-health-checking]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-csds]: New version: [1.55.0rc1] Old Version: [1.55.0]
+[2023-05-23 01:45:24] INFO root fetch - processPackages [nerevu-api-utils]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [nerevu-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerevu-api-utils-0.0.3.tar.gz tmp/nerevu-api-utils-0.0.4.tar.gz --markdown 20230523/n/nerevu-api-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/32/5d/8f115dd53260125fd07719950dc088dae5a66b466857fa93c37e652860dd/grpcio_admin-1.55.0-py3-none-any.whl
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/0f/d1/509af07a7526c900fc1960412c67ad61ce1533f8d3607060353f19a7c41b/grpcio_channelz-1.55.0-py3-none-any.whl
+[2023-05-23 01:45:24] INFO root fetch - processPackages [spacy-wrap]: Downloading https://files.pythonhosted.org/packages/c5/28/f1b6c92325d4743fea8b5262e95b879f24fe8faf8ff25689d08ee53caf82/spacy_wrap-1.4.2.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/ea/52/37ac14cc90867f55f80ce8b7d903f219c75e05c741b5d82cff4440e3e159/grpcio-health-checking-1.9.0rc3.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/7a/87/815a380713bb970516a71d30c8807e995dad49ad304f88abf2dd215d1ff1/monarch_py-0.8.2.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/00/64/530f8e322ec37b34af9a86ad0f49c689fc2f4dc57bfbc35be4dfda4213fc/grpcio_csds-1.55.0-py3-none-any.whl
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/a5/65/9a6b6049ce04f7072b169052fc70760cc10bf0aabfef8d02199470f0f296/grpcio-1.9.0rc3.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [spacy-wrap]: Downloading https://files.pythonhosted.org/packages/6d/22/6bebc32e4c9bff0533c99abb63a7b322c394163638d109f8a98bb6093b15/spacy_wrap-1.4.3.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/d1/79/5ddc040dd326e830cdbe8a690a43e9df262e89cbfd6b8dc96f7c74036708/monarch_py-0.8.3.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/64/b7/1a150f6c068a235ac47628bf0cdaa0bf74044a58548b9cbd624532e6d478/grpcio-health-checking-1.9.1.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/71/e8/161eb5b3492f31c6601922ebb5ddf50e23cd333e9455b91dc02d00920799/grpcio-admin-1.55.0rc1.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-health-checking]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-health-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-health-checking-1.9.0rc3.tar.gz tmp/grpcio-health-checking-1.9.1.tar.gz --markdown 20230523/g/grpcio-health-checking/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/12/fc/c5aabe7a042ff72683cecaeab51b3ac55b8f905e17aeaf4d28306dff725d/grpcio-channelz-1.55.0rc1.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [spacy-wrap]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [spacy-wrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_wrap-1.4.2.tar.gz tmp/spacy_wrap-1.4.3.tar.gz --markdown 20230523/s/spacy-wrap/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.8.2.tar.gz tmp/monarch_py-0.8.3.tar.gz --markdown 20230523/m/monarch-py/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/cb/53/b43cc1087ae1a8f5697b35a401f41a7095040d1d124573a9139023aba699/grpcio-csds-1.55.0rc1.tar.gz
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-admin]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_admin-1.55.0-py3-none-any.whl.zip tmp/grpcio-admin-1.55.0rc1.tar.gz --markdown 20230523/g/grpcio-admin/1.55.0-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-csds]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-csds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_csds-1.55.0-py3-none-any.whl.zip tmp/grpcio-csds-1.55.0rc1.tar.gz --markdown 20230523/g/grpcio-csds/1.55.0-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-channelz]: executing diffoscope
+[2023-05-23 01:45:24] INFO root fetch - processPackages [grpcio-channelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_channelz-1.55.0-py3-none-any.whl.zip tmp/grpcio-channelz-1.55.0rc1.tar.gz --markdown 20230523/g/grpcio-channelz/1.55.0-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-23 01:45:25] INFO root fetch - processPackages [sidetrek]: Start processing: dsversioner
+[2023-05-23 01:45:25] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 01:45:25] INFO root fetch - processPackages [dsversioner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 01:45:25] INFO root fetch - processPackages [s2aff]: Start processing: grpcio-reflection
+[2023-05-23 01:45:25] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-23 01:45:25] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/fd/fb/3c39c00bc09f9beafe31ea2745dceb34f18efd04bc3a18d65319dfe7b063/dsversioner-0.9.0.tar.gz
+[2023-05-23 01:45:25] INFO root fetch - main [MainThread]: End processing [nerevu-api-utils]: success
+[2023-05-23 01:45:25] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-23 01:45:25] INFO root fetch - processPackages [dsversioner]: Downloading https://files.pythonhosted.org/packages/d8/03/ddd01ed7b1af23fcc679c47daf63c3aec79fcf7b1b21d7dd0604a39db522/dsversioner-0.9.1.tar.gz
+[2023-05-23 01:45:25] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/6a/26/01ed8dea550986f42f74221fa8d8d31756be28d6e5c473372af8567632c8/grpcio-reflection-1.9.0rc3.tar.gz
+[2023-05-23 01:45:25] INFO root fetch - processPackages [dsversioner]: executing diffoscope
+[2023-05-23 01:45:25] INFO root fetch - processPackages [dsversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsversioner-0.9.0.tar.gz tmp/dsversioner-0.9.1.tar.gz --markdown 20230523/d/dsversioner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [grpcio-health-checking]: success
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [grpcio-admin]: success
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [grpcio-csds]: success
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [grpcio-channelz]: success
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-05-23 01:45:26] INFO root fetch - main [MainThread]: End processing [spacy-wrap]: success
+[2023-05-23 01:45:26] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/dd/91/214c989e853ebd8e15e8d701e445fcf8047d0734f79ea5335674dd528292/grpcio-reflection-1.9.1.tar.gz
+[2023-05-23 01:45:26] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2023-05-23 01:45:26] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20230523/g/grpcio-reflection/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:45:26] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/01/0b/7033eb8a2b8e7f8eaf849490ee27c9b121b1b5624d644c3b5b988d7386cf/grpcio-1.9.1.tar.gz
+[2023-05-23 01:45:27] INFO root fetch - main [MainThread]: End processing [dsversioner]: success
+[2023-05-23 01:45:27] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2023-05-23 01:45:29] INFO root fetch - processPackages [grpcio]: executing diffoscope
+[2023-05-23 01:45:29] INFO root fetch - processPackages [grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-1.9.0rc3.tar.gz tmp/grpcio-1.9.1.tar.gz --markdown 20230523/g/grpcio/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 01:48:29] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
+[2023-05-23 01:48:29] INFO root fetch - main [MainThread]: End processing [grpcio] error
+[2023-05-23 01:48:29] INFO root fetch - main [MainThread]: Store serial: [18205228]

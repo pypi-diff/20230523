@@ -861,3 +861,78 @@
 [2023-05-23 01:13:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
 [2023-05-23 01:13:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-23 01:13:25] INFO root fetch - main [MainThread]: Store serial: [18205019]
+[2023-05-23 01:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205019]
+[2023-05-23 01:18:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardamom-ai
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Signal8
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-local-backend
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raster2dggs
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-hub
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: determined-common
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: determined
+[2023-05-23 01:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: determined-cli
+[2023-05-23 01:18:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.329] Old Version: [0.3.328]
+[2023-05-23 01:18:34] ERROR root fetch - processPackages [cardamom-ai]: Unable to get metadata: No such project 'cardamom-ai'
+[2023-05-23 01:18:34] INFO root fetch - processPackages [cardamom-ai]: Start processing: determined-deploy
+[2023-05-23 01:18:34] INFO root fetch - main [MainThread]: End processing [cardamom-ai] error
+[2023-05-23 01:18:34] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a8] Old Version: [0.2.0a7]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [raster2dggs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [Signal8]: New version: [1.8] Old Version: [1.7]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.328.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.329.tar.gz --markdown 20230523/p/pepperize.cdk-ses-smtp-credentials/0.3.328-0.3.329/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined]: New version: [0.22.2rc1] Old Version: [0.22.2rc0]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [model-hub]: New version: [0.22.2rc1] Old Version: [0.22.2rc0]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-cli]: New version: [0.22.2rc1] Old Version: [0.22.2rc0]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-common]: New version: [0.22.2rc1] Old Version: [0.22.2rc0]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.2rc1] Old Version: [0.22.2rc0]
+[2023-05-23 01:18:34] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/f9/8a/a56a4cb62a43414b3e089735cb585e1b76347615e12b01f01ec730b7c2a8/ovos_local_backend-0.2.0a7-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/1a/9d/33994ed2ff1051396e3f01363817a46aace974b8becc2e1ea75b1401a133/determined-0.22.2rc1-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/79/66/c4c41ee124616ce78fe9552b0f5fea1a812a986a6e919239b5ce0998026b/model_hub-0.22.2rc1-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/78/15/eab07befe6e6e6199d6be1c204b26f63cd1b4a120a9092c064c4f7372f65/determined_common-0.22.2rc1-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/66/77/a001ddda17782fc948bcc3c5f2421146ef67c9e991561c563d625c0e8bd2/Signal8-1.8.tar.gz
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/28/74/5c2e771dbd719f083670853c2ebad80086241765f74a5c4515ee088f2ce4/determined_cli-0.22.2rc1-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [raster2dggs]: Downloading https://files.pythonhosted.org/packages/8e/0e/2e5b7f73793093b52c448230286f675c5789543d6f8ea60797f5d525f3ea/raster2dggs-0.2.2.tar.gz
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/d5/94/8d124f54720e54b60f75a952648b31849b63f40809b60453298d832e4e20/determined_deploy-0.22.2rc1-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.2rc0-py3-none-any.whl.zip tmp/model_hub-0.22.2rc1-py3-none-any.whl.zip --markdown 20230523/m/model-hub/0.22.2rc0-0.22.2rc1/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.22.2rc0-py3-none-any.whl.zip tmp/determined_common-0.22.2rc1-py3-none-any.whl.zip --markdown 20230523/d/determined-common/0.22.2rc0-0.22.2rc1/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.22.2rc0-py3-none-any.whl.zip tmp/determined_cli-0.22.2rc1-py3-none-any.whl.zip --markdown 20230523/d/determined-cli/0.22.2rc0-0.22.2rc1/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.22.2rc0-py3-none-any.whl.zip tmp/determined-0.22.2rc1-py3-none-any.whl.zip --markdown 20230523/d/determined/0.22.2rc0-0.22.2rc1/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [raster2dggs]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-1.7.tar.gz tmp/Signal8-1.8.tar.gz --markdown 20230523/S/Signal8/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [raster2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster2dggs-0.2.1.tar.gz tmp/raster2dggs-0.2.2.tar.gz --markdown 20230523/r/raster2dggs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.22.2rc0-py3-none-any.whl.zip tmp/determined_deploy-0.22.2rc1-py3-none-any.whl.zip --markdown 20230523/d/determined-deploy/0.22.2rc0-0.22.2rc1/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230523/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 01:18:34] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-05-23 01:18:34] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a7-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip --markdown 20230523/o/ovos-local-backend/0.2.0a7-0.2.0a8/diff.md --exclude *.pyd
+[2023-05-23 01:18:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Start processing: ovos-local-backend
+[2023-05-23 01:18:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-23 01:18:35] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a8] Old Version: [0.2.0a7]
+[2023-05-23 01:18:35] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-05-23 01:18:35] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a7-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip --markdown 20230523/o/ovos-local-backend/0.2.0a7-0.2.0a8/diff.md --exclude *.pyd
+[2023-05-23 01:18:36] INFO root fetch - processPackages [model-hub]: Start processing: cardamom-ai
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-23 01:18:36] ERROR root fetch - processPackages [cardamom-ai]: Unable to get metadata: No such project 'cardamom-ai'
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [cardamom-ai] error
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [raster2dggs]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-05-23 01:18:38] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-23 01:18:38] INFO root fetch - main [MainThread]: Store serial: [18205051]

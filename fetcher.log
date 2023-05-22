@@ -936,3 +936,78 @@
 [2023-05-23 01:18:36] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
 [2023-05-23 01:18:38] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-05-23 01:18:38] INFO root fetch - main [MainThread]: Store serial: [18205051]
+[2023-05-23 01:23:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205051]
+[2023-05-23 01:23:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinotdb
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infra-buddy-too
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SIOTCommon
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bosch-control-panel-cc880p
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loophost
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-thomas-doc-type-checker
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytestifyx
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiledbsoma
+[2023-05-23 01:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sidetrek
+[2023-05-23 01:23:47] INFO root fetch - processPackages [bosch-control-panel-cc880p]: New version: [4.0.0] Old Version: [3.1.4]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [SIOTCommon]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [infra-buddy-too]: New version: [66] Old Version: [65]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pinotdb]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [loophost]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: New version: [20230522.22.1.109553] Old Version: [20230522.20.42.376196]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.331] Old Version: [0.3.330]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [tiledbsoma]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/8e/2c/850929db1401e82e40f0839aeccafb7c5c84e17fa804e4dae6e95411559c/infra-buddy-too-65.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b8/ff/c74f3c617d15427a4ef46424c7d3fa3dfb5850d6736cf0bc248865c6ceb3/pepperize.cdk-ses-smtp-credentials-0.3.330.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pinotdb]: Downloading https://files.pythonhosted.org/packages/f8/68/8deb640a689c5ce179167ca92e620ed432bb7fda34220c39ac5527739028/pinotdb-0.4.9.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Downloading https://files.pythonhosted.org/packages/2e/57/7a9dd02bba70937924741b66852c6bb0281cfc2637d83cfdae02769210ff/certora-cli-alpha-thomas-doc-type-checker-20230522.20.42.376196.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/96/88/0c5cbe367cc6eb33a6dccaa5805e430bdfb0e21527b99b201aebac4168ea/loophost-0.2.4.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [bosch-control-panel-cc880p]: Downloading https://files.pythonhosted.org/packages/8a/81/ca9eaa70c8b977a9af6e1de52230b08be7058703f7caeb608be14bf08f57/bosch-control-panel-cc880p-4.0.0.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/8b/6c/3e5600804d93fe65e2f64a22ba74efea3d6c264302710e55385b67a939da/SIOTCommon-0.1.3.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-0.2.3.tar.gz tmp/loophost-0.2.4.tar.gz --markdown 20230523/l/loophost/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] WARNING root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Skipping package: exceeds size limit 38994337>=10485760
+[2023-05-23 01:23:47] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Start processing: proconip
+[2023-05-23 01:23:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-doc-type-checker] error
+[2023-05-23 01:23:47] INFO root fetch - processPackages [tiledbsoma]: Downloading https://files.pythonhosted.org/packages/ee/01/715212ff3254a36e1531f31a92dd6bef3328c242a16fc6dd608e98b4240e/tiledbsoma-1.2.3.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [proconip]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-23 01:23:47] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.1.2.tar.gz tmp/SIOTCommon-0.1.3.tar.gz --markdown 20230523/S/SIOTCommon/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [bosch-control-panel-cc880p]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [bosch-control-panel-cc880p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch-control-panel-cc880p-3.1.4.tar.gz tmp/bosch-control-panel-cc880p-4.0.0.tar.gz --markdown 20230523/b/bosch-control-panel-cc880p/3.1.4-4.0.0/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/9f/81/5ffb09d7acb1c3f04d0941659ec1f255870190fd983bb14e822dfd5654af/pepperize.cdk-ses-smtp-credentials-0.3.331.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pinotdb]: Downloading https://files.pythonhosted.org/packages/91/3f/7c04e76da75a4baca66414f3059c13468ed0583722c7efbb7642683dd3ac/pinotdb-0.5.0.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/ab/ed/2760568220572886212ccfdf915c74e32c5be6f5b9071aff3d6715554a80/pytestifyx-0.4.7-py2.py3-none-any.whl
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pinotdb]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pinotdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinotdb-0.4.9.tar.gz tmp/pinotdb-0.5.0.tar.gz --markdown 20230523/p/pinotdb/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/9c/8e/0a0810d6af8f942e349f250384fee72d6344fe9b596ddac3c438b3b883ab/infra-buddy-too-66.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-65.tar.gz tmp/infra-buddy-too-66.tar.gz --markdown 20230523/i/infra-buddy-too/65-66/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [tiledbsoma]: Downloading https://files.pythonhosted.org/packages/7c/e7/40cc6005e01855e9980612ed700701849a9ccf26cf163b35697cdef9e7ba/tiledbsoma-1.2.4.tar.gz
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.330.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.331.tar.gz --markdown 20230523/p/pepperize.cdk-ses-smtp-credentials/0.3.330-0.3.331/diff.md --exclude *.pyd
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-23 01:23:47] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.6-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.7-py2.py3-none-any.whl.zip --markdown 20230523/p/pytestifyx/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-23 01:23:48] INFO root fetch - processPackages [tiledbsoma]: executing diffoscope
+[2023-05-23 01:23:48] INFO root fetch - processPackages [tiledbsoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledbsoma-1.2.3.tar.gz tmp/tiledbsoma-1.2.4.tar.gz --markdown 20230523/t/tiledbsoma/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-23 01:23:48] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-05-23 01:23:48] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-0.0.2.tar.gz tmp/proconip-1.0.0.tar.gz --markdown 20230523/p/proconip/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 01:23:48] INFO root fetch - processPackages [sidetrek]: Start processing: TapisCL-ICICLE
+[2023-05-23 01:23:48] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 01:23:49] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.5] Old Version: [0.0.41]
+[2023-05-23 01:23:49] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-05-23 01:23:49] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.41.tar.gz tmp/TapisCL-ICICLE-0.0.5.tar.gz --markdown 20230523/T/TapisCL-ICICLE/0.0.41-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [pinotdb]: success
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [bosch-control-panel-cc880p]: success
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-23 01:23:49] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-23 01:23:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-23 01:23:50] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-05-23 01:23:51] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-23 01:23:52] INFO root fetch - main [MainThread]: End processing [tiledbsoma]: success
+[2023-05-23 01:23:52] INFO root fetch - main [MainThread]: Store serial: [18205100]

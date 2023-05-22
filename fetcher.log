@@ -267,3 +267,87 @@
 [2023-05-23 00:23:34] INFO root fetch - main [MainThread]: End processing [robyn]: success
 [2023-05-23 00:24:07] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-23 00:24:07] INFO root fetch - main [MainThread]: Store serial: [18204635]
+[2023-05-23 00:29:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204635]
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkbox-api
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbsite
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chyp
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: health-calc-pack-py
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphscope-client
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isolate-proto
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-apps
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-coordinator
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs-engine
+[2023-05-23 00:29:16] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [chyp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230523/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope-client]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [health-calc-pack-py]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [isolate-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-engine]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-coordinator]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [chyp]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [chyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyp-0.3.3.tar.gz tmp/chyp-0.3.4.tar.gz --markdown 20230523/c/chyp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/fa/a4/921d3a2548bdfda56584e84c06dde9c91bfa2975d4ccba4f39e70727d871/checkbox-api-0.1.8.tar.gz
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/fe/a4/cc936f9ad8ee92735798ffaf0276281a08c17a069278b38a5bc8c47e35a4/gs_engine-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/d8/24/a8e5bdc6ce44ef5258feb114e650886af26aca794488cccf781ffeff6328/graphscope_client-0.22.0a20230521-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/fa/8a/f2719791cdda1843c75d559893bcfbee60dc9548d47a6c7ebbc5ca17efe1/isolate_proto-0.0.8.tar.gz
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/d5/9f/5af051dd43513e7621f4918cdd78bb6d033838f529a1291cc8ac9262bfd3/graphscope-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/31/77/12163920aab1825a8cbe62124306724f6550c206fa4545e109df54895df2/gs_apps-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/f4/4f/05f8e9ec92a579a6ac1c4da2f6433097f864e79f249bb11b0502db97fa1e/gs_coordinator-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 23356788>=10485760
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-include
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-23 00:29:16] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 110723264>=10485760
+[2023-05-23 00:29:16] INFO root fetch - processPackages [graphscope]: Start processing: fal-serverless
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-05-23 00:29:16] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 42840869>=10485760
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-apps]: Start processing: pingertron
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-23 00:29:16] INFO root fetch - processPackages [health-calc-pack-py]: Downloading https://files.pythonhosted.org/packages/32/05/43d55c77c814081b060f74036f2ff88b2529269e6c6d13fcdf3ad2497f68/health_calc_pack_py-0.3.2.tar.gz
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-include]: New version: [0.22.0a20230522] Old Version: [0.22.0a20230521]
+[2023-05-23 00:29:16] WARNING root fetch - processPackages [pingertron]: Skipping, unable to determine old version
+[2023-05-23 00:29:16] INFO root fetch - processPackages [pingertron]: Start processing: ebeer
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: End processing [pingertron] error
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/37/07/a3638d9b0ab1584c28c6dd384c829c182ac5ecb040eb714f2815789b65f4/gs_engine-0.22.0a20230522-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [health-calc-pack-py]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [health-calc-pack-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health_calc_pack_py-0.3.1.tar.gz tmp/health_calc_pack_py-0.3.2.tar.gz --markdown 20230523/h/health-calc-pack-py/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] INFO root fetch - processPackages [checkbox-api]: Downloading https://files.pythonhosted.org/packages/82/96/934852a545753a06db2ca1d938b3f6397c35c18ef658c5f4780ce5eb2836/checkbox-api-0.1.9.tar.gz
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/56/59/2868b4b30cc4be93cd95529cc25b1745816e1c7ad36c10acedc35e9c1db5/gs_coordinator-0.22.0a20230522-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ebeer]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.22.0a20230522-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230523/g/gs-engine/0.22.0a20230521-0.22.0a20230522/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/80/e5/09fb89c135871285aeb96bf7f60dd0fd978ab4101639c236ccc5bfe29296/gs_include-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-23 00:29:16] INFO root fetch - processPackages [fal-serverless]: New version: [0.6.32] Old Version: [0.6.31]
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.22.0a20230521-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.22.0a20230522-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230523/g/gs-coordinator/0.22.0a20230521-0.22.0a20230522/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 30431349>=10485760
+[2023-05-23 00:29:16] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-23 00:29:16] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-23 00:29:16] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230523/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 00:29:16] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/1d/5f/5e5b5a3127c6aba1d6b684eecd443c774656f28c7f765ab8110efccc9781/ebeer-0.0.17.tar.gz
+[2023-05-23 00:29:17] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/d3/60/ab5a1b6166f30b7cc190e3b7c5e7a171fb7dcde1b29d88ae79dc7b580f0e/fal_serverless-0.6.31.tar.gz
+[2023-05-23 00:29:17] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/b8/c1/616d33b533bec635af64d61f363188d18ee72950aa1fc3bf02c5073168cf/isolate_proto-0.0.9.tar.gz
+[2023-05-23 00:29:17] INFO root fetch - processPackages [isolate-proto]: executing diffoscope
+[2023-05-23 00:29:17] INFO root fetch - processPackages [isolate-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate_proto-0.0.8.tar.gz tmp/isolate_proto-0.0.9.tar.gz --markdown 20230523/i/isolate-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 00:29:17] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/f3/65/a9e64e42ca66c83b077830cf5287d2897867c4704f37122ecce846cbc73e/ebeer-0.0.18.tar.gz
+[2023-05-23 00:29:17] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/69/67/b417954aa69d909ae396a9653d4887ccce94975fb020eace9544493e8916/fal_serverless-0.6.32.tar.gz
+[2023-05-23 00:29:17] INFO root fetch - processPackages [fal-serverless]: executing diffoscope
+[2023-05-23 00:29:17] INFO root fetch - processPackages [fal-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal_serverless-0.6.31.tar.gz tmp/fal_serverless-0.6.32.tar.gz --markdown 20230523/f/fal-serverless/0.6.31-0.6.32/diff.md --exclude *.pyd
+[2023-05-23 00:29:17] INFO root fetch - main [MainThread]: End processing [chyp]: success
+[2023-05-23 00:29:17] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-23 00:29:17] INFO root fetch - main [MainThread]: End processing [health-calc-pack-py]: success
+[2023-05-23 00:29:18] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-23 00:29:18] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-23 00:29:18] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.17.tar.gz tmp/ebeer-0.0.18.tar.gz --markdown 20230523/e/ebeer/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-23 00:29:18] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-05-23 00:29:18] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-23 00:29:18] INFO root fetch - main [MainThread]: End processing [isolate-proto]: success
+[2023-05-23 00:29:18] INFO root fetch - main [MainThread]: End processing [fal-serverless]: success
+[2023-05-23 00:29:19] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-23 00:29:19] INFO root fetch - main [MainThread]: Store serial: [18204683]

@@ -1011,3 +1011,43 @@
 [2023-05-23 01:23:51] INFO root fetch - main [MainThread]: End processing [loophost]: success
 [2023-05-23 01:23:52] INFO root fetch - main [MainThread]: End processing [tiledbsoma]: success
 [2023-05-23 01:23:52] INFO root fetch - main [MainThread]: Store serial: [18205100]
+[2023-05-23 01:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205100]
+[2023-05-23 01:29:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsrg
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerc-geometry
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datetimejp
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omemo-dr
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meeple-cli
+[2023-05-23 01:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: estela
+[2023-05-23 01:29:00] INFO root fetch - processPackages [libsrg]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-23 01:29:00] INFO root fetch - processPackages [cerc-geometry]: New version: [1.2.2] Old Version: [1.1.2]
+[2023-05-23 01:29:00] WARNING root fetch - processPackages [datetimejp]: Skipping, unable to determine old version
+[2023-05-23 01:29:00] INFO root fetch - main [MainThread]: End processing [datetimejp] error
+[2023-05-23 01:29:00] INFO root fetch - processPackages [meeple-cli]: New version: [0.2.0] Old Version: [0.1.0rc1]
+[2023-05-23 01:29:00] INFO root fetch - processPackages [estela]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 01:29:00] INFO root fetch - processPackages [omemo-dr]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-05-23 01:29:00] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/c9/20/08566b327b62132e472066e5d8207d87afe4f8b25240c7a745275eedd659/libsrg-3.3.2-py3-none-any.whl
+[2023-05-23 01:29:01] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/6e/46/a5b18f256ecbfc68d7c37fa5b42b02124a0307c2d29ac58d89dbcde31bee/estela-0.2.1.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [meeple-cli]: Downloading https://files.pythonhosted.org/packages/3d/61/2a2bb475519185dddeaeeb49b95a29339a1e8c662de24b33d1bde707d937/meeple_cli-0.1.0rc1.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [omemo-dr]: Downloading https://files.pythonhosted.org/packages/f1/75/6169f5d4da384f26b1eabb9651dd79741dc4bcd84b7344758afbf6f555d0/omemo-dr-0.99.2.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/1b/30/1336029996e864eeefbb200a02a1beed76b72d7141c24c50e6e024aa8327/cerc-geometry-1.2.2.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/82/38/e02d50cbf8ed7878a5c90a641889529424fa0c67bffba03c765ff4ea910c/libsrg-3.3.3-py3-none-any.whl
+[2023-05-23 01:29:01] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/6c/13/9b043580c6d76a45f52ff5b29cb25d8f51121dd3d17f797879c32d1ebb31/estela-0.2.2.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [cerc-geometry]: executing diffoscope
+[2023-05-23 01:29:01] INFO root fetch - processPackages [cerc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-geometry-1.1.2.tar.gz tmp/cerc-geometry-1.2.2.tar.gz --markdown 20230523/c/cerc-geometry/1.1.2-1.2.2/diff.md --exclude *.pyd
+[2023-05-23 01:29:01] INFO root fetch - processPackages [omemo-dr]: Downloading https://files.pythonhosted.org/packages/40/47/3dae56272969363d5dc48ac0535b425a23d74e81560b786705d843ecbade/omemo-dr-0.99.3.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2023-05-23 01:29:01] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-3.3.2-py3-none-any.whl.zip tmp/libsrg-3.3.3-py3-none-any.whl.zip --markdown 20230523/l/libsrg/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-23 01:29:01] INFO root fetch - processPackages [meeple-cli]: Downloading https://files.pythonhosted.org/packages/46/85/1616c39df7ff8a14f8aeb78af4a44527d628677ae48f23f71d0567772230/meeple_cli-0.2.0.tar.gz
+[2023-05-23 01:29:01] INFO root fetch - processPackages [estela]: executing diffoscope
+[2023-05-23 01:29:01] INFO root fetch - processPackages [estela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estela-0.2.1.tar.gz tmp/estela-0.2.2.tar.gz --markdown 20230523/e/estela/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 01:29:01] INFO root fetch - processPackages [omemo-dr]: executing diffoscope
+[2023-05-23 01:29:01] INFO root fetch - processPackages [omemo-dr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omemo-dr-0.99.2.tar.gz tmp/omemo-dr-0.99.3.tar.gz --markdown 20230523/o/omemo-dr/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-05-23 01:29:01] INFO root fetch - processPackages [meeple-cli]: executing diffoscope
+[2023-05-23 01:29:01] INFO root fetch - processPackages [meeple-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeple_cli-0.1.0rc1.tar.gz tmp/meeple_cli-0.2.0.tar.gz --markdown 20230523/m/meeple-cli/0.1.0rc1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 01:29:02] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
+[2023-05-23 01:29:02] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2023-05-23 01:29:02] INFO root fetch - main [MainThread]: End processing [meeple-cli]: success
+[2023-05-23 01:29:03] INFO root fetch - main [MainThread]: End processing [omemo-dr]: success
+[2023-05-23 01:29:46] INFO root fetch - main [MainThread]: End processing [estela]: success
+[2023-05-23 01:29:46] INFO root fetch - main [MainThread]: Store serial: [18205117]

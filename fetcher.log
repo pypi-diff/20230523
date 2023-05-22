@@ -719,3 +719,88 @@
 [2023-05-23 01:02:19] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-05-23 01:02:19] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-05-23 01:02:19] INFO root fetch - main [MainThread]: Store serial: [18204941]
+[2023-05-23 01:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204941]
+[2023-05-23 01:07:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlitfront
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-vss
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-vss
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wrapenv
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fluxional
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ucampurestorage
+[2023-05-23 01:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loophost
+[2023-05-23 01:07:30] INFO root fetch - processPackages [wrapenv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 01:07:30] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230521] Old Version: [0.7.0b20230520]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [loophost]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-23 01:07:31] WARNING root fetch - processPackages [fluxional]: Skipping, unable to determine old version
+[2023-05-23 01:07:31] INFO root fetch - processPackages [fluxional]: Start processing: pulumi-terraform
+[2023-05-23 01:07:31] INFO root fetch - main [MainThread]: End processing [fluxional] error
+[2023-05-23 01:07:31] INFO root fetch - processPackages [streamlitfront]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [ucampurestorage]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230520.tar.gz tmp/tmnt-0.7.0b20230521.tar.gz --markdown 20230523/t/tmnt/0.7.0b20230520-0.7.0b20230521/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230522] Old Version: [1.5.0.dev20230519]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230522] Old Version: [0.7.0b20230521]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [wrapenv]: Downloading https://files.pythonhosted.org/packages/8a/aa/3306ee632756cd012dc592c2feae97657be2ef1bd1ea4ef16f5ee9715607/wrapenv-0.1.2.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/67/69/92d58fa32c962c9d4494f909c31fbb5762148ed482cad8aa26dbd68c4f62/loophost-0.2.3.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/7f/b6/46a5377771659c2ab1404ce548ce5fa08e36e3aa5c9cd6c9bed1d5d9d64f/sqlite_vss-0.1.1a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-23 01:07:31] INFO root fetch - processPackages [pulumi-terraform]: New version: [5.9.0] Old Version: [5.8.0a1675048832]
+[2023-05-23 01:07:31] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/44/36/e4f41a352463e0c59bdc3bff1afeea9ffc2b2f36e774c196be341e2e8e98/datasette_sqlite_vss-0.1.1a3-py3-none-any.whl
+[2023-05-23 01:07:31] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/5f/e2/51dd9f86acd24d6714883ab313701ff9a49dceb7545b90e5304a9744bf25/ucampurestorage-1.1.0.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [wrapenv]: Downloading https://files.pythonhosted.org/packages/fe/df/b5d495cbf75fcd962dd97a637467988a6246375d10447c9e5cc61f8e4ab6/wrapenv-0.1.3.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/cc/d0/8a68b0c849ff5e8a56b66dbf2eec33b7b7a0331d44c93e68ebbb6ee4ebc5/pulumi_terraform-5.8.0a1675048832.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/7b/b9/b9401fde72ae031a310069d5cc2ac8f926a78d70025418379d162cc20589/flwr_nightly-1.5.0.dev20230522.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [wrapenv]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/8c/85/3e324e4deb392f365108ce1bedef4793b2ad34e470825049d54e72db821f/tmnt-cu101-0.7.0b20230522.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [wrapenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapenv-0.1.2.tar.gz tmp/wrapenv-0.1.3.tar.gz --markdown 20230523/w/wrapenv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [streamlitfront]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [streamlitfront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitfront-0.1.8.tar.gz tmp/streamlitfront-0.1.9.tar.gz --markdown 20230523/s/streamlitfront/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/0d/20/58ef504a54f6d07d1f4d4f24882516b8083900591837e1088a1dde1c795f/datasette_sqlite_vss-0.1.1a4-py3-none-any.whl
+[2023-05-23 01:07:31] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230519.tar.gz tmp/flwr_nightly-1.5.0.dev20230522.tar.gz --markdown 20230523/f/flwr-nightly/1.5.0.dev20230519-1.5.0.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230521.tar.gz tmp/tmnt-cu101-0.7.0b20230522.tar.gz --markdown 20230523/t/tmnt-cu101/0.7.0b20230521-0.7.0b20230522/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a3-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a4-py3-none-any.whl.zip --markdown 20230523/d/datasette-sqlite-vss/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/f7/2a/ba233e0a470929317e460f8f1955899c56295ad9a19bac2eea8df8579d7c/pulumi_terraform-5.9.0.tar.gz
+[2023-05-23 01:07:31] INFO root fetch - processPackages [pulumi-terraform]: executing diffoscope
+[2023-05-23 01:07:31] INFO root fetch - processPackages [pulumi-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_terraform-5.8.0a1675048832.tar.gz tmp/pulumi_terraform-5.9.0.tar.gz --markdown 20230523/p/pulumi-terraform/5.8.0a1675048832-5.9.0/diff.md --exclude *.pyd
+[2023-05-23 01:07:31] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/6a/1d/a7d5928bba5f861ef5eeb47b786a3ed23b5e35e87bd4e1703a902e0c363e/sqlite_vss-0.1.1a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-23 01:07:32] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-23 01:07:32] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-0.2.2.tar.gz tmp/loophost-0.2.3.tar.gz --markdown 20230523/l/loophost/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 01:07:32] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-23 01:07:32] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.8.tar.gz tmp/ucampurestorage-1.1.0.tar.gz --markdown 20230523/u/ucampurestorage/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 01:07:32] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-23 01:07:32] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230523/s/sqlite-vss/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-23 01:07:32] INFO root fetch - processPackages [tmnt]: Start processing: tt-terminal-translator
+[2023-05-23 01:07:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-23 01:07:32] INFO root fetch - processPackages [tt-terminal-translator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 01:07:32] INFO root fetch - processPackages [tt-terminal-translator]: Downloading https://files.pythonhosted.org/packages/d2/82/1c2bbd1cf99b17cc61a6ac04d905b31ba719f703fad4d6a1c01c2bcbd68c/tt_terminal_translator-0.1.3.tar.gz
+[2023-05-23 01:07:32] INFO root fetch - processPackages [wrapenv]: Start processing: trove-classifiers
+[2023-05-23 01:07:32] INFO root fetch - main [MainThread]: End processing [wrapenv]: success
+[2023-05-23 01:07:32] INFO root fetch - processPackages [tt-terminal-translator]: Downloading https://files.pythonhosted.org/packages/43/ca/ad709ead4b3cf2b131bd503c237fd9467b58fa8ed4175f7e4f4d01928842/tt_terminal_translator-0.1.4.tar.gz
+[2023-05-23 01:07:33] INFO root fetch - processPackages [trove-classifiers]: New version: [2023.5.22] Old Version: [2023.5.2]
+[2023-05-23 01:07:33] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: dsversioner
+[2023-05-23 01:07:33] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-23 01:07:33] INFO root fetch - processPackages [tt-terminal-translator]: executing diffoscope
+[2023-05-23 01:07:33] INFO root fetch - processPackages [tt-terminal-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tt_terminal_translator-0.1.3.tar.gz tmp/tt_terminal_translator-0.1.4.tar.gz --markdown 20230523/t/tt-terminal-translator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 01:07:33] WARNING root fetch - processPackages [dsversioner]: Skipping, unable to determine old version
+[2023-05-23 01:07:33] INFO root fetch - main [MainThread]: End processing [dsversioner] error
+[2023-05-23 01:07:33] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/33/75/4e87c5021949ece4171eddebb11ef30d7e787a99c4d24c7dc383dd306a6c/trove-classifiers-2023.5.2.tar.gz
+[2023-05-23 01:07:33] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/4b/d1/8b03fea03e24628678a9808c49269256484597a0f2b9c5c52d83519e2521/trove-classifiers-2023.5.22.tar.gz
+[2023-05-23 01:07:33] INFO root fetch - main [MainThread]: End processing [pulumi-terraform]: success
+[2023-05-23 01:07:33] INFO root fetch - processPackages [trove-classifiers]: executing diffoscope
+[2023-05-23 01:07:33] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2023.5.2.tar.gz tmp/trove-classifiers-2023.5.22.tar.gz --markdown 20230523/t/trove-classifiers/2023.5.2-2023.5.22/diff.md --exclude *.pyd
+[2023-05-23 01:07:33] INFO root fetch - main [MainThread]: End processing [streamlitfront]: success
+[2023-05-23 01:07:33] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-23 01:07:34] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-23 01:07:34] INFO root fetch - main [MainThread]: End processing [tt-terminal-translator]: success
+[2023-05-23 01:07:34] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
+[2023-05-23 01:07:35] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-23 01:07:35] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-23 01:08:11] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-23 01:08:11] INFO root fetch - main [MainThread]: Store serial: [18204987]

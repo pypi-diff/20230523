@@ -1,0 +1,92 @@
+[2023-05-23 00:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204410]
+[2023-05-23 00:06:27] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgbox-cli
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcli-core
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: app-transport-framework-library
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-thomas-doc-type-checker
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: front
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blizworkapi
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micone
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ebi-eva-common-pyutils
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lifx-cli
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reactivated
+[2023-05-23 00:06:27] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: New version: [20230522.20.42.376196] Old Version: [20230522.20.14.75062]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [lifx-cli]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-23 00:06:27] WARNING root fetch - processPackages [blizworkapi]: Skipping, unable to determine old version
+[2023-05-23 00:06:27] INFO root fetch - processPackages [blizworkapi]: Start processing: edamame
+[2023-05-23 00:06:27] INFO root fetch - processPackages [app-transport-framework-library]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [tgbox-cli]: New version: [1.0] Old Version: [0.1.1]
+[2023-05-23 00:06:27] INFO root fetch - main [MainThread]: End processing [blizworkapi] error
+[2023-05-23 00:06:27] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-23 00:06:27] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230523/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-23 00:06:27] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [micone]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [front]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.5.4] Old Version: [0.5.3.dev7]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Downloading https://files.pythonhosted.org/packages/2a/81/2fff9842d29c15cfaa68315388696406af895dafd8b83db86c74faccf329/certora-cli-alpha-thomas-doc-type-checker-20230522.20.14.75062.tar.gz
+[2023-05-23 00:06:27] INFO root fetch - processPackages [edamame]: New version: [0.53] Old Version: [0.52]
+[2023-05-23 00:06:27] WARNING root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Skipping package: exceeds size limit 38994310>=10485760
+[2023-05-23 00:06:27] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Start processing: wrapenv
+[2023-05-23 00:06:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-doc-type-checker] error
+[2023-05-23 00:06:27] INFO root fetch - processPackages [tgbox-cli]: Downloading https://files.pythonhosted.org/packages/53/35/fd51de1e0b5d7056545c18429feb04934b5aa5b04eab931eb6a0f3a1d147/tgbox-cli-0.1.1.tar.gz
+[2023-05-23 00:06:27] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/f5/df/be2bf3fefabbe3bc8ca90543da3865dfa37322187745c9874e1c66c81e16/ebi_eva_common_pyutils-0.5.3.dev7.tar.gz
+[2023-05-23 00:06:27] INFO root fetch - processPackages [micone]: Downloading https://files.pythonhosted.org/packages/29/39/9f04c82c95a8df1fc79fd1683e73b4aca0fa280d825139802db8630d3509/micone-0.8.1.tar.gz
+[2023-05-23 00:06:27] WARNING root fetch - processPackages [wrapenv]: Skipping, unable to determine old version
+[2023-05-23 00:06:27] INFO root fetch - processPackages [wrapenv]: Start processing: llmo
+[2023-05-23 00:06:27] INFO root fetch - main [MainThread]: End processing [wrapenv] error
+[2023-05-23 00:06:27] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/62/5d/12763572355ffcb6d215b1c9510e2b0287e8989c9cea5cdffe99a0786515/lifx_cli-2.5.4.tar.gz
+[2023-05-23 00:06:27] INFO root fetch - processPackages [llmo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 00:06:27] INFO root fetch - processPackages [edamame]: Downloading https://files.pythonhosted.org/packages/0d/6d/86ab3d1079e81775d6983252c3c6d5c33ba65b9188c757385e89ff438b0a/edamame-0.52.tar.gz
+[2023-05-23 00:06:27] INFO root fetch - processPackages [app-transport-framework-library]: Downloading https://files.pythonhosted.org/packages/88/57/7fb63a018586002e29fbde7cbde5b4cf041fa7020dcbf9f78652850b3a65/app_transport_framework_library-0.1.4.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [front]: Downloading https://files.pythonhosted.org/packages/e4/16/e0f3bbe139c0d6710478a9065c974d7268e2483f25ed9ffb7cc4bf2188c7/front-0.1.91.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [tgbox-cli]: Downloading https://files.pythonhosted.org/packages/e4/29/fbe61a3927af1f02126e2583634bf8857a86b8dd3f39e62c47e3c83c2a47/tgbox-cli-1.0.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.5.3.tar.gz tmp/lifx_cli-2.5.4.tar.gz --markdown 20230523/l/lifx-cli/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20230523/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [app-transport-framework-library]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [app-transport-framework-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_transport_framework_library-0.1.3.tar.gz tmp/app_transport_framework_library-0.1.4.tar.gz --markdown 20230523/a/app-transport-framework-library/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [micone]: Downloading https://files.pythonhosted.org/packages/45/ec/d59c3d79046efe733c7fe79e94c8707f359680dc28dc49359b5c8cf6b2ae/micone-0.9.0.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [front]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/front-0.1.90.tar.gz tmp/front-0.1.91.tar.gz --markdown 20230523/f/front/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/0d/fe/a59a97e09a3ed66ceb8e3dbb7c691724a8f6b0758eec7b8e845a715f72fd/ebi_eva_common_pyutils-0.5.4.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [edamame]: Downloading https://files.pythonhosted.org/packages/ab/46/9a42aaa16693575409d466fef4970f36085ea1ffc81c88485a4b61fcdaee/edamame-0.53.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [tgbox-cli]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [tgbox-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgbox-cli-0.1.1.tar.gz tmp/tgbox-cli-1.0.tar.gz --markdown 20230523/t/tgbox-cli/0.1.1-1.0/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [llmo]: Downloading https://files.pythonhosted.org/packages/48/29/cb53d8253806b1d6249c1d8cf6e65edb274627e0478e7e3c36543d45ba7a/llmo-0.1.6.tar.gz
+[2023-05-23 00:06:28] INFO root fetch - processPackages [llmo]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [llmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmo-0.1.5.tar.gz tmp/llmo-0.1.6.tar.gz --markdown 20230523/l/llmo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [edamame]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [edamame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edamame-0.52.tar.gz tmp/edamame-0.53.tar.gz --markdown 20230523/e/edamame/0.52-0.53/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.5.3.dev7.tar.gz tmp/ebi_eva_common_pyutils-0.5.4.tar.gz --markdown 20230523/e/ebi-eva-common-pyutils/0.5.3.dev7-0.5.4/diff.md --exclude *.pyd
+[2023-05-23 00:06:28] INFO root fetch - processPackages [micone]: executing diffoscope
+[2023-05-23 00:06:28] INFO root fetch - processPackages [micone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micone-0.8.1.tar.gz tmp/micone-0.9.0.tar.gz --markdown 20230523/m/micone/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 00:06:29] INFO root fetch - processPackages [app-transport-framework-library]: Start processing: dev-gpt
+[2023-05-23 00:06:29] INFO root fetch - main [MainThread]: End processing [app-transport-framework-library]: success
+[2023-05-23 00:06:29] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-23 00:06:29] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-23 00:06:29] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230523/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-23 00:06:29] INFO root fetch - processPackages [edamame]: Start processing: peewee-migrate
+[2023-05-23 00:06:29] INFO root fetch - main [MainThread]: End processing [edamame]: success
+[2023-05-23 00:06:29] INFO root fetch - processPackages [peewee-migrate]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-05-23 00:06:29] INFO root fetch - processPackages [lifx-cli]: Start processing: dev-gpt
+[2023-05-23 00:06:29] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-23 00:06:30] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev1] Old Version: [0.18.41.dev9]
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [llmo]: success
+[2023-05-23 00:06:30] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-05-23 00:06:30] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.7.7.tar.gz tmp/peewee_migrate-1.7.8.tar.gz --markdown 20230523/p/peewee-migrate/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [front]: success
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2023-05-23 00:06:30] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/d8/c3/a461cbefbe506f846c475738da7053eae0cfc01c95c45b17eeef2abc8e30/dev-gpt-0.18.42.dev1.tar.gz
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2023-05-23 00:06:30] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-23 00:06:30] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev9.tar.gz tmp/dev-gpt-0.18.42.dev1.tar.gz --markdown 20230523/d/dev-gpt/0.18.41.dev9-0.18.42.dev1/diff.md --exclude *.pyd
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [tgbox-cli]: success
+[2023-05-23 00:06:30] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-23 00:06:31] INFO root fetch - main [MainThread]: End processing [micone]: success
+[2023-05-23 00:06:31] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-23 00:06:31] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-23 00:07:17] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-05-23 00:07:17] INFO root fetch - main [MainThread]: Store serial: [18204458]

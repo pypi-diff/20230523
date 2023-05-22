@@ -804,3 +804,60 @@
 [2023-05-23 01:07:35] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-05-23 01:08:11] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-23 01:08:11] INFO root fetch - main [MainThread]: Store serial: [18204987]
+[2023-05-23 01:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204987]
+[2023-05-23 01:13:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-calibrated
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TapisCL-ICICLE
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cardamom-ai
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rubyvenv
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicommeta
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cim-graph
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantconnect-stubs
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fluxional
+[2023-05-23 01:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sidetrek
+[2023-05-23 01:13:19] WARNING root fetch - processPackages [fluxional]: Skipping, unable to determine old version
+[2023-05-23 01:13:19] INFO root fetch - main [MainThread]: End processing [fluxional] error
+[2023-05-23 01:13:19] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [dicommeta]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-23 01:13:20] ERROR root fetch - processPackages [cardamom-ai]: Unable to get metadata: No such project 'cardamom-ai'
+[2023-05-23 01:13:20] INFO root fetch - main [MainThread]: End processing [cardamom-ai] error
+[2023-05-23 01:13:20] INFO root fetch - processPackages [cim-graph]: New version: [2023.5.1a0] Old Version: [0.1.20230508194360a0]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pytorch-calibrated]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [rubyvenv]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.5] Old Version: [0.0.41]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.329] Old Version: [0.3.328]
+[2023-05-23 01:13:20] INFO root fetch - processPackages [dicommeta]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [dicommeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicommeta-0.5.7.tar.gz tmp/dicommeta-0.5.8.tar.gz --markdown 20230523/d/dicommeta/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230523/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/47/4d/35e89ae04113c494540c4108c6762d6774f29900a710615785f16c4ca874/cim_graph-0.1.20230508194360a0.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/c7/16/a231f6a599124f72e8a426118d9a93fe568511fdd6f06a531b2f3f69373e/TapisCL-ICICLE-0.0.41.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [rubyvenv]: Downloading https://files.pythonhosted.org/packages/ab/d7/b02d1dcf125c04c058b9e3d1ba289b0c67999c4b4a9cc7da1671464d030c/rubyvenv-1.1.1.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ee/a5/75caf38bb69ddc309ca26a529b9628cfc90a960f5c5525def43242eecab5/pepperize.cdk-ses-smtp-credentials-0.3.329.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/0b/9b/dafee74d1f88076134d5c679437e1063b7b81e71e6a93e7d062f27d94f15/TapisCL-ICICLE-0.0.5.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pytorch-calibrated]: Downloading https://files.pythonhosted.org/packages/19/15/2890bd7101f73579821e4b695b6035bc86a06686793d88e1514e9fb49ce3/pytorch-calibrated-0.1.1.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [rubyvenv]: Downloading https://files.pythonhosted.org/packages/7d/69/4bbe83c55db1d7c84c9c99a6011955e309de4f832152c477cd5e4a605968/rubyvenv-1.2.0.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/1e/27/a8f0b8a27c9065cda65d531b1eadfeefbe143c5b68bf093f32b538bc3bd3/cim_graph-2023.5.1a0.tar.gz
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.328.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.329.tar.gz --markdown 20230523/p/pepperize.cdk-ses-smtp-credentials/0.3.328-0.3.329/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pytorch-calibrated]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [pytorch-calibrated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-calibrated-0.0.2.tar.gz tmp/pytorch-calibrated-0.1.1.tar.gz --markdown 20230523/p/pytorch-calibrated/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.41.tar.gz tmp/TapisCL-ICICLE-0.0.5.tar.gz --markdown 20230523/T/TapisCL-ICICLE/0.0.41-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [rubyvenv]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [rubyvenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubyvenv-1.1.1.tar.gz tmp/rubyvenv-1.2.0.tar.gz --markdown 20230523/r/rubyvenv/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 01:13:20] INFO root fetch - processPackages [cim-graph]: executing diffoscope
+[2023-05-23 01:13:20] INFO root fetch - processPackages [cim-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_graph-0.1.20230508194360a0.tar.gz tmp/cim_graph-2023.5.1a0.tar.gz --markdown 20230523/c/cim-graph/0.1.20230508194360a0-2023.5.1a0/diff.md --exclude *.pyd
+[2023-05-23 01:13:21] INFO root fetch - main [MainThread]: End processing [dicommeta]: success
+[2023-05-23 01:13:21] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 01:13:21] INFO root fetch - main [MainThread]: End processing [pytorch-calibrated]: success
+[2023-05-23 01:13:22] INFO root fetch - main [MainThread]: End processing [rubyvenv]: success
+[2023-05-23 01:13:22] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-05-23 01:13:22] INFO root fetch - main [MainThread]: End processing [cim-graph]: success
+[2023-05-23 01:13:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-23 01:13:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-23 01:13:25] INFO root fetch - main [MainThread]: Store serial: [18205019]

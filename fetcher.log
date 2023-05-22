@@ -408,3 +408,55 @@
 [2023-05-23 00:34:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
 [2023-05-23 00:35:16] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-23 00:35:16] INFO root fetch - main [MainThread]: Store serial: [18204729]
+[2023-05-23 00:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18204729]
+[2023-05-23 00:40:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaster-server
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fukkatsu
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkbox-api
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novel-swarms
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidetrek
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: holamundoplayeronedrako
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-eventgrid
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arnhem
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ufbt
+[2023-05-23 00:40:25] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [novel-swarms]: New version: [0.1.3a0] Old Version: [0.1.2a0]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230523/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [novel-swarms]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [fukkatsu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [novel-swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novel_swarms-0.1.2a0.tar.gz tmp/novel_swarms-0.1.3a0.tar.gz --markdown 20230523/n/novel-swarms/0.1.2a0-0.1.3a0/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [azure-eventgrid]: New version: [4.9.1] Old Version: [4.9.0b1]
+[2023-05-23 00:40:25] WARNING root fetch - processPackages [holamundoplayeronedrako]: Skipping, unable to determine old version
+[2023-05-23 00:40:25] INFO root fetch - main [MainThread]: End processing [holamundoplayeronedrako] error
+[2023-05-23 00:40:25] WARNING root fetch - processPackages [arnhem]: Skipping, unable to determine old version
+[2023-05-23 00:40:25] INFO root fetch - main [MainThread]: End processing [arnhem] error
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ufbt]: New version: [0.2.2rc2] Old Version: [0.2.2rc0]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [blaster-server]: New version: [0.0.432] Old Version: [0.0.431b0]
+[2023-05-23 00:40:25] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/5c/65/bff32d57b878aeb623c15892f66f8b8e0e573c831a2421d6911c611aa34f/blaster-server-0.0.431b0.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/d8/85/6863583afc0cb51173f3aef08e97f9c70705ea868d95a1673d243e412509/fukkatsu-0.0.1.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/56/cd/69f8781d55d8fd0d2cb001b6b3127c4639fe6533f1395b044979fcabc2f0/azure-eventgrid-4.9.0b1.zip
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ufbt]: Downloading https://files.pythonhosted.org/packages/bc/e9/5989983d4ba385f9b24b1d9dafca1894c4152cdf9e791b566f0d17022182/ufbt-0.2.2rc0.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/85/63/4dbcd76a4a30c3eb8ac89be2fd282083dd00c51d5bce388d86cd9c32a8a9/fukkatsu-0.0.2.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/ca/38/c1af52695917a74aadcd82863a2f0e9292fd5fc9887cd291684fe56338a6/blaster-server-0.0.432.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/5f/24/6b22e91436974f4d420972637e3915724d130f1fe96d33e114152013359b/azure-eventgrid-4.9.1.zip
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ufbt]: Downloading https://files.pythonhosted.org/packages/da/28/8d939c53e3f576d543a804165b92e10dcbec647d7c006120f2a05f0698c3/ufbt-0.2.2rc2.tar.gz
+[2023-05-23 00:40:25] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.431b0.tar.gz tmp/blaster-server-0.0.432.tar.gz --markdown 20230523/b/blaster-server/0.0.431b0-0.0.432/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [fukkatsu]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [fukkatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fukkatsu-0.0.1.tar.gz tmp/fukkatsu-0.0.2.tar.gz --markdown 20230523/f/fukkatsu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [azure-eventgrid]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [azure-eventgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-eventgrid-4.9.0b1.zip tmp/azure-eventgrid-4.9.1.zip --markdown 20230523/a/azure-eventgrid/4.9.0b1-4.9.1/diff.md --exclude *.pyd
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ufbt]: executing diffoscope
+[2023-05-23 00:40:25] INFO root fetch - processPackages [ufbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufbt-0.2.2rc0.tar.gz tmp/ufbt-0.2.2rc2.tar.gz --markdown 20230523/u/ufbt/0.2.2rc0-0.2.2rc2/diff.md --exclude *.pyd
+[2023-05-23 00:40:26] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 00:40:26] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [novel-swarms]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [fukkatsu]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [ufbt]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: End processing [azure-eventgrid]: success
+[2023-05-23 00:40:27] INFO root fetch - main [MainThread]: Store serial: [18204760]

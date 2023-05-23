@@ -4549,3 +4549,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 04:06:30] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-05-23 04:06:32] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-05-23 04:06:32] INFO root fetch - main [MainThread]: Store serial: [18207171]
+[2023-05-23 04:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207171]
+[2023-05-23 04:11:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-23 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-yuqing20220301
+[2023-05-23 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2023-05-23 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-model-core
+[2023-05-23 04:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql2dataframe
+[2023-05-23 04:11:41] INFO root fetch - processPackages [phidata]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 04:11:41] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sql2dataframe]: New version: [0.1] Old Version: [0.0.0]
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sweetrpg-model-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 04:11:41] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-23 04:11:41] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.8.tar.gz tmp/phidata-1.6.9.tar.gz --markdown 20230523/p/phidata/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sql2dataframe]: Downloading https://files.pythonhosted.org/packages/0e/eb/9f9f6d5b29f3349574dd38b74c02e06d51214ac56188cb006012e7c7a14b/sql2dataframe-0.0.0.tar.gz
+[2023-05-23 04:11:41] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: Downloading https://files.pythonhosted.org/packages/3d/f6/243bc53ea52bed59fc4c5e4edc2415a5f73dbfe7b195329ff9e991896cf6/alibabacloud_yuqing20220301-1.2.3.tar.gz
+[2023-05-23 04:11:41] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: executing diffoscope
+[2023-05-23 04:11:41] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_yuqing20220301-1.2.2.tar.gz tmp/alibabacloud_yuqing20220301-1.2.3.tar.gz --markdown 20230523/a/alibabacloud-yuqing20220301/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sql2dataframe]: Downloading https://files.pythonhosted.org/packages/bc/28/8b120b00a1f151a8c82b550f8908a6963e79d9731a245acf0e9221505273/sql2dataframe-0.1.tar.gz
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sweetrpg-model-core]: executing diffoscope
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sweetrpg-model-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-model-core-0.0.98.tar.gz tmp/sweetrpg-model-core-0.0.99.tar.gz --markdown 20230523/s/sweetrpg-model-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sql2dataframe]: executing diffoscope
+[2023-05-23 04:11:41] INFO root fetch - processPackages [sql2dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2dataframe-0.0.0.tar.gz tmp/sql2dataframe-0.1.tar.gz --markdown 20230523/s/sql2dataframe/0.0.0-0.1/diff.md --exclude *.pyd
+[2023-05-23 04:11:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-yuqing20220301]: success
+[2023-05-23 04:11:42] INFO root fetch - main [MainThread]: End processing [sweetrpg-model-core]: success
+[2023-05-23 04:11:42] INFO root fetch - main [MainThread]: End processing [sql2dataframe]: success
+[2023-05-23 04:11:44] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-23 04:11:44] INFO root fetch - main [MainThread]: Store serial: [18207182]

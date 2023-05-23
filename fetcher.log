@@ -6711,3 +6711,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 04:58:13] ERROR root fetch - processPackages [accelbyte-py-sdk]: Timeout during execution of pkgdiff
 [2023-05-23 04:58:13] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk] error
 [2023-05-23 04:58:13] INFO root fetch - main [MainThread]: Store serial: [18208235]
+[2023-05-23 05:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208235]
+[2023-05-23 05:03:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opvious
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-connector
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emass-client-api
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-connector
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Time-Corrector
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ana-sdk
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytunnel
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-wenxin
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ana-sdk
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MandiriUtils
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo8-addon-connector]: New version: [8.0.3.4.0.99.dev6] Old Version: [8.0.3.4.0.99.dev5]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [emass-client-api]: New version: [3.9.1] Old Version: [3.7.0]
+[2023-05-23 05:03:23] WARNING root fetch - processPackages [Time-Corrector]: Skipping, unable to determine old version
+[2023-05-23 05:03:23] INFO root fetch - processPackages [Time-Corrector]: Start processing: soundmaker
+[2023-05-23 05:03:23] INFO root fetch - main [MainThread]: End processing [Time-Corrector] error
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [pytunnel]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-23 05:03:23] WARNING root fetch - processPackages [MandiriUtils]: Skipping, unable to determine old version
+[2023-05-23 05:03:23] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [MandiriUtils]: Start processing: odoo11-addon-account-financial-risk
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 05:03:23] INFO root fetch - main [MainThread]: End processing [MandiriUtils] error
+[2023-05-23 05:03:23] WARNING root fetch - processPackages [soundmaker]: Skipping, unable to determine old version
+[2023-05-23 05:03:23] INFO root fetch - processPackages [soundmaker]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-05-23 05:03:23] INFO root fetch - main [MainThread]: End processing [soundmaker] error
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.1.dev2] Old Version: [14.0.1.4.1.dev1]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo11-addon-account-financial-risk]: New version: [11.0.3.1.0.99.dev3] Old Version: [11.0.3.1.0.99.dev2]
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.4.1.dev1-14.0.1.4.1.dev2/diff.md --exclude *.pyd
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/3f/f5/b4a4e9be5b6dc1ba4678c92be53ec9005f803f2ef1b46ecd8b913014d0e2/ana_sdk-0.1.5.tar.gz
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/80/b2/f813fe9d3750e9c59d65b2e5f40a343877719ccd679f9082d0d5661b2de4/odoo8_addon_connector-8.0.3.4.0.99.dev5-py2-none-any.whl
+[2023-05-23 05:03:23] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/3f/f5/b4a4e9be5b6dc1ba4678c92be53ec9005f803f2ef1b46ecd8b913014d0e2/ana_sdk-0.1.5.tar.gz
+[2023-05-23 05:03:23] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/71/d8/5915fd47545803fa997174a0719e88ea159b53fc3b130359580ed28e3772/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-05-23 05:03:23] INFO root fetch - processPackages [emass-client-api]: Downloading https://files.pythonhosted.org/packages/ba/3e/0ad3b721d95ac640e797d92bc2266aecfaa9f03f96437c689151cb93e263/emass_client_api-3.7.0-py3.10.egg
+[2023-05-23 05:03:23] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/14/08/2f7df76dec8c3ea6387b88c8f7ca8d5dc2c6a34c8252dd0ddb636c9858bf/langchain_wenxin-0.0.1.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo11-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/02/cd/2a4f8ddb85cd7a6139200844847aa8a171d7677d0eb1ea21d0661f3f448a/odoo11_addon_account_financial_risk-11.0.3.1.0.99.dev2-py2.py3-none-any.whl
+[2023-05-23 05:03:24] INFO root fetch - processPackages [pytunnel]: Downloading https://files.pythonhosted.org/packages/36/9c/37ecbee9416181c7dc4aa9135928c003c286295e8f76452c3fbcf56a0ca0/pytunnel-2.4.2.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/1e/9e/a3b1eda22629a29031fa38f7a0fcd7b4e88085f057fdc9d32344d812cfd6/ana_sdk-0.1.6.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/1e/9e/a3b1eda22629a29031fa38f7a0fcd7b4e88085f057fdc9d32344d812cfd6/ana_sdk-0.1.6.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.5.tar.gz tmp/ana_sdk-0.1.6.tar.gz --markdown 20230523/a/ana-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [pytunnel]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [pytunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytunnel-2.4.1.tar.gz tmp/pytunnel-2.4.2.tar.gz --markdown 20230523/p/pytunnel/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230523/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.5.tar.gz tmp/ana_sdk-0.1.6.tar.gz --markdown 20230523/a/ana-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/58/bc/7e2d140ce98a29c5f78a953cbdebd09192054c683af4ae6b3ef8634e45b6/langchain_wenxin-0.1.0.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.0.1.tar.gz tmp/langchain_wenxin-0.1.0.tar.gz --markdown 20230523/l/langchain-wenxin/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo11-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/a6/84/f7daed9406900cedde95f0849d575ae6da6bf91cb760d2e72506ff7eec1e/odoo11_addon_account_financial_risk-11.0.3.1.0.99.dev3-py2.py3-none-any.whl
+[2023-05-23 05:03:24] INFO root fetch - processPackages [emass-client-api]: Downloading https://files.pythonhosted.org/packages/49/0d/24907fe7d3152577c64d44c32a2f2f095260129eb008845d127d32843d64/emass_client_api-3.9.1.tar.gz
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/bf/46/3dea50a03eff6580b360609b0d0a4cfd4b5b3e5742972dc11654b205ace3/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-05-23 05:03:24] INFO root fetch - processPackages [emass-client-api]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [emass-client-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emass_client_api-3.7.0-py3.10.egg tmp/emass_client_api-3.9.1.tar.gz --markdown 20230523/e/emass-client-api/3.7.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] ERROR root fetch - processPackages [opvious]: Diffoscope failed: Error: error creating container storage: the container name "stoic_grothendieck" is already in use by "8a68d251e8d621db5043b66b73152664cbadaadd500bbd17002b8bde614b6dae". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-23 05:03:24] INFO root fetch - main [MainThread]: End processing [opvious] error
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo11-addon-account-financial-risk]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo11-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_financial_risk-11.0.3.1.0.99.dev2-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_financial_risk-11.0.3.1.0.99.dev3-py2.py3-none-any.whl.zip --markdown 20230523/o/odoo11-addon-account-financial-risk/11.0.3.1.0.99.dev2-11.0.3.1.0.99.dev3/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-connector/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/33/9e/e2bd355786a627f0dacce929f40bfaad740b27652da9bda11270800411d4/odoo8_addon_connector-8.0.3.4.0.99.dev6-py2-none-any.whl
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo8-addon-connector]: executing diffoscope
+[2023-05-23 05:03:24] INFO root fetch - processPackages [odoo8-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_connector-8.0.3.4.0.99.dev5-py2-none-any.whl.zip tmp/odoo8_addon_connector-8.0.3.4.0.99.dev6-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-connector/8.0.3.4.0.99.dev5-8.0.3.4.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-23 05:03:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-05-23 05:03:25] INFO root fetch - main [MainThread]: End processing [pytunnel]: success
+[2023-05-23 05:03:25] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 05:03:25] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 05:03:25] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-05-23 05:03:26] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-financial-risk]: success
+[2023-05-23 05:03:26] INFO root fetch - main [MainThread]: End processing [emass-client-api]: success
+[2023-05-23 05:03:26] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-05-23 05:03:27] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
+[2023-05-23 05:03:27] INFO root fetch - main [MainThread]: Store serial: [18208277]

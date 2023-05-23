@@ -10790,3 +10790,204 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:50:40] INFO root fetch - main [MainThread]: End processing [seven-studio]: success
 [2023-05-23 09:50:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
 [2023-05-23 09:50:40] INFO root fetch - main [MainThread]: Store serial: [18210502]
+[2023-05-23 09:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210502]
+[2023-05-23 09:55:49] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imio.email.dms
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-vocabularies
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FHIRkit
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyRVC
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teghoshal
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: okama
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MarkerCount
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 09:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipxact2systemverilog
+[2023-05-23 09:55:49] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 09:55:49] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-23 09:55:49] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 09:55:49] INFO root fetch - processPackages [imio.email.dms]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 09:55:49] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-05-23 09:55:49] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-23 09:55:49] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230523/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:55:49] WARNING root fetch - processPackages [teghoshal]: Skipping, unable to determine old version
+[2023-05-23 09:55:49] INFO root fetch - processPackages [teghoshal]: Start processing: jinja2-jsonschema
+[2023-05-23 09:55:49] INFO root fetch - main [MainThread]: End processing [teghoshal] error
+[2023-05-23 09:55:49] INFO root fetch - processPackages [okama]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-23 09:55:50] WARNING root fetch - processPackages [PyRVC]: Skipping, unable to determine old version
+[2023-05-23 09:55:50] INFO root fetch - processPackages [PyRVC]: Start processing: watchmen-utilities
+[2023-05-23 09:55:50] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - main [MainThread]: End processing [PyRVC] error
+[2023-05-23 09:55:50] INFO root fetch - processPackages [ipxact2systemverilog]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 09:55:50] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.1.tar.gz tmp/mkdocs-simple-tags-plugin-0.2.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [MarkerCount]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-23 09:55:50] INFO root fetch - processPackages [jinja2-jsonschema]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 09:55:50] INFO root fetch - processPackages [watchmen-utilities]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:50] INFO root fetch - processPackages [imio.email.dms]: Downloading https://files.pythonhosted.org/packages/ed/e6/acd7befd6c766eada7c2cfea6b61382c72633db3df752311878f0ba5741c/imio.email.dms-0.8.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [MarkerCount]: Downloading https://files.pythonhosted.org/packages/29/a6/1563a1a0214c653987a613b504c915ffd02e45dbda0b13c7bb6a54cb605f/MarkerCount-0.6.6.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [ipxact2systemverilog]: Downloading https://files.pythonhosted.org/packages/98/41/9ded45ffa5d0a0a7463c9d87197e12b5fb8cd9485587628f26d05eaa8a10/ipxact2systemverilog-1.0.8.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/f1/38/09e90ed072c096732d17e9594c949e17c24911c304fd2be572bf4f67f973/oarepo-vocabularies-1.0.9.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230523/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [okama]: Downloading https://files.pythonhosted.org/packages/34/a0/bde838084dd841b805f3571bedcf695d398ca04d84e75f3b6a3c4de6d043/okama-1.3.1.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [watchmen-utilities]: Downloading https://files.pythonhosted.org/packages/fa/53/8a30bd0da5b46b58b03e43b3bbb84151fbb8d00ee12559ac17fccf333c22/watchmen_utilities-16.5.1.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [jinja2-jsonschema]: Downloading https://files.pythonhosted.org/packages/0a/21/7b6c5c25f276253ae15f9ef245bb7fdd08962d1a74376cce5b78452f3f54/jinja2_jsonschema-0.1.0.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [okama]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [okama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okama-1.3.0.tar.gz tmp/okama-1.3.1.tar.gz --markdown 20230523/o/okama/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [MarkerCount]: Downloading https://files.pythonhosted.org/packages/f1/ff/de13b4f85d6adb464b63e294d7a434f0be1e8f0472ef2fc874b2b2870bde/MarkerCount-0.6.7.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/22/f4/8f91ffa43d77078870cd52653c68bd050be714f7a4c24c8492424095c862/oarepo-vocabularies-2.0.0.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [ipxact2systemverilog]: Downloading https://files.pythonhosted.org/packages/45/60/9611139f147a8284d528f835c16227ddf3025feb9fbf60163eadfb58cd8e/ipxact2systemverilog-1.0.9.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [MarkerCount]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [MarkerCount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarkerCount-0.6.6.tar.gz tmp/MarkerCount-0.6.7.tar.gz --markdown 20230523/M/MarkerCount/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-1.0.9.tar.gz tmp/oarepo-vocabularies-2.0.0.tar.gz --markdown 20230523/o/oarepo-vocabularies/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [imio.email.dms]: Downloading https://files.pythonhosted.org/packages/64/7b/dd6a004ac3578ae97e779d205704e792697d691cebfc2451a5ee5b8a1a09/imio.email.dms-0.9.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [jinja2-jsonschema]: Downloading https://files.pythonhosted.org/packages/f9/02/941022f440afa99ff2eeb5b73f5da2dc916832748cf3b17a426b374a9457/jinja2_jsonschema-0.2.0.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [ipxact2systemverilog]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [ipxact2systemverilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipxact2systemverilog-1.0.8.tar.gz tmp/ipxact2systemverilog-1.0.9.tar.gz --markdown 20230523/i/ipxact2systemverilog/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [watchmen-utilities]: Downloading https://files.pythonhosted.org/packages/47/af/2d5ef37792cd0f4c42c6796b7f5fe5173c5cc77cbcde918da680d99b030c/watchmen_utilities-16.5.2.tar.gz
+[2023-05-23 09:55:50] INFO root fetch - processPackages [jinja2-jsonschema]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [jinja2-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_jsonschema-0.1.0.tar.gz tmp/jinja2_jsonschema-0.2.0.tar.gz --markdown 20230523/j/jinja2-jsonschema/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [watchmen-utilities]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [watchmen-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_utilities-16.5.1.tar.gz tmp/watchmen_utilities-16.5.2.tar.gz --markdown 20230523/w/watchmen-utilities/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:50] INFO root fetch - processPackages [imio.email.dms]: executing diffoscope
+[2023-05-23 09:55:50] INFO root fetch - processPackages [imio.email.dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.email.dms-0.8.tar.gz tmp/imio.email.dms-0.9.tar.gz --markdown 20230523/i/imio.email.dms/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 09:55:51] INFO root fetch - processPackages [FHIRkit]: Start processing: chellow
+[2023-05-23 09:55:51] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-23 09:55:51] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-23 09:55:51] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: asgi-matomo
+[2023-05-23 09:55:51] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 09:55:51] INFO root fetch - processPackages [asgi-matomo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-23 09:55:51] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-23 09:55:51] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230523/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-23 09:55:51] INFO root fetch - processPackages [asgi-matomo]: executing diffoscope
+[2023-05-23 09:55:51] INFO root fetch - processPackages [asgi-matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_matomo-0.2.0.tar.gz tmp/asgi_matomo-0.3.0.tar.gz --markdown 20230523/a/asgi-matomo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 09:55:52] INFO root fetch - processPackages [jinja2-jsonschema]: Start processing: watchmen-model
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [jinja2-jsonschema]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-utilities]: Start processing: watchmen-storage
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [watchmen-utilities]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-model]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:52] INFO root fetch - processPackages [imio.email.dms]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [imio.email.dms]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-model]: Downloading https://files.pythonhosted.org/packages/00/a9/9fa0fbd551fee496d3db398827ce175111b4fa778ac0cb2783dd34c1e502/watchmen_model-16.5.1.tar.gz
+[2023-05-23 09:55:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:55:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage]: Downloading https://files.pythonhosted.org/packages/d8/76/36f2bb3c313fb36cde3fbbe6c56503e29785fa768a5741e7a5d533a5ad9d/watchmen_storage-16.5.1.tar.gz
+[2023-05-23 09:55:52] INFO root fetch - processPackages [okama]: Start processing: watchmen-storage-mongodb
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [okama]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-model]: Downloading https://files.pythonhosted.org/packages/0f/9f/811e6a97581fcaea901bfcfec012dfdc1a9780deeaea56b025c2025490fb/watchmen_model-16.5.2.tar.gz
+[2023-05-23 09:55:52] INFO root fetch - processPackages [MarkerCount]: Start processing: watchmen-storage-rds
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [MarkerCount]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage-mongodb]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage]: Downloading https://files.pythonhosted.org/packages/5a/b6/e308076b1d6ef272ede3a38665f8e3eba11e653fdfea7e7e84ab3a9d23eb/watchmen_storage-16.5.2.tar.gz
+[2023-05-23 09:55:52] INFO root fetch - processPackages [asgi-matomo]: Start processing: watchmen-storage-mssql
+[2023-05-23 09:55:52] INFO root fetch - main [MainThread]: End processing [asgi-matomo]: success
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-model]: executing diffoscope
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_model-16.5.1.tar.gz tmp/watchmen_model-16.5.2.tar.gz --markdown 20230523/w/watchmen-model/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage-rds]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage]: executing diffoscope
+[2023-05-23 09:55:52] INFO root fetch - processPackages [watchmen-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage-16.5.1.tar.gz tmp/watchmen_storage-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mongodb]: Downloading https://files.pythonhosted.org/packages/79/ee/869d66f5e2d4f5a9438b4522c3492099f585b7b662908d839f7612f9928b/watchmen_storage_mongodb-16.5.1.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mssql]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:53] INFO root fetch - processPackages [oarepo-vocabularies]: Start processing: watchmen-storage-mysql
+[2023-05-23 09:55:53] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-rds]: Downloading https://files.pythonhosted.org/packages/a6/5c/9a72f20cbe482103cf62abb5039707d2f6d4cd63f407304b51f94ea9e902/watchmen_storage_rds-16.5.1.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mysql]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mssql]: Downloading https://files.pythonhosted.org/packages/7b/8b/91d232a5f64e828d29cf66cf79164a54ca7c5af277a130518847b280e4dd/watchmen_storage_mssql-16.5.1.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [ipxact2systemverilog]: Start processing: watchmen-storage-oracle
+[2023-05-23 09:55:53] INFO root fetch - main [MainThread]: End processing [ipxact2systemverilog]: success
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mysql]: Downloading https://files.pythonhosted.org/packages/2b/7c/896999a6610b2582395cc6ef645e29b68386489e48b727712dca3546187f/watchmen_storage_mysql-16.5.1.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mongodb]: Downloading https://files.pythonhosted.org/packages/f4/98/346b0dc79bf16afc79e4dc29176f7688e1ec3c6e456ea4edc3c17cd24fa8/watchmen_storage_mongodb-16.5.2.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-oracle]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-rds]: Downloading https://files.pythonhosted.org/packages/4b/8a/34800834caafee10bc06fefd90dabf2acf57eff7e7729d77f76ba2e52c51/watchmen_storage_rds-16.5.2.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mongodb]: executing diffoscope
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mongodb-16.5.1.tar.gz tmp/watchmen_storage_mongodb-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-mongodb/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-rds]: executing diffoscope
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_rds-16.5.1.tar.gz tmp/watchmen_storage_rds-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-rds/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-oracle]: Downloading https://files.pythonhosted.org/packages/c2/bf/fb532fed4fe7d9d502bbf85c9b796212744b5bb35e3ac0e7abf7b4514abd/watchmen_storage_oracle-16.5.1.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mssql]: Downloading https://files.pythonhosted.org/packages/0f/eb/23f957b7c4caa5338aae6b26a851dec0dc7e3bf33fab4ddfb438bdd0b69a/watchmen_storage_mssql-16.5.2.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mysql]: Downloading https://files.pythonhosted.org/packages/5b/ac/950d9f765e76ac1d32005b921f338888e45d4a8ea217770d84ae65e14324/watchmen_storage_mysql-16.5.2.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mssql]: executing diffoscope
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mssql-16.5.1.tar.gz tmp/watchmen_storage_mssql-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-mssql/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-oracle]: Downloading https://files.pythonhosted.org/packages/09/43/10bbc393a690a2e054c89b0f831bb6e98ac4a7b104c7fd238a3ae5449a2b/watchmen_storage_oracle-16.5.2.tar.gz
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mysql]: executing diffoscope
+[2023-05-23 09:55:53] INFO root fetch - processPackages [watchmen-storage-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_mysql-16.5.1.tar.gz tmp/watchmen_storage_mysql-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-mysql/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-oracle]: executing diffoscope
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_oracle-16.5.1.tar.gz tmp/watchmen_storage_oracle-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-oracle/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: watchmen-storage-postgresql
+[2023-05-23 09:55:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-postgresql]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-postgresql]: Downloading https://files.pythonhosted.org/packages/55/c1/cab1c60b7048c3b422200c517e9d80748393a866bd0e7fc518426b6bc58c/watchmen_storage_postgresql-16.5.1.tar.gz
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage]: Start processing: watchmen-storage-oss
+[2023-05-23 09:55:54] INFO root fetch - main [MainThread]: End processing [watchmen-storage]: success
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-oss]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-postgresql]: Downloading https://files.pythonhosted.org/packages/a7/39/c2c53d16f962625f6e8afefa233b7031fbee930372a706377505e87230a6/watchmen_storage_postgresql-16.5.2.tar.gz
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-oss]: Downloading https://files.pythonhosted.org/packages/2b/a9/f55a0a5e35bc0c2466f11877dc4aabce514384317b8ad9d6d666e488bebc/watchmen_storage_oss-16.5.1.tar.gz
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-rds]: Start processing: watchmen-storage-s3
+[2023-05-23 09:55:54] INFO root fetch - main [MainThread]: End processing [watchmen-storage-rds]: success
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-postgresql]: executing diffoscope
+[2023-05-23 09:55:54] INFO root fetch - processPackages [watchmen-storage-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_postgresql-16.5.1.tar.gz tmp/watchmen_storage_postgresql-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-postgresql/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-mssql]: Start processing: PyWinBox
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mssql]: success
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-s3]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-oss]: Downloading https://files.pythonhosted.org/packages/53/81/4331c0e1e5b7b8c576d3fb30b919470ab32b0019cc6d7c96e9b47ef4ea75/watchmen_storage_oss-16.5.2.tar.gz
+[2023-05-23 09:55:55] WARNING root fetch - processPackages [PyWinBox]: Skipping, unable to determine old version
+[2023-05-23 09:55:55] INFO root fetch - processPackages [PyWinBox]: Start processing: watchmen-auth
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [PyWinBox] error
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-s3]: Downloading https://files.pythonhosted.org/packages/43/de/73ee7e5f4b4f97b70c5c41661fd3ec2b157bde9149ab2f2600fb8bdab500/watchmen_storage_s3-16.5.1.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-mongodb]: Start processing: policyengine-us
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mongodb]: success
+[2023-05-23 09:55:55] INFO root fetch - processPackages [policyengine-us]: New version: [0.320.0] Old Version: [0.319.0]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-auth]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-mysql]: Start processing: watchmen-rest
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [watchmen-storage-mysql]: success
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-oss]: executing diffoscope
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_oss-16.5.1.tar.gz tmp/watchmen_storage_oss-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-oss/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-oracle]: Start processing: watchmen-lineage
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [watchmen-storage-oracle]: success
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-rest]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-auth]: Downloading https://files.pythonhosted.org/packages/90/1e/d1ff68fe1f075046f9c37a1ef1e9306ef0c86f94a2bc84637e76161b03e9/watchmen_auth-16.5.1.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-lineage]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/23/05/97a691e7f134c9d60806e5dba1afd9f478064b922ae41f2c9bc8c4c03440/policyengine-us-0.320.0.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-s3]: Downloading https://files.pythonhosted.org/packages/4d/a4/fdd81672823f6c32254cbb90a8657534a63649e1761e4b6ec41677c91b02/watchmen_storage_s3-16.5.2.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-rest]: Downloading https://files.pythonhosted.org/packages/a9/b4/682a297593e577adad0bbfba4b279d660f057eacf9e2aaf72c487c088bb2/watchmen_rest-16.5.1.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-23 09:55:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.319.0.tar.gz tmp/policyengine-us-0.320.0.tar.gz --markdown 20230523/p/policyengine-us/0.319.0-0.320.0/diff.md --exclude *.pyd
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-lineage]: Downloading https://files.pythonhosted.org/packages/d3/b2/c216c177e1242401abf16a5c00a4ec78d6166fba1e7a12ae34e37c667244/watchmen_lineage-16.5.1.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-model]: Start processing: watchmen-meta
+[2023-05-23 09:55:55] INFO root fetch - main [MainThread]: End processing [watchmen-model]: success
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-s3]: executing diffoscope
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-storage-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_storage_s3-16.5.1.tar.gz tmp/watchmen_storage_s3-16.5.2.tar.gz --markdown 20230523/w/watchmen-storage-s3/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-auth]: Downloading https://files.pythonhosted.org/packages/0e/cc/7b36464fcc4b78828bc4aaa5e2b5ed028e6ec4f16cb339cfbffd6c7f6849/watchmen_auth-16.5.2.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-rest]: Downloading https://files.pythonhosted.org/packages/a1/5a/eaa8fee1c8f5f63681e206c52b040cf0c095a8ee66f77aa2a4301e67d2c3/watchmen_rest-16.5.2.tar.gz
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-meta]: New version: [16.5.2] Old Version: [16.5.1]
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-auth]: executing diffoscope
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_auth-16.5.1.tar.gz tmp/watchmen_auth-16.5.2.tar.gz --markdown 20230523/w/watchmen-auth/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:55] INFO root fetch - processPackages [watchmen-lineage]: Downloading https://files.pythonhosted.org/packages/81/7a/883639275b3b302b8d9ca7993d99138602b243d68097840c96beaf088ad0/watchmen_lineage-16.5.2.tar.gz
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-rest]: executing diffoscope
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest-16.5.1.tar.gz tmp/watchmen_rest-16.5.2.tar.gz --markdown 20230523/w/watchmen-rest/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-meta]: Downloading https://files.pythonhosted.org/packages/fa/6e/8f430346def589d7a1504cf5d5718020f1b5e30023fb2db61271479bf74e/watchmen_meta-16.5.1.tar.gz
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-lineage]: executing diffoscope
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_lineage-16.5.1.tar.gz tmp/watchmen_lineage-16.5.2.tar.gz --markdown 20230523/w/watchmen-lineage/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-storage-postgresql]: Start processing: hepcrawl
+[2023-05-23 09:55:56] INFO root fetch - main [MainThread]: End processing [watchmen-storage-postgresql]: success
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-meta]: Downloading https://files.pythonhosted.org/packages/a4/ee/003c5f872fa5336bb1153a0524faf59ef27b2b4453d900f5f5ed0337135d/watchmen_meta-16.5.2.tar.gz
+[2023-05-23 09:55:56] INFO root fetch - main [MainThread]: End processing [watchmen-storage-oss]: success
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-meta]: executing diffoscope
+[2023-05-23 09:55:56] INFO root fetch - processPackages [watchmen-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_meta-16.5.1.tar.gz tmp/watchmen_meta-16.5.2.tar.gz --markdown 20230523/w/watchmen-meta/16.5.1-16.5.2/diff.md --exclude *.pyd
+[2023-05-23 09:55:56] INFO root fetch - processPackages [hepcrawl]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-05-23 09:55:56] INFO root fetch - processPackages [hepcrawl]: Downloading https://files.pythonhosted.org/packages/16/71/71bcaa4a7b3644c8a11ad566e2fff3c606999c0dedc58f3cb3ccba4971d6/hepcrawl-9.0.8.tar.gz
+[2023-05-23 09:55:57] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-23 09:55:57] INFO root fetch - main [MainThread]: End processing [watchmen-storage-s3]: success
+[2023-05-23 09:55:57] INFO root fetch - main [MainThread]: End processing [watchmen-auth]: success
+[2023-05-23 09:55:57] INFO root fetch - processPackages [hepcrawl]: Downloading https://files.pythonhosted.org/packages/d1/4f/ea55e8de26f777726dac7e49ccd5cf1014c4c2e161d0c8241828f8bb454f/hepcrawl-9.0.9.tar.gz
+[2023-05-23 09:55:57] INFO root fetch - main [MainThread]: End processing [watchmen-rest]: success
+[2023-05-23 09:55:57] INFO root fetch - processPackages [hepcrawl]: executing diffoscope
+[2023-05-23 09:55:57] INFO root fetch - processPackages [hepcrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepcrawl-9.0.8.tar.gz tmp/hepcrawl-9.0.9.tar.gz --markdown 20230523/h/hepcrawl/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:55:58] INFO root fetch - main [MainThread]: End processing [watchmen-meta]: success
+[2023-05-23 09:55:58] INFO root fetch - main [MainThread]: End processing [watchmen-lineage]: success
+[2023-05-23 09:55:58] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-23 09:56:00] INFO root fetch - main [MainThread]: End processing [hepcrawl]: success
+[2023-05-23 09:57:07] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-23 09:57:07] INFO root fetch - main [MainThread]: Store serial: [18210599]

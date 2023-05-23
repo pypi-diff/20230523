@@ -19334,3 +19334,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:45:28] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-23 16:45:28] INFO root fetch - main [MainThread]: End processing [libcst]: success
 [2023-05-23 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18215542]
+[2023-05-23 16:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215542]
+[2023-05-23 16:50:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neosctl
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-rate-limiters
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: climate-categories
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdt
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyBerries
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unravel-python
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snagboot
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funke-enrichment-core
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunposition
+[2023-05-23 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AkvoDjangoFormGateway
+[2023-05-23 16:50:39] WARNING root fetch - processPackages [redis-rate-limiters]: Skipping, unable to determine old version
+[2023-05-23 16:50:39] INFO root fetch - processPackages [redis-rate-limiters]: Start processing: dql-alpha
+[2023-05-23 16:50:39] INFO root fetch - main [MainThread]: End processing [redis-rate-limiters] error
+[2023-05-23 16:50:39] INFO root fetch - processPackages [funke-enrichment-core]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 16:50:39] WARNING root fetch - processPackages [sunposition]: Skipping, unable to determine old version
+[2023-05-23 16:50:39] INFO root fetch - processPackages [sunposition]: Start processing: domjudge-utility
+[2023-05-23 16:50:39] INFO root fetch - main [MainThread]: End processing [sunposition] error
+[2023-05-23 16:50:39] INFO root fetch - processPackages [domjudge-utility]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [funke-enrichment-core]: executing diffoscope
+[2023-05-23 16:50:39] INFO root fetch - processPackages [funke-enrichment-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funke_enrichment_core-1.8.tar.gz tmp/funke_enrichment_core-1.9.tar.gz --markdown 20230523/f/funke-enrichment-core/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 16:50:39] INFO root fetch - processPackages [neosctl]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [climate-categories]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [PyBerries]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2023-05-23 16:50:39] WARNING root fetch - processPackages [snagboot]: Skipping, unable to determine old version
+[2023-05-23 16:50:39] INFO root fetch - processPackages [snagboot]: Start processing: hatching-triage
+[2023-05-23 16:50:39] INFO root fetch - main [MainThread]: End processing [snagboot] error
+[2023-05-23 16:50:39] INFO root fetch - processPackages [jdt]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [unravel-python]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [AkvoDjangoFormGateway]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [domjudge-utility]: executing diffoscope
+[2023-05-23 16:50:39] INFO root fetch - processPackages [domjudge-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domjudge_utility-0.0.4.tar.gz tmp/domjudge_utility-0.0.5.tar.gz --markdown 20230523/d/domjudge-utility/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 16:50:39] INFO root fetch - processPackages [hatching-triage]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 16:50:39] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/db/80/4756f181ce9e2a35c57eb1c2dc237d31f8bc2fe5457636e05e42b1655e06/neosctl-0.7.6.tar.gz
+[2023-05-23 16:50:39] INFO root fetch - processPackages [climate-categories]: Downloading https://files.pythonhosted.org/packages/78/5f/4014600e9b51c547b828c276b1f4667c4b42ce815978cc8023647c0cd720/climate_categories-0.8.2.tar.gz
+[2023-05-23 16:50:39] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Downloading https://files.pythonhosted.org/packages/89/73/a2fa5088fcbbd3e00bf66148743d58de99e5663bd60fa6c3b0d8b7ea7edb/AkvoDjangoFormGateway-0.0.7.tar.gz
+[2023-05-23 16:50:39] INFO root fetch - processPackages [jdt]: Downloading https://files.pythonhosted.org/packages/43/ef/172f223529dce4b44770e6d81f7a2e36dd6f0af224d877270d91ebb3c98e/jdt-0.5.5.tar.gz
+[2023-05-23 16:50:40] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/4a/44/f8bfaa9c35a8f9b08adc957e227ece8157d72e38837bd42e118824f1fd23/unravel-python-1.2.8.tar.gz
+[2023-05-23 16:50:40] INFO root fetch - processPackages [AkvoDjangoFormGateway]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [AkvoDjangoFormGateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkvoDjangoFormGateway-0.0.6.tar.gz tmp/AkvoDjangoFormGateway-0.0.7.tar.gz --markdown 20230523/A/AkvoDjangoFormGateway/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.8.post1.tar.gz tmp/PyBerries-0.2.9.tar.gz --markdown 20230523/P/PyBerries/0.2.8.post1-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230523/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.7.tar.gz tmp/unravel-python-1.2.8.tar.gz --markdown 20230523/u/unravel-python/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [climate-categories]: Downloading https://files.pythonhosted.org/packages/57/3f/b3bfb80de06118181bebd646a083f2e1f56c6410ebbc552d8404d5861125/climate_categories-0.8.3.tar.gz
+[2023-05-23 16:50:40] INFO root fetch - processPackages [hatching-triage]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [hatching-triage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatching-triage-0.1.8.tar.gz tmp/hatching-triage-0.1.9.tar.gz --markdown 20230523/h/hatching-triage/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/48/3b/c3d929dcd0e8de1054343e6a5e099f7e3169e23e317501972bd25268760c/neosctl-0.7.7.tar.gz
+[2023-05-23 16:50:40] INFO root fetch - processPackages [jdt]: Downloading https://files.pythonhosted.org/packages/80/de/11b36f239a81040078edc470813c2e9dcb39c3b5c50eaaf1b74adf8b7765/jdt-0.5.7-py3-none-any.whl
+[2023-05-23 16:50:40] INFO root fetch - processPackages [climate-categories]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [climate-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climate_categories-0.8.2.tar.gz tmp/climate_categories-0.8.3.tar.gz --markdown 20230523/c/climate-categories/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.7.6.tar.gz tmp/neosctl-0.7.7.tar.gz --markdown 20230523/n/neosctl/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [jdt]: executing diffoscope
+[2023-05-23 16:50:40] INFO root fetch - processPackages [jdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdt-0.5.5.tar.gz tmp/jdt-0.5.7-py3-none-any.whl.zip --markdown 20230523/j/jdt/0.5.5-0.5.7/diff.md --exclude *.pyd
+[2023-05-23 16:50:40] INFO root fetch - processPackages [funke-enrichment-core]: Start processing: imgio
+[2023-05-23 16:50:40] INFO root fetch - main [MainThread]: End processing [funke-enrichment-core]: success
+[2023-05-23 16:50:41] INFO root fetch - processPackages [imgio]: New version: [1.0.0] Old Version: [0.9.4]
+[2023-05-23 16:50:41] INFO root fetch - processPackages [domjudge-utility]: Start processing: im-squonk2-client
+[2023-05-23 16:50:41] INFO root fetch - main [MainThread]: End processing [domjudge-utility]: success
+[2023-05-23 16:50:41] INFO root fetch - processPackages [im-squonk2-client]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-23 16:50:41] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/c2/85/8358d9583b143d1844879fb0ce0c0ec10f07ba6d7ac3034233989cfe184e/imgio-0.9.4.tar.gz
+[2023-05-23 16:50:41] INFO root fetch - processPackages [im-squonk2-client]: Downloading https://files.pythonhosted.org/packages/7b/d4/65da0ed808a5bcc5f3b380dfd3040832007d2cee4ec8009c2f3c46ce8ed7/im-squonk2-client-2.1.2.tar.gz
+[2023-05-23 16:50:41] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/d2/2d/292152df283c82c2a617fc98af182d8e2e68886318a4e9f5a3e12844e6d6/imgio-1.0.0.tar.gz
+[2023-05-23 16:50:41] INFO root fetch - processPackages [hatching-triage]: Start processing: directory-ch-client
+[2023-05-23 16:50:41] INFO root fetch - main [MainThread]: End processing [hatching-triage]: success
+[2023-05-23 16:50:41] INFO root fetch - processPackages [im-squonk2-client]: Downloading https://files.pythonhosted.org/packages/2d/70/b87790be725a3f6450ff7a5dd58de9857b54bb650c93623413f1b7b2557b/im-squonk2-client-2.2.0.tar.gz
+[2023-05-23 16:50:41] INFO root fetch - processPackages [imgio]: executing diffoscope
+[2023-05-23 16:50:41] INFO root fetch - processPackages [imgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgio-0.9.4.tar.gz tmp/imgio-1.0.0.tar.gz --markdown 20230523/i/imgio/0.9.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 16:50:41] INFO root fetch - processPackages [unravel-python]: Start processing: FHIRkit
+[2023-05-23 16:50:41] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-05-23 16:50:41] INFO root fetch - processPackages [directory-ch-client]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-05-23 16:50:41] INFO root fetch - processPackages [im-squonk2-client]: executing diffoscope
+[2023-05-23 16:50:41] INFO root fetch - processPackages [im-squonk2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-squonk2-client-2.1.2.tar.gz tmp/im-squonk2-client-2.2.0.tar.gz --markdown 20230523/i/im-squonk2-client/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-23 16:50:41] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 16:50:41] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-23 16:50:41] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230523/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:50:42] INFO root fetch - processPackages [jdt]: Start processing: mdninja
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [jdt]: success
+[2023-05-23 16:50:42] INFO root fetch - processPackages [directory-ch-client]: Downloading https://files.pythonhosted.org/packages/21/47/7b7ea4cbbb489eabdeabb12b36e2d8fefa4445996dee082aaebefb981a7d/directory_ch_client-3.0.3-py3-none-any.whl
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [AkvoDjangoFormGateway]: success
+[2023-05-23 16:50:42] INFO root fetch - processPackages [mdninja]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-05-23 16:50:42] INFO root fetch - processPackages [directory-ch-client]: Downloading https://files.pythonhosted.org/packages/6e/56/60cede7e642945ab605cdef102fe3fc2dd69e1bae96cb06f3155a8950f92/directory_ch_client-3.1.0-py3-none-any.whl
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-05-23 16:50:42] INFO root fetch - processPackages [mdninja]: Downloading https://files.pythonhosted.org/packages/c2/09/a852f45eb94cc7c8156dcd5031bb4918107e816d417b90c72db51f9a15ff/mdninja-1.0.1.tar.gz
+[2023-05-23 16:50:42] INFO root fetch - processPackages [directory-ch-client]: executing diffoscope
+[2023-05-23 16:50:42] INFO root fetch - processPackages [directory-ch-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_ch_client-3.0.3-py3-none-any.whl.zip tmp/directory_ch_client-3.1.0-py3-none-any.whl.zip --markdown 20230523/d/directory-ch-client/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-05-23 16:50:42] INFO root fetch - processPackages [mdninja]: Downloading https://files.pythonhosted.org/packages/0f/e6/875fb800329fd0b67eea5a77017ff2c989b404d9535f2ba5a7a506d95769/mdninja-1.0.2.tar.gz
+[2023-05-23 16:50:42] INFO root fetch - processPackages [mdninja]: executing diffoscope
+[2023-05-23 16:50:42] INFO root fetch - processPackages [mdninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdninja-1.0.1.tar.gz tmp/mdninja-1.0.2.tar.gz --markdown 20230523/m/mdninja/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 16:50:42] INFO root fetch - main [MainThread]: End processing [climate-categories]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: End processing [im-squonk2-client]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: End processing [directory-ch-client]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: End processing [imgio]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: End processing [mdninja]: success
+[2023-05-23 16:50:43] INFO root fetch - main [MainThread]: Store serial: [18215601]

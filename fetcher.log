@@ -15803,3 +15803,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:19:12] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-23 14:19:23] INFO root fetch - main [MainThread]: End processing [xpra]: success
 [2023-05-23 14:19:23] INFO root fetch - main [MainThread]: Store serial: [18213431]
+[2023-05-23 14:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213431]
+[2023-05-23 14:24:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prospr
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matter-observability
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discotoolkit
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: challengerteco
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-post-twitter
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: laff
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frequenz-api-microgrid
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dav-tools
+[2023-05-23 14:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-transformations-cli
+[2023-05-23 14:24:33] INFO root fetch - processPackages [discotoolkit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-05-23 14:24:33] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.1.0.tar.gz tmp/discotoolkit-1.1.1.tar.gz --markdown 20230523/d/discotoolkit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 14:24:33] INFO root fetch - processPackages [easy-post-twitter]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [challengerteco]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 14:24:33] WARNING root fetch - processPackages [dav-tools]: Skipping, unable to determine old version
+[2023-05-23 14:24:33] INFO root fetch - processPackages [dav-tools]: Start processing: check-celebrity
+[2023-05-23 14:24:33] INFO root fetch - main [MainThread]: End processing [dav-tools] error
+[2023-05-23 14:24:33] INFO root fetch - processPackages [matter-observability]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [laff]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [frequenz-api-microgrid]: New version: [0.13.0] Old Version: [0.12.0]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [cognite-transformations-cli]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [check-celebrity]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-23 14:24:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 14:24:33] INFO root fetch - processPackages [prospr]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-23 14:24:33] INFO root fetch - processPackages [challengerteco]: Downloading https://files.pythonhosted.org/packages/8b/fc/98aeecf747e336bcd333d72e5272efa162712e28b8095280d83eabc7a7b9/challengerteco-0.1.5.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/c1/7c/c1cd6e72962d569ed6af6060a89f250d6166513eabc5ee82e2abe9854d59/frequenz-api-microgrid-0.12.0.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [cognite-transformations-cli]: Downloading https://files.pythonhosted.org/packages/ff/c9/e89e2a611a6113b8694b002a113b39b2afda61f135621559e7d6021e5919/cognite_transformations_cli-2.3.6.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/34/02/e398f4d53c9f12aae96b9985f3d74fe88939151449e20f63672399f0010e/laff-0.7.0.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [check-celebrity]: Downloading https://files.pythonhosted.org/packages/1d/99/f0ae2cf2ba029ddc4951278a72fa1bf553bbb21a19a2541817795dfe4fd4/check_celebrity-1.0.4.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/9a/b6/b8566d28b946868246b9f3ca02ac5806b65a3e5b083d21a4788b9fc4fb57/matter_observability-1.3.2-py3-none-any.whl
+[2023-05-23 14:24:33] INFO root fetch - processPackages [prospr]: executing diffoscope
+[2023-05-23 14:24:33] INFO root fetch - processPackages [easy-post-twitter]: Downloading https://files.pythonhosted.org/packages/d1/58/28e5e94a3e604be530ff5c088141143d8b0fc2c3e86709705d1768adc8ec/easy_post_twitter-1.0.7.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [prospr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospr-0.2a8.tar.gz tmp/prospr-0.2a9.tar.gz --markdown 20230523/p/prospr/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-23 14:24:33] INFO root fetch - processPackages [challengerteco]: Downloading https://files.pythonhosted.org/packages/2a/8f/fee173ba2b338204f981594c50c8b26322a196527c09bcfaeaaf388563d4/challengerteco-0.1.6.tar.gz
+[2023-05-23 14:24:33] INFO root fetch - processPackages [laff]: executing diffoscope
+[2023-05-23 14:24:33] INFO root fetch - processPackages [laff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laff-0.6.1.tar.gz tmp/laff-0.7.0.tar.gz --markdown 20230523/l/laff/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-23 14:24:33] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/03/e5/01636cf0950564c4a068bfd7abdb9e0e097fb96ebdf51cc78f515f65d0ab/frequenz-api-microgrid-0.13.0.tar.gz
+[2023-05-23 14:24:34] INFO root fetch - processPackages [check-celebrity]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [check-celebrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_celebrity-1.0.3.tar.gz tmp/check_celebrity-1.0.4.tar.gz --markdown 20230523/c/check-celebrity/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - processPackages [easy-post-twitter]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [easy-post-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_post_twitter-1.0.6.tar.gz tmp/easy_post_twitter-1.0.7.tar.gz --markdown 20230523/e/easy-post-twitter/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - processPackages [challengerteco]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [challengerteco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/challengerteco-0.1.5.tar.gz tmp/challengerteco-0.1.6.tar.gz --markdown 20230523/c/challengerteco/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - processPackages [cognite-transformations-cli]: Downloading https://files.pythonhosted.org/packages/2b/9c/bb2f9a38ca5f1fbca5ff2ab31a7f9bb96d40eb1f6d36c98065a175ae9810/cognite_transformations_cli-2.3.7.tar.gz
+[2023-05-23 14:24:34] INFO root fetch - processPackages [frequenz-api-microgrid]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [frequenz-api-microgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-microgrid-0.12.0.tar.gz tmp/frequenz-api-microgrid-0.13.0.tar.gz --markdown 20230523/f/frequenz-api-microgrid/0.12.0-0.13.0/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/af/a4/0f6ded8d76e752f7d6f65397647d6cb06da9ef823d11c1d5e471bb3b02e9/matter_observability-1.3.3-py3-none-any.whl
+[2023-05-23 14:24:34] INFO root fetch - processPackages [cognite-transformations-cli]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [cognite-transformations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_transformations_cli-2.3.6.tar.gz tmp/cognite_transformations_cli-2.3.7.tar.gz --markdown 20230523/c/cognite-transformations-cli/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - processPackages [matter-observability]: executing diffoscope
+[2023-05-23 14:24:34] INFO root fetch - processPackages [matter-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_observability-1.3.2-py3-none-any.whl.zip tmp/matter_observability-1.3.3-py3-none-any.whl.zip --markdown 20230523/m/matter-observability/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-23 14:24:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [laff]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [check-celebrity]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [easy-post-twitter]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [challengerteco]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [matter-observability]: success
+[2023-05-23 14:24:35] INFO root fetch - main [MainThread]: End processing [cognite-transformations-cli]: success
+[2023-05-23 14:24:36] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
+[2023-05-23 14:24:37] INFO root fetch - main [MainThread]: End processing [prospr]: success
+[2023-05-23 14:24:37] INFO root fetch - main [MainThread]: Store serial: [18213466]

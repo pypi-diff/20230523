@@ -13417,3 +13417,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:02:49] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
 [2023-05-23 12:02:52] INFO root fetch - main [MainThread]: End processing [khash]: success
 [2023-05-23 12:02:52] INFO root fetch - main [MainThread]: Store serial: [18212018]
+[2023-05-23 12:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212018]
+[2023-05-23 12:08:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmvmm
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tailraiders
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cev
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: path-version
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wadi
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VerdisCloudPackage
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioino
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sports2d
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yt-idefix
+[2023-05-23 12:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cxwidgets
+[2023-05-23 12:08:03] INFO root fetch - processPackages [tailraiders]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 12:08:03] INFO root fetch - processPackages [VerdisCloudPackage]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 12:08:03] INFO root fetch - processPackages [cxwidgets]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 12:08:03] INFO root fetch - processPackages [wadi]: New version: [0.1.9.4] Old Version: [0.1.6]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.5.tar.gz tmp/tailraiders-0.0.6.tar.gz --markdown 20230523/t/tailraiders/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [fmvmm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [bioino]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [cev]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wadi-0.1.6.tar.gz tmp/wadi-0.1.9.4.tar.gz --markdown 20230523/w/wadi/0.1.6-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [sports2d]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [path-version]: New version: [0.1.6] Old Version: [0.1.49]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [cxwidgets]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [cxwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxwidgets-0.8.tar.gz tmp/cxwidgets-0.9.tar.gz --markdown 20230523/c/cxwidgets/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [yt-idefix]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-23 12:08:04] INFO root fetch - processPackages [bioino]: Downloading https://files.pythonhosted.org/packages/90/06/ccd2284a92a8aef09f66e694926b7bba88263ca834f73735661b35cc0345/bioino-0.0.1.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [fmvmm]: Downloading https://files.pythonhosted.org/packages/86/32/879f3e0efaa8268468d2ffa19c8e318f0b4fe095d1d02811cdb0bf5c1f7d/fmvmm-1.0.8.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [cev]: Downloading https://files.pythonhosted.org/packages/35/c8/b8b4150007aae26e63517099d676efb88e00c2b27a76b1642bacfd205c6d/cev-0.0.0.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/52/06/cb8497b82e7d9eaf473c8a89a324a21fff61e9722e16143a8c96236ae1ff/yt_idefix-2.0.0.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [path-version]: Downloading https://files.pythonhosted.org/packages/56/89/76716dc80d223e3a208c533cab578b3d67a9e2c20a1523fca5c0d1e0be2a/path_version-0.1.49.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [VerdisCloudPackage]: Downloading https://files.pythonhosted.org/packages/43/df/391579f26b827c919f8be128fc5e3ad49d3b7bd80053c16d5580f6e48ff3/VerdisCloudPackage-0.0.8-py3-none-any.whl
+[2023-05-23 12:08:04] INFO root fetch - processPackages [bioino]: Downloading https://files.pythonhosted.org/packages/0d/50/6e17f77115ba9abc70fcda3758281e9bdbc3f1be4318a5d0fa30a889c935/bioino-0.0.1.post1.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [fmvmm]: Downloading https://files.pythonhosted.org/packages/44/6b/1ce3aae9a9ee827dcd9af4b1ca39d1acd2a4daa14105629b9c422555381c/fmvmm-1.0.9.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [VerdisCloudPackage]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [VerdisCloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudPackage-0.0.7-py3-none-any.whl.zip tmp/VerdisCloudPackage-0.0.8-py3-none-any.whl.zip --markdown 20230523/V/VerdisCloudPackage/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/d7/96/a36f90f84f0b55f0b194004d6d07fd356a6db43c5420e2aa0244396b48e1/sports2d-0.2.1.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/c1/76/98bdf8c0830d7c6a641c3a90d5e75e65432eff9a5d0ea653fcd7c938387a/yt_idefix-2.0.1.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [yt-idefix]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [yt-idefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_idefix-2.0.0.tar.gz tmp/yt_idefix-2.0.1.tar.gz --markdown 20230523/y/yt-idefix/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [path-version]: Downloading https://files.pythonhosted.org/packages/11/33/374917c88c4fb42c5881841b629dcaadca759de3da134e77c47384571d9d/path_version-0.1.6.tar.gz
+[2023-05-23 12:08:04] INFO root fetch - processPackages [path-version]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [path-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path_version-0.1.49.tar.gz tmp/path_version-0.1.6.tar.gz --markdown 20230523/p/path-version/0.1.49-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [bioino]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [bioino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioino-0.0.1.tar.gz tmp/bioino-0.0.1.post1.tar.gz --markdown 20230523/b/bioino/0.0.1-0.0.1.post1/diff.md --exclude *.pyd
+[2023-05-23 12:08:04] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-05-23 12:08:04] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.2.0.tar.gz tmp/sports2d-0.2.1.tar.gz --markdown 20230523/s/sports2d/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 12:08:05] INFO root fetch - processPackages [tailraiders]: Start processing: great-components
+[2023-05-23 12:08:05] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-23 12:08:05] INFO root fetch - processPackages [cxwidgets]: Start processing: dinohub-seedwork-be
+[2023-05-23 12:08:05] INFO root fetch - main [MainThread]: End processing [cxwidgets]: success
+[2023-05-23 12:08:05] INFO root fetch - processPackages [fmvmm]: executing diffoscope
+[2023-05-23 12:08:05] INFO root fetch - processPackages [fmvmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmvmm-1.0.8.tar.gz tmp/fmvmm-1.0.9.tar.gz --markdown 20230523/f/fmvmm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:08:05] INFO root fetch - processPackages [great-components]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-05-23 12:08:05] INFO root fetch - processPackages [VerdisCloudPackage]: Start processing: Phanatic
+[2023-05-23 12:08:05] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage]: success
+[2023-05-23 12:08:05] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 12:08:05] INFO root fetch - processPackages [cev]: Downloading https://files.pythonhosted.org/packages/06/88/1df173c4f542f438575e1cd8b812ca7c9674a2fb244e6bb2e5e6b73bf305/cev-0.1.0.tar.gz
+[2023-05-23 12:08:05] INFO root fetch - processPackages [Phanatic]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-23 12:08:05] INFO root fetch - processPackages [cev]: executing diffoscope
+[2023-05-23 12:08:05] INFO root fetch - processPackages [cev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cev-0.0.0.tar.gz tmp/cev-0.1.0.tar.gz --markdown 20230523/c/cev/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 12:08:05] INFO root fetch - processPackages [path-version]: Start processing: vgs-api-client
+[2023-05-23 12:08:05] INFO root fetch - main [MainThread]: End processing [path-version]: success
+[2023-05-23 12:08:05] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/13/1a/5f20afcc1490b0c714d466599d1e2b9ba6aef0a7cd23585fb3f9729127ef/Phanatic-2.2.2.tar.gz
+[2023-05-23 12:08:05] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-23 12:08:05] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/38/3b/ae8b51112e129796774bc6602ef475ad634771b7c4a7491f91aa1b746228/great_components-2.3.0-py3-none-any.whl
+[2023-05-23 12:08:06] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-23 12:08:06] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230523/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-23 12:08:06] INFO root fetch - processPackages [yt-idefix]: Start processing: blond
+[2023-05-23 12:08:06] INFO root fetch - main [MainThread]: End processing [yt-idefix]: success
+[2023-05-23 12:08:06] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-23 12:08:06] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230523/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 12:08:06] INFO root fetch - processPackages [blond]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-23 12:08:06] INFO root fetch - processPackages [Phanatic]: Downloading https://files.pythonhosted.org/packages/f0/24/6bd576b0d561f57e7d6c7bb46ddd43eb3c5264006613efc79aad35bd83f9/Phanatic-2.2.3.tar.gz
+[2023-05-23 12:08:06] INFO root fetch - processPackages [great-components]: executing diffoscope
+[2023-05-23 12:08:06] INFO root fetch - processPackages [great-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_components-2.2.1-py3-none-any.whl.zip tmp/great_components-2.3.0-py3-none-any.whl.zip --markdown 20230523/g/great-components/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 12:08:06] INFO root fetch - processPackages [Phanatic]: executing diffoscope
+[2023-05-23 12:08:06] INFO root fetch - processPackages [Phanatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Phanatic-2.2.2.tar.gz tmp/Phanatic-2.2.3.tar.gz --markdown 20230523/P/Phanatic/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-23 12:08:06] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/b5/0c/b37200ea0d466d301e239cab49b0b325da0f479b84e8f13a2ffc40c4f657/blond-2.1.2.tar.gz
+[2023-05-23 12:08:06] INFO root fetch - processPackages [bioino]: Start processing: travel
+[2023-05-23 12:08:06] INFO root fetch - main [MainThread]: End processing [bioino]: success
+[2023-05-23 12:08:06] INFO root fetch - processPackages [travel]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-23 12:08:06] INFO root fetch - processPackages [travel]: Downloading https://files.pythonhosted.org/packages/b5/e7/513fe4d7a4f3f8d3deee3832a2fa2199c891eb0c761e8d3988b296973352/travel-0.8.0.tar.gz
+[2023-05-23 12:08:07] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/71/6f/94a4a5deca276b2def7c654f9d74593d3bb4c957c716b0346f985704dfad/blond-2.1.3.tar.gz
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [fmvmm]: success
+[2023-05-23 12:08:07] INFO root fetch - processPackages [travel]: Downloading https://files.pythonhosted.org/packages/6f/86/eb75049bb73a8780306acb5cff93daf43a69b4420038826ee713e924e00d/travel-0.8.1.tar.gz
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [cev]: success
+[2023-05-23 12:08:07] INFO root fetch - processPackages [travel]: executing diffoscope
+[2023-05-23 12:08:07] INFO root fetch - processPackages [travel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travel-0.8.0.tar.gz tmp/travel-0.8.1.tar.gz --markdown 20230523/t/travel/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-23 12:08:07] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-05-23 12:08:07] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.1.2.tar.gz tmp/blond-2.1.3.tar.gz --markdown 20230523/b/blond/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [Phanatic]: success
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-23 12:08:07] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-05-23 12:08:08] INFO root fetch - main [MainThread]: End processing [travel]: success
+[2023-05-23 12:08:09] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-05-23 12:08:10] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-05-23 12:08:15] INFO root fetch - main [MainThread]: End processing [great-components]: success
+[2023-05-23 12:08:15] INFO root fetch - main [MainThread]: Store serial: [18212060]

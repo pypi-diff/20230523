@@ -4480,3 +4480,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:56:07] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
 [2023-05-23 03:56:07] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-05-23 03:56:07] INFO root fetch - main [MainThread]: Store serial: [18207128]
+[2023-05-23 04:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207128]
+[2023-05-23 04:01:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlforecast
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-web-core
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpyselfembed
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phiterm
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghananews-scraper
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tremolo
+[2023-05-23 04:01:16] INFO root fetch - processPackages [dpyselfembed]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [phiterm]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [mlforecast]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-05-23 04:01:16] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.7.2.tar.gz tmp/mlforecast-0.7.3.tar.gz --markdown 20230523/m/mlforecast/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-23 04:01:16] INFO root fetch - processPackages [tremolo]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-05-23 04:01:16] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-05-23 04:01:16] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230523/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 04:01:16] INFO root fetch - processPackages [dpyselfembed]: Downloading https://files.pythonhosted.org/packages/1e/54/43b49b67f026d3af074c418894d93672661c309222079ed7c37a149b5241/dpyselfembed-0.0.4.tar.gz
+[2023-05-23 04:01:16] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/58/bd/4d1e78200e41a1bd0aecec08c9726d949ea7722a1a5379a08705e4830ec4/phiterm-1.6.9.tar.gz
+[2023-05-23 04:01:16] INFO root fetch - processPackages [dpyselfembed]: executing diffoscope
+[2023-05-23 04:01:16] INFO root fetch - processPackages [dpyselfembed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpyselfembed-0.0.3.tar.gz tmp/dpyselfembed-0.0.4.tar.gz --markdown 20230523/d/dpyselfembed/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 04:01:16] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 04:01:16] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.8.tar.gz tmp/phiterm-1.6.9.tar.gz --markdown 20230523/p/phiterm/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-05-23 04:01:16] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230523/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 04:01:17] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-05-23 04:01:17] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-05-23 04:01:17] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.97.tar.gz tmp/tremolo-0.0.98.tar.gz --markdown 20230523/t/tremolo/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-05-23 04:01:17] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-05-23 04:01:17] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-05-23 04:01:17] INFO root fetch - main [MainThread]: End processing [dpyselfembed]: success
+[2023-05-23 04:01:18] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-05-23 04:01:18] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 04:01:18] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-05-23 04:01:18] INFO root fetch - main [MainThread]: Store serial: [18207145]

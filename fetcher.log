@@ -20616,3 +20616,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:45:23] INFO root fetch - main [MainThread]: End processing [qm-tools-aw]: success
 [2023-05-23 17:45:25] INFO root fetch - main [MainThread]: End processing [climate-categories]: success
 [2023-05-23 17:45:25] INFO root fetch - main [MainThread]: Store serial: [18216391]
+[2023-05-23 17:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216391]
+[2023-05-23 17:50:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factscore
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudmonitor
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apify
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: componentize-py
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web-foundation
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-cube
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poetry-relax
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musicpy
+[2023-05-23 17:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyapnea
+[2023-05-23 17:50:35] WARNING root fetch - processPackages [factscore]: Skipping, unable to determine old version
+[2023-05-23 17:50:35] INFO root fetch - processPackages [factscore]: Start processing: example-project-orl
+[2023-05-23 17:50:35] INFO root fetch - main [MainThread]: End processing [factscore] error
+[2023-05-23 17:50:35] INFO root fetch - processPackages [nonebot-plugin-cube]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 17:50:35] WARNING root fetch - processPackages [example-project-orl]: Skipping, unable to determine old version
+[2023-05-23 17:50:35] INFO root fetch - processPackages [example-project-orl]: Start processing: compose-py
+[2023-05-23 17:50:35] INFO root fetch - main [MainThread]: End processing [example-project-orl] error
+[2023-05-23 17:50:35] INFO root fetch - processPackages [web-foundation]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [cloudmonitor]: New version: [1.0.0.0] Old Version: [0.0.1.9]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [apify]: New version: [1.1.0b8] Old Version: [1.1.0b7]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [poetry-relax]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [pyapnea]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [componentize-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [web-foundation]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [web-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_foundation-3.0.8.tar.gz tmp/web_foundation-3.0.9.tar.gz --markdown 20230523/w/web-foundation/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-05-23 17:50:35] INFO root fetch - processPackages [musicpy]: Start processing: mlax-nn
+[2023-05-23 17:50:35] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-05-23 17:50:35] INFO root fetch - processPackages [alacorder]: New version: [80.7.8] Old Version: [80.7.7]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [compose-py]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [nonebot-plugin-cube]: Downloading https://files.pythonhosted.org/packages/c1/74/6a5cdb37bc630a3577ebe9d423fbd02307bc19758839aa8340842444d8c4/nonebot_plugin_cube-1.0.4-py3-none-any.whl
+[2023-05-23 17:50:35] INFO root fetch - processPackages [mlax-nn]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 17:50:35] INFO root fetch - processPackages [pyapnea]: Downloading https://files.pythonhosted.org/packages/6e/cb/73fbd8fea52813a8d0ef80aa4310b5cf75fb516ae0f2ad23db6c5f25530d/pyapnea-0.0.1.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [cloudmonitor]: Downloading https://files.pythonhosted.org/packages/91/d7/2f7cb6a85d8c23a5eeca55b19124c974c362bb8d86a5c3c938e7b9223090/cloudmonitor-0.0.1.9.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [poetry-relax]: Downloading https://files.pythonhosted.org/packages/76/a8/e95ca4286e15da75ed7c3a891c806509f9f0adc44fc1f247d1b8f3ed951d/poetry-relax-0.1.1.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [nonebot-plugin-cube]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [nonebot-plugin-cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cube-1.0.3-py3-none-any.whl.zip tmp/nonebot_plugin_cube-1.0.4-py3-none-any.whl.zip --markdown 20230523/n/nonebot-plugin-cube/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [componentize-py]: Downloading https://files.pythonhosted.org/packages/6e/ae/4451dd240b40a3ea3e5cefb8991cfd14b4a3b43d757b65527407efdd81e5/componentize_py-0.2.0.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/d9/d1/f134661a2274b0263b3d8d11a7d0b7030c4b2b13bbe6e29d74fd97239c8c/apify-1.1.0b8.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [mlax-nn]: Downloading https://files.pythonhosted.org/packages/f9/aa/d30a497582796664bcf594f6bb0fa2eed040fbcfe338908180771a66dbe0/mlax_nn-0.2.2-py3-none-any.whl
+[2023-05-23 17:50:35] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/a3/19/dba3ad96adaf7f6edf79736028c4b97b738739c17e70a6895afcb2dd004f/alacorder-80.7.8.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b7.tar.gz tmp/apify-1.1.0b8.tar.gz --markdown 20230523/a/apify/1.1.0b7-1.1.0b8/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [poetry-relax]: Downloading https://files.pythonhosted.org/packages/7e/d5/4b014cd8d6f56489824545da77aeee9de7e4f2cad1a6a31050d74602eba9/poetry-relax-0.1.2.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.7.tar.gz tmp/alacorder-80.7.8.tar.gz --markdown 20230523/a/alacorder/80.7.7-80.7.8/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [componentize-py]: Downloading https://files.pythonhosted.org/packages/c3/ef/4ed5e9ee4fea605032714b938b9f81dd0644ab2bad53da2de712f03ed527/componentize_py-0.2.1.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [cloudmonitor]: Downloading https://files.pythonhosted.org/packages/85/8c/36420c6c5b6a998285a72ec69b710fccd9ef92aaa50e15c34b4c2a3b926b/cloudmonitor-1.0.0.0.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [poetry-relax]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [poetry-relax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-relax-0.1.1.tar.gz tmp/poetry-relax-0.1.2.tar.gz --markdown 20230523/p/poetry-relax/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [pyapnea]: Downloading https://files.pythonhosted.org/packages/54/d6/bac60e03dda33600e025bfd16ba6ccdc1e4804807bb380a1ae1d09f02ad6/pyapnea-0.0.2.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [cloudmonitor]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [cloudmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmonitor-0.0.1.9.tar.gz tmp/cloudmonitor-1.0.0.0.tar.gz --markdown 20230523/c/cloudmonitor/0.0.1.9-1.0.0.0/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [pyapnea]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [pyapnea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapnea-0.0.1.tar.gz tmp/pyapnea-0.0.2.tar.gz --markdown 20230523/p/pyapnea/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [mlax-nn]: Downloading https://files.pythonhosted.org/packages/ef/ab/315fc66968c66542b0e93d890e9b6755fa8ad32674287a701a515f054ef2/mlax_nn-0.2.3-py3-none-any.whl
+[2023-05-23 17:50:35] INFO root fetch - processPackages [componentize-py]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [componentize-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/componentize_py-0.2.0.tar.gz tmp/componentize_py-0.2.1.tar.gz --markdown 20230523/c/componentize-py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 17:50:35] INFO root fetch - processPackages [compose-py]: Downloading https://files.pythonhosted.org/packages/90/a7/2fed401d3a170e5390502e7f4a950ec936aca61cadcc0179be72a5a0948d/compose-py-0.2.0.tar.gz
+[2023-05-23 17:50:35] INFO root fetch - processPackages [mlax-nn]: executing diffoscope
+[2023-05-23 17:50:35] INFO root fetch - processPackages [mlax-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlax_nn-0.2.2-py3-none-any.whl.zip tmp/mlax_nn-0.2.3-py3-none-any.whl.zip --markdown 20230523/m/mlax-nn/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 17:50:36] INFO root fetch - processPackages [compose-py]: executing diffoscope
+[2023-05-23 17:50:36] INFO root fetch - processPackages [compose-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose-py-0.1.1.tar.gz tmp/compose-py-0.2.0.tar.gz --markdown 20230523/c/compose-py/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 17:50:36] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: honeybee-doe2
+[2023-05-23 17:50:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube]: success
+[2023-05-23 17:50:36] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-23 17:50:37] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/43/19/529280d9010e2a45697eeba0ebaeafdb4a494168d983f1af68094102770d/honeybee-doe2-0.4.0.tar.gz
+[2023-05-23 17:50:37] INFO root fetch - processPackages [web-foundation]: Start processing: ersciyt
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
+[2023-05-23 17:50:37] INFO root fetch - processPackages [ersciyt]: New version: [1.9] Old Version: [1.89]
+[2023-05-23 17:50:37] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-05-23 17:50:37] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.89.tar.gz tmp/ersciyt-1.9.tar.gz --markdown 20230523/e/ersciyt/1.89-1.9/diff.md --exclude *.pyd
+[2023-05-23 17:50:37] INFO root fetch - processPackages [cloudmonitor]: Start processing: nonebot-plugin-lua
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [cloudmonitor]: success
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [poetry-relax]: success
+[2023-05-23 17:50:37] WARNING root fetch - processPackages [nonebot-plugin-lua]: Skipping, unable to determine old version
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lua] error
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [pyapnea]: success
+[2023-05-23 17:50:37] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/3d/25/fca78fbe3ceb41e7313e7907302006388af0de33ca6aa3b43d14fc2b5d4e/honeybee-doe2-0.4.1.tar.gz
+[2023-05-23 17:50:37] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-23 17:50:37] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.4.0.tar.gz tmp/honeybee-doe2-0.4.1.tar.gz --markdown 20230523/h/honeybee-doe2/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [componentize-py]: success
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [compose-py]: success
+[2023-05-23 17:50:37] INFO root fetch - main [MainThread]: End processing [mlax-nn]: success
+[2023-05-23 17:50:38] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-05-23 17:50:38] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-05-23 17:50:38] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-23 17:50:39] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-23 17:50:39] INFO root fetch - main [MainThread]: Store serial: [18216441]

@@ -16584,3 +16584,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 
 [2023-05-23 14:51:56] INFO root fetch - main [MainThread]: End processing [cm-two] error
 [2023-05-23 14:51:56] INFO root fetch - main [MainThread]: Store serial: [18213773]
+[2023-05-23 14:57:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213773]
+[2023-05-23 14:57:05] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fortext
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memory-graph
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyslope
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coloraide
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HiPart
+[2023-05-23 14:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: surv-ai
+[2023-05-23 14:57:05] INFO root fetch - processPackages [fortext]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [memory-graph]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [coloraide]: New version: [2.3] Old Version: [2.2.2]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [HiPart]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [surv-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [cg]: New version: [31.1.3] Old Version: [31.1.2]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [pyslope]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-23 14:57:05] INFO root fetch - processPackages [memory-graph]: executing diffoscope
+[2023-05-23 14:57:05] INFO root fetch - processPackages [memory-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_graph-0.1.8.tar.gz tmp/memory_graph-0.1.9.tar.gz --markdown 20230523/m/memory-graph/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:57:05] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-23 14:57:05] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.4.tar.gz tmp/surv_ai-0.1.5.tar.gz --markdown 20230523/s/surv-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 14:57:05] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-23 14:57:05] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230523/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-23 14:57:05] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/1f/f7/e484cd3dacefc9ca6c6e56ad1b66bddb986b7a3aaff39a2201618d39f682/fortext-0.0.1.tar.gz
+[2023-05-23 14:57:05] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/8f/ea/7a1f5c9b3dcf0b4d1137db8c98c3cdcb2f4f2c196ebf7c7e73e430860a75/coloraide-2.2.2.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [HiPart]: Downloading https://files.pythonhosted.org/packages/a5/e2/44308211424a1d0bfd948738f90dd6c26e4cb7894c0be427e1c2ebc1742c/HiPart-0.3.2.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c6/91/342131daf99db3778bbd1be0598dc79f8da4dc341587a38722b76710ed74/cg-31.1.3.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-23 14:57:06] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230523/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-23 14:57:06] INFO root fetch - processPackages [pyslope]: Downloading https://files.pythonhosted.org/packages/10/32/31e6d9e4ed42d22e39c2e81654dfc4f86587053a79dc9fd706f0b55eeefc/pyslope-1.1.9.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-23 14:57:06] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230523/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:57:06] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/aa/f0/fc3fe9ae2a55671c61fc45a00f74bb1fd6a7cd16015adb04112bb52f1e81/fortext-0.0.2.tar.gz
+[2023-05-23 14:57:06] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 13017827>=10485760
+[2023-05-23 14:57:06] INFO root fetch - processPackages [coloraide]: Start processing: specmatic
+[2023-05-23 14:57:06] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2023-05-23 14:57:06] INFO root fetch - processPackages [HiPart]: Downloading https://files.pythonhosted.org/packages/74/57/b2bf827f4f2b6f91811fda029b341732798cdf43ccd33adb665f63d8ba21/HiPart-0.4.1.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [specmatic]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-23 14:57:06] INFO root fetch - processPackages [fortext]: executing diffoscope
+[2023-05-23 14:57:06] INFO root fetch - processPackages [fortext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortext-0.0.1.tar.gz tmp/fortext-0.0.2.tar.gz --markdown 20230523/f/fortext/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 14:57:06] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/15/ca/7194fbc5a7dcffe22a2ac27d99340e63dd1c5d8682a6960e9ecb14e43e2a/specmatic-0.3.2.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [HiPart]: executing diffoscope
+[2023-05-23 14:57:06] INFO root fetch - processPackages [HiPart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HiPart-0.3.2.tar.gz tmp/HiPart-0.4.1.tar.gz --markdown 20230523/H/HiPart/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 14:57:06] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79085910>=10485760
+[2023-05-23 14:57:06] INFO root fetch - processPackages [specmatic]: Start processing: octocheese
+[2023-05-23 14:57:06] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-23 14:57:06] INFO root fetch - processPackages [octocheese]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-23 14:57:06] INFO root fetch - processPackages [octocheese]: Downloading https://files.pythonhosted.org/packages/de/a1/8cbb73e75eb8bfb605097a9042dbdce10b95a9d433b77460803658458152/octocheese-0.5.0.tar.gz
+[2023-05-23 14:57:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-23 14:57:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.1.2.tar.gz tmp/cg-31.1.3.tar.gz --markdown 20230523/c/cg/31.1.2-31.1.3/diff.md --exclude *.pyd
+[2023-05-23 14:57:06] INFO root fetch - processPackages [octocheese]: Downloading https://files.pythonhosted.org/packages/bc/6f/41bcdb6bf3389cd01e439cbc9620d10d5d4566d1e680e0cef15126ac3d59/octocheese-0.6.0.tar.gz
+[2023-05-23 14:57:07] INFO root fetch - processPackages [pyslope]: Downloading https://files.pythonhosted.org/packages/86/0f/10450d129f2716232e416fc717ddaa3b5ddab2d3c527a18b691c49faa6e4/pyslope-1.2.0.tar.gz
+[2023-05-23 14:57:07] INFO root fetch - processPackages [octocheese]: executing diffoscope
+[2023-05-23 14:57:07] INFO root fetch - processPackages [octocheese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octocheese-0.5.0.tar.gz tmp/octocheese-0.6.0.tar.gz --markdown 20230523/o/octocheese/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 14:57:07] INFO root fetch - processPackages [memory-graph]: Start processing: edwh
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [memory-graph]: success
+[2023-05-23 14:57:07] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 14:57:07] INFO root fetch - processPackages [pyslope]: executing diffoscope
+[2023-05-23 14:57:07] INFO root fetch - processPackages [pyslope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslope-1.1.9.tar.gz tmp/pyslope-1.2.0.tar.gz --markdown 20230523/p/pyslope/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 14:57:07] INFO root fetch - processPackages [findmyorder]: Start processing: gensum
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-23 14:57:07] INFO root fetch - processPackages [gensum]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 14:57:07] INFO root fetch - processPackages [dxsp]: Start processing: prospr
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-23 14:57:07] INFO root fetch - processPackages [prospr]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-23 14:57:07] INFO root fetch - processPackages [surv-ai]: Start processing: checkov
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-23 14:57:07] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 14:57:07] INFO root fetch - processPackages [prospr]: executing diffoscope
+[2023-05-23 14:57:07] INFO root fetch - processPackages [prospr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospr-0.2a8.tar.gz tmp/prospr-0.2a9.tar.gz --markdown 20230523/p/prospr/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-23 14:57:07] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/ef/79/ff43319d63a8ba6de7622b17be7d35ab73b3a60521883ce0379b3afb0034/gensum-0.1.3.tar.gz
+[2023-05-23 14:57:07] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-23 14:57:07] INFO root fetch - processPackages [fortext]: Start processing: qm-sim
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [fortext]: success
+[2023-05-23 14:57:07] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 14:57:07] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 14:57:07] INFO root fetch - processPackages [qm-sim]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 14:57:07] INFO root fetch - processPackages [gensum]: executing diffoscope
+[2023-05-23 14:57:07] INFO root fetch - processPackages [gensum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensum-0.1.2.tar.gz tmp/gensum-0.1.3.tar.gz --markdown 20230523/g/gensum/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 14:57:07] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-23 14:57:07] INFO root fetch - processPackages [edwh]: Start processing: zio-py
+[2023-05-23 14:57:07] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-23 14:57:08] INFO root fetch - processPackages [zio-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 14:57:08] INFO root fetch - processPackages [qm-sim]: Downloading https://files.pythonhosted.org/packages/ea/18/164a73581db3de39e17c5bc7fab225a230cfb9df074e9df637ae65b92838/qm-sim-0.1.1.tar.gz
+[2023-05-23 14:57:08] INFO root fetch - processPackages [zio-py]: Downloading https://files.pythonhosted.org/packages/11/16/4f7fecdbcbb971179ad9e43f49f861a523bdb126de3a9acf6418109f5381/zio_py-0.0.8.tar.gz
+[2023-05-23 14:57:08] INFO root fetch - processPackages [qm-sim]: executing diffoscope
+[2023-05-23 14:57:08] INFO root fetch - processPackages [qm-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qm-sim-0.1.0.tar.gz tmp/qm-sim-0.1.1.tar.gz --markdown 20230523/q/qm-sim/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 14:57:08] INFO root fetch - processPackages [octocheese]: Start processing: at-fetch-data
+[2023-05-23 14:57:08] INFO root fetch - main [MainThread]: End processing [octocheese]: success
+[2023-05-23 14:57:08] INFO root fetch - processPackages [at-fetch-data]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 14:57:08] INFO root fetch - processPackages [domolibrary]: Start processing: manticore
+[2023-05-23 14:57:08] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-23 14:57:08] INFO root fetch - processPackages [zio-py]: Downloading https://files.pythonhosted.org/packages/85/21/248ac1a8e99324f736f6757d234c9ae5afd78dc97e436db262eae12c45be/zio_py-0.0.9.tar.gz
+[2023-05-23 14:57:08] INFO root fetch - processPackages [zio-py]: executing diffoscope
+[2023-05-23 14:57:08] INFO root fetch - processPackages [zio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zio_py-0.0.8.tar.gz tmp/zio_py-0.0.9.tar.gz --markdown 20230523/z/zio-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 14:57:08] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230523] Old Version: [0.3.8.dev230522]
+[2023-05-23 14:57:08] INFO root fetch - processPackages [at-fetch-data]: Downloading https://files.pythonhosted.org/packages/e5/24/df73cb9c5169a50cbb46ae77dd71e7388f602977b8abf103e3150cbdafff/at-fetch-data-1.0.0.tar.gz
+[2023-05-23 14:57:08] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/39/91/77b42bd81bbe59fb6ccd08845b4d40f6c1cfd6933c4570951e0328115b99/manticore-0.3.8.dev230522.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [at-fetch-data]: Downloading https://files.pythonhosted.org/packages/3d/62/48b5eeec11048ec94ee3986b8ebfa3b61091cf4379ff54309a08f07f2cd0/at-fetch-data-1.0.1.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [HiPart]: Start processing: miniworldmaker
+[2023-05-23 14:57:09] INFO root fetch - main [MainThread]: End processing [HiPart]: success
+[2023-05-23 14:57:09] INFO root fetch - processPackages [at-fetch-data]: executing diffoscope
+[2023-05-23 14:57:09] INFO root fetch - processPackages [at-fetch-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/at-fetch-data-1.0.0.tar.gz tmp/at-fetch-data-1.0.1.tar.gz --markdown 20230523/a/at-fetch-data/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 14:57:09] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/ad/8f/539f38dbb6a8f11d9d43cdc86463e45fc404bf005c414946aca294e6fd3e/manticore-0.3.8.dev230523.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [gensum]: Start processing: PyroFork-dev
+[2023-05-23 14:57:09] INFO root fetch - main [MainThread]: End processing [gensum]: success
+[2023-05-23 14:57:09] INFO root fetch - processPackages [prospr]: Start processing: pymaidol
+[2023-05-23 14:57:09] INFO root fetch - main [MainThread]: End processing [prospr]: success
+[2023-05-23 14:57:09] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-05-23 14:57:09] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.0.dev202305231256] Old Version: [2.2.0.dev202305221238]
+[2023-05-23 14:57:09] WARNING root fetch - processPackages [pymaidol]: Skipping, unable to determine old version
+[2023-05-23 14:57:09] INFO root fetch - main [MainThread]: End processing [pymaidol] error
+[2023-05-23 14:57:09] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/f3/13/feb81bd15d26786614c70fa63b5049afcd9c93969921a39ab1714f36930f/miniworldmaker-2.8.0.0.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-23 14:57:09] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230522.tar.gz tmp/manticore-0.3.8.dev230523.tar.gz --markdown 20230523/m/manticore/0.3.8.dev230522-0.3.8.dev230523/diff.md --exclude *.pyd
+[2023-05-23 14:57:09] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/ad/6e/19e60a3384052fb89856af2770117e3997a7d050ebef8f0557d13cc7d272/PyroFork-dev-2.2.0.dev202305231256.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [miniworldmaker]: Downloading https://files.pythonhosted.org/packages/b9/2b/8e1c164f9e757ed512553b53cb0b2c7af2cdb34d75275dc4b4ce72b1b5ee/miniworldmaker-2.9.0.0.tar.gz
+[2023-05-23 14:57:09] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-05-23 14:57:09] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230523/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-05-23 14:57:09] INFO root fetch - main [MainThread]: End processing [zio-py]: success
+[2023-05-23 14:57:10] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-23 14:57:10] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.0.dev202305221238.tar.gz tmp/PyroFork-dev-2.2.0.dev202305231256.tar.gz --markdown 20230523/P/PyroFork-dev/2.2.0.dev202305221238-2.2.0.dev202305231256/diff.md --exclude *.pyd
+[2023-05-23 14:57:10] INFO root fetch - main [MainThread]: End processing [at-fetch-data]: success
+[2023-05-23 14:57:11] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-05-23 14:57:13] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-23 14:57:13] INFO root fetch - main [MainThread]: End processing [pyslope]: success
+[2023-05-23 14:57:16] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-23 14:57:18] INFO root fetch - main [MainThread]: End processing [qm-sim]: success
+[2023-05-23 14:57:19] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-23 14:57:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 14:57:50] INFO root fetch - main [MainThread]: Store serial: [18213861]

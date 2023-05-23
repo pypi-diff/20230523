@@ -7296,3 +7296,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 05:35:36] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
 [2023-05-23 05:35:36] INFO root fetch - main [MainThread]: End processing [autots]: success
 [2023-05-23 05:35:36] INFO root fetch - main [MainThread]: Store serial: [18208505]
+[2023-05-23 05:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208505]
+[2023-05-23 05:40:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-23 05:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-pybroker
+[2023-05-23 05:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-account-banking-fr-lcr
+[2023-05-23 05:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swibots
+[2023-05-23 05:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcovlib
+[2023-05-23 05:40:45] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-05-23 05:40:45] INFO root fetch - processPackages [swibots]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-23 05:40:45] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-23 05:40:45] INFO root fetch - processPackages [dcovlib]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-05-23 05:40:45] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/78/cc/924fdf78449ac91ee475f4d7a842e390df839299571c9698e6921dedade2/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-05-23 05:40:45] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-05-23 05:40:46] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/57/fc/d6cb703a94ef63401d2f4bd40e237c5c77ef950c0b093511106c960f4e79/swibots-1.2.0.tar.gz
+[2023-05-23 05:40:46] INFO root fetch - processPackages [dcovlib]: Downloading https://files.pythonhosted.org/packages/6e/c6/5e12ecb9d8572d9e92847631705be154bc357827e929c031e1b1d0e9c2c1/dcovlib-1.0.1.tar.gz
+[2023-05-23 05:40:46] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-05-23 05:40:46] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.1.9.tar.gz tmp/swibots-1.2.0.tar.gz --markdown 20230523/s/swibots/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 05:40:46] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-05-23 05:40:46] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-05-23 05:40:46] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230523/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-23 05:40:46] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/e2/5c/22d6e8e5eea43b12fb73650de46b9f8a05a2235bc8f95dd3d7ae00218493/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-05-23 05:40:46] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: executing diffoscope
+[2023-05-23 05:40:46] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-account-banking-fr-lcr/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 05:40:46] INFO root fetch - processPackages [dcovlib]: Downloading https://files.pythonhosted.org/packages/c7/a5/40c95c5dfe5248576c1efee9ffa803f3ca4974f9643100622ec7d50d99cd/dcovlib-1.1.1.tar.gz
+[2023-05-23 05:40:46] INFO root fetch - processPackages [dcovlib]: executing diffoscope
+[2023-05-23 05:40:46] INFO root fetch - processPackages [dcovlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcovlib-1.0.1.tar.gz tmp/dcovlib-1.1.1.tar.gz --markdown 20230523/d/dcovlib/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 05:40:47] INFO root fetch - main [MainThread]: End processing [dcovlib]: success
+[2023-05-23 05:40:47] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-05-23 05:40:47] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-05-23 05:41:31] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-banking-fr-lcr]: success
+[2023-05-23 05:41:31] INFO root fetch - main [MainThread]: Store serial: [18208514]

@@ -7810,3 +7810,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:18:58] INFO root fetch - main [MainThread]: End processing [hello2]: success
 [2023-05-23 06:19:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-05-23 06:19:01] INFO root fetch - main [MainThread]: Store serial: [18208770]
+[2023-05-23 06:24:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208770]
+[2023-05-23 06:24:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-partner-changeset
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-partner-financial-risk
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ditty
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-partner-financial-risk
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedops
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-us
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ana-sdk
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quickstart-vdk
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [fedops]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.874667213.dev10687] Old Version: [0.2.874128920.dev10670]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [policyengine-us]: New version: [0.319.0] Old Version: [0.318.0]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-financial-risk]: New version: [9.0.2.1.0.99.dev5] Old Version: [9.0.2.1.0.99.dev4]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo10-addon-partner-financial-risk]: New version: [10.0.1.0.1.99.dev2] Old Version: [10.0.1.0.1.99.dev1]
+[2023-05-23 06:24:12] WARNING root fetch - processPackages [ditty]: Skipping, unable to determine old version
+[2023-05-23 06:24:12] INFO root fetch - main [MainThread]: End processing [ditty] error
+[2023-05-23 06:24:12] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.318.0.tar.gz tmp/policyengine-us-0.319.0.tar.gz --markdown 20230523/p/policyengine-us/0.318.0-0.319.0/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/3f/c9/dea92eac34de8b1b738c834239dcca5778e5b1bd0b8f0630958b139002d9/fedops-0.1.6.tar.gz
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/28/fc/0e6b4ff60eebfe3a9752fe725459009c1c89be8436856dd345723ad3354e/odoo9_addon_partner_financial_risk-9.0.2.1.0.99.dev4-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/39/16/e6af834bde5caac4acb05627a419db16ac57c90b1c1cc299aabdaf01631f/quickstart-vdk-0.2.874667213.dev10687.tar.gz
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Downloading https://files.pythonhosted.org/packages/08/e5/80063c1ef10aaab69648dfb661098c118f73dd9a44e15bb9acc5e7128bb0/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-0.1.5.tar.gz tmp/fedops-0.1.6.tar.gz --markdown 20230523/f/fedops/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo10-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/c5/15/c3a13df196a1fdbea64d9030014492718ef59ac2dc6f47e9d93d53d0a7f5/odoo10_addon_partner_financial_risk-10.0.1.0.1.99.dev1-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/c2/25/e3ed9ae0c4ad5bec59349b2b29ca9fa36f4444e3a74623b0bb41f5cbf399/ana_sdk-0.1.7.tar.gz
+[2023-05-23 06:24:12] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.874128920.dev10670.tar.gz tmp/quickstart-vdk-0.2.874667213.dev10687.tar.gz --markdown 20230523/q/quickstart-vdk/0.2.874128920.dev10670-0.2.874667213.dev10687/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.6.tar.gz tmp/ana_sdk-0.1.7.tar.gz --markdown 20230523/a/ana-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/14/d4/b1c9e1e0b0f38276d397be385b021e85f8bce43efc74fbf256fad9cfcb28/odoo9_addon_partner_financial_risk-9.0.2.1.0.99.dev5-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo10-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/e7/86/c49ab70f879eab7aeef03340fadd7741e9293af0f22787d7e7dd0c120d8c/odoo10_addon_partner_financial_risk-10.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: Downloading https://files.pythonhosted.org/packages/ec/18/3e53eb0a73bed1e53e9b152cd59c08662be40ac17abb6d932b83b49745fb/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-financial-risk]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_financial_risk-9.0.2.1.0.99.dev4-py2-none-any.whl.zip tmp/odoo9_addon_partner_financial_risk-9.0.2.1.0.99.dev5-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-partner-financial-risk/9.0.2.1.0.99.dev4-9.0.2.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo10-addon-partner-financial-risk]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo10-addon-partner-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_partner_financial_risk-10.0.1.0.1.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_partner_financial_risk-10.0.1.0.1.99.dev2-py2-none-any.whl.zip --markdown 20230523/o/odoo10-addon-partner-financial-risk/10.0.1.0.1.99.dev1-10.0.1.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: executing diffoscope
+[2023-05-23 06:24:12] INFO root fetch - processPackages [odoo9-addon-partner-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_partner_changeset-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-partner-changeset/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:24:13] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-05-23 06:24:13] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2023-05-23 06:24:13] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 06:24:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-financial-risk]: success
+[2023-05-23 06:24:14] INFO root fetch - main [MainThread]: End processing [odoo10-addon-partner-financial-risk]: success
+[2023-05-23 06:24:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-partner-changeset]: success
+[2023-05-23 06:25:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-23 06:25:23] INFO root fetch - main [MainThread]: Store serial: [18208799]

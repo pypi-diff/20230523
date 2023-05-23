@@ -9928,3 +9928,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:50:40] INFO root fetch - main [MainThread]: End processing [reacton]: success
 [2023-05-23 08:51:21] INFO root fetch - main [MainThread]: End processing [megadata]: success
 [2023-05-23 08:51:21] INFO root fetch - main [MainThread]: Store serial: [18209971]
+[2023-05-23 08:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209971]
+[2023-05-23 08:56:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tKot
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timeoff
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: democracy
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apify
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buz
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycatsearch
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blue-engine
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titan-iris
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sccache
+[2023-05-23 08:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymongo-inmemory
+[2023-05-23 08:56:30] INFO root fetch - processPackages [tKot]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [democracy]: New version: [1.0.21] Old Version: [1.0.20]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [buz]: New version: [2.0.0rc1] Old Version: [1.9.0rc1]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [blue-engine]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-05-23 08:56:31] WARNING root fetch - processPackages [timeoff]: Skipping, unable to determine old version
+[2023-05-23 08:56:31] INFO root fetch - processPackages [timeoff]: Start processing: codapy
+[2023-05-23 08:56:31] INFO root fetch - main [MainThread]: End processing [timeoff] error
+[2023-05-23 08:56:31] INFO root fetch - processPackages [sccache]: New version: [0.4.2.post1] Old Version: [0.4.2]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [apify]: New version: [1.1.0b6] Old Version: [1.1.0b5]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pymongo-inmemory]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [codapy]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-23 08:56:31] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/78/33/52d68de510348a55efefa508197f8644c8a18f1f9a4c676824b5721b63d5/democracy-1.0.20.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [blue-engine]: Downloading https://files.pythonhosted.org/packages/57/fa/4796b6476bf3b3f8108b1ff6a264990601b14a8c9056d534feed253f8e05/blue-engine-0.0.2.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [sccache]: Downloading https://files.pythonhosted.org/packages/26/21/22e308c293190a5e1049733ab755999093d8bf0bf53128947709d079c665/sccache-0.4.2-py3-none-win_amd64.whl
+[2023-05-23 08:56:31] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/11/cc/a72801e5884bc068b97229f200a9f3ada5d3d8184f34c1abc3ab1046c3e5/buz-1.9.0rc1.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/36/bd/676611b7803b5e1219c747e749a0ac7c9bf2708e76f63c9c814d9f584ba9/tKot-0.3.1.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pymongo-inmemory]: Downloading https://files.pythonhosted.org/packages/83/19/44926cb7edb19a725f0eb4736115ed6498bee52b97bbeee77abe628643e1/pymongo_inmemory-0.2.8.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/9c/a1/4304ed6a203cd75bca484aac056753c333fce59d10de280b4c6bfb4d00a4/apify-1.1.0b5.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/e9/f2/ab92c0117bd3918026f4e74636e976c6ca7686a84434598495dfafcf5053/codapy-0.3.7.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/15/71/5d547d80c41f9c0882283c8f868521d67359c74f0cb272c2aaada05d2ab2/pycatsearch-5.1.4.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.3.0.tar.gz tmp/tKot-0.3.1.tar.gz --markdown 20230523/t/tKot/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/84/b3/be10e1669411dc9908902bab0fcffd9f9e80d3c879a31c1da7ee18688882/democracy-1.0.21.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.3.tar.gz tmp/pycatsearch-5.1.4.tar.gz --markdown 20230523/p/pycatsearch/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [blue-engine]: Downloading https://files.pythonhosted.org/packages/b6/86/30abd685b2c31602eafefc44309925fee4b3460d06f1e802c17b2165f50d/blue-engine-0.0.3.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/f3/11/1ff2a14f8e1a83bda77db6a27dddef190aeaf8fc5005adc8f7a4952335c8/buz-2.0.0rc1.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [blue-engine]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [blue-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue-engine-0.0.2.tar.gz tmp/blue-engine-0.0.3.tar.gz --markdown 20230523/b/blue-engine/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pymongo-inmemory]: Downloading https://files.pythonhosted.org/packages/d2/ad/40eab1e34546d5a95e350132c83d37758977da2cd41548edaf6c7977143b/pymongo_inmemory-0.2.9.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/65/a8/486d71017e4d8ee7b2925d0f314678c53b291f3f7b4e9a92433e68dc6991/apify-1.1.0b6.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [buz]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-1.9.0rc1.tar.gz tmp/buz-2.0.0rc1.tar.gz --markdown 20230523/b/buz/1.9.0rc1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/cb/de/04454e4e89bc40dbb9c682c9a7f9cc807f1603d5c66cfdea7cfd96120bd8/codapy-0.3.8.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.20.tar.gz tmp/democracy-1.0.21.tar.gz --markdown 20230523/d/democracy/1.0.20-1.0.21/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pymongo-inmemory]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [pymongo-inmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymongo_inmemory-0.2.8.tar.gz tmp/pymongo_inmemory-0.2.9.tar.gz --markdown 20230523/p/pymongo-inmemory/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-05-23 08:56:31] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b5.tar.gz tmp/apify-1.1.0b6.tar.gz --markdown 20230523/a/apify/1.1.0b5-1.1.0b6/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [codapy]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [codapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codapy-0.3.7.tar.gz tmp/codapy-0.3.8.tar.gz --markdown 20230523/c/codapy/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-23 08:56:31] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-23 08:56:31] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230523/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-23 08:56:32] INFO root fetch - processPackages [tKot]: Start processing: plutous
+[2023-05-23 08:56:32] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-23 08:56:32] INFO root fetch - processPackages [plutous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:56:32] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-05-23 08:56:32] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.8.tar.gz tmp/plutous-0.0.9.tar.gz --markdown 20230523/p/plutous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:56:33] INFO root fetch - processPackages [sccache]: Downloading https://files.pythonhosted.org/packages/35/10/6d4a5f3daa53003677d0090b97bfab0eb67315898e8ff81db77595a1b094/sccache-0.4.2.post1-py3-none-win_amd64.whl
+[2023-05-23 08:56:33] INFO root fetch - processPackages [blue-engine]: Start processing: krillscan
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [blue-engine]: success
+[2023-05-23 08:56:33] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 08:56:33] INFO root fetch - processPackages [pycatsearch]: Start processing: democracy
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-05-23 08:56:33] INFO root fetch - processPackages [sccache]: executing diffoscope
+[2023-05-23 08:56:33] INFO root fetch - processPackages [sccache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccache-0.4.2-py3-none-win_amd64.whl.zip tmp/sccache-0.4.2.post1-py3-none-win_amd64.whl.zip --markdown 20230523/s/sccache/0.4.2-0.4.2.post1/diff.md --exclude *.pyd
+[2023-05-23 08:56:33] INFO root fetch - processPackages [democracy]: New version: [1.0.21] Old Version: [1.0.20]
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [pymongo-inmemory]: success
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [codapy]: success
+[2023-05-23 08:56:33] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-05-23 08:56:33] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230523/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 08:56:33] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-05-23 08:56:33] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.20.tar.gz tmp/democracy-1.0.21.tar.gz --markdown 20230523/d/democracy/1.0.20-1.0.21/diff.md --exclude *.pyd
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-23 08:56:33] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2023-05-23 08:56:34] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-05-23 08:56:34] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-05-23 08:56:34] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-05-23 08:56:35] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-05-23 08:57:28] INFO root fetch - main [MainThread]: End processing [sccache]: success
+[2023-05-23 08:57:28] INFO root fetch - main [MainThread]: Store serial: [18210017]

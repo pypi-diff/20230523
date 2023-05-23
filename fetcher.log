@@ -4364,3 +4364,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
 [2023-05-23 03:45:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-23 03:45:43] INFO root fetch - main [MainThread]: Store serial: [18207068]
+[2023-05-23 03:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207068]
+[2023-05-23 03:50:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phiterm
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlbi-at-dku-lib
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmADTs
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ana-sdk
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-activation
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sidetrek
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpswe
+[2023-05-23 03:50:52] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 03:50:52] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 03:50:52] INFO root fetch - processPackages [phiterm]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-23 03:50:52] WARNING root fetch - processPackages [mlbi-at-dku-lib]: Skipping, unable to determine old version
+[2023-05-23 03:50:52] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib] error
+[2023-05-23 03:50:52] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 03:50:52] INFO root fetch - processPackages [gpswe]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 03:50:53] INFO root fetch - processPackages [torch-activation]: New version: [0.0.1] Old Version: [0.0.0rc1]
+[2023-05-23 03:50:53] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 03:50:53] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.7.tar.gz tmp/phiterm-1.6.8.tar.gz --markdown 20230523/p/phiterm/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-23 03:50:53] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.6.tar.gz tmp/algorithmadts-0.1.7.tar.gz --markdown 20230523/A/AlgorithmADTs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 03:50:53] INFO root fetch - processPackages [gpswe]: Downloading https://files.pythonhosted.org/packages/3d/f6/a1aaa2d8b051ab96407e8a467b3b8deda58f9687a179b784ec18c4961574/gpswe-0.0.3.tar.gz
+[2023-05-23 03:50:53] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/96/33/60e7668a84281004517c44b89244c4f9de90441e967c0541b2cd8d69a6d0/torch_activation-0.0.0rc1.tar.gz
+[2023-05-23 03:50:53] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/4e/15/cd10dd490162325b631e85cda29e25ce270cf656ad88221ce95a24bf537f/ana_sdk-0.1.0.tar.gz
+[2023-05-23 03:50:53] INFO root fetch - processPackages [gpswe]: Downloading https://files.pythonhosted.org/packages/96/f3/74ea2be51db138a94c514abe29cbd08bed68c3e1107bf0e9ce8cd63fffc3/gpswe-0.0.4-py3.10.egg
+[2023-05-23 03:50:53] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/09/18/060208aa41a992a2f869f604a0eed44e0609d087035f2d4639582596c407/ana_sdk-0.1.1.tar.gz
+[2023-05-23 03:50:53] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/b1/2a/d24410cd5828ef7a7b94d37e8006df8897e70e55dafd1ee4b7740611cee1/torch_activation-0.0.1.tar.gz
+[2023-05-23 03:50:53] INFO root fetch - processPackages [gpswe]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [gpswe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpswe-0.0.3.tar.gz tmp/gpswe-0.0.4-py3.10.egg --markdown 20230523/g/gpswe/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 03:50:53] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.0.tar.gz tmp/ana_sdk-0.1.1.tar.gz --markdown 20230523/a/ana-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 03:50:53] INFO root fetch - processPackages [torch-activation]: executing diffoscope
+[2023-05-23 03:50:53] INFO root fetch - processPackages [torch-activation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_activation-0.0.0rc1.tar.gz tmp/torch_activation-0.0.1.tar.gz --markdown 20230523/t/torch-activation/0.0.0rc1-0.0.1/diff.md --exclude *.pyd
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [gpswe]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [torch-activation]: success
+[2023-05-23 03:50:54] INFO root fetch - main [MainThread]: Store serial: [18207095]

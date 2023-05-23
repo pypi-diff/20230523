@@ -23089,3 +23089,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 20:00:10] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
 [2023-05-23 20:00:10] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
 [2023-05-23 20:00:10] INFO root fetch - main [MainThread]: Store serial: [18217974]
+[2023-05-23 20:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217974]
+[2023-05-23 20:05:26] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aio.api.github
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudmesh-rivanna
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxplot
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toui
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scikit-rt
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: disfluency-constituency-parser
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ypricemagic
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mordor2
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steamship
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: steamship
+[2023-05-23 20:05:26] INFO root fetch - processPackages [foxplot]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [cloudmesh-rivanna]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [aio.api.github]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [disfluency-constituency-parser]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [toui]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [scikit-rt]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [mordor2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.9.dev9] Old Version: [2.2.9.dev8]
+[2023-05-23 20:05:26] INFO root fetch - processPackages [foxplot]: Downloading https://files.pythonhosted.org/packages/9d/42/1b8ac13e10f92191040ad79e6f03503d33c5ae645b43f7d7710e2efa9cd2/foxplot-0.0.2.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [disfluency-constituency-parser]: Downloading https://files.pythonhosted.org/packages/23/9f/1baabcba0c7da5d995f6cc45d95c2a43ea5b869b3f1100f2e2de5a976931/disfluency-constituency-parser-0.0.4.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [mordor2]: Downloading https://files.pythonhosted.org/packages/72/b2/61bd0c9bebfe116e8f2792bd15f9445fc9c62e5224a5460632cb9ae4e55d/mordor2-0.0.8.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [aio.api.github]: Downloading https://files.pythonhosted.org/packages/e1/d4/9743d37e5363873eabdca5a33715e139d76e8e6fb294956946efd9c02ac5/aio.api.github-0.2.3.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [foxplot]: Downloading https://files.pythonhosted.org/packages/f1/ce/499e2f032e219b5159a6e031e37643569241cbf2438d343c3cdcf4d28a48/foxplot-0.1.0.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/a9/61/902a1f90bf5b18b698e4cecf3f9602433fc3591282a7845fa430fe8b00c2/scikit-rt-0.4.8.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/1f/91/e4ab6f9ba8b61c28c6df03a9f65385729f0b4d6be77778a64735d5273079/toui-2.4.1.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [aio.api.github]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [aio.api.github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio.api.github-0.2.2.tar.gz tmp/aio.api.github-0.2.3.tar.gz --markdown 20230523/a/aio.api.github/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [disfluency-constituency-parser]: Downloading https://files.pythonhosted.org/packages/b8/bb/d16419319737d870c4b4851f6c5f7ff5dc184882e0ba7539808b2c3ef7ed/disfluency-constituency-parser-0.0.5.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [cloudmesh-rivanna]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [cloudmesh-rivanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-rivanna-4.3.7.tar.gz tmp/cloudmesh-rivanna-4.3.8.tar.gz --markdown 20230523/c/cloudmesh-rivanna/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.9.dev8.tar.gz tmp/ypricemagic-2.2.9.dev9.tar.gz --markdown 20230523/y/ypricemagic/2.2.9.dev8-2.2.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [foxplot]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [foxplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxplot-0.0.2.tar.gz tmp/foxplot-0.1.0.tar.gz --markdown 20230523/f/foxplot/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [mordor2]: Downloading https://files.pythonhosted.org/packages/09/96/d8039c21381ddb21ae2b08cebc5bfdac9a39a184e20402bb22672265aebe/mordor2-0.0.9.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-05-23 20:05:26] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.7.tar.gz tmp/scikit-rt-0.4.8.tar.gz --markdown 20230523/s/scikit-rt/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-2.4.0.tar.gz tmp/toui-2.4.1.tar.gz --markdown 20230523/t/toui/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [mordor2]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [mordor2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mordor2-0.0.8.tar.gz tmp/mordor2-0.0.9.tar.gz --markdown 20230523/m/mordor2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [disfluency-constituency-parser]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [disfluency-constituency-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disfluency-constituency-parser-0.0.4.tar.gz tmp/disfluency-constituency-parser-0.0.5.tar.gz --markdown 20230523/d/disfluency-constituency-parser/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-23 20:05:26] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230523/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:27] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-23 20:05:27] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230523/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:28] INFO root fetch - processPackages [cloudmesh-rivanna]: Start processing: mage-ai
+[2023-05-23 20:05:28] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
+[2023-05-23 20:05:28] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.82]
+[2023-05-23 20:05:28] INFO root fetch - processPackages [aio.api.github]: Start processing: steamship
+[2023-05-23 20:05:28] INFO root fetch - main [MainThread]: End processing [aio.api.github]: success
+[2023-05-23 20:05:28] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/cd/9c/211db91d5aebf722d22c9d07a74859d0408f244b9adb673f6751c420b95a/mage-ai-0.8.82.tar.gz
+[2023-05-23 20:05:28] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 20:05:28] INFO root fetch - processPackages [mordor2]: Start processing: sentry
+[2023-05-23 20:05:28] INFO root fetch - main [MainThread]: End processing [mordor2]: success
+[2023-05-23 20:05:28] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-23 20:05:28] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230523/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:28] INFO root fetch - processPackages [ypricemagic]: Start processing: tidy3d
+[2023-05-23 20:05:28] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-23 20:05:28] INFO root fetch - processPackages [sentry]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-05-23 20:05:28] INFO root fetch - processPackages [tidy3d]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-23 20:05:29] INFO root fetch - processPackages [sentry]: Downloading https://files.pythonhosted.org/packages/21/4d/5da43a7276652141ddd62b94c722e359bdae2b7a22878a87cbd2e19b97c0/sentry-9.1.1.tar.gz
+[2023-05-23 20:05:29] INFO root fetch - processPackages [disfluency-constituency-parser]: Start processing: sysnet-taxonomy
+[2023-05-23 20:05:29] INFO root fetch - main [MainThread]: End processing [disfluency-constituency-parser]: success
+[2023-05-23 20:05:29] WARNING root fetch - processPackages [sentry]: Skipping package: exceeds size limit 25304555>=10485760
+[2023-05-23 20:05:29] INFO root fetch - processPackages [sentry]: Start processing: etm-dgraham
+[2023-05-23 20:05:29] INFO root fetch - main [MainThread]: End processing [sentry] error
+[2023-05-23 20:05:29] WARNING root fetch - processPackages [sysnet-taxonomy]: Skipping, unable to determine old version
+[2023-05-23 20:05:29] INFO root fetch - processPackages [sysnet-taxonomy]: Start processing: action-tutorials-interfaces
+[2023-05-23 20:05:29] INFO root fetch - main [MainThread]: End processing [sysnet-taxonomy] error
+[2023-05-23 20:05:29] INFO root fetch - processPackages [tidy3d]: Downloading https://files.pythonhosted.org/packages/80/32/29c8b40ae7f1d0c0bf98aade5cd6ab1838f203bb1139f2ff705270dd08f2/tidy3d-2.2.1.tar.gz
+[2023-05-23 20:05:29] INFO root fetch - processPackages [etm-dgraham]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-05-23 20:05:29] WARNING root fetch - processPackages [action-tutorials-interfaces]: Skipping, unable to determine old version
+[2023-05-23 20:05:29] INFO root fetch - processPackages [action-tutorials-interfaces]: Start processing: mahdix
+[2023-05-23 20:05:29] INFO root fetch - main [MainThread]: End processing [action-tutorials-interfaces] error
+[2023-05-23 20:05:29] INFO root fetch - processPackages [mahdix]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 20:05:29] INFO root fetch - processPackages [tidy3d]: executing diffoscope
+[2023-05-23 20:05:29] INFO root fetch - processPackages [tidy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy3d-2.2.0.tar.gz tmp/tidy3d-2.2.1.tar.gz --markdown 20230523/t/tidy3d/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-23 20:05:29] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-05-23 20:05:29] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.2.tar.gz tmp/mahdix-0.1.3.tar.gz --markdown 20230523/m/mahdix/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 20:05:29] INFO root fetch - processPackages [toui]: Start processing: ChessAnalysisPipeline
+[2023-05-23 20:05:29] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-05-23 20:05:29] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-05-23 20:05:29] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-4.9.6.tar.gz tmp/etm-dgraham-4.9.7.tar.gz --markdown 20230523/e/etm-dgraham/4.9.6-4.9.7/diff.md --exclude *.pyd
+[2023-05-23 20:05:29] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-05-23 20:05:29] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.82.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230523/m/mage-ai/0.8.82-0.8.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:29] INFO root fetch - processPackages [ChessAnalysisPipeline]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 20:05:30] INFO root fetch - processPackages [ChessAnalysisPipeline]: Downloading https://files.pythonhosted.org/packages/01/a9/f97d06e852b5d55d1ca232bf2a24af1792d13f6e4e7477cc13fca31bce25/ChessAnalysisPipeline-0.0.7.tar.gz
+[2023-05-23 20:05:30] INFO root fetch - processPackages [ChessAnalysisPipeline]: Downloading https://files.pythonhosted.org/packages/c0/50/5dcc6714f00cb8c2818ed862ce114cd7629fa90a019a3fdbc20d1f535d09/ChessAnalysisPipeline-0.0.8.tar.gz
+[2023-05-23 20:05:30] INFO root fetch - processPackages [foxplot]: Start processing: yangsuite-coverage
+[2023-05-23 20:05:30] INFO root fetch - main [MainThread]: End processing [foxplot]: success
+[2023-05-23 20:05:30] INFO root fetch - processPackages [ChessAnalysisPipeline]: executing diffoscope
+[2023-05-23 20:05:30] INFO root fetch - processPackages [ChessAnalysisPipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChessAnalysisPipeline-0.0.7.tar.gz tmp/ChessAnalysisPipeline-0.0.8.tar.gz --markdown 20230523/C/ChessAnalysisPipeline/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 20:05:30] INFO root fetch - processPackages [yangsuite-coverage]: New version: [3.0.7.post0.dev2] Old Version: [3.0.7]
+[2023-05-23 20:05:30] INFO root fetch - processPackages [yangsuite-coverage]: Downloading https://files.pythonhosted.org/packages/02/ad/6b052742c7094e9dd53143bbe653f20c785a2c856f51586b30b8751d8e29/yangsuite_coverage-3.0.7-py3-none-any.whl
+[2023-05-23 20:05:30] INFO root fetch - processPackages [mahdix]: Start processing: schema-jobs
+[2023-05-23 20:05:30] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-05-23 20:05:30] INFO root fetch - processPackages [schema-jobs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 20:05:30] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-23 20:05:30] INFO root fetch - processPackages [schema-jobs]: executing diffoscope
+[2023-05-23 20:05:30] INFO root fetch - processPackages [schema-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema_jobs-0.1.8.tar.gz tmp/schema_jobs-0.1.9.tar.gz --markdown 20230523/s/schema-jobs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 20:05:31] WARNING root fetch - processPackages [yangsuite-coverage]: Skipping package: exceeds size limit 14437777>=10485760
+[2023-05-23 20:05:31] INFO root fetch - main [MainThread]: End processing [yangsuite-coverage] error
+[2023-05-23 20:05:31] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-05-23 20:05:31] INFO root fetch - main [MainThread]: End processing [tidy3d]: success
+[2023-05-23 20:05:31] INFO root fetch - main [MainThread]: End processing [schema-jobs]: success
+[2023-05-23 20:05:32] INFO root fetch - main [MainThread]: End processing [ChessAnalysisPipeline]: success
+[2023-05-23 20:05:32] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-23 20:05:32] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-05-23 20:05:34] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-23 20:06:25] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-05-23 20:06:25] INFO root fetch - main [MainThread]: Store serial: [18218088]

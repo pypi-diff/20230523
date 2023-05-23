@@ -20321,3 +20321,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
 [2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: success
 [2023-05-23 17:29:17] INFO root fetch - main [MainThread]: Store serial: [18216196]
+[2023-05-23 17:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216196]
+[2023-05-23 17:34:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpolib-extractor
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sanic-beskar
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swigex
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clear-skies-aws
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vvv-rpc-server
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zoomaker
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: woodchipper
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-cube
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbtgenlib
+[2023-05-23 17:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: task-assembly
+[2023-05-23 17:34:28] WARNING root fetch - processPackages [vvv-rpc-server]: Skipping, unable to determine old version
+[2023-05-23 17:34:28] INFO root fetch - processPackages [vvv-rpc-server]: Start processing: flipt
+[2023-05-23 17:34:28] INFO root fetch - main [MainThread]: End processing [vvv-rpc-server] error
+[2023-05-23 17:34:28] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [nonebot-plugin-cube]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [task-assembly]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-23 17:34:28] WARNING root fetch - processPackages [hpolib-extractor]: Skipping, unable to determine old version
+[2023-05-23 17:34:28] INFO root fetch - processPackages [hpolib-extractor]: Start processing: rcsb.utils.seqalign
+[2023-05-23 17:34:28] INFO root fetch - main [MainThread]: End processing [hpolib-extractor] error
+[2023-05-23 17:34:28] INFO root fetch - processPackages [woodchipper]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [zoomaker]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [sanic-beskar]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230523/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [nonebot-plugin-cube]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [nonebot-plugin-cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cube-1.0.2-py2.py3-none-any.whl.zip tmp/nonebot_plugin_cube-1.0.3-py3-none-any.whl.zip --markdown 20230523/n/nonebot-plugin-cube/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [flipt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [swigex]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/ca/b7/bad74c509498a490774cb99d09fa40a414cac7e54bcad610bae6dec57116/clear-skies-aws-1.4.1.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [rcsb.utils.seqalign]: New version: [0.27] Old Version: [0.26]
+[2023-05-23 17:34:28] INFO root fetch - processPackages [task-assembly]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [task-assembly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_assembly-0.1.8.tar.gz tmp/task_assembly-0.1.9.tar.gz --markdown 20230523/t/task-assembly/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [swigex]: Downloading https://files.pythonhosted.org/packages/63/c4/44173c2a1498f4dcbe53febe95018cc21c163578ffeb39ec242c19f65543/swigex-0.0.24-cp39-cp39-win_amd64.whl
+[2023-05-23 17:34:28] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/c8/b7/2f2c309758ca0cc70d9ec5bc53d3e591a15445037a4b340c2402b6a02f1b/zoomaker-0.4.0.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [sanic-beskar]: Downloading https://files.pythonhosted.org/packages/41/25/08c3466d3679fc227fa675a257332b33952f194f2dfd0de52b7f2898f268/sanic_beskar-2.2.8.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/9d/e1/6cfb3e71e3e4751d3e5a205b132273072570d44e04f9c362b9a2b762293c/flipt-0.2.4.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [rcsb.utils.seqalign]: Downloading https://files.pythonhosted.org/packages/ed/57/104f28daa05797540854d9edf255256934837f8ee385eb66e940d51eff7e/rcsb.utils.seqalign-0.26.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/5b/79/97ad1189c41003ba43a4f3e0f654017e2ae32e3c285a038de330eddb2157/clear-skies-aws-1.4.2.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [woodchipper]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [woodchipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woodchipper-0.8.tar.gz tmp/woodchipper-0.9.tar.gz --markdown 20230523/w/woodchipper/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-aws-1.4.1.tar.gz tmp/clear-skies-aws-1.4.2.tar.gz --markdown 20230523/c/clear-skies-aws/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [sanic-beskar]: Downloading https://files.pythonhosted.org/packages/9c/65/ebab60f312ea8d6a5b48c055c9a0b10625520fc5e8068f0e156f11bb6c83/sanic_beskar-2.2.9.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [swigex]: Downloading https://files.pythonhosted.org/packages/9b/d7/94361c9a5b0e7367cc935718037fb5db8ba915163d089089494d52f40da5/swigex-0.0.25-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-23 17:34:28] INFO root fetch - processPackages [rcsb.utils.seqalign]: Downloading https://files.pythonhosted.org/packages/20/c4/71af2c317e62bb22b7d755d49ce098c44bf09ca1c323db474c4935d5060a/rcsb.utils.seqalign-0.27.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [sanic-beskar]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [sanic-beskar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic_beskar-2.2.8.tar.gz tmp/sanic_beskar-2.2.9.tar.gz --markdown 20230523/s/sanic-beskar/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/43/8f/96ce832be0de2324cb433a6ebc9265f9626949479f5d504bbae928ec17db/flipt-0.2.5.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/9b/57/dbfb770fb73a1ab567067033b12f69f3d68c706227cb75122b527102862f/zoomaker-0.5.0.tar.gz
+[2023-05-23 17:34:28] INFO root fetch - processPackages [rcsb.utils.seqalign]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [rcsb.utils.seqalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.seqalign-0.26.tar.gz tmp/rcsb.utils.seqalign-0.27.tar.gz --markdown 20230523/r/rcsb.utils.seqalign/0.26-0.27/diff.md --exclude *.pyd
+[2023-05-23 17:34:28] INFO root fetch - processPackages [flipt]: executing diffoscope
+[2023-05-23 17:34:28] INFO root fetch - processPackages [flipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipt-0.2.4.tar.gz tmp/flipt-0.2.5.tar.gz --markdown 20230523/f/flipt/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-23 17:34:29] INFO root fetch - processPackages [zoomaker]: executing diffoscope
+[2023-05-23 17:34:29] INFO root fetch - processPackages [zoomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoomaker-0.4.0.tar.gz tmp/zoomaker-0.5.0.tar.gz --markdown 20230523/z/zoomaker/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 17:34:29] INFO root fetch - processPackages [swigex]: executing diffoscope
+[2023-05-23 17:34:29] INFO root fetch - processPackages [swigex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swigex-0.0.24-cp39-cp39-win_amd64.whl.zip tmp/swigex-0.0.25-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230523/s/swigex/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-23 17:34:29] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: hypothesis-rdkit
+[2023-05-23 17:34:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube]: success
+[2023-05-23 17:34:29] INFO root fetch - processPackages [dbtgenlib]: Start processing: pollination-alias
+[2023-05-23 17:34:29] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-23 17:34:29] INFO root fetch - processPackages [hypothesis-rdkit]: New version: [0.4] Old Version: [0.1]
+[2023-05-23 17:34:29] INFO root fetch - processPackages [pollination-alias]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 17:34:29] INFO root fetch - main [MainThread]: End processing [task-assembly]: success
+[2023-05-23 17:34:30] INFO root fetch - processPackages [hypothesis-rdkit]: Downloading https://files.pythonhosted.org/packages/79/23/2b482017d2e124e530eb66a755ce442a423ead0c6bfb2235ab6c62c6d140/hypothesis-rdkit-0.4.tar.gz
+[2023-05-23 17:34:30] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/e0/43/7e967ed5fa20814ba93b34dc03ad2c5adbcae0d6be295dfc7f8cd7d66333/pollination-alias-0.9.8.tar.gz
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [woodchipper]: success
+[2023-05-23 17:34:30] INFO root fetch - processPackages [hypothesis-rdkit]: executing diffoscope
+[2023-05-23 17:34:30] INFO root fetch - processPackages [hypothesis-rdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-rdkit-0.1.tar.gz tmp/hypothesis-rdkit-0.4.tar.gz --markdown 20230523/h/hypothesis-rdkit/0.1-0.4/diff.md --exclude *.pyd
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-05-23 17:34:30] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/1d/e2/b81cc22068d7b79882752bc3491ceed359780e56450fb6cb418bcf52817c/pollination-alias-0.9.9.tar.gz
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [sanic-beskar]: success
+[2023-05-23 17:34:30] INFO root fetch - processPackages [pollination-alias]: executing diffoscope
+[2023-05-23 17:34:30] INFO root fetch - processPackages [pollination-alias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-alias-0.9.8.tar.gz tmp/pollination-alias-0.9.9.tar.gz --markdown 20230523/p/pollination-alias/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [zoomaker]: success
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [rcsb.utils.seqalign]: success
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [swigex]: success
+[2023-05-23 17:34:30] INFO root fetch - main [MainThread]: End processing [flipt]: success
+[2023-05-23 17:34:31] INFO root fetch - main [MainThread]: End processing [hypothesis-rdkit]: success
+[2023-05-23 17:34:31] INFO root fetch - main [MainThread]: End processing [pollination-alias]: success
+[2023-05-23 17:34:31] INFO root fetch - main [MainThread]: Store serial: [18216243]

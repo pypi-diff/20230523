@@ -14066,3 +14066,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:46:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-23 12:46:30] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-05-23 12:46:30] INFO root fetch - main [MainThread]: Store serial: [18212416]
+[2023-05-23 12:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212416]
+[2023-05-23 12:51:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: legend-pydataobj
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finlab
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: win-defender
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web-foundation
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arthub-api
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tab2neo
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: relativedate
+[2023-05-23 12:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chemfiles
+[2023-05-23 12:51:39] INFO root fetch - processPackages [win-defender]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [mov-cli]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-23 12:51:39] WARNING root fetch - processPackages [legend-pydataobj]: Skipping, unable to determine old version
+[2023-05-23 12:51:39] INFO root fetch - processPackages [legend-pydataobj]: Start processing: aimmo
+[2023-05-23 12:51:39] INFO root fetch - main [MainThread]: End processing [legend-pydataobj] error
+[2023-05-23 12:51:39] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [relativedate]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [tab2neo]: New version: [1.2.5.0] Old Version: [1.2.1.0]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [chemfiles]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [arthub-api]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [web-foundation]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [finlab]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-05-23 12:51:39] INFO root fetch - processPackages [chemfiles]: Downloading https://files.pythonhosted.org/packages/37/fc/8cadfb904b448c40f4098a926ec5cb087e97bbdb3f82f127c567c46d19e4/chemfiles-0.9.2.tar.gz
+[2023-05-23 12:51:39] INFO root fetch - processPackages [tab2neo]: Downloading https://files.pythonhosted.org/packages/a3/7b/86886f9fb0f6215b53bffcaf6709b261e301ce9a05a794acae84e3a0b362/tab2neo-1.2.1.0.tar.gz
+[2023-05-23 12:51:39] INFO root fetch - processPackages [finlab]: Downloading https://files.pythonhosted.org/packages/5b/25/14e0794b0813674141b10bfa6484c6b7286c160c8bfe514fdc10a76bbfcc/finlab-0.4.3-cp39-cp39-win_amd64.whl
+[2023-05-23 12:51:39] INFO root fetch - processPackages [win-defender]: Downloading https://files.pythonhosted.org/packages/ac/80/24f4b61791abb24d5d9ce3a7d15c0065bcb09b9c9c9b622e62922f6eee81/win_defender-0.2.0.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/10/ed/900a3e369c117d7f054076a9ca08c657d9081bb6411ff6bffbcd80e835ee/mov_cli-1.4.1.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230523/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [relativedate]: Downloading https://files.pythonhosted.org/packages/0f/a7/e01bfa8c3a570b55f7df6fb19d761829e1d2750faf878f284a9e9ef1cfcd/relativedate-1.0.0.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/6f/d1/bad043ec458848c14d8cc035694a8ac37b04516903e512d6c57439a05282/arthub_api-1.7.0.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [win-defender]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [win-defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win_defender-0.1.1.tar.gz tmp/win_defender-0.2.0.tar.gz --markdown 20230523/w/win-defender/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-1.4.0.tar.gz tmp/mov_cli-1.4.1.tar.gz --markdown 20230523/m/mov-cli/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [web-foundation]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [web-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_foundation-3.0.8.tar.gz tmp/web_foundation-3.0.9.tar.gz --markdown 20230523/w/web-foundation/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [relativedate]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [relativedate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relativedate-0.1.2.tar.gz tmp/relativedate-1.0.0.tar.gz --markdown 20230523/r/relativedate/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230523/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [tab2neo]: Downloading https://files.pythonhosted.org/packages/36/74/2ab6733458a766ddfe7c9bc4555e1e0d9b6ad2fec312e1642b88cea1b0a7/tab2neo-1.2.5.0.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [finlab]: Downloading https://files.pythonhosted.org/packages/52/40/fc74a6751c34063e8e5f1cad8639fd47a0681cc82c1c2aadaf9a9a92807f/finlab-0.4.4-cp39-cp39-win_amd64.whl
+[2023-05-23 12:51:40] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.6.9.tar.gz tmp/arthub_api-1.7.0.tar.gz --markdown 20230523/a/arthub-api/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [tab2neo]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [tab2neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tab2neo-1.2.1.0.tar.gz tmp/tab2neo-1.2.5.0.tar.gz --markdown 20230523/t/tab2neo/1.2.1.0-1.2.5.0/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [chemfiles]: Downloading https://files.pythonhosted.org/packages/83/eb/01da9325299b56b02859c5738a344f4c5f487b0a8bb604c48dae3925a550/chemfiles-0.9.3.tar.gz
+[2023-05-23 12:51:40] INFO root fetch - processPackages [finlab]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [finlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlab-0.4.3-cp39-cp39-win_amd64.whl.zip tmp/finlab-0.4.4-cp39-cp39-win_amd64.whl.zip --markdown 20230523/f/finlab/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-23 12:51:40] INFO root fetch - processPackages [chemfiles]: executing diffoscope
+[2023-05-23 12:51:40] INFO root fetch - processPackages [chemfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfiles-0.9.2.tar.gz tmp/chemfiles-0.9.3.tar.gz --markdown 20230523/c/chemfiles/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 12:51:41] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: simple-wait
+[2023-05-23 12:51:41] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-23 12:51:41] INFO root fetch - processPackages [simple-wait]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-05-23 12:51:41] INFO root fetch - processPackages [win-defender]: Start processing: certora-cli-alpha-shays-CERT-2259
+[2023-05-23 12:51:41] INFO root fetch - main [MainThread]: End processing [win-defender]: success
+[2023-05-23 12:51:41] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2259]: New version: [20230523.10.50.879141] Old Version: [20230518.14.30.943042]
+[2023-05-23 12:51:41] INFO root fetch - processPackages [relativedate]: Start processing: hmt-basemodels
+[2023-05-23 12:51:41] INFO root fetch - main [MainThread]: End processing [relativedate]: success
+[2023-05-23 12:51:41] INFO root fetch - processPackages [hmt-basemodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 12:51:41] INFO root fetch - processPackages [simple-wait]: Downloading https://files.pythonhosted.org/packages/4c/38/057f91541b474537d847ef2191a4bfef01d5f3ab7e22dd3df0e3daacb8a4/simple-wait-1.0.4.tar.gz
+[2023-05-23 12:51:41] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-05-23 12:51:41] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2259]: Downloading https://files.pythonhosted.org/packages/be/90/360baafe80e6c16272195933f1a9d8cd9f9be2743fcee63ee1ca80f34718/certora-cli-alpha-shays-CERT-2259-20230518.14.30.943042.tar.gz
+[2023-05-23 12:51:42] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/10/31/f8b501f8282f68f747942751c25a77878cef0fb175d4a3013e6696259392/hmt-basemodels-0.1.8.tar.gz
+[2023-05-23 12:51:42] INFO root fetch - processPackages [simple-wait]: Downloading https://files.pythonhosted.org/packages/cc/68/4040035d09d505bec333f853892134b701dd7df515128067c5896c836f4c/simple-wait-1.0.6.tar.gz
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-23 12:51:42] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-2259]: Skipping package: exceeds size limit 38983068>=10485760
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-2259] error
+[2023-05-23 12:51:42] INFO root fetch - processPackages [simple-wait]: executing diffoscope
+[2023-05-23 12:51:42] INFO root fetch - processPackages [simple-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wait-1.0.4.tar.gz tmp/simple-wait-1.0.6.tar.gz --markdown 20230523/s/simple-wait/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2023-05-23 12:51:42] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/52/46/c07ff8cdb540692ad450317ef569c21b7a59538f124732ee66f47344fb68/hmt-basemodels-0.1.9.tar.gz
+[2023-05-23 12:51:42] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2023-05-23 12:51:42] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-0.1.8.tar.gz tmp/hmt-basemodels-0.1.9.tar.gz --markdown 20230523/h/hmt-basemodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [finlab]: success
+[2023-05-23 12:51:42] INFO root fetch - main [MainThread]: End processing [tab2neo]: success
+[2023-05-23 12:51:43] INFO root fetch - main [MainThread]: End processing [simple-wait]: success
+[2023-05-23 12:51:43] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2023-05-23 12:51:45] INFO root fetch - main [MainThread]: End processing [chemfiles]: success
+[2023-05-23 12:51:45] INFO root fetch - main [MainThread]: Store serial: [18212488]

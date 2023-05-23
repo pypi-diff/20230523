@@ -20093,3 +20093,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:18:38] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
 [2023-05-23 17:18:45] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
 [2023-05-23 17:18:45] INFO root fetch - main [MainThread]: Store serial: [18216001]
+[2023-05-23 17:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216001]
+[2023-05-23 17:23:55] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-cost-estimation
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstudio
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tongsuopy-crayon
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guidance
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsterdam-schema-tools
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyeCam
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-cube
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: superfluid
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: venv-modulefile
+[2023-05-23 17:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epitools
+[2023-05-23 17:23:55] INFO root fetch - processPackages [llm-cost-estimation]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [tongsuopy-crayon]: New version: [1.0.2b4] Old Version: [1.0.2b3]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [openstudio]: New version: [3.6.1rc1] Old Version: [3.6.1]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 17:23:55] WARNING root fetch - processPackages [pyeCam]: Skipping, unable to determine old version
+[2023-05-23 17:23:55] INFO root fetch - processPackages [pyeCam]: Start processing: cbra
+[2023-05-23 17:23:55] INFO root fetch - main [MainThread]: End processing [pyeCam] error
+[2023-05-23 17:23:55] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [nonebot-plugin-cube]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [epitools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [superfluid]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [llm-cost-estimation]: Downloading https://files.pythonhosted.org/packages/51/15/a8c5d577fac97bf220342355c950e7ad67b3eaa7650ebc7ccab018426dd3/llm_cost_estimation-0.1.0.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [openstudio]: Downloading https://files.pythonhosted.org/packages/25/ea/8f938215a3cff7ecec11ce633ebeed298e78f63f3c36647d672f8fd9cb2c/openstudio-3.6.1-py3-none-manylinux1_x86_64.whl
+[2023-05-23 17:23:55] INFO root fetch - processPackages [nonebot-plugin-cube]: Downloading https://files.pythonhosted.org/packages/f1/23/16f3eecdd9481806a410915000b54668fd6cf4b0d6660acb0a58f7b07c8e/nonebot_plugin_cube-1.0.3-py3-none-any.whl
+[2023-05-23 17:23:55] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/7f/c8/079500551fcb6d5a4e369d279c8af9f05260f768d856a07f45f034890c29/venv-modulefile-0.1.0.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [tongsuopy-crayon]: Downloading https://files.pythonhosted.org/packages/c7/1a/7792239fcdf6e3594a1824983cdd6082e14d89af9dfe3e92a97a08d0a760/tongsuopy_crayon-1.0.2b3-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-23 17:23:55] INFO root fetch - processPackages [epitools]: Downloading https://files.pythonhosted.org/packages/8f/e8/9d55054b21ec77168c2f46d6662a9cf8d17d773666424dac3950c8ddc499/epitools-0.0.8.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/af/25/ff8779fd0b7430d4be082a991d55c3090e8c2b131a8c46362b838f720400/superfluid-0.0.1.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230523/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] WARNING root fetch - processPackages [openstudio]: Skipping package: exceeds size limit 72050392>=10485760
+[2023-05-23 17:23:55] INFO root fetch - processPackages [openstudio]: Start processing: pepperize.cdk-security-group
+[2023-05-23 17:23:55] INFO root fetch - main [MainThread]: End processing [openstudio] error
+[2023-05-23 17:23:55] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 17:23:55] WARNING root fetch - processPackages [epitools]: Skipping package: exceeds size limit 16029557>=10485760
+[2023-05-23 17:23:55] INFO root fetch - processPackages [epitools]: Start processing: qsonic
+[2023-05-23 17:23:55] INFO root fetch - main [MainThread]: End processing [epitools] error
+[2023-05-23 17:23:55] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230523/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [llm-cost-estimation]: Downloading https://files.pythonhosted.org/packages/91/6f/83af1c79960f26bfc4a1cf4a02d8c935474f4c67476989fe716c15e14862/llm_cost_estimation-0.1.1.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [nonebot-plugin-cube]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [nonebot-plugin-cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cube-1.0.2-py2.py3-none-any.whl.zip tmp/nonebot_plugin_cube-1.0.3-py3-none-any.whl.zip --markdown 20230523/n/nonebot-plugin-cube/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [qsonic]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 17:23:55] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230523/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/74/1a/3d4a900474490b4f37178625f69ec59bc3981d0c2298eb8720a6c65210fd/venv-modulefile-0.1.1.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/ab/cc/a9a6035aa8de0989ec8c3d405460151a9c011df842acbbb9ae724c53717c/superfluid-0.0.3.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [llm-cost-estimation]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [llm-cost-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_cost_estimation-0.1.0.tar.gz tmp/llm_cost_estimation-0.1.1.tar.gz --markdown 20230523/l/llm-cost-estimation/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [tongsuopy-crayon]: Downloading https://files.pythonhosted.org/packages/46/4a/ea08122d38a586b5b42f568ea255864be38408bfdc21719cfcfacdf8fb20/tongsuopy_crayon-1.0.2b4-pp39-pypy39_pp73-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2023-05-23 17:23:55] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.0.tar.gz tmp/venv-modulefile-0.1.1.tar.gz --markdown 20230523/v/venv-modulefile/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 17:23:55] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/fb/a0/24ddcd303e778ce37aa3a8cec526d96c1310167259af38ff503ca279b682/qsonic-0.6.2.tar.gz
+[2023-05-23 17:23:55] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-23 17:23:55] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.0.1.tar.gz tmp/superfluid-0.0.3.tar.gz --markdown 20230523/s/superfluid/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:56] INFO root fetch - processPackages [qsonic]: executing diffoscope
+[2023-05-23 17:23:56] INFO root fetch - processPackages [qsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsonic-0.6.1.tar.gz tmp/qsonic-0.6.2.tar.gz --markdown 20230523/q/qsonic/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 17:23:56] INFO root fetch - processPackages [tongsuopy-crayon]: executing diffoscope
+[2023-05-23 17:23:56] INFO root fetch - processPackages [tongsuopy-crayon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tongsuopy_crayon-1.0.2b3-pp39-pypy39_pp73-win_amd64.whl.zip tmp/tongsuopy_crayon-1.0.2b4-pp39-pypy39_pp73-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230523/t/tongsuopy-crayon/1.0.2b3-1.0.2b4/diff.md --exclude *.pyd
+[2023-05-23 17:23:56] INFO root fetch - processPackages [guidance]: Start processing: mlcvzoo-mmdetection
+[2023-05-23 17:23:56] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-23 17:23:56] INFO root fetch - processPackages [mlcvzoo-mmdetection]: New version: [5.1.1] Old Version: [5.0.1]
+[2023-05-23 17:23:57] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/0d/e6/34985e1338bb8de2e0554aab3ef66bbc900ec806542b67d7417968da964d/mlcvzoo_mmdetection-5.0.1.tar.gz
+[2023-05-23 17:23:57] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: psychopy-usbToBNC
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [psychopy-usbToBNC]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 17:23:57] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: playwrightcapture
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [psychopy-usbToBNC]: executing diffoscope
+[2023-05-23 17:23:57] INFO root fetch - processPackages [psychopy-usbToBNC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy-usbToBNC-0.0.2.tar.gz tmp/psychopy-usbToBNC-0.0.3.tar.gz --markdown 20230523/p/psychopy-usbToBNC/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:57] INFO root fetch - processPackages [llm-cost-estimation]: Start processing: pyopnsenseapi
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [llm-cost-estimation]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [playwrightcapture]: New version: [1.19.9] Old Version: [1.19.8]
+[2023-05-23 17:23:57] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/e3/9d/5882fb01027d7f80f1d703f0dad8633e8bb58e9dd065dae363566af02afd/mlcvzoo_mmdetection-5.1.1.tar.gz
+[2023-05-23 17:23:57] WARNING root fetch - processPackages [pyopnsenseapi]: Skipping, unable to determine old version
+[2023-05-23 17:23:57] INFO root fetch - processPackages [pyopnsenseapi]: Start processing: KDEpy
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [pyopnsenseapi] error
+[2023-05-23 17:23:57] INFO root fetch - processPackages [mlcvzoo-mmdetection]: executing diffoscope
+[2023-05-23 17:23:57] INFO root fetch - processPackages [mlcvzoo-mmdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_mmdetection-5.0.1.tar.gz tmp/mlcvzoo_mmdetection-5.1.1.tar.gz --markdown 20230523/m/mlcvzoo-mmdetection/5.0.1-5.1.1/diff.md --exclude *.pyd
+[2023-05-23 17:23:57] INFO root fetch - processPackages [KDEpy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-23 17:23:57] INFO root fetch - processPackages [superfluid]: Start processing: dimm-utils
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [venv-modulefile]: Start processing: nonebot-plugin-smallapi
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [dimm-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 17:23:57] INFO root fetch - processPackages [dimm-utils]: executing diffoscope
+[2023-05-23 17:23:57] INFO root fetch - processPackages [dimm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimm_utils-0.1.2.tar.gz tmp/dimm_utils-0.1.3.tar.gz --markdown 20230523/d/dimm-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:57] INFO root fetch - processPackages [nonebot-plugin-smallapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 17:23:57] INFO root fetch - main [MainThread]: End processing [qsonic]: success
+[2023-05-23 17:23:57] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-05-23 17:23:57] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.19.8.tar.gz tmp/playwrightcapture-1.19.9.tar.gz --markdown 20230523/p/playwrightcapture/1.19.8-1.19.9/diff.md --exclude *.pyd
+[2023-05-23 17:23:57] INFO root fetch - processPackages [KDEpy]: Downloading https://files.pythonhosted.org/packages/97/30/cee523467a00d57afd8a7944be31c982f7ae0e89a75ab42390b2bf4115ef/KDEpy-1.1.2-cp39-cp39-win_amd64.whl
+[2023-05-23 17:23:57] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/2b/02/45fd11967f81376aa21836e2de1f6cdad4006b2f43b2c7fbe13be088f01d/nonebot_plugin_smallapi-1.0.3.tar.gz
+[2023-05-23 17:23:58] INFO root fetch - main [MainThread]: End processing [tongsuopy-crayon]: success
+[2023-05-23 17:23:58] INFO root fetch - processPackages [nonebot-plugin-smallapi]: Downloading https://files.pythonhosted.org/packages/26/ec/8019703112f37fadf4f3626feca56fefe498a78155aa979a85477f6d9b87/nonebot_plugin_smallapi-1.0.4.tar.gz
+[2023-05-23 17:23:58] INFO root fetch - processPackages [KDEpy]: Downloading https://files.pythonhosted.org/packages/74/5a/67f36c7bfc064c0997b6238a9c5e0b48734eef9b09d4f083ba5c2c638bfd/KDEpy-1.1.3.tar.gz
+[2023-05-23 17:23:58] INFO root fetch - processPackages [nonebot-plugin-smallapi]: executing diffoscope
+[2023-05-23 17:23:58] INFO root fetch - processPackages [nonebot-plugin-smallapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smallapi-1.0.3.tar.gz tmp/nonebot_plugin_smallapi-1.0.4.tar.gz --markdown 20230523/n/nonebot-plugin-smallapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 17:23:58] INFO root fetch - processPackages [KDEpy]: executing diffoscope
+[2023-05-23 17:23:58] INFO root fetch - processPackages [KDEpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KDEpy-1.1.2-cp39-cp39-win_amd64.whl.zip tmp/KDEpy-1.1.3.tar.gz --markdown 20230523/K/KDEpy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-23 17:23:58] INFO root fetch - main [MainThread]: End processing [psychopy-usbToBNC]: success
+[2023-05-23 17:23:58] INFO root fetch - main [MainThread]: End processing [mlcvzoo-mmdetection]: success
+[2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [dimm-utils]: success
+[2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smallapi]: success
+[2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [KDEpy]: success
+[2023-05-23 17:24:02] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-23 17:24:02] INFO root fetch - main [MainThread]: Store serial: [18216094]

@@ -11904,3 +11904,134 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:47:03] INFO root fetch - main [MainThread]: End processing [polars]: success
 [2023-05-23 10:47:16] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-05-23 10:47:16] INFO root fetch - main [MainThread]: Store serial: [18211113]
+[2023-05-23 10:52:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211113]
+[2023-05-23 10:52:25] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suite-py
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymc
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finpy-tse
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HawaData
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nexus-databoard
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-base
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-cli
+[2023-05-23 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-dso
+[2023-05-23 10:52:26] INFO root fetch - processPackages [pymc]: New version: [5.4.0] Old Version: [5.3.1]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [HawaData]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [finpy-tse]: New version: [1.2.3] Old Version: [1.2.1]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/95/3a/89db2827167657f13fc3ec00c7b2c19c33003a15b1929fe0fecf66e20b9a/pymc-5.3.1.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [nexus-databoard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2060.0] Old Version: [1.2059.0]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.4.1.tar.gz tmp/HawaData-0.5.0.tar.gz --markdown 20230523/H/HawaData/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2060.0] Old Version: [1.2059.0]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2060.0] Old Version: [1.2059.0]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [finpy-tse]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [finpy-tse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finpy_tse-1.2.1.tar.gz tmp/finpy_tse-1.2.3.tar.gz --markdown 20230523/f/finpy-tse/1.2.1-1.2.3/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 10:52:26] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/25/9f/5a960a9217f435463b9c35dac9a6116df0ce812a690cf26bf8b36adc2e01/pymc-5.4.0.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [nexus-databoard]: Downloading https://files.pythonhosted.org/packages/fb/bb/419a970851185a5b635832085a06a69892420cce782ebaab02ba86d1f4d3/nexus_databoard-0.0.1.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.3.1.tar.gz tmp/pymc-5.4.0.tar.gz --markdown 20230523/p/pymc/5.3.1-5.4.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f0/d5/4123cb4df58c25d04f4188f53aafb9635bcd3422e31a58c098f874ec4b61/gardener-cicd-dso-1.2059.0.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f2/35/52869760c1072af9dcbacd3968a12e573f584b1fa12d47dbfc30f05032d4/gardener-cicd-cli-1.2060.0.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230523/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/48/ac/0027b01faa439b207a4c272d2c0eb8b64bc8e227fbcc8cd88ec7c592f73b/gardener-cicd-base-1.2060.0.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [nexus-databoard]: Downloading https://files.pythonhosted.org/packages/43/07/b5f8a07059fb5a5e97852bd998a3a55b8fa13e448c16d4cfbcba12ddaf59/nexus_databoard-0.0.2.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2059.0.tar.gz tmp/gardener-cicd-cli-1.2060.0.tar.gz --markdown 20230523/g/gardener-cicd-cli/1.2059.0-1.2060.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230523/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2059.0.tar.gz tmp/gardener-cicd-base-1.2060.0.tar.gz --markdown 20230523/g/gardener-cicd-base/1.2059.0-1.2060.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [nexus-databoard]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [nexus-databoard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_databoard-0.0.1.tar.gz tmp/nexus_databoard-0.0.2.tar.gz --markdown 20230523/n/nexus-databoard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/48/56/ec025d05438231d62cea660a01683477c98af8d496ed80181840997b02ce/gardener-cicd-dso-1.2060.0.tar.gz
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-23 10:52:26] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2059.0.tar.gz tmp/gardener-cicd-dso-1.2060.0.tar.gz --markdown 20230523/g/gardener-cicd-dso/1.2059.0-1.2060.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:27] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2023-05-23 10:52:27] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20230523/s/suite-py/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-23 10:52:27] INFO root fetch - processPackages [finpy-tse]: Start processing: gardener-cicd-libs
+[2023-05-23 10:52:27] INFO root fetch - main [MainThread]: End processing [finpy-tse]: success
+[2023-05-23 10:52:27] INFO root fetch - processPackages [HawaData]: Start processing: gardener-cicd-whd
+[2023-05-23 10:52:27] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [bridgecrew]: Start processing: gardener-oci
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2060.0] Old Version: [1.2059.0]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2060.0] Old Version: [1.2059.0]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [nexus-databoard]: Start processing: xj-enroll
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [nexus-databoard]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/43/a8/18331dacbc51b02ebefecabfdc65a05f3c395099919d25c614810cd0e252/gardener-cicd-libs-1.2059.0.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/36/60/c5daee54fa39f7ca2721650d5b0d86c020da8d9a562cbcc57061fd1e374b/gardener-cicd-whd-1.2059.0.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-23 10:52:28] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230523/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: collective.ckeditortemplates
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ef/93/3454c9ce5e5dbee00d8d148f6e29543757f1a8d9fe67d6fa5f88e1b8d5bf/gardener-cicd-whd-1.2060.0.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-23 10:52:28] INFO root fetch - processPackages [collective.ckeditortemplates]: New version: [0.9.0] Old Version: [0.3.3]
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230523/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2059.0.tar.gz tmp/gardener-cicd-whd-1.2060.0.tar.gz --markdown 20230523/g/gardener-cicd-whd/1.2059.0-1.2060.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:28] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/e6/3d/e7c3f2fb0894b40ddbce2388d9c2e93da7609f5bb2516ca2c0ba5ca53d06/mobio-dedupe-sdk-test-1.0.4.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/dd/aa/a9faedd30d0e93bd12edf23ef0b7636eea4fe0ce27bd94f67f03fff95e85/gardener-cicd-libs-1.2060.0.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [collective.ckeditortemplates]: Downloading https://files.pythonhosted.org/packages/41/fd/c5ec5af4d8079fa8be83c68ffe2201f18a6e156400f4b173586e0cdc58cd/collective.ckeditortemplates-0.3.3.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 10:52:28] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.3.tar.gz tmp/mobio-dedupe-sdk-test-1.0.4.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2059.0.tar.gz tmp/gardener-cicd-libs-1.2060.0.tar.gz --markdown 20230523/g/gardener-cicd-libs/1.2059.0-1.2060.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:28] INFO root fetch - processPackages [suite-py]: Start processing: flow.record
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: collective.shariff
+[2023-05-23 10:52:28] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-23 10:52:28] INFO root fetch - processPackages [collective.ckeditortemplates]: Downloading https://files.pythonhosted.org/packages/5c/a8/51e1d91d9dd5c74ebab37d8b612c117a6ef25b709fff5410d79832c418a2/collective.ckeditortemplates-0.9.0.tar.gz
+[2023-05-23 10:52:28] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-23 10:52:29] INFO root fetch - processPackages [collective.shariff]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-05-23 10:52:29] INFO root fetch - processPackages [collective.ckeditortemplates]: executing diffoscope
+[2023-05-23 10:52:29] INFO root fetch - processPackages [collective.ckeditortemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.ckeditortemplates-0.3.3.tar.gz tmp/collective.ckeditortemplates-0.9.0.tar.gz --markdown 20230523/c/collective.ckeditortemplates/0.3.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:29] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2023-05-23 10:52:29] INFO root fetch - processPackages [collective.shariff]: Downloading https://files.pythonhosted.org/packages/6b/19/4ef78472e22301daedad063ac6092c57a094afbaf9b12e7c056fb9457933/collective.shariff-2.0.1.tar.gz
+[2023-05-23 10:52:29] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2023-05-23 10:52:29] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2023-05-23 10:52:29] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20230523/f/flow.record/3.9.dev8-3.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 10:52:29] INFO root fetch - processPackages [gardener-oci]: Start processing: django-dynamic-admin-forms
+[2023-05-23 10:52:29] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-23 10:52:29] INFO root fetch - processPackages [django-dynamic-admin-forms]: New version: [1.0.0] Old Version: [0.1.8]
+[2023-05-23 10:52:30] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: succulent
+[2023-05-23 10:52:30] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-23 10:52:30] INFO root fetch - processPackages [succulent]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 10:52:30] INFO root fetch - processPackages [collective.shariff]: Downloading https://files.pythonhosted.org/packages/1e/61/0647b42271234e5da3268f5e0a5d8e60df44f5ad3be3388d5202a2ed009b/collective.shariff-3.0.0.tar.gz
+[2023-05-23 10:52:30] INFO root fetch - processPackages [django-dynamic-admin-forms]: Downloading https://files.pythonhosted.org/packages/de/3d/fd8cfd598e209a2d298a2abad0f9167edb5f8d5025e54fc953c05bdc6457/django-dynamic-admin-forms-0.1.8.tar.gz
+[2023-05-23 10:52:30] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: bosch-alarm-mode2
+[2023-05-23 10:52:30] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 10:52:30] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 10:52:30] INFO root fetch - processPackages [succulent]: executing diffoscope
+[2023-05-23 10:52:30] INFO root fetch - processPackages [succulent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/succulent-0.1.1.tar.gz tmp/succulent-0.1.2.tar.gz --markdown 20230523/s/succulent/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 10:52:30] INFO root fetch - processPackages [collective.shariff]: executing diffoscope
+[2023-05-23 10:52:30] INFO root fetch - processPackages [collective.shariff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.shariff-2.0.1.tar.gz tmp/collective.shariff-3.0.0.tar.gz --markdown 20230523/c/collective.shariff/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:30] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-23 10:52:30] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.1.tar.gz tmp/bosch_alarm_mode2-0.3.2.tar.gz --markdown 20230523/b/bosch-alarm-mode2/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 10:52:30] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-23 10:52:30] INFO root fetch - processPackages [django-dynamic-admin-forms]: Downloading https://files.pythonhosted.org/packages/14/c8/b1012ad3e8dc70f462fa9f16f469652cd8ac007afd3b3d0a3311a43e1ea1/django-dynamic-admin-forms-1.0.0.tar.gz
+[2023-05-23 10:52:30] INFO root fetch - processPackages [django-dynamic-admin-forms]: executing diffoscope
+[2023-05-23 10:52:30] INFO root fetch - processPackages [django-dynamic-admin-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-admin-forms-0.1.8.tar.gz tmp/django-dynamic-admin-forms-1.0.0.tar.gz --markdown 20230523/d/django-dynamic-admin-forms/0.1.8-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 10:52:31] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2023-05-23 10:52:31] INFO root fetch - main [MainThread]: End processing [succulent]: success
+[2023-05-23 10:52:31] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-23 10:52:31] INFO root fetch - main [MainThread]: End processing [collective.ckeditortemplates]: success
+[2023-05-23 10:52:32] INFO root fetch - main [MainThread]: End processing [django-dynamic-admin-forms]: success
+[2023-05-23 10:52:32] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2023-05-23 10:52:34] INFO root fetch - main [MainThread]: End processing [collective.shariff]: success
+[2023-05-23 10:52:34] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-23 10:52:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-23 10:52:40] INFO root fetch - main [MainThread]: Store serial: [18211175]

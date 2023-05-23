@@ -13315,3 +13315,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 11:57:33] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
 [2023-05-23 11:57:34] INFO root fetch - main [MainThread]: End processing [arch]: success
 [2023-05-23 11:57:34] INFO root fetch - main [MainThread]: Store serial: [18211909]
+[2023-05-23 12:02:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211909]
+[2023-05-23 12:02:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tailraiders
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: govuk-frontend-django
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sherlockpipe
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khash
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-upbit-api
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wadi
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinxawesome-theme
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ukbiobank-loaders
+[2023-05-23 12:02:44] INFO root fetch - processPackages [tailraiders]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ukbiobank-loaders]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [python-upbit-api]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [wadi]: New version: [0.1.9.4] Old Version: [0.1.6]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [sphinxawesome-theme]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [khash]: New version: [0.5.0a5] Old Version: [0.5.0a4]
+[2023-05-23 12:02:44] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-05-23 12:02:44] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230523/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-23 12:02:44] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 12:02:44] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:02:44] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/90/bb/b4c2e3b8a9f2799dabe32f9a784fe789a315748e9c3d5079a2a6bbe59eef/tailraiders-0.0.5.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/5f/e4/513f4ec584b882531eee4d295320cffb580cca2d6bd6878b0f2b5f45ee42/amukhsimov-jupyter-templates-bigdata-0.0.2.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ukbiobank-loaders]: Downloading https://files.pythonhosted.org/packages/7e/06/586b7a6a87c863e2f2021364e8b1a3b74153b7f7d0052b72d4146d679240/ukbiobank_loaders-1.0.0.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [python-upbit-api]: Downloading https://files.pythonhosted.org/packages/53/64/d6360247cb97bbef24b30a28e9dfe5ed5b0985b8a01d7e5a48d5735afab2/python-upbit-api-1.0.1.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/58/91/56d83d55d61b814fc98a2c32635d570da29ae9afa0f88266fc7969788ef6/sphinxawesome_theme-5.0.0b1.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [wadi]: Downloading https://files.pythonhosted.org/packages/b7/67/0aec4fc20a3c3f5e91e7f86d6f6a18edded2e25ce9850b050ace07ea460d/wadi-0.1.9.4.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/62/27/d17bceb0124130ee3dcdfc7dc15822dbd914079f43629b3cbf7b3c480d32/govuk_frontend_django-0.3.4.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [khash]: Downloading https://files.pythonhosted.org/packages/cd/b5/3ba3bc8afe47d8d2c2a75e114988b8750a48e442d10c8908724e61c09ce0/khash-0.5.0a5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-05-23 12:02:44] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-05-23 12:02:44] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.3.tar.gz tmp/govuk_frontend_django-0.3.4.tar.gz --markdown 20230523/g/govuk-frontend-django/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-23 12:02:44] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/10/ba/7729f469eaed133fee95ea5704b8c1b15cd15a9f90e7f59eac5cad54a1fc/tailraiders-0.0.6.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [ukbiobank-loaders]: Downloading https://files.pythonhosted.org/packages/0a/3b/145a02ffec6532128df28b66ee7ffaecfaabd68eb4236e3869084f020b0d/ukbiobank_loaders-1.1.0.tar.gz
+[2023-05-23 12:02:44] INFO root fetch - processPackages [python-upbit-api]: Downloading https://files.pythonhosted.org/packages/39/1f/3da7e310ac8084dce9932167223da059d925b5a9a19bd80f7eb221771e84/python-upbit-api-1.1.0.tar.gz
+[2023-05-23 12:02:45] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wadi-0.1.6.tar.gz tmp/wadi-0.1.9.4.tar.gz --markdown 20230523/w/wadi/0.1.6-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/d2/85/3c43649b4a6d83381f769758583ac6cbb0482c4a1ab1ad132f3ab01236a2/amukhsimov-jupyter-templates-bigdata-0.0.3.tar.gz
+[2023-05-23 12:02:45] INFO root fetch - processPackages [python-upbit-api]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [python-upbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-upbit-api-1.0.1.tar.gz tmp/python-upbit-api-1.1.0.tar.gz --markdown 20230523/p/python-upbit-api/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [sphinxawesome-theme]: Downloading https://files.pythonhosted.org/packages/21/06/99c37cf704965267bbd66cc4329bc8446aa446b0181ac5fad10aa0a3ca44/sphinxawesome_theme-5.0.0b2.tar.gz
+[2023-05-23 12:02:45] INFO root fetch - processPackages [khash]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [khash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khash-0.5.0a4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/khash-0.5.0a5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230523/k/khash/0.5.0a4-0.5.0a5/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.5.tar.gz tmp/tailraiders-0.0.6.tar.gz --markdown 20230523/t/tailraiders/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [ukbiobank-loaders]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [ukbiobank-loaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukbiobank_loaders-1.0.0.tar.gz tmp/ukbiobank_loaders-1.1.0.tar.gz --markdown 20230523/u/ukbiobank-loaders/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.2.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.3.tar.gz --markdown 20230523/a/amukhsimov-jupyter-templates-bigdata/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 12:02:45] INFO root fetch - processPackages [sphinxawesome-theme]: executing diffoscope
+[2023-05-23 12:02:45] INFO root fetch - processPackages [sphinxawesome-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxawesome_theme-5.0.0b1.tar.gz tmp/sphinxawesome_theme-5.0.0b2.tar.gz --markdown 20230523/s/sphinxawesome-theme/5.0.0b1-5.0.0b2/diff.md --exclude *.pyd
+[2023-05-23 12:02:46] INFO root fetch - processPackages [python-upbit-api]: Start processing: FishProcessManagement
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [python-upbit-api]: success
+[2023-05-23 12:02:46] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.5] Old Version: [2023.5.23.4]
+[2023-05-23 12:02:46] INFO root fetch - processPackages [wadi]: Start processing: cloud-toolkit-aws
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-05-23 12:02:46] INFO root fetch - processPackages [cloud-toolkit-aws]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 12:02:46] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Start processing: easys-ordermanager
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-05-23 12:02:46] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/b5/90/2b593bcf868d19730ad0f1284b4724e047c619dd13854b48e0e94fe4ac0b/FishProcessManagement-2023.5.23.4.tar.gz
+[2023-05-23 12:02:46] INFO root fetch - processPackages [sherlockpipe]: Start processing: pyPLNmodels
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-05-23 12:02:46] INFO root fetch - processPackages [tailraiders]: Start processing: cxwidgets
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-23 12:02:46] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-05-23 12:02:46] INFO root fetch - processPackages [cxwidgets]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 12:02:46] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 12:02:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: openhexa.sdk
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 12:02:46] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-05-23 12:02:47] INFO root fetch - processPackages [cxwidgets]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [cxwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxwidgets-0.8.tar.gz tmp/cxwidgets-0.9.tar.gz --markdown 20230523/c/cxwidgets/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 12:02:47] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230523/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:02:47] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/1b/2d/b13b8555ed3f3ffae7d1b4bb6b4fbe2357011142489a56909e6ba39cbaf5/FishProcessManagement-2023.5.23.5.tar.gz
+[2023-05-23 12:02:47] INFO root fetch - processPackages [cloud-toolkit-aws]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [cloud-toolkit-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_toolkit_aws-0.9.0.tar.gz tmp/cloud_toolkit_aws-0.9.1.tar.gz --markdown 20230523/c/cloud-toolkit-aws/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 12:02:47] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/42/f1/b98049c02cf225018b94020b1284bacaefd999d94ac310d512e3051caac7/easys-ordermanager-2.1.3.tar.gz
+[2023-05-23 12:02:47] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 12:02:47] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.4.tar.gz tmp/FishProcessManagement-2023.5.23.5.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23.4-2023.5.23.5/diff.md --exclude *.pyd
+[2023-05-23 12:02:47] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-05-23 12:02:47] INFO root fetch - main [MainThread]: End processing [ukbiobank-loaders]: success
+[2023-05-23 12:02:47] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/dc/a3/12488e1a513d65bab9a724a4847ba00809df148f62e4ca16a9980e195ca3/easys-ordermanager-2.2.0.tar.gz
+[2023-05-23 12:02:47] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.1.3.tar.gz tmp/easys-ordermanager-2.2.0.tar.gz --markdown 20230523/e/easys-ordermanager/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-05-23 12:02:47] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-05-23 12:02:47] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-23 12:02:47] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230523/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 12:02:48] INFO root fetch - main [MainThread]: End processing [cxwidgets]: success
+[2023-05-23 12:02:48] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 12:02:48] INFO root fetch - main [MainThread]: End processing [cloud-toolkit-aws]: success
+[2023-05-23 12:02:48] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-23 12:02:49] INFO root fetch - main [MainThread]: End processing [sphinxawesome-theme]: success
+[2023-05-23 12:02:49] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-05-23 12:02:49] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-05-23 12:02:52] INFO root fetch - main [MainThread]: End processing [khash]: success
+[2023-05-23 12:02:52] INFO root fetch - main [MainThread]: Store serial: [18212018]

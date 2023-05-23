@@ -18259,3 +18259,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:01:57] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-23 16:02:03] INFO root fetch - main [MainThread]: End processing [earthkit-data]: success
 [2023-05-23 16:02:03] INFO root fetch - main [MainThread]: Store serial: [18214813]
+[2023-05-23 16:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214813]
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhttpx
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugget
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xarrayaita
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bgstools
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgecrew
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logger-local-python-package
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phap
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edwh
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: etherbase-predeployed
+[2023-05-23 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odh-core
+[2023-05-23 16:07:13] WARNING root fetch - processPackages [phap]: Skipping, unable to determine old version
+[2023-05-23 16:07:13] INFO root fetch - processPackages [phap]: Start processing: xml-json-serializer2
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: End processing [phap] error
+[2023-05-23 16:07:13] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [logger-local-python-package]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.2] Old Version: [2.10.1]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [xarrayaita]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.15]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [bgstools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [plugget]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 16:07:13] WARNING root fetch - processPackages [xml-json-serializer2]: Skipping, unable to determine old version
+[2023-05-23 16:07:13] INFO root fetch - processPackages [xml-json-serializer2]: Start processing: predeployed-generator
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: End processing [xml-json-serializer2] error
+[2023-05-23 16:07:13] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-23 16:07:13] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-23 16:07:13] INFO root fetch - processPackages [edwh]: Start processing: soraya
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-23 16:07:13] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/48/4d/06e97013cb84123d2a312e0e4e2bd030c3fb4c9717ebc8facaa5b7a466b5/odh_core-0.1.15.tar.gz
+[2023-05-23 16:07:13] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/6c/93/c95dbf93d13c1fc2b7cbd9573fc49901706ae733a246c396804a4603cd14/pyhttpx-2.10.1.tar.gz
+[2023-05-23 16:07:13] INFO root fetch - processPackages [predeployed-generator]: New version: [1.1.0b0] Old Version: [1.1.0a9]
+[2023-05-23 16:07:13] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/cf/57/1da1169f53234d66612b37b79c244d3a51e4e125c3173b774b97cbcbe659/plugget-0.0.8.tar.gz
+[2023-05-23 16:07:13] INFO root fetch - processPackages [xarrayaita]: Downloading https://files.pythonhosted.org/packages/1c/f5/cd8233e082ba065d29e17ebe251033ce5d05ad1616f8e853a2442b61f08a/xarrayaita-0.2.6-py3-none-any.whl
+[2023-05-23 16:07:13] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/d4/df/14874b312482a1d2f324c0de32c9c0aca75fe909c54cc28aebf046037b36/etherbase-predeployed-1.1.0b1.tar.gz
+[2023-05-23 16:07:13] WARNING root fetch - processPackages [soraya]: Skipping, unable to determine old version
+[2023-05-23 16:07:13] INFO root fetch - processPackages [soraya]: Start processing: foldedtensor
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: End processing [soraya] error
+[2023-05-23 16:07:13] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-23 16:07:13] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230523/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 16:07:13] WARNING root fetch - processPackages [foldedtensor]: Skipping, unable to determine old version
+[2023-05-23 16:07:13] INFO root fetch - processPackages [foldedtensor]: Start processing: e2xauthoring
+[2023-05-23 16:07:13] INFO root fetch - main [MainThread]: End processing [foldedtensor] error
+[2023-05-23 16:07:14] INFO root fetch - processPackages [logger-local-python-package]: Downloading https://files.pythonhosted.org/packages/b8/f8/7a376c55d59d7a7a9222ad4546f923d9575d28c1436a62ba17a6d0168220/logger-local-python-package-0.0.4.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/b8/4b/bf0e95370c579ffe07483d1601135e220f6c2e8e08e599d0853c6c0299ca/bgstools-0.1.4.tar.gz
+[2023-05-23 16:07:14] WARNING root fetch - processPackages [e2xauthoring]: Skipping, unable to determine old version
+[2023-05-23 16:07:14] INFO root fetch - processPackages [e2xauthoring]: Start processing: pix-framework
+[2023-05-23 16:07:14] INFO root fetch - main [MainThread]: End processing [e2xauthoring] error
+[2023-05-23 16:07:14] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/a7/9f/b5b43746575d958eba72d610f009844df6c74d2d0f02202229d513cc9bcc/predeployed-generator-1.1.0a9.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/82/7f/07d0644919012ba92f4abb361ca86bbbf8f7c12230d12aeaa26899eccdb7/plugget-0.0.9.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [logger-local-python-package]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [logger-local-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-python-package-0.0.3.tar.gz tmp/logger-local-python-package-0.0.4.tar.gz --markdown 20230523/l/logger-local-python-package/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.3.tar.gz tmp/bgstools-0.1.4.tar.gz --markdown 20230523/b/bgstools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.15.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230523/o/odh-core/0.1.15-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/90/2d/d5462535398bdf4f66a0af9dd63e39bacbdeb4e5a37266bff91dd8e57f93/pyhttpx-2.10.2.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [xarrayaita]: Downloading https://files.pythonhosted.org/packages/04/43/29c1a23db7151646ae934f65f3ceadb941a4a81bf2f6f5e211c304665df3/xarrayaita-0.2.7-py3-none-any.whl
+[2023-05-23 16:07:14] INFO root fetch - processPackages [plugget]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [plugget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugget-0.0.8.tar.gz tmp/plugget-0.0.9.tar.gz --markdown 20230523/p/plugget/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pix-framework]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.1.tar.gz tmp/pyhttpx-2.10.2.tar.gz --markdown 20230523/p/pyhttpx/2.10.1-2.10.2/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [xarrayaita]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [xarrayaita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarrayaita-0.2.6-py3-none-any.whl.zip tmp/xarrayaita-0.2.7-py3-none-any.whl.zip --markdown 20230523/x/xarrayaita/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b1.tar.gz tmp/etherbase-predeployed-1.1.0b2.tar.gz --markdown 20230523/e/etherbase-predeployed/1.1.0b1-1.1.0b2/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/69/03/47e38ebf8dd923f3c9dc541c86ec01c031fb222eeddc4ca78423b7a5e040/pix_framework-0.8.4.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/35/79/786657f74eaf589e106d47e94ee170c9e19d08c551ce3d9cc0c412154145/predeployed-generator-1.1.0b0.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [predeployed-generator]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [predeployed-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predeployed-generator-1.1.0a9.tar.gz tmp/predeployed-generator-1.1.0b0.tar.gz --markdown 20230523/p/predeployed-generator/1.1.0a9-1.1.0b0/diff.md --exclude *.pyd
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/68/79/fe80112532192e78a8bdabbbfdf915940505cf7b33ace47385711ad22b6c/pix_framework-0.8.5.tar.gz
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-05-23 16:07:14] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.4.tar.gz tmp/pix_framework-0.8.5.tar.gz --markdown 20230523/p/pix-framework/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-23 16:07:15] INFO root fetch - processPackages [bridgecrew]: Start processing: dwiqc
+[2023-05-23 16:07:15] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-23 16:07:15] INFO root fetch - processPackages [dwiqc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 16:07:15] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/2e/80/419516a25fdde39d75ba0e2ae999f14ca73e68ab2f71ad845626c167b000/dwiqc-0.1.9-py2.py3-none-any.whl
+[2023-05-23 16:07:15] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-05-23 16:07:15] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-23 16:07:15] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.9-py2.py3-none-any.whl.zip --markdown 20230523/d/dwiqc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:07:15] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-05-23 16:07:15] INFO root fetch - main [MainThread]: End processing [logger-local-python-package]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [plugget]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [xarrayaita]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-05-23 16:07:16] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
+[2023-05-23 16:07:17] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-23 16:07:17] INFO root fetch - main [MainThread]: Store serial: [18214871]

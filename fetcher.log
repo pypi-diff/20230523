@@ -9199,3 +9199,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 
 [2023-05-23 07:41:33] INFO root fetch - main [MainThread]: End processing [icetcore] error
 [2023-05-23 07:41:33] INFO root fetch - main [MainThread]: Store serial: [18209447]
+[2023-05-23 07:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209447]
+[2023-05-23 07:46:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-shopfloor
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagworm
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyikarus
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MandiriUtils
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mobilex
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: common-test
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irisml
+[2023-05-23 07:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoxx
+[2023-05-23 07:46:42] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230523054213] Old Version: [0.3.3.dev20230522210851]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [MandiriUtils]: New version: [0.4] Old Version: [0.2]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [mobilex]: New version: [0.0.4a0] Old Version: [0.0.4]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [autoxx]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [common-test]: New version: [29.9.41] Old Version: [29.9.40]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [irisml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [hagworm]: New version: [5.5.6] Old Version: [5.5.5]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-23 07:46:42] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.40.tar.gz tmp/common-test-29.9.41.tar.gz --markdown 20230523/c/common-test/29.9.40-29.9.41/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [mobilex]: Downloading https://files.pythonhosted.org/packages/88/3e/3679794d3953373115678ecbb082493510bad95ee86e58b767bed8ae04ee/mobilex-0.0.4.tar.gz
+[2023-05-23 07:46:42] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230523/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/b2/f4/8b46bbbff354a732c308bcca10311171cf6a841e47c4b5e4e6c8bae273b7/MandiriUtils-0.4.tar.gz
+[2023-05-23 07:46:42] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/de/68/514d881cde69c44c1e01611be80b8387e12811d6d2fe4d79bd09d36e94b9/pyikarus-0.3.3.dev20230523054213.tar.gz
+[2023-05-23 07:46:42] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/33/92/d5fe7f23972a7a9e7921f7bad4c98430d8782aa38e6369c6d4ef3a205e01/autoxx-0.0.21.tar.gz
+[2023-05-23 07:46:42] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.2.tar.gz tmp/MandiriUtils-0.4.tar.gz --markdown 20230523/M/MandiriUtils/0.2-0.4/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/74/ea/1ee6da1c348a7af64bf229dd3aa4cacab6f344eef82cd53ba47e3d191cd5/hagworm-5.5.6.tar.gz
+[2023-05-23 07:46:42] INFO root fetch - processPackages [irisml]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [irisml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-0.0.8.tar.gz tmp/irisml-0.0.9.tar.gz --markdown 20230523/i/irisml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.20.tar.gz tmp/autoxx-0.0.21.tar.gz --markdown 20230523/a/autoxx/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [mobilex]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [mobilex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobilex-0.0.4.tar.gz tmp/mobilex-0.0.4a0.tar.gz --markdown 20230523/m/mobilex/0.0.4-0.0.4a0/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230522210851.tar.gz tmp/pyikarus-0.3.3.dev20230523054213.tar.gz --markdown 20230523/p/pyikarus/0.3.3.dev20230522210851-0.3.3.dev20230523054213/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-05-23 07:46:42] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-05-23 07:46:42] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.5.5.tar.gz tmp/hagworm-5.5.6.tar.gz --markdown 20230523/h/hagworm/5.5.5-5.5.6/diff.md --exclude *.pyd
+[2023-05-23 07:46:44] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 07:46:44] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 07:46:44] INFO root fetch - main [MainThread]: End processing [irisml]: success
+[2023-05-23 07:46:44] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-05-23 07:46:44] INFO root fetch - main [MainThread]: End processing [mobilex]: success
+[2023-05-23 07:46:45] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-23 07:46:45] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-23 07:46:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-05-23 07:46:46] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-23 07:46:46] INFO root fetch - main [MainThread]: Store serial: [18209478]

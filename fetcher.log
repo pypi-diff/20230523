@@ -17981,3 +17981,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:50:40] INFO root fetch - main [MainThread]: End processing [bemserver-api-client]: success
 [2023-05-23 15:50:41] INFO root fetch - main [MainThread]: End processing [talondoc]: success
 [2023-05-23 15:50:41] INFO root fetch - main [MainThread]: Store serial: [18214620]
+[2023-05-23 15:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214620]
+[2023-05-23 15:55:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautobot-ssot
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kronbinations
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boneflet
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice-vehicle
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytket-qir
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UEVaultManager
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xml-json-serializers
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eotdl-cli
+[2023-05-23 15:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waveforms
+[2023-05-23 15:55:51] INFO root fetch - processPackages [nautobot-ssot]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.5.9.post4] Old Version: [2023.5.9.post3]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [kronbinations]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [pytket-qir]: New version: [0.2.0rc5] Old Version: [0.2.0rc4]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [boneflet]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2023-05-23 15:55:51] WARNING root fetch - processPackages [xml-json-serializers]: Skipping, unable to determine old version
+[2023-05-23 15:55:51] INFO root fetch - processPackages [UEVaultManager]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [xml-json-serializers]: Start processing: woob
+[2023-05-23 15:55:51] INFO root fetch - main [MainThread]: End processing [xml-json-serializers] error
+[2023-05-23 15:55:51] INFO root fetch - processPackages [waveforms]: New version: [1.5.98] Old Version: [1.5.97]
+[2023-05-23 15:55:51] INFO root fetch - processPackages [woob]: New version: [3.6] Old Version: [3.5]
+[2023-05-23 15:55:52] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-23 15:55:52] INFO root fetch - processPackages [nautobot-ssot]: Downloading https://files.pythonhosted.org/packages/16/c2/63979743f5539a855edd5ed3428c4410386a72c4d51571977001ab2d6a30/nautobot_ssot-1.3.1.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: Downloading https://files.pythonhosted.org/packages/c4/04/2894e071446f89f1fd0adda284ed30ddb499c1e1edebbc83d7a5dd2d14bc/odoo_addon_fieldservice_vehicle-15.0.1.0.1-py3-none-any.whl
+[2023-05-23 15:55:52] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230523/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [boneflet]: Downloading https://files.pythonhosted.org/packages/da/03/1899829fa7124d094b636da703763fa20ba2808b4038a795e7c60bd2cf7d/boneflet-0.1.0.dev3.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/5e/58/9e746e14833ee810d14c7b7d9f661ab0a608a1f898e6fbb66d1ccb38fa28/UEVaultManager-1.4.3.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [kronbinations]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [kronbinations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kronbinations-1.8.tar.gz tmp/kronbinations-1.9.tar.gz --markdown 20230523/k/kronbinations/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/f7/26/9892d4a7ba9f056f1001f9860a8e9e5488342fbb04033824098f8e25dfcb/waveforms-1.5.97.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [woob]: Downloading https://files.pythonhosted.org/packages/bc/6b/007a19a00f8156c8c4d18abbe4d0a81bc2669b564f37e69152cdc73db72a/woob-3.5.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [boneflet]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [boneflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boneflet-0.1.0.dev2.tar.gz tmp/boneflet-0.1.0.dev3.tar.gz --markdown 20230523/b/boneflet/0.1.0.dev2-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.5.9.post3.tar.gz tmp/eotdl-cli-2023.5.9.post4.tar.gz --markdown 20230523/e/eotdl-cli/2023.5.9.post3-2023.5.9.post4/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [nautobot-ssot]: Downloading https://files.pythonhosted.org/packages/34/71/2ea84288dcfe1875923705fe7a47ad422662ba2be04f0d897da8cda52e7e/nautobot_ssot-1.3.2.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/55/a8/e81a6bb94cc8187e03093c85573c891850e54da07c125778e788237ea8a9/pytket_qir-0.2.0rc5-py3-none-any.whl
+[2023-05-23 15:55:52] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: Downloading https://files.pythonhosted.org/packages/26/3f/99b339aa49242cfc725eab18044c0bac2a62e3325c89c04256abaf5a4048/odoo_addon_fieldservice_vehicle-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-23 15:55:52] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.4.2.tar.gz tmp/UEVaultManager-1.4.3.tar.gz --markdown 20230523/U/UEVaultManager/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [nautobot-ssot]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [nautobot-ssot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_ssot-1.3.1.tar.gz tmp/nautobot_ssot-1.3.2.tar.gz --markdown 20230523/n/nautobot-ssot/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [pytket-qir]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [pytket-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_qir-0.2.0rc4-py3-none-any.whl.zip tmp/pytket_qir-0.2.0rc5-py3-none-any.whl.zip --markdown 20230523/p/pytket-qir/0.2.0rc4-0.2.0rc5/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/aa/8c/cfb1d5a8c7b1d31b330f9ea93cf0ff1cc55e23d52e5154e3a53905a49ecc/waveforms-1.5.98.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [woob]: Downloading https://files.pythonhosted.org/packages/cf/10/3eb104a43ab4ff3109109883382bdfee663412e8fda2967d0ab220479240/woob-3.6.tar.gz
+[2023-05-23 15:55:52] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_vehicle-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_vehicle-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-fieldservice-vehicle/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.97.tar.gz tmp/waveforms-1.5.98.tar.gz --markdown 20230523/w/waveforms/1.5.97-1.5.98/diff.md --exclude *.pyd
+[2023-05-23 15:55:52] INFO root fetch - processPackages [woob]: executing diffoscope
+[2023-05-23 15:55:52] INFO root fetch - processPackages [woob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woob-3.5.tar.gz tmp/woob-3.6.tar.gz --markdown 20230523/w/woob/3.5-3.6/diff.md --exclude *.pyd
+[2023-05-23 15:55:53] INFO root fetch - processPackages [boneflet]: Start processing: checkov
+[2023-05-23 15:55:53] INFO root fetch - main [MainThread]: End processing [boneflet]: success
+[2023-05-23 15:55:53] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 15:55:53] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 15:55:53] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 15:55:53] INFO root fetch - processPackages [kronbinations]: Start processing: stigg-api-client
+[2023-05-23 15:55:53] INFO root fetch - main [MainThread]: End processing [kronbinations]: success
+[2023-05-23 15:55:54] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 15:55:54] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 15:55:54] INFO root fetch - processPackages [eotdl-cli]: Start processing: proactive
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-05-23 15:55:54] INFO root fetch - processPackages [pytket-qir]: Start processing: genocide
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [pytket-qir]: success
+[2023-05-23 15:55:54] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-23 15:55:54] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2023-05-23 15:55:54] INFO root fetch - processPackages [odoo-addon-fieldservice-vehicle]: Start processing: libcnmc
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-vehicle]: success
+[2023-05-23 15:55:54] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [UEVaultManager]: Start processing: fathom-global-client-sdk
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-23 15:55:54] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-23 15:55:54] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-23 15:55:54] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-23 15:55:54] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230523/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-23 15:55:54] INFO root fetch - processPackages [fathom-global-client-sdk]: New version: [0.2.0rc1] Old Version: [0.2.0]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-23 15:55:54] INFO root fetch - processPackages [fathom-global-client-sdk]: Downloading https://files.pythonhosted.org/packages/a0/c3/08a178d4c71c7e1633261a52af7fcb0fe1d703b4842dcccea4c32608641a/fathom_global_client_sdk-0.2.0-py3-none-any.whl
+[2023-05-23 15:55:54] INFO root fetch - processPackages [nautobot-ssot]: Start processing: mindee
+[2023-05-23 15:55:54] INFO root fetch - main [MainThread]: End processing [nautobot-ssot]: success
+[2023-05-23 15:55:55] INFO root fetch - processPackages [mindee]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-05-23 15:55:55] INFO root fetch - processPackages [fathom-global-client-sdk]: executing diffoscope
+[2023-05-23 15:55:55] INFO root fetch - processPackages [fathom-global-client-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fathom_global_client_sdk-0.2.0-py3-none-any.whl.zip tmp/fathom_global_client_sdk-0.2.0rc1-py3-none-any.whl.zip --markdown 20230523/f/fathom-global-client-sdk/0.2.0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-05-23 15:55:55] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-23 15:55:55] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230523/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-23 15:55:55] INFO root fetch - processPackages [stigg-api-client]: Start processing: maturin
+[2023-05-23 15:55:55] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 15:55:55] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/5e/9a/0e4d3d9cd35e3b181ef8c6742dfc2d08a63b4dd6c14fd7d2b8151cc875e5/mindee-3.8.1.tar.gz
+[2023-05-23 15:55:55] INFO root fetch - processPackages [maturin]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-23 15:55:55] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2023-05-23 15:55:55] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/01/69/2cd3cdcef21de4f3cc14eb6777d1ccad09b71c8bf1ec7bbb6ef3ab5bd02c/mindee-3.8.2.tar.gz
+[2023-05-23 15:55:55] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2023-05-23 15:55:55] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-3.8.1.tar.gz tmp/mindee-3.8.2.tar.gz --markdown 20230523/m/mindee/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-05-23 15:55:55] INFO root fetch - processPackages [maturin]: executing diffoscope
+[2023-05-23 15:55:55] INFO root fetch - processPackages [maturin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maturin-1.0.0b8.tar.gz tmp/maturin-1.0.0b9.tar.gz --markdown 20230523/m/maturin/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-23 15:55:56] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2023-05-23 15:55:56] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20230523/g/genocide/90-91/diff.md --exclude *.pyd
+[2023-05-23 15:55:56] INFO root fetch - main [MainThread]: End processing [fathom-global-client-sdk]: success
+[2023-05-23 15:55:56] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-23 15:55:57] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2023-05-23 15:55:57] INFO root fetch - main [MainThread]: End processing [maturin]: success
+[2023-05-23 15:55:57] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-23 15:55:58] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-05-23 15:55:58] INFO root fetch - main [MainThread]: End processing [woob]: success
+[2023-05-23 15:55:59] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-23 15:56:00] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2023-05-23 15:56:33] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 15:56:33] INFO root fetch - main [MainThread]: Store serial: [18214706]

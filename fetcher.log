@@ -1971,3 +1971,141 @@
 [2023-05-23 02:51:29] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-05-23 02:51:29] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
 [2023-05-23 02:51:29] INFO root fetch - main [MainThread]: Store serial: [18205706]
+[2023-05-23 02:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205706]
+[2023-05-23 02:56:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitoinstaller
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tetra-hub
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycde
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: askCO
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mitosheet
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-05-23 02:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stoobly-agent
+[2023-05-23 02:56:39] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [askCO]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [tetra-hub]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [mitosheet]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230523/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-05-23 02:56:39] INFO root fetch - processPackages [tetra-hub]: Downloading https://files.pythonhosted.org/packages/61/00/936d782537aee5413333221face03208b9fd7558eaa177b2a21030f63440/tetra_hub-0.6.0-py3-none-any.whl
+[2023-05-23 02:56:39] INFO root fetch - processPackages [mitosheet]: Downloading https://files.pythonhosted.org/packages/8f/ca/cfa5a04a8bad41705bac5f84cf0c0a38c2e86f34a87c85d097c82dd321da/mitosheet-0.1.98.tar.gz
+[2023-05-23 02:56:39] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230523/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/b0/e5/8d71bcb686588b435da5d4ddfd8bccd74022e0fb2b90bf981026f7b7388a/askCO-0.0.4.tar.gz
+[2023-05-23 02:56:39] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230523/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230523/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] INFO root fetch - processPackages [askCO]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [askCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askCO-0.0.3.tar.gz tmp/askCO-0.0.4.tar.gz --markdown 20230523/a/askCO/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] INFO root fetch - processPackages [tetra-hub]: Downloading https://files.pythonhosted.org/packages/c2/12/f177b41b783ee4a2cf80ce24e06166734694dd7f314812b4bcc392f6e63a/tetra_hub-0.6.1-py3-none-any.whl
+[2023-05-23 02:56:39] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-05-23 02:56:39] INFO root fetch - processPackages [tetra-hub]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [tetra-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetra_hub-0.6.0-py3-none-any.whl.zip tmp/tetra_hub-0.6.1-py3-none-any.whl.zip --markdown 20230523/t/tetra-hub/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-23 02:56:39] WARNING root fetch - processPackages [mitosheet]: Skipping package: exceeds size limit 14622615>=10485760
+[2023-05-23 02:56:39] INFO root fetch - main [MainThread]: End processing [mitosheet] error
+[2023-05-23 02:56:39] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-05-23 02:56:39] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230523/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-23 02:56:40] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-23 02:56:40] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-05-23 02:56:40] INFO root fetch - main [MainThread]: End processing [askCO]: success
+[2023-05-23 02:56:41] INFO root fetch - main [MainThread]: End processing [tetra-hub]: success
+[2023-05-23 02:56:41] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-05-23 02:56:59] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-23 02:57:21] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140254170325408)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140254036106736)
+
+[2023-05-23 02:57:21] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-05-23 02:57:21] INFO root fetch - main [MainThread]: Store serial: [18205730]

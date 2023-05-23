@@ -14865,3 +14865,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:40:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-pds20220301]: success
 [2023-05-23 13:40:02] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
 [2023-05-23 13:40:02] INFO root fetch - main [MainThread]: Store serial: [18212978]
+[2023-05-23 13:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212978]
+[2023-05-23 13:45:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asgi-matomo
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubetools
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlas-splitter
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mly
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frequenz-api-common
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jadn
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphalogic-api
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-23 13:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkov
+[2023-05-23 13:45:12] INFO root fetch - processPackages [atlas-splitter]: New version: [0.1.2] Old Version: [0.1.1.dev1]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [jadn]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [asgi-matomo]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cubetools]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [frequenz-api-common]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [mly]: New version: [0.3.4.3] Old Version: [0.3.4.2]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [alphalogic-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/2a/5b/10a936c4c771c1d59e6e2c1e924b9c9aef362df7cca065d2af47473458f7/nonebot_plugin_spark_gpt-0.2.4.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:45:12] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:45:12] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 13:45:12] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11274106>=10485760
+[2023-05-23 13:45:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: cm-two
+[2023-05-23 13:45:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cm-two]: New version: [2.3.15] Old Version: [2.3.14]
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/7c/0d/fa0986db2c3be52656d7619d539cb5a545455e63108f3ae8e23456628803/cubetools-0.3.9.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [jadn]: Downloading https://files.pythonhosted.org/packages/43/30/c4df4f3340a4e6887723914651f5e1dbfde18ddb940ec60fa20ca4937d35/jadn-0.6.8.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [atlas-splitter]: Downloading https://files.pythonhosted.org/packages/5a/1c/670409f5e3f7c354ff75c127187599e79fc5923d2892c3cf12210b6c8569/atlas-splitter-0.1.1.dev1.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/7e/9e/af000c42aa76d49e0a85647815ae777cb991c4401bf183aa6cbc806438fe/mly-0.3.4.2.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [frequenz-api-common]: Downloading https://files.pythonhosted.org/packages/32/8d/e06213eb398927bba3c47a2062e8c335943333f22d90f3add4aa4b8997d9/frequenz-api-common-0.1.0.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [asgi-matomo]: Downloading https://files.pythonhosted.org/packages/1c/f6/bcc6343004264494505c6943b9213b0f846fcfb53bd08dab185b15eedf65/asgi_matomo-0.3.1.tar.gz
+[2023-05-23 13:45:12] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 13:45:12] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.8.tar.gz tmp/cubetools-0.3.9.tar.gz --markdown 20230523/c/cubetools/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-23 13:45:12] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.14-py3-none-any.whl.zip tmp/cm_two-2.3.15-py3-none-any.whl.zip --markdown 20230523/c/cm-two/2.3.14-2.3.15/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [alphalogic-api]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [alphalogic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphalogic_api-0.0.8.zip tmp/alphalogic_api-0.0.9.zip --markdown 20230523/a/alphalogic-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [asgi-matomo]: Downloading https://files.pythonhosted.org/packages/67/da/eea9cd54a8a4f71144127cd787e327b2cc3c7fe88e22e1ec753d1aea6e38/asgi_matomo-0.3.2.tar.gz
+[2023-05-23 13:45:13] INFO root fetch - processPackages [frequenz-api-common]: Downloading https://files.pythonhosted.org/packages/38/62/74333f8e2bfe933fd6436b62becff109f633d53e1ac6b588ae28554940c1/frequenz-api-common-0.2.0.tar.gz
+[2023-05-23 13:45:13] INFO root fetch - processPackages [atlas-splitter]: Downloading https://files.pythonhosted.org/packages/df/90/7f6bc2e0b7cac44d2fd038caf32401b653632784a306152d86d2edc68044/atlas-splitter-0.1.2.tar.gz
+[2023-05-23 13:45:13] INFO root fetch - processPackages [asgi-matomo]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [asgi-matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_matomo-0.3.1.tar.gz tmp/asgi_matomo-0.3.2.tar.gz --markdown 20230523/a/asgi-matomo/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [frequenz-api-common]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [frequenz-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-common-0.1.0.tar.gz tmp/frequenz-api-common-0.2.0.tar.gz --markdown 20230523/f/frequenz-api-common/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/e6/76/aa414598214bb988e21ba12a76cfc3fb3473e11423ef904ed82091982806/mly-0.3.4.3.tar.gz
+[2023-05-23 13:45:13] INFO root fetch - processPackages [jadn]: Downloading https://files.pythonhosted.org/packages/37/94/ffa5947423ba50ad670d2cc7cb496a5a19fb7a187c39fdec47bad09fcb7e/jadn-0.6.9.tar.gz
+[2023-05-23 13:45:13] INFO root fetch - processPackages [atlas-splitter]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [atlas-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-splitter-0.1.1.dev1.tar.gz tmp/atlas-splitter-0.1.2.tar.gz --markdown 20230523/a/atlas-splitter/0.1.1.dev1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [jadn]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [jadn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadn-0.6.8.tar.gz tmp/jadn-0.6.9.tar.gz --markdown 20230523/j/jadn/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-23 13:45:13] INFO root fetch - processPackages [mly]: executing diffoscope
+[2023-05-23 13:45:13] INFO root fetch - processPackages [mly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly-0.3.4.2.tar.gz tmp/mly-0.3.4.3.tar.gz --markdown 20230523/m/mly/0.3.4.2-0.3.4.3/diff.md --exclude *.pyd
+[2023-05-23 13:45:14] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-23 13:45:14] INFO root fetch - processPackages [cm-two]: Start processing: json-schema-himarc
+[2023-05-23 13:45:14] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-23 13:45:14] INFO root fetch - processPackages [json-schema-himarc]: New version: [2.9.13] Old Version: [2.9.12]
+[2023-05-23 13:45:14] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-23 13:45:14] INFO root fetch - processPackages [json-schema-himarc]: Downloading https://files.pythonhosted.org/packages/d9/7f/a5998e62dc2e7df4a6188d93053aec7c715678aaef3e97f242c839a7770d/json_schema_himarc-2.9.12.tar.gz
+[2023-05-23 13:45:14] INFO root fetch - main [MainThread]: End processing [asgi-matomo]: success
+[2023-05-23 13:45:14] INFO root fetch - main [MainThread]: End processing [alphalogic-api]: success
+[2023-05-23 13:45:14] INFO root fetch - processPackages [json-schema-himarc]: Downloading https://files.pythonhosted.org/packages/6c/73/4a6e46fd9710f4b9d048d95a98409005e95c7d0826f223065954a50a12c2/json_schema_himarc-2.9.13.tar.gz
+[2023-05-23 13:45:15] INFO root fetch - processPackages [json-schema-himarc]: executing diffoscope
+[2023-05-23 13:45:15] INFO root fetch - processPackages [json-schema-himarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_schema_himarc-2.9.12.tar.gz tmp/json_schema_himarc-2.9.13.tar.gz --markdown 20230523/j/json-schema-himarc/2.9.12-2.9.13/diff.md --exclude *.pyd
+[2023-05-23 13:45:15] INFO root fetch - main [MainThread]: End processing [frequenz-api-common]: success
+[2023-05-23 13:45:15] INFO root fetch - main [MainThread]: End processing [jadn]: success
+[2023-05-23 13:45:16] INFO root fetch - main [MainThread]: End processing [json-schema-himarc]: success
+[2023-05-23 13:45:16] INFO root fetch - main [MainThread]: End processing [mly]: success
+[2023-05-23 13:45:17] INFO root fetch - main [MainThread]: End processing [atlas-splitter]: success
+[2023-05-23 13:45:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:45:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 13:45:51] INFO root fetch - main [MainThread]: Store serial: [18213015]

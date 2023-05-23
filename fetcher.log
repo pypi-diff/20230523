@@ -1330,3 +1330,59 @@
 [2023-05-23 02:04:12] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
 [2023-05-23 02:04:13] INFO root fetch - main [MainThread]: End processing [stow]: success
 [2023-05-23 02:04:13] INFO root fetch - main [MainThread]: Store serial: [18205370]
+[2023-05-23 02:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205370]
+[2023-05-23 02:09:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numpyro-ext
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rds-core
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchlayers-nightly
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vesselapi
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AlgorithmADTs
+[2023-05-23 02:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wom-py
+[2023-05-23 02:09:22] INFO root fetch - processPackages [numpyro-ext]: New version: [0.0.2rc1] Old Version: [0.0.1]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230522] Old Version: [0.0.8.dev20230521]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1684714051] Old Version: [1684627659]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.23.0]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [numpyro-ext]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [numpyro-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpyro-ext-0.0.1.tar.gz tmp/numpyro-ext-0.0.2rc1.tar.gz --markdown 20230523/n/numpyro-ext/0.0.1-0.0.2rc1/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [rds-core]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [wom-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230523/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/c1/83/e45621793cd3ebbeb8b3cf568d0d581277f44be5cb9677b612e85967b1d6/vesselapi-3.23.0.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a7/f8/f56c060da6a1b35eb131a7a6093387be526678984b9b6b9233eb349d2585/jaxutils-nightly-0.0.8.dev20230522.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/e9/ef/17f0a265105e7a5076270f21c5d033b97691046fdb782b247a45af1f59c8/torchlayers-nightly-1684714051.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/5b/d0/50acabd48a06f1686103f1fd6a5146a26b4f17ea489df81c1f48a63923cb/rds-core-0.0.16.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/cf/3c/5e6d5ca34f1f5e36e7d0ea93222ccfa65c25b3b93bdde37971ea35a68bf6/wom_py-0.4.0.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230521.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230522.tar.gz --markdown 20230523/j/jaxutils-nightly/0.0.8.dev20230521-0.0.8.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1684627659.tar.gz tmp/torchlayers-nightly-1684714051.tar.gz --markdown 20230523/t/torchlayers-nightly/1684627659-1684714051/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/6e/56/1cac23cb1c4b8108ddece328dc66f975707c1243d3ca278126b420a14b53/algorithmadts-0.1.4.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/30/f5/82bdc8275a4497ce4506962c3f6e6a7ef2a25c56aea63c5bee9d1e189d19/rds-core-0.0.17.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/4f/92/1b204d6821304b3860a310920394358930d10ab9f54723b779b0d0044cc5/wom_py-0.4.1.tar.gz
+[2023-05-23 02:09:22] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.23.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230523/v/vesselapi/3.23.0-3.5.2/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.2.tar.gz tmp/algorithmadts-0.1.4.tar.gz --markdown 20230523/A/AlgorithmADTs/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.0.16.tar.gz tmp/rds-core-0.0.17.tar.gz --markdown 20230523/r/rds-core/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230523/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-23 02:09:22] INFO root fetch - processPackages [wom-py]: executing diffoscope
+[2023-05-23 02:09:22] INFO root fetch - processPackages [wom-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wom_py-0.4.0.tar.gz tmp/wom_py-0.4.1.tar.gz --markdown 20230523/w/wom-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 02:09:23] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [numpyro-ext]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-23 02:09:24] INFO root fetch - main [MainThread]: End processing [wom-py]: success
+[2023-05-23 02:09:25] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-05-23 02:09:32] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-23 02:09:32] INFO root fetch - main [MainThread]: Store serial: [18205398]

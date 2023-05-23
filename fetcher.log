@@ -18851,3 +18851,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:23:53] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
 [2023-05-23 16:23:55] INFO root fetch - main [MainThread]: End processing [carpo-student]: success
 [2023-05-23 16:23:55] INFO root fetch - main [MainThread]: Store serial: [18215170]
+[2023-05-23 16:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215170]
+[2023-05-23 16:29:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frequenz-channels
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carpo-teacher
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dwiqc
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyparser
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etl-jobs
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2023-05-23 16:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-23 16:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miniwdl-lsf
+[2023-05-23 16:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xai-benchmark
+[2023-05-23 16:29:06] INFO root fetch - processPackages [frequenz-channels]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [lazyparser]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [etl-jobs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [carpo-teacher]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [miniwdl-lsf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [dwiqc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [xai-benchmark]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-23 16:29:06] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/94/1a/77f61db93cb1010561f32323cde1e3ae3d0cf992c58e86606de5aa5af6d4/frequenz-channels-0.15.0.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [carpo-teacher]: Downloading https://files.pythonhosted.org/packages/76/14/09dca792e8925e53fff4e30e2e615d664d77b5759017898653d248f0d684/carpo_teacher-0.0.7.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [lazyparser]: Downloading https://files.pythonhosted.org/packages/41/da/b2dce81ff09ff823343a5d89d37a1e0c133b2ee11e24c9b3cc49d4659f96/lazyparser-0.2.0.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [miniwdl-lsf]: Downloading https://files.pythonhosted.org/packages/44/11/d12b425746b4396ebfff9a6a5a5a45faf4a6bbf66444a35c4891376881a7/miniwdl_lsf-0.1.0.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [xai-benchmark]: Downloading https://files.pythonhosted.org/packages/4d/26/137c4474ef1f63d41d5cb4cd417c314bf712fb4d6e9183716c23e4dd6701/xai-benchmark-0.2.0.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.9-py2.py3-none-any.whl.zip --markdown 20230523/d/dwiqc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/e7/b4/02a78284b52d5c39414c866c8176c1579f22d454d00ffec0ad775fbc9332/frequenz-channels-0.15.1.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [carpo-teacher]: Downloading https://files.pythonhosted.org/packages/a5/b5/32c5f0e87fcb20a6e5ca30698a3ba0e68c1f0c533a832eabfb6f7c1f8cbd/carpo_teacher-0.0.9.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/81/9e/56c2d68160e635a5c0d76bd86e9633cf0001cdb4a4b6f7bdf9c9507f0be9/etl_jobs-0.1.4.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230523/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [frequenz-channels]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [frequenz-channels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-channels-0.15.0.tar.gz tmp/frequenz-channels-0.15.1.tar.gz --markdown 20230523/f/frequenz-channels/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [lazyparser]: Downloading https://files.pythonhosted.org/packages/0f/50/18c24f1dc0b96d6320a14f714f91e17e7e26316ff242da5a8c1e3c4930de/lazyparser-0.2.1.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [etl-jobs]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [etl-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_jobs-0.1.3.tar.gz tmp/etl_jobs-0.1.4.tar.gz --markdown 20230523/e/etl-jobs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [miniwdl-lsf]: Downloading https://files.pythonhosted.org/packages/a3/39/8e78b8693ae6bc036cace00680052398e3f4dbd950475d06eb86d219df9d/miniwdl_lsf-0.1.1.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [carpo-teacher]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [carpo-teacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carpo_teacher-0.0.7.tar.gz tmp/carpo_teacher-0.0.9.tar.gz --markdown 20230523/c/carpo-teacher/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [miniwdl-lsf]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [miniwdl-lsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniwdl_lsf-0.1.0.tar.gz tmp/miniwdl_lsf-0.1.1.tar.gz --markdown 20230523/m/miniwdl-lsf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [xai-benchmark]: Downloading https://files.pythonhosted.org/packages/0f/20/9e51bf3a0dc6fe0ae20315a46f1e07acbf9af4fb12fcfe4826283e3c578d/xai-benchmark-0.3.0.tar.gz
+[2023-05-23 16:29:06] INFO root fetch - processPackages [lazyparser]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [lazyparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyparser-0.2.0.tar.gz tmp/lazyparser-0.2.1.tar.gz --markdown 20230523/l/lazyparser/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 16:29:06] INFO root fetch - processPackages [xai-benchmark]: executing diffoscope
+[2023-05-23 16:29:06] INFO root fetch - processPackages [xai-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xai-benchmark-0.2.0.tar.gz tmp/xai-benchmark-0.3.0.tar.gz --markdown 20230523/x/xai-benchmark/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 16:29:07] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: virheat
+[2023-05-23 16:29:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-23 16:29:07] INFO root fetch - processPackages [virheat]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 16:29:07] INFO root fetch - processPackages [dwiqc]: Start processing: assets2036py
+[2023-05-23 16:29:07] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-23 16:29:07] INFO root fetch - processPackages [assets2036py]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-23 16:29:07] INFO root fetch - processPackages [virheat]: Downloading https://files.pythonhosted.org/packages/9c/92/ad0badaeba9efab49d59d49fe30c32b35dae375b04cf7c3f3c0f40318cd7/virheat-0.1.tar.gz
+[2023-05-23 16:29:08] INFO root fetch - processPackages [etl-jobs]: Start processing: venv-modulefile
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [etl-jobs]: success
+[2023-05-23 16:29:08] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 16:29:08] INFO root fetch - processPackages [assets2036py]: Downloading https://files.pythonhosted.org/packages/68/90/03abf2657f5dfe53354c651f4605cd5bb42bcd3fd2fb390b1d1fd8da6836/assets2036py-0.0.17.tar.gz
+[2023-05-23 16:29:08] INFO root fetch - processPackages [virheat]: Downloading https://files.pythonhosted.org/packages/c5/2e/bd9bb493f2a1359a050575fd3965d467b62a9ed69565a86f5924c5e8bf27/virheat-0.2.tar.gz
+[2023-05-23 16:29:08] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-23 16:29:08] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230523/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:29:08] INFO root fetch - processPackages [miniwdl-lsf]: Start processing: dwiqc
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [miniwdl-lsf]: success
+[2023-05-23 16:29:08] INFO root fetch - processPackages [dwiqc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 16:29:08] INFO root fetch - processPackages [assets2036py]: executing diffoscope
+[2023-05-23 16:29:08] INFO root fetch - processPackages [assets2036py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assets2036py-0.0.16.tar.gz tmp/assets2036py-0.0.17.tar.gz --markdown 20230523/a/assets2036py/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-23 16:29:08] INFO root fetch - processPackages [virheat]: executing diffoscope
+[2023-05-23 16:29:08] INFO root fetch - processPackages [virheat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virheat-0.1.tar.gz tmp/virheat-0.2.tar.gz --markdown 20230523/v/virheat/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 16:29:08] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-23 16:29:08] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.9-py2.py3-none-any.whl.zip --markdown 20230523/d/dwiqc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:29:08] INFO root fetch - processPackages [frequenz-channels]: Start processing: dimm-utils
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [frequenz-channels]: success
+[2023-05-23 16:29:08] WARNING root fetch - processPackages [dimm-utils]: Skipping, unable to determine old version
+[2023-05-23 16:29:08] INFO root fetch - processPackages [dimm-utils]: Start processing: rudderclient
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [dimm-utils] error
+[2023-05-23 16:29:08] INFO root fetch - processPackages [rudderclient]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-23 16:29:08] INFO root fetch - processPackages [stigg-api-client]: Start processing: langflow
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 16:29:08] INFO root fetch - processPackages [langflow]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-05-23 16:29:08] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/c8/fc/6c893855e85ae7b1cd35e90b69a6055c49c25e3025e576bf887ff6e06410/rudderclient-1.2.2.tar.gz
+[2023-05-23 16:29:08] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-23 16:29:08] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.2.1.tar.gz tmp/rudderclient-1.2.2.tar.gz --markdown 20230523/r/rudderclient/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-23 16:29:08] INFO root fetch - processPackages [spanishconjugator]: Start processing: connexion-code-generator
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-23 16:29:08] INFO root fetch - processPackages [lazyparser]: Start processing: openstef-dbc
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [lazyparser]: success
+[2023-05-23 16:29:08] WARNING root fetch - processPackages [connexion-code-generator]: Skipping, unable to determine old version
+[2023-05-23 16:29:08] INFO root fetch - main [MainThread]: End processing [connexion-code-generator] error
+[2023-05-23 16:29:09] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b4/8b/f83b99597e57b4506e0d72658bfa06d67310e9776df9ba12440eed16c868/langflow-0.0.75.tar.gz
+[2023-05-23 16:29:09] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.8a4] Old Version: [3.6.8a2]
+[2023-05-23 16:29:09] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-23 16:29:09] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.74.tar.gz tmp/langflow-0.0.75.tar.gz --markdown 20230523/l/langflow/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-05-23 16:29:09] INFO root fetch - main [MainThread]: End processing [xai-benchmark]: success
+[2023-05-23 16:29:09] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/48/c9/68cdf0b88d82f2f10f74051cfe70e98517c4411900c4cff33797ba6db398/openstef_dbc-3.6.8a4.tar.gz
+[2023-05-23 16:29:09] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-05-23 16:29:09] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.8a2.tar.gz tmp/openstef_dbc-3.6.8a4.tar.gz --markdown 20230523/o/openstef-dbc/3.6.8a2-3.6.8a4/diff.md --exclude *.pyd
+[2023-05-23 16:29:09] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-23 16:29:09] INFO root fetch - main [MainThread]: End processing [virheat]: success
+[2023-05-23 16:29:09] INFO root fetch - main [MainThread]: End processing [assets2036py]: success
+[2023-05-23 16:29:09] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-23 16:29:10] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-23 16:29:10] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-05-23 16:29:10] INFO root fetch - main [MainThread]: End processing [carpo-teacher]: success
+[2023-05-23 16:29:35] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-23 16:29:35] INFO root fetch - main [MainThread]: Store serial: [18215266]

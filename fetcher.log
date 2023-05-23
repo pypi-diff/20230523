@@ -7326,3 +7326,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 05:40:47] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2023-05-23 05:41:31] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-banking-fr-lcr]: success
 [2023-05-23 05:41:31] INFO root fetch - main [MainThread]: Store serial: [18208514]
+[2023-05-23 05:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208514]
+[2023-05-23 05:46:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abbrey
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: align4d
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedops
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-l10n-it-withholding-tax-payment
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nicegpt
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protoletariat
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-it-fatturapa-in
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spinsfast
+[2023-05-23 05:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-it-fatturapa
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: New version: [8.0.2.1.0.99.dev2] Old Version: [8.0.2.1.0.99.dev1]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: New version: [14.0.2.1.1.dev2] Old Version: [14.0.2.1.1.dev1]
+[2023-05-23 05:46:40] WARNING root fetch - processPackages [nicegpt]: Skipping, unable to determine old version
+[2023-05-23 05:46:40] INFO root fetch - processPackages [align4d]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [nicegpt]: Start processing: abbrey
+[2023-05-23 05:46:40] INFO root fetch - main [MainThread]: End processing [nicegpt] error
+[2023-05-23 05:46:40] INFO root fetch - processPackages [fedops]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev42] Old Version: [9.0.1.0.0.99.dev41]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: New version: [14.0.2.1.1.dev2] Old Version: [14.0.2.1.1.dev1]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [protoletariat]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [spinsfast]: New version: [2022.4.2] Old Version: [2022.4.1]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 05:46:40] INFO root fetch - processPackages [align4d]: Downloading https://files.pythonhosted.org/packages/20/c9/cb0a235a418e753fd4e39b1fa18a305481248fc72ab04044e54898034c8f/align4d-1.1.4.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/7a/16/299ac5defb1befced33cbdf92f5b978e7377bb0670ad2d4b46e3929cad80/abbrey-0.1.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/7a/16/299ac5defb1befced33cbdf92f5b978e7377bb0670ad2d4b46e3929cad80/abbrey-0.1.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/28/6d/622ed6d22ce2d6af19531b2771fb2b2ed9992a2439815631c2b1d9efc2b4/odoo14_addon_l10n_it_fatturapa-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/1f/3e/1d46bc6966ed23557f0f0ce7af8530bf813b8323ae75c942f9d6aa950b09/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/b1/c3/0d72f1efa091aa936e060dc31a6c88e83c97e548944fd4c0e0f766d5251c/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev1-py2-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/f8/42/cabdaaedbf87454424111e9ed61be630279dc4972aaff05a177291bbd6f2/fedops-0.1.4.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [spinsfast]: Downloading https://files.pythonhosted.org/packages/3a/a4/dff649d91b4cc5ca6250ff1bdd7c3cb1b3478247b78cc7f009bffb7cc7f3/spinsfast-2022.4.1.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-0.1.3.tar.gz tmp/fedops-0.1.4.tar.gz --markdown 20230523/f/fedops/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/80/b5/c34feaf2b2d54e80edf700373d507250ee7a4f3cbed1b4c760d6b2270e22/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev42-py2-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/46/6a/177c60837ead127c070e24ad6a6134659346ba8d129289e117a075861158/abbrey-0.2.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [align4d]: Downloading https://files.pythonhosted.org/packages/2e/da/b1f7999ef158faf8cc989ae4d2938142b32ccd3fd18cc8219164ca918bc4/align4d-1.2.0.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/46/6a/177c60837ead127c070e24ad6a6134659346ba8d129289e117a075861158/abbrey-0.2.tar.gz
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/b9/0d/a543bbc8e6e63fae4afa68ebc1cadc8eb5b723b1a2e94226968bfc195210/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev2-py3-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/49/3f/62ebf85f81a352ed3d06a577654f1ea7dabf5375e9a5af276c8b5a41b988/odoo14_addon_l10n_it_fatturapa-14.0.2.1.1.dev2-py3-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.7.tar.gz tmp/protoletariat-3.2.8.tar.gz --markdown 20230523/p/protoletariat/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev41-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev42-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev41-9.0.1.0.0.99.dev42/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abbrey-0.1.tar.gz tmp/abbrey-0.2.tar.gz --markdown 20230523/a/abbrey/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/ee/b5/2b6b4b6ac2eaa62f3e2e9fb4eab6d082dec4aaaaf4091cf4cd1ce34f1b2e/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev2-py2-none-any.whl
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [abbrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abbrey-0.1.tar.gz tmp/abbrey-0.2.tar.gz --markdown 20230523/a/abbrey/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [align4d]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [align4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/align4d-1.1.4.tar.gz tmp/align4d-1.2.0.tar.gz --markdown 20230523/a/align4d/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_in-14.0.2.1.1.dev2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-it-fatturapa-in/14.0.2.1.1.dev1-14.0.2.1.1.dev2/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.1.dev2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-it-fatturapa/14.0.2.1.1.dev1-14.0.2.1.1.dev2/diff.md --exclude *.pyd
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: executing diffoscope
+[2023-05-23 05:46:40] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev1-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_withholding_tax_payment-8.0.2.1.0.99.dev2-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-l10n-it-withholding-tax-payment/8.0.2.1.0.99.dev1-8.0.2.1.0.99.dev2/diff.md --exclude *.pyd
+[2023-05-23 05:46:41] INFO root fetch - processPackages [spinsfast]: Downloading https://files.pythonhosted.org/packages/92/93/faf2475a947f4ebeab5acddb78ccc466cba7a711e413d2f7c2978e0b1b81/spinsfast-2022.4.2.tar.gz
+[2023-05-23 05:46:41] INFO root fetch - processPackages [spinsfast]: executing diffoscope
+[2023-05-23 05:46:41] INFO root fetch - processPackages [spinsfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinsfast-2022.4.1.tar.gz tmp/spinsfast-2022.4.2.tar.gz --markdown 20230523/s/spinsfast/2022.4.1-2022.4.2/diff.md --exclude *.pyd
+[2023-05-23 05:46:42] INFO root fetch - processPackages [fedops]: Start processing: bookocr
+[2023-05-23 05:46:42] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2023-05-23 05:46:42] INFO root fetch - processPackages [bookocr]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 05:46:42] INFO root fetch - main [MainThread]: End processing [abbrey]: success
+[2023-05-23 05:46:42] INFO root fetch - processPackages [bookocr]: Downloading https://files.pythonhosted.org/packages/ba/7f/2a76319f78d918089809c95a7ff913b41d206abe5dfd1098c6b75dc0e474/bookocr-1.0.2.tar.gz
+[2023-05-23 05:46:42] INFO root fetch - main [MainThread]: End processing [abbrey]: success
+[2023-05-23 05:46:42] INFO root fetch - processPackages [bookocr]: executing diffoscope
+[2023-05-23 05:46:42] INFO root fetch - processPackages [bookocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookocr-1.0.1.tar.gz tmp/bookocr-1.0.2.tar.gz --markdown 20230523/b/bookocr/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 05:46:42] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-withholding-tax-payment]: success
+[2023-05-23 05:46:42] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [spinsfast]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-in]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [align4d]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [bookocr]: success
+[2023-05-23 05:46:43] INFO root fetch - main [MainThread]: Store serial: [18208562]

@@ -10450,3 +10450,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:29:31] INFO root fetch - main [MainThread]: End processing [simba-ml]: success
 [2023-05-23 09:29:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-23 09:29:32] INFO root fetch - main [MainThread]: Store serial: [18210262]
+[2023-05-23 09:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210262]
+[2023-05-23 09:34:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopee-demo-test-111
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blaze-runner
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stopcli
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-bootstrap-colors
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scout-browser
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: undetected-chromedriver-arthur
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycocotools-stubs
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shopee-eaglectl
+[2023-05-23 09:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: morphapi
+[2023-05-23 09:34:42] INFO root fetch - processPackages [stopcli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [django-bootstrap-colors]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 09:34:42] WARNING root fetch - processPackages [blaze-runner]: Skipping, unable to determine old version
+[2023-05-23 09:34:42] WARNING root fetch - processPackages [shopee-eaglectl]: Skipping, unable to determine old version
+[2023-05-23 09:34:42] INFO root fetch - processPackages [morphapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [blaze-runner]: Start processing: dcovlib
+[2023-05-23 09:34:42] INFO root fetch - main [MainThread]: End processing [blaze-runner] error
+[2023-05-23 09:34:42] INFO root fetch - processPackages [shopee-eaglectl]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:34:42] INFO root fetch - processPackages [undetected-chromedriver-arthur]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-05-23 09:34:42] INFO root fetch - main [MainThread]: End processing [shopee-eaglectl] error
+[2023-05-23 09:34:42] INFO root fetch - processPackages [pycocotools-stubs]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [dcovlib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [scout-browser]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-23 09:34:42] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:34:42] WARNING root fetch - processPackages [shopee-demo-test-111]: Skipping, unable to determine old version
+[2023-05-23 09:34:42] INFO root fetch - processPackages [shopee-demo-test-111]: Start processing: pyPLNmodels
+[2023-05-23 09:34:42] INFO root fetch - main [MainThread]: End processing [shopee-demo-test-111] error
+[2023-05-23 09:34:42] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 09:34:43] INFO root fetch - processPackages [stopcli]: Downloading https://files.pythonhosted.org/packages/a3/3c/3054176dba4a534d714e97e45338af69a428f537016c2174e1e6080db4fe/stopcli-0.0.1.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/32/30/e3412bf778b7abf24fa4b8b10698150c8ea15449efd55a15295fccd17737/mkdocs-simple-tags-plugin-0.1.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [morphapi]: Downloading https://files.pythonhosted.org/packages/22/b8/0731bcb645102117f34a262a8e2385b4d56ad6c6e08cc7b3e392a6564a23/morphapi-0.1.8.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [dcovlib]: Downloading https://files.pythonhosted.org/packages/7b/80/8d4eafeeef6e43c8587d34dac0125b23baacdf4e989c6040a7c54c57db4b/dcovlib-1.1.2.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230523/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [scout-browser]: Downloading https://files.pythonhosted.org/packages/2e/f4/a7984498f0b8d64f13b2de4c54388dfaf765165f33cfcc2bc4840e6276e5/scout-browser-4.8.3.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/de/00/581087df8c4e852856e580388f524160f9a7dbfa54fc24942cf49a95bf03/pycocotools_stubs-0.1.0.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [undetected-chromedriver-arthur]: Downloading https://files.pythonhosted.org/packages/b7/b9/144eab54f9c5271d18746465e6613b000352c9be5a86639f16e5dd342fa2/undetected-chromedriver-arthur-3.4.7.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [dcovlib]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [dcovlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcovlib-1.1.1.tar.gz tmp/dcovlib-1.1.2.tar.gz --markdown 20230523/d/dcovlib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pycocotools-stubs]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [pycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycocotools_stubs-0.0.4.tar.gz tmp/pycocotools_stubs-0.1.0.tar.gz --markdown 20230523/p/pycocotools-stubs/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/21/16/e0601b9f3912216aa0e9036a45c1e42668aaeb85e3fd9c03e80457b98b10/mkdocs-simple-tags-plugin-0.2.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [stopcli]: Downloading https://files.pythonhosted.org/packages/2f/f8/88ea6438d7cf5b17e135ba9d12d3be3ecd4075b35db73a59572b0caf3c9d/stopcli-0.0.2.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [django-bootstrap-colors]: Downloading https://files.pythonhosted.org/packages/b3/7c/58ada53f5c32df87a90a2d35b5c7ddba2c62de4bd5e5101d5fe450031789/django_bootstrap_colors-5.2.0-py3-none-any.whl
+[2023-05-23 09:34:43] INFO root fetch - processPackages [morphapi]: Downloading https://files.pythonhosted.org/packages/cd/a6/8ee89dc920f789331cd81d286d013635f62887c176b9c8bdb362249eb62a/morphapi-0.1.9.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [undetected-chromedriver-arthur]: Downloading https://files.pythonhosted.org/packages/e8/1b/14d9161466e5d3a4c5f201261321ff415f03eccfcfc0370d37b4307118a1/undetected-chromedriver-arthur-3.4.8.tar.gz
+[2023-05-23 09:34:43] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.1.tar.gz tmp/mkdocs-simple-tags-plugin-0.2.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [morphapi]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [morphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphapi-0.1.8.tar.gz tmp/morphapi-0.1.9.tar.gz --markdown 20230523/m/morphapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [stopcli]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [stopcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopcli-0.0.1.tar.gz tmp/stopcli-0.0.2.tar.gz --markdown 20230523/s/stopcli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [django-bootstrap-colors]: Downloading https://files.pythonhosted.org/packages/f6/14/913e9663c6d85cafc8f152761e1b26ef27e7456b9253bfd789c9f11a29a5/django_bootstrap_colors-5.2.1-py3-none-any.whl
+[2023-05-23 09:34:43] INFO root fetch - processPackages [undetected-chromedriver-arthur]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [undetected-chromedriver-arthur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undetected-chromedriver-arthur-3.4.7.tar.gz tmp/undetected-chromedriver-arthur-3.4.8.tar.gz --markdown 20230523/u/undetected-chromedriver-arthur/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-05-23 09:34:43] INFO root fetch - processPackages [django-bootstrap-colors]: executing diffoscope
+[2023-05-23 09:34:43] INFO root fetch - processPackages [django-bootstrap-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bootstrap_colors-5.2.0-py3-none-any.whl.zip tmp/django_bootstrap_colors-5.2.1-py3-none-any.whl.zip --markdown 20230523/d/django-bootstrap-colors/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-05-23 09:34:44] INFO root fetch - processPackages [dcovlib]: Start processing: aws-bastion-cli
+[2023-05-23 09:34:44] INFO root fetch - main [MainThread]: End processing [dcovlib]: success
+[2023-05-23 09:34:44] INFO root fetch - main [MainThread]: End processing [pycocotools-stubs]: success
+[2023-05-23 09:34:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:34:44] INFO root fetch - processPackages [aws-bastion-cli]: New version: [0.3.1] Old Version: [0.2.3]
+[2023-05-23 09:34:44] INFO root fetch - processPackages [scout-browser]: Downloading https://files.pythonhosted.org/packages/5f/ca/74621e87055e17640ca06b184b3264d96c50fe6dedb5515481089ddda48a/scout-browser-4.9.0.tar.gz
+[2023-05-23 09:34:45] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 09:34:45] INFO root fetch - main [MainThread]: End processing [undetected-chromedriver-arthur]: success
+[2023-05-23 09:34:45] INFO root fetch - processPackages [aws-bastion-cli]: Downloading https://files.pythonhosted.org/packages/42/51/9ac218c84158232ebb64db6615a796d2141a96bfdb4290a776501ed40160/aws-bastion-cli-0.2.3.tar.gz
+[2023-05-23 09:34:45] INFO root fetch - main [MainThread]: End processing [stopcli]: success
+[2023-05-23 09:34:45] INFO root fetch - main [MainThread]: End processing [morphapi]: success
+[2023-05-23 09:34:45] INFO root fetch - main [MainThread]: End processing [django-bootstrap-colors]: success
+[2023-05-23 09:34:45] INFO root fetch - processPackages [aws-bastion-cli]: Downloading https://files.pythonhosted.org/packages/52/b6/827bec99ad46cb1218bbcbf37a884306001825616ca2fc775e95aaba9df0/aws-bastion-cli-0.3.1.tar.gz
+[2023-05-23 09:34:45] INFO root fetch - processPackages [aws-bastion-cli]: executing diffoscope
+[2023-05-23 09:34:45] INFO root fetch - processPackages [aws-bastion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-bastion-cli-0.2.3.tar.gz tmp/aws-bastion-cli-0.3.1.tar.gz --markdown 20230523/a/aws-bastion-cli/0.2.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 09:34:46] INFO root fetch - processPackages [scout-browser]: executing diffoscope
+[2023-05-23 09:34:46] INFO root fetch - processPackages [scout-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scout-browser-4.8.3.tar.gz tmp/scout-browser-4.9.0.tar.gz --markdown 20230523/s/scout-browser/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-23 09:34:46] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-05-23 09:34:46] INFO root fetch - main [MainThread]: End processing [aws-bastion-cli]: success
+[2023-05-23 09:34:54] INFO root fetch - main [MainThread]: End processing [scout-browser]: success
+[2023-05-23 09:34:54] INFO root fetch - main [MainThread]: Store serial: [18210308]

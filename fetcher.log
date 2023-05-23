@@ -4202,3 +4202,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:29:42] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-stepfunctions]: success
 [2023-05-23 03:29:42] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize]: success
 [2023-05-23 03:29:42] INFO root fetch - main [MainThread]: Store serial: [18206646]
+[2023-05-23 03:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18206646]
+[2023-05-23 03:34:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MakerToolbox
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yowasp-runtime
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amaranth-yosys
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dpyselfembed
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: looqbox
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pelican-precompress
+[2023-05-23 03:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docker-composer
+[2023-05-23 03:34:53] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-23 03:34:53] INFO root fetch - processPackages [dpyselfembed]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 03:34:53] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-23 03:34:53] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [amaranth-yosys]: New version: [0.9.post3746.dev41] Old Version: [0.25.0.0.post72]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [docker-composer]: New version: [2.17.0] Old Version: [0.8.5]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [pelican-precompress]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [looqbox]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-23 03:34:53] INFO root fetch - processPackages [docker-composer]: executing diffoscope
+[2023-05-23 03:34:53] INFO root fetch - processPackages [docker-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-composer-0.8.5.tar.gz tmp/docker_composer-2.17.0.tar.gz --markdown 20230523/d/docker-composer/0.8.5-2.17.0/diff.md --exclude *.pyd
+[2023-05-23 03:34:53] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2023-05-23 03:34:53] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/8a/1a/66e6e074628eb51621a2e9c1aaf550d93c819eb86c73120ac36594f7d1a4/amaranth_yosys-0.25.0.0.post72-py3-none-any.whl
+[2023-05-23 03:34:53] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-23 03:34:53] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230523/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:34:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-23 03:34:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230523/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-23 03:34:53] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/e3/55/c73315ed09ee19e15fd36f30adbd66b8a4734e601d305e644c2c2f61b4e1/looqbox-4.1.2-py3-none-any.whl
+[2023-05-23 03:34:53] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-23 03:34:53] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230523/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:34:53] INFO root fetch - processPackages [pelican-precompress]: Downloading https://files.pythonhosted.org/packages/61/71/4c3435608e72d2e7f9165d89d9e636e5a93009a8b8676f274c3a69202d09/pelican_precompress-2.1.1.tar.gz
+[2023-05-23 03:34:53] INFO root fetch - processPackages [dpyselfembed]: Downloading https://files.pythonhosted.org/packages/f5/64/d17b6c5e1ca9380e484223211d9d594295b4ddc01d1f62e4e009b43f98d5/dpyselfembed-0.0.3.tar.gz
+[2023-05-23 03:34:53] INFO root fetch - processPackages [dpyselfembed]: executing diffoscope
+[2023-05-23 03:34:53] INFO root fetch - processPackages [dpyselfembed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpyselfembed-0.0.2.tar.gz tmp/dpyselfembed-0.0.3.tar.gz --markdown 20230523/d/dpyselfembed/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 03:34:54] INFO root fetch - processPackages [pelican-precompress]: Downloading https://files.pythonhosted.org/packages/1f/73/d07f67126d8e92a009e1aaff22fb44022387ab73f87d4267936fc27ff61f/pelican_precompress-2.2.0.tar.gz
+[2023-05-23 03:34:54] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2023-05-23 03:34:54] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/86/9d/ea3cebfd7dfbf3473ee9845b9254e30f5c19a043da87ae83262e20207b1c/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl
+[2023-05-23 03:34:54] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2023-05-23 03:34:54] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20230523/y/yowasp-runtime/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-23 03:34:54] INFO root fetch - processPackages [pelican-precompress]: executing diffoscope
+[2023-05-23 03:34:54] INFO root fetch - processPackages [pelican-precompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_precompress-2.1.1.tar.gz tmp/pelican_precompress-2.2.0.tar.gz --markdown 20230523/p/pelican-precompress/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-23 03:34:54] INFO root fetch - processPackages [amaranth-yosys]: executing diffoscope
+[2023-05-23 03:34:54] INFO root fetch - processPackages [amaranth-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaranth_yosys-0.25.0.0.post72-py3-none-any.whl.zip tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip --markdown 20230523/a/amaranth-yosys/0.25.0.0.post72-0.9.post3746.dev41/diff.md --exclude *.pyd
+[2023-05-23 03:34:54] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/b4/e9/5bbf9e35b92f42e5b02fe37663e55300044e3d0adf2c36a948f2dd06d0ab/looqbox-4.1.3-py3-none-any.whl
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [dpyselfembed]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [pelican-precompress]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [docker-composer]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2023-05-23 03:34:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-23 03:34:55] INFO root fetch - processPackages [looqbox]: executing diffoscope
+[2023-05-23 03:34:55] INFO root fetch - processPackages [looqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox-4.1.2-py3-none-any.whl.zip tmp/looqbox-4.1.3-py3-none-any.whl.zip --markdown 20230523/l/looqbox/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-05-23 03:34:58] INFO root fetch - main [MainThread]: End processing [looqbox]: success
+[2023-05-23 03:35:18] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
+[2023-05-23 03:35:18] INFO root fetch - main [MainThread]: Store serial: [18207003]

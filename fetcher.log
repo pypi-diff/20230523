@@ -12114,3 +12114,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:57:56] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
 [2023-05-23 10:58:10] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-05-23 10:58:10] INFO root fetch - main [MainThread]: Store serial: [18211218]
+[2023-05-23 11:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211218]
+[2023-05-23 11:03:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: curl-cffi
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jcmutils
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HawaData
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cbn20170912-py2
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysql-statement-builder
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-common-objects
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-jobs
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openstackdocstheme
+[2023-05-23 11:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: directory-api-client
+[2023-05-23 11:03:21] INFO root fetch - processPackages [HawaData]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-23 11:03:21] WARNING root fetch - processPackages [mysql-statement-builder]: Skipping, unable to determine old version
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mysql-statement-builder]: Start processing: alibabacloud-cbn20170912
+[2023-05-23 11:03:21] INFO root fetch - main [MainThread]: End processing [mysql-statement-builder] error
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [curl-cffi]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [jcmutils]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [django-common-objects]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [openstackdocstheme]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/86/c4/b7bff70d3c77a85530c99edb4c7d5e96b8ae39ff5236c66a727f64ab9073/HawaData-0.5.1.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912]: New version: [1.0.29] Old Version: [1.0.28]
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/76/4c/99b4c3273679675e46e0b34f5ab68da5d90c8e97edc5f6d2937abb1f5348/mobio-dedupe-sdk-test-1.0.5.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [django-common-objects]: Downloading https://files.pythonhosted.org/packages/8d/3c/0db8698b817471a36272c3a69e069c47bd0d623bac5cbc8a046d2d8b48a8/django-common-objects-1.0.6.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/4b/89/8c28c4bbaa9e9b7e8211e98f9a6b6a8e055a25c2e008adca13a1d1ce7f37/alibabacloud_cbn20170912_py2-1.0.8.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/c2/dd/4d9eb70a400d8f083e88721f89f14ce9d0fd6cff1d19191f97c7a595752e/curl_cffi-0.5.5.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.5.0.tar.gz tmp/HawaData-0.5.1.tar.gz --markdown 20230523/H/HawaData/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [openstackdocstheme]: Downloading https://files.pythonhosted.org/packages/33/40/4c656c5a3c6ddb37e17b43701535d63a0db19e54a4ed56fd22bba3be61fa/openstackdocstheme-3.1.0.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/05/11/20211a822ae935090d1eff6cfe1c8cd332b9ee96bb6926f7161f98f59b36/alibabacloud_cbn20170912-1.0.28.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2023-05-23 11:03:21] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230523/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/1d/28/a0b9c4aaa1ea5906a5dc0055d5d9ca0eb7804c0a92ff50a8b9696dbe176b/jcmutils-1.5.7.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/60/a9/278ae558575c6dac90a578f95c039f485bf5560814613fba777a3b62ab18/mobio-dedupe-sdk-test-1.0.6.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/46/87/73b40d1bbb0ae14ca1dc96f2d26da99e153b780ea4695f428ecb76ce4e85/alibabacloud_cbn20170912-1.0.29.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [curl-cffi]: Downloading https://files.pythonhosted.org/packages/97/ff/655edab7d79c6bcb1baf475c0ae0bcf219f8fe96e837c0f0065988e87993/curl_cffi-0.5.6.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [django-common-objects]: Downloading https://files.pythonhosted.org/packages/3e/12/1e1257e1a0fd6296618973adc4d48c336cb7e21e2ba330a518dfdf7f1ea5/django-common-objects-1.0.7.tar.gz
+[2023-05-23 11:03:21] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.6.tar.gz tmp/jcmutils-1.5.7.tar.gz --markdown 20230523/j/jcmutils/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.5.tar.gz tmp/mobio-dedupe-sdk-test-1.0.6.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [alibabacloud-cbn20170912]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912-1.0.28.tar.gz tmp/alibabacloud_cbn20170912-1.0.29.tar.gz --markdown 20230523/a/alibabacloud-cbn20170912/1.0.28-1.0.29/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [curl-cffi]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [curl-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curl_cffi-0.5.5.tar.gz tmp/curl_cffi-0.5.6.tar.gz --markdown 20230523/c/curl-cffi/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-23 11:03:21] INFO root fetch - processPackages [django-common-objects]: executing diffoscope
+[2023-05-23 11:03:21] INFO root fetch - processPackages [django-common-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-objects-1.0.6.tar.gz tmp/django-common-objects-1.0.7.tar.gz --markdown 20230523/d/django-common-objects/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-23 11:03:22] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2023-05-23 11:03:22] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20230523/d/directory-api-client/9.16.0-9.17.0/diff.md --exclude *.pyd
+[2023-05-23 11:03:22] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/23/da/84a5845bd53d463e1b14af3bca2ac9eb7f901404251d6893cff34c8cbc51/alibabacloud_cbn20170912_py2-1.0.9.tar.gz
+[2023-05-23 11:03:22] INFO root fetch - processPackages [openstackdocstheme]: Downloading https://files.pythonhosted.org/packages/67/40/2a3977c5ad5e9d8e0eddb9989e2d5e9c1e4e5ebf3bfaa78257bd290fd49b/openstackdocstheme-3.1.1.tar.gz
+[2023-05-23 11:03:22] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: executing diffoscope
+[2023-05-23 11:03:22] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz --markdown 20230523/a/alibabacloud-cbn20170912-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 11:03:22] INFO root fetch - processPackages [openstackdocstheme]: executing diffoscope
+[2023-05-23 11:03:22] INFO root fetch - processPackages [openstackdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstackdocstheme-3.1.0.tar.gz tmp/openstackdocstheme-3.1.1.tar.gz --markdown 20230523/o/openstackdocstheme/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-23 11:03:23] INFO root fetch - processPackages [jcmutils]: Start processing: moto-ext
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [leadguru-jobs]: Start processing: templatte
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-05-23 11:03:23] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: stabby
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 11:03:23] WARNING root fetch - processPackages [templatte]: Skipping, unable to determine old version
+[2023-05-23 11:03:23] INFO root fetch - processPackages [templatte]: Start processing: dbtgenlib
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [templatte] error
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 11:03:23] INFO root fetch - processPackages [stabby]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-23 11:03:23] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230523/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [django-common-objects]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [stabby]: Downloading https://files.pythonhosted.org/packages/ad/ac/803c1ac074deacea820c6f77244064e119673f8c1b4e3a152ea19a104e1c/stabby-1.0.1-py3.8.egg
+[2023-05-23 11:03:23] INFO root fetch - main [MainThread]: End processing [curl-cffi]: success
+[2023-05-23 11:03:23] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-05-23 11:03:23] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230523/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-05-23 11:03:23] INFO root fetch - processPackages [stabby]: Downloading https://files.pythonhosted.org/packages/b9/c9/201cb658db8caf9b9ffc844cad162ae1555cdf1014647c6d93a5d431befb/stabby-1.0.2.tar.gz
+[2023-05-23 11:03:24] INFO root fetch - processPackages [stabby]: executing diffoscope
+[2023-05-23 11:03:24] INFO root fetch - processPackages [stabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stabby-1.0.1-py3.8.egg tmp/stabby-1.0.2.tar.gz --markdown 20230523/s/stabby/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 11:03:24] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-23 11:03:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912]: success
+[2023-05-23 11:03:25] INFO root fetch - main [MainThread]: End processing [stabby]: success
+[2023-05-23 11:03:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912-py2]: success
+[2023-05-23 11:03:27] INFO root fetch - main [MainThread]: End processing [openstackdocstheme]: success
+[2023-05-23 11:06:23] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-05-23 11:06:23] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-05-23 11:06:23] INFO root fetch - main [MainThread]: Store serial: [18211270]

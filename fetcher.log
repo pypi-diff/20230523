@@ -19943,3 +19943,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:12:57] INFO root fetch - main [MainThread]: End processing [h2o-nitro]: success
 [2023-05-23 17:13:15] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-23 17:13:15] INFO root fetch - main [MainThread]: Store serial: [18215920]
+[2023-05-23 17:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215920]
+[2023-05-23 17:18:31] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychopy-usbToBNC
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedbase-client
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynuml
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oteapi-core
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyenphase
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyenphase
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apphelpers
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-organization-python
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-05-23 17:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-bank-python
+[2023-05-23 17:18:31] INFO root fetch - processPackages [embedbase-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [psychopy-usbToBNC]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [oteapi-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [apphelpers]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pynuml]: New version: [23.5.2] Old Version: [23.5.1]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/2c/e9/d263170caee006216b632aa36022d3713f7d6e766a0b1c76a0e757e7bb56/pyenphase-0.0.0.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [psychopy-usbToBNC]: Downloading https://files.pythonhosted.org/packages/cb/b3/844cc6c79fbc851a3928d106e703d10b3b34d4bfa6ef713c66ba867cb577/psychopy_usbToBNC-0.0.1-py3-none-any.whl
+[2023-05-23 17:18:31] INFO root fetch - processPackages [embedbase-client]: Downloading https://files.pythonhosted.org/packages/5c/82/188704c87138ee83f93a01504e3478da00ad31ad70d08469516f641f54c1/embedbase_client-0.1.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/2c/e9/d263170caee006216b632aa36022d3713f7d6e766a0b1c76a0e757e7bb56/pyenphase-0.0.0.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [apphelpers]: Downloading https://files.pythonhosted.org/packages/47/49/4c7dd32dd7e28a68392fc063d9e8ffc309e9621abe6ff53a6b3465cb601c/apphelpers-0.9.1.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [oteapi-core]: Downloading https://files.pythonhosted.org/packages/04/a5/106472faf888148b4aa41c289297e0f2adae7613fc07f510f25351f53eed/oteapi-core-0.4.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pynuml]: Downloading https://files.pythonhosted.org/packages/41/06/3eae9956b37f4a70240202b0d02d7d745dd3f6c26fc9fa5316bd8818a71f/pynuml-23.5.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pynuml]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pynuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynuml-23.5.1.tar.gz tmp/pynuml-23.5.2.tar.gz --markdown 20230523/p/pynuml/23.5.1-23.5.2/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/5a/43/9398c3d3e1d3691914621bb44240df2f54031da8002eec8bfcb08e2b29f2/pyenphase-0.0.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/5a/43/9398c3d3e1d3691914621bb44240df2f54031da8002eec8bfcb08e2b29f2/pyenphase-0.0.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [embedbase-client]: Downloading https://files.pythonhosted.org/packages/5c/c4/ec15f38c9f8da318ce23c4e59cd2330320076e40f39ebdddb902048203cd/embedbase_client-0.1.3.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [psychopy-usbToBNC]: Downloading https://files.pythonhosted.org/packages/5d/7c/e356cf8e16ac50b8427832f1492d840a6bae23d1df9e622ea92b1ef45fe6/psychopy-usbToBNC-0.0.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.0.0.tar.gz tmp/pyenphase-0.0.2.tar.gz --markdown 20230523/p/pyenphase/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.0.0.tar.gz tmp/pyenphase-0.0.2.tar.gz --markdown 20230523/p/pyenphase/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [embedbase-client]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [embedbase-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase_client-0.1.2.tar.gz tmp/embedbase_client-0.1.3.tar.gz --markdown 20230523/e/embedbase-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [apphelpers]: Downloading https://files.pythonhosted.org/packages/82/45/8767a258a28a0bb1f9a3c1a785ca493a563dd385fcbd8d6d30891ae64e4a/apphelpers-0.9.2.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [psychopy-usbToBNC]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [psychopy-usbToBNC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy_usbToBNC-0.0.1-py3-none-any.whl.zip tmp/psychopy-usbToBNC-0.0.2.tar.gz --markdown 20230523/p/psychopy-usbToBNC/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [apphelpers]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [apphelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apphelpers-0.9.1.tar.gz tmp/apphelpers-0.9.2.tar.gz --markdown 20230523/a/apphelpers/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 17:18:31] INFO root fetch - processPackages [oteapi-core]: Downloading https://files.pythonhosted.org/packages/74/d7/66d4849aaebd49c2342049d47cca1494cee448d00a218b9f6d8e5ee80b5b/oteapi-core-0.4.3.tar.gz
+[2023-05-23 17:18:31] INFO root fetch - processPackages [oteapi-core]: executing diffoscope
+[2023-05-23 17:18:31] INFO root fetch - processPackages [oteapi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteapi-core-0.4.2.tar.gz tmp/oteapi-core-0.4.3.tar.gz --markdown 20230523/o/oteapi-core/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-23 17:18:33] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: trawler-on-lake
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: pepperize.cdk-security-group
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-23 17:18:33] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230523/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pyenphase]: Start processing: dimm-utils
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [dimm-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pyenphase]: Start processing: ytsaurus-spyt
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b449.post22078803.dev11] Old Version: [1.70.1b444.post15369525.dev8]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [psychopy-usbToBNC]: Start processing: devpi-server
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [psychopy-usbToBNC]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [devpi-server]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [embedbase-client]: Start processing: blender-wormholes
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [embedbase-client]: success
+[2023-05-23 17:18:33] WARNING root fetch - processPackages [blender-wormholes]: Skipping, unable to determine old version
+[2023-05-23 17:18:33] INFO root fetch - processPackages [blender-wormholes]: Start processing: phone-gen
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [blender-wormholes] error
+[2023-05-23 17:18:33] INFO root fetch - processPackages [dimm-utils]: Downloading https://files.pythonhosted.org/packages/7f/fb/c609eab414db4e085568ce9b8075aa24d4fb0eb5c3e911e77b4ffc9b6a09/dimm_utils-0.1.3.tar.gz
+[2023-05-23 17:18:33] INFO root fetch - processPackages [apphelpers]: Start processing: finalynx
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [apphelpers]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/13/15/be64f70c8ccc315cb077d7879df5074ea6d8bd926d5380ade006b5513094/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz
+[2023-05-23 17:18:33] INFO root fetch - processPackages [dimm-utils]: executing diffoscope
+[2023-05-23 17:18:33] INFO root fetch - processPackages [dimm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimm_utils-0.1.2.tar.gz tmp/dimm_utils-0.1.3.tar.gz --markdown 20230523/d/dimm-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 17:18:33] INFO root fetch - processPackages [pynuml]: Start processing: ytsaurus-spyt
+[2023-05-23 17:18:33] INFO root fetch - main [MainThread]: End processing [pynuml]: success
+[2023-05-23 17:18:33] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b449.post22078803.dev12] Old Version: [1.70.1b449.post22078803.dev11]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [phone-gen]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-23 17:18:33] INFO root fetch - processPackages [devpi-server]: Downloading https://files.pythonhosted.org/packages/41/fa/aa3e4d4d3725baf9d83d7d8cb1f34db68584867eee8f7e40115bb3c85e85/devpi-server-6.8.0.tar.gz
+[2023-05-23 17:18:33] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/13/06/04b5e681b1bbe5c9580b8df12181b3ebb2c406b633912b3bc67e326b311d/ytsaurus-spyt-1.70.1b449.post22078803.dev11.tar.gz
+[2023-05-23 17:18:33] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/e8/77/1a24070833e5da90d251e411bf4fa032ed93c7e3a445f1414cd5258416d2/phone_gen-2.2.9-py3-none-any.whl
+[2023-05-23 17:18:33] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0b/ce/7d9789861d65035c37169ffa7e28f0a3236fe2e4bc410a15215629795d5b/finalynx-1.8.3.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [devpi-server]: Downloading https://files.pythonhosted.org/packages/65/27/cd2e90f77b44f4c97f6ddc5e6a90c5448c865d95a54bf837155283d5a7b9/devpi-server-6.9.0.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [devpi-server]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [devpi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpi-server-6.8.0.tar.gz tmp/devpi-server-6.9.0.tar.gz --markdown 20230523/d/devpi-server/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/13/06/04b5e681b1bbe5c9580b8df12181b3ebb2c406b633912b3bc67e326b311d/ytsaurus-spyt-1.70.1b449.post22078803.dev11.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/be/5e/d32c214bfe56c8b6f39732cde1a7c09123a36d44492a6cf08a0bf47ef085/phone_gen-2.3.0.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz tmp/ytsaurus-spyt-1.70.1b449.post22078803.dev11.tar.gz --markdown 20230523/y/ytsaurus-spyt/1.70.1b444.post15369525.dev8-1.70.1b449.post22078803.dev11/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0c/5c/6e8a803447b750bb79f53721e3b0e06cd793162448b8c0df0421fb904c71/finalynx-1.9.0.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.2.9-py3-none-any.whl.zip tmp/phone_gen-2.3.0.tar.gz --markdown 20230523/p/phone-gen/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/82/ed/dbc071f88f627ce4fe2317e53b8cfb125a61ae6babca9c3617d6fd9b0655/ytsaurus-spyt-1.70.1b449.post22078803.dev12.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230523/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] INFO root fetch - processPackages [oteapi-core]: Start processing: psychopy-usbToBNC
+[2023-05-23 17:18:34] INFO root fetch - main [MainThread]: End processing [oteapi-core]: success
+[2023-05-23 17:18:34] INFO root fetch - processPackages [psychopy-usbToBNC]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b449.post22078803.dev11.tar.gz tmp/ytsaurus-spyt-1.70.1b449.post22078803.dev12.tar.gz --markdown 20230523/y/ytsaurus-spyt/1.70.1b449.post22078803.dev11-1.70.1b449.post22078803.dev12/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: headless
+[2023-05-23 17:18:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-23 17:18:34] INFO root fetch - processPackages [psychopy-usbToBNC]: Downloading https://files.pythonhosted.org/packages/ba/18/d90bae5f3f66a4840cbcffe9a031f05361274fcebf20bd2ce943e09a3d8b/psychopy-usbToBNC-0.0.3.tar.gz
+[2023-05-23 17:18:34] INFO root fetch - processPackages [trawler-on-lake]: Start processing: python-ascendex
+[2023-05-23 17:18:34] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-23 17:18:34] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-23 17:18:34] INFO root fetch - processPackages [python-ascendex]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-23 17:18:34] INFO root fetch - processPackages [dimm-utils]: Start processing: relativedate
+[2023-05-23 17:18:34] INFO root fetch - main [MainThread]: End processing [dimm-utils]: success
+[2023-05-23 17:18:34] INFO root fetch - processPackages [psychopy-usbToBNC]: executing diffoscope
+[2023-05-23 17:18:34] INFO root fetch - processPackages [psychopy-usbToBNC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy-usbToBNC-0.0.2.tar.gz tmp/psychopy-usbToBNC-0.0.3.tar.gz --markdown 20230523/p/psychopy-usbToBNC/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:18:34] WARNING root fetch - processPackages [relativedate]: Skipping, unable to determine old version
+[2023-05-23 17:18:34] INFO root fetch - processPackages [relativedate]: Start processing: ersciyt
+[2023-05-23 17:18:34] INFO root fetch - main [MainThread]: End processing [relativedate] error
+[2023-05-23 17:18:35] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [ersciyt]: New version: [1.9] Old Version: [1.89]
+[2023-05-23 17:18:35] INFO root fetch - processPackages [python-ascendex]: Downloading https://files.pythonhosted.org/packages/8f/ec/b4670c33a71687e53bc37c3c50bb391de6db68b0b7fafba6195262f5043b/python-ascendex-0.1.3.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/d7/68/7caee22b7e5d7466362d5aec7eca66a33cc4ce09dcc81a08ba6f9ce8a440/ersciyt-1.89.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [python-ascendex]: Downloading https://files.pythonhosted.org/packages/61/4c/ed7cbf6faf755d4d2fce9b7eb72e75dbe50f08a2e7edeae819e8ea5a3453/python_ascendex-0.2.0.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [ersciyt]: Downloading https://files.pythonhosted.org/packages/be/86/f1a00368270684b4e3560cbf222b345e84f4f2ad82bd72637ab655fdeb9b/ersciyt-1.9.tar.gz
+[2023-05-23 17:18:35] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-23 17:18:35] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230523/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-23 17:18:35] INFO root fetch - processPackages [python-ascendex]: executing diffoscope
+[2023-05-23 17:18:35] INFO root fetch - processPackages [python-ascendex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ascendex-0.1.3.tar.gz tmp/python_ascendex-0.2.0.tar.gz --markdown 20230523/p/python-ascendex/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 17:18:35] INFO root fetch - processPackages [ersciyt]: executing diffoscope
+[2023-05-23 17:18:35] INFO root fetch - processPackages [ersciyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersciyt-1.89.tar.gz tmp/ersciyt-1.9.tar.gz --markdown 20230523/e/ersciyt/1.89-1.9/diff.md --exclude *.pyd
+[2023-05-23 17:18:35] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [psychopy-usbToBNC]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [devpi-server]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [python-ascendex]: success
+[2023-05-23 17:18:36] INFO root fetch - main [MainThread]: End processing [ersciyt]: success
+[2023-05-23 17:18:37] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-23 17:18:38] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-23 17:18:45] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-23 17:18:45] INFO root fetch - main [MainThread]: Store serial: [18216001]

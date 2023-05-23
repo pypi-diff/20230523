@@ -11656,3 +11656,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:29:36] INFO root fetch - main [MainThread]: End processing [opendal]: success
 [2023-05-23 10:29:38] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
 [2023-05-23 10:29:38] INFO root fetch - main [MainThread]: Store serial: [18210959]
+[2023-05-23 10:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210959]
+[2023-05-23 10:34:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Glymur
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-extractor-manager
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sccache
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muffin
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easytqdm
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freeGPT
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HawaData
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-stock-quant-reservation-info-mrp
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-05-23 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ut-date
+[2023-05-23 10:34:48] WARNING root fetch - processPackages [easytqdm]: Skipping, unable to determine old version
+[2023-05-23 10:34:48] INFO root fetch - processPackages [easytqdm]: Start processing: ghananews-scraper
+[2023-05-23 10:34:48] INFO root fetch - main [MainThread]: End processing [easytqdm] error
+[2023-05-23 10:34:48] INFO root fetch - processPackages [modal-client]: New version: [0.49.2230] Old Version: [0.49.2223]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ut-date]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [sccache]: New version: [0.4.2.post1] Old Version: [0.4.2]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [muffin]: New version: [0.98.1] Old Version: [0.98.0]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [HawaData]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [freeGPT]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [cognite-extractor-manager]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info-mrp]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [sccache]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [sccache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccache-0.4.2-py3-none-win_amd64.whl.zip tmp/sccache-0.4.2.post1-py3-none-win_amd64.whl.zip --markdown 20230523/s/sccache/0.4.2-0.4.2.post1/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [Glymur]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/cf/94/7f95dc462b600f6d06c0b209f5af2a5d76c2110bf2b9d00083da72937f9a/ut-date-1.4.4.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/bf/24/1d7eb7bba3ed460c9154b65d8474672f476bb150d1cb211dba9aed0c9b71/muffin-0.98.1.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/ab/1f/a327a02a0967d41746d0e90e3e2586141629b954b4d2899859a09a09159b/HawaData-0.4.1.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info-mrp]: Downloading https://files.pythonhosted.org/packages/66/43/cadae96d3b30c153b0f7ecb201e90a1bea7ecb1bd539e900fcdf9a400639/odoo14_addon_stock_quant_reservation_info_mrp-14.0.1.1.0-py3-none-any.whl
+[2023-05-23 10:34:48] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/89/bc/5bbf078dcc1dd06960e9283cd12bb417c0e031a05321f9a3f45d7e4eddcb/freeGPT-1.0.0.1.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/e4/a8/811df699db5915fc177b5ca2c0efeb272d731d8de8433523916836e8c8de/cognite_extractor_manager-0.8.2.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230523/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.98.0.tar.gz tmp/muffin-0.98.1.tar.gz --markdown 20230523/m/muffin/0.98.0-0.98.1/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 50949510>=10485760
+[2023-05-23 10:34:48] INFO root fetch - processPackages [ut-date]: Start processing: solc-json-parser
+[2023-05-23 10:34:48] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-05-23 10:34:48] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/50/9a/9dcc03642bdb051aa725e87941087d8c4b68d47b1bb1e06bb17b9b334e2b/modal_client-0.49.2230-py3-none-any.whl
+[2023-05-23 10:34:48] INFO root fetch - processPackages [Glymur]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [Glymur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Glymur-0.9.8.tar.gz tmp/Glymur-0.9.9.tar.gz --markdown 20230523/G/Glymur/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [solc-json-parser]: New version: [0.1.8] Old Version: [0.1.5]
+[2023-05-23 10:34:48] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/1d/1c/9c07f2b1bdeaed5bdeee24cafa7ba3412d6671e46ee62667de6878771e1c/freeGPT-1.0.0.2.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/f0/bc/674a8fb30d51afe6521d2b73e6306f92c84c4f63282f90d971c3d420a295/HawaData-0.5.0.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2223-py3-none-any.whl.zip tmp/modal_client-0.49.2230-py3-none-any.whl.zip --markdown 20230523/m/modal-client/0.49.2223-0.49.2230/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info-mrp]: Downloading https://files.pythonhosted.org/packages/30/67/b8a854011a13d6b7928f479114feff3814e385579a0370d5dbf8b49ad021/odoo14_addon_stock_quant_reservation_info_mrp-14.0.1.1.1-py3-none-any.whl
+[2023-05-23 10:34:48] INFO root fetch - processPackages [cognite-extractor-manager]: Downloading https://files.pythonhosted.org/packages/71/c5/98a8f9fdd4e14c3f801fcaf1398274a68dc8d152870515efcd71b599eeeb/cognite_extractor_manager-0.9.0.tar.gz
+[2023-05-23 10:34:48] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.4.1.tar.gz tmp/HawaData-0.5.0.tar.gz --markdown 20230523/H/HawaData/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.0.0.1.tar.gz tmp/freeGPT-1.0.0.2.tar.gz --markdown 20230523/f/freeGPT/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [cognite-extractor-manager]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [cognite-extractor-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_manager-0.8.2.tar.gz tmp/cognite_extractor_manager-0.9.0.tar.gz --markdown 20230523/c/cognite-extractor-manager/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info-mrp]: executing diffoscope
+[2023-05-23 10:34:48] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_quant_reservation_info_mrp-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_stock_quant_reservation_info_mrp-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-stock-quant-reservation-info-mrp/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-23 10:34:48] INFO root fetch - processPackages [solc-json-parser]: Downloading https://files.pythonhosted.org/packages/72/75/937a5f6729aa18ad65e09b224448056581c26f83df2e651ab8819e21f4b9/solc-json-parser-0.1.5.tar.gz
+[2023-05-23 10:34:49] INFO root fetch - processPackages [solc-json-parser]: Downloading https://files.pythonhosted.org/packages/bc/f2/1ad4062194a2fa063f49f72e73423958d086becef9ed28650566dc6f05ca/solc-json-parser-0.1.8.tar.gz
+[2023-05-23 10:34:49] INFO root fetch - processPackages [solc-json-parser]: executing diffoscope
+[2023-05-23 10:34:49] INFO root fetch - processPackages [solc-json-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solc-json-parser-0.1.5.tar.gz tmp/solc-json-parser-0.1.8.tar.gz --markdown 20230523/s/solc-json-parser/0.1.5-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 10:34:49] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-05-23 10:34:49] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [cognite-extractor-manager]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-quant-reservation-info-mrp]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [Glymur]: success
+[2023-05-23 10:34:50] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-23 10:34:51] INFO root fetch - main [MainThread]: End processing [solc-json-parser]: success
+[2023-05-23 10:35:45] INFO root fetch - main [MainThread]: End processing [sccache]: success
+[2023-05-23 10:35:45] INFO root fetch - main [MainThread]: Store serial: [18211014]

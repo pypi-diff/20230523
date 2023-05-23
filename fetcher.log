@@ -9652,3 +9652,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:24:14] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-05-23 08:24:15] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-23 08:24:15] INFO root fetch - main [MainThread]: Store serial: [18209769]
+[2023-05-23 08:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209769]
+[2023-05-23 08:29:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 1neuron
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: custardpy
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ifcopenshell
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sgid-client
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: krillscan
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gnssanalysis
+[2023-05-23 08:29:24] INFO root fetch - processPackages [custardpy]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-23 08:29:24] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 08:29:24] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-05-23 08:29:24] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.4.3-py3-none-any.whl.zip tmp/custardpy-0.4.4-py3-none-any.whl.zip --markdown 20230523/c/custardpy/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-23 08:29:24] WARNING root fetch - processPackages [1neuron]: Skipping, unable to determine old version
+[2023-05-23 08:29:24] INFO root fetch - main [MainThread]: End processing [1neuron] error
+[2023-05-23 08:29:24] INFO root fetch - processPackages [qctrl]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-05-23 08:29:24] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230523] Old Version: [20230522]
+[2023-05-23 08:29:24] WARNING root fetch - processPackages [sgid-client]: Skipping, unable to determine old version
+[2023-05-23 08:29:24] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:29:24] INFO root fetch - main [MainThread]: End processing [sgid-client] error
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ifcopenshell]: New version: [0.7.0.230523] Old Version: [0.7.0.230518]
+[2023-05-23 08:29:24] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev9] Old Version: [7.0.0.dev8]
+[2023-05-23 08:29:24] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-05-23 08:29:24] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230523/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 08:29:24] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-23 08:29:24] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230523/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:29:24] INFO root fetch - processPackages [qctrl]: Downloading https://files.pythonhosted.org/packages/96/35/0c63a7ceea32079ddad6a8a61ac7a232228f3efe734e671fc6f0feeb0b1f/qctrl-9.4.0.tar.gz
+[2023-05-23 08:29:24] INFO root fetch - processPackages [ifcopenshell]: Downloading https://files.pythonhosted.org/packages/f6/94/9aa856d1ec81f3106245310c103b0e0c7ea9104a33aed1c41c847ef1f5e5/ifcopenshell-0.7.0.230518-py39-none-win_amd64.whl
+[2023-05-23 08:29:24] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/18/09/c72dbdaebaf317f0e6f716bff624f88059685f36689fa43ae454f82db39f/fake-bpy-module-latest-20230523.tar.gz
+[2023-05-23 08:29:25] WARNING root fetch - processPackages [ifcopenshell]: Skipping package: exceeds size limit 23630912>=10485760
+[2023-05-23 08:29:25] INFO root fetch - main [MainThread]: End processing [ifcopenshell] error
+[2023-05-23 08:29:25] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-23 08:29:25] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-23 08:29:25] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230523/h/hiddifypanel/7.0.0.dev8-7.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-23 08:29:25] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230522.tar.gz tmp/fake-bpy-module-latest-20230523.tar.gz --markdown 20230523/f/fake-bpy-module-latest/20230522-20230523/diff.md --exclude *.pyd
+[2023-05-23 08:29:25] INFO root fetch - processPackages [qctrl]: Downloading https://files.pythonhosted.org/packages/b9/46/fc1b4a13028f974d6b54bb6357256d93870943bacddfc22a190952f314f5/qctrl-9.5.0.tar.gz
+[2023-05-23 08:29:25] INFO root fetch - processPackages [qctrl]: executing diffoscope
+[2023-05-23 08:29:25] INFO root fetch - processPackages [qctrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-9.4.0.tar.gz tmp/qctrl-9.5.0.tar.gz --markdown 20230523/q/qctrl/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2023-05-23 08:29:25] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-05-23 08:29:26] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-23 08:29:26] INFO root fetch - main [MainThread]: End processing [qctrl]: success
+[2023-05-23 08:29:27] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-05-23 08:29:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-23 08:29:41] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-23 08:29:41] INFO root fetch - main [MainThread]: Store serial: [18209820]

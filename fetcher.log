@@ -13986,3 +13986,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:41:15] INFO root fetch - main [MainThread]: End processing [prospr]: success
 [2023-05-23 12:41:16] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
 [2023-05-23 12:41:16] INFO root fetch - main [MainThread]: Store serial: [18212373]
+[2023-05-23 12:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212373]
+[2023-05-23 12:46:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rwpp
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emark
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysql-statement-builder
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiboconnection
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-utils
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aries-cloudcontroller
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chellow
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transcribe-allign-textgrid
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vgs-api-client
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-05-23 12:46:25] INFO root fetch - processPackages [emark]: New version: [1.0rc6] Old Version: [1.0rc5]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [rwpp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [qiboconnection]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [video-utils]: New version: [2.3.0] Old Version: [2.2.5]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [transcribe-allign-textgrid]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [mysql-statement-builder]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.0rc8] Old Version: [0.8.0rc6]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-23 12:46:25] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230523/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-23 12:46:25] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-23 12:46:25] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230523/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-23 12:46:25] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/83/ed/7b5e4ee7f0a3f12ddef7d9b45fea00ad8e8a1ba199767f9771e5818833b3/emark-1.0rc5.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [qiboconnection]: Downloading https://files.pythonhosted.org/packages/c0/7e/52332123d25e3580ad7d134b66038ac5fd66acfe8458f5a2a4e301169cde/qiboconnection-0.8.0.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [transcribe-allign-textgrid]: Downloading https://files.pythonhosted.org/packages/92/da/f272e9992c253af9b5328b1a8a2d4b3564b37ca69e931a523604055d8651/transcribe_allign_textgrid-0.1.3.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [video-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/b79b4855b91700ae96841f4e2d640109761d1a02e7278e873ccc7f46b7c2/video_utils-2.2.5.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [mysql-statement-builder]: Downloading https://files.pythonhosted.org/packages/d6/5b/e5e0c1dbbd4c441b540cb81523ba3db17e622a3c9d13f792ab49b5f8a1f3/mysql-statement-builder-0.2.3.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/10/be/bcd374fe5cdf6f4b3768022217be6ffe3a35ed3abe02b8e6bd14187d667d/aries_cloudcontroller-0.8.0rc8.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-23 12:46:25] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230523/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-23 12:46:25] INFO root fetch - processPackages [mysql-statement-builder]: executing diffoscope
+[2023-05-23 12:46:25] INFO root fetch - processPackages [mysql-statement-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-statement-builder-0.2.2.tar.gz tmp/mysql-statement-builder-0.2.3.tar.gz --markdown 20230523/m/mysql-statement-builder/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 12:46:25] INFO root fetch - processPackages [rwpp]: Downloading https://files.pythonhosted.org/packages/83/17/dfd6ff89581600ed3a536656914ea4a7ebc41219c9ccd19977e6402d908d/rwpp-0.1.5.tar.gz
+[2023-05-23 12:46:25] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-05-23 12:46:25] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.0rc6.tar.gz tmp/aries_cloudcontroller-0.8.0rc8.tar.gz --markdown 20230523/a/aries-cloudcontroller/0.8.0rc6-0.8.0rc8/diff.md --exclude *.pyd
+[2023-05-23 12:46:25] INFO root fetch - processPackages [video-utils]: Downloading https://files.pythonhosted.org/packages/e1/b0/7654d2ee2a6c3a4adc4456e409b46f23ca5a31402a0712d0ab0adebba224/video_utils-2.3.0.tar.gz
+[2023-05-23 12:46:26] INFO root fetch - processPackages [rwpp]: executing diffoscope
+[2023-05-23 12:46:26] INFO root fetch - processPackages [qiboconnection]: Downloading https://files.pythonhosted.org/packages/d4/2d/3f1d0364d3607959bead29d60d6b0cb81a4b827b21162386355755b94f38/qiboconnection-0.9.0.tar.gz
+[2023-05-23 12:46:26] INFO root fetch - processPackages [rwpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwpp-0.1.4.tar.gz tmp/rwpp-0.1.5.tar.gz --markdown 20230523/r/rwpp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 12:46:26] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/73/f3/9416caf08613763b634947e4ed0a05b9a4f67ac86f48c82d54ec660953fb/emark-1.0rc6.tar.gz
+[2023-05-23 12:46:26] INFO root fetch - processPackages [video-utils]: executing diffoscope
+[2023-05-23 12:46:26] INFO root fetch - processPackages [video-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_utils-2.2.5.tar.gz tmp/video_utils-2.3.0.tar.gz --markdown 20230523/v/video-utils/2.2.5-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 12:46:26] INFO root fetch - processPackages [transcribe-allign-textgrid]: Downloading https://files.pythonhosted.org/packages/56/89/0002d1d1920c9643eaf3c1235bbfd95af0d82d6d42cf3a701f1e800889f0/transcribe_allign_textgrid-0.1.4.tar.gz
+[2023-05-23 12:46:26] INFO root fetch - processPackages [qiboconnection]: executing diffoscope
+[2023-05-23 12:46:26] INFO root fetch - processPackages [qiboconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiboconnection-0.8.0.tar.gz tmp/qiboconnection-0.9.0.tar.gz --markdown 20230523/q/qiboconnection/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:46:26] INFO root fetch - processPackages [transcribe-allign-textgrid]: executing diffoscope
+[2023-05-23 12:46:26] INFO root fetch - processPackages [transcribe-allign-textgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe_allign_textgrid-0.1.3.tar.gz tmp/transcribe_allign_textgrid-0.1.4.tar.gz --markdown 20230523/t/transcribe-allign-textgrid/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 12:46:26] INFO root fetch - processPackages [emark]: executing diffoscope
+[2023-05-23 12:46:26] INFO root fetch - processPackages [emark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emark-1.0rc5.tar.gz tmp/emark-1.0rc6.tar.gz --markdown 20230523/e/emark/1.0rc5-1.0rc6/diff.md --exclude *.pyd
+[2023-05-23 12:46:27] INFO root fetch - processPackages [mysql-statement-builder]: Start processing: pytest-goldie
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [mysql-statement-builder]: success
+[2023-05-23 12:46:27] INFO root fetch - processPackages [pytest-goldie]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 12:46:27] INFO root fetch - processPackages [rwpp]: Start processing: publ
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [rwpp]: success
+[2023-05-23 12:46:27] INFO root fetch - processPackages [publ]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-23 12:46:27] INFO root fetch - processPackages [pytest-goldie]: Downloading https://files.pythonhosted.org/packages/5c/95/9ca5ddc92cf71c18a6e05fc877f67ec79bc8461f13b2dfaab44a37985dca/pytest-goldie-0.1.5.tar.gz
+[2023-05-23 12:46:27] INFO root fetch - processPackages [video-utils]: Start processing: bagbag
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [video-utils]: success
+[2023-05-23 12:46:27] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 12:46:27] INFO root fetch - processPackages [pytest-goldie]: executing diffoscope
+[2023-05-23 12:46:27] INFO root fetch - processPackages [pytest-goldie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-goldie-0.1.4.tar.gz tmp/pytest-goldie-0.1.5.tar.gz --markdown 20230523/p/pytest-goldie/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 12:46:27] INFO root fetch - processPackages [publ]: executing diffoscope
+[2023-05-23 12:46:27] INFO root fetch - processPackages [publ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Publ-0.7.8.tar.gz tmp/Publ-0.7.9.tar.gz --markdown 20230523/p/publ/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-23 12:46:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 12:46:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [emark]: success
+[2023-05-23 12:46:27] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-23 12:46:28] INFO root fetch - main [MainThread]: End processing [transcribe-allign-textgrid]: success
+[2023-05-23 12:46:28] INFO root fetch - main [MainThread]: End processing [pytest-goldie]: success
+[2023-05-23 12:46:29] INFO root fetch - main [MainThread]: End processing [publ]: success
+[2023-05-23 12:46:29] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-05-23 12:46:29] INFO root fetch - main [MainThread]: End processing [qiboconnection]: success
+[2023-05-23 12:46:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 12:46:30] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-23 12:46:30] INFO root fetch - main [MainThread]: Store serial: [18212416]

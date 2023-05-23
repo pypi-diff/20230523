@@ -1922,3 +1922,52 @@
 [2023-05-23 02:46:10] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
 [2023-05-23 02:46:17] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-23 02:46:17] INFO root fetch - main [MainThread]: Store serial: [18205683]
+[2023-05-23 02:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205683]
+[2023-05-23 02:51:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubric-nightly
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-accounting
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-Pandas-GUI
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-slack-chatbot
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-goldie
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-terraform
+[2023-05-23 02:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agixt
+[2023-05-23 02:51:26] INFO root fetch - processPackages [mia-accounting]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [jupyter-Pandas-GUI]: New version: [0.8.0.dev1] Old Version: [0.8.0.dev0]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pytest-goldie]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [agixt]: New version: [1.1.67b0] Old Version: [1.1.66b0]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pulumi-terraform]: New version: [5.9.0] Old Version: [5.8.0a1675048832]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-23 02:51:26] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230523/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pulumi-terraform]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pulumi-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_terraform-5.8.0a1675048832.tar.gz tmp/pulumi_terraform-5.9.0.tar.gz --markdown 20230523/p/pulumi-terraform/5.8.0a1675048832-5.9.0/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pytest-goldie]: Downloading https://files.pythonhosted.org/packages/13/77/aba71d41b3ec1eee234a7b3e59e8cad9e5a7ca94a9acb3b74313cdefadb3/pytest-goldie-0.1.0.tar.gz
+[2023-05-23 02:51:26] INFO root fetch - processPackages [jupyter-Pandas-GUI]: Downloading https://files.pythonhosted.org/packages/5a/4c/d5fca48e68fa2ee93eadea699bd4cab2c54c7f4911c6673303fce024bcf6/jupyter_Pandas_GUI-0.8.0.dev1.tar.gz
+[2023-05-23 02:51:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/10/47/abb90ac8e6ee261373b1d5d11dc593a397d54a125eeff1097206e177c0c6/agixt-1.1.66b0.tar.gz
+[2023-05-23 02:51:26] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/3b/5f/d43dea4fd04421e76cebc7ac769f6e3347e385c6ccc6be46cd38844b688e/mia-accounting-1.5.5.tar.gz
+[2023-05-23 02:51:26] INFO root fetch - processPackages [jupyter-Pandas-GUI]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [jupyter-Pandas-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_Pandas_GUI-0.8.0.dev0.tar.gz tmp/jupyter_Pandas_GUI-0.8.0.dev1.tar.gz --markdown 20230523/j/jupyter-Pandas-GUI/0.8.0.dev0-0.8.0.dev1/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pytest-goldie]: Downloading https://files.pythonhosted.org/packages/7e/24/d08fbfdafca0db4042dc652ed8f938d4e00b65f665559a3e3a3c044cd349/pytest-goldie-0.1.1.tar.gz
+[2023-05-23 02:51:26] INFO root fetch - processPackages [mia-accounting]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [mia-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia-accounting-1.5.4.tar.gz tmp/mia-accounting-1.5.5.tar.gz --markdown 20230523/m/mia-accounting/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230523/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pytest-goldie]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [pytest-goldie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-goldie-0.1.0.tar.gz tmp/pytest-goldie-0.1.1.tar.gz --markdown 20230523/p/pytest-goldie/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-05-23 02:51:26] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230523/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:51:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/aa/1f/66438a2e4cab12126c7c76b0ea111c17a7ec33b0cb9c274211b47dca9508/agixt-1.1.67b0.tar.gz
+[2023-05-23 02:51:27] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-05-23 02:51:27] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.66b0.tar.gz tmp/agixt-1.1.67b0.tar.gz --markdown 20230523/a/agixt/1.1.66b0-1.1.67b0/diff.md --exclude *.pyd
+[2023-05-23 02:51:27] INFO root fetch - main [MainThread]: End processing [pulumi-terraform]: success
+[2023-05-23 02:51:28] INFO root fetch - main [MainThread]: End processing [jupyter-Pandas-GUI]: success
+[2023-05-23 02:51:28] INFO root fetch - main [MainThread]: End processing [pytest-goldie]: success
+[2023-05-23 02:51:28] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-05-23 02:51:28] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-23 02:51:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-05-23 02:51:29] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-05-23 02:51:29] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
+[2023-05-23 02:51:29] INFO root fetch - main [MainThread]: Store serial: [18205706]

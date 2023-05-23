@@ -9443,3 +9443,46 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:02:32] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2023-05-23 08:03:12] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-05-23 08:03:12] INFO root fetch - main [MainThread]: Store serial: [18209620]
+[2023-05-23 08:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209620]
+[2023-05-23 08:08:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regexplayground
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mozark-sdk
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ASTOCache
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberbullying
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: masonite-servicing
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MandiriUtils
+[2023-05-23 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clld
+[2023-05-23 08:08:22] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:08:22] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230522] Old Version: [2.4.0.dev20230521]
+[2023-05-23 08:08:22] INFO root fetch - processPackages [MandiriUtils]: New version: [0.4] Old Version: [0.2]
+[2023-05-23 08:08:22] INFO root fetch - processPackages [clld]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-05-23 08:08:22] INFO root fetch - processPackages [mozark-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 08:08:22] WARNING root fetch - processPackages [cyberbullying]: Skipping, unable to determine old version
+[2023-05-23 08:08:22] INFO root fetch - processPackages [regexplayground]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-23 08:08:22] INFO root fetch - main [MainThread]: End processing [cyberbullying] error
+[2023-05-23 08:08:22] WARNING root fetch - processPackages [ASTOCache]: Skipping, unable to determine old version
+[2023-05-23 08:08:22] INFO root fetch - main [MainThread]: End processing [ASTOCache] error
+[2023-05-23 08:08:22] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-23 08:08:22] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.8.tar.gz tmp/masonite-servicing-0.0.9.tar.gz --markdown 20230523/m/masonite-servicing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:08:22] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 08:08:22] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.2.tar.gz tmp/MandiriUtils-0.4.tar.gz --markdown 20230523/M/MandiriUtils/0.2-0.4/diff.md --exclude *.pyd
+[2023-05-23 08:08:23] INFO root fetch - processPackages [mozark-sdk]: Downloading https://files.pythonhosted.org/packages/c6/a8/12ec99eba5fb0fb6c254dcc39a6bfcb24d045727d0a4ee0f033c2ce594dd/mozark_sdk-1.0.2.tar.gz
+[2023-05-23 08:08:23] INFO root fetch - processPackages [regexplayground]: Downloading https://files.pythonhosted.org/packages/5e/75/06b8fcbb5916322e4d895f9c41bae9e5a751ab306c512fe7d25758d5ccce/regexplayground-1.1.1.tar.gz
+[2023-05-23 08:08:23] INFO root fetch - processPackages [mozark-sdk]: executing diffoscope
+[2023-05-23 08:08:23] INFO root fetch - processPackages [mozark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozark_sdk-1.0.1.tar.gz tmp/mozark_sdk-1.0.2.tar.gz --markdown 20230523/m/mozark-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 08:08:23] INFO root fetch - processPackages [clld]: executing diffoscope
+[2023-05-23 08:08:23] INFO root fetch - processPackages [clld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clld-9.2.1.tar.gz tmp/clld-9.2.2.tar.gz --markdown 20230523/c/clld/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-05-23 08:08:23] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/64/2d/d663f232676441b7ee030a2a30a8450f53d5d1435e66fdc8eecf044d57d2/pyg_nightly-2.4.0.dev20230522.tar.gz
+[2023-05-23 08:08:23] INFO root fetch - processPackages [regexplayground]: Downloading https://files.pythonhosted.org/packages/d6/66/70725643c3f6203a22bb8bbc92dd0a37a03d364e90404c57e61d2d4124ec/regexplayground-1.2.0.tar.gz
+[2023-05-23 08:08:23] INFO root fetch - processPackages [regexplayground]: executing diffoscope
+[2023-05-23 08:08:23] INFO root fetch - processPackages [regexplayground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regexplayground-1.1.1.tar.gz tmp/regexplayground-1.2.0.tar.gz --markdown 20230523/r/regexplayground/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 08:08:23] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-23 08:08:23] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230521.tar.gz tmp/pyg_nightly-2.4.0.dev20230522.tar.gz --markdown 20230523/p/pyg-nightly/2.4.0.dev20230521-2.4.0.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 08:08:24] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-23 08:08:24] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 08:08:24] INFO root fetch - main [MainThread]: End processing [regexplayground]: success
+[2023-05-23 08:08:25] INFO root fetch - main [MainThread]: End processing [mozark-sdk]: success
+[2023-05-23 08:08:28] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-23 08:08:30] INFO root fetch - main [MainThread]: End processing [clld]: success
+[2023-05-23 08:08:30] INFO root fetch - main [MainThread]: Store serial: [18209646]

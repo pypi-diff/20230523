@@ -9547,3 +9547,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:13:45] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
 [2023-05-23 08:13:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-05-23 08:13:45] INFO root fetch - main [MainThread]: Store serial: [18209672]
+[2023-05-23 08:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209672]
+[2023-05-23 08:18:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-connector
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-sqlalchemy
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xenoslib
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rudderclient
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiofauna
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchlogit
+[2023-05-23 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2023-05-23 08:18:54] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [xenoslib]: New version: [0.1.26.0] Old Version: [0.1.25.0]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [rudderclient]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230522] Old Version: [1.5.4.dev20230521]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-05-23 08:18:54] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.25.0.tar.gz tmp/xenoslib-0.1.26.0.tar.gz --markdown 20230523/x/xenoslib/0.1.25.0-0.1.26.0/diff.md --exclude *.pyd
+[2023-05-23 08:18:54] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 08:18:54] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-23 08:18:54] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230523/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 08:18:54] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/a1/2d/272f9188aff2f6faaa1df1c7c4b86e940b1786daf46255b8ab0bc073a04c/clickzetta-connector-0.7.2.tar.gz
+[2023-05-23 08:18:54] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-23 08:18:54] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230523/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 08:18:54] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/d1/99/04b1b30f4749bbf4365c4feae6e53a2f27396e5130f6e0495a397c6d4166/clickzetta-sqlalchemy-0.7.2.tar.gz
+[2023-05-23 08:18:55] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-23 08:18:55] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.0.1.tar.gz tmp/rudderclient-1.1.0.tar.gz --markdown 20230523/r/rudderclient/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 08:18:55] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-23 08:18:55] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230521.tar.gz tmp/pretext-1.5.4.dev20230522.tar.gz --markdown 20230523/p/pretext/1.5.4.dev20230521-1.5.4.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/8d/60/c730d4efba8d9519a0ad5a8725bba17a8c65d2228f35b3114fbc6a45d9be/clickzetta-connector-0.7.3.tar.gz
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.7.2.tar.gz tmp/clickzetta-connector-0.7.3.tar.gz --markdown 20230523/c/clickzetta-connector/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e5/75/57c5b9666fa3b237c11bb4b6c4a6b3f4ec5867e2ea80567fdd89ffc7b385/clickzetta-sqlalchemy-0.7.3.tar.gz
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-23 08:18:55] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.7.2.tar.gz tmp/clickzetta-sqlalchemy-0.7.3.tar.gz --markdown 20230523/c/clickzetta-sqlalchemy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-23 08:18:59] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-23 08:18:59] INFO root fetch - main [MainThread]: Store serial: [18209733]

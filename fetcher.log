@@ -20808,3 +20808,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:55:54] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-23 17:55:59] INFO root fetch - main [MainThread]: End processing [pyteseo]: success
 [2023-05-23 17:55:59] INFO root fetch - main [MainThread]: Store serial: [18216530]
+[2023-05-23 18:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216530]
+[2023-05-23 18:01:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-custom-search
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-marion
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formenergy-observability
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gemd
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-rtmidi
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-marion-howard
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-proofscape
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: turbine-design
+[2023-05-23 18:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicommeta
+[2023-05-23 18:01:09] INFO root fetch - processPackages [django-marion-howard]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [formenergy-observability]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [google-custom-search]: New version: [3.0.0rc0] Old Version: [3.0.0a0]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [gemd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.6] Old Version: [0.5]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [django-marion]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [dicommeta]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [sphinx-proofscape]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [turbine-design]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [python-rtmidi]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [google-custom-search]: executing diffoscope
+[2023-05-23 18:01:09] INFO root fetch - processPackages [google-custom-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-custom-search-3.0.0a0.tar.gz tmp/google-custom-search-3.0.0rc0.tar.gz --markdown 20230523/g/google-custom-search/3.0.0a0-3.0.0rc0/diff.md --exclude *.pyd
+[2023-05-23 18:01:09] INFO root fetch - processPackages [formenergy-observability]: Downloading https://files.pythonhosted.org/packages/3e/b3/841c77690c0eb32c8ee15ebe0aecb69e7b5947eeefebbe170403d8414e08/formenergy-observability-0.2.0.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [sphinx-proofscape]: Downloading https://files.pythonhosted.org/packages/9f/c8/30f25e9c4aac6956e7bec3b9b33b6545c74eb28d1268d72df3bc10c7e4be/sphinx-proofscape-0.4.0.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [gemd]: Downloading https://files.pythonhosted.org/packages/8d/39/91262ab38a3221527fff53b54de6b7435a32325060364dae212b8bd2f60d/gemd-1.8.1.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [django-marion-howard]: Downloading https://files.pythonhosted.org/packages/8c/a0/f62666a171bd34ca03b443e830b6d5d7a5391b369ae08e4564c2e4bfd4fc/django-marion-howard-0.4.0.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/1a/4a/e93a27777d03f1ebeb7d7aa2761d1337962c824b347283a95070d1815d78/mkdocs-simple-tags-plugin-0.5.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/b0/13/a9123f46eef68cc346a4789252c34bf0ee92e330942adf91ba5da9b95d40/dicommeta-0.6.4.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/92/bf/749468bc43f85ec77f37154327360ba82e7d0ae622341eab44a6d75751c3/python-rtmidi-1.4.9.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [turbine-design]: Downloading https://files.pythonhosted.org/packages/29/84/683cd009f65f0014a22e73c2762d996fac049f1b56e53f18f69a8fb3e3d2/turbine_design-0.1.3.tar.gz
+[2023-05-23 18:01:09] WARNING root fetch - processPackages [turbine-design]: Skipping package: exceeds size limit 17559248>=10485760
+[2023-05-23 18:01:09] INFO root fetch - processPackages [turbine-design]: Start processing: mmenot
+[2023-05-23 18:01:09] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-05-23 18:01:09] INFO root fetch - processPackages [django-marion]: Downloading https://files.pythonhosted.org/packages/4a/5d/050e6f2e1e7b34e39d0e0a2953feff1fbeeafcb343e16e2ec75b4246b46a/django-marion-0.4.0.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [mmenot]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 18:01:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/05/3e/a95149f5d5e03ac2d6c0f6e5a3476b300c60f59b7b2545c168a1ec99246b/mkdocs-simple-tags-plugin-0.6.tar.gz
+[2023-05-23 18:01:09] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/af/e6/8ed573b8ccc6dc582880005d22e614844da953fc7f8894691876f342c7b7/dicommeta-0.6.5.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [formenergy-observability]: Downloading https://files.pythonhosted.org/packages/4a/b4/151a68383a5ddbbce4ecbd232370aae1dd6945d4740b275d884ac164233e/formenergy-observability-0.3.0.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/b6/94/9f57c5459d0cda4032967fd551442d3b953094a4c6514d57d2cf0ad2f44d/python-rtmidi-1.5.0.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [gemd]: Downloading https://files.pythonhosted.org/packages/e2/2b/15eca91fe5e92fbf1de886882d420928fd2dce25675fc90da02c749e6f4b/gemd-1.9.0.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.5.tar.gz tmp/mkdocs-simple-tags-plugin-0.6.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion-howard]: Downloading https://files.pythonhosted.org/packages/94/c3/a69229c1a863a65003765ea0004badf1e72460caabb3b36c6c8ecad1cf87/django-marion-howard-0.5.0.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [dicommeta]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [dicommeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicommeta-0.6.4.tar.gz tmp/dicommeta-0.6.5.tar.gz --markdown 20230523/d/dicommeta/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [sphinx-proofscape]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [sphinx-proofscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-proofscape-0.3.2.tar.gz tmp/sphinx-proofscape-0.4.0.tar.gz --markdown 20230523/s/sphinx-proofscape/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [formenergy-observability]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [formenergy-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formenergy-observability-0.2.0.tar.gz tmp/formenergy-observability-0.3.0.tar.gz --markdown 20230523/f/formenergy-observability/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/87/0f/3f95659bd097b4b22fc87218a642c07e73b58498b896a67076bff5d31a68/mmenot-0.9.2-py3-none-any.whl
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion]: Downloading https://files.pythonhosted.org/packages/04/a5/bbc8d2db639fe5d09d25f06e8de488d880c8eec51fc6c3026c93bb4975c3/django-marion-0.5.0.tar.gz
+[2023-05-23 18:01:10] INFO root fetch - processPackages [python-rtmidi]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [python-rtmidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-rtmidi-1.4.9.tar.gz tmp/python-rtmidi-1.5.0.tar.gz --markdown 20230523/p/python-rtmidi/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [gemd]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [gemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemd-1.8.1.tar.gz tmp/gemd-1.9.0.tar.gz --markdown 20230523/g/gemd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion-howard]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion-howard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-marion-howard-0.4.0.tar.gz tmp/django-marion-howard-0.5.0.tar.gz --markdown 20230523/d/django-marion-howard/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [mmenot]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [mmenot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmenot-0.9.1-py3-none-any.whl.zip tmp/mmenot-0.9.2-py3-none-any.whl.zip --markdown 20230523/m/mmenot/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion]: executing diffoscope
+[2023-05-23 18:01:10] INFO root fetch - processPackages [django-marion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-marion-0.4.0.tar.gz tmp/django-marion-0.5.0.tar.gz --markdown 20230523/d/django-marion/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 18:01:10] INFO root fetch - processPackages [google-custom-search]: Start processing: etl-jobs
+[2023-05-23 18:01:10] INFO root fetch - main [MainThread]: End processing [google-custom-search]: success
+[2023-05-23 18:01:10] INFO root fetch - processPackages [etl-jobs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 18:01:11] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/26/ce/f8a55bcd6403f5cefb4c66c21efd8cf70c47f976af9a40ca431fbf6c0380/etl_jobs-0.1.6.tar.gz
+[2023-05-23 18:01:11] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/f9/ae/4ca57b8e26898cde840fcc5be67647b590d7c81c3c4b9b8f9d3ceaa27d97/etl_jobs-0.1.7.tar.gz
+[2023-05-23 18:01:11] INFO root fetch - processPackages [etl-jobs]: executing diffoscope
+[2023-05-23 18:01:11] INFO root fetch - processPackages [etl-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_jobs-0.1.6.tar.gz tmp/etl_jobs-0.1.7.tar.gz --markdown 20230523/e/etl-jobs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 18:01:11] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: tifftools
+[2023-05-23 18:01:11] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 18:01:11] INFO root fetch - processPackages [tifftools]: New version: [1.3.9.dev2] Old Version: [1.3.9]
+[2023-05-23 18:01:11] INFO root fetch - processPackages [dicommeta]: Start processing: pyfcutils
+[2023-05-23 18:01:11] INFO root fetch - main [MainThread]: End processing [dicommeta]: success
+[2023-05-23 18:01:11] INFO root fetch - processPackages [pyfcutils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-23 18:01:11] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/6b/5b/3b0a83c36bb2f18b4c2e86265c1ebc96d9d2832a253c3e5533529c77696b/tifftools-1.3.9.tar.gz
+[2023-05-23 18:01:11] INFO root fetch - processPackages [django-marion-howard]: Start processing: schema-jobs
+[2023-05-23 18:01:11] INFO root fetch - main [MainThread]: End processing [django-marion-howard]: success
+[2023-05-23 18:01:11] INFO root fetch - processPackages [sphinx-proofscape]: Start processing: qontract-reconcile
+[2023-05-23 18:01:11] INFO root fetch - main [MainThread]: End processing [sphinx-proofscape]: success
+[2023-05-23 18:01:11] INFO root fetch - processPackages [schema-jobs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 18:01:11] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-23 18:01:12] INFO root fetch - processPackages [mmenot]: Start processing: coastseg
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [mmenot]: success
+[2023-05-23 18:01:12] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 18:01:12] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-23 18:01:12] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230523/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-23 18:01:12] INFO root fetch - processPackages [pyfcutils]: Downloading https://files.pythonhosted.org/packages/d5/f3/f452200e4b57585bd90f68bbf4b5af25f64e8e0d875962e06f5e436a75c6/pyfcutils-0.2.3.tar.gz
+[2023-05-23 18:01:12] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-23 18:01:12] INFO root fetch - processPackages [schema-jobs]: Downloading https://files.pythonhosted.org/packages/cd/81/afaa368dfc56de333b78055232af78c273487afa8588d810ae90dd03cb83/schema_jobs-0.1.7.tar.gz
+[2023-05-23 18:01:12] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-23 18:01:12] INFO root fetch - processPackages [coastseg]: Start processing: subsonic-connector
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-23 18:01:12] INFO root fetch - processPackages [tifftools]: Downloading https://files.pythonhosted.org/packages/d6/34/fa227304a1ca3ecf56ed32ede2d4a76e6cfdfa3608027c7cc459fc22ff64/tifftools-1.3.9.dev2.tar.gz
+[2023-05-23 18:01:12] INFO root fetch - processPackages [pyfcutils]: Downloading https://files.pythonhosted.org/packages/0c/42/be60755dbeb7872a83cb15c8b158fcec2e7d632679ab2209e35eac5b6e2d/pyfcutils-0.2.4.tar.gz
+[2023-05-23 18:01:12] INFO root fetch - processPackages [tifftools]: executing diffoscope
+[2023-05-23 18:01:12] INFO root fetch - processPackages [tifftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifftools-1.3.9.tar.gz tmp/tifftools-1.3.9.dev2.tar.gz --markdown 20230523/t/tifftools/1.3.9-1.3.9.dev2/diff.md --exclude *.pyd
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [django-marion]: success
+[2023-05-23 18:01:12] INFO root fetch - processPackages [subsonic-connector]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 18:01:12] INFO root fetch - processPackages [pyfcutils]: executing diffoscope
+[2023-05-23 18:01:12] INFO root fetch - processPackages [pyfcutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfcutils-0.2.3.tar.gz tmp/pyfcutils-0.2.4.tar.gz --markdown 20230523/p/pyfcutils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-23 18:01:12] INFO root fetch - processPackages [schema-jobs]: Downloading https://files.pythonhosted.org/packages/df/8b/3b71dd6eac317f5df1568f089549df3490957d2a0f53d6a93b79112bd626/schema_jobs-0.1.8.tar.gz
+[2023-05-23 18:01:12] INFO root fetch - processPackages [schema-jobs]: executing diffoscope
+[2023-05-23 18:01:12] INFO root fetch - processPackages [schema-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema_jobs-0.1.7.tar.gz tmp/schema_jobs-0.1.8.tar.gz --markdown 20230523/s/schema-jobs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [formenergy-observability]: success
+[2023-05-23 18:01:12] INFO root fetch - processPackages [subsonic-connector]: executing diffoscope
+[2023-05-23 18:01:12] INFO root fetch - processPackages [subsonic-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsonic_connector-0.1.8.tar.gz tmp/subsonic_connector-0.1.9.tar.gz --markdown 20230523/s/subsonic-connector/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [python-rtmidi]: success
+[2023-05-23 18:01:12] INFO root fetch - main [MainThread]: End processing [etl-jobs]: success
+[2023-05-23 18:01:13] INFO root fetch - main [MainThread]: End processing [tifftools]: success
+[2023-05-23 18:01:13] INFO root fetch - main [MainThread]: End processing [subsonic-connector]: success
+[2023-05-23 18:01:13] INFO root fetch - main [MainThread]: End processing [schema-jobs]: success
+[2023-05-23 18:01:14] INFO root fetch - main [MainThread]: End processing [pyfcutils]: success
+[2023-05-23 18:01:15] INFO root fetch - main [MainThread]: End processing [gemd]: success
+[2023-05-23 18:01:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-23 18:01:17] INFO root fetch - main [MainThread]: Store serial: [18216610]

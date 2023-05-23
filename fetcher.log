@@ -21488,3 +21488,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 18:28:34] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-05-23 18:28:34] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-23 18:28:34] INFO root fetch - main [MainThread]: Store serial: [18216937]
+[2023-05-23 18:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216937]
+[2023-05-23 18:33:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioairzone-cloud
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acstools
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptgladiator
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ewoksweb
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotON_sdk
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fmvmm
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: superfluid
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-config-backup
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simplebox
+[2023-05-23 18:33:45] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [acstools]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.992] Old Version: [0.0.4.991]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a154] Old Version: [0.0.1a153]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [fmvmm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [ewoksweb]: New version: [0.1.0rc2] Old Version: [0.0.3a0]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [superfluid]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.8] Old Version: [0.7]
+[2023-05-23 18:33:45] INFO root fetch - processPackages [netbox-config-backup]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-23 18:33:45] ERROR root fetch - processPackages [gptgladiator]: Unable to get metadata: No such project 'gptgladiator'
+[2023-05-23 18:33:45] INFO root fetch - processPackages [gptgladiator]: Start processing: mcsolver
+[2023-05-23 18:33:45] INFO root fetch - main [MainThread]: End processing [gptgladiator] error
+[2023-05-23 18:33:46] INFO root fetch - processPackages [fmvmm]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [fmvmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmvmm-1.0.8.tar.gz tmp/fmvmm-1.0.9.tar.gz --markdown 20230523/f/fmvmm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mcsolver]: New version: [3.0.2] Old Version: [2.3.0]
+[2023-05-23 18:33:46] INFO root fetch - processPackages [acstools]: Downloading https://files.pythonhosted.org/packages/1d/3e/d48e919f72605f6ff153e2d2e74ba5a5cfb6bf5ff8070118eb166d088918/acstools-3.6.0.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/72/fc/ca0554079f16db50ea4c5b642d75a8d3dbcc7e0dea3de6af62f5b5ca14ad/mkdocs-simple-tags-plugin-0.7.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/28/8b/ca9d8bea87f3feee119942c538caef30fd89b89f29d31b000904a7268ee7/aioairzone-cloud-0.1.2.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/18/9a/c1080a9397e40c328a63550920cb940cda9a527c57f68409ff2fb43eced2/spotON_sdk-0.0.4.992.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/f3/eb/e4a2383fa754b3a73cd162d507f2d513584014af8aada045b65a3681f684/ewoksweb-0.0.3a0.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/6d/d0/1069a3449b9154f42e8846b2da7ae08106e96c3eec884942f79f0f0b927d/superfluid-0.0.7.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.1.tar.gz tmp/aioairzone-cloud-0.1.2.tar.gz --markdown 20230523/a/aioairzone-cloud/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.991.tar.gz tmp/spotON_sdk-0.0.4.992.tar.gz --markdown 20230523/s/spotON_sdk/0.0.4.991-0.0.4.992/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/7d/e3/e42f7d846a15ce74a72a97db79b5274d2226cc8ebce391034e5a69c61db6/simplebox-0.0.1a154-py3-none-any.whl
+[2023-05-23 18:33:46] INFO root fetch - processPackages [netbox-config-backup]: Downloading https://files.pythonhosted.org/packages/cb/dc/577a5f93c7de9adf362e4d9e62cc6cfc90387817743d377727e49015edfb/netbox_config_backup-1.4.5.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [acstools]: Downloading https://files.pythonhosted.org/packages/ec/8d/606d22ab8d8c18aee35944f33da763d8d0ccb60ad66b17b558b02a4c6cea/acstools-3.6.1.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/49/b4/3bb9bc8f4b6bbf5ac7d24e31216c0318b7dbb654f7806353805e937ccfc7/mkdocs-simple-tags-plugin-0.8.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a153-py3-none-any.whl.zip tmp/simplebox-0.0.1a154-py3-none-any.whl.zip --markdown 20230523/s/simplebox/0.0.1a153-0.0.1a154/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [netbox-config-backup]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [netbox-config-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_config_backup-1.4.4.tar.gz tmp/netbox_config_backup-1.4.5.tar.gz --markdown 20230523/n/netbox-config-backup/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mcsolver]: Downloading https://files.pythonhosted.org/packages/d3/b5/7ae8570a93051f9c0ac05adc41c14ec8bcd7e04c4d64d2af6c1eb39f5518/mcsolver-3.0.2.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [acstools]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [acstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acstools-3.6.0.tar.gz tmp/acstools-3.6.1.tar.gz --markdown 20230523/a/acstools/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/b5/8d/46cb7a64c224b24737ef2fdc9967b1982085b03b688857b415c16f4571d7/ewoksweb-0.1.0rc2.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.7.tar.gz tmp/mkdocs-simple-tags-plugin-0.8.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [superfluid]: Downloading https://files.pythonhosted.org/packages/68/47/9d504822d85ad3fbad4338ec0616262c01d3d9f3da8da61c3836d70016a5/superfluid-0.0.8.tar.gz
+[2023-05-23 18:33:46] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.0.7.tar.gz tmp/superfluid-0.0.8.tar.gz --markdown 20230523/s/superfluid/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [ewoksweb]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [ewoksweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksweb-0.0.3a0.tar.gz tmp/ewoksweb-0.1.0rc2.tar.gz --markdown 20230523/e/ewoksweb/0.0.3a0-0.1.0rc2/diff.md --exclude *.pyd
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mcsolver]: executing diffoscope
+[2023-05-23 18:33:46] INFO root fetch - processPackages [mcsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcsolver-2.3.0.tar.gz tmp/mcsolver-3.0.2.tar.gz --markdown 20230523/m/mcsolver/2.3.0-3.0.2/diff.md --exclude *.pyd
+[2023-05-23 18:33:47] INFO root fetch - processPackages [fmvmm]: Start processing: cellmaps-imagedownloader
+[2023-05-23 18:33:47] INFO root fetch - main [MainThread]: End processing [fmvmm]: success
+[2023-05-23 18:33:47] INFO root fetch - processPackages [cellmaps-imagedownloader]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-05-23 18:33:47] INFO root fetch - processPackages [aioairzone-cloud]: Start processing: lightly
+[2023-05-23 18:33:47] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-05-23 18:33:47] INFO root fetch - processPackages [cellmaps-imagedownloader]: Downloading https://files.pythonhosted.org/packages/03/d1/36fabdb4f2cbdb7aeed6c27fdb2e02bdd38655a4c45566a575b5e417d31c/cellmaps_imagedownloader-0.1.0a4.tar.gz
+[2023-05-23 18:33:47] INFO root fetch - processPackages [spotON_sdk]: Start processing: firebase-push
+[2023-05-23 18:33:47] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-23 18:33:47] INFO root fetch - processPackages [lightly]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-23 18:33:47] INFO root fetch - processPackages [firebase-push]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 18:33:48] INFO root fetch - processPackages [firebase-push]: executing diffoscope
+[2023-05-23 18:33:48] INFO root fetch - processPackages [firebase-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebase_push-0.2.1.tar.gz tmp/firebase_push-0.2.2-py3-none-any.whl.zip --markdown 20230523/f/firebase-push/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 18:33:48] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: simpleworkspace
+[2023-05-23 18:33:48] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 18:33:48] INFO root fetch - processPackages [cellmaps-imagedownloader]: Downloading https://files.pythonhosted.org/packages/c8/90/2ef7eb2bc8ef12ab474eaff764bc96fed049556e5fe7011f2b624dfd20c2/cellmaps_imagedownloader-0.1.0a5.tar.gz
+[2023-05-23 18:33:48] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/3a/63/71be37b5b9a45792452f9c7974565a6228cc4d725ced45a5dd6c7903ba1d/lightly-1.4.5.tar.gz
+[2023-05-23 18:33:48] INFO root fetch - processPackages [cellmaps-imagedownloader]: executing diffoscope
+[2023-05-23 18:33:48] INFO root fetch - processPackages [cellmaps-imagedownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_imagedownloader-0.1.0a4.tar.gz tmp/cellmaps_imagedownloader-0.1.0a5.tar.gz --markdown 20230523/c/cellmaps-imagedownloader/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-05-23 18:33:48] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-23 18:33:48] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-23 18:33:48] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-23 18:33:48] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/3a/b7/d7002fe463aaac8c79e149373a2c6b6a9e5af902454f3ce89134ab816e27/lightly-1.4.6.tar.gz
+[2023-05-23 18:33:48] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-05-23 18:33:48] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-05-23 18:33:48] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.5.tar.gz tmp/lightly-1.4.6.tar.gz --markdown 20230523/l/lightly/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-23 18:33:48] INFO root fetch - main [MainThread]: End processing [netbox-config-backup]: success
+[2023-05-23 18:33:48] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-05-23 18:33:48] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-05-23 18:33:48] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230523/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-23 18:33:48] INFO root fetch - main [MainThread]: End processing [mcsolver]: success
+[2023-05-23 18:33:49] INFO root fetch - main [MainThread]: End processing [firebase-push]: success
+[2023-05-23 18:33:49] INFO root fetch - main [MainThread]: End processing [cellmaps-imagedownloader]: success
+[2023-05-23 18:33:49] INFO root fetch - main [MainThread]: End processing [acstools]: success
+[2023-05-23 18:33:49] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-05-23 18:33:52] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-05-23 18:34:50] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
+[2023-05-23 18:34:50] INFO root fetch - main [MainThread]: Store serial: [18216991]

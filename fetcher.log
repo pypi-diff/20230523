@@ -9094,3 +9094,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 07:35:34] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-computenestsupplier]: success
 [2023-05-23 07:35:37] INFO root fetch - main [MainThread]: End processing [kfactory]: success
 [2023-05-23 07:35:37] INFO root fetch - main [MainThread]: Store serial: [18209436]
+[2023-05-23 07:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209436]
+[2023-05-23 07:40:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-23 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-computenestsupplier20210521
+[2023-05-23 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vector-vault
+[2023-05-23 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gensum
+[2023-05-23 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icetcore
+[2023-05-23 07:40:47] INFO root fetch - processPackages [gensum]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 07:40:47] INFO root fetch - processPackages [vector-vault]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 07:40:47] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-23 07:40:47] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-05-23 07:40:47] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: Downloading https://files.pythonhosted.org/packages/b8/93/bbf32f56eab20b33e7710d23dc2112e0c5bad36cd15095bdff71f0750f28/alibabacloud_computenestsupplier20210521-1.2.2.tar.gz
+[2023-05-23 07:40:47] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/be/1b/1788d49144ef64e2301c698a2463cb39f69a46de0fbf1db61339d4945fa0/gensum-0.1.2.tar.gz
+[2023-05-23 07:40:47] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/f8/ec/f0b36a16e347cf6c52f5bd9080e2ceceb1ccbff1f5375cc02793f8a11f4c/icetcore-6.2.8-py3-none-any.whl
+[2023-05-23 07:40:47] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/b9/88/1802d8fc8ad7a7d888142b34ec450b4cfe9eec9bc68915f0b72727835414/vector_vault-0.2.9.tar.gz
+[2023-05-23 07:40:47] INFO root fetch - processPackages [gensum]: executing diffoscope
+[2023-05-23 07:40:47] INFO root fetch - processPackages [gensum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensum-0.1.1.tar.gz tmp/gensum-0.1.2.tar.gz --markdown 20230523/g/gensum/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 07:40:48] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: Downloading https://files.pythonhosted.org/packages/6b/44/57f2acd16a42523eb0bcf1c4f573532daaf29706c5f8d4ac942ccf153e34/alibabacloud_computenestsupplier20210521-1.2.3.tar.gz
+[2023-05-23 07:40:48] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-23 07:40:48] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-0.2.8.tar.gz tmp/vector_vault-0.2.9.tar.gz --markdown 20230523/v/vector-vault/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 07:40:48] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: executing diffoscope
+[2023-05-23 07:40:48] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_computenestsupplier20210521-1.2.2.tar.gz tmp/alibabacloud_computenestsupplier20210521-1.2.3.tar.gz --markdown 20230523/a/alibabacloud-computenestsupplier20210521/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-23 07:40:48] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/d5/c1/b1e46c16d3b48d44f3a47abbcbfb5f271ccf897fec2a9a769d9698ea6533/icetcore-6.2.9.tar.gz
+[2023-05-23 07:40:48] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-05-23 07:40:48] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230523/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-05-23 07:40:49] INFO root fetch - main [MainThread]: End processing [gensum]: success
+[2023-05-23 07:40:49] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-23 07:40:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-computenestsupplier20210521]: success
+[2023-05-23 07:41:33] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-05-23 07:41:33] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-05-23 07:41:33] INFO root fetch - main [MainThread]: Store serial: [18209447]

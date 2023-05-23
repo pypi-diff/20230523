@@ -16285,3 +16285,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:40:36] INFO root fetch - main [MainThread]: End processing [opencanary]: success
 [2023-05-23 14:40:36] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-05-23 14:40:36] INFO root fetch - main [MainThread]: Store serial: [18213648]
+[2023-05-23 14:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213648]
+[2023-05-23 14:45:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phiterm
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laff
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fakerMM
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoldp-application
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlit
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pf-fpga-tools
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esmf-regrid
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysweepme
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-23 14:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tabpy
+[2023-05-23 14:45:45] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [phiterm]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [pysweepme]: New version: [1.5.5.47] Old Version: [1.5.5.46]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-23 14:45:45] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.5.tar.gz tmp/djangoldp_application-1.1.6.tar.gz --markdown 20230523/d/djangoldp-application/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-23 14:45:45] INFO root fetch - processPackages [tabpy]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 14:45:45] INFO root fetch - processPackages [esmf-regrid]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.8.tar.gz tmp/phiterm-1.6.9.tar.gz --markdown 20230523/p/phiterm/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 14:45:45] INFO root fetch - processPackages [fakerMM]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [pf-fpga-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [chainlit]: New version: [0.2.101] Old Version: [0.2.1]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [laff]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-23 14:45:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/a9/48/b2d68307b74e63926c229caa66c833e697923143672a2575221e8fca033f/nonebot_plugin_spark_gpt-0.2.5.tar.gz
+[2023-05-23 14:45:45] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11273976>=10485760
+[2023-05-23 14:45:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: translateabc
+[2023-05-23 14:45:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-23 14:45:46] INFO root fetch - processPackages [translateabc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 14:45:46] INFO root fetch - processPackages [tabpy]: Downloading https://files.pythonhosted.org/packages/5b/8d/d37c53b7ac2d59d5bb7bed6c75be35bfa2d681a8abd9069e5bff8a22f411/tabpy-2.7.1.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/a7/9c/3adfdacc1777cdaa8d02f64935276674957297f8f9cd7ff21bab126f256a/laff-0.7.1.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pysweepme]: Downloading https://files.pythonhosted.org/packages/b6/d3/57bcb9ee2149e9b0a3486aa20a18d8d0797ee816afb6f50ebb87ce218265/pysweepme-1.5.5.46.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [esmf-regrid]: Downloading https://files.pythonhosted.org/packages/54/25/29e7ef28f6257983d68f135a0fde1967687edb60c10140f744b64d1c1c90/esmf_regrid-0.6.0.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [fakerMM]: Downloading https://files.pythonhosted.org/packages/0f/28/24bfa4f32494523938d6bbc13a3063b00a6fb498e3b0cb9bd56ab71f04ff/fakerMM-0.0.8.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [translateabc]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [translateabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translateabc-1.0.1.tar.gz tmp/translateabc-1.0.2.tar.gz --markdown 20230523/t/translateabc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/2b/c4/77e3bc02a1ac3bd96ef21f5d6ba976524ecb9955edcbc81a32c04f999e74/chainlit-0.2.101.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pf-fpga-tools]: Downloading https://files.pythonhosted.org/packages/b9/09/0b468378128231b53de30c182665fc58b1a429a67c971fe0706266298e4d/pf_fpga_tools-0.0.6.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [tabpy]: Downloading https://files.pythonhosted.org/packages/83/b5/2ccfc2841e7a0cad26be05a9facd0c7eb3bc93d3fb9d2ec4aee71fc492b1/tabpy-2.8.0.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pf-fpga-tools]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pf-fpga-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf_fpga_tools-0.0.5.tar.gz tmp/pf_fpga_tools-0.0.6.tar.gz --markdown 20230523/p/pf-fpga-tools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.2.1.tar.gz tmp/chainlit-0.2.101.tar.gz --markdown 20230523/c/chainlit/0.2.1-0.2.101/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/42/ec/2ae759df9c96707297101f924db70592867afd6489d89663ce522b055362/laff-0.7.2.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pysweepme]: Downloading https://files.pythonhosted.org/packages/b1/86/6fbee2db9e6ad9ea0557104f364fb87dd30b67d679a0b4468b210e304280/pysweepme-1.5.5.47.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [tabpy]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [tabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabpy-2.7.1.tar.gz tmp/tabpy-2.8.0.tar.gz --markdown 20230523/t/tabpy/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [esmf-regrid]: Downloading https://files.pythonhosted.org/packages/47/03/c98c7421044708ab73c90d0ef34b798a5d5ad8742331e005ea547b854c59/esmf_regrid-0.7.0.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [fakerMM]: Downloading https://files.pythonhosted.org/packages/ba/5b/bccf73ff24b44443a7670baf02acb5dfd4c5e2b3202d8bd158b79327b5d7/fakerMM-0.0.9.tar.gz
+[2023-05-23 14:45:46] INFO root fetch - processPackages [laff]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [laff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laff-0.7.1.tar.gz tmp/laff-0.7.2.tar.gz --markdown 20230523/l/laff/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pysweepme]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [pysweepme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysweepme-1.5.5.46.tar.gz tmp/pysweepme-1.5.5.47.tar.gz --markdown 20230523/p/pysweepme/1.5.5.46-1.5.5.47/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [fakerMM]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [fakerMM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakerMM-0.0.8.tar.gz tmp/fakerMM-0.0.9.tar.gz --markdown 20230523/f/fakerMM/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 14:45:46] INFO root fetch - processPackages [esmf-regrid]: executing diffoscope
+[2023-05-23 14:45:46] INFO root fetch - processPackages [esmf-regrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmf_regrid-0.6.0.tar.gz tmp/esmf_regrid-0.7.0.tar.gz --markdown 20230523/e/esmf-regrid/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-23 14:45:47] INFO root fetch - processPackages [djangoldp-application]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-05-23 14:45:47] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-23 14:45:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 14:45:47] INFO root fetch - processPackages [phiterm]: Start processing: photon-platform-formulator
+[2023-05-23 14:45:47] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 14:45:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-05-23 14:45:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230523/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 14:45:47] INFO root fetch - processPackages [translateabc]: Start processing: zndraw
+[2023-05-23 14:45:47] INFO root fetch - main [MainThread]: End processing [translateabc]: success
+[2023-05-23 14:45:47] INFO root fetch - processPackages [zndraw]: New version: [0.2.0a1] Old Version: [0.1.8]
+[2023-05-23 14:45:47] WARNING root fetch - processPackages [photon-platform-formulator]: Skipping, unable to determine old version
+[2023-05-23 14:45:47] INFO root fetch - processPackages [photon-platform-formulator]: Start processing: doughnuts
+[2023-05-23 14:45:47] INFO root fetch - main [MainThread]: End processing [photon-platform-formulator] error
+[2023-05-23 14:45:47] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-05-23 14:45:47] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.1.8.tar.gz tmp/zndraw-0.2.0a1.tar.gz --markdown 20230523/z/zndraw/0.1.8-0.2.0a1/diff.md --exclude *.pyd
+[2023-05-23 14:45:47] INFO root fetch - processPackages [pf-fpga-tools]: Start processing: numpy-dataframe
+[2023-05-23 14:45:47] INFO root fetch - main [MainThread]: End processing [pf-fpga-tools]: success
+[2023-05-23 14:45:48] INFO root fetch - main [MainThread]: End processing [laff]: success
+[2023-05-23 14:45:48] INFO root fetch - processPackages [doughnuts]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-05-23 14:45:48] INFO root fetch - processPackages [numpy-dataframe]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 14:45:48] INFO root fetch - processPackages [numpy-dataframe]: Downloading https://files.pythonhosted.org/packages/a1/ff/939fa798b8411ce4789b0ca0c9413f58a25d028b59011ad4b0538b866835/numpy_dataframe-0.1.6.tar.gz
+[2023-05-23 14:45:48] INFO root fetch - processPackages [doughnuts]: executing diffoscope
+[2023-05-23 14:45:48] INFO root fetch - processPackages [doughnuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doughnuts-4.9.3.tar.gz tmp/doughnuts-4.9.4.tar.gz --markdown 20230523/d/doughnuts/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-05-23 14:45:48] INFO root fetch - main [MainThread]: End processing [fakerMM]: success
+[2023-05-23 14:45:48] INFO root fetch - main [MainThread]: End processing [esmf-regrid]: success
+[2023-05-23 14:45:48] INFO root fetch - main [MainThread]: End processing [pysweepme]: success
+[2023-05-23 14:45:48] INFO root fetch - processPackages [numpy-dataframe]: Downloading https://files.pythonhosted.org/packages/84/a8/a8beb29366e66fd74302761ec82b4806800fdc380e0d48008caecf5c54e0/numpy_dataframe-0.1.7.tar.gz
+[2023-05-23 14:45:48] INFO root fetch - main [MainThread]: End processing [tabpy]: success
+[2023-05-23 14:45:48] INFO root fetch - processPackages [numpy-dataframe]: executing diffoscope
+[2023-05-23 14:45:48] INFO root fetch - processPackages [numpy-dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_dataframe-0.1.6.tar.gz tmp/numpy_dataframe-0.1.7.tar.gz --markdown 20230523/n/numpy-dataframe/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 14:45:49] INFO root fetch - main [MainThread]: End processing [numpy-dataframe]: success
+[2023-05-23 14:45:50] INFO root fetch - main [MainThread]: End processing [doughnuts]: success
+[2023-05-23 14:45:50] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-05-23 14:46:01] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-05-23 14:46:05] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-05-23 14:46:05] INFO root fetch - main [MainThread]: Store serial: [18213699]

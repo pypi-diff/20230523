@@ -19543,3 +19543,146 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:55:58] INFO root fetch - main [MainThread]: End processing [km3astro]: success
 [2023-05-23 16:56:00] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
 [2023-05-23 16:56:00] INFO root fetch - main [MainThread]: Store serial: [18215663]
+[2023-05-23 17:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215663]
+[2023-05-23 17:01:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-account
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gensum
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQt6-Fluent-Widgets
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-notifications-sdk-preview
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swh.spdx
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: module-qc-database-tools
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyMonCtl
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trackc
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: schema-jobs
+[2023-05-23 17:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-proofscape
+[2023-05-23 17:01:10] WARNING root fetch - processPackages [PyMonCtl]: Skipping, unable to determine old version
+[2023-05-23 17:01:10] INFO root fetch - processPackages [PyMonCtl]: Start processing: blender-wormholes
+[2023-05-23 17:01:10] INFO root fetch - main [MainThread]: End processing [PyMonCtl] error
+[2023-05-23 17:01:10] INFO root fetch - processPackages [gensum]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [blender-wormholes]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.6.0.2] Old Version: [14.0.6.0.1.dev1]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [module-qc-database-tools]: New version: [2.0.0] Old Version: [0.3.0]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [sphinx-proofscape]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [schema-jobs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 17:01:10] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.705] Old Version: [0.1.703]
+[2023-05-23 17:01:11] WARNING root fetch - processPackages [swh.spdx]: Skipping, unable to determine old version
+[2023-05-23 17:01:11] INFO root fetch - processPackages [swh.spdx]: Start processing: SNAF
+[2023-05-23 17:01:11] INFO root fetch - main [MainThread]: End processing [swh.spdx] error
+[2023-05-23 17:01:11] INFO root fetch - processPackages [trackc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 17:01:11] INFO root fetch - processPackages [SNAF]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-23 17:01:11] INFO root fetch - processPackages [blender-wormholes]: Downloading https://files.pythonhosted.org/packages/50/27/d667cf928c238cf4100bcd50c54de259ce5d0fe84f91d48bcdaa82968eca/blender_wormholes-0.0.2.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/13/69/aaa42ae382d2dca4511984ef57858d4480faa98f784ff6a6c5f4acaa6549/module_qc_database_tools-0.3.0.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [sphinx-proofscape]: Downloading https://files.pythonhosted.org/packages/d6/d3/b6ff78a364e11a843c9079b9812830d3e65f506768c378fd0fb824a535a0/sphinx-proofscape-0.3.1.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [schema-jobs]: Downloading https://files.pythonhosted.org/packages/8e/ed/2c991e0ce76385f29e78936460c25683edad36e82db2973bd2bb8d8f1d53/schema_jobs-0.1.5.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/b2/05/75b8335f5bb3fad6b017132ddfc199c16b7b9e13c6f8ad1aa006fdb5cbf2/gensum-0.1.4.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [trackc]: Downloading https://files.pythonhosted.org/packages/15/42/3ec96b27a113f97abb0e87a474eaf316c5518f4964d9670be181511573ea/trackc-0.0.5.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [SNAF]: Downloading https://files.pythonhosted.org/packages/7f/ff/924766e959bacfab41c5b47e8186d0ccb61b8a17bd739db452e39efcdf15/SNAF-0.6.0.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/4a/ea/110ab34dc8e80ccdcd39c82ad3b0663ef26a51008b607d4788137c0e96b7/odoo14_addon_l10n_br_account-14.0.6.0.2-py3-none-any.whl
+[2023-05-23 17:01:11] INFO root fetch - processPackages [blender-wormholes]: Downloading https://files.pythonhosted.org/packages/23/f6/7366677b828ee9b89ecba1ab9a708109daaec85426cf570a22c8d9d6d1c0/blender_wormholes-0.0.3.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/84/3d/c390a5205b0a94e1937471fba71dfe6ef92ae3cfca1243aeb2ba4fed5755/lusid-notifications-sdk-preview-0.1.705.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/8b/58/89698d3b6c6b10b93ee50420a80743df891fc05e7c66c0ed37bc2d33952c/PyQt6-Fluent-Widgets-0.9.1.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [sphinx-proofscape]: Downloading https://files.pythonhosted.org/packages/b9/bc/bcfee2ea86259686ecdf0b742aaca7c838c6bff5722584874d7b60592750/sphinx-proofscape-0.3.2.tar.gz
+[2023-05-23 17:01:11] WARNING root fetch - processPackages [trackc]: Skipping package: exceeds size limit 10855195>=10485760
+[2023-05-23 17:01:11] INFO root fetch - processPackages [trackc]: Start processing: jina
+[2023-05-23 17:01:11] INFO root fetch - main [MainThread]: End processing [trackc] error
+[2023-05-23 17:01:11] INFO root fetch - processPackages [schema-jobs]: Downloading https://files.pythonhosted.org/packages/2a/a8/441c2cba751060c64ff7dd83499015da4258aeae4e70df6af57842c7fa36/schema_jobs-0.1.6.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/01/81/f4755ffdb4722e901148e37ea0150084b8ab31b9188d9f9837a3535476d6/gensum-0.1.5.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.703.tar.gz tmp/lusid-notifications-sdk-preview-0.1.705.tar.gz --markdown 20230523/l/lusid-notifications-sdk-preview/0.1.703-0.1.705/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.6.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.6.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-br-account/14.0.6.0.1.dev1-14.0.6.0.2/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/c0/9f/f40e4902428cd56f6d41c77ef2f91ecc8e42ba2f7eed6cd19f1631ff8a26/module_qc_database_tools-2.0.0.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-23 17:01:11] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.0.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.1.tar.gz --markdown 20230523/P/PyQt6-Fluent-Widgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [blender-wormholes]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [blender-wormholes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blender_wormholes-0.0.2.tar.gz tmp/blender_wormholes-0.0.3.tar.gz --markdown 20230523/b/blender-wormholes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [sphinx-proofscape]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [sphinx-proofscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-proofscape-0.3.1.tar.gz tmp/sphinx-proofscape-0.3.2.tar.gz --markdown 20230523/s/sphinx-proofscape/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [SNAF]: Downloading https://files.pythonhosted.org/packages/58/4e/0c130910c3948d4eb1c219ee64b537d0e4f5188f8c18fb10ddc300364c6b/SNAF-0.7.0.tar.gz
+[2023-05-23 17:01:11] INFO root fetch - processPackages [schema-jobs]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [schema-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema_jobs-0.1.5.tar.gz tmp/schema_jobs-0.1.6.tar.gz --markdown 20230523/s/schema-jobs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [module-qc-database-tools]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [module-qc-database-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_database_tools-0.3.0.tar.gz tmp/module_qc_database_tools-2.0.0.tar.gz --markdown 20230523/m/module-qc-database-tools/0.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [gensum]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [gensum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensum-0.1.4.tar.gz tmp/gensum-0.1.5.tar.gz --markdown 20230523/g/gensum/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230523/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-23 17:01:11] INFO root fetch - processPackages [SNAF]: executing diffoscope
+[2023-05-23 17:01:11] INFO root fetch - processPackages [SNAF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SNAF-0.6.0.tar.gz tmp/SNAF-0.7.0.tar.gz --markdown 20230523/S/SNAF/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-23 17:01:13] INFO root fetch - processPackages [schema-jobs]: Start processing: daktari
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [schema-jobs]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [blender-wormholes]: Start processing: techghoshal
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [blender-wormholes]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Start processing: miprimeraprueba
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [miprimeraprueba]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [module-qc-database-tools]: Start processing: techghoshal
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/33/e2/12a0d2750aae7c7cd0dd90b9c2dbefb23831b898ed9ba57eb6e835982445/techghoshal-0.2.1.tar.gz
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/33/e2/12a0d2750aae7c7cd0dd90b9c2dbefb23831b898ed9ba57eb6e835982445/techghoshal-0.2.1.tar.gz
+[2023-05-23 17:01:13] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-05-23 17:01:13] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230523/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 17:01:13] INFO root fetch - processPackages [miprimeraprueba]: Downloading https://files.pythonhosted.org/packages/31/86/07b06c2109da5813538427cdecd6141f090a5872cb1a7e3179f5c055fe6a/miprimeraprueba-1.0.0.tar.gz
+[2023-05-23 17:01:13] INFO root fetch - processPackages [sphinx-proofscape]: Start processing: techghoshal
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [sphinx-proofscape]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [SNAF]: Start processing: techghoshal
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [SNAF]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: techghoshal
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/33/e2/12a0d2750aae7c7cd0dd90b9c2dbefb23831b898ed9ba57eb6e835982445/techghoshal-0.2.1.tar.gz
+[2023-05-23 17:01:13] INFO root fetch - processPackages [gensum]: Start processing: etl-jobs
+[2023-05-23 17:01:13] INFO root fetch - main [MainThread]: End processing [gensum]: success
+[2023-05-23 17:01:13] INFO root fetch - processPackages [techghoshal]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-23 17:01:13] INFO root fetch - processPackages [etl-jobs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 17:01:14] INFO root fetch - processPackages [miprimeraprueba]: Downloading https://files.pythonhosted.org/packages/39/1b/0034cc56c4affbec4049b2bd20ebf2a205b329b870c80d1c16c6fbac1178/miprimeraprueba-1.0.1.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/d4/19/0c67f3270e1992448f800b6db73f024300c4a53ce8fe33c3016d2bf77c6f/techghoshal-0.3.1.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/d4/19/0c67f3270e1992448f800b6db73f024300c4a53ce8fe33c3016d2bf77c6f/techghoshal-0.3.1.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/d4/19/0c67f3270e1992448f800b6db73f024300c4a53ce8fe33c3016d2bf77c6f/techghoshal-0.3.1.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [miprimeraprueba]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [miprimeraprueba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miprimeraprueba-1.0.0.tar.gz tmp/miprimeraprueba-1.0.1.tar.gz --markdown 20230523/m/miprimeraprueba/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [etl-jobs]: Downloading https://files.pythonhosted.org/packages/34/ba/a6275628550139de97760400585ba83854aea85dcc17665ef0c4474eab13/etl_jobs-0.1.5.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: Downloading https://files.pythonhosted.org/packages/d4/19/0c67f3270e1992448f800b6db73f024300c4a53ce8fe33c3016d2bf77c6f/techghoshal-0.3.1.tar.gz
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techghoshal-0.2.1.tar.gz tmp/techghoshal-0.3.1.tar.gz --markdown 20230523/t/techghoshal/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techghoshal-0.2.1.tar.gz tmp/techghoshal-0.3.1.tar.gz --markdown 20230523/t/techghoshal/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techghoshal-0.2.1.tar.gz tmp/techghoshal-0.3.1.tar.gz --markdown 20230523/t/techghoshal/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techghoshal-0.2.1.tar.gz tmp/techghoshal-0.3.1.tar.gz --markdown 20230523/t/techghoshal/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [techghoshal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techghoshal-0.2.1.tar.gz tmp/techghoshal-0.3.1.tar.gz --markdown 20230523/t/techghoshal/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [etl-jobs]: executing diffoscope
+[2023-05-23 17:01:14] INFO root fetch - processPackages [etl-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_jobs-0.1.4.tar.gz tmp/etl_jobs-0.1.5.tar.gz --markdown 20230523/e/etl-jobs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 17:01:14] INFO root fetch - processPackages [jina]: Start processing: datagit
+[2023-05-23 17:01:14] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-23 17:01:14] INFO root fetch - processPackages [datagit]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 17:01:15] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/38/35/532867875fe64fb972e4f037551b70e872289b050fca38980b7e51f2f161/datagit-0.1.tar.gz
+[2023-05-23 17:01:15] INFO root fetch - processPackages [miprimeraprueba]: Start processing: vasp-suite
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [miprimeraprueba]: success
+[2023-05-23 17:01:15] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/7f/0a/bf9cee678301a6734ba2224822a5932f2aec20adafb2031a6ff4616a5990/datagit-0.2.tar.gz
+[2023-05-23 17:01:15] INFO root fetch - processPackages [vasp-suite]: New version: [1.0.0] Old Version: [0.3.4]
+[2023-05-23 17:01:15] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-05-23 17:01:15] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.1.tar.gz tmp/datagit-0.2.tar.gz --markdown 20230523/d/datagit/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [techghoshal]: success
+[2023-05-23 17:01:15] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/bb/17/caf71ca41d6725ceb1a8b724900d6a99b90b31633a11709055f7661eeb2f/vasp_suite-0.3.4.tar.gz
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [techghoshal]: success
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [techghoshal]: success
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [techghoshal]: success
+[2023-05-23 17:01:15] INFO root fetch - processPackages [vasp-suite]: Downloading https://files.pythonhosted.org/packages/9b/7e/570969f6e7ebee4835ec63803d8b0efa30ab8cbad4d2a5cdc8f7281a6272/vasp_suite-1.0.0.tar.gz
+[2023-05-23 17:01:15] INFO root fetch - main [MainThread]: End processing [etl-jobs]: success
+[2023-05-23 17:01:16] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-05-23 17:01:16] INFO root fetch - processPackages [vasp-suite]: executing diffoscope
+[2023-05-23 17:01:16] INFO root fetch - processPackages [vasp-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasp_suite-0.3.4.tar.gz tmp/vasp_suite-1.0.0.tar.gz --markdown 20230523/v/vasp-suite/0.3.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 17:01:16] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-05-23 17:01:17] INFO root fetch - main [MainThread]: End processing [vasp-suite]: success
+[2023-05-23 17:01:20] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-05-23 17:01:59] INFO root fetch - main [MainThread]: End processing [techghoshal]: success
+[2023-05-23 17:01:59] INFO root fetch - main [MainThread]: Store serial: [18215769]

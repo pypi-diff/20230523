@@ -15734,3 +15734,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:13:52] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2023-05-23 14:13:52] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-23 14:13:52] INFO root fetch - main [MainThread]: Store serial: [18213381]
+[2023-05-23 14:18:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213381]
+[2023-05-23 14:19:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuya-device-sharing-sdk
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kperm
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: consultanitbolivia
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demisto-sdk
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xpra
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vvv-rpc-server
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.app.event
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canonical
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ghga-service-commons
+[2023-05-23 14:19:01] INFO root fetch - processPackages [tuya-device-sharing-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [vvv-rpc-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [vvv-rpc-server]: Downloading https://files.pythonhosted.org/packages/71/78/7f0f8dd2f499438f696cc244b5e6c15ec76be4fce51a226d6838d5c88b58/vvv_rpc_server-0.0.1-py3-none-any.whl
+[2023-05-23 14:19:01] WARNING root fetch - processPackages [vvv-rpc-server]: Skipping package: exceeds size limit 95647104>=10485760
+[2023-05-23 14:19:01] INFO root fetch - processPackages [vvv-rpc-server]: Start processing: urllib3
+[2023-05-23 14:19:01] INFO root fetch - main [MainThread]: End processing [vvv-rpc-server] error
+[2023-05-23 14:19:01] INFO root fetch - processPackages [tuya-device-sharing-sdk]: executing diffoscope
+[2023-05-23 14:19:01] ERROR root fetch - processPackages [consultanitbolivia]: Unable to get metadata: No such project 'consultanitbolivia'
+[2023-05-23 14:19:01] INFO root fetch - processPackages [tuya-device-sharing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuya_device_sharing_sdk-0.1.1-py2.py3-none-any.whl.zip tmp/tuya_device_sharing_sdk-0.1.2-py2.py3-none-any.whl.zip --markdown 20230523/t/tuya-device-sharing-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 14:19:01] INFO root fetch - processPackages [consultanitbolivia]: Start processing: duckduckgo-search
+[2023-05-23 14:19:01] INFO root fetch - main [MainThread]: End processing [consultanitbolivia] error
+[2023-05-23 14:19:01] INFO root fetch - processPackages [xpra]: New version: [4.4.5] Old Version: [4.4.4]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [canonical]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 14:19:01] WARNING root fetch - processPackages [kperm]: Skipping, unable to determine old version
+[2023-05-23 14:19:01] INFO root fetch - main [MainThread]: End processing [kperm] error
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ghga-service-commons]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [urllib3]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-23 14:19:01] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 14:19:01] INFO root fetch - processPackages [plone.app.event]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [duckduckgo-search]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-05-23 14:19:01] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-05-23 14:19:01] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230523/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:19:01] INFO root fetch - processPackages [xpra]: Downloading https://files.pythonhosted.org/packages/23/03/28a891324e666a78418532c5f8c086f8c7b8fb7244209074e8fce8504061/xpra-4.4.4.tar.gz
+[2023-05-23 14:19:01] INFO root fetch - processPackages [urllib3]: Downloading https://files.pythonhosted.org/packages/7e/19/2a88626e71557cd989afee0985df3808a546d54d00b0b5853f3b6c334dbd/urllib3-2.0.1.tar.gz
+[2023-05-23 14:19:01] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/de/1f/e6073cc83b91b14f1682b13d92a9504fe588d340e3908b5e4f6841c319c5/ghga_service_commons-0.3.0.tar.gz
+[2023-05-23 14:19:01] INFO root fetch - processPackages [plone.app.event]: Downloading https://files.pythonhosted.org/packages/62/8f/2ab3693e1b0800af6fafa187f29129189aec1a17530e954b3aa804e0eb7c/plone.app.event-5.0.0.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [urllib3]: Downloading https://files.pythonhosted.org/packages/fb/c0/1abba1a1233b81cf2e36f56e05194f5e8a0cec8c03c244cab56cc9dfb5bd/urllib3-2.0.2.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/31/3e/650c3174ac0e5f3b98c632959d72f84b909aba2b9b6aee85c4ded3c1301c/duckduckgo_search-3.1.1.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [urllib3]: executing diffoscope
+[2023-05-23 14:19:02] INFO root fetch - processPackages [urllib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3-2.0.1.tar.gz tmp/urllib3-2.0.2.tar.gz --markdown 20230523/u/urllib3/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-23 14:19:02] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/29/36/166c2325fb004fba5021ce0c310908d70c6f9fc9fe20f6e8ae15580e8e5b/ghga_service_commons-0.3.1.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [canonical]: executing diffoscope
+[2023-05-23 14:19:02] INFO root fetch - processPackages [canonical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonical-0.8.0.tar.gz tmp/canonical-0.9.0.tar.gz --markdown 20230523/c/canonical/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:19:02] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2023-05-23 14:19:02] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-0.3.0.tar.gz tmp/ghga_service_commons-0.3.1.tar.gz --markdown 20230523/g/ghga-service-commons/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 14:19:02] INFO root fetch - processPackages [plone.app.event]: Downloading https://files.pythonhosted.org/packages/70/21/02b8931bfd41210e30764313887d31320888fd7743f9b33b4971cafd3848/plone.app.event-5.0.1.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [plone.app.event]: executing diffoscope
+[2023-05-23 14:19:02] INFO root fetch - processPackages [plone.app.event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.event-5.0.0.tar.gz tmp/plone.app.event-5.0.1.tar.gz --markdown 20230523/p/plone.app.event/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-23 14:19:02] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/30/78/38e76527252b2c1233920972db8f40e27b3dfe7f4fa940cd27e326613a1b/duckduckgo_search-3.2.0.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-05-23 14:19:02] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-3.1.1.tar.gz tmp/duckduckgo_search-3.2.0.tar.gz --markdown 20230523/d/duckduckgo-search/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-23 14:19:02] INFO root fetch - processPackages [xpra]: Downloading https://files.pythonhosted.org/packages/6f/99/2c3452163525f1a4811b6bce2c2399555c60ad92460034891fb8c7157be3/xpra-4.4.5.tar.gz
+[2023-05-23 14:19:02] INFO root fetch - main [MainThread]: End processing [tuya-device-sharing-sdk]: success
+[2023-05-23 14:19:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-23 14:19:03] INFO root fetch - processPackages [xpra]: executing diffoscope
+[2023-05-23 14:19:03] INFO root fetch - processPackages [xpra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpra-4.4.4.tar.gz tmp/xpra-4.4.5.tar.gz --markdown 20230523/x/xpra/4.4.4-4.4.5/diff.md --exclude *.pyd
+[2023-05-23 14:19:03] INFO root fetch - main [MainThread]: End processing [canonical]: success
+[2023-05-23 14:19:03] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2023-05-23 14:19:03] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-05-23 14:19:04] INFO root fetch - main [MainThread]: End processing [urllib3]: success
+[2023-05-23 14:19:04] INFO root fetch - main [MainThread]: End processing [plone.app.event]: success
+[2023-05-23 14:19:12] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-05-23 14:19:23] INFO root fetch - main [MainThread]: End processing [xpra]: success
+[2023-05-23 14:19:23] INFO root fetch - main [MainThread]: Store serial: [18213431]

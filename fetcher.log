@@ -18424,3 +18424,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:12:29] INFO root fetch - main [MainThread]: End processing [cpmpy]: success
 [2023-05-23 16:12:40] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-23 16:12:40] INFO root fetch - main [MainThread]: Store serial: [18214909]
+[2023-05-23 16:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214909]
+[2023-05-23 16:17:50] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filter-vcf
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniworldmaker
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-dynamic-admin-forms
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fondant
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agml
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-csrf-protect
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-cube
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: element-calcium-imaging
+[2023-05-23 16:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eFatura
+[2023-05-23 16:17:50] INFO root fetch - processPackages [filter-vcf]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [miniworldmaker]: New version: [2.9.0.0] Old Version: [2.8.0.0]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [eFatura]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [fondant]: New version: [0.2.dev0] Old Version: [0.1.dev0]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [django-dynamic-admin-forms]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [fastapi-csrf-protect]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [element-calcium-imaging]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [nonebot-plugin-cube]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [agml]: New version: [0.5.0] Old Version: [0.4.7]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 16:17:50] INFO root fetch - processPackages [filter-vcf]: Downloading https://files.pythonhosted.org/packages/ea/73/7c3724cc1f3c326be82a0cb36bfceb5135ca52cbb5dee4a60b4774388a2a/filter-vcf-0.1.7.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/1b/6e/4959a29d226ee94a3c73e6c335ff48b0cd3e2c9b0d6258a193736e0959cc/eFatura-1.0.4.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [django-dynamic-admin-forms]: Downloading https://files.pythonhosted.org/packages/b0/a4/c859307556849348d936d91a3e842124e5e080d04146e26716c720bea240/django-dynamic-admin-forms-1.0.1.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/5c/7d/0a4cbd4238a1d1771d8e5aeef8c7bb371688a9958bf467cd8a7a8bef68a7/fastapi-csrf-protect-0.2.2.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/86/a1/2b42fd972789a175aa905618e558ee3a69b0868a29a1046dc47b3d875bea/element-calcium-imaging-0.6.1.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [agml]: Downloading https://files.pythonhosted.org/packages/4c/2f/221130a32962942de7a1b79c8c24e0992713a96ce0038076de709cad79fd/agml-0.4.7.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [nonebot-plugin-cube]: Downloading https://files.pythonhosted.org/packages/17/d1/ff66516568c2245fb34fe08cc5383ab8089872bd30f33a831031f658c94d/nonebot-plugin-cube-1.0.1.tar.gz
+[2023-05-23 16:17:50] INFO root fetch - processPackages [miniworldmaker]: executing diffoscope
+[2023-05-23 16:17:50] INFO root fetch - processPackages [miniworldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniworldmaker-2.8.0.0.tar.gz tmp/miniworldmaker-2.9.0.0.tar.gz --markdown 20230523/m/miniworldmaker/2.8.0.0-2.9.0.0/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.1.dev0.tar.gz tmp/fondant-0.2.dev0.tar.gz --markdown 20230523/f/fondant/0.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [filter-vcf]: Downloading https://files.pythonhosted.org/packages/fe/83/daf68a8a1f0a074bbf4730dd5f56058ec2efe5da99e49a12fddfa58dc4ee/filter-vcf-0.1.8.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/45/ba/ea2a85111ba6b34695e10b91ba4f5f1bc56c34ead66bab301bd762a8b3dd/eFatura-1.0.5.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [nonebot-plugin-cube]: Downloading https://files.pythonhosted.org/packages/d3/df/33554e8da5586371f204f81c8dce67277ab8c056584c2c9438f6569cfd1e/nonebot_plugin_cube-1.0.2-py2.py3-none-any.whl
+[2023-05-23 16:17:51] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/42/c6/859b0ea3eda30bba23da8758f8d67b4afa67f5ff3c1911e635175022169b/fastapi-csrf-protect-0.3.0.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/ae/c4/487baf2fe5bc10e927585c61d8d597ffdcc878a6025593cdc1da7e361a3d/element-calcium-imaging-0.6.2.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [django-dynamic-admin-forms]: Downloading https://files.pythonhosted.org/packages/0f/e4/444c74a23d609c612b428f676105866edd1d6f7ef2004f384b58224ec5d4/django-dynamic-admin-forms-1.0.2.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [agml]: Downloading https://files.pythonhosted.org/packages/8a/b0/752600de29eefc576de7ec86e43f1cbc1e2a14362bd6e873c18759172c30/agml-0.5.0.tar.gz
+[2023-05-23 16:17:51] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.4.tar.gz tmp/eFatura-1.0.5.tar.gz --markdown 20230523/e/eFatura/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [nonebot-plugin-cube]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [nonebot-plugin-cube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cube-1.0.1.tar.gz tmp/nonebot_plugin_cube-1.0.2-py2.py3-none-any.whl.zip --markdown 20230523/n/nonebot-plugin-cube/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [fastapi-csrf-protect]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [fastapi-csrf-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-csrf-protect-0.2.2.tar.gz tmp/fastapi-csrf-protect-0.3.0.tar.gz --markdown 20230523/f/fastapi-csrf-protect/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [filter-vcf]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [filter-vcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter-vcf-0.1.7.tar.gz tmp/filter-vcf-0.1.8.tar.gz --markdown 20230523/f/filter-vcf/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [element-calcium-imaging]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [element-calcium-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-calcium-imaging-0.6.1.tar.gz tmp/element-calcium-imaging-0.6.2.tar.gz --markdown 20230523/e/element-calcium-imaging/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [django-dynamic-admin-forms]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [django-dynamic-admin-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-admin-forms-1.0.1.tar.gz tmp/django-dynamic-admin-forms-1.0.2.tar.gz --markdown 20230523/d/django-dynamic-admin-forms/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 16:17:51] INFO root fetch - processPackages [agml]: executing diffoscope
+[2023-05-23 16:17:51] INFO root fetch - processPackages [agml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agml-0.4.7.tar.gz tmp/agml-0.5.0.tar.gz --markdown 20230523/a/agml/0.4.7-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 16:17:52] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: gordo
+[2023-05-23 16:17:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube]: success
+[2023-05-23 16:17:52] INFO root fetch - processPackages [gordo]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-23 16:17:52] INFO root fetch - processPackages [eFatura]: Start processing: shipyard-templates
+[2023-05-23 16:17:52] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-23 16:17:52] INFO root fetch - processPackages [shipyard-templates]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 16:17:52] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/54/8f/9b65912f0ae1040de53c288a6e02f35eac4c9c5739d619086b6717351b2a/gordo-5.0.1.tar.gz
+[2023-05-23 16:17:53] INFO root fetch - processPackages [fastapi-csrf-protect]: Start processing: browsr
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [fastapi-csrf-protect]: success
+[2023-05-23 16:17:53] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 16:17:53] INFO root fetch - processPackages [fondant]: Start processing: phap
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2023-05-23 16:17:53] INFO root fetch - processPackages [phap]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-23 16:17:53] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230523/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] INFO root fetch - processPackages [element-calcium-imaging]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [element-calcium-imaging]: success
+[2023-05-23 16:17:53] INFO root fetch - processPackages [gordo]: Downloading https://files.pythonhosted.org/packages/ea/4b/2ec49d4295a7e86348ae93de5fd4f1082f56efb411914ff365c9c46f91a9/gordo-5.0.2.tar.gz
+[2023-05-23 16:17:53] INFO root fetch - processPackages [filter-vcf]: Start processing: forestadmin-datasource-toolkit
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [filter-vcf]: success
+[2023-05-23 16:17:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 16:17:53] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-23 16:17:53] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/95/d9/7d357b2c893801a370013b2990304288074d7850d4bbefefae20b2aff939/phap-2.0.1-cp39-abi3-any.whl
+[2023-05-23 16:17:53] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/17/26/9aafd279e64b74228321315c773388200bc7929b37ff9ba5afad7ccf306c/shipyard_templates-0.1.4.tar.gz
+[2023-05-23 16:17:53] INFO root fetch - processPackages [gordo]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [gordo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordo-5.0.1.tar.gz tmp/gordo-5.0.2.tar.gz --markdown 20230523/g/gordo/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] INFO root fetch - processPackages [django-dynamic-admin-forms]: Start processing: rmpy
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [django-dynamic-admin-forms]: success
+[2023-05-23 16:17:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] WARNING root fetch - processPackages [rmpy]: Skipping, unable to determine old version
+[2023-05-23 16:17:53] INFO root fetch - processPackages [rmpy]: Start processing: funke-enrichment-core
+[2023-05-23 16:17:53] INFO root fetch - main [MainThread]: End processing [rmpy] error
+[2023-05-23 16:17:53] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.1.3.tar.gz tmp/shipyard_templates-0.1.4.tar.gz --markdown 20230523/s/shipyard-templates/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] INFO root fetch - processPackages [funke-enrichment-core]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 16:17:53] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-05-23 16:17:53] INFO root fetch - processPackages [funke-enrichment-core]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [funke-enrichment-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funke_enrichment_core-1.8.tar.gz tmp/funke_enrichment_core-1.9.tar.gz --markdown 20230523/f/funke-enrichment-core/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/18/63/91fcaed4548c0f35539efcf7369a8cea6a6f97264f08f2f2dbfbc5146ca3/phap-2.1.0.tar.gz
+[2023-05-23 16:17:53] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-05-23 16:17:53] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-2.0.1-cp39-abi3-any.whl.zip tmp/phap-2.1.0.tar.gz --markdown 20230523/p/phap/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-23 16:17:53] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-05-23 16:17:54] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-05-23 16:17:54] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230523/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-23 16:17:54] INFO root fetch - processPackages [shipyard-templates]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-05-23 16:17:54] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2023-05-23 16:17:54] INFO root fetch - processPackages [funke-enrichment-core]: Start processing: ghevaluator
+[2023-05-23 16:17:54] INFO root fetch - main [MainThread]: End processing [funke-enrichment-core]: success
+[2023-05-23 16:17:54] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-23 16:17:54] INFO root fetch - processPackages [ghevaluator]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-23 16:17:55] INFO root fetch - processPackages [phap]: Start processing: rbx
+[2023-05-23 16:17:55] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-05-23 16:17:55] INFO root fetch - processPackages [miniworldmaker]: Start processing: i2cssh
+[2023-05-23 16:17:55] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
+[2023-05-23 16:17:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-23 16:17:55] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [rbx]: New version: [3.0.5.dev23] Old Version: [3.0.4.dev25]
+[2023-05-23 16:17:55] INFO root fetch - processPackages [i2cssh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 16:17:55] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/62/4f/ab16b3fca1140fb6ebecd3ecc5556f0c3c55bb87601ab19cb828bc62495a/rbx-3.0.4.dev25.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/69/08/fc767889250fddbcdcd58c5ddec9ca9b57a02717e4b3d588f9361810b23a/ghevaluator-2.1.1.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/75/a1/d7d217db025b77baa5dcbf8b226cf7944f4593ce195229e1b9417152fe0e/i2cssh-0.0.8.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [ghevaluator]: executing diffoscope
+[2023-05-23 16:17:55] INFO root fetch - processPackages [ghevaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghevaluator-2.1.0.tar.gz tmp/ghevaluator-2.1.1.tar.gz --markdown 20230523/g/ghevaluator/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-23 16:17:55] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-05-23 16:17:55] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230523/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-23 16:17:55] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-05-23 16:17:55] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/74/80/3ffbfdaadffbb93f2a28baa7ac4028b838a4ee8191f01eaf544a64b3cdf1/rbx-3.0.5.dev23.tar.gz
+[2023-05-23 16:17:55] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-05-23 16:17:55] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.0.4.dev25.tar.gz tmp/rbx-3.0.5.dev23.tar.gz --markdown 20230523/r/rbx/3.0.4.dev25-3.0.5.dev23/diff.md --exclude *.pyd
+[2023-05-23 16:17:55] INFO root fetch - processPackages [i2cssh]: Downloading https://files.pythonhosted.org/packages/68/75/6f77b0743797b72c052706e37bd711c265d2a6e4eb7b72c3b552cd8f6991/i2cssh-0.0.9.tar.gz
+[2023-05-23 16:17:56] INFO root fetch - processPackages [i2cssh]: executing diffoscope
+[2023-05-23 16:17:56] INFO root fetch - processPackages [i2cssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cssh-0.0.8.tar.gz tmp/i2cssh-0.0.9.tar.gz --markdown 20230523/i/i2cssh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:17:56] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-05-23 16:17:57] INFO root fetch - main [MainThread]: End processing [ghevaluator]: success
+[2023-05-23 16:17:57] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-05-23 16:17:57] INFO root fetch - main [MainThread]: End processing [i2cssh]: success
+[2023-05-23 16:17:57] INFO root fetch - main [MainThread]: End processing [agml]: success
+[2023-05-23 16:17:58] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-23 16:17:58] INFO root fetch - main [MainThread]: End processing [gordo]: success
+[2023-05-23 16:18:29] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 16:18:29] INFO root fetch - main [MainThread]: Store serial: [18214974]

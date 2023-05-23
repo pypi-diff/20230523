@@ -9589,3 +9589,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:18:56] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
 [2023-05-23 08:18:59] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-23 08:18:59] INFO root fetch - main [MainThread]: Store serial: [18209733]
+[2023-05-23 08:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209733]
+[2023-05-23 08:24:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ASTOCache
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: followthemoney
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwdc-python
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuse-client
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meta-matching-tool
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iqrfpy
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coconut-develop
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eyes-soatra
+[2023-05-23 08:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-neat
+[2023-05-23 08:24:10] INFO root fetch - processPackages [ASTOCache]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [gwdc-python]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-23 08:24:10] WARNING root fetch - processPackages [meta-matching-tool]: Skipping, unable to determine old version
+[2023-05-23 08:24:10] INFO root fetch - main [MainThread]: End processing [meta-matching-tool] error
+[2023-05-23 08:24:10] INFO root fetch - processPackages [fuse-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230523] Old Version: [1.5.4.dev20230522]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [followthemoney]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [cognite-neat]: New version: [0.11.5] Old Version: [0.11.4]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-05-23 08:24:10] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230523/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230523/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [ASTOCache]: Downloading https://files.pythonhosted.org/packages/56/f5/4ee8cf70cd3ca01c63b77887250d7f1e50115d97f7c696f13f563e070919/ASTOCache-1.0.0.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [gwdc-python]: Downloading https://files.pythonhosted.org/packages/5c/74/a81513f4a4df69e9bb3489ed6b2074d23d0ff8077fc70c3e3db7dedb33ac/gwdc_python-0.5.1.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/48/35/b06db21058b1892970a1c8577c6826df8a597875acb63eca4af037aa7409/eyes_soatra-0.0.23.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9a/21/138519c88f9d90560802d68fbffedbc6d792520df33f90f2bf7a5e7babd9/fuse-client-1.0.8.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/52/5f/8789bffa1556a6d931d7b1b0030346e22a67b73537da0abf0a406e5ed3c2/followthemoney-3.3.0.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [ASTOCache]: Downloading https://files.pythonhosted.org/packages/08/0d/c51f7a3de989123b13e369cc43829eafa7b7a7fa99d39bdcc14b8dd6fa10/ASTOCache-1.0.1.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [gwdc-python]: Downloading https://files.pythonhosted.org/packages/96/2a/2c3a6be3f3ced604ac2a9246582ccfd6b2a2c46a7c580d7bfc30af82af7a/gwdc_python-0.6.0.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [ASTOCache]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [ASTOCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASTOCache-1.0.0.tar.gz tmp/ASTOCache-1.0.1.tar.gz --markdown 20230523/A/ASTOCache/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8b/c7/c54688494cfc7269483e0aeff7b4601ece4b462b8a1024728ac58faf09e5/cognite_neat-0.11.5.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/4f/48/12ab310885600ab89e641488523861a6243cd51991ea437870f10d1ded9b/pretext-1.5.4.dev20230523.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [gwdc-python]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [gwdc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdc_python-0.5.1.tar.gz tmp/gwdc_python-0.6.0.tar.gz --markdown 20230523/g/gwdc-python/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [followthemoney]: Downloading https://files.pythonhosted.org/packages/8b/8a/85d32022a5ce1cb8ad6fa05a32e8d739e1aa0979c9ffd82034652e7b3b65/followthemoney-3.4.0.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.11.4.tar.gz tmp/cognite_neat-0.11.5.tar.gz --markdown 20230523/c/cognite-neat/0.11.4-0.11.5/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [followthemoney]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [followthemoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/followthemoney-3.3.0.tar.gz tmp/followthemoney-3.4.0.tar.gz --markdown 20230523/f/followthemoney/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9f/28/6906364967b44d92a7e318a9dc58b01f5283fa11fb25d34ea32d97bc68d4/fuse-client-1.0.9.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/17/c4/a365913d53694f88362c607f14dd2956b9a4b1110802634efb5589001b51/eyes_soatra-0.0.24.tar.gz
+[2023-05-23 08:24:10] INFO root fetch - processPackages [fuse-client]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [fuse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuse-client-1.0.8.tar.gz tmp/fuse-client-1.0.9.tar.gz --markdown 20230523/f/fuse-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.23.tar.gz tmp/eyes_soatra-0.0.24.tar.gz --markdown 20230523/e/eyes-soatra/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-23 08:24:10] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-23 08:24:10] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230522.tar.gz tmp/pretext-1.5.4.dev20230523.tar.gz --markdown 20230523/p/pretext/1.5.4.dev20230522-1.5.4.dev20230523/diff.md --exclude *.pyd
+[2023-05-23 08:24:11] INFO root fetch - main [MainThread]: End processing [gwdc-python]: success
+[2023-05-23 08:24:12] INFO root fetch - main [MainThread]: End processing [ASTOCache]: success
+[2023-05-23 08:24:12] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-23 08:24:12] INFO root fetch - main [MainThread]: End processing [followthemoney]: success
+[2023-05-23 08:24:13] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
+[2023-05-23 08:24:13] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-05-23 08:24:13] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-23 08:24:14] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-23 08:24:15] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-23 08:24:15] INFO root fetch - main [MainThread]: Store serial: [18209769]

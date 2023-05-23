@@ -22016,3 +22016,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 18:56:01] INFO root fetch - main [MainThread]: End processing [kodexa]: success
 [2023-05-23 18:56:02] INFO root fetch - main [MainThread]: End processing [fern-persona]: success
 [2023-05-23 18:56:02] INFO root fetch - main [MainThread]: Store serial: [18217252]
+[2023-05-23 19:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217252]
+[2023-05-23 19:01:12] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asgiref
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simply-nwb
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giup
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: temp-pkg-20230523-4mbl
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apify-client
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sag-py-fastapi-health
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrogibs
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotON_sdk
+[2023-05-23 19:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soos-sca
+[2023-05-23 19:01:12] INFO root fetch - processPackages [asgiref]: New version: [3.6.0] Old Version: [3.5.2]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [hydrogibs]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.992] Old Version: [0.0.4.991]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [apify-client]: New version: [1.2.1b1] Old Version: [1.2.0b2]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.991.tar.gz tmp/spotON_sdk-0.0.4.992.tar.gz --markdown 20230523/s/spotON_sdk/0.0.4.991-0.0.4.992/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.8.tar.gz tmp/mkdocs-simple-tags-plugin-0.9.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [giup]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [simply-nwb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 19:01:12] WARNING root fetch - processPackages [temp-pkg-20230523-4mbl]: Skipping, unable to determine old version
+[2023-05-23 19:01:12] INFO root fetch - processPackages [temp-pkg-20230523-4mbl]: Start processing: pentesttools
+[2023-05-23 19:01:12] INFO root fetch - main [MainThread]: End processing [temp-pkg-20230523-4mbl] error
+[2023-05-23 19:01:12] INFO root fetch - processPackages [sag-py-fastapi-health]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [soos-sca]: New version: [1.7.9rc1] Old Version: [1.7.9]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [asgiref]: Downloading https://files.pythonhosted.org/packages/1f/35/e7d59b92ceffb1dc62c65156278de378670b46ab2364a3ea7216fe194ba3/asgiref-3.5.2.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/a5/5e/9b4b4c28085c9fd1a7bfebbff91eef9eed07817f13fd32f8d68086464f12/hydrogibs-0.3.5.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/33/04/41c146f5c8530b9685aeda50cb1421106f0c35680c39fddda9ec89946954/apify_client-1.2.1b1.tar.gz
+[2023-05-23 19:01:12] WARNING root fetch - processPackages [pentesttools]: Skipping, unable to determine old version
+[2023-05-23 19:01:12] INFO root fetch - processPackages [pentesttools]: Start processing: localstack-core
+[2023-05-23 19:01:12] INFO root fetch - main [MainThread]: End processing [pentesttools] error
+[2023-05-23 19:01:12] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230523164857] Old Version: [2.0.3.dev20230522172943]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [asgiref]: Downloading https://files.pythonhosted.org/packages/78/2d/797c0537426266d6c9377a2ed6a4ac61e50c2d5b1ab4da101a4b9bfe26e2/asgiref-3.6.0.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [giup]: Downloading https://files.pythonhosted.org/packages/ac/f7/9474ac6b45f1b23dbcdde277f83123e20e371cea8a65bee26f564a1e673f/giup-1.1.4.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [soos-sca]: Downloading https://files.pythonhosted.org/packages/ec/24/4a6e1e4d6270ab89f529ae24bea386f985c08da1625b5ec4058bdf34f111/soos-sca-1.7.9.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.2.0b2.tar.gz tmp/apify_client-1.2.1b1.tar.gz --markdown 20230523/a/apify-client/1.2.0b2-1.2.1b1/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [sag-py-fastapi-health]: Downloading https://files.pythonhosted.org/packages/71/4b/a861f9374ff2444b39e1c23c1d68275d860e2c7093f836adc30008aeb3c2/sag-py-fastapi-health-0.1.1.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [asgiref]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [asgiref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgiref-3.5.2.tar.gz tmp/asgiref-3.6.0.tar.gz --markdown 20230523/a/asgiref/3.5.2-3.6.0/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] ERROR root fetch - processPackages [hydrogibs]: Unable to fetch info: No such project/version 'hydrogibs' 0.3.6
+[2023-05-23 19:01:12] INFO root fetch - processPackages [hydrogibs]: Start processing: tlogg
+[2023-05-23 19:01:12] INFO root fetch - main [MainThread]: End processing [hydrogibs] error
+[2023-05-23 19:01:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6b/93/30705bd75c1a89248488b3b3abdae263b710ae6e430fb2f8477c5ceba7de/localstack-core-2.0.3.dev20230523164857.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [simply-nwb]: Downloading https://files.pythonhosted.org/packages/83/36/67e12ba33676f494e7a68aa68d9228e8dd3127acab06f5211bfed0bca829/simply_nwb-0.0.5.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [tlogg]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2023-05-23 19:01:12] INFO root fetch - processPackages [giup]: Downloading https://files.pythonhosted.org/packages/a4/82/8973566d868d1afd180fb266cd755278904a0a75962c6316a8ca3206b1bd/giup-1.1.5.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [simply-nwb]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [simply-nwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simply_nwb-0.0.4.tar.gz tmp/simply_nwb-0.0.5.tar.gz --markdown 20230523/s/simply-nwb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [sag-py-fastapi-health]: Downloading https://files.pythonhosted.org/packages/ea/e9/9aa1702ae5e46e279fe73d9e83f0a360f86521c49fa7c521edf8294884ef/sag-py-fastapi-health-0.1.2.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [giup]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [giup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giup-1.1.4.tar.gz tmp/giup-1.1.5.tar.gz --markdown 20230523/g/giup/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [sag-py-fastapi-health]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [tlogg]: Downloading https://files.pythonhosted.org/packages/a7/bc/66b354169f3de5d4403c58f126c4bafeb8c57f1a32389e356e5e3f9f75ea/tlogg-0.5.0a8.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [sag-py-fastapi-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-fastapi-health-0.1.1.tar.gz tmp/sag-py-fastapi-health-0.1.2.tar.gz --markdown 20230523/s/sag-py-fastapi-health/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 19:01:12] INFO root fetch - processPackages [soos-sca]: Downloading https://files.pythonhosted.org/packages/32/33/ac92f5834898f71541dc66f7531cd4d30795444a28fb6ebf3645a3bbd814/soos-sca-1.7.9rc1.tar.gz
+[2023-05-23 19:01:12] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-23 19:01:12] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230522172943.tar.gz tmp/localstack-core-2.0.3.dev20230523164857.tar.gz --markdown 20230523/l/localstack-core/2.0.3.dev20230522172943-2.0.3.dev20230523164857/diff.md --exclude *.pyd
+[2023-05-23 19:01:13] INFO root fetch - processPackages [soos-sca]: executing diffoscope
+[2023-05-23 19:01:13] INFO root fetch - processPackages [soos-sca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soos-sca-1.7.9.tar.gz tmp/soos-sca-1.7.9rc1.tar.gz --markdown 20230523/s/soos-sca/1.7.9-1.7.9rc1/diff.md --exclude *.pyd
+[2023-05-23 19:01:13] INFO root fetch - processPackages [tlogg]: Downloading https://files.pythonhosted.org/packages/63/e9/3bcebc32c9572a2a0b3035358217e6316f04178a8e109b6f8a254daa72fe/tlogg-0.5.0a9.tar.gz
+[2023-05-23 19:01:13] INFO root fetch - processPackages [tlogg]: executing diffoscope
+[2023-05-23 19:01:13] INFO root fetch - processPackages [tlogg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlogg-0.5.0a8.tar.gz tmp/tlogg-0.5.0a9.tar.gz --markdown 20230523/t/tlogg/0.5.0a8-0.5.0a9/diff.md --exclude *.pyd
+[2023-05-23 19:01:13] INFO root fetch - processPackages [spotON_sdk]: Start processing: seleniumbot
+[2023-05-23 19:01:13] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-23 19:01:13] WARNING root fetch - processPackages [seleniumbot]: Skipping, unable to determine old version
+[2023-05-23 19:01:13] INFO root fetch - processPackages [seleniumbot]: Start processing: spatialdata
+[2023-05-23 19:01:13] INFO root fetch - main [MainThread]: End processing [seleniumbot] error
+[2023-05-23 19:01:13] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: craft-parts
+[2023-05-23 19:01:13] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 19:01:13] INFO root fetch - processPackages [spatialdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:01:13] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-23 19:01:14] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-05-23 19:01:14] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230523/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 19:01:14] INFO root fetch - processPackages [giup]: Start processing: zibanu-django
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [giup]: success
+[2023-05-23 19:01:14] INFO root fetch - processPackages [zibanu-django]: New version: [1.2.0a8] Old Version: [1.2.0a6]
+[2023-05-23 19:01:14] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/f6/91/79759fb7bbacba8d4508c3f5beed37718ac3ece8bd5edf33c7d915bc7e3d/spatialdata-0.0.9.tar.gz
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [asgiref]: success
+[2023-05-23 19:01:14] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-05-23 19:01:14] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.8.tar.gz tmp/spatialdata-0.0.9.tar.gz --markdown 20230523/s/spatialdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:01:14] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2023-05-23 19:01:14] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-1.2.0a6.tar.gz tmp/zibanu-django-1.2.0a8.tar.gz --markdown 20230523/z/zibanu-django/1.2.0a6-1.2.0a8/diff.md --exclude *.pyd
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [simply-nwb]: success
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [sag-py-fastapi-health]: success
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [tlogg]: success
+[2023-05-23 19:01:14] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-23 19:01:15] INFO root fetch - main [MainThread]: End processing [soos-sca]: success
+[2023-05-23 19:01:15] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-05-23 19:01:15] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-05-23 19:01:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-23 19:01:59] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2023-05-23 19:01:59] INFO root fetch - main [MainThread]: Store serial: [18217304]

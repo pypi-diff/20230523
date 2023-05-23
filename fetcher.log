@@ -20513,3 +20513,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:40:04] INFO root fetch - main [MainThread]: End processing [extremecloudiq-api]: success
 [2023-05-23 17:40:09] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-23 17:40:09] INFO root fetch - main [MainThread]: Store serial: [18216297]
+[2023-05-23 17:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216297]
+[2023-05-23 17:45:18] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vonage
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydeflate
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-project-orl
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: climate-categories
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-lua
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coastseg
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remoulade
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ms2query
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentembeddings
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: luminesce-sdk-preview
+[2023-05-23 17:45:18] INFO root fetch - processPackages [climate-categories]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-23 17:45:18] INFO root fetch - processPackages [ms2query]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-23 17:45:18] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [climate-categories]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [climate-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climate_categories-0.8.3.tar.gz tmp/climate_categories-0.8.4.tar.gz --markdown 20230523/c/climate-categories/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-23 17:45:19] INFO root fetch - processPackages [coastseg]: Start processing: hrcl-jobs
+[2023-05-23 17:45:19] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-23 17:45:19] WARNING root fetch - processPackages [new-project-orl]: Skipping, unable to determine old version
+[2023-05-23 17:45:19] INFO root fetch - processPackages [new-project-orl]: Start processing: npf
+[2023-05-23 17:45:19] INFO root fetch - main [MainThread]: End processing [new-project-orl] error
+[2023-05-23 17:45:19] WARNING root fetch - processPackages [sentembeddings]: Skipping, unable to determine old version
+[2023-05-23 17:45:19] INFO root fetch - processPackages [sentembeddings]: Start processing: fun-calculator-thing
+[2023-05-23 17:45:19] INFO root fetch - main [MainThread]: End processing [sentembeddings] error
+[2023-05-23 17:45:19] INFO root fetch - processPackages [ms2query]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [ms2query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2query-1.0.1.tar.gz tmp/ms2query-1.1.0.tar.gz --markdown 20230523/m/ms2query/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [vonage]: New version: [4.0.0b0] Old Version: [3.5.1]
+[2023-05-23 17:45:19] WARNING root fetch - processPackages [nonebot-plugin-lua]: Skipping, unable to determine old version
+[2023-05-23 17:45:19] INFO root fetch - processPackages [nonebot-plugin-lua]: Start processing: optree
+[2023-05-23 17:45:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lua] error
+[2023-05-23 17:45:19] INFO root fetch - processPackages [pydeflate]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [remoulade]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-23 17:45:19] WARNING root fetch - processPackages [fun-calculator-thing]: Skipping, unable to determine old version
+[2023-05-23 17:45:19] INFO root fetch - processPackages [fun-calculator-thing]: Start processing: openstef-dbc
+[2023-05-23 17:45:19] INFO root fetch - main [MainThread]: End processing [fun-calculator-thing] error
+[2023-05-23 17:45:19] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.8a4] Old Version: [3.6.8a2]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [npf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [hrcl-jobs]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [optree]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 17:45:19] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/6a/3c/45ace4ce715b1599cdc1149452452e9001b74dee8c554b178b236f562291/vonage-3.5.1.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [pydeflate]: Downloading https://files.pythonhosted.org/packages/aa/90/180f7665ec2880b0c62c705f4360de7521d474d4e1a707124a48bb7405f7/pydeflate-1.3.5.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/44/0c/3e478ce5d39abfaf553be5523f8dd1a28ace87e948c64f7c7bc286744a2e/npf-1.0.8.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.8a2.tar.gz tmp/openstef_dbc-3.6.8a4.tar.gz --markdown 20230523/o/openstef-dbc/3.6.8a2-3.6.8a4/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [optree]: Downloading https://files.pythonhosted.org/packages/06/0a/1606b793e28006afd77b89a4ab44092491e09cf9f968c3488d0922699885/optree-0.9.0.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [pydeflate]: Downloading https://files.pythonhosted.org/packages/cb/5f/785777174ead63fc36fcc752a58660ebdf59f9950c1dfe1da39427d1a18c/pydeflate-1.3.6.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230523/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [hrcl-jobs]: Downloading https://files.pythonhosted.org/packages/18/ea/a431581580c8a06f28cc5f5f91330580a322e45c9934fd43a80d63f41708/hrcl_jobs-1.2.0.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/cd/84/2ea5996fdd08c75ad9619dd7f493588aace41f6d1ab582d36d83a83fa9c0/remoulade-1.2.2.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [pydeflate]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [pydeflate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeflate-1.3.5.tar.gz tmp/pydeflate-1.3.6.tar.gz --markdown 20230523/p/pydeflate/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/ea/66/52aab137d4c382a910523654a3b21507b0e75160197812fb8f27aee00718/npf-1.0.9.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/e3/22/fa900e3527c8d1e4ad704ea9199bf1b28aa7f230b383fe6b80d3e2fa6ffc/vonage-4.0.0b0.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [npf]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [npf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-1.0.8.tar.gz tmp/npf-1.0.9.tar.gz --markdown 20230523/n/npf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [hrcl-jobs]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [hrcl-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrcl_jobs-1.1.0.tar.gz tmp/hrcl_jobs-1.2.0.tar.gz --markdown 20230523/h/hrcl-jobs/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.5.1.tar.gz tmp/vonage-4.0.0b0.tar.gz --markdown 20230523/v/vonage/3.5.1-4.0.0b0/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [optree]: Downloading https://files.pythonhosted.org/packages/9b/2a/bcff64df1e72f81c9b972bdad0502a1cac76fefe9d5c94180f8ed2c24479/optree-0.9.1.tar.gz
+[2023-05-23 17:45:19] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.2.1.tar.gz tmp/remoulade-1.2.2.tar.gz --markdown 20230523/r/remoulade/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-23 17:45:19] INFO root fetch - processPackages [optree]: executing diffoscope
+[2023-05-23 17:45:19] INFO root fetch - processPackages [optree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optree-0.9.0.tar.gz tmp/optree-0.9.1.tar.gz --markdown 20230523/o/optree/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 17:45:20] INFO root fetch - processPackages [openstef-dbc]: Start processing: celerity
+[2023-05-23 17:45:20] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-05-23 17:45:20] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 17:45:20] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-23 17:45:20] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230523/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 17:45:21] INFO root fetch - processPackages [pydeflate]: Start processing: magicsoup
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [pydeflate]: success
+[2023-05-23 17:45:21] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 17:45:21] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-23 17:45:21] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230523/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 17:45:21] INFO root fetch - processPackages [hrcl-jobs]: Start processing: psychopy-usbToBNC
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [hrcl-jobs]: success
+[2023-05-23 17:45:21] INFO root fetch - processPackages [psychopy-usbToBNC]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 17:45:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: qm-tools-aw
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-23 17:45:21] INFO root fetch - processPackages [psychopy-usbToBNC]: Downloading https://files.pythonhosted.org/packages/b2/fb/bb1697fb8618a670646005757cbf5488d05919eecc0e86979db7586beca1/psychopy-usbToBNC-0.0.5.tar.gz
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [ms2query]: success
+[2023-05-23 17:45:21] INFO root fetch - processPackages [qm-tools-aw]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-23 17:45:21] INFO root fetch - processPackages [psychopy-usbToBNC]: executing diffoscope
+[2023-05-23 17:45:21] INFO root fetch - processPackages [psychopy-usbToBNC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy-usbToBNC-0.0.4.tar.gz tmp/psychopy-usbToBNC-0.0.5.tar.gz --markdown 20230523/p/psychopy-usbToBNC/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2023-05-23 17:45:21] INFO root fetch - processPackages [qm-tools-aw]: Downloading https://files.pythonhosted.org/packages/bc/dd/bab0dfba0e0b544dde286b640f21494397a31acdeb170a1d992e4bb77c6b/qm_tools_aw-1.0.2.tar.gz
+[2023-05-23 17:45:21] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-23 17:45:22] INFO root fetch - processPackages [qm-tools-aw]: Downloading https://files.pythonhosted.org/packages/d6/12/92a9edc2b89b93865fbb2fd938266386f0a19f233b77b0e494bb9562aa25/qm_tools_aw-1.1.0.tar.gz
+[2023-05-23 17:45:22] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-23 17:45:22] INFO root fetch - processPackages [qm-tools-aw]: executing diffoscope
+[2023-05-23 17:45:22] INFO root fetch - processPackages [qm-tools-aw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qm_tools_aw-1.0.2.tar.gz tmp/qm_tools_aw-1.1.0.tar.gz --markdown 20230523/q/qm-tools-aw/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 17:45:22] INFO root fetch - main [MainThread]: End processing [psychopy-usbToBNC]: success
+[2023-05-23 17:45:23] INFO root fetch - main [MainThread]: End processing [optree]: success
+[2023-05-23 17:45:23] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-23 17:45:23] INFO root fetch - main [MainThread]: End processing [npf]: success
+[2023-05-23 17:45:23] INFO root fetch - main [MainThread]: End processing [qm-tools-aw]: success
+[2023-05-23 17:45:25] INFO root fetch - main [MainThread]: End processing [climate-categories]: success
+[2023-05-23 17:45:25] INFO root fetch - main [MainThread]: Store serial: [18216391]

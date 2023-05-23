@@ -15443,3 +15443,159 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:01:47] INFO root fetch - main [MainThread]: End processing [tb-rest-client]: success
 [2023-05-23 14:02:37] INFO root fetch - main [MainThread]: End processing [mmdeploy]: success
 [2023-05-23 14:02:37] INFO root fetch - main [MainThread]: Store serial: [18213228]
+[2023-05-23 14:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213228]
+[2023-05-23 14:07:47] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-friesian-spark2
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackbricks
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark2
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark2
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-parallel-toolkit
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-configuration-sdk-preview
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiosow
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iosense-connect
+[2023-05-23 14:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: always-updates
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230523] Old Version: [2.4.0b20230522]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [blackbricks]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.4] Old Version: [0.3]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [aiosow]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.431] Old Version: [0.1.430]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230523] Old Version: [2.4.0b20230522]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230523] Old Version: [2.4.0b20230522]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-23 14:07:47] INFO root fetch - processPackages [blackbricks]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [blackbricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackbricks-2.1.1.tar.gz tmp/blackbricks-2.1.2.tar.gz --markdown 20230523/b/blackbricks/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/fd/02/18f938d00e96f05b99b4977b08a2745ad69064e5b64f3ca7de3df129c7c0/bigdl_chronos_spark2-2.4.0b20230522-py3-none-manylinux1_x86_64.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230523/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/0f/00/474c5bc707ef8f448851faaa8f5e040f4bc5108ede1b6da59194e9ed9a5c/aiosow-0.1.8.tar.gz
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/7b/8b/eab1df7678471776591f2534f36dd0062ee0abeee2806350d46b39f00a5c/bigdl_spark2-2.4.0b20230522-py3-none-manylinux1_x86_64.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/0d/1c/c5366152998bcd40ca40b01d0637f5d66ab4d65e55a437e0e220d6d70050/iosense_connect-2.1.9.tar.gz
+[2023-05-23 14:07:47] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fa/d1/bb95f0e425b632cefc9e703365d1629c39ea11948eb027b767312f0ba73d/lusid-configuration-sdk-preview-0.1.430.tar.gz
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/65/5b/31e4b0bcc53931084b90025f49f712aa2c3cc696ef6e8df59fd06e863e9d/bigdl_friesian_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [aiosow]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [aiosow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosow-0.1.7.tar.gz tmp/aiosow-0.1.8.tar.gz --markdown 20230523/a/aiosow/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.8.tar.gz tmp/iosense_connect-2.1.9.tar.gz --markdown 20230523/i/iosense-connect/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/0b/2b/7fed7ab1de2cd44ab7a1ff9c54c92e875c9d25cd8759b812f8cc29f78fca/openai_parallel_toolkit-0.4-py3-none-any.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip --markdown 20230523/b/bigdl-friesian-spark2/2.4.0b20230522-2.4.0b20230523/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/80/9b/183e1446c34982f7650c2f6ff77c22c4fe6fcf2ffbf4663baa17d0b5b05e/bigdl_chronos_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/2a/6a/ada9215370a38a96f89b50e9fbee9a188d95e98de1427a2526bf2d522b09/bigdl_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl
+[2023-05-23 14:07:47] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.3-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.4-py3-none-any.whl.zip --markdown 20230523/o/openai-parallel-toolkit/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip --markdown 20230523/b/bigdl-spark2/2.4.0b20230522-2.4.0b20230523/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/6e/7c79066637d7c2d071f5ec391888e4b8062c45db5aa9f325e8f7d040604b/lusid-configuration-sdk-preview-0.1.431.tar.gz
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip --markdown 20230523/b/bigdl-chronos-spark2/2.4.0b20230522-2.4.0b20230523/diff.md --exclude *.pyd
+[2023-05-23 14:07:47] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-05-23 14:07:47] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.430.tar.gz tmp/lusid-configuration-sdk-preview-0.1.431.tar.gz --markdown 20230523/l/lusid-configuration-sdk-preview/0.1.430-0.1.431/diff.md --exclude *.pyd
+[2023-05-23 14:07:48] INFO root fetch - processPackages [always-updates]: Start processing: home-assistant-chip-clusters
+[2023-05-23 14:07:48] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-23 14:07:48] INFO root fetch - processPackages [home-assistant-chip-clusters]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-23 14:07:48] INFO root fetch - processPackages [blackbricks]: Start processing: home-assistant-chip-core
+[2023-05-23 14:07:48] INFO root fetch - main [MainThread]: End processing [blackbricks]: success
+[2023-05-23 14:07:48] INFO root fetch - processPackages [home-assistant-chip-core]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-23 14:07:48] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/f2/2e/2cbb8f4ebb584ed48e26ddd8540ce9a0c6e1f62dc40a0c412677beee837f/home_assistant_chip_clusters-2023.5.1-py3-none-any.whl
+[2023-05-23 14:07:49] INFO root fetch - processPackages [iosense-connect]: Start processing: always-updates
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-23 14:07:49] INFO root fetch - processPackages [home-assistant-chip-core]: Downloading https://files.pythonhosted.org/packages/2c/38/753518c53c24d6c198a13649195bc1da57931d806f3d560460050f709209/home_assistant_chip_core-2023.5.1-cp37-abi3-manylinux_2_31_x86_64.whl
+[2023-05-23 14:07:49] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-23 14:07:49] INFO root fetch - processPackages [bigdl-spark2]: Start processing: otx
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-23 14:07:49] WARNING root fetch - processPackages [home-assistant-chip-core]: Skipping package: exceeds size limit 17919784>=10485760
+[2023-05-23 14:07:49] INFO root fetch - processPackages [home-assistant-chip-core]: Start processing: py-droplets
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-core] error
+[2023-05-23 14:07:49] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-23 14:07:49] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230523/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-23 14:07:49] INFO root fetch - processPackages [otx]: New version: [1.3.0rc1] Old Version: [1.2.1rc6]
+[2023-05-23 14:07:49] INFO root fetch - processPackages [py-droplets]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-23 14:07:49] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/d7/8b/6a9362b5a04e953e7ea28ddbe4043ae662e2304cae08df8de2262faf4d6b/home_assistant_chip_clusters-2023.5.2-py3-none-any.whl
+[2023-05-23 14:07:49] INFO root fetch - processPackages [openai-parallel-toolkit]: Start processing: ccs-fit
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-05-23 14:07:49] INFO root fetch - processPackages [home-assistant-chip-clusters]: executing diffoscope
+[2023-05-23 14:07:49] INFO root fetch - processPackages [home-assistant-chip-clusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_clusters-2023.5.1-py3-none-any.whl.zip tmp/home_assistant_chip_clusters-2023.5.2-py3-none-any.whl.zip --markdown 20230523/h/home-assistant-chip-clusters/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-23 14:07:49] INFO root fetch - processPackages [ccs-fit]: New version: [0.21.4] Old Version: [0.21.3]
+[2023-05-23 14:07:49] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/04/91/12503842ae7f9c860b1609fbe81ef2811dffb041f44b5d6274a3b697e51f/otx-1.2.1rc6.tar.gz
+[2023-05-23 14:07:49] INFO root fetch - processPackages [aiosow]: Start processing: prospr
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [aiosow]: success
+[2023-05-23 14:07:49] INFO root fetch - processPackages [py-droplets]: Downloading https://files.pythonhosted.org/packages/ca/c4/922635050ebd0945ec0682aa8ade67cdfd63681e0504d0e15924d862976e/py-droplets-0.8.1.tar.gz
+[2023-05-23 14:07:49] INFO root fetch - processPackages [prospr]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-23 14:07:49] INFO root fetch - processPackages [ccs-fit]: Downloading https://files.pythonhosted.org/packages/3d/5d/97cd7ac07ece4c853e472e8ad27b6916afa9eb3f81b1a946e0dae7314007/ccs_fit-0.21.3.tar.gz
+[2023-05-23 14:07:49] INFO root fetch - processPackages [prospr]: executing diffoscope
+[2023-05-23 14:07:49] INFO root fetch - processPackages [prospr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospr-0.2a8.tar.gz tmp/prospr-0.2a9.tar.gz --markdown 20230523/p/prospr/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-23 14:07:49] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/e7/25/5c3e1850e989303f8fcdec61af8631d0aa8ac989e9c6336e6bd0b850b3ff/otx-1.3.0rc1.tar.gz
+[2023-05-23 14:07:49] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Start processing: veris
+[2023-05-23 14:07:49] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-05-23 14:07:49] INFO root fetch - processPackages [py-droplets]: Downloading https://files.pythonhosted.org/packages/2d/50/26fd41c3e77f47e08c8afacd316f8acace92cc3674e6447778628cbce519/py-droplets-0.9.0.tar.gz
+[2023-05-23 14:07:50] WARNING root fetch - processPackages [veris]: Skipping, unable to determine old version
+[2023-05-23 14:07:50] INFO root fetch - processPackages [veris]: Start processing: aliyun-python-sdk-ccc
+[2023-05-23 14:07:50] INFO root fetch - main [MainThread]: End processing [veris] error
+[2023-05-23 14:07:50] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: mikro
+[2023-05-23 14:07:50] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-23 14:07:50] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.2.1rc6.tar.gz tmp/otx-1.3.0rc1.tar.gz --markdown 20230523/o/otx/1.2.1rc6-1.3.0rc1/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 14:07:50] INFO root fetch - processPackages [ccs-fit]: Downloading https://files.pythonhosted.org/packages/85/5b/d9018e1f59704d991fc4f3daeb9293b8a860118f14bf85fca2caefa9e604/ccs_fit-0.21.4.tar.gz
+[2023-05-23 14:07:50] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: New version: [2.4.3] Old Version: [2.3.0]
+[2023-05-23 14:07:50] INFO root fetch - processPackages [ccs-fit]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [ccs-fit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs_fit-0.21.3.tar.gz tmp/ccs_fit-0.21.4.tar.gz --markdown 20230523/c/ccs-fit/0.21.3-0.21.4/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230523/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/b8/ab/db5fc7c64b49477be6f65a301523817503d09d6c72b5bc821abaf1faafaf/aliyun-python-sdk-ccc-2.3.0.tar.gz
+[2023-05-23 14:07:50] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: PyWinBox
+[2023-05-23 14:07:50] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-23 14:07:50] WARNING root fetch - processPackages [PyWinBox]: Skipping, unable to determine old version
+[2023-05-23 14:07:50] INFO root fetch - processPackages [PyWinBox]: Start processing: check-celebrity
+[2023-05-23 14:07:50] INFO root fetch - main [MainThread]: End processing [PyWinBox] error
+[2023-05-23 14:07:50] INFO root fetch - processPackages [always-updates]: Start processing: celerity
+[2023-05-23 14:07:50] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-23 14:07:50] INFO root fetch - processPackages [py-droplets]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [check-celebrity]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 14:07:50] INFO root fetch - processPackages [py-droplets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-droplets-0.8.1.tar.gz tmp/py-droplets-0.9.0.tar.gz --markdown 20230523/p/py-droplets/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 14:07:50] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/bd/80/8463a766a37a380bc525a8ac7c612fb5a8c69bbef89840ed7930bb6d29a5/aliyun-python-sdk-ccc-2.4.3.tar.gz
+[2023-05-23 14:07:50] INFO root fetch - processPackages [check-celebrity]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [check-celebrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_celebrity-1.0.2.tar.gz tmp/check_celebrity-1.0.3.tar.gz --markdown 20230523/c/check-celebrity/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ccc-2.3.0.tar.gz tmp/aliyun-python-sdk-ccc-2.4.3.tar.gz --markdown 20230523/a/aliyun-python-sdk-ccc/2.3.0-2.4.3/diff.md --exclude *.pyd
+[2023-05-23 14:07:50] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-23 14:07:50] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230523/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:07:51] INFO root fetch - processPackages [home-assistant-chip-clusters]: Start processing: alertlogic-sdk-definitions
+[2023-05-23 14:07:51] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
+[2023-05-23 14:07:51] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 14:07:51] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/37/2d/d04022db2c2c7242403a185b45a95837c0bbf7ef694d779bce552a2e6a39/alertlogic-sdk-definitions-0.1.98.tar.gz
+[2023-05-23 14:07:51] INFO root fetch - processPackages [ccs-fit]: Start processing: autoxx
+[2023-05-23 14:07:51] INFO root fetch - main [MainThread]: End processing [ccs-fit]: success
+[2023-05-23 14:07:51] INFO root fetch - processPackages [autoxx]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-23 14:07:51] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 14:07:51] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.24.tar.gz tmp/autoxx-0.0.25.tar.gz --markdown 20230523/a/autoxx/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-23 14:07:51] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/ca/40/d491b53e878475fc259c3994f3d4c75b8f55fa82e36e0cef73f6e58c5418/alertlogic-sdk-definitions-0.1.99.tar.gz
+[2023-05-23 14:07:52] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-05-23 14:07:52] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230523/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 14:07:52] INFO root fetch - processPackages [check-celebrity]: Start processing: translateabc
+[2023-05-23 14:07:52] INFO root fetch - main [MainThread]: End processing [check-celebrity]: success
+[2023-05-23 14:07:52] WARNING root fetch - processPackages [translateabc]: Skipping, unable to determine old version
+[2023-05-23 14:07:52] INFO root fetch - processPackages [translateabc]: Start processing: bosch-alarm-mode2
+[2023-05-23 14:07:52] INFO root fetch - main [MainThread]: End processing [translateabc] error
+[2023-05-23 14:07:52] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-23 14:07:52] INFO root fetch - main [MainThread]: End processing [py-droplets]: success
+[2023-05-23 14:07:52] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-23 14:07:52] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/ff/ef/fc8c26f26d14a936092a405665fcbb1a6e2e3a2b727ebadcfecd79bbbd59/bosch_alarm_mode2-0.3.7.tar.gz
+[2023-05-23 14:07:52] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-23 14:07:52] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/59/5e/7cbf2ad6d8f9b4667e432b6ebd8b4de668f4e0c416e097376b59d53cc31e/bosch_alarm_mode2-0.3.8.tar.gz
+[2023-05-23 14:07:52] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-23 14:07:52] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.7.tar.gz tmp/bosch_alarm_mode2-0.3.8.tar.gz --markdown 20230523/b/bosch-alarm-mode2/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-23 14:07:53] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 14:07:53] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 14:07:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ccc]: success
+[2023-05-23 14:07:54] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-23 14:07:54] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-05-23 14:07:55] INFO root fetch - main [MainThread]: End processing [prospr]: success
+[2023-05-23 14:08:33] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-05-23 14:08:33] INFO root fetch - main [MainThread]: Store serial: [18213304]

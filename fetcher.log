@@ -22815,3 +22815,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:39:47] INFO root fetch - main [MainThread]: End processing [pynecone]: success
 [2023-05-23 19:39:52] INFO root fetch - main [MainThread]: End processing [codepeers]: success
 [2023-05-23 19:39:52] INFO root fetch - main [MainThread]: Store serial: [18217746]
+[2023-05-23 19:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217746]
+[2023-05-23 19:45:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud23
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firexapp
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apify
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudmesh-rivanna
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scinumtools
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napalm
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean-ioc
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: im-squonk2-client
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nyckel
+[2023-05-23 19:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SIOTCommon
+[2023-05-23 19:45:03] INFO root fetch - processPackages [scinumtools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [im-squonk2-client]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [apify]: New version: [1.1.1b1] Old Version: [1.1.0b8]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [cloudmesh-rivanna]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [SIOTCommon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [cloud23]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [im-squonk2-client]: executing diffoscope
+[2023-05-23 19:45:03] INFO root fetch - processPackages [im-squonk2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-squonk2-client-2.1.2.tar.gz tmp/im-squonk2-client-2.2.0.tar.gz --markdown 20230523/i/im-squonk2-client/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-23 19:45:03] INFO root fetch - processPackages [clean-ioc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [napalm]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [firexapp]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-23 19:45:03] INFO root fetch - processPackages [cloudmesh-rivanna]: executing diffoscope
+[2023-05-23 19:45:03] INFO root fetch - processPackages [cloudmesh-rivanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-rivanna-4.3.7.tar.gz tmp/cloudmesh-rivanna-4.3.8.tar.gz --markdown 20230523/c/cloudmesh-rivanna/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-05-23 19:45:03] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-05-23 19:45:03] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.1.3.tar.gz tmp/SIOTCommon-0.1.4.tar.gz --markdown 20230523/S/SIOTCommon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 19:45:03] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/f2/93/e0e9e66913c9c2631cadb93b67ad112032df06066cb533c528e2167de50e/scinumtools-0.1.0.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [napalm]: Downloading https://files.pythonhosted.org/packages/70/46/bf2a2622fad37ce945ee06a97ea6c4f8caabba21435e1886584ba2a22b44/napalm-4.0.0.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [cloud23]: Downloading https://files.pythonhosted.org/packages/21/19/bdd24bac5574a70e8b283fd28a99383cdce98c83bb9c9e1fd080406e0a79/cloud23-1.0.0.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:45:04] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/66/f2/a4e42e5730ee5d7dd1d43337296b3611e22ef0f483fb876a42932c6e53b8/apify-1.1.1b1.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b8.tar.gz tmp/apify-1.1.1b1.tar.gz --markdown 20230523/a/apify/1.1.0b8-1.1.1b1/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [clean-ioc]: Downloading https://files.pythonhosted.org/packages/da/c6/512d9830ed431eaf065adb8d1386c08ff3ce808dfa3493d8b5125828d8a8/clean_ioc-0.1.1.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [cloud23]: Downloading https://files.pythonhosted.org/packages/9b/86/5a1466daf8c7a190061da650612f00ae414b7e11d2941b836a0e7a658660/cloud23-1.0.2.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [napalm]: Downloading https://files.pythonhosted.org/packages/f4/38/79a895bb0d1e326081da1d5eb8ddec3e8c85f853052e35965e49b1e14dd1/napalm-4.1.0.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/30/c9/41ae0f268b8de59f9de6ca8eb38cf4844b34173ceace985b324e17edeaac/scinumtools-0.2.0.tar.gz
+[2023-05-23 19:45:04] INFO root fetch - processPackages [clean-ioc]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [clean-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_ioc-0.1.0.tar.gz tmp/clean_ioc-0.1.1.tar.gz --markdown 20230523/c/clean-ioc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [firexapp]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [firexapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firexapp-4.9.8.tar.gz tmp/firexapp-4.9.9.tar.gz --markdown 20230523/f/firexapp/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [napalm]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [napalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-4.0.0.tar.gz tmp/napalm-4.1.0.tar.gz --markdown 20230523/n/napalm/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-0.1.0.tar.gz tmp/scinumtools-0.2.0.tar.gz --markdown 20230523/s/scinumtools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [cloud23]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [cloud23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud23-1.0.0.tar.gz tmp/cloud23-1.0.2.tar.gz --markdown 20230523/c/cloud23/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 19:45:04] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-23 19:45:04] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230523/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:45:05] INFO root fetch - processPackages [SIOTCommon]: Start processing: nci-cidc-api-modules
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-05-23 19:45:05] INFO root fetch - processPackages [nci-cidc-api-modules]: New version: [0.27.43] Old Version: [0.27.42rc0]
+[2023-05-23 19:45:05] INFO root fetch - processPackages [cloudmesh-rivanna]: Start processing: pyLSV2
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
+[2023-05-23 19:45:05] INFO root fetch - processPackages [nci-cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c0/83/155e7b67d56e88b98cab2f76515c355a05f965f8ccc2e57f1f2588052fb2/nci_cidc_api_modules-0.27.42rc0.tar.gz
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-05-23 19:45:05] INFO root fetch - processPackages [pyLSV2]: New version: [1.2] Old Version: [1.1.2]
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [im-squonk2-client]: success
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-05-23 19:45:05] INFO root fetch - processPackages [nci-cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/9f/b5/2f07379558b6e6931833c3220b3a4b4f3135ccc3f6a7db854e7775771b3f/nci_cidc_api_modules-0.27.43.tar.gz
+[2023-05-23 19:45:05] INFO root fetch - main [MainThread]: End processing [clean-ioc]: success
+[2023-05-23 19:45:06] INFO root fetch - processPackages [pyLSV2]: Downloading https://files.pythonhosted.org/packages/11/a3/b15b8b4675af1fba651a22c838f2de18955040b28895082b720344412b6f/pyLSV2-1.1.2.tar.gz
+[2023-05-23 19:45:06] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-23 19:45:06] INFO root fetch - processPackages [nci-cidc-api-modules]: executing diffoscope
+[2023-05-23 19:45:06] INFO root fetch - processPackages [nci-cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nci_cidc_api_modules-0.27.42rc0.tar.gz tmp/nci_cidc_api_modules-0.27.43.tar.gz --markdown 20230523/n/nci-cidc-api-modules/0.27.42rc0-0.27.43/diff.md --exclude *.pyd
+[2023-05-23 19:45:06] INFO root fetch - processPackages [pyLSV2]: Downloading https://files.pythonhosted.org/packages/fb/c1/b5afbb40b9017d4861910f8bc005bb0c12d9f4881048ab963b3d3e4e7f76/pyLSV2-1.2.tar.gz
+[2023-05-23 19:45:06] INFO root fetch - processPackages [pyLSV2]: executing diffoscope
+[2023-05-23 19:45:06] INFO root fetch - processPackages [pyLSV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLSV2-1.1.2.tar.gz tmp/pyLSV2-1.2.tar.gz --markdown 20230523/p/pyLSV2/1.1.2-1.2/diff.md --exclude *.pyd
+[2023-05-23 19:45:06] INFO root fetch - main [MainThread]: End processing [cloud23]: success
+[2023-05-23 19:45:07] INFO root fetch - main [MainThread]: End processing [firexapp]: success
+[2023-05-23 19:45:07] INFO root fetch - main [MainThread]: End processing [napalm]: success
+[2023-05-23 19:45:07] INFO root fetch - main [MainThread]: End processing [nci-cidc-api-modules]: success
+[2023-05-23 19:45:07] INFO root fetch - main [MainThread]: End processing [pyLSV2]: success
+[2023-05-23 19:45:07] INFO root fetch - main [MainThread]: Store serial: [18217785]

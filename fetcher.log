@@ -8962,3 +8962,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 07:22:04] INFO root fetch - processPackages [odoo11-addon-stock-picking-mass-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_stock_picking_mass_action-11.0.1.1.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_stock_picking_mass_action-11.0.1.1.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230523/o/odoo11-addon-stock-picking-mass-action/11.0.1.1.0.99.dev8-11.0.1.1.0.99.dev9/diff.md --exclude *.pyd
 [2023-05-23 07:22:06] INFO root fetch - main [MainThread]: End processing [odoo11-addon-stock-picking-mass-action]: success
 [2023-05-23 07:22:06] INFO root fetch - main [MainThread]: Store serial: [18209361]
+[2023-05-23 07:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209361]
+[2023-05-23 07:27:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gensum
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactivated
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isotree
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnadb
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: masonite-servicing
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MasterLinkQuoteH
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oci-cli
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iosense-connect
+[2023-05-23 07:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobilex
+[2023-05-23 07:27:16] INFO root fetch - processPackages [gensum]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [isotree]: New version: [0.5.9] Old Version: [0.5.8.post1]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230522.0] Old Version: [16.0.20230514.0]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-23 07:27:16] WARNING root fetch - processPackages [MasterLinkQuoteH]: Skipping, unable to determine old version
+[2023-05-23 07:27:16] INFO root fetch - processPackages [dnadb]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-23 07:27:16] INFO root fetch - main [MainThread]: End processing [MasterLinkQuoteH] error
+[2023-05-23 07:27:16] INFO root fetch - processPackages [mobilex]: New version: [0.0.4a0] Old Version: [0.0.3]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-23 07:27:16] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-23 07:27:16] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230523/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-23 07:27:16] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-23 07:27:16] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.8.tar.gz tmp/masonite-servicing-0.0.9.tar.gz --markdown 20230523/m/masonite-servicing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 07:27:16] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/95/bf/8dc83c7dd2e711af5f3369c4f8ea63c4f5db95be3815ffc6a4a44c8dfe4d/gensum-0.1.0.tar.gz
+[2023-05-23 07:27:16] INFO root fetch - processPackages [isotree]: Downloading https://files.pythonhosted.org/packages/d3/a7/395401a34e513b9dc56384a0195a3c08596e78e61ba1803de2f013d7bd81/isotree-0.5.8.post1.tar.gz
+[2023-05-23 07:27:16] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/2c/33/44898633c1ae77833ffd7e3096b3b3aa2d89e73f1856724ddc2ecd03bdd4/odoo_addons_oca_stock_logistics_workflow-16.0.20230514.0-py3-none-any.whl
+[2023-05-23 07:27:16] INFO root fetch - processPackages [dnadb]: Downloading https://files.pythonhosted.org/packages/a8/7e/f90527b55fe12a38dcfcae1c1230bb7b00a64dd8357a06a687d36957ba3a/dnadb-0.6.2.tar.gz
+[2023-05-23 07:27:16] INFO root fetch - processPackages [mobilex]: Downloading https://files.pythonhosted.org/packages/48/9c/1c944f0797a6237c2ca5109d4e17b7372b68abd42a5dba339d78761a4716/mobilex-0.0.3.tar.gz
+[2023-05-23 07:27:16] INFO root fetch - processPackages [dnadb]: executing diffoscope
+[2023-05-23 07:27:16] INFO root fetch - processPackages [dnadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnadb-0.6.1.tar.gz tmp/dnadb-0.6.2.tar.gz --markdown 20230523/d/dnadb/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 07:27:16] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/28/26/9545f447fdb6b4a5f9a826926f2e62e7e1ab1ce79158df9f197679f1b25d/oci-cli-3.9.0.tar.gz
+[2023-05-23 07:27:17] INFO root fetch - processPackages [gensum]: Downloading https://files.pythonhosted.org/packages/c8/56/ebaccab98ef817bca895b5d911ccb090277f408a171550240419bd85997c/gensum-0.1.1.tar.gz
+[2023-05-23 07:27:17] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/5d/e5/dbc19de593513489a0b156500a45532b757b14a035c67d97c0f5e181b4cb/iosense_connect-2.1.8.tar.gz
+[2023-05-23 07:27:17] INFO root fetch - processPackages [gensum]: executing diffoscope
+[2023-05-23 07:27:17] INFO root fetch - processPackages [gensum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gensum-0.1.0.tar.gz tmp/gensum-0.1.1.tar.gz --markdown 20230523/g/gensum/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 07:27:17] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-23 07:27:17] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.7.tar.gz tmp/iosense_connect-2.1.8.tar.gz --markdown 20230523/i/iosense-connect/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-23 07:27:17] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/e7/8e/2e2593cbb15e88cdc55949a05b30fa6638e816e54258e1e1c6dd75079dcc/odoo_addons_oca_stock_logistics_workflow-16.0.20230522.0-py3-none-any.whl
+[2023-05-23 07:27:17] INFO root fetch - processPackages [mobilex]: Downloading https://files.pythonhosted.org/packages/51/e9/8d76c2d52af47e025ef4a82e6c8283596748b0ee8704455f80f9c8fb0178/mobilex-0.0.4a0.tar.gz
+[2023-05-23 07:27:17] INFO root fetch - processPackages [isotree]: Downloading https://files.pythonhosted.org/packages/39/a8/22d61afe2aa6601a34dcff692918626f1ae74293a44536a35b476e6a0019/isotree-0.5.9.tar.gz
+[2023-05-23 07:27:17] INFO root fetch - processPackages [isotree]: executing diffoscope
+[2023-05-23 07:27:17] INFO root fetch - processPackages [isotree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isotree-0.5.8.post1.tar.gz tmp/isotree-0.5.9.tar.gz --markdown 20230523/i/isotree/0.5.8.post1-0.5.9/diff.md --exclude *.pyd
+[2023-05-23 07:27:17] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-05-23 07:27:17] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230514.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230522.0-py3-none-any.whl.zip --markdown 20230523/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230514.0-16.0.20230522.0/diff.md --exclude *.pyd
+[2023-05-23 07:27:17] INFO root fetch - processPackages [mobilex]: executing diffoscope
+[2023-05-23 07:27:17] INFO root fetch - processPackages [mobilex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobilex-0.0.3.tar.gz tmp/mobilex-0.0.4a0.tar.gz --markdown 20230523/m/mobilex/0.0.3-0.0.4a0/diff.md --exclude *.pyd
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [dnadb]: success
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-05-23 07:27:18] INFO root fetch - main [MainThread]: End processing [gensum]: success
+[2023-05-23 07:27:19] INFO root fetch - main [MainThread]: End processing [mobilex]: success
+[2023-05-23 07:27:19] INFO root fetch - main [MainThread]: End processing [isotree]: success
+[2023-05-23 07:27:19] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/c1/02/2a386b82d70ada3a13133f3015b40f55f9b5b6d7b77baf7dc6f9d32e39ef/oci-cli-3.9.1.tar.gz
+[2023-05-23 07:27:21] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-05-23 07:27:21] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230523/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-23 07:30:21] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-05-23 07:30:21] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-05-23 07:30:21] INFO root fetch - main [MainThread]: Store serial: [18209389]

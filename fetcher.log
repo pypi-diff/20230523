@@ -11297,3 +11297,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:07:46] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-23 10:07:47] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
 [2023-05-23 10:07:47] INFO root fetch - main [MainThread]: Store serial: [18210756]
+[2023-05-23 10:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210756]
+[2023-05-23 10:12:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmpydummy
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FHIRkit
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros2-test-runner
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xenoslib
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chellow
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: print-torch
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edgerun-galileo-experiments
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ut-date
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NuMeTriS
+[2023-05-23 10:12:55] INFO root fetch - processPackages [xenoslib]: New version: [0.1.27.0] Old Version: [0.1.26.0]
+[2023-05-23 10:12:55] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 10:12:55] WARNING root fetch - processPackages [cmpydummy]: Skipping, unable to determine old version
+[2023-05-23 10:12:55] INFO root fetch - processPackages [cmpydummy]: Start processing: onetl
+[2023-05-23 10:12:55] INFO root fetch - main [MainThread]: End processing [cmpydummy] error
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ut-date]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-23 10:12:55] INFO root fetch - processPackages [NuMeTriS]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 10:12:55] INFO root fetch - processPackages [print-torch]: New version: [1.2] Old Version: [1.1]
+[2023-05-23 10:12:55] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 10:12:55] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-23 10:12:55] WARNING root fetch - processPackages [ros2-test-runner]: Skipping, unable to determine old version
+[2023-05-23 10:12:55] INFO root fetch - processPackages [ros2-test-runner]: Start processing: qwak-core
+[2023-05-23 10:12:56] INFO root fetch - main [MainThread]: End processing [ros2-test-runner] error
+[2023-05-23 10:12:56] INFO root fetch - processPackages [edgerun-galileo-experiments]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-05-23 10:12:56] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230523/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [NuMeTriS]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [NuMeTriS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuMeTriS-0.0.4.tar.gz tmp/NuMeTriS-0.0.5.tar.gz --markdown 20230523/N/NuMeTriS/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [onetl]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-23 10:12:56] INFO root fetch - processPackages [qwak-core]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-05-23 10:12:56] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.2.tar.gz tmp/mobio-dedupe-sdk-test-1.0.3.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230523/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/df/4a/4a86d676fffeb0afe40ae1f686c0c71c2f87f07790ebc39e252a267609a2/ut-date-1.4.3.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.71.tar.gz tmp/qwak_core-0.0.72.tar.gz --markdown 20230523/q/qwak-core/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 12768677>=10485760
+[2023-05-23 10:12:56] INFO root fetch - processPackages [ut-date]: Start processing: wop
+[2023-05-23 10:12:56] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-05-23 10:12:56] INFO root fetch - processPackages [print-torch]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [print-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/print_torch-1.1.tar.gz tmp/print_torch-1.2.tar.gz --markdown 20230523/p/print-torch/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/ac/4b/3daefa11284389feb19530516b56f01547a7a91ee1e110c845ba392b7e09/xenoslib-0.1.27.0.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [edgerun-galileo-experiments]: Downloading https://files.pythonhosted.org/packages/5e/f8/2a33b106979e3deaa5801aa789c464bcc9951144fa729d4bbd3269740b22/edgerun-galileo-experiments-0.0.2.dev8.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/69/9f/9f161a9c5d85669d7092cb334e45c4e985a8f5f45475793a6d68b672481d/onetl-0.7.0.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [wop]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-23 10:12:56] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.26.0.tar.gz tmp/xenoslib-0.1.27.0.tar.gz --markdown 20230523/x/xenoslib/0.1.26.0-0.1.27.0/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [wop]: Downloading https://files.pythonhosted.org/packages/bd/47/a3d30f7ff8bee1317ac06a6ac8e8ee26b1a104cc1880696cfd2b15968e20/wop-2.4.0.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [edgerun-galileo-experiments]: Downloading https://files.pythonhosted.org/packages/c0/64/d88791d4cfc2ed87c5c450aa103d0ec3489311a35d5b0624dc1d4fe5f4f0/edgerun-galileo-experiments-0.0.2.dev9.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/66/d9/f293203da0707326d60f97994a6b98d0e34be887ce3850afb8c070b6b639/onetl-0.7.1.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [edgerun-galileo-experiments]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [edgerun-galileo-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgerun-galileo-experiments-0.0.2.dev8.tar.gz tmp/edgerun-galileo-experiments-0.0.2.dev9.tar.gz --markdown 20230523/e/edgerun-galileo-experiments/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [onetl]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [onetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetl-0.7.0.tar.gz tmp/onetl-0.7.1.tar.gz --markdown 20230523/o/onetl/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-23 10:12:56] INFO root fetch - processPackages [wop]: Downloading https://files.pythonhosted.org/packages/fd/96/ea19b9d1bf1edf8bb7cdf4ac80bbe507f87de48cee5357a2fc71ebb0b52c/wop-2.5.0.tar.gz
+[2023-05-23 10:12:56] INFO root fetch - processPackages [wop]: executing diffoscope
+[2023-05-23 10:12:56] INFO root fetch - processPackages [wop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wop-2.4.0.tar.gz tmp/wop-2.5.0.tar.gz --markdown 20230523/w/wop/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-23 10:12:57] INFO root fetch - processPackages [print-torch]: Start processing: stegano
+[2023-05-23 10:12:57] INFO root fetch - main [MainThread]: End processing [print-torch]: success
+[2023-05-23 10:12:57] INFO root fetch - processPackages [stegano]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 10:12:57] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-23 10:12:57] INFO root fetch - processPackages [stegano]: Downloading https://files.pythonhosted.org/packages/6d/43/e758084b67931731d09cb5ee4d877955f970e8c2e20be4b85ccd177bef35/stegano-0.9.8.tar.gz
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [edgerun-galileo-experiments]: success
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [NuMeTriS]: success
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 10:12:58] INFO root fetch - processPackages [stegano]: Downloading https://files.pythonhosted.org/packages/a7/85/38e6f292650e4a81fa00c07342628f45e2d3cdb4e886d8922ca73e68ea46/stegano-0.9.9.tar.gz
+[2023-05-23 10:12:58] INFO root fetch - processPackages [stegano]: executing diffoscope
+[2023-05-23 10:12:58] INFO root fetch - processPackages [stegano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stegano-0.9.8.tar.gz tmp/stegano-0.9.9.tar.gz --markdown 20230523/s/stegano/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [wop]: success
+[2023-05-23 10:12:58] INFO root fetch - main [MainThread]: End processing [onetl]: success
+[2023-05-23 10:13:00] INFO root fetch - main [MainThread]: End processing [stegano]: success
+[2023-05-23 10:13:00] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-23 10:13:01] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-23 10:13:01] INFO root fetch - main [MainThread]: Store serial: [18210803]

@@ -11814,3 +11814,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:41:17] INFO root fetch - main [MainThread]: End processing [fipper]: success
 [2023-05-23 10:41:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-23 10:41:47] INFO root fetch - main [MainThread]: Store serial: [18211061]
+[2023-05-23 10:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211061]
+[2023-05-23 10:46:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPLNmodels
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-lts-cpu
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voila-material-tuwien
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libcnmc
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: super-pycocotools
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vital
+[2023-05-23 10:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superfluid
+[2023-05-23 10:46:57] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230522] Old Version: [0.0.1.dev20230521]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.3] Old Version: [0.2]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-23 10:46:57] WARNING root fetch - processPackages [voila-material-tuwien]: Skipping, unable to determine old version
+[2023-05-23 10:46:57] INFO root fetch - processPackages [voila-material-tuwien]: Start processing: polars
+[2023-05-23 10:46:57] INFO root fetch - main [MainThread]: End processing [voila-material-tuwien] error
+[2023-05-23 10:46:57] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 10:46:57] WARNING root fetch - processPackages [superfluid]: Skipping, unable to determine old version
+[2023-05-23 10:46:57] INFO root fetch - processPackages [superfluid]: Start processing: vcsc-data-common
+[2023-05-23 10:46:57] INFO root fetch - main [MainThread]: End processing [superfluid] error
+[2023-05-23 10:46:57] INFO root fetch - processPackages [vital]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-05-23 10:46:57] WARNING root fetch - processPackages [super-pycocotools]: Skipping, unable to determine old version
+[2023-05-23 10:46:57] INFO root fetch - processPackages [super-pycocotools]: Start processing: revTongYi
+[2023-05-23 10:46:57] INFO root fetch - main [MainThread]: End processing [super-pycocotools] error
+[2023-05-23 10:46:57] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [revTongYi]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/2b/ce/6a8a5b8bbcaac04a68a0fbcc8147cc8e126966236f6c710ca58dd72b16a0/mkdocs-simple-tags-plugin-0.3.tar.gz
+[2023-05-23 10:46:57] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 10:46:57] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-23 10:46:57] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230523/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-23 10:46:57] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/9b/07/3b6348fe535f981adbd09cd2226c1cfeb372e475f2e234bdce1731c8b2ff/vital-1.3.7.tar.gz
+[2023-05-23 10:46:57] INFO root fetch - processPackages [revTongYi]: Downloading https://files.pythonhosted.org/packages/a9/d2/367fa1479ff66442c59da7471286dbfbd1abef52389b1c1c04fe155322ed/revtongyi-0.0.0.3.tar.gz
+[2023-05-23 10:46:57] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/cf/5a/e9d7cc0eb44d3b7f07ad9f8383d720d695be9a13eb1d5846f50689fda832/polars_lts_cpu-0.17.8.tar.gz
+[2023-05-23 10:46:57] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-05-23 10:46:57] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230523/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:46:57] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/bc/b7/600534f2557065f2bf7ed4c0cc9f74d8b7bd57b0977de36f528a73621f81/tff_nightly-0.0.1.dev20230522-py2.py3-none-any.whl
+[2023-05-23 10:46:57] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-05-23 10:46:57] INFO root fetch - processPackages [revTongYi]: executing diffoscope
+[2023-05-23 10:46:57] INFO root fetch - processPackages [revTongYi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revtongyi-0.0.0.2.tar.gz tmp/revtongyi-0.0.0.3.tar.gz --markdown 20230523/r/revTongYi/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-05-23 10:46:57] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 10:46:57] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.2.tar.gz tmp/mkdocs-simple-tags-plugin-0.3.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-23 10:46:57] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-05-23 10:46:57] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230523/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:46:58] INFO root fetch - processPackages [vital]: Downloading https://files.pythonhosted.org/packages/f0/4b/eb1908b2416ae343cf636dc9872b96310ab249795ba2e3843d1466798a11/vital-1.3.9.tar.gz
+[2023-05-23 10:46:58] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-05-23 10:46:58] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230523/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 10:46:58] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-23 10:46:58] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230521-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230522-py2.py3-none-any.whl.zip --markdown 20230523/t/tff-nightly/0.0.1.dev20230521-0.0.1.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 10:46:58] INFO root fetch - processPackages [vital]: executing diffoscope
+[2023-05-23 10:46:58] INFO root fetch - processPackages [vital]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-1.3.7.tar.gz tmp/vital-1.3.9.tar.gz --markdown 20230523/v/vital/1.3.7-1.3.9/diff.md --exclude *.pyd
+[2023-05-23 10:46:58] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/d4/ef/c46a5777b15f5ee0474ae58ae5cfdd176412dbe9b310e4391e74d3b162f0/polars_lts_cpu-0.17.9.tar.gz
+[2023-05-23 10:46:58] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-05-23 10:46:58] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-05-23 10:46:58] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230523/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 10:46:59] INFO root fetch - processPackages [revTongYi]: Start processing: sbcommons
+[2023-05-23 10:46:59] INFO root fetch - main [MainThread]: End processing [revTongYi]: success
+[2023-05-23 10:46:59] INFO root fetch - processPackages [plutous-trade-crypto]: Start processing: pyrew
+[2023-05-23 10:46:59] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-05-23 10:46:59] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 10:46:59] INFO root fetch - processPackages [sbcommons]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-05-23 10:46:59] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: huhangkai
+[2023-05-23 10:46:59] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 10:46:59] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 10:46:59] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 10:46:59] INFO root fetch - processPackages [huhangkai]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-23 10:46:59] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-05-23 10:46:59] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.8.tar.gz tmp/polars_lts_cpu-0.17.9.tar.gz --markdown 20230523/p/polars-lts-cpu/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-23 10:46:59] INFO root fetch - processPackages [sbcommons]: Downloading https://files.pythonhosted.org/packages/23/4d/71201b4677155daf83636799358a0df6357a8c3ea76fa62abd3c555a29e9/sbcommons-0.0.82.tar.gz
+[2023-05-23 10:46:59] INFO root fetch - main [MainThread]: End processing [vital]: success
+[2023-05-23 10:46:59] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/7b/e3/d92c1641d3cf256e0132def0431495874bc50ea2b1afa86319d80e6f1a99/huhangkai-1.1.4.tar.gz
+[2023-05-23 10:46:59] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-05-23 10:46:59] INFO root fetch - processPackages [sbcommons]: Downloading https://files.pythonhosted.org/packages/a6/62/d88cbef7348c0f44fdceaca5cb1f38843652e4f49688176df1178c070e88/sbcommons-0.0.9.tar.gz
+[2023-05-23 10:47:00] INFO root fetch - processPackages [sbcommons]: executing diffoscope
+[2023-05-23 10:47:00] INFO root fetch - processPackages [sbcommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcommons-0.0.82.tar.gz tmp/sbcommons-0.0.9.tar.gz --markdown 20230523/s/sbcommons/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:47:00] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/a5/b1/a2da79a3d0a1666ce9954018a39f43de6931f4b260bc104c5b06d00e7f8d/huhangkai-1.1.5.tar.gz
+[2023-05-23 10:47:00] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-23 10:47:00] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-05-23 10:47:00] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.1.4.tar.gz tmp/huhangkai-1.1.5.tar.gz --markdown 20230523/h/huhangkai/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-23 10:47:00] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 10:47:01] INFO root fetch - main [MainThread]: End processing [sbcommons]: success
+[2023-05-23 10:47:01] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-23 10:47:01] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-05-23 10:47:01] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-05-23 10:47:03] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-05-23 10:47:16] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-05-23 10:47:16] INFO root fetch - main [MainThread]: Store serial: [18211113]

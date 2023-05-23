@@ -15599,3 +15599,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:07:55] INFO root fetch - main [MainThread]: End processing [prospr]: success
 [2023-05-23 14:08:33] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-23 14:08:33] INFO root fetch - main [MainThread]: Store serial: [18213304]
+[2023-05-23 14:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213304]
+[2023-05-23 14:13:42] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypi-download-pkg
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitol-django-google-sheets-refunds
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eFatura
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dissect.target
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dune-harmonizer
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ndtorch
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230523/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] WARNING root fetch - processPackages [pypi-download-pkg]: Skipping, unable to determine old version
+[2023-05-23 14:13:43] INFO root fetch - processPackages [pypi-download-pkg]: Start processing: PolicyEngine-UK
+[2023-05-23 14:13:43] INFO root fetch - main [MainThread]: End processing [pypi-download-pkg] error
+[2023-05-23 14:13:43] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: New version: [2023.5.23] Old Version: [0.8.0]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ndtorch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [eFatura]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.49.1] Old Version: [0.49.0]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: Downloading https://files.pythonhosted.org/packages/9c/e2/c2ae992279524fc063a82228b7c64e70a97510347d4861b42846955f9b67/mitol-django-google-sheets-refunds-0.8.0.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/93/dc/fb6ea8c675a27053d4b7e0e07bbd231303430f3cb4d5b848a1980b58769c/ndtorch-0.1.0.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/50/1d/4d1045c170e6b063e528ee7ca55ffe49d36ca84ff4ebb7f7f70a3a9877f5/PolicyEngine-UK-0.49.0.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/8c/91/bafe9030641b812a24181beecda757255110339ce3f3611e761a2a1935aa/eFatura-1.0.3.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.2.tar.gz tmp/eFatura-1.0.3.tar.gz --markdown 20230523/e/eFatura/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: Downloading https://files.pythonhosted.org/packages/67/58/de14f4148d4ff163955e69476859eaa316b6e39263b85946c6419a4a81c3/mitol-django-google-sheets-refunds-2023.5.23.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/49/7c/728cb623ed0f6b2e05debe9ce9fc291cd55cd42edcc101e998608f2e06ff/ndtorch-0.1.1.tar.gz
+[2023-05-23 14:13:43] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-23 14:13:43] INFO root fetch - processPackages [dissect.target]: Start processing: experimaestro
+[2023-05-23 14:13:43] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-23 14:13:43] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/46/c6/8ee4b323285b25b28363ebfd1c51580b015a0ddeab3d54813104f8f992ac/PolicyEngine-UK-0.49.1.tar.gz
+[2023-05-23 14:13:43] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitol-django-google-sheets-refunds-0.8.0.tar.gz tmp/mitol-django-google-sheets-refunds-2023.5.23.tar.gz --markdown 20230523/m/mitol-django-google-sheets-refunds/0.8.0-2023.5.23/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ndtorch]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [ndtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndtorch-0.1.0.tar.gz tmp/ndtorch-0.1.1.tar.gz --markdown 20230523/n/ndtorch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 14:13:43] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 14:13:43] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2023-05-23 14:13:43] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.49.0.tar.gz tmp/PolicyEngine-UK-0.49.1.tar.gz --markdown 20230523/P/PolicyEngine-UK/0.49.0-0.49.1/diff.md --exclude *.pyd
+[2023-05-23 14:13:44] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-05-23 14:13:44] INFO root fetch - processPackages [dune-harmonizer]: Start processing: foldedtensor
+[2023-05-23 14:13:44] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-23 14:13:44] WARNING root fetch - processPackages [foldedtensor]: Skipping, unable to determine old version
+[2023-05-23 14:13:44] INFO root fetch - processPackages [foldedtensor]: Start processing: iotics-grpc-client
+[2023-05-23 14:13:44] INFO root fetch - main [MainThread]: End processing [foldedtensor] error
+[2023-05-23 14:13:44] INFO root fetch - processPackages [iotics-grpc-client]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-23 14:13:44] INFO root fetch - processPackages [iotics-grpc-client]: Downloading https://files.pythonhosted.org/packages/1b/9a/b7206cec1bda81d9f731faf8d08bc5352c9b25009e7b8d23494fa00ef22f/iotics-grpc-client-3.0.0.tar.gz
+[2023-05-23 14:13:45] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: signalsnap
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-23 14:13:45] INFO root fetch - processPackages [eFatura]: Start processing: xpanther
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iotics-grpc-client]: Downloading https://files.pythonhosted.org/packages/67/b8/99922ba0a719bdc78fa7430e04a64efbb68d978188536b2d311b4627e493/iotics-grpc-client-3.0.1.tar.gz
+[2023-05-23 14:13:45] INFO root fetch - processPackages [signalsnap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iotics-grpc-client]: executing diffoscope
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iotics-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotics-grpc-client-3.0.0.tar.gz tmp/iotics-grpc-client-3.0.1.tar.gz --markdown 20230523/i/iotics-grpc-client/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-23 14:13:45] INFO root fetch - processPackages [mitol-django-google-sheets-refunds]: Start processing: iosense-connect
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [mitol-django-google-sheets-refunds]: success
+[2023-05-23 14:13:45] INFO root fetch - processPackages [xpanther]: New version: [1.1] Old Version: [1.0.9]
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-23 14:13:45] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.8.tar.gz tmp/iosense_connect-2.1.9.tar.gz --markdown 20230523/i/iosense-connect/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:45] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/bf/ec/5bd60cf118bfe6b8645656d8546c1598b6889642dbb1da33605c4e02f57a/signalsnap-0.1.8.tar.gz
+[2023-05-23 14:13:45] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: favorites-crawler
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-23 14:13:45] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: pybiolib
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-23 14:13:45] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.911]
+[2023-05-23 14:13:45] INFO root fetch - processPackages [xpanther]: Downloading https://files.pythonhosted.org/packages/6c/af/8000da9bfb02e861b36d624f91fc7dcc2fb88fa311423496d02a9f936889/xpanther-1.1.tar.gz
+[2023-05-23 14:13:45] INFO root fetch - processPackages [favorites-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:13:45] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-23 14:13:45] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.911.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230523/p/pybiolib/1.1.911-1.1.94/diff.md --exclude *.pyd
+[2023-05-23 14:13:45] INFO root fetch - processPackages [xpanther]: executing diffoscope
+[2023-05-23 14:13:45] INFO root fetch - processPackages [xpanther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanther-1.0.9.tar.gz tmp/xpanther-1.1.tar.gz --markdown 20230523/x/xpanther/1.0.9-1.1/diff.md --exclude *.pyd
+[2023-05-23 14:13:45] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 32154085>=10485760
+[2023-05-23 14:13:45] INFO root fetch - processPackages [signalsnap]: Start processing: discminer
+[2023-05-23 14:13:45] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2023-05-23 14:13:45] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 14:13:46] INFO root fetch - processPackages [favorites-crawler]: executing diffoscope
+[2023-05-23 14:13:46] INFO root fetch - processPackages [favorites-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favorites_crawler-0.1.8.tar.gz tmp/favorites_crawler-0.1.9.tar.gz --markdown 20230523/f/favorites-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:46] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-05-23 14:13:46] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-05-23 14:13:46] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-05-23 14:13:46] INFO root fetch - processPackages [discminer]: Start processing: qwak-core
+[2023-05-23 14:13:46] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-05-23 14:13:46] INFO root fetch - processPackages [qwak-core]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-05-23 14:13:46] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/2a/08/e879c41c0b9704ed7ab1e74fa50c6767fb931857e57baeed4a22971585dc/qwak_core-0.0.73.tar.gz
+[2023-05-23 14:13:46] INFO root fetch - processPackages [iosense-connect]: Start processing: PyE2
+[2023-05-23 14:13:46] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-23 14:13:46] INFO root fetch - processPackages [PyE2]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-23 14:13:46] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-23 14:13:46] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.72.tar.gz tmp/qwak_core-0.0.73.tar.gz --markdown 20230523/q/qwak-core/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-05-23 14:13:46] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-05-23 14:13:46] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.4.2.tar.gz tmp/pye2-0.4.3.tar.gz --markdown 20230523/P/PyE2/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-23 14:13:46] INFO root fetch - processPackages [iotics-grpc-client]: Start processing: encord
+[2023-05-23 14:13:46] INFO root fetch - main [MainThread]: End processing [iotics-grpc-client]: success
+[2023-05-23 14:13:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: bomf
+[2023-05-23 14:13:46] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-23 14:13:46] INFO root fetch - processPackages [encord]: New version: [0.1.77] Old Version: [0.1.76]
+[2023-05-23 14:13:47] INFO root fetch - processPackages [bomf]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-23 14:13:47] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/b3/35/8a57873ee69bfe0c651f1f82b965a625a70d5fc4a5deffc59b9bd7bd2985/encord-0.1.77.tar.gz
+[2023-05-23 14:13:47] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-05-23 14:13:47] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230523/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 14:13:47] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/1a/49/02473728f98a655eefdc0d89e6ea96f94636f9a513fc12ef0442bef9af42/bomf-0.4.1.tar.gz
+[2023-05-23 14:13:47] INFO root fetch - main [MainThread]: End processing [xpanther]: success
+[2023-05-23 14:13:47] INFO root fetch - processPackages [encord]: executing diffoscope
+[2023-05-23 14:13:47] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.76.tar.gz tmp/encord-0.1.77.tar.gz --markdown 20230523/e/encord/0.1.76-0.1.77/diff.md --exclude *.pyd
+[2023-05-23 14:13:47] INFO root fetch - main [MainThread]: End processing [ndtorch]: success
+[2023-05-23 14:13:47] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/e5/41/22fa3abf0942c2bc9b6e3ca9312ef2bdb82c96054f05cad10aa65eb58818/bomf-0.4.2.tar.gz
+[2023-05-23 14:13:47] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-23 14:13:47] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.4.1.tar.gz tmp/bomf-0.4.2.tar.gz --markdown 20230523/b/bomf/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-23 14:13:48] INFO root fetch - main [MainThread]: End processing [favorites-crawler]: success
+[2023-05-23 14:13:48] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-05-23 14:13:48] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-23 14:13:49] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-23 14:13:49] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-05-23 14:13:50] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2023-05-23 14:13:52] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2023-05-23 14:13:52] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-23 14:13:52] INFO root fetch - main [MainThread]: Store serial: [18213381]

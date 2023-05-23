@@ -21774,3 +21774,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 18:45:27] INFO root fetch - main [MainThread]: End processing [tft-cli]: success
 [2023-05-23 18:45:27] INFO root fetch - main [MainThread]: End processing [apf-base]: success
 [2023-05-23 18:45:27] INFO root fetch - main [MainThread]: Store serial: [18217112]
+[2023-05-23 18:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217112]
+[2023-05-23 18:50:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-23 18:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robot_descriptions
+[2023-05-23 18:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudmesh-rivanna
+[2023-05-23 18:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enos
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyUAMMD
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitspyx
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microcosm-postgres
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apify-client
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graspologic
+[2023-05-23 18:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JFIO
+[2023-05-23 18:50:37] INFO root fetch - processPackages [gitspyx]: New version: [1.0.1] Old Version: [0.1.5]
+[2023-05-23 18:50:37] WARNING root fetch - processPackages [cloudmesh-rivanna]: Skipping, unable to determine old version
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cloudmesh-rivanna]: Start processing: cpggen
+[2023-05-23 18:50:37] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna] error
+[2023-05-23 18:50:37] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [robot_descriptions]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [enos]: New version: [8.0.0a5] Old Version: [8.0.0a4]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [apify-client]: New version: [1.2.0b2] Old Version: [1.2.0b1]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230522172943] Old Version: [2.0.3.dev20230522140906]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.2.0b1.tar.gz tmp/apify_client-1.2.0b2.tar.gz --markdown 20230523/a/apify-client/1.2.0b1-1.2.0b2/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [JFIO]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [microcosm-postgres]: New version: [3.0.0rc1] Old Version: [2.3.0]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cpggen]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [graspologic]: New version: [3.2.0.dev5059761238] Old Version: [3.1.0.dev5027620150]
+[2023-05-23 18:50:37] INFO root fetch - processPackages [gitspyx]: Downloading https://files.pythonhosted.org/packages/2e/54/56602f1705a8b99c1f038ade6a9eccbb5be308c2637889253b84b819fd66/gitspyx-0.1.5.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [enos]: Downloading https://files.pythonhosted.org/packages/48/78/a24ec3f56545fcdd50a147e23f020a4ed4a3c2082e63701c4ae593c0fe51/enos-8.0.0a4.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [robot_descriptions]: Downloading https://files.pythonhosted.org/packages/47/de/5fa47a654cfe2236b5882be51e603ae70ca4e75baf2ec27758d69ad7cd2b/robot_descriptions-1.5.0.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [microcosm-postgres]: Downloading https://files.pythonhosted.org/packages/67/5d/122bdc36a57339e5a94a8d354e949035e81ad317f6d5a619dbe3a809b71d/microcosm-postgres-2.3.0.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/dc/95/2980b70100d6cb18098bff38aa54170fb429b0ec76edb15c63c18d27eda9/cpggen-1.1.5.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.8.tar.gz tmp/pyUAMMD-1.0.9.tar.gz --markdown 20230523/p/pyUAMMD/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [enos]: Downloading https://files.pythonhosted.org/packages/08/00/3a858c7f03f5a0967f8c2c123600913b2b42748623da4ba2d7ee0f03602f/enos-8.0.0a5.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [gitspyx]: Downloading https://files.pythonhosted.org/packages/49/61/cc73647d9b3f1a2aec2cd7b65a3906ffb3d4835634a78d129c0241d40e82/gitspyx-1.0.1.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230522140906.tar.gz tmp/localstack-core-2.0.3.dev20230522172943.tar.gz --markdown 20230523/l/localstack-core/2.0.3.dev20230522140906-2.0.3.dev20230522172943/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [graspologic]: Downloading https://files.pythonhosted.org/packages/f7/9e/ef1310548882112a128a00b991a0c9b600552a1abe890022ff21895b238d/graspologic-3.2.0.dev5059761238.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/37/e0/babc1a5a1deb55429b1482d1ba4131f69ffd639d31c55f1f288c102075b6/JFIO-1.0.3.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [robot_descriptions]: Downloading https://files.pythonhosted.org/packages/b5/ff/72b32218072e9dddec7f4ebfa1b8b2ffa4ba3c205448ac4fed90340b2747/robot_descriptions-1.6.0.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [gitspyx]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [gitspyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitspyx-0.1.5.tar.gz tmp/gitspyx-1.0.1.tar.gz --markdown 20230523/g/gitspyx/0.1.5-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [robot_descriptions]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [robot_descriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot_descriptions-1.5.0.tar.gz tmp/robot_descriptions-1.6.0.tar.gz --markdown 20230523/r/robot_descriptions/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [enos]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [enos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enos-8.0.0a4.tar.gz tmp/enos-8.0.0a5.tar.gz --markdown 20230523/e/enos/8.0.0a4-8.0.0a5/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/7e/b0/b71cc59ed3698d23aa28a8f1e2782a1045998329f1edf8c2c1cdc4bd5ff9/cpggen-1.1.6.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-1.0.2.tar.gz tmp/JFIO-1.0.3.tar.gz --markdown 20230523/J/JFIO/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [microcosm-postgres]: Downloading https://files.pythonhosted.org/packages/05/a8/306638106e98bb3b70f6d59a6ed9b352ccd9bdbb11345154647aa1d6ece7/microcosm-postgres-3.0.0rc1.tar.gz
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.1.5.tar.gz tmp/cpggen-1.1.6.tar.gz --markdown 20230523/c/cpggen/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-23 18:50:37] INFO root fetch - processPackages [microcosm-postgres]: executing diffoscope
+[2023-05-23 18:50:37] INFO root fetch - processPackages [microcosm-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcosm-postgres-2.3.0.tar.gz tmp/microcosm-postgres-3.0.0rc1.tar.gz --markdown 20230523/m/microcosm-postgres/2.3.0-3.0.0rc1/diff.md --exclude *.pyd
+[2023-05-23 18:50:38] INFO root fetch - processPackages [graspologic]: executing diffoscope
+[2023-05-23 18:50:38] INFO root fetch - processPackages [graspologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graspologic-3.1.0.dev5027620150.tar.gz tmp/graspologic-3.2.0.dev5059761238.tar.gz --markdown 20230523/g/graspologic/3.1.0.dev5027620150-3.2.0.dev5059761238/diff.md --exclude *.pyd
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [gitspyx]: success
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [enos]: success
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [microcosm-postgres]: success
+[2023-05-23 18:50:39] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-23 18:50:40] INFO root fetch - main [MainThread]: End processing [robot_descriptions]: success
+[2023-05-23 18:50:41] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-23 18:50:42] INFO root fetch - main [MainThread]: End processing [graspologic]: success
+[2023-05-23 18:50:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-23 18:50:43] INFO root fetch - main [MainThread]: Store serial: [18217152]

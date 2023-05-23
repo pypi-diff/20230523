@@ -17524,3 +17524,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:32:35] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-23 15:34:14] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2023-05-23 15:34:14] INFO root fetch - main [MainThread]: Store serial: [18214343]
+[2023-05-23 15:39:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214343]
+[2023-05-23 15:39:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-oasis4-auth
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecgai-drawing
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surv-ai
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmpy
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightweight-charts
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-identity-sdk
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlo
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abhiDarekar
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: actoolkit
+[2023-05-23 15:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gptcache
+[2023-05-23 15:39:27] INFO root fetch - processPackages [django-oasis4-auth]: New version: [1.0.9b0] Old Version: [1.0.9]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [django-oasis4-auth]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [django-oasis4-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-auth-1.0.9.tar.gz tmp/django-oasis4-auth-1.0.9b0.tar.gz --markdown 20230523/d/django-oasis4-auth/1.0.9-1.0.9b0/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] WARNING root fetch - processPackages [nmpy]: Skipping, unable to determine old version
+[2023-05-23 15:39:27] INFO root fetch - processPackages [nmpy]: Start processing: dotbot-firefox
+[2023-05-23 15:39:27] INFO root fetch - main [MainThread]: End processing [nmpy] error
+[2023-05-23 15:39:27] INFO root fetch - processPackages [ecgai-drawing]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [surv-ai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [actoolkit]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-05-23 15:39:27] WARNING root fetch - processPackages [abhiDarekar]: Skipping, unable to determine old version
+[2023-05-23 15:39:27] INFO root fetch - processPackages [abhiDarekar]: Start processing: pprint36
+[2023-05-23 15:39:27] INFO root fetch - main [MainThread]: End processing [abhiDarekar] error
+[2023-05-23 15:39:27] INFO root fetch - processPackages [mlo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2440]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [dotbot-firefox]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/31/f3/3364c5b14d59f0e6c4960f529ac3e94be46e5dda6996641fe239236a6e97/surv_ai-0.1.6.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [pprint36]: New version: [3.9.16.0] Old Version: [3.9.0.2]
+[2023-05-23 15:39:27] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/7a/8d/30b434959f4f110d97b38f3750a5517fb68f6a0c66b4677c6a54937ccc1d/finbourne-identity-sdk-0.0.2440.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [mlo]: Downloading https://files.pythonhosted.org/packages/72/b1/5fa91e00495c5d5dbd024a0174b3d0916d741116cf6080280e04c4620c50/mlo-0.0.2.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/a3/d9/add0e973be18b2d58a7c452fa638e00fbc82ac6f1059b772265c1d85b94e/actoolkit-2.6.3-py3-none-any.whl
+[2023-05-23 15:39:27] INFO root fetch - processPackages [dotbot-firefox]: Downloading https://files.pythonhosted.org/packages/8f/be/ee96d84fea111eea7d2c1b7092195026bd467d7bd9ab999a537afe82dbe2/dotbot-firefox-1.0.1.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [pprint36]: Downloading https://files.pythonhosted.org/packages/da/40/9caf82a2d7decbc0a61a6ac10668e4f7e44e8280d9f8ded2317450301acd/pprint36-3.9.0.2.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [ecgai-drawing]: Downloading https://files.pythonhosted.org/packages/28/b0/4502cc3bc3506e5c579dc5cbf559259598f9a34679ef7cea28ef2ff5c4d1/ecgai_drawing-0.1.15.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/89/47/c4ba1db5b863a175467d66e743b117aff7b293975b8c1494abdafb760b45/lightweight_charts-1.0.8.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/76/33/dd1a66df227f09efebaa385793a2924481f3446c648801804d9168e9a579/surv_ai-0.1.7.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230523/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/17/9e/3f2b06ac50ac1fddb558a96b3104a2fa1b433e8c9b341e38ba512bd830a9/actoolkit-2.6.4-py3-none-any.whl
+[2023-05-23 15:39:27] INFO root fetch - processPackages [mlo]: Downloading https://files.pythonhosted.org/packages/2c/64/22f113c8099415ede3045eddf60aba773244af45a70dfd635be989259d51/mlo-0.0.3-py3.9.egg
+[2023-05-23 15:39:27] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2440.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230523/f/finbourne-identity-sdk/0.0.2440-0.0.840/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.7.tar.gz tmp/lightweight_charts-1.0.8.tar.gz --markdown 20230523/l/lightweight-charts/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [pprint36]: Downloading https://files.pythonhosted.org/packages/34/2f/4424fbe7aaa2abc4ecef43fe122acbe3133dff93a5aa0d00cb04b05b0d0d/pprint36-3.9.16.0.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [mlo]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [mlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlo-0.0.2.tar.gz tmp/mlo-0.0.3-py3.9.egg --markdown 20230523/m/mlo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.3-py3-none-any.whl.zip tmp/actoolkit-2.6.4-py3-none-any.whl.zip --markdown 20230523/a/actoolkit/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.6.tar.gz tmp/surv_ai-0.1.7.tar.gz --markdown 20230523/s/surv-ai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [dotbot-firefox]: Downloading https://files.pythonhosted.org/packages/05/8c/260cafb074cedab0b6aaec4d55433971773fd8cb21d4dba78abd1652ced5/dotbot_firefox-1.1.0.tar.gz
+[2023-05-23 15:39:27] INFO root fetch - processPackages [pprint36]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [pprint36]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pprint36-3.9.0.2.tar.gz tmp/pprint36-3.9.16.0.tar.gz --markdown 20230523/p/pprint36/3.9.0.2-3.9.16.0/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [dotbot-firefox]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [dotbot-firefox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotbot-firefox-1.0.1.tar.gz tmp/dotbot_firefox-1.1.0.tar.gz --markdown 20230523/d/dotbot-firefox/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 15:39:27] INFO root fetch - processPackages [ecgai-drawing]: executing diffoscope
+[2023-05-23 15:39:27] INFO root fetch - processPackages [ecgai-drawing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecgai_drawing-0.1.14.tar.gz tmp/ecgai_drawing-0.1.15.tar.gz --markdown 20230523/e/ecgai-drawing/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-05-23 15:39:28] INFO root fetch - processPackages [django-oasis4-auth]: Start processing: clinlp
+[2023-05-23 15:39:28] INFO root fetch - main [MainThread]: End processing [django-oasis4-auth]: success
+[2023-05-23 15:39:28] INFO root fetch - processPackages [clinlp]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-23 15:39:28] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/fa/f3/aedbb3b8a09b72ac77e196b21642e4012937dec6dd052b2d281ec9ca8a1b/clinlp-0.0.1.tar.gz
+[2023-05-23 15:39:29] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/80/2b/a204c896bdffa293060d97f25f3df3ae18d902ffc49a7db0436e2db413a5/clinlp-0.1.0.tar.gz
+[2023-05-23 15:39:29] INFO root fetch - processPackages [clinlp]: executing diffoscope
+[2023-05-23 15:39:29] INFO root fetch - processPackages [clinlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinlp-0.0.1.tar.gz tmp/clinlp-0.1.0.tar.gz --markdown 20230523/c/clinlp/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 15:39:29] INFO root fetch - processPackages [gptcache]: Start processing: lightning-graphcore
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-05-23 15:39:29] INFO root fetch - processPackages [lightning-graphcore]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2023-05-23 15:39:29] INFO root fetch - processPackages [mlo]: Start processing: gambit-bromine
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [mlo]: success
+[2023-05-23 15:39:29] INFO root fetch - processPackages [dotbot-firefox]: Start processing: pyopenspecy
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [dotbot-firefox]: success
+[2023-05-23 15:39:29] INFO root fetch - processPackages [gambit-bromine]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-23 15:39:29] INFO root fetch - processPackages [lightning-graphcore]: Downloading https://files.pythonhosted.org/packages/f1/a5/42f0d595cad33972f6c1a357f85fc0a0ad809c682faa95e92623e78c8663/lightning-graphcore-0.1.0rc0.tar.gz
+[2023-05-23 15:39:29] WARNING root fetch - processPackages [pyopenspecy]: Skipping, unable to determine old version
+[2023-05-23 15:39:29] INFO root fetch - processPackages [pyopenspecy]: Start processing: vaxadium
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [pyopenspecy] error
+[2023-05-23 15:39:29] INFO root fetch - processPackages [vaxadium]: New version: [0.3.0] Old Version: [0.2.0rc0]
+[2023-05-23 15:39:29] INFO root fetch - processPackages [gambit-bromine]: Downloading https://files.pythonhosted.org/packages/4b/88/f8ce839140c15e0e34af21508307c5aae236d49224e113f13063e94a6fa5/gambit-bromine-0.4.2.tar.gz
+[2023-05-23 15:39:29] INFO root fetch - processPackages [vaxadium]: executing diffoscope
+[2023-05-23 15:39:29] INFO root fetch - processPackages [vaxadium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaxadium-0.2.0rc0.tar.gz tmp/vaxadium-0.3.0.tar.gz --markdown 20230523/v/vaxadium/0.2.0rc0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 15:39:29] INFO root fetch - processPackages [pprint36]: Start processing: hyperactive
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [pprint36]: success
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-05-23 15:39:29] INFO root fetch - processPackages [hyperactive]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-23 15:39:29] INFO root fetch - processPackages [hyperactive]: executing diffoscope
+[2023-05-23 15:39:29] INFO root fetch - processPackages [hyperactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperactive-4.4.1-py3-none-any.whl.zip tmp/hyperactive-4.4.2-py3-none-any.whl.zip --markdown 20230523/h/hyperactive/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-05-23 15:39:29] INFO root fetch - main [MainThread]: End processing [ecgai-drawing]: success
+[2023-05-23 15:39:30] INFO root fetch - processPackages [gambit-bromine]: Downloading https://files.pythonhosted.org/packages/c5/60/3907c80bb3bb13b24761f16ef608c61cd91bb46123c0712bfefeb150be64/gambit-bromine-0.4.3.tar.gz
+[2023-05-23 15:39:30] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-05-23 15:39:30] INFO root fetch - processPackages [gambit-bromine]: executing diffoscope
+[2023-05-23 15:39:30] INFO root fetch - processPackages [gambit-bromine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gambit-bromine-0.4.2.tar.gz tmp/gambit-bromine-0.4.3.tar.gz --markdown 20230523/g/gambit-bromine/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-23 15:39:30] INFO root fetch - processPackages [lightning-graphcore]: Downloading https://files.pythonhosted.org/packages/d3/e2/685b4006070365250376716adca3259229136ec1e2d637a1a4b41057712f/lightning-graphcore-0.1.0rc1.tar.gz
+[2023-05-23 15:39:30] INFO root fetch - main [MainThread]: End processing [clinlp]: success
+[2023-05-23 15:39:30] INFO root fetch - processPackages [lightning-graphcore]: executing diffoscope
+[2023-05-23 15:39:30] INFO root fetch - processPackages [lightning-graphcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-graphcore-0.1.0rc0.tar.gz tmp/lightning-graphcore-0.1.0rc1.tar.gz --markdown 20230523/l/lightning-graphcore/0.1.0rc0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [vaxadium]: success
+[2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [gambit-bromine]: success
+[2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [lightning-graphcore]: success
+[2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [hyperactive]: success
+[2023-05-23 15:39:31] INFO root fetch - main [MainThread]: Store serial: [18214411]

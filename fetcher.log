@@ -10017,3 +10017,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:56:35] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-05-23 08:57:28] INFO root fetch - main [MainThread]: End processing [sccache]: success
 [2023-05-23 08:57:28] INFO root fetch - main [MainThread]: Store serial: [18210017]
+[2023-05-23 09:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210017]
+[2023-05-23 09:02:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openAIInsight
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exergenics-etl
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-wait
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnssanalysis
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphsignal
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: democracy
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-request-purchase
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack
+[2023-05-23 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-ext
+[2023-05-23 09:02:54] INFO root fetch - processPackages [exergenics-etl]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [simple-wait]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 09:02:54] WARNING root fetch - processPackages [mkdocs-simple-tags-plugin]: Skipping, unable to determine old version
+[2023-05-23 09:02:54] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: shopee-etcdeagle-cli
+[2023-05-23 09:02:54] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin] error
+[2023-05-23 09:02:54] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [democracy]: New version: [1.0.21] Old Version: [1.0.20]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-05-23 09:02:54] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-0.5.0.tar.gz tmp/exergenics-etl-1.0.0.tar.gz --markdown 20230523/e/exergenics-etl/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 09:02:54] INFO root fetch - processPackages [simple-wait]: executing diffoscope
+[2023-05-23 09:02:54] INFO root fetch - processPackages [simple-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wait-1.0.1.tar.gz tmp/simple-wait-1.0.3.tar.gz --markdown 20230523/s/simple-wait/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 09:02:54] INFO root fetch - processPackages [odoo-addon-stock-request-purchase]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-23 09:02:54] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230523/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:02:54] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-05-23 09:02:54] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.20.tar.gz tmp/democracy-1.0.21.tar.gz --markdown 20230523/d/democracy/1.0.20-1.0.21/diff.md --exclude *.pyd
+[2023-05-23 09:02:54] WARNING root fetch - processPackages [shopee-etcdeagle-cli]: Skipping, unable to determine old version
+[2023-05-23 09:02:54] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [shopee-etcdeagle-cli]: Start processing: tybase
+[2023-05-23 09:02:54] INFO root fetch - main [MainThread]: End processing [shopee-etcdeagle-cli] error
+[2023-05-23 09:02:54] INFO root fetch - processPackages [localstack]: New version: [2.0.3.dev20230523065743] Old Version: [2.0.3.dev20230516084829]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [localstack-ext]: New version: [2.0.3.dev20230523065743] Old Version: [2.0.3.dev20230516084829]
+[2023-05-23 09:02:54] INFO root fetch - processPackages [tybase]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-23 09:02:55] INFO root fetch - processPackages [odoo-addon-stock-request-purchase]: Downloading https://files.pythonhosted.org/packages/7f/16/1200995e0950e7b8a3c04690faf14c379fe91521cd4afc3e2a107fb0a03f/odoo_addon_stock_request_purchase-15.0.1.0.1-py3-none-any.whl
+[2023-05-23 09:02:55] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/75/cb/bf0a64512e8710e982fdcb4148ebed0b74f18a6b5e29f6d64a8d9fa6c706/localstack-ext-2.0.3.dev20230516084829.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ba/df/e47eb6b8fc956e3965bde56569caf7695ccdca1bf1e8e957b5557a37ecfe/openAIInsight-0.0.6-py3-none-any.whl
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/69/21/6d96de4770948f56f71a99a95f844fb651c064496363eeae600815341435/localstack-2.0.3.dev20230516084829.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/65/c8/7514792f08c9cc225e12ab3c0629988d4fa7e87ac767d6285f203a4a0232/tybase-0.0.9.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.5-py3-none-any.whl.zip tmp/openAIInsight-0.0.6-py3-none-any.whl.zip --markdown 20230523/o/openAIInsight/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 09:02:55] INFO root fetch - processPackages [odoo-addon-stock-request-purchase]: Downloading https://files.pythonhosted.org/packages/b5/6b/00a5aebd578068f473f0a63d57a3c96849fe8494f2b543f8fc718513ceea/odoo_addon_stock_request_purchase-15.0.1.0.2-py3-none-any.whl
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/b4/9c/65ce89c5721814128e498814882a472e7c7dcdef9f5b4f68b6033fc12c3d/localstack-2.0.3.dev20230523065743.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [odoo-addon-stock-request-purchase]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [odoo-addon-stock-request-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request_purchase-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_request_purchase-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-stock-request-purchase/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.0.3.dev20230516084829.tar.gz tmp/localstack-2.0.3.dev20230523065743.tar.gz --markdown 20230523/l/localstack/2.0.3.dev20230516084829-2.0.3.dev20230523065743/diff.md --exclude *.pyd
+[2023-05-23 09:02:55] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/cf/a9/cf9eb9d170b3cfdc642237b07aae96d19bf2068a02c95e3cf66b2128ee00/tybase-0.1.0.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230523/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/d7/4d/24bd5cfc3c20a95d93685fc6461474bcd489a472319f1459e8a107ce74d2/localstack-ext-2.0.3.dev20230523065743.tar.gz
+[2023-05-23 09:02:55] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.0.9.tar.gz tmp/tybase-0.1.0.tar.gz --markdown 20230523/t/tybase/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-05-23 09:02:55] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.0.3.dev20230516084829.tar.gz tmp/localstack-ext-2.0.3.dev20230523065743.tar.gz --markdown 20230523/l/localstack-ext/2.0.3.dev20230516084829-2.0.3.dev20230523065743/diff.md --exclude *.pyd
+[2023-05-23 09:02:56] INFO root fetch - processPackages [exergenics-etl]: Start processing: seqio-nightly
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-05-23 09:02:56] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [simple-wait]: success
+[2023-05-23 09:02:56] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-23 09:02:56] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230523/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request-purchase]: success
+[2023-05-23 09:02:56] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-23 09:02:57] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-05-23 09:02:57] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-05-23 09:02:57] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-23 09:02:58] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-23 09:03:03] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-05-23 09:03:03] INFO root fetch - main [MainThread]: Store serial: [18210053]

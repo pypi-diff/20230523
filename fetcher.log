@@ -10155,3 +10155,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:08:16] INFO root fetch - main [MainThread]: End processing [fiddler-auditor]: success
 [2023-05-23 09:08:16] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
 [2023-05-23 09:08:16] INFO root fetch - main [MainThread]: Store serial: [18210081]
+[2023-05-23 09:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210081]
+[2023-05-23 09:13:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-sqlalchemy
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edge-testing-framework
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PrSpiders
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-auth-micro
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sharingiscaring
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-models-nightly
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrew
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: httpie-oauth2-client-credentials
+[2023-05-23 09:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 09:13:25] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [py-auth-micro]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230523/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] WARNING root fetch - processPackages [edge-testing-framework]: Skipping, unable to determine old version
+[2023-05-23 09:13:25] INFO root fetch - processPackages [edge-testing-framework]: Start processing: pycocotools-stubs
+[2023-05-23 09:13:25] INFO root fetch - main [MainThread]: End processing [edge-testing-framework] error
+[2023-05-23 09:13:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.8.tar.gz tmp/PrSpiders-0.4.9.tar.gz --markdown 20230523/P/PrSpiders/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pycocotools-stubs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-23 09:13:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/7d/0b/4639efef74a5b19d3b00dc72b089e9ce69d3b004bd14852d152203c49c1c/mobio-dedupe-sdk-test-1.0.1.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/1d/bb/4b40188b511581340ff14ff0ff12244d9908cb5e9860407befe846b42c4a/py_auth_micro-0.1.5.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/76/a0/0d11c21fe2ec52ec6ee5102c6fa6654b18dd6389856d29c0c501bac255fb/clickzetta-sqlalchemy-0.7.5.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/cd/52/b8f386be8b0038b46cafb1d979f5c266900a47cd09df732bb1c48b695a0f/pycocotools_stubs-0.0.3.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.1.4.tar.gz tmp/py_auth_micro-0.1.5.tar.gz --markdown 20230523/p/py-auth-micro/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230523/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: Downloading https://files.pythonhosted.org/packages/73/b6/a6327fd088a9a4b5206d462887dc96fbaef4aa2e59938e9d75d5dda8bf82/httpie-oauth2-client-credentials-0.1.2.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.7.4.tar.gz tmp/clickzetta-sqlalchemy-0.7.5.tar.gz --markdown 20230523/c/clickzetta-sqlalchemy/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-23 09:13:25] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230523/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-23 09:13:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/fe/0f/63dda25e8bad9093b5c3f0d03969f6aff5391c8c371074a8387d58a9b9ff/mobio-dedupe-sdk-test-1.0.2.tar.gz
+[2023-05-23 09:13:25] INFO root fetch - processPackages [pycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/70/05/303a0aa95ca557a1c8cdcc9fc0ef5a8071c99de0a39dc459729447ae8cab/pycocotools_stubs-0.0.4.tar.gz
+[2023-05-23 09:13:26] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 09:13:26] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.1.tar.gz tmp/mobio-dedupe-sdk-test-1.0.2.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 09:13:26] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: Downloading https://files.pythonhosted.org/packages/c1/87/2fac7e4a60c2113214cc5a36b3cac06198e9b2c455ee0ddd3d35d1e0448a/httpie-oauth2-client-credentials-0.2.0.tar.gz
+[2023-05-23 09:13:26] INFO root fetch - processPackages [pycocotools-stubs]: executing diffoscope
+[2023-05-23 09:13:26] INFO root fetch - processPackages [pycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycocotools_stubs-0.0.3.tar.gz tmp/pycocotools_stubs-0.0.4.tar.gz --markdown 20230523/p/pycocotools-stubs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 09:13:26] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: executing diffoscope
+[2023-05-23 09:13:26] INFO root fetch - processPackages [httpie-oauth2-client-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpie-oauth2-client-credentials-0.1.2.tar.gz tmp/httpie-oauth2-client-credentials-0.2.0.tar.gz --markdown 20230523/h/httpie-oauth2-client-credentials/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 09:13:26] INFO root fetch - processPackages [pyrew]: Start processing: plutous
+[2023-05-23 09:13:26] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 09:13:26] INFO root fetch - processPackages [plutous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 09:13:26] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-05-23 09:13:26] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.8.tar.gz tmp/plutous-0.0.9.tar.gz --markdown 20230523/p/plutous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 09:13:26] INFO root fetch - processPackages [PrSpiders]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:13:26] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-23 09:13:26] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:13:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:13:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:13:27] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: hagworm
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-23 09:13:27] INFO root fetch - processPackages [hagworm]: New version: [5.5.6] Old Version: [5.5.5]
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-23 09:13:27] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-05-23 09:13:27] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.5.5.tar.gz tmp/hagworm-5.5.6.tar.gz --markdown 20230523/h/hagworm/5.5.5-5.5.6/diff.md --exclude *.pyd
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [pycocotools-stubs]: success
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [httpie-oauth2-client-credentials]: success
+[2023-05-23 09:13:27] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 09:13:28] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-05-23 09:13:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:13:29] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-05-23 09:13:29] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-23 09:13:42] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-23 09:13:42] INFO root fetch - main [MainThread]: Store serial: [18210120]

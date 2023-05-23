@@ -9867,3 +9867,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [unyts]: success
 [2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [ragas]: success
 [2023-05-23 08:45:26] INFO root fetch - main [MainThread]: Store serial: [18209935]
+[2023-05-23 08:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209935]
+[2023-05-23 08:50:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MacFSEvents
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-iam-tester
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fetchify
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reacton
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polarismesh-specification
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secret-message
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: megadata
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: troubadix
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dronebuddylib
+[2023-05-23 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dronebuddylib
+[2023-05-23 08:50:37] INFO root fetch - processPackages [secret-message]: New version: [0.4] Old Version: [0.3]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [fetchify]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [secret-message]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [secret-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_message-0.3.tar.gz tmp/secret_message-0.4.tar.gz --markdown 20230523/s/secret-message/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [reacton]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [aws-iam-tester]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [dronebuddylib]: New version: [1.0.0] Old Version: [0.2.23]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [dronebuddylib]: New version: [1.0.0] Old Version: [0.2.23]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.3.2a0] Old Version: [1.3.1]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [MacFSEvents]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [troubadix]: New version: [23.5.4] Old Version: [23.5.3]
+[2023-05-23 08:50:37] INFO root fetch - processPackages [fetchify]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [fetchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchify-1.0.3.tar.gz tmp/fetchify-1.0.4.tar.gz --markdown 20230523/f/fetchify/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/ca/8b/bc835e7709dd6ffbc253ad2f57ba81d84a0eb31d5ad5bbdfe4018e3e5419/dronebuddylib-0.2.23.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/ca/8b/bc835e7709dd6ffbc253ad2f57ba81d84a0eb31d5ad5bbdfe4018e3e5419/dronebuddylib-0.2.23.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/da/2d/c6290b2e08daa0c668203881254115ef4798484cb3d2131e2e76890aebd5/troubadix-23.5.3.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [aws-iam-tester]: Downloading https://files.pythonhosted.org/packages/b2/85/3bcd231a278a6ac396d930443ad8324eb0841f8237b28f32dfecda2d47c7/aws_iam_tester-1.0.3.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [MacFSEvents]: Downloading https://files.pythonhosted.org/packages/5b/97/228cd4de25573a3734061a7d662f1a96040796d3ddb68ce8672bd2d45d53/MacFSEvents-0.8.3.tar.gz
+[2023-05-23 08:50:37] WARNING root fetch - processPackages [dronebuddylib]: Skipping package: exceeds size limit 41146816>=10485760
+[2023-05-23 08:50:37] INFO root fetch - main [MainThread]: End processing [dronebuddylib] error
+[2023-05-23 08:50:37] INFO root fetch - processPackages [reacton]: Downloading https://files.pythonhosted.org/packages/6d/a8/5dc47c92720ca54bab752d1a2375c4785cb27a98d98fea38bb56dfdcaa0f/reacton-1.7.1.tar.gz
+[2023-05-23 08:50:37] WARNING root fetch - processPackages [dronebuddylib]: Skipping package: exceeds size limit 41146816>=10485760
+[2023-05-23 08:50:37] INFO root fetch - main [MainThread]: End processing [dronebuddylib] error
+[2023-05-23 08:50:37] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/1b/50/765e09d38b4841c3a8c1a1ae0197fbc7b39b85874e427cfe285f58670086/polarismesh_specification-1.3.2a0.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [MacFSEvents]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [MacFSEvents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacFSEvents-0.8.2.tar.gz tmp/MacFSEvents-0.8.3.tar.gz --markdown 20230523/M/MacFSEvents/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/7f/36/9446dc62a874907a6a6102aebd45ecb5c7389d4f1c3ff227e625ae56ecab/troubadix-23.5.4.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [reacton]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [reacton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reacton-1.7.0.tar.gz tmp/reacton-1.7.1.tar.gz --markdown 20230523/r/reacton/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [aws-iam-tester]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [aws-iam-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_iam_tester-1.0.2.tar.gz tmp/aws_iam_tester-1.0.3.tar.gz --markdown 20230523/a/aws-iam-tester/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.3.1.tar.gz tmp/polarismesh_specification-1.3.2a0.tar.gz --markdown 20230523/p/polarismesh-specification/1.3.1-1.3.2a0/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-05-23 08:50:37] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.5.3.tar.gz tmp/troubadix-23.5.4.tar.gz --markdown 20230523/t/troubadix/23.5.3-23.5.4/diff.md --exclude *.pyd
+[2023-05-23 08:50:37] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-23 08:50:37] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230523/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:50:38] INFO root fetch - main [MainThread]: End processing [secret-message]: success
+[2023-05-23 08:50:38] INFO root fetch - main [MainThread]: End processing [fetchify]: success
+[2023-05-23 08:50:38] INFO root fetch - main [MainThread]: End processing [aws-iam-tester]: success
+[2023-05-23 08:50:39] INFO root fetch - main [MainThread]: End processing [MacFSEvents]: success
+[2023-05-23 08:50:40] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-05-23 08:50:40] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-05-23 08:50:40] INFO root fetch - main [MainThread]: End processing [reacton]: success
+[2023-05-23 08:51:21] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-23 08:51:21] INFO root fetch - main [MainThread]: Store serial: [18209971]

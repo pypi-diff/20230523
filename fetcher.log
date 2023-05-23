@@ -13703,3 +13703,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:19:33] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
 [2023-05-23 12:20:16] INFO root fetch - main [MainThread]: End processing [cmpydummy]: success
 [2023-05-23 12:20:16] INFO root fetch - main [MainThread]: Store serial: [18212173]
+[2023-05-23 12:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212173]
+[2023-05-23 12:25:25] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thegolem
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utils-yjb
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqlmagic
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-rate-limiters
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: browserstack-sdk
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serverless-sdk
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scCAMEL
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lackadaisical
+[2023-05-23 12:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cog
+[2023-05-23 12:25:25] WARNING root fetch - processPackages [dqlmagic]: Skipping, unable to determine old version
+[2023-05-23 12:25:25] INFO root fetch - processPackages [dqlmagic]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 12:25:25] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:25:25] INFO root fetch - main [MainThread]: End processing [dqlmagic] error
+[2023-05-23 12:25:25] WARNING root fetch - processPackages [utils-yjb]: Skipping, unable to determine old version
+[2023-05-23 12:25:25] INFO root fetch - processPackages [utils-yjb]: Start processing: eminus
+[2023-05-23 12:25:25] INFO root fetch - processPackages [thegolem]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-05-23 12:25:25] INFO root fetch - main [MainThread]: End processing [utils-yjb] error
+[2023-05-23 12:25:25] INFO root fetch - processPackages [scCAMEL]: New version: [0.25b0] Old Version: [0.24b0]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [lackadaisical]: New version: [1.0.1] Old Version: [1.0.0a2]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [eminus]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-23 12:25:25] WARNING root fetch - processPackages [redis-rate-limiters]: Skipping, unable to determine old version
+[2023-05-23 12:25:25] INFO root fetch - processPackages [redis-rate-limiters]: Start processing: greas3
+[2023-05-23 12:25:25] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-05-23 12:25:25] INFO root fetch - main [MainThread]: End processing [redis-rate-limiters] error
+[2023-05-23 12:25:25] INFO root fetch - processPackages [cog]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [greas3]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-23 12:25:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/7f/c4/a8c22b3cbc3b0850965b22c4abd62604f720b4602eff1ec48805e2ce8aa5/amukhsimov-jupyter-templates-bigdata-0.0.6.tar.gz
+[2023-05-23 12:25:25] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/ad/73/6c85f3fbfde211ff8851b742210148814f4d5a53c242d0946f594a8942d0/eminus-2.3.0.tar.gz
+[2023-05-23 12:25:25] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/6f/d5/92eed8503d833b6115f10867da026a8817bc40f39098fb69d00e64397898/browserstack_sdk-1.7.4.tar.gz
+[2023-05-23 12:25:25] INFO root fetch - processPackages [scCAMEL]: Downloading https://files.pythonhosted.org/packages/13/57/7be504fa4c0c9153d78963b9f243661804a28329df68fe1bbc2678c4f29d/scCAMEL-0.24b0.tar.gz
+[2023-05-23 12:25:25] INFO root fetch - processPackages [greas3]: Downloading https://files.pythonhosted.org/packages/15/6c/db70a2e7b2bd451eafb00ca21c585df81a1387b19c2758263d9eeda4cb5e/greas3-1.0.0b1-py3-none-any.whl
+[2023-05-23 12:25:26] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/c0/88/022c5430836fe8b924a65a2dcab3b116491a364dd0bcb0f3a4146fb13bc5/cog-0.7.1-py3-none-any.whl
+[2023-05-23 12:25:26] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.4.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.6.tar.gz --markdown 20230523/a/amukhsimov-jupyter-templates-bigdata/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [lackadaisical]: Downloading https://files.pythonhosted.org/packages/cf/fa/2bf99d312e724c79be94c803607bb830d132eb0e48658937309dadd85b72/lackadaisical-1.0.1-py3-none-any.whl
+[2023-05-23 12:25:26] INFO root fetch - processPackages [thegolem]: Downloading https://files.pythonhosted.org/packages/4b/e2/b76ae2b7751796534e73748e2c248c7767dcaf75a28f38b9afef6fb3df51/thegolem-0.3.1.tar.gz
+[2023-05-23 12:25:26] INFO root fetch - processPackages [lackadaisical]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [lackadaisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lackadaisical-1.0.0a2-py3-none-any.whl.zip tmp/lackadaisical-1.0.1-py3-none-any.whl.zip --markdown 20230523/l/lackadaisical/1.0.0a2-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [thegolem]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [thegolem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thegolem-0.2.0.tar.gz tmp/thegolem-0.3.1.tar.gz --markdown 20230523/t/thegolem/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.8.tar.gz tmp/serverless-sdk-0.4.9.tar.gz --markdown 20230523/s/serverless-sdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/c2/be/a5c8ddac4aca8fe0967e44fac67b23fcd49ee5f71c7db2870dc1196ab8d8/eminus-2.4.0.tar.gz
+[2023-05-23 12:25:26] INFO root fetch - processPackages [scCAMEL]: Downloading https://files.pythonhosted.org/packages/c7/38/b01c2ec7c5a5eb2ff680abbd9abafe4051f2f05fa421717c7acd939b248d/scCAMEL-0.25b0.tar.gz
+[2023-05-23 12:25:26] INFO root fetch - processPackages [greas3]: Downloading https://files.pythonhosted.org/packages/e3/78/4285d8a9ea9785a99cd88a85c016b95f3f3450d70de8fa1eeacfd620e96d/greas3-1.0.0b2-py3-none-any.whl
+[2023-05-23 12:25:26] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/e2/be/b2d45723bdef885912696c4fb6cea8cfc3b38cf394cbf76110271d6f363f/browserstack_sdk-1.8.0.tar.gz
+[2023-05-23 12:25:26] INFO root fetch - processPackages [eminus]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [eminus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eminus-2.3.0.tar.gz tmp/eminus-2.4.0.tar.gz --markdown 20230523/e/eminus/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [cog]: Downloading https://files.pythonhosted.org/packages/c5/57/9ea75c4f07d183a733c796afebd3b1580f7495221fd3dd345363f3ac17b6/cog-0.7.2-py3-none-any.whl
+[2023-05-23 12:25:26] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.7.4.tar.gz tmp/browserstack_sdk-1.8.0.tar.gz --markdown 20230523/b/browserstack-sdk/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.7.1-py3-none-any.whl.zip tmp/cog-0.7.2-py3-none-any.whl.zip --markdown 20230523/c/cog/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [greas3]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [greas3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greas3-1.0.0b1-py3-none-any.whl.zip tmp/greas3-1.0.0b2-py3-none-any.whl.zip --markdown 20230523/g/greas3/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-23 12:25:26] INFO root fetch - processPackages [scCAMEL]: executing diffoscope
+[2023-05-23 12:25:26] INFO root fetch - processPackages [scCAMEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCAMEL-0.24b0.tar.gz tmp/scCAMEL-0.25b0.tar.gz --markdown 20230523/s/scCAMEL/0.24b0-0.25b0/diff.md --exclude *.pyd
+[2023-05-23 12:25:27] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Start processing: synapticflow
+[2023-05-23 12:25:27] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-05-23 12:25:27] INFO root fetch - processPackages [synapticflow]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 12:25:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: cline
+[2023-05-23 12:25:27] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 12:25:27] INFO root fetch - processPackages [cline]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-23 12:25:27] INFO root fetch - processPackages [lackadaisical]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 12:25:27] INFO root fetch - main [MainThread]: End processing [lackadaisical]: success
+[2023-05-23 12:25:27] INFO root fetch - processPackages [synapticflow]: Downloading https://files.pythonhosted.org/packages/82/43/065a7aeab84c7cfab03ce43f4fd92bee0397bc515263af75a18e3628f73a/synapticflow-0.0.5.tar.gz
+[2023-05-23 12:25:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:25:27] INFO root fetch - processPackages [cline]: Downloading https://files.pythonhosted.org/packages/2a/25/dde8c65691bc30856a74fc3ecb7cc33cbc4fbabbb4dccd4c4a91b22088dc/cline-1.2.1-py3-none-any.whl
+[2023-05-23 12:25:27] INFO root fetch - processPackages [synapticflow]: executing diffoscope
+[2023-05-23 12:25:27] INFO root fetch - processPackages [synapticflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapticflow-0.0.4.tar.gz tmp/synapticflow-0.0.5.tar.gz --markdown 20230523/s/synapticflow/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 12:25:27] INFO root fetch - processPackages [serverless-sdk]: Start processing: slash3
+[2023-05-23 12:25:27] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-05-23 12:25:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 12:25:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:25:27] INFO root fetch - processPackages [slash3]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-23 12:25:27] INFO root fetch - processPackages [greas3]: Start processing: FishProcessManagement
+[2023-05-23 12:25:27] INFO root fetch - main [MainThread]: End processing [greas3]: success
+[2023-05-23 12:25:28] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.8] Old Version: [2023.5.23.7]
+[2023-05-23 12:25:28] INFO root fetch - processPackages [browserstack-sdk]: Start processing: priceloop-api
+[2023-05-23 12:25:28] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-05-23 12:25:28] INFO root fetch - processPackages [cline]: Downloading https://files.pythonhosted.org/packages/29/21/bdff2557cd1d5c0fd2ff800ad1b8021a38bd92f83f6fe3ed2dbc687d2fee/cline-1.2.2-py3-none-any.whl
+[2023-05-23 12:25:28] INFO root fetch - processPackages [slash3]: Downloading https://files.pythonhosted.org/packages/19/28/8dd967a38536a7e4b984c0ea2a61c1c8ef9624488051454f024fd63b4ed0/slash3-1.1.0-py3-none-any.whl
+[2023-05-23 12:25:28] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-23 12:25:28] INFO root fetch - processPackages [cline]: executing diffoscope
+[2023-05-23 12:25:28] INFO root fetch - processPackages [cline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cline-1.2.1-py3-none-any.whl.zip tmp/cline-1.2.2-py3-none-any.whl.zip --markdown 20230523/c/cline/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-23 12:25:28] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/d6/09/3a7b736651a83e72f27ace1d85473cd0962363336d596d7a3050dc54740b/FishProcessManagement-2023.5.23.8.tar.gz
+[2023-05-23 12:25:28] INFO root fetch - processPackages [cog]: Start processing: celsus-colendi
+[2023-05-23 12:25:28] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-05-23 12:25:28] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 12:25:28] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.7.tar.gz tmp/FishProcessManagement-2023.5.23.8.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23.7-2023.5.23.8/diff.md --exclude *.pyd
+[2023-05-23 12:25:28] WARNING root fetch - processPackages [celsus-colendi]: Skipping, unable to determine old version
+[2023-05-23 12:25:28] INFO root fetch - main [MainThread]: End processing [celsus-colendi] error
+[2023-05-23 12:25:28] INFO root fetch - processPackages [slash3]: Downloading https://files.pythonhosted.org/packages/9d/21/c76cff19ac558cfcb7e55013977bb5cbd058075ef2ec8a981413fcb09563/slash3-1.1.1-py3-none-any.whl
+[2023-05-23 12:25:28] INFO root fetch - processPackages [slash3]: executing diffoscope
+[2023-05-23 12:25:28] INFO root fetch - processPackages [slash3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slash3-1.1.0-py3-none-any.whl.zip tmp/slash3-1.1.1-py3-none-any.whl.zip --markdown 20230523/s/slash3/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 12:25:28] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-05-23 12:25:28] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-05-23 12:25:28] INFO root fetch - main [MainThread]: End processing [scCAMEL]: success
+[2023-05-23 12:25:28] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-23 12:25:28] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230523/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-23 12:25:29] INFO root fetch - main [MainThread]: End processing [cline]: success
+[2023-05-23 12:25:29] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 12:25:29] INFO root fetch - main [MainThread]: End processing [slash3]: success
+[2023-05-23 12:25:29] INFO root fetch - main [MainThread]: End processing [synapticflow]: success
+[2023-05-23 12:25:29] INFO root fetch - main [MainThread]: End processing [thegolem]: success
+[2023-05-23 12:25:30] INFO root fetch - main [MainThread]: End processing [eminus]: success
+[2023-05-23 12:25:30] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 12:25:31] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-23 12:25:31] INFO root fetch - main [MainThread]: Store serial: [18212240]

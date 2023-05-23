@@ -23395,3 +23395,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 20:17:10] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
 [2023-05-23 20:17:21] INFO root fetch - main [MainThread]: End processing [symgt]: success
 [2023-05-23 20:17:21] INFO root fetch - main [MainThread]: Store serial: [18218223]
+[2023-05-23 20:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18218223]
+[2023-05-23 20:22:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: httpx-cache
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chiakilisp
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utilki
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Candataloader
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ya-django-toolkit-jp
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gitlab
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magicroot
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ypricemagic
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: giup
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: snowglobes-data
+[2023-05-23 20:22:32] INFO root fetch - processPackages [Candataloader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [utilki]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [giup]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.9.dev9] Old Version: [2.2.9.dev8]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-05-23 20:22:32] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.3.0.tar.gz tmp/utilki-0.3.1.tar.gz --markdown 20230523/u/utilki/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 20:22:32] WARNING root fetch - processPackages [snowglobes-data]: Skipping, unable to determine old version
+[2023-05-23 20:22:32] INFO root fetch - processPackages [snowglobes-data]: Start processing: turbine-design
+[2023-05-23 20:22:32] INFO root fetch - main [MainThread]: End processing [snowglobes-data] error
+[2023-05-23 20:22:32] INFO root fetch - processPackages [httpx-cache]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 20:22:32] WARNING root fetch - processPackages [ya-django-toolkit-jp]: Skipping, unable to determine old version
+[2023-05-23 20:22:32] WARNING root fetch - processPackages [chiakilisp]: Skipping, unable to determine old version
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ya-django-toolkit-jp]: Start processing: bhousing-model
+[2023-05-23 20:22:32] INFO root fetch - main [MainThread]: End processing [ya-django-toolkit-jp] error
+[2023-05-23 20:22:32] INFO root fetch - processPackages [chiakilisp]: Start processing: ana-sdk
+[2023-05-23 20:22:32] INFO root fetch - processPackages [giup]: executing diffoscope
+[2023-05-23 20:22:32] INFO root fetch - main [MainThread]: End processing [chiakilisp] error
+[2023-05-23 20:22:32] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/b0/3e/1fcbf8c2b484beecf29036732d9c33538ccf47cd0a32bf93bb9e03388fa3/Candataloader-1.0.2.tar.gz
+[2023-05-23 20:22:32] INFO root fetch - processPackages [giup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giup-1.1.4.tar.gz tmp/giup-1.1.5.tar.gz --markdown 20230523/g/giup/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-23 20:22:32] INFO root fetch - processPackages [magicroot]: New version: [0.1.85] Old Version: [0.1.84]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [turbine-design]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [pulumi-gitlab]: New version: [5.1.0a1684864699] Old Version: [5.1.0a1684388195]
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-23 20:22:32] WARNING root fetch - processPackages [Candataloader]: Skipping package: exceeds size limit 12205347>=10485760
+[2023-05-23 20:22:32] INFO root fetch - processPackages [Candataloader]: Start processing: cim-graph
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-23 20:22:32] INFO root fetch - main [MainThread]: End processing [Candataloader] error
+[2023-05-23 20:22:32] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.9.dev8.tar.gz tmp/ypricemagic-2.2.9.dev9.tar.gz --markdown 20230523/y/ypricemagic/2.2.9.dev8-2.2.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [cim-graph]: New version: [2023.5.1a0] Old Version: [0.1.20230508194360a0]
+[2023-05-23 20:22:33] WARNING root fetch - processPackages [bhousing-model]: Skipping, unable to determine old version
+[2023-05-23 20:22:33] INFO root fetch - processPackages [bhousing-model]: Start processing: pydantic
+[2023-05-23 20:22:33] INFO root fetch - main [MainThread]: End processing [bhousing-model] error
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pydantic]: New version: [2.0a4] Old Version: [2.0a3]
+[2023-05-23 20:22:33] INFO root fetch - processPackages [httpx-cache]: Downloading https://files.pythonhosted.org/packages/b3/39/7b45d452862f014d4477d5c28dba76b3ec74c511b648b0bb1b2d2a3a99ef/httpx_cache-0.8.0.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [cim-graph]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [cim-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_graph-0.1.20230508194360a0.tar.gz tmp/cim_graph-2023.5.1a0.tar.gz --markdown 20230523/c/cim-graph/0.1.20230508194360a0-2023.5.1a0/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [turbine-design]: Downloading https://files.pythonhosted.org/packages/e9/4c/a84c4ddf0e796c3c9d60dbeecc37d10515512c9f335796b7b14dbaecb75a/turbine_design-0.1.4.tar.gz
+[2023-05-23 20:22:33] WARNING root fetch - processPackages [turbine-design]: Skipping package: exceeds size limit 17559529>=10485760
+[2023-05-23 20:22:33] INFO root fetch - processPackages [turbine-design]: Start processing: PrimeBotFramework
+[2023-05-23 20:22:33] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-05-23 20:22:33] INFO root fetch - processPackages [magicroot]: Downloading https://files.pythonhosted.org/packages/ef/57/9579da13245dee73bd4b3080b2f1548d4b3ee0711a3aea9841dac6380a57/magicroot-0.1.85-py3-none-any.whl
+[2023-05-23 20:22:33] INFO root fetch - processPackages [PrimeBotFramework]: New version: [1.0.12] Old Version: [0.0.9]
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/85/e6/1f42aa1b5bdad2b3a7e09037b6039663998ea39df157c8cb7c4be9991f05/pulumi_gitlab-5.1.0a1684864699.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [httpx-cache]: Downloading https://files.pythonhosted.org/packages/6b/8f/b7db1a3faca267d04ed8ccec8b64a56ac2bc5c9a1dae41752f5c6364f12f/httpx_cache-0.9.0.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.7.tar.gz tmp/ana_sdk-0.1.9.tar.gz --markdown 20230523/a/ana-sdk/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/18/14/da31afdc5cc93a4b80a42cf78595fc15f5e9847b3acd8e6e0267d9568a93/pydantic-2.0a3.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [magicroot]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [magicroot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicroot-0.1.84-py3-none-any.whl.zip tmp/magicroot-0.1.85-py3-none-any.whl.zip --markdown 20230523/m/magicroot/0.1.84-0.1.85/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-5.1.0a1684388195.tar.gz tmp/pulumi_gitlab-5.1.0a1684864699.tar.gz --markdown 20230523/p/pulumi-gitlab/5.1.0a1684388195-5.1.0a1684864699/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [PrimeBotFramework]: Downloading https://files.pythonhosted.org/packages/09/84/9339b87ee7a9d48caa60fac103ffa0b6f42836317ce4fbd3275a2ec9c4af/PrimeBotFramework-0.0.9.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [httpx-cache]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [httpx-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_cache-0.8.0.tar.gz tmp/httpx_cache-0.9.0.tar.gz --markdown 20230523/h/httpx-cache/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [PrimeBotFramework]: Downloading https://files.pythonhosted.org/packages/cc/72/8d7393cda708254389fe2a19757d48cc3fe9dcb40e2a9867c41864cff129/PrimeBotFramework-1.0.12.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/17/36/6c0ce37f62463bafd0b954b271dafc499f20016f31d3692ca15695cec9ff/pydantic-2.0a4.tar.gz
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pydantic]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-2.0a3.tar.gz tmp/pydantic-2.0a4.tar.gz --markdown 20230523/p/pydantic/2.0a3-2.0a4/diff.md --exclude *.pyd
+[2023-05-23 20:22:33] INFO root fetch - processPackages [PrimeBotFramework]: executing diffoscope
+[2023-05-23 20:22:33] INFO root fetch - processPackages [PrimeBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrimeBotFramework-0.0.9.tar.gz tmp/PrimeBotFramework-1.0.12.tar.gz --markdown 20230523/P/PrimeBotFramework/0.0.9-1.0.12/diff.md --exclude *.pyd
+[2023-05-23 20:22:34] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-05-23 20:22:34] INFO root fetch - main [MainThread]: End processing [giup]: success
+[2023-05-23 20:22:34] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 20:22:34] INFO root fetch - main [MainThread]: End processing [cim-graph]: success
+[2023-05-23 20:22:35] INFO root fetch - main [MainThread]: End processing [httpx-cache]: success
+[2023-05-23 20:22:35] INFO root fetch - main [MainThread]: End processing [PrimeBotFramework]: success
+[2023-05-23 20:22:35] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-05-23 20:22:35] INFO root fetch - main [MainThread]: End processing [magicroot]: success
+[2023-05-23 20:22:36] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-23 20:22:40] INFO root fetch - main [MainThread]: End processing [pydantic]: success
+[2023-05-23 20:22:40] INFO root fetch - main [MainThread]: Store serial: [18218277]

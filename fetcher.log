@@ -4304,3 +4304,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
 [2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
 [2023-05-23 03:40:31] INFO root fetch - main [MainThread]: Store serial: [18207038]
+[2023-05-23 03:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207038]
+[2023-05-23 03:45:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-django
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastqueue-lib
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wordlink
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-apl
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suanpan-sprt
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ytdl-sub
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: noteyXMLParser
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: core-universal
+[2023-05-23 03:45:40] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.1] Old Version: [0.4.2]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [wordlink]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [noteyXMLParser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.5.23] Old Version: [2023.5.22]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1684806114] Old Version: [0.1.1684804895]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.789] Old Version: [0.0.788]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [core-universal]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-05-23 03:45:40] INFO root fetch - processPackages [wordlink]: Downloading https://files.pythonhosted.org/packages/42/e2/e3059c0987ba6f594f975028400105c7f271555be3d05155d4edec051fd1/wordlink-1.0.3.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230523/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [noteyXMLParser]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [noteyXMLParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteyXMLParser-0.2.8.tar.gz tmp/noteyXMLParser-0.2.9.tar.gz --markdown 20230523/n/noteyXMLParser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/4f/0e/aa866e43e028293219b3d28c765a0afacdd0052e60d0191c18216f0461ce/suanpan-sprt-0.4.2.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230523/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/5a/54/df3c69b0836d25844a20f36a3ad945e3ea18f676c7200656c1ecc92c88bf/eia-odin-pkg-rioatmadja2018-0.1.1684806114.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e9/07/bdd481c3b2de03cf1a67b7a89f3d233a110c4dc8aef55728a6c1be7527b7/nbdev-apl-0.0.789.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/73/0d/e5700efd7231e4647c1470411cc9d224c49cd0b0d3cd05f27efaee15a8fb/ytdl-sub-2023.5.23.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1684804895.tar.gz tmp/eia-odin-pkg-rioatmadja2018-0.1.1684806114.tar.gz --markdown 20230523/e/eia-odin-pkg-rioatmadja2018/0.1.1684804895-0.1.1684806114/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.788.tar.gz tmp/nbdev-apl-0.0.789.tar.gz --markdown 20230523/n/nbdev-apl/0.0.788-0.0.789/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.5.22.tar.gz tmp/ytdl-sub-2023.5.23.tar.gz --markdown 20230523/y/ytdl-sub/2023.5.22-2023.5.23/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/32/5d/ea9f6426f64e426d840e0452989d67b161245eb82e47f192d7fb5c8f5dcd/core_universal-3.0.2-py2.py3-none-win_amd64.whl
+[2023-05-23 03:45:40] INFO root fetch - processPackages [wordlink]: Downloading https://files.pythonhosted.org/packages/55/1b/971a5008e45e0f44a150a966afef3e6b83bfd5a760875322ede4b664fdad/wordlink-1.0.4.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/55/64/69474b43cf2184313e7c2f8752369bf76b405b03604be25ae306ef26b20f/suanpan-sprt-0.5.1.tar.gz
+[2023-05-23 03:45:40] INFO root fetch - processPackages [wordlink]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [wordlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordlink-1.0.3.tar.gz tmp/wordlink-1.0.4.tar.gz --markdown 20230523/w/wordlink/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.4.2.tar.gz tmp/suanpan-sprt-0.5.1.tar.gz --markdown 20230523/s/suanpan-sprt/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-23 03:45:40] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.8.tar.gz tmp/fastqueue-lib-0.0.9.tar.gz --markdown 20230523/f/fastqueue-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 03:45:40] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24644520>=10485760
+[2023-05-23 03:45:40] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-05-23 03:45:41] INFO root fetch - main [MainThread]: End processing [noteyXMLParser]: success
+[2023-05-23 03:45:41] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [wordlink]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-05-23 03:45:42] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-05-23 03:45:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-23 03:45:43] INFO root fetch - main [MainThread]: Store serial: [18207068]

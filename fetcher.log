@@ -1835,3 +1835,90 @@
 [2023-05-23 02:39:10] INFO root fetch - processPackages [k3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/K3D-2.9.6.tar.gz tmp/K3D-2.9.7.tar.gz --markdown 20230523/k/k3d/2.9.6-2.9.7/diff.md --exclude *.pyd
 [2023-05-23 02:40:52] INFO root fetch - main [MainThread]: End processing [k3d]: success
 [2023-05-23 02:40:52] INFO root fetch - main [MainThread]: Store serial: [18205642]
+[2023-05-23 02:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205642]
+[2023-05-23 02:46:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rds-core
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazi
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoxx
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml-tasks-training
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reactivated
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloud-volume
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: interactive-multi-category-table
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: infra-buddy-too
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edman-cli
+[2023-05-23 02:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: box-vcs
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [lazi]: New version: [1.9.161] Old Version: [1.9.159]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [rds-core]: New version: [0.1.0] Old Version: [0.0.19]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [box-vcs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [edman-cli]: New version: [2023.5.23] Old Version: [2023.5.12]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [interactive-multi-category-table]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [infra-buddy-too]: New version: [67] Old Version: [66]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2023-05-23 02:46:05] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230523/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/1e/61/47c64fe2f4f61c0a29d2e8ec850f35ca03d34419a4de2fa477c2facbd42e/edman_cli-2023.5.12.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [interactive-multi-category-table]: Downloading https://files.pythonhosted.org/packages/54/d1/713a56fb6413869c6544e49a4667d4d016b12d09ffd9176e6c2b5f3c6e03/interactive_multi_category_table-0.0.2.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/4e/84/a23eed0f912e1f8a9050b1ddc96c63ef4aab9f32e865abac7ab5ff3d5da6/lazi-1.9.159.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/39/3d/cb4e0c72c35d1d378a72f0e333b770568ce202a45f7ce6e4ee88fe508d9d/cloud-volume-8.9.1.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/54/df/657552648073c50e71a8ac71423fd22012285601ce0e862396eaa86c79d7/infra-buddy-too-67.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/d1/28/6e302bb7c6e4f492a31358b8dcc3284e21fbb23d5c9723a9613a85459922/autoxx-0.0.16.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [box-vcs]: Downloading https://files.pythonhosted.org/packages/a9/89/67b0c5cf43ebb7d3edd1cac10f592ee229d3c07e65f5b21330eddbccb444/box-vcs-0.1.0.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-66.tar.gz tmp/infra-buddy-too-67.tar.gz --markdown 20230523/i/infra-buddy-too/66-67/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/97/e1/03c303316421346ca266d933ed770d86a02e8564e969d920f8b14dcd4c54/rds-core-0.1.0.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.0.19.tar.gz tmp/rds-core-0.1.0.tar.gz --markdown 20230523/r/rds-core/0.0.19-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/1c/2d/a16ff94d9a42356a13e3154a42ec6347fb76cfa890911ce9dfe60220862a/edman_cli-2023.5.23.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/dc/8f/4642d6c09853536f7975929fa51aa516ef4140270a2e0b5f47954c1fdbbe/lazi-1.9.161.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/5c/5c/0be84b9822b3ecf3f89e49556ccdc9715e63ead9772ef037c5f2b8e51145/cloud-volume-8.9.2.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [edman-cli]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [edman-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_cli-2023.5.12.tar.gz tmp/edman_cli-2023.5.23.tar.gz --markdown 20230523/e/edman-cli/2023.5.12-2023.5.23/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.9.159.tar.gz tmp/lazi-1.9.161.tar.gz --markdown 20230523/l/lazi/1.9.159-1.9.161/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [box-vcs]: Downloading https://files.pythonhosted.org/packages/d9/4e/3ceb169967c8110bbaa3b4bef7de4bf03b62bdf5016409223f707613081f/box-vcs-0.2.0.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [interactive-multi-category-table]: Downloading https://files.pythonhosted.org/packages/46/e8/8e293b31979b3427d015405b123f778fa9f73c95ca68c540bbdee251bdf2/interactive_multi_category_table-0.0.3.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20230523/c/cloud-volume/8.9.1-8.9.2/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.8.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230523/i/irisml-tasks-training/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/8a/8b/180d00ccdc0c977b69182cbdbed9b05afbf579b8d2007c15e9d325b4fe8e/autoxx-0.0.17.tar.gz
+[2023-05-23 02:46:05] INFO root fetch - processPackages [interactive-multi-category-table]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [interactive-multi-category-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactive_multi_category_table-0.0.2.tar.gz tmp/interactive_multi_category_table-0.0.3.tar.gz --markdown 20230523/i/interactive-multi-category-table/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [box-vcs]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [box-vcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/box-vcs-0.1.0.tar.gz tmp/box-vcs-0.2.0.tar.gz --markdown 20230523/b/box-vcs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.16.tar.gz tmp/autoxx-0.0.17.tar.gz --markdown 20230523/a/autoxx/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-23 02:46:05] ERROR root fetch - processPackages [autoxx]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-23 02:46:05] INFO root fetch - processPackages [autoxx]: Start processing: tfds-nightly
+[2023-05-23 02:46:05] INFO root fetch - main [MainThread]: End processing [autoxx] error
+[2023-05-23 02:46:06] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305220044] Old Version: [4.9.2.dev202305210044]
+[2023-05-23 02:46:06] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f3/f3/d2ea9d95c4385de9fd9d2e941dc90827b0e9c89f73d3065c8f5b97c0110d/tfds-nightly-4.9.2.dev202305220044.tar.gz
+[2023-05-23 02:46:06] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-23 02:46:06] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305210044.tar.gz tmp/tfds-nightly-4.9.2.dev202305220044.tar.gz --markdown 20230523/t/tfds-nightly/4.9.2.dev202305210044-4.9.2.dev202305220044/diff.md --exclude *.pyd
+[2023-05-23 02:46:07] INFO root fetch - processPackages [edman-cli]: Start processing: quantbox
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [edman-cli]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [infra-buddy-too]: Start processing: translategram
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [quantbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [quantbox]: executing diffoscope
+[2023-05-23 02:46:07] INFO root fetch - processPackages [quantbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantbox-0.0.8-py3-none-any.whl.zip tmp/quantbox-0.0.9-py3-none-any.whl.zip --markdown 20230523/q/quantbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:46:07] INFO root fetch - processPackages [translategram]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [interactive-multi-category-table]: success
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [translategram]: Downloading https://files.pythonhosted.org/packages/1f/eb/6491fad345a116394dee03845e007c29bf9361c979fbceec626b16d27786/translategram-0.1.tar.gz
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [box-vcs]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [translategram]: Downloading https://files.pythonhosted.org/packages/34/22/4feca253486d0765344674c20d54ad04bec29dd2f4aaaf6025f51adc39bd/translategram-0.1.1.tar.gz
+[2023-05-23 02:46:07] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-23 02:46:07] INFO root fetch - processPackages [translategram]: executing diffoscope
+[2023-05-23 02:46:07] INFO root fetch - processPackages [translategram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translategram-0.1.tar.gz tmp/translategram-0.1.1.tar.gz --markdown 20230523/t/translategram/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 02:46:08] INFO root fetch - main [MainThread]: End processing [quantbox]: success
+[2023-05-23 02:46:09] INFO root fetch - main [MainThread]: End processing [translategram]: success
+[2023-05-23 02:46:10] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2023-05-23 02:46:17] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-23 02:46:17] INFO root fetch - main [MainThread]: Store serial: [18205683]

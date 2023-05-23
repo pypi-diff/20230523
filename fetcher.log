@@ -14151,3 +14151,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:51:43] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
 [2023-05-23 12:51:45] INFO root fetch - main [MainThread]: End processing [chemfiles]: success
 [2023-05-23 12:51:45] INFO root fetch - main [MainThread]: Store serial: [18212488]
+[2023-05-23 12:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212488]
+[2023-05-23 12:56:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voliboli-pdf-scraper
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrew
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titan-iris
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpcore
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrew
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vgs-api-client
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scCAMEL
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-Ayiin
+[2023-05-23 12:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: package-test-7415
+[2023-05-23 12:56:54] INFO root fetch - processPackages [voliboli-pdf-scraper]: New version: [1.7] Old Version: [1.6]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [scCAMEL]: New version: [0.26b0] Old Version: [0.25b0]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [py-Ayiin]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-23 12:56:54] INFO root fetch - processPackages [httpcore]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 12:56:55] WARNING root fetch - processPackages [package-test-7415]: Skipping, unable to determine old version
+[2023-05-23 12:56:55] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [package-test-7415]: Start processing: kcli
+[2023-05-23 12:56:55] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230523/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - main [MainThread]: End processing [package-test-7415] error
+[2023-05-23 12:56:55] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230523/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [kcli]: New version: [99.0.202305221954] Old Version: [99.0.202305221831]
+[2023-05-23 12:56:55] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230523/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [scCAMEL]: Downloading https://files.pythonhosted.org/packages/e8/9e/d4298405aaf576d73fb94a494c111c89dfdf0893cbc73adb55cfc430feae/scCAMEL-0.26b0.tar.gz
+[2023-05-23 12:56:55] INFO root fetch - processPackages [voliboli-pdf-scraper]: Downloading https://files.pythonhosted.org/packages/24/c6/d9b29582f95bd8b8d7d4e4008382136d05a864c56db08d81375ca742de79/voliboli_pdf_scraper-1.7.tar.gz
+[2023-05-23 12:56:55] INFO root fetch - processPackages [httpcore]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [httpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpcore-0.9.0.tar.gz tmp/httpcore-0.9.1.tar.gz --markdown 20230523/h/httpcore/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [scCAMEL]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [scCAMEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCAMEL-0.25b0.tar.gz tmp/scCAMEL-0.26b0.tar.gz --markdown 20230523/s/scCAMEL/0.25b0-0.26b0/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/92/d9/1c29f0116dc9efb139ab0f681a03e97bae67c33037b386a3ed4a76fde01b/py-Ayiin-0.3.3.tar.gz
+[2023-05-23 12:56:55] INFO root fetch - processPackages [voliboli-pdf-scraper]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [voliboli-pdf-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voliboli_pdf_scraper-1.6.tar.gz tmp/voliboli_pdf_scraper-1.7.tar.gz --markdown 20230523/v/voliboli-pdf-scraper/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.3.2.tar.gz tmp/py-Ayiin-0.3.3.tar.gz --markdown 20230523/p/py-Ayiin/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-23 12:56:55] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-23 12:56:55] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305221831-py3-none-any.whl.zip tmp/kcli-99.0.202305221954-py3-none-any.whl.zip --markdown 20230523/k/kcli/99.0.202305221831-99.0.202305221954/diff.md --exclude *.pyd
+[2023-05-23 12:56:56] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 12:56:56] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 12:56:56] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-23 12:56:56] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-23 12:56:57] INFO root fetch - main [MainThread]: End processing [httpcore]: success
+[2023-05-23 12:56:57] INFO root fetch - main [MainThread]: End processing [voliboli-pdf-scraper]: success
+[2023-05-23 12:56:57] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-23 12:56:57] INFO root fetch - main [MainThread]: End processing [scCAMEL]: success
+[2023-05-23 12:57:01] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-23 12:57:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-23 12:57:03] INFO root fetch - main [MainThread]: Store serial: [18212524]

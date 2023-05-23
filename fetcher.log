@@ -9486,3 +9486,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:08:28] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-23 08:08:30] INFO root fetch - main [MainThread]: End processing [clld]: success
 [2023-05-23 08:08:30] INFO root fetch - main [MainThread]: Store serial: [18209646]
+[2023-05-23 08:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209646]
+[2023-05-23 08:13:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tKot
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krillscan
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyerspysdk1
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedops
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AISAPLibrary
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cx-Freeze
+[2023-05-23 08:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loophost
+[2023-05-23 08:13:40] INFO root fetch - processPackages [tKot]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fyerspysdk1]: New version: [1.5] Old Version: [1.4]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fedops]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [loophost]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.0.2] Old Version: [14.0.8.0.1.dev1]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [AISAPLibrary]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [cx-Freeze]: New version: [6.9] Old Version: [6.8b5]
+[2023-05-23 08:13:40] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/63/8c/91ab6ddbb16e1d39fca6982bf842947e239d07317f4c8d7ac146e012101d/tKot-0.2.1.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fyerspysdk1]: Downloading https://files.pythonhosted.org/packages/af/d2/3fc9f34480cf888a1caea7ee873f34433780313477c6d490e72157b0a427/fyerspysdk1-1.4-py3-none-any.whl
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/d2/a5/9b15affd9ee0b21615ebeeda0637229a75f88716e6e931be7ab1069d20b9/fedops-0.2.0.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [loophost]: Downloading https://files.pythonhosted.org/packages/b9/cd/44a547cca884f27d88d5dd1c8856301c1620b306fbbe7e8e8213c0c7f92e/loophost-0.2.5.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-0.1.9.tar.gz tmp/fedops-0.2.0.tar.gz --markdown 20230523/f/fedops/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 08:13:40] INFO root fetch - processPackages [AISAPLibrary]: Downloading https://files.pythonhosted.org/packages/e0/8b/5b692aef53e45694cd38dca078d0cc5a6a3fb8c3ba2596eb5c0cc0e89db3/AISAPLibrary-1.0.8.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/db/dc/dcdaf38277ee027bbcb2d60d32357415409ac7e3778d26731b189e919c3c/cx_Freeze-6.8b5.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fyerspysdk1]: Downloading https://files.pythonhosted.org/packages/2e/2f/93a92b3089b7fdb67c35190edad6acc24b21a4421730e4a44e277103b518/fyerspysdk1-1.5-py3-none-any.whl
+[2023-05-23 08:13:40] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/d4/48/225044c6765afe6ca173bbc31bbfe37cf0aef7b7ed448fb402059360e027/tKot-0.3.0.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/cb/1e/17af10bd0648546412a832c2247b368192b769fc29867ab62edd233e09eb/odoo14_addon_l10n_br_nfe-14.0.8.0.2-py3-none-any.whl
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fyerspysdk1]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [fyerspysdk1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerspysdk1-1.4-py3-none-any.whl.zip tmp/fyerspysdk1-1.5-py3-none-any.whl.zip --markdown 20230523/f/fyerspysdk1/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-23 08:13:40] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.2.1.tar.gz tmp/tKot-0.3.0.tar.gz --markdown 20230523/t/tKot/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-br-nfe/14.0.8.0.1.dev1-14.0.8.0.2/diff.md --exclude *.pyd
+[2023-05-23 08:13:40] INFO root fetch - processPackages [AISAPLibrary]: Downloading https://files.pythonhosted.org/packages/96/7c/1eb2cb155805e86235a529da2dcf63cee2274a8bdd732b8491b0fbe96c46/AISAPLibrary-1.0.9.tar.gz
+[2023-05-23 08:13:40] INFO root fetch - processPackages [loophost]: executing diffoscope
+[2023-05-23 08:13:40] INFO root fetch - processPackages [loophost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loophost-0.2.4.tar.gz tmp/loophost-0.2.5.tar.gz --markdown 20230523/l/loophost/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-23 08:13:41] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/6d/18/697934627f9980f2ef688ea574841968e455349a808663e2cc67bbf56d71/cx_Freeze-6.9.tar.gz
+[2023-05-23 08:13:41] INFO root fetch - processPackages [AISAPLibrary]: executing diffoscope
+[2023-05-23 08:13:41] INFO root fetch - processPackages [AISAPLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AISAPLibrary-1.0.8.tar.gz tmp/AISAPLibrary-1.0.9.tar.gz --markdown 20230523/A/AISAPLibrary/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:13:41] INFO root fetch - processPackages [cx-Freeze]: executing diffoscope
+[2023-05-23 08:13:41] INFO root fetch - processPackages [cx-Freeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx_Freeze-6.8b5.tar.gz tmp/cx_Freeze-6.9.tar.gz --markdown 20230523/c/cx-Freeze/6.8b5-6.9/diff.md --exclude *.pyd
+[2023-05-23 08:13:41] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-05-23 08:13:41] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-05-23 08:13:41] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230523/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 08:13:42] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2023-05-23 08:13:42] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-23 08:13:42] INFO root fetch - main [MainThread]: End processing [fyerspysdk1]: success
+[2023-05-23 08:13:42] INFO root fetch - main [MainThread]: End processing [AISAPLibrary]: success
+[2023-05-23 08:13:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-05-23 08:13:43] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-05-23 08:13:45] INFO root fetch - main [MainThread]: End processing [loophost]: success
+[2023-05-23 08:13:45] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
+[2023-05-23 08:13:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-05-23 08:13:45] INFO root fetch - main [MainThread]: Store serial: [18209672]

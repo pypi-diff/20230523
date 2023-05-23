@@ -14616,3 +14616,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:24:01] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-23 13:24:10] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-05-23 13:24:10] INFO root fetch - main [MainThread]: Store serial: [18212796]
+[2023-05-23 13:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212796]
+[2023-05-23 13:29:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-private-bucket
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recline
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refractio
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winwin
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: humlab-penelope
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PVNet
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bosch-alarm-mode2
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aim-ui
+[2023-05-23 13:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchx-nightly
+[2023-05-23 13:29:20] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-23 13:29:20] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-23 13:29:20] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.5.tar.gz tmp/bosch_alarm_mode2-0.3.6.tar.gz --markdown 20230523/b/bosch-alarm-mode2/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-23 13:29:20] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-23 13:29:20] INFO root fetch - processPackages [aim-ui]: Start processing: read-protobuf
+[2023-05-23 13:29:20] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-23 13:29:20] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [refractio]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [recline]: New version: [2023.5] Old Version: [2023.2]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [read-protobuf]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-23 13:29:20] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-23 13:29:20] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230523/t/torchx-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [recline]: Downloading https://files.pythonhosted.org/packages/8f/2c/e2865c3178ebf7409eb09f12c1bfbdcf100de12432e4fa7df02f97aebe6d/recline-2023.2.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [read-protobuf]: Downloading https://files.pythonhosted.org/packages/df/4e/25d836d95376c33b311f633dffae5f78cb36c342195c85a469d3fe5b0104/read-protobuf-0.1.1.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230523/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-23 13:29:21] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [refractio]: Downloading https://files.pythonhosted.org/packages/e2/5b/8c834e549b60f4295d003c313de96aa5743f766ea0ffb9630d3eae91d32b/refractio-2.0.1.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230523/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [recline]: Downloading https://files.pythonhosted.org/packages/dc/a0/f67765ed42d7f6074e5ee4d010d5582784bef5079f59fdc806d0c167128b/recline-2023.5.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230523/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [refractio]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [refractio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refractio-2.0.0.tar.gz tmp/refractio-2.0.1.tar.gz --markdown 20230523/r/refractio/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [read-protobuf]: Downloading https://files.pythonhosted.org/packages/6d/02/15b98644924d4d2d7b637ba6b6d8ca033d465415f66e00e157033caf4b4a/read-protobuf-0.2.0.tar.gz
+[2023-05-23 13:29:21] INFO root fetch - processPackages [recline]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [recline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recline-2023.2.tar.gz tmp/recline-2023.5.tar.gz --markdown 20230523/r/recline/2023.2-2023.5/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230523/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-23 13:29:21] INFO root fetch - processPackages [read-protobuf]: executing diffoscope
+[2023-05-23 13:29:21] INFO root fetch - processPackages [read-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read-protobuf-0.1.1.tar.gz tmp/read-protobuf-0.2.0.tar.gz --markdown 20230523/r/read-protobuf/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 13:29:22] INFO root fetch - processPackages [bosch-alarm-mode2]: Start processing: aim
+[2023-05-23 13:29:22] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-23 13:29:22] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-23 13:29:22] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-23 13:29:22] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230523/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-23 13:29:22] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: torchrec-nightly
+[2023-05-23 13:29:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-23 13:29:22] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-23 13:29:22] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-23 13:29:22] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.5.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.5.8-py39-none-any.whl.zip --markdown 20230523/t/torchrec-nightly/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-23 13:29:22] INFO root fetch - processPackages [refractio]: Start processing: bitorch
+[2023-05-23 13:29:22] INFO root fetch - main [MainThread]: End processing [refractio]: success
+[2023-05-23 13:29:22] INFO root fetch - processPackages [PVNet]: Start processing: qontract-reconcile
+[2023-05-23 13:29:22] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-05-23 13:29:22] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-23 13:29:23] INFO root fetch - processPackages [winwin]: Start processing: finbourne-access-sdk
+[2023-05-23 13:29:23] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-05-23 13:29:23] INFO root fetch - processPackages [bitorch]: New version: [0.4.0.dev0] Old Version: [0.3.0.dev1]
+[2023-05-23 13:29:23] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-23 13:29:23] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-23 13:29:23] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230523/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-23 13:29:23] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-23 13:29:23] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230523/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-23 13:29:23] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-23 13:29:23] INFO root fetch - processPackages [bitorch]: Downloading https://files.pythonhosted.org/packages/90/44/6d74fe2d8f15550021effe35df1ff9c60cf2cf5e6f675733438050ed4cf0/bitorch-0.3.0.dev1.tar.gz
+[2023-05-23 13:29:23] INFO root fetch - main [MainThread]: End processing [read-protobuf]: success
+[2023-05-23 13:29:23] INFO root fetch - processPackages [bitorch]: Downloading https://files.pythonhosted.org/packages/33/0f/54ec88684c05b4cf731ff7711d11be88b0cd17f10cad1adafcf386990813/bitorch-0.4.0.dev0.tar.gz
+[2023-05-23 13:29:23] INFO root fetch - processPackages [bitorch]: executing diffoscope
+[2023-05-23 13:29:23] INFO root fetch - processPackages [bitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitorch-0.3.0.dev1.tar.gz tmp/bitorch-0.4.0.dev0.tar.gz --markdown 20230523/b/bitorch/0.3.0.dev1-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-05-23 13:29:23] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-23 13:29:24] INFO root fetch - main [MainThread]: End processing [recline]: success
+[2023-05-23 13:29:25] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-23 13:29:25] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-23 13:29:25] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-05-23 13:29:25] INFO root fetch - main [MainThread]: End processing [bitorch]: success
+[2023-05-23 13:29:29] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-23 13:29:33] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-23 13:29:33] INFO root fetch - main [MainThread]: Store serial: [18212852]

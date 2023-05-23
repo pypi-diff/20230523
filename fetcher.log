@@ -22738,3 +22738,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:34:30] INFO root fetch - main [MainThread]: End processing [mygrations]: success
 [2023-05-23 19:34:31] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-23 19:34:31] INFO root fetch - main [MainThread]: Store serial: [18217691]
+[2023-05-23 19:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217691]
+[2023-05-23 19:39:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-Reuploads
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capsulecorp
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ewoksserver
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydbml
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meow-sim
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NREL-rex
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cspyce
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enjoy-slurm
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud23
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geocube
+[2023-05-23 19:39:41] INFO root fetch - processPackages [capsulecorp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [meow-sim]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [pydbml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 19:39:41] WARNING root fetch - processPackages [Flask-Reuploads]: Skipping, unable to determine old version
+[2023-05-23 19:39:41] INFO root fetch - processPackages [Flask-Reuploads]: Start processing: codepeers
+[2023-05-23 19:39:41] INFO root fetch - main [MainThread]: End processing [Flask-Reuploads] error
+[2023-05-23 19:39:41] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-05-23 19:39:41] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-05-23 19:39:41] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.0.8.tar.gz tmp/capsulecorp-0.0.9.tar.gz --markdown 20230523/c/capsulecorp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:39:41] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.0.tar.gz tmp/meow-sim-0.3.1.tar.gz --markdown 20230523/m/meow-sim/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 19:39:41] WARNING root fetch - processPackages [cloud23]: Skipping, unable to determine old version
+[2023-05-23 19:39:41] INFO root fetch - processPackages [cloud23]: Start processing: SIOTCommon
+[2023-05-23 19:39:41] INFO root fetch - main [MainThread]: End processing [cloud23] error
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ewoksserver]: New version: [0.1.0rc0] Old Version: [0.0.4b0]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [geocube]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [enjoy-slurm]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [NREL-rex]: New version: [0.2.9] Old Version: [0.2.81]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [cspyce]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [codepeers]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [SIOTCommon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 19:39:41] INFO root fetch - processPackages [NREL-rex]: Downloading https://files.pythonhosted.org/packages/b3/7f/565d44eadfa6723fd0348faada619d58d983ef5aa3f186858a820ce78ae2/NREL-rex-0.2.81.tar.gz
+[2023-05-23 19:39:41] INFO root fetch - processPackages [enjoy-slurm]: Downloading https://files.pythonhosted.org/packages/d0/2a/9f469b30937b4228adca33709723c8158179c797368772bf8241b241aab4/enjoy_slurm-0.0.4.tar.gz
+[2023-05-23 19:39:41] INFO root fetch - processPackages [ewoksserver]: Downloading https://files.pythonhosted.org/packages/9f/0c/42198b4fca9556556518c5ca79bfc28bfd39cbde630e793105b0012e0ac2/ewoksserver-0.0.4b0.tar.gz
+[2023-05-23 19:39:41] INFO root fetch - processPackages [cspyce]: Downloading https://files.pythonhosted.org/packages/97/24/f4f7ac738b782cd2cfe0793dd923d3030f0b63a67477d8e5b80d50cbb12e/cspyce-2.1.0.tar.gz
+[2023-05-23 19:39:41] INFO root fetch - processPackages [pydbml]: Downloading https://files.pythonhosted.org/packages/2a/98/fa3486a240fdde9088ca75cf970c34de6c4345df2349ec1d423329c6e62e/pydbml-1.0.8.tar.gz
+[2023-05-23 19:39:41] INFO root fetch - processPackages [geocube]: Downloading https://files.pythonhosted.org/packages/8e/e9/e31aeb67579d48c5c4815afd60d0daed5a4799ab960f8e1c696e8a93d948/geocube-0.4.0.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/e7/ab/438205a50d144b5d47d27c0184444d64146829c52ce405bfb46fa1f31797/SIOTCommon-0.1.4.tar.gz
+[2023-05-23 19:39:42] WARNING root fetch - processPackages [cspyce]: Skipping package: exceeds size limit 59267086>=10485760
+[2023-05-23 19:39:42] INFO root fetch - processPackages [cspyce]: Start processing: pynecone
+[2023-05-23 19:39:42] INFO root fetch - main [MainThread]: End processing [cspyce] error
+[2023-05-23 19:39:42] INFO root fetch - processPackages [enjoy-slurm]: Downloading https://files.pythonhosted.org/packages/70/b5/570ceafe9c8b00ed3e1995882bda95cf8d5067a66e79f44fbbac32216426/enjoy_slurm-0.1.0.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [ewoksserver]: Downloading https://files.pythonhosted.org/packages/e2/29/faf03127d86cfd87edcca6333ebb8cf6597b55bf3aee3ec6eab90f692fb0/ewoksserver-0.1.0rc0.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [NREL-rex]: Downloading https://files.pythonhosted.org/packages/25/1d/5b6974f863a8f4cc0559b463a2d130edf03366af51b7867ec31dec032999/NREL-rex-0.2.9.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [codepeers]: Downloading https://files.pythonhosted.org/packages/0a/61/7b410b400c5272ac51501b7d071bda6790b6b20627ec72b49dee19f7c879/codepeers-0.2.0-py3-none-any.whl
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pynecone]: New version: [0.1.32a0] Old Version: [0.1.31a1]
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pydbml]: Downloading https://files.pythonhosted.org/packages/ea/4c/cec5e6436310b1ebfe09db80317850b0c8ea886c477ac5ae18da4423430b/pydbml-1.0.9.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [enjoy-slurm]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [enjoy-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enjoy_slurm-0.0.4.tar.gz tmp/enjoy_slurm-0.1.0.tar.gz --markdown 20230523/e/enjoy-slurm/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.1.3.tar.gz tmp/SIOTCommon-0.1.4.tar.gz --markdown 20230523/S/SIOTCommon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [geocube]: Downloading https://files.pythonhosted.org/packages/6e/6d/8d0ddc9b8dbd6c723baf98fca0b31cee8d6e206c8d262ede0b05c0ce37b1/geocube-0.4.1.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [ewoksserver]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [ewoksserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksserver-0.0.4b0.tar.gz tmp/ewoksserver-0.1.0rc0.tar.gz --markdown 20230523/e/ewoksserver/0.0.4b0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [NREL-rex]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [NREL-rex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NREL-rex-0.2.81.tar.gz tmp/NREL-rex-0.2.9.tar.gz --markdown 20230523/N/NREL-rex/0.2.81-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pydbml]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pydbml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbml-1.0.8.tar.gz tmp/pydbml-1.0.9.tar.gz --markdown 20230523/p/pydbml/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [geocube]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [geocube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocube-0.4.0.tar.gz tmp/geocube-0.4.1.tar.gz --markdown 20230523/g/geocube/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [codepeers]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [codepeers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codepeers-0.1.9-py3-none-any.whl.zip tmp/codepeers-0.2.0-py3-none-any.whl.zip --markdown 20230523/c/codepeers/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/80/2a/4f2f89f4e5a2075b2957ba2172fd3ff94a6ce6adc0f6457f72ed4cc128b7/pynecone-0.1.32a0.tar.gz
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-23 19:39:42] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.31a1.tar.gz tmp/pynecone-0.1.32a0.tar.gz --markdown 20230523/p/pynecone/0.1.31a1-0.1.32a0/diff.md --exclude *.pyd
+[2023-05-23 19:39:43] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-05-23 19:39:43] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-05-23 19:39:43] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-05-23 19:39:43] INFO root fetch - main [MainThread]: End processing [enjoy-slurm]: success
+[2023-05-23 19:39:43] INFO root fetch - main [MainThread]: End processing [pydbml]: success
+[2023-05-23 19:39:44] INFO root fetch - main [MainThread]: End processing [ewoksserver]: success
+[2023-05-23 19:39:44] INFO root fetch - main [MainThread]: End processing [geocube]: success
+[2023-05-23 19:39:45] INFO root fetch - main [MainThread]: End processing [NREL-rex]: success
+[2023-05-23 19:39:47] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-23 19:39:52] INFO root fetch - main [MainThread]: End processing [codepeers]: success
+[2023-05-23 19:39:52] INFO root fetch - main [MainThread]: Store serial: [18217746]

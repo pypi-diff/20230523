@@ -15193,3 +15193,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 13:51:07] INFO root fetch - main [MainThread]: End processing [simba-ml]: success
 [2023-05-23 13:51:08] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-05-23 13:51:08] INFO root fetch - main [MainThread]: Store serial: [18213102]
+[2023-05-23 13:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213102]
+[2023-05-23 13:56:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: home-assistant-chip-repl
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mly
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chartmogul
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shaperone
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: check-celebrity
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monkey.crawler.ldap
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bridgecrew
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taipy-config
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicomselect
+[2023-05-23 13:56:17] INFO root fetch - processPackages [chartmogul]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [taipy-config]: New version: [2.3.0.dev0] Old Version: [2.2.0]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [mly]: New version: [0.3.4.4] Old Version: [0.3.4.3]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [monkey.crawler.ldap]: New version: [2.0.0.dev1] Old Version: [0.0.1.dev2]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [home-assistant-chip-repl]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [shaperone]: New version: [0.41.4] Old Version: [0.41.3]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [dicomselect]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [check-celebrity]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 13:56:17] INFO root fetch - processPackages [shaperone]: Downloading https://files.pythonhosted.org/packages/bc/92/db7abb4a275914ceff2497d615f6cf3a5247240096875008ca94aeed0a9b/shaperone-0.41.3.tar.gz
+[2023-05-23 13:56:17] INFO root fetch - processPackages [check-celebrity]: Downloading https://files.pythonhosted.org/packages/72/b0/b8d7107be8d0268cae5acdbbc03a85a30e38a25e7a6f66864efc67fefac1/check_celebrity-1.0.2.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [chartmogul]: Downloading https://files.pythonhosted.org/packages/85/3a/9945661b91de7e4af39281c7c6bb52ff173a65cedd34b63661735eba867e/chartmogul-3.1.1.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [mly]: Downloading https://files.pythonhosted.org/packages/61/a8/cadfe6addb384bd1158444740603301ae925f373db4af5ca072a6a0a6344/mly-0.3.4.4.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/3d/15/b03d8e12f388aca2c78ccb6176fa871617ad20030e6ea2fcc65d25692f23/dicomselect-0.1.0.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/28/36/27bdb4f48c1c365756d804ec9264afdcb19c66dd54e9a9d734f7f9255042/taipy-config-2.2.0.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [monkey.crawler.ldap]: Downloading https://files.pythonhosted.org/packages/d4/6e/175e50e11b54326453531a96c7b64fd6a0a89b201ebf977b04974aa30fda/monkey.crawler.ldap-0.0.1.dev2.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/84/80/dfaeba96ecec9d21a08a0878116ff3e2ffac9256b60c6b2f84cf53bae1da/home_assistant_chip_repl-2023.5.1-py3-none-any.whl
+[2023-05-23 13:56:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230523/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [mly]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [mly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly-0.3.4.3.tar.gz tmp/mly-0.3.4.4.tar.gz --markdown 20230523/m/mly/0.3.4.3-0.3.4.4/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [check-celebrity]: Downloading https://files.pythonhosted.org/packages/5c/6a/38c596cce8f4f29097683b8b6a5dc55242b9022af8655884be711a40d2ee/check_celebrity-1.0.3.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230523/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/f6/82/c89e6995c0c1184bbaeb3c049277de68914fe2070c68f331acbc78c7c610/dicomselect-0.3.0.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [chartmogul]: Downloading https://files.pythonhosted.org/packages/9f/57/f7d12ff0b20056959baeabf00da7cd886f2d2dc6ba7ea11748f4add334e1/chartmogul-3.1.2.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [check-celebrity]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [check-celebrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_celebrity-1.0.2.tar.gz tmp/check_celebrity-1.0.3.tar.gz --markdown 20230523/c/check-celebrity/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [taipy-config]: Downloading https://files.pythonhosted.org/packages/8a/3b/bb39e2d0c457920b1fcff0c51a0b02711691e1a041680f40b9bc8e8864fa/taipy-config-2.3.0.dev0.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [monkey.crawler.ldap]: Downloading https://files.pythonhosted.org/packages/3c/af/3ec751078dac71c1a72167d8802196973327306a61ee715299d6e0c6a726/monkey.crawler.ldap-2.0.0.dev1.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [shaperone]: Downloading https://files.pythonhosted.org/packages/bc/6a/d1561d4b30da0ebd2f6c621a71b5c57c93b9caa1687b3b191e69d5e2a938/shaperone-0.41.4.tar.gz
+[2023-05-23 13:56:18] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/82/87/afa81ef339fcd9a39fdd845541f2e8a956a0085def2ad2dade28ae8c2be1/home_assistant_chip_repl-2023.5.2-py3-none-any.whl
+[2023-05-23 13:56:18] INFO root fetch - processPackages [dicomselect]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [dicomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomselect-0.1.0.tar.gz tmp/dicomselect-0.3.0.tar.gz --markdown 20230523/d/dicomselect/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [chartmogul]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [chartmogul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartmogul-3.1.1.tar.gz tmp/chartmogul-3.1.2.tar.gz --markdown 20230523/c/chartmogul/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [taipy-config]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [taipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-config-2.2.0.tar.gz tmp/taipy-config-2.3.0.dev0.tar.gz --markdown 20230523/t/taipy-config/2.2.0-2.3.0.dev0/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [monkey.crawler.ldap]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [monkey.crawler.ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monkey.crawler.ldap-0.0.1.dev2.tar.gz tmp/monkey.crawler.ldap-2.0.0.dev1.tar.gz --markdown 20230523/m/monkey.crawler.ldap/0.0.1.dev2-2.0.0.dev1/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [home-assistant-chip-repl]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [home-assistant-chip-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_repl-2023.5.1-py3-none-any.whl.zip tmp/home_assistant_chip_repl-2023.5.2-py3-none-any.whl.zip --markdown 20230523/h/home-assistant-chip-repl/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-23 13:56:18] INFO root fetch - processPackages [shaperone]: executing diffoscope
+[2023-05-23 13:56:18] INFO root fetch - processPackages [shaperone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaperone-0.41.3.tar.gz tmp/shaperone-0.41.4.tar.gz --markdown 20230523/s/shaperone/0.41.3-0.41.4/diff.md --exclude *.pyd
+[2023-05-23 13:56:19] INFO root fetch - processPackages [bridgecrew]: Start processing: Rabbit-in-a-Blender
+[2023-05-23 13:56:19] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-23 13:56:19] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-23 13:56:19] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/7c/65/fec9bec8a731fca8e676cb247983379e47c8eee0d93d67029505958324c7/Rabbit-in-a-Blender-0.0.21.tar.gz
+[2023-05-23 13:56:19] INFO root fetch - processPackages [check-celebrity]: Start processing: bagbag
+[2023-05-23 13:56:19] INFO root fetch - main [MainThread]: End processing [check-celebrity]: success
+[2023-05-23 13:56:19] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:56:20] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:56:20] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:56:20] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/9a/23/adb55b7cd91fd4443c1c48581f8b7f8c692436e0404feec56698452a0c41/Rabbit-in-a-Blender-0.0.22.tar.gz
+[2023-05-23 13:56:20] INFO root fetch - processPackages [dicomselect]: Start processing: superannotate
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [dicomselect]: success
+[2023-05-23 13:56:20] INFO root fetch - processPackages [home-assistant-chip-repl]: Start processing: django-dashboards
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-repl]: success
+[2023-05-23 13:56:20] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-23 13:56:20] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.21.tar.gz tmp/Rabbit-in-a-Blender-0.0.22.tar.gz --markdown 20230523/R/Rabbit-in-a-Blender/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-23 13:56:20] INFO root fetch - processPackages [monkey.crawler.ldap]: Start processing: bagbag
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [monkey.crawler.ldap]: success
+[2023-05-23 13:56:20] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-05-23 13:56:20] INFO root fetch - processPackages [chartmogul]: Start processing: urllib3-ext-hface
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [chartmogul]: success
+[2023-05-23 13:56:20] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:56:20] INFO root fetch - processPackages [django-dashboards]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 13:56:20] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:56:20] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:56:20] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 13:56:20] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-05-23 13:56:20] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.2.8.tar.gz tmp/urllib3_ext_hface-0.2.9.tar.gz --markdown 20230523/u/urllib3-ext-hface/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 13:56:20] INFO root fetch - processPackages [django-dashboards]: Downloading https://files.pythonhosted.org/packages/e8/ac/27cb63588a595bbc791571d9b415c665ee05fa1e7c0c68f9acb3057750d4/django-dashboards-0.1.3.tar.gz
+[2023-05-23 13:56:20] INFO root fetch - processPackages [shaperone]: Start processing: translateabc
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [shaperone]: success
+[2023-05-23 13:56:20] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2023-05-23 13:56:20] WARNING root fetch - processPackages [translateabc]: Skipping, unable to determine old version
+[2023-05-23 13:56:20] INFO root fetch - main [MainThread]: End processing [translateabc] error
+[2023-05-23 13:56:20] INFO root fetch - processPackages [django-dashboards]: executing diffoscope
+[2023-05-23 13:56:20] INFO root fetch - processPackages [django-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dashboards-0.1.2.tar.gz tmp/django-dashboards-0.1.3.tar.gz --markdown 20230523/d/django-dashboards/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 13:56:21] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2023-05-23 13:56:21] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-05-23 13:56:21] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230523/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-05-23 13:56:21] INFO root fetch - main [MainThread]: End processing [taipy-config]: success
+[2023-05-23 13:56:21] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-05-23 13:56:22] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:56:22] INFO root fetch - main [MainThread]: End processing [mly]: success
+[2023-05-23 13:56:22] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:56:23] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-05-23 13:56:23] INFO root fetch - main [MainThread]: End processing [django-dashboards]: success
+[2023-05-23 13:56:24] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-23 13:56:25] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-23 13:56:25] INFO root fetch - main [MainThread]: Store serial: [18213156]

@@ -22488,3 +22488,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:18:24] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
 [2023-05-23 19:18:33] INFO root fetch - main [MainThread]: End processing [angr]: success
 [2023-05-23 19:18:33] INFO root fetch - main [MainThread]: Store serial: [18217521]
+[2023-05-23 19:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217521]
+[2023-05-23 19:23:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-unitconverterermac
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvxcovariance
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openworld-sdk-python-fraudprevention
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perun.proxygui
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mahdix
+[2023-05-23 19:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-unitconverter
+[2023-05-23 19:23:46] WARNING root fetch - processPackages [python-unitconverterermac]: Skipping, unable to determine old version
+[2023-05-23 19:23:46] INFO root fetch - processPackages [python-unitconverterermac]: Start processing: graspologic
+[2023-05-23 19:23:46] INFO root fetch - main [MainThread]: End processing [python-unitconverterermac] error
+[2023-05-23 19:23:46] WARNING root fetch - processPackages [cvxcovariance]: Skipping, unable to determine old version
+[2023-05-23 19:23:46] INFO root fetch - processPackages [cvxcovariance]: Start processing: xformers
+[2023-05-23 19:23:46] INFO root fetch - main [MainThread]: End processing [cvxcovariance] error
+[2023-05-23 19:23:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [1.3] Old Version: [1.2]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [mahdix]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [perun.proxygui]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [graspologic]: New version: [3.2.0.dev5059761238] Old Version: [3.1.0.dev5027620150]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-23 19:23:46] WARNING root fetch - processPackages [python-unitconverter]: Skipping, unable to determine old version
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-23 19:23:46] INFO root fetch - main [MainThread]: End processing [python-unitconverter] error
+[2023-05-23 19:23:46] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-05-23 19:23:46] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.2.tar.gz tmp/mahdix-0.1.3.tar.gz --markdown 20230523/m/mahdix/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 19:23:46] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/3f/fb/b7298738e00c92d7cc8cc04265722f92731d38f65fc074f159eea8d76e69/mkdocs-simple-tags-plugin-1.2.tar.gz
+[2023-05-23 19:23:46] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:23:46] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/01/51/c219bc247a59dde11ba21b17485ad7e65c82ff322d998ee5a9bdc7c6229c/perun.proxygui-1.6.0.tar.gz
+[2023-05-23 19:23:46] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: Downloading https://files.pythonhosted.org/packages/96/46/f0be20c4d672b0e56760b8d5e846e47dc721c7aa7656a96831921f78e390/openworld-sdk-python-fraudprevention-0.6.0.tar.gz
+[2023-05-23 19:23:46] INFO root fetch - processPackages [graspologic]: executing diffoscope
+[2023-05-23 19:23:46] INFO root fetch - processPackages [graspologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graspologic-3.1.0.dev5027620150.tar.gz tmp/graspologic-3.2.0.dev5059761238.tar.gz --markdown 20230523/g/graspologic/3.1.0.dev5027620150-3.2.0.dev5059761238/diff.md --exclude *.pyd
+[2023-05-23 19:23:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-23 19:23:46] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230523/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-23 19:23:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230523/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-23 19:23:47] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: Downloading https://files.pythonhosted.org/packages/9e/05/a526a8628f278036e698e4d3c9b70f854345dff5b5e4fcddc9df68dc28d7/openworld-sdk-python-fraudprevention-0.7.0.tar.gz
+[2023-05-23 19:23:47] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/70/e4/958542a0705bee315a0e61e332696daddb66cbb67be73354b8196a25bacb/mkdocs-simple-tags-plugin-1.3.tar.gz
+[2023-05-23 19:23:47] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: executing diffoscope
+[2023-05-23 19:23:47] INFO root fetch - processPackages [openworld-sdk-python-fraudprevention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-fraudprevention-0.6.0.tar.gz tmp/openworld-sdk-python-fraudprevention-0.7.0.tar.gz --markdown 20230523/o/openworld-sdk-python-fraudprevention/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-23 19:23:47] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-05-23 19:23:47] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230523/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:23:47] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 19:23:47] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-1.2.tar.gz tmp/mkdocs-simple-tags-plugin-1.3.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-23 19:23:47] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/71/05/5dda18c82e3b391454ef83532517e6db3b03c344129f1a117850fcd991eb/perun.proxygui-1.6.1.tar.gz
+[2023-05-23 19:23:47] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2023-05-23 19:23:47] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-1.6.0.tar.gz tmp/perun.proxygui-1.6.1.tar.gz --markdown 20230523/p/perun.proxygui/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-fraudprevention]: success
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 19:23:48] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-23 19:23:49] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-05-23 19:23:50] INFO root fetch - main [MainThread]: End processing [graspologic]: success
+[2023-05-23 19:23:52] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2023-05-23 19:23:52] INFO root fetch - main [MainThread]: Store serial: [18217560]

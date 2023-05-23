@@ -13948,3 +13948,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:36:01] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-23 12:36:04] INFO root fetch - main [MainThread]: End processing [moralis]: success
 [2023-05-23 12:36:04] INFO root fetch - main [MainThread]: Store serial: [18212357]
+[2023-05-23 12:41:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212357]
+[2023-05-23 12:41:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-23 12:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-statement-builder
+[2023-05-23 12:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prospr
+[2023-05-23 12:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-audit-tool
+[2023-05-23 12:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bosch-alarm-mode2
+[2023-05-23 12:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mela
+[2023-05-23 12:41:13] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-23 12:41:13] INFO root fetch - processPackages [cloud-audit-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mysql-statement-builder]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mela]: New version: [1.1.1] Old Version: [1.1.0a7]
+[2023-05-23 12:41:13] INFO root fetch - processPackages [prospr]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-23 12:41:13] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/af/7c/3bf6ccd7bebceb88fc4658cacc57619cf5f8433ebb13075166aa84098aa9/bosch_alarm_mode2-0.3.5.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mysql-statement-builder]: Downloading https://files.pythonhosted.org/packages/b0/ef/e19863b32b3406bc536d10bd978837d1b982c4aaae247beafacf16ad5e00/mysql-statement-builder-0.2.1.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [prospr]: Downloading https://files.pythonhosted.org/packages/92/28/c47a6318eee090e4ee128a8f9aab830e0c4ce15cb382b949606f5e432af7/prospr-0.2a8.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [cloud-audit-tool]: Downloading https://files.pythonhosted.org/packages/56/a2/5c7230a9e8ddf43b3a34fe32b9bb015c5983afc22ead67327148ca0225bc/cloud-audit-tool-0.0.1.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mela]: Downloading https://files.pythonhosted.org/packages/52/58/c5be89b16e0e1620926c31843e52f1b52d82361c20b9a3cac66ebc3f4fe9/mela-1.1.0a7.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/06/53/4d8304f132191831a193cf90465bc1d8f6d910495cd2d57bfb18f91136e4/bosch_alarm_mode2-0.3.6.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mysql-statement-builder]: Downloading https://files.pythonhosted.org/packages/d8/ac/e6a2dca81a30297a08e853591226c97898cc3f61de6d283152a9253627f6/mysql-statement-builder-0.2.2.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-23 12:41:13] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.5.tar.gz tmp/bosch_alarm_mode2-0.3.6.tar.gz --markdown 20230523/b/bosch-alarm-mode2/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mysql-statement-builder]: executing diffoscope
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mysql-statement-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-statement-builder-0.2.1.tar.gz tmp/mysql-statement-builder-0.2.2.tar.gz --markdown 20230523/m/mysql-statement-builder/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mela]: Downloading https://files.pythonhosted.org/packages/d3/ad/132ba77bd5f44f7608f861d6ebf54a1ad764025a7dcf125730149276dd05/mela-1.1.1.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [cloud-audit-tool]: Downloading https://files.pythonhosted.org/packages/2a/d4/c6a32a541be2d29ef75f421c9f0c9f91c9473060624571254a9a9c2c8306/cloud-audit-tool-0.0.2.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [prospr]: Downloading https://files.pythonhosted.org/packages/41/7b/c267fc17cefbffea67be48793930c2182ef6a798e042d1b44282e9a61e89/prospr-0.2a9.tar.gz
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mela]: executing diffoscope
+[2023-05-23 12:41:13] INFO root fetch - processPackages [mela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mela-1.1.0a7.tar.gz tmp/mela-1.1.1.tar.gz --markdown 20230523/m/mela/1.1.0a7-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 12:41:13] INFO root fetch - processPackages [cloud-audit-tool]: executing diffoscope
+[2023-05-23 12:41:13] INFO root fetch - processPackages [cloud-audit-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-audit-tool-0.0.1.tar.gz tmp/cloud-audit-tool-0.0.2.tar.gz --markdown 20230523/c/cloud-audit-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 12:41:14] INFO root fetch - processPackages [prospr]: executing diffoscope
+[2023-05-23 12:41:14] INFO root fetch - processPackages [prospr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospr-0.2a8.tar.gz tmp/prospr-0.2a9.tar.gz --markdown 20230523/p/prospr/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-23 12:41:14] INFO root fetch - main [MainThread]: End processing [mysql-statement-builder]: success
+[2023-05-23 12:41:15] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-23 12:41:15] INFO root fetch - main [MainThread]: End processing [mela]: success
+[2023-05-23 12:41:15] INFO root fetch - main [MainThread]: End processing [prospr]: success
+[2023-05-23 12:41:16] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
+[2023-05-23 12:41:16] INFO root fetch - main [MainThread]: Store serial: [18212373]

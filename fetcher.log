@@ -14533,3 +14533,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:18:32] INFO root fetch - main [MainThread]: End processing [zbuilder]: success
 [2023-05-23 13:18:46] INFO root fetch - main [MainThread]: End processing [zndraw]: success
 [2023-05-23 13:18:46] INFO root fetch - main [MainThread]: Store serial: [18212751]
+[2023-05-23 13:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212751]
+[2023-05-23 13:23:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netteikei
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proteus-runtime
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-client
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2023-05-23 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-05-23 13:23:55] INFO root fetch - processPackages [netteikei]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 13:23:55] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [netteikei]: Downloading https://files.pythonhosted.org/packages/e9/93/328669febf5e5effcb401c067b1757a5552b355e7d658d6cd3c1b13c0331/netteikei-0.3.0-py3-none-any.whl
+[2023-05-23 13:23:56] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230523/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230523/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-23 13:23:56] INFO root fetch - processPackages [netteikei]: executing diffoscope
+[2023-05-23 13:23:56] INFO root fetch - processPackages [netteikei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netteikei-0.2.1-py3-none-any.whl.zip tmp/netteikei-0.3.0-py3-none-any.whl.zip --markdown 20230523/n/netteikei/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 13:23:57] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: shaperone
+[2023-05-23 13:23:57] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-23 13:23:57] WARNING root fetch - processPackages [shaperone]: Skipping, unable to determine old version
+[2023-05-23 13:23:57] INFO root fetch - processPackages [shaperone]: Start processing: spider-st
+[2023-05-23 13:23:57] INFO root fetch - main [MainThread]: End processing [shaperone] error
+[2023-05-23 13:23:57] INFO root fetch - processPackages [nucliadb-models]: Start processing: nrnutils
+[2023-05-23 13:23:57] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-23 13:23:57] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nucliadb-client]: Start processing: torchtnt-nightly
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nrnutils]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: jsonpath-rust-py
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-23 13:23:58] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nucliadb-protos]: Start processing: torchrl-nightly
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-23 13:23:58] WARNING root fetch - processPackages [jsonpath-rust-py]: Skipping, unable to determine old version
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [jsonpath-rust-py] error
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nrnutils]: Downloading https://files.pythonhosted.org/packages/af/d8/a7344a5f8e908ee0929d04c43fedcf74016e69acc2a2dc5dd43b0fd46204/nrnutils-0.2.0.tar.gz
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [netteikei]: success
+[2023-05-23 13:23:58] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-05-23 13:23:58] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-23 13:23:58] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-23 13:23:58] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230523/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-23 13:23:58] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-05-23 13:23:58] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230523/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nrnutils]: Downloading https://files.pythonhosted.org/packages/58/e9/56345a871b0ff7c45c75de008ab67248decb7709b7929077264058fcb194/nrnutils-0.3.0.tar.gz
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nrnutils]: executing diffoscope
+[2023-05-23 13:23:58] INFO root fetch - processPackages [nrnutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrnutils-0.2.0.tar.gz tmp/nrnutils-0.3.0.tar.gz --markdown 20230523/n/nrnutils/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 13:23:58] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-23 13:23:59] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-23 13:23:59] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230523/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-23 13:23:59] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-23 13:23:59] INFO root fetch - main [MainThread]: End processing [nrnutils]: success
+[2023-05-23 13:24:00] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-23 13:24:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-23 13:24:01] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-23 13:24:10] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-05-23 13:24:10] INFO root fetch - main [MainThread]: Store serial: [18212796]

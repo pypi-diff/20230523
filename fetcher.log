@@ -17333,3 +17333,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:20:16] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2023-05-23 15:21:22] INFO root fetch - main [MainThread]: End processing [PyOpenGL]: success
 [2023-05-23 15:21:22] INFO root fetch - main [MainThread]: Store serial: [18214213]
+[2023-05-23 15:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214213]
+[2023-05-23 15:26:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fondant
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitol-django-google-sheets-deferrals
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundry-dev-tools
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funke-enrichment-core
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stream-read-xbrl
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-oauth2.py
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opensesame-core
+[2023-05-23 15:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rpcfit
+[2023-05-23 15:26:32] INFO root fetch - processPackages [foundry-dev-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [fondant]: New version: [0.2.dev0] Old Version: [0.1.dev0]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [funke-enrichment-core]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 15:26:32] WARNING root fetch - processPackages [mitol-django-google-sheets-deferrals]: Skipping, unable to determine old version
+[2023-05-23 15:26:32] INFO root fetch - processPackages [mitol-django-google-sheets-deferrals]: Start processing: dwiqc
+[2023-05-23 15:26:32] INFO root fetch - main [MainThread]: End processing [mitol-django-google-sheets-deferrals] error
+[2023-05-23 15:26:32] INFO root fetch - processPackages [discord-oauth2.py]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [stream-read-xbrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a39]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [dwiqc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 15:26:32] WARNING root fetch - processPackages [rpcfit]: Skipping, unable to determine old version
+[2023-05-23 15:26:32] INFO root fetch - processPackages [rpcfit]: Start processing: integerbook
+[2023-05-23 15:26:32] INFO root fetch - main [MainThread]: End processing [rpcfit] error
+[2023-05-23 15:26:32] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-23 15:26:32] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:26:32] INFO root fetch - processPackages [integerbook]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 15:26:32] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-23 15:26:32] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.7-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.8-py2.py3-none-any.whl.zip --markdown 20230523/d/dwiqc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/25/7d/528deb8969b72bcc135c411725acbdf2d88690ab2061fafc55ce1801b627/opensesame_core-4.0.0a39.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/dc/78/98f503aea9827f036ded2dbe6c6794330b97777be390f86c3940d1701452/fondant-0.1.dev0.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/cb/01/79f21f957ba2c972f760a478736725869548d44085bea99c8f94e5a7e85f/stream_read_xbrl-0.0.8.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/c9/8e/e6156dcfc9977a6a6cbe1d6420f7e2bd29f8d7c4a6f29c5f04ce644e4795/foundry-dev-tools-1.0.8.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [discord-oauth2.py]: Downloading https://files.pythonhosted.org/packages/48/70/4808e089eb3217304c57d7f0515831c76dcf73cccf9d59171c4c00b54cc2/discord-oauth2.py-1.1.0.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [integerbook]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [integerbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integerbook-0.0.3.tar.gz tmp/integerbook-0.0.4.tar.gz --markdown 20230523/i/integerbook/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18924948>=10485760
+[2023-05-23 15:26:33] INFO root fetch - processPackages [opensesame-core]: Start processing: selenium-assist
+[2023-05-23 15:26:33] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-05-23 15:26:33] INFO root fetch - processPackages [selenium-assist]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 15:26:33] INFO root fetch - processPackages [funke-enrichment-core]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [funke-enrichment-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funke_enrichment_core-1.8.tar.gz tmp/funke_enrichment_core-1.9.tar.gz --markdown 20230523/f/funke-enrichment-core/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/ea/12/386e1fae0abdb75baae2b8441b6470178841a7c54318b5bb4f1697149dd1/foundry-dev-tools-1.0.9.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [discord-oauth2.py]: Downloading https://files.pythonhosted.org/packages/3b/4a/ea9b5aea2c7329b777366e2ac835c699387a81faa1ebcada73b394e3b6cd/discord-oauth2.py-1.2.0.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/bb/ec/1e7ecbb5aa0a1849ef4e078805fd8bc4954c8f213ac352d4a19391fe811f/fondant-0.2.dev0.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [discord-oauth2.py]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [discord-oauth2.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-oauth2.py-1.1.0.tar.gz tmp/discord-oauth2.py-1.2.0.tar.gz --markdown 20230523/d/discord-oauth2.py/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.1.dev0.tar.gz tmp/fondant-0.2.dev0.tar.gz --markdown 20230523/f/fondant/0.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [foundry-dev-tools]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [foundry-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry-dev-tools-1.0.8.tar.gz tmp/foundry-dev-tools-1.0.9.tar.gz --markdown 20230523/f/foundry-dev-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [selenium-assist]: Downloading https://files.pythonhosted.org/packages/19/b2/4c2e456e8a8c7a181723988e19d85378c785c6bb0b296d07ee5a09c747b2/selenium_assist-0.2.3.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/4b/59/5369f824554b070f94e4c4afc9e824c5d1eb0f8636a43018acbe6f118628/stream_read_xbrl-0.0.9.tar.gz
+[2023-05-23 15:26:33] INFO root fetch - processPackages [selenium-assist]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [selenium-assist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_assist-0.2.2.tar.gz tmp/selenium_assist-0.2.3.tar.gz --markdown 20230523/s/selenium-assist/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 15:26:33] INFO root fetch - processPackages [stream-read-xbrl]: executing diffoscope
+[2023-05-23 15:26:33] INFO root fetch - processPackages [stream-read-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_read_xbrl-0.0.8.tar.gz tmp/stream_read_xbrl-0.0.9.tar.gz --markdown 20230523/s/stream-read-xbrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:26:34] INFO root fetch - processPackages [dwiqc]: Start processing: MEArec
+[2023-05-23 15:26:34] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-23 15:26:34] INFO root fetch - processPackages [funke-enrichment-core]: Start processing: fluss
+[2023-05-23 15:26:34] INFO root fetch - main [MainThread]: End processing [funke-enrichment-core]: success
+[2023-05-23 15:26:34] INFO root fetch - processPackages [MEArec]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 15:26:34] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:26:34] INFO root fetch - processPackages [MEArec]: Downloading https://files.pythonhosted.org/packages/a1/4f/38ef23ccf3ac110ad237c516f5293f91734b6153baaa2ed0723ebebeb3c5/MEArec-1.8.0.tar.gz
+[2023-05-23 15:26:34] INFO root fetch - processPackages [integerbook]: Start processing: nornir-srl
+[2023-05-23 15:26:34] INFO root fetch - main [MainThread]: End processing [integerbook]: success
+[2023-05-23 15:26:34] INFO root fetch - processPackages [discord-oauth2.py]: Start processing: reaktion
+[2023-05-23 15:26:34] INFO root fetch - main [MainThread]: End processing [discord-oauth2.py]: success
+[2023-05-23 15:26:35] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2023-05-23 15:26:35] INFO root fetch - processPackages [nornir-srl]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 15:26:35] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:26:35] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
+[2023-05-23 15:26:35] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-05-23 15:26:35] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230523/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:26:35] INFO root fetch - processPackages [nornir-srl]: Downloading https://files.pythonhosted.org/packages/2a/66/e0fd14148866eb8b0f5fa4e531d06269e2d22c4b31ccc91c7c9041adfbfd/nornir_srl-0.1.5.tar.gz
+[2023-05-23 15:26:35] INFO root fetch - main [MainThread]: End processing [selenium-assist]: success
+[2023-05-23 15:26:35] INFO root fetch - processPackages [nornir-srl]: Downloading https://files.pythonhosted.org/packages/62/3f/edbbda3cc0d426a2e8ca6014893760d603ac228cefe4d9f04ecabfd76549/nornir_srl-0.1.6.tar.gz
+[2023-05-23 15:26:35] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-23 15:26:35] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230523/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:26:35] INFO root fetch - processPackages [nornir-srl]: executing diffoscope
+[2023-05-23 15:26:35] INFO root fetch - processPackages [nornir-srl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_srl-0.1.5.tar.gz tmp/nornir_srl-0.1.6.tar.gz --markdown 20230523/n/nornir-srl/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 15:26:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-23 15:26:36] INFO root fetch - processPackages [MEArec]: Downloading https://files.pythonhosted.org/packages/72/9f/955f7553fe8f72d945b7067de84b40da667247f3c9c80fe2ec8cd6216746/MEArec-1.9.0.tar.gz
+[2023-05-23 15:26:36] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-05-23 15:26:36] INFO root fetch - processPackages [MEArec]: executing diffoscope
+[2023-05-23 15:26:36] INFO root fetch - processPackages [MEArec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEArec-1.8.0.tar.gz tmp/MEArec-1.9.0.tar.gz --markdown 20230523/M/MEArec/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 15:26:36] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-23 15:26:36] INFO root fetch - main [MainThread]: End processing [nornir-srl]: success
+[2023-05-23 15:26:37] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
+[2023-05-23 15:26:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 15:26:43] INFO root fetch - main [MainThread]: End processing [MEArec]: success
+[2023-05-23 15:26:43] INFO root fetch - main [MainThread]: Store serial: [18214259]

@@ -16720,3 +16720,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:57:19] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-23 14:57:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-23 14:57:50] INFO root fetch - main [MainThread]: Store serial: [18213861]
+[2023-05-23 15:02:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213861]
+[2023-05-23 15:03:00] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecgai-data-physionet
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-symk
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.loader.metadata
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phiterm
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: at-fetch-data
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: musegan
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangorestfilemanager
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nexus-utilities
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-05-23 15:03:00] INFO root fetch - processPackages [phiterm]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [at-fetch-data]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [nexus-utilities]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: New version: [31.1.3] Old Version: [31.1.2]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: New version: [31.1.3] Old Version: [31.1.2]
+[2023-05-23 15:03:00] WARNING root fetch - processPackages [ecgai-data-physionet]: Skipping, unable to determine old version
+[2023-05-23 15:03:00] INFO root fetch - processPackages [ecgai-data-physionet]: Start processing: PyroFork-dev
+[2023-05-23 15:03:00] INFO root fetch - main [MainThread]: End processing [ecgai-data-physionet] error
+[2023-05-23 15:03:00] INFO root fetch - processPackages [swh.loader.metadata]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [up-symk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [musegan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [djangorestfilemanager]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [at-fetch-data]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [at-fetch-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/at-fetch-data-1.0.0.tar.gz tmp/at-fetch-data-1.0.1.tar.gz --markdown 20230523/a/at-fetch-data/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.0.dev202305231256] Old Version: [2.2.0.dev202305221238]
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.1.2.tar.gz tmp/cg-31.1.3.tar.gz --markdown 20230523/c/cg/31.1.2-31.1.3/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.1.2.tar.gz tmp/cg-31.1.3.tar.gz --markdown 20230523/c/cg/31.1.2-31.1.3/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.0.dev202305221238.tar.gz tmp/PyroFork-dev-2.2.0.dev202305231256.tar.gz --markdown 20230523/P/PyroFork-dev/2.2.0.dev202305221238-2.2.0.dev202305231256/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/80/6d/d6c74978a889e121fa57c0f2bb2616300c3660b0072f114944f659118dfe/nexus-utilities-0.5.1.tar.gz
+[2023-05-23 15:03:00] INFO root fetch - processPackages [up-symk]: Downloading https://files.pythonhosted.org/packages/ae/5f/eef5941c877f5e9aa4c72d9849ab4fe7ccf1d70d221f77cb74fef8ed253c/up_symk-0.0.1-py3-none-win_amd64.whl
+[2023-05-23 15:03:00] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/e0/a6/ec0e8a8b2f9a77a2ef8fbf978bcb69cbf6589b58dd179f690eb92997f43f/musegan-0.1.3.tar.gz
+[2023-05-23 15:03:00] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/55/78/c15f89ac2c4ac2ebcc26b3015cc86793f21defc39cc47b9b7d588b584ce0/djangorestfilemanager-2.0.2.tar.gz
+[2023-05-23 15:03:00] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-utilities-0.5.0.tar.gz tmp/nexus-utilities-0.5.1.tar.gz --markdown 20230523/n/nexus-utilities/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.8.tar.gz tmp/phiterm-1.6.9.tar.gz --markdown 20230523/p/phiterm/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [swh.loader.metadata]: Downloading https://files.pythonhosted.org/packages/f5/d8/7f5ca90a1a2e01640bf874af29fbe1594240333d2062fb6c317f271d04f7/swh.loader.metadata-1.3.1.tar.gz
+[2023-05-23 15:03:00] INFO root fetch - processPackages [up-symk]: Downloading https://files.pythonhosted.org/packages/e8/2c/730f9aa1a6b542e289e0350fb078b32cd501783722bb7daafd4276420b59/up_symk-0.0.2-py3-none-win_amd64.whl
+[2023-05-23 15:03:00] INFO root fetch - processPackages [swh.loader.metadata]: executing diffoscope
+[2023-05-23 15:03:00] INFO root fetch - processPackages [swh.loader.metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.loader.metadata-1.3.0.tar.gz tmp/swh.loader.metadata-1.3.1.tar.gz --markdown 20230523/s/swh.loader.metadata/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-23 15:03:00] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/b5/8a/c33ae67e5d3b3ec8cb4f19f3797d54a500a13f5ed824071a74ec46b60d0e/musegan-0.1.4.tar.gz
+[2023-05-23 15:03:00] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/fd/d0/1a2b85c67e7e44dc890b159e974bf7f4ab253b9172b31a9ab54eed42732a/djangorestfilemanager-2.0.3.tar.gz
+[2023-05-23 15:03:01] INFO root fetch - processPackages [musegan]: executing diffoscope
+[2023-05-23 15:03:01] INFO root fetch - processPackages [musegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musegan-0.1.3.tar.gz tmp/musegan-0.1.4.tar.gz --markdown 20230523/m/musegan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 15:03:01] INFO root fetch - processPackages [djangorestfilemanager]: executing diffoscope
+[2023-05-23 15:03:01] INFO root fetch - processPackages [djangorestfilemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestfilemanager-2.0.2.tar.gz tmp/djangorestfilemanager-2.0.3.tar.gz --markdown 20230523/d/djangorestfilemanager/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-23 15:03:01] INFO root fetch - processPackages [up-symk]: executing diffoscope
+[2023-05-23 15:03:01] INFO root fetch - processPackages [up-symk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_symk-0.0.1-py3-none-win_amd64.whl.zip tmp/up_symk-0.0.2-py3-none-win_amd64.whl.zip --markdown 20230523/u/up-symk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 15:03:01] INFO root fetch - processPackages [at-fetch-data]: Start processing: pandas-chained-logging
+[2023-05-23 15:03:01] INFO root fetch - main [MainThread]: End processing [at-fetch-data]: success
+[2023-05-23 15:03:01] WARNING root fetch - processPackages [pandas-chained-logging]: Skipping, unable to determine old version
+[2023-05-23 15:03:01] INFO root fetch - processPackages [pandas-chained-logging]: Start processing: certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize
+[2023-05-23 15:03:01] INFO root fetch - main [MainThread]: End processing [pandas-chained-logging] error
+[2023-05-23 15:03:02] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: New version: [20230523.12.59.505732] Old Version: [20230516.7.20.614735]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [nexus-utilities]: Start processing: cg
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Downloading https://files.pythonhosted.org/packages/d8/b1/d49e478a04f64bd88ca78b7179dbf944c55a790e97c5f019bf40bbd8b6ee/certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize-20230516.7.20.614735.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [cg]: New version: [31.1.6] Old Version: [31.1.5]
+[2023-05-23 15:03:02] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Skipping package: exceeds size limit 38742589>=10485760
+[2023-05-23 15:03:02] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Start processing: fxapicom
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize] error
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/8b/a6/96ac1dddc7ea6c1f89fbb5a3070cb254dd145f0e6a908a6bbd9e6bd0dc4b/cg-31.1.5.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [swh.loader.metadata]: Start processing: directory-sso-api-client
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [swh.loader.metadata]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: Downloading https://files.pythonhosted.org/packages/c8/b4/aff7e8c62a1c0287611edfb382747049a99a9a38f861e9ac20149ac6ad1e/fxapicom-0.1.1.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [djangorestfilemanager]: Start processing: phidata
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [djangorestfilemanager]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [directory-sso-api-client]: New version: [7.2.0] Old Version: [7.1.2]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [musegan]: Start processing: niaarm
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [musegan]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [phidata]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f2/f5/0812c6325a66c469727358716c64db58cdb0f6169c9e331c14a880f74797/cg-31.1.6.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-23 15:03:02] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.8.tar.gz tmp/phidata-1.6.9.tar.gz --markdown 20230523/p/phidata/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 15:03:02] INFO root fetch - processPackages [niaarm]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [phiterm]: Start processing: python-json-log-formatter
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [directory-sso-api-client]: Downloading https://files.pythonhosted.org/packages/a1/5b/98322384672d11c70bbbfea5e92fa9a84618a86995def396ba1188499b9a/directory_sso_api_client-7.1.2-py3-none-any.whl
+[2023-05-23 15:03:02] INFO root fetch - processPackages [up-symk]: Start processing: fxapicom
+[2023-05-23 15:03:02] INFO root fetch - main [MainThread]: End processing [up-symk]: success
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: Downloading https://files.pythonhosted.org/packages/28/b0/82e830cbdf589195d1ece8b9e8d56906fa132b6fc61170e4d25223855649/fxapicom-0.1.2.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [python-json-log-formatter]: New version: [3.2.0] Old Version: [3.0.2]
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: Downloading https://files.pythonhosted.org/packages/28/b0/82e830cbdf589195d1ece8b9e8d56906fa132b6fc61170e4d25223855649/fxapicom-0.1.2.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [niaarm]: Downloading https://files.pythonhosted.org/packages/f5/cd/6bd62cf4f451d9335d68aa0cb8c5517a03ffa7ef03553c3734032aab5479/niaarm-0.3.1.tar.gz
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: executing diffoscope
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: executing diffoscope
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxapicom-0.1.1.tar.gz tmp/fxapicom-0.1.2.tar.gz --markdown 20230523/f/fxapicom/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 15:03:02] INFO root fetch - processPackages [fxapicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxapicom-0.1.1.tar.gz tmp/fxapicom-0.1.2.tar.gz --markdown 20230523/f/fxapicom/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 15:03:03] INFO root fetch - processPackages [python-json-log-formatter]: Downloading https://files.pythonhosted.org/packages/25/bb/2751a2a02d95c43b424fd9f3e79fc45d0d813a3dccedf8092f0d6ff3dd93/python_json_log_formatter-3.0.2.tar.gz
+[2023-05-23 15:03:03] INFO root fetch - processPackages [directory-sso-api-client]: Downloading https://files.pythonhosted.org/packages/39/02/3a933b29ff7dad198897bb9b3a71db4e17ab8e5d0222bf1588b7af0d36be/directory_sso_api_client-7.2.0-py3-none-any.whl
+[2023-05-23 15:03:03] INFO root fetch - processPackages [directory-sso-api-client]: executing diffoscope
+[2023-05-23 15:03:03] INFO root fetch - processPackages [directory-sso-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_sso_api_client-7.1.2-py3-none-any.whl.zip tmp/directory_sso_api_client-7.2.0-py3-none-any.whl.zip --markdown 20230523/d/directory-sso-api-client/7.1.2-7.2.0/diff.md --exclude *.pyd
+[2023-05-23 15:03:03] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-23 15:03:03] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.1.5.tar.gz tmp/cg-31.1.6.tar.gz --markdown 20230523/c/cg/31.1.5-31.1.6/diff.md --exclude *.pyd
+[2023-05-23 15:03:03] INFO root fetch - processPackages [niaarm]: Downloading https://files.pythonhosted.org/packages/58/cf/1e691298e69f71ed36fae9bb5a2d58b6d530e1b12fa518bffe9d8015d25d/niaarm-0.3.2.tar.gz
+[2023-05-23 15:03:03] INFO root fetch - processPackages [python-json-log-formatter]: Downloading https://files.pythonhosted.org/packages/ff/22/2b322f6caafb12d326d98a382648d6c5112323a6e2c1446de78edb8afa02/python_json_log_formatter-3.2.0.tar.gz
+[2023-05-23 15:03:03] INFO root fetch - processPackages [python-json-log-formatter]: executing diffoscope
+[2023-05-23 15:03:03] INFO root fetch - processPackages [python-json-log-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_json_log_formatter-3.0.2.tar.gz tmp/python_json_log_formatter-3.2.0.tar.gz --markdown 20230523/p/python-json-log-formatter/3.0.2-3.2.0/diff.md --exclude *.pyd
+[2023-05-23 15:03:03] INFO root fetch - processPackages [niaarm]: executing diffoscope
+[2023-05-23 15:03:03] INFO root fetch - processPackages [niaarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niaarm-0.3.1.tar.gz tmp/niaarm-0.3.2.tar.gz --markdown 20230523/n/niaarm/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 15:03:04] INFO root fetch - processPackages [fxapicom]: Start processing: netbone
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [fxapicom]: success
+[2023-05-23 15:03:04] WARNING root fetch - processPackages [netbone]: Skipping, unable to determine old version
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [netbone] error
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [fxapicom]: success
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [directory-sso-api-client]: success
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [niaarm]: success
+[2023-05-23 15:03:04] INFO root fetch - main [MainThread]: End processing [python-json-log-formatter]: success
+[2023-05-23 15:03:05] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-23 15:03:09] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-23 15:03:14] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-23 15:03:15] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-23 15:03:16] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-23 15:03:16] INFO root fetch - main [MainThread]: Store serial: [18213935]

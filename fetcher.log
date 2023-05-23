@@ -12471,3 +12471,151 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 11:16:58] INFO root fetch - main [MainThread]: End processing [mouette]: success
 [2023-05-23 11:17:07] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2023-05-23 11:17:07] INFO root fetch - main [MainThread]: Store serial: [18211406]
+[2023-05-23 11:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211406]
+[2023-05-23 11:22:17] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wavebreaking
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotcloud-client
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpyl
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speechtotext-python
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dfmodule
+[2023-05-23 11:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: earthkit-data
+[2023-05-23 11:22:17] INFO root fetch - processPackages [dfmodule]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [earthkit-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [robotcloud-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mpyl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [ccxt]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/76/ac/442e46528403063dbf4c6799d5f5c5cd54c4a573f1fff016dff195a94d5b/mobio-dedupe-sdk-test-1.0.7.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230523/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230523/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/93/09/263d28adb6a8d9f4623a3d305ff41d93e66f2e5bd5776c943a73022e66dd/wavebreaking-0.3.1.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [robotcloud-client]: Downloading https://files.pythonhosted.org/packages/57/fc/d10246a24f36d90b98674ca2c2495fa19e5dc7caa6716c6d3229bbc573a2/robotcloud-client-0.0.5.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/53/a0ce495f9017626b7dd98b4e955cf9c6da01427e452ab6fd2e971249b5df/ccxt-3.1.5.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/15/c0/20459715e1065537fc668d6478b6bad4c9bb56c632aa0650a1f54d3b23b9/dfmodule-0.0.4.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/b8/36/f691b2a782dabc0e16229bfee31a7b54054ec8c4a19e5f5c21a54b51a261/speechtotext-python-0.3.8.tar.gz
+[2023-05-23 11:22:18] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11108229>=10485760
+[2023-05-23 11:22:18] INFO root fetch - processPackages [wavebreaking]: Start processing: replicate
+[2023-05-23 11:22:18] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-05-23 11:22:18] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/f5/82/74d0b6960ea6928655e60198e2ada18c526c516a465d613b499e02a15b48/earthkit-data-0.1.0.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [replicate]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-0.0.8-py3-none-any.whl.zip tmp/mpyl-0.0.9-py3-none-any.whl.zip --markdown 20230523/m/mpyl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.3.tar.gz tmp/dfmodule-0.0.4.tar.gz --markdown 20230523/d/dfmodule/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [robotcloud-client]: Downloading https://files.pythonhosted.org/packages/6a/bd/d897a7df3daffe92f8983a93fcb7db0c1d48c982836ee7e1b154bd794423/robotcloud-client-0.0.6.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/98/0a/f80291d79092ba71951b6a26781203de5b206e3b53648fcad156d782fef1/mobio-dedupe-sdk-test-1.0.8.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/d9/8a/2c27bc1766f518c8ed5a3b8c842812d32221618b8791adcb15fbe7132495/ccxt-3.1.6.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [robotcloud-client]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [robotcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcloud-client-0.0.5.tar.gz tmp/robotcloud-client-0.0.6.tar.gz --markdown 20230523/r/robotcloud-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/a1/6c/1ba8990ba914418243defd36697501ed457b0c77471f2021a02cb871f365/speechtotext-python-0.3.9.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.7.tar.gz tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-23 11:22:18] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.5.tar.gz tmp/ccxt-3.1.6.tar.gz --markdown 20230523/c/ccxt/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-05-23 11:22:18] INFO root fetch - processPackages [replicate]: Downloading https://files.pythonhosted.org/packages/a6/81/fa001b548a53634e9f90073823230294ff24e661a33149efbdfcd908e588/replicate-0.8.3.tar.gz
+[2023-05-23 11:22:18] INFO root fetch - processPackages [earthkit-data]: Downloading https://files.pythonhosted.org/packages/7f/a5/8269f21f0a5110472be61465b0e2c339f2d9fbc04c46b60b019ff17c0d05/earthkit-data-0.1.1.tar.gz
+[2023-05-23 11:22:19] INFO root fetch - processPackages [replicate]: executing diffoscope
+[2023-05-23 11:22:19] INFO root fetch - processPackages [replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replicate-0.8.2.tar.gz tmp/replicate-0.8.3.tar.gz --markdown 20230523/r/replicate/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-23 11:22:19] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-05-23 11:22:19] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.8.tar.gz tmp/speechtotext-python-0.3.9.tar.gz --markdown 20230523/s/speechtotext-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 11:22:19] INFO root fetch - processPackages [earthkit-data]: executing diffoscope
+[2023-05-23 11:22:19] INFO root fetch - processPackages [earthkit-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthkit-data-0.1.0.tar.gz tmp/earthkit-data-0.1.1.tar.gz --markdown 20230523/e/earthkit-data/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 11:22:19] INFO root fetch - processPackages [spanishconjugator]: Start processing: printername2
+[2023-05-23 11:22:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-23 11:22:20] WARNING root fetch - processPackages [printername2]: Skipping, unable to determine old version
+[2023-05-23 11:22:20] INFO root fetch - processPackages [printername2]: Start processing: cellmachine
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [printername2] error
+[2023-05-23 11:22:20] INFO root fetch - processPackages [dfmodule]: Start processing: mextractor
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-23 11:22:20] INFO root fetch - processPackages [spanishconjugator]: Start processing: pyhtools
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-23 11:22:20] INFO root fetch - processPackages [cellmachine]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mextractor]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [pyhtools]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [robotcloud-client]: Start processing: metablock
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [robotcloud-client]: success
+[2023-05-23 11:22:20] INFO root fetch - processPackages [metablock]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mextractor]: Downloading https://files.pythonhosted.org/packages/d4/8f/8db192d080e5c5ab1b33ecd7e0c6e34c12d87b252a5e16dcdec8581cf70a/mextractor-3.0.0.tar.gz
+[2023-05-23 11:22:20] INFO root fetch - processPackages [metablock]: executing diffoscope
+[2023-05-23 11:22:20] INFO root fetch - processPackages [metablock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metablock-0.5.3.tar.gz tmp/metablock-0.6.0.tar.gz --markdown 20230523/m/metablock/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mpyl]: Start processing: udata-front
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-05-23 11:22:20] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/d8/7f/cf0e6d49cdb37736efaf93de3e2e56fb74a7b2b8e81002e7efd7ffeec064/cellmachine-1.0.0.tar.gz
+[2023-05-23 11:22:20] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev10941] Old Version: [3.2.4.dev10933]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-05-23 11:22:20] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-0.0.3.tar.gz tmp/cellmachine-1.0.0.tar.gz --markdown 20230523/c/cellmachine/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 11:22:20] INFO root fetch - processPackages [pyhtools]: Downloading https://files.pythonhosted.org/packages/b5/be/bf2b3fb3cd593e69a3d0665f6f3454eb43950b066d59ffcdaaff9209ab4c/pyhtools-2.3.0.tar.gz
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mextractor]: Downloading https://files.pythonhosted.org/packages/06/0d/c0cd2659536762e13a0fdce0e1ed6b8ebd2bc43f322c6297b6aed80fdf84/mextractor-3.0.1.tar.gz
+[2023-05-23 11:22:20] INFO root fetch - processPackages [pyhtools]: executing diffoscope
+[2023-05-23 11:22:20] INFO root fetch - processPackages [pyhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtools-2.2.4.tar.gz tmp/pyhtools-2.3.0.tar.gz --markdown 20230523/p/pyhtools/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mextractor]: executing diffoscope
+[2023-05-23 11:22:20] INFO root fetch - processPackages [mextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mextractor-3.0.0.tar.gz tmp/mextractor-3.0.1.tar.gz --markdown 20230523/m/mextractor/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-23 11:22:20] INFO root fetch - processPackages [speechtotext-python]: Start processing: nucliadb
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-05-23 11:22:20] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:20] INFO root fetch - processPackages [replicate]: Start processing: nucliadb-client
+[2023-05-23 11:22:20] INFO root fetch - main [MainThread]: End processing [replicate]: success
+[2023-05-23 11:22:21] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/d8/0d/0ab343aece7c9ea850fb6b4056e3f021ea10c9b466e83edabe57c657ecfa/udata_front-3.2.4.dev10941-py2.py3-none-any.whl
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:21] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Start processing: nucliadb-dataset
+[2023-05-23 11:22:21] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:21] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-23 11:22:21] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev10933-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev10941-py2.py3-none-any.whl.zip --markdown 20230523/u/udata-front/3.2.4.dev10933-3.2.4.dev10941/diff.md --exclude *.pyd
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-23 11:22:21] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:21] INFO root fetch - processPackages [metablock]: Start processing: pyscomotif
+[2023-05-23 11:22:21] INFO root fetch - main [MainThread]: End processing [metablock]: success
+[2023-05-23 11:22:21] INFO root fetch - processPackages [pyscomotif]: New version: [0.9.9] Old Version: [0.9.29]
+[2023-05-23 11:22:22] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/ac/fb/6a35dd6eab900ddf85c77d85a37aa4f8302327c397e1e6d63769499218d3/pyscomotif-0.9.29.tar.gz
+[2023-05-23 11:22:22] INFO root fetch - processPackages [mextractor]: Start processing: nucliadb-models
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [mextractor]: success
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:22] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/85/07/740655fe0d09cb26bb5a72c8929e395477a793546b34701b795a1411ccda/pyscomotif-0.9.9.tar.gz
+[2023-05-23 11:22:22] INFO root fetch - processPackages [cellmachine]: Start processing: voila-material-tuwien
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-05-23 11:22:22] WARNING root fetch - processPackages [voila-material-tuwien]: Skipping, unable to determine old version
+[2023-05-23 11:22:22] INFO root fetch - processPackages [voila-material-tuwien]: Start processing: nucliadb-protos
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [voila-material-tuwien] error
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:22] INFO root fetch - processPackages [pyscomotif]: executing diffoscope
+[2023-05-23 11:22:22] INFO root fetch - processPackages [pyscomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscomotif-0.9.29.tar.gz tmp/pyscomotif-0.9.9.tar.gz --markdown 20230523/p/pyscomotif/0.9.29-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-23 11:22:22] INFO root fetch - processPackages [pyhtools]: Start processing: nucliadb-utils
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-23 11:22:22] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230523/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-23 11:22:22] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [pyscomotif]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-23 11:22:24] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-23 11:22:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-23 11:22:39] INFO root fetch - main [MainThread]: End processing [earthkit-data]: success
+[2023-05-23 11:22:48] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-23 11:22:48] INFO root fetch - main [MainThread]: Store serial: [18211485]

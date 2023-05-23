@@ -22323,3 +22323,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:12:30] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-23 19:13:04] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-23 19:13:04] INFO root fetch - main [MainThread]: Store serial: [18217429]
+[2023-05-23 19:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217429]
+[2023-05-23 19:18:15] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cicsim
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glow
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-unitconverterermac
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sesg
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cross43
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-24
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reytool
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansible
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ailment
+[2023-05-23 19:18:15] INFO root fetch - processPackages [glow]: New version: [0.12.5] Old Version: [0.12.4]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [cicsim]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ailment]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:15] WARNING root fetch - processPackages [python-unitconverterermac]: Skipping, unable to determine old version
+[2023-05-23 19:18:15] INFO root fetch - processPackages [python-unitconverterermac]: Start processing: angr
+[2023-05-23 19:18:15] INFO root fetch - main [MainThread]: End processing [python-unitconverterermac] error
+[2023-05-23 19:18:15] WARNING root fetch - processPackages [cross43]: Skipping, unable to determine old version
+[2023-05-23 19:18:15] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [cross43]: Start processing: lanarky
+[2023-05-23 19:18:15] INFO root fetch - main [MainThread]: End processing [cross43] error
+[2023-05-23 19:18:15] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.0] Old Version: [2.7.9]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [ansible]: New version: [8.0.0rc1] Old Version: [8.0.0b1]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.0] Old Version: [2.7.9]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [angr]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:15] INFO root fetch - processPackages [lanarky]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-23 19:18:16] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230523/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cicsim]: Downloading https://files.pythonhosted.org/packages/e2/cf/a20122405bc1da237a69cd0d75bd6b6dae5edb5ff3e8bda402909690435a/cicsim-0.1.2.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ailment]: Downloading https://files.pythonhosted.org/packages/04/fa/d8db30f03d9b6e2889b8a0ec6bc28b69560543d221aa93cdc64e72caf33f/ailment-9.2.8.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [angr]: Downloading https://files.pythonhosted.org/packages/4a/eb/1e2ed6a1f4d2e75131989c00bfc330e7cd0969dd8381db39db1f5cc05fcf/angr-9.2.8.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230523/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/0a/4d/8bf3de0305366fa5aa29fc973a9165fcb4155cd4c02e4d5ef84bb29d43a0/lanarky-0.6.4.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/21/26/2b317a434ee561bf9495c7c7b461c2773ab6f7d0c427a19e2538592770af/ansible-8.0.0b1.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [glow]: Downloading https://files.pythonhosted.org/packages/79/96/61fdd991279cea0c4958aa651527713a2d8648c6c76347e00f6085195ea5/glow-0.12.5.tar.gz
+[2023-05-23 19:18:16] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 36197053>=10485760
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ansible]: Start processing: chainlit
+[2023-05-23 19:18:16] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2023-05-23 19:18:16] INFO root fetch - processPackages [chainlit]: New version: [0.2.102] Old Version: [0.2.101]
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/4b/c4/a71d568ec3458165df167bf7e3c5fa90cf158dbb8a742082a1a44c941905/cdk8s-plus-25-2.8.0.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/5c/60/da1ed99badf7895b61389ad27197c4272d75f192a2eb3251eb9e82248382/cdk8s-plus-24-2.8.0.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [glow]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [glow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glow-0.12.4.tar.gz tmp/glow-0.12.5.tar.gz --markdown 20230523/g/glow/0.12.4-0.12.5/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cicsim]: Downloading https://files.pythonhosted.org/packages/45/eb/d98fe0de9086e8eccbc27219d47a13fd93308eae4918956a420378deb6f8/cicsim-0.1.3.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.9.tar.gz tmp/cdk8s-plus-25-2.8.0.tar.gz --markdown 20230523/c/cdk8s-plus-25/2.7.9-2.8.0/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.9.tar.gz tmp/cdk8s-plus-24-2.8.0.tar.gz --markdown 20230523/c/cdk8s-plus-24/2.7.9-2.8.0/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ailment]: Downloading https://files.pythonhosted.org/packages/e7/f7/2ac46519edafb9a888c4049718dcf36dd1931009e28ed6ebaa1065525f84/ailment-9.2.9.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/9d/c7/1da311c9a6e9c415eda17816c3e4fd22fdbdb0bbb82a4fda5ee52bd054e3/chainlit-0.2.102.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/8f/8e/47163124d0cc676941dc2d7db67409f56276442b7cbb592c8b35b0ad58f5/lanarky-0.6.5.tar.gz
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cicsim]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [cicsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicsim-0.1.2.tar.gz tmp/cicsim-0.1.3.tar.gz --markdown 20230523/c/cicsim/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.6.4.tar.gz tmp/lanarky-0.6.5.tar.gz --markdown 20230523/l/lanarky/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ailment]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [ailment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailment-9.2.8.tar.gz tmp/ailment-9.2.9.tar.gz --markdown 20230523/a/ailment/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-05-23 19:18:16] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.2.101.tar.gz tmp/chainlit-0.2.102.tar.gz --markdown 20230523/c/chainlit/0.2.101-0.2.102/diff.md --exclude *.pyd
+[2023-05-23 19:18:16] INFO root fetch - processPackages [angr]: Downloading https://files.pythonhosted.org/packages/00/d6/7ab7633a0520d972d6c0c4321abc6ac0f60617fd3f5ad8dfc70d432ad9fa/angr-9.2.9.tar.gz
+[2023-05-23 19:18:17] INFO root fetch - processPackages [reytool]: Start processing: angr-management
+[2023-05-23 19:18:17] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-23 19:18:17] INFO root fetch - processPackages [angr-management]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:17] INFO root fetch - processPackages [angr]: executing diffoscope
+[2023-05-23 19:18:17] INFO root fetch - processPackages [angr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-9.2.8.tar.gz tmp/angr-9.2.9.tar.gz --markdown 20230523/a/angr/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:17] INFO root fetch - processPackages [angr-management]: Downloading https://files.pythonhosted.org/packages/78/ab/890df793690f7f28abda50933b0340e1bb33f8ed466bcfb82ed458b547a3/angr-management-9.2.8.tar.gz
+[2023-05-23 19:18:17] INFO root fetch - processPackages [sesg]: Start processing: archinfo
+[2023-05-23 19:18:17] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-23 19:18:17] INFO root fetch - processPackages [archinfo]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:17] INFO root fetch - processPackages [angr-management]: Downloading https://files.pythonhosted.org/packages/bb/74/3f3f4d4b926513059ee229479f57f4f40918f6d601da9d16802aca4da8e2/angr-management-9.2.9.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archinfo]: Downloading https://files.pythonhosted.org/packages/54/73/29f563ab5f0ac28886e3f201a399af92abe49c042172015ce9b843d08ca2/archinfo-9.2.8.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [lanarky]: Start processing: archr
+[2023-05-23 19:18:18] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archr]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:18] INFO root fetch - processPackages [chainlit]: Start processing: claripy
+[2023-05-23 19:18:18] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-05-23 19:18:18] INFO root fetch - processPackages [claripy]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archr]: Downloading https://files.pythonhosted.org/packages/6e/93/9ca5340c90277ab6b47ff3d7eab4586232dea24c5076299c186112c346a9/archr-9.2.8.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archinfo]: Downloading https://files.pythonhosted.org/packages/07/b0/4425873f16e0b35e28a894475820d365bd20ec4d9c90be1c15fc4fa86e14/archinfo-9.2.9.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [angr-management]: executing diffoscope
+[2023-05-23 19:18:18] INFO root fetch - processPackages [angr-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-management-9.2.8.tar.gz tmp/angr-management-9.2.9.tar.gz --markdown 20230523/a/angr-management/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:18] INFO root fetch - processPackages [ailment]: Start processing: cle
+[2023-05-23 19:18:18] INFO root fetch - main [MainThread]: End processing [ailment]: success
+[2023-05-23 19:18:18] INFO root fetch - processPackages [claripy]: Downloading https://files.pythonhosted.org/packages/16/c2/1f9fd7ffd695159b943a9d6c3c1f8f5d250757b7b8f9edfac6a8505f7dbd/claripy-9.2.8.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [cle]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archinfo]: executing diffoscope
+[2023-05-23 19:18:18] INFO root fetch - processPackages [archinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archinfo-9.2.8.tar.gz tmp/archinfo-9.2.9.tar.gz --markdown 20230523/a/archinfo/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:18] INFO root fetch - processPackages [cicsim]: Start processing: pyvex
+[2023-05-23 19:18:18] INFO root fetch - main [MainThread]: End processing [cicsim]: success
+[2023-05-23 19:18:18] INFO root fetch - processPackages [pyvex]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-05-23 19:18:18] INFO root fetch - processPackages [cle]: Downloading https://files.pythonhosted.org/packages/27/bb/6b5a7fbd469c594788d18c18836a746ff07682b4057b3155ce0b28eac573/cle-9.2.8.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [glow]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-23 19:18:18] INFO root fetch - main [MainThread]: End processing [glow]: success
+[2023-05-23 19:18:18] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 19:18:18] INFO root fetch - processPackages [pyvex]: Downloading https://files.pythonhosted.org/packages/2a/ba/d26c685849c9d61567ce291f155d19e5324d566d30650fddbfe7ad287161/pyvex-9.2.8.tar.gz
+[2023-05-23 19:18:18] INFO root fetch - processPackages [claripy]: Downloading https://files.pythonhosted.org/packages/d4/c4/b011f88d9e9b0eed712524c67ab9977de74deebd0abd41412088144b7d3a/claripy-9.2.9.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-23 19:18:19] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 19:18:19] INFO root fetch - processPackages [claripy]: executing diffoscope
+[2023-05-23 19:18:19] INFO root fetch - processPackages [claripy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claripy-9.2.8.tar.gz tmp/claripy-9.2.9.tar.gz --markdown 20230523/c/claripy/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:19] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: aniwrap
+[2023-05-23 19:18:19] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-23 19:18:19] INFO root fetch - processPackages [cle]: Downloading https://files.pythonhosted.org/packages/23/7f/96fe8e7e2f253c2ab84872d5260f159be6a0166c4ce49ea0048177faa0c7/cle-9.2.9.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [aniwrap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 19:18:19] INFO root fetch - processPackages [archr]: Downloading https://files.pythonhosted.org/packages/c9/6d/5cb1a02625d1435e86d82448468229433724c4314465e1e0401d38fa9e4a/archr-9.2.9.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [cle]: executing diffoscope
+[2023-05-23 19:18:19] INFO root fetch - processPackages [cle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cle-9.2.8.tar.gz tmp/cle-9.2.9.tar.gz --markdown 20230523/c/cle/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:19] INFO root fetch - processPackages [archr]: executing diffoscope
+[2023-05-23 19:18:19] INFO root fetch - processPackages [archr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archr-9.2.8.tar.gz tmp/archr-9.2.9.tar.gz --markdown 20230523/a/archr/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:19] INFO root fetch - processPackages [aniwrap]: Downloading https://files.pythonhosted.org/packages/8d/7d/86a35becf464d2865c7bd74981a8e71e35be2a127576fbb91a87794327fd/aniwrap-1.0.0.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [pyvex]: Downloading https://files.pythonhosted.org/packages/8b/9c/57591fd700a194e92cceb70028e8aa49c9dac19f56677be248a0793b5baa/pyvex-9.2.9.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [aniwrap]: Downloading https://files.pythonhosted.org/packages/b2/3e/9162d1e68850f7cc04a9866438a132e23a0f590a6973c7f12c9e2506fb77/aniwrap-1.0.1.tar.gz
+[2023-05-23 19:18:19] INFO root fetch - processPackages [aniwrap]: executing diffoscope
+[2023-05-23 19:18:19] INFO root fetch - processPackages [aniwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aniwrap-1.0.0.tar.gz tmp/aniwrap-1.0.1.tar.gz --markdown 20230523/a/aniwrap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 19:18:20] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Start processing: echofish-aws-indexing-lambda
+[2023-05-23 19:18:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-23 19:18:20] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230523171328] Old Version: [1.0.0.dev20230523150920]
+[2023-05-23 19:18:20] INFO root fetch - processPackages [pyvex]: executing diffoscope
+[2023-05-23 19:18:20] INFO root fetch - processPackages [pyvex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvex-9.2.8.tar.gz tmp/pyvex-9.2.9.tar.gz --markdown 20230523/p/pyvex/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:18:20] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/13/97/26f805a819a5674b750f7f8661a8a192272299e32ffee7f3fe080881d87c/echofish-aws-indexing-lambda-1.0.0.dev20230523150920.tar.gz
+[2023-05-23 19:18:20] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/28/d8/02307c55d3883c01fde50ea6c9e7b03dc6cf6b93bb95d5330e7e80156145/echofish-aws-indexing-lambda-1.0.0.dev20230523171328.tar.gz
+[2023-05-23 19:18:20] INFO root fetch - processPackages [claripy]: Start processing: auto-archiver
+[2023-05-23 19:18:20] INFO root fetch - main [MainThread]: End processing [claripy]: success
+[2023-05-23 19:18:21] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-23 19:18:21] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230523150920.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230523171328.tar.gz --markdown 20230523/e/echofish-aws-indexing-lambda/1.0.0.dev20230523150920-1.0.0.dev20230523171328/diff.md --exclude *.pyd
+[2023-05-23 19:18:21] INFO root fetch - processPackages [archr]: Start processing: spotON_sdk
+[2023-05-23 19:18:21] INFO root fetch - main [MainThread]: End processing [archr]: success
+[2023-05-23 19:18:21] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.993] Old Version: [0.0.4.992]
+[2023-05-23 19:18:21] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-23 19:18:21] INFO root fetch - processPackages [cle]: Start processing: sprit
+[2023-05-23 19:18:21] INFO root fetch - main [MainThread]: End processing [cle]: success
+[2023-05-23 19:18:21] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/92/dc/aeea54ef7ad80c84aaab66e651cde8cf886d0ba512b5807b657b99f4daac/spoton_sdk-0.0.4.993-py2.py3-none-any.whl
+[2023-05-23 19:18:21] WARNING root fetch - processPackages [sprit]: Skipping, unable to determine old version
+[2023-05-23 19:18:21] INFO root fetch - processPackages [sprit]: Start processing: openworld-sdk-python-core
+[2023-05-23 19:18:21] INFO root fetch - main [MainThread]: End processing [sprit] error
+[2023-05-23 19:18:21] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-23 19:18:21] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.992.tar.gz tmp/spoton_sdk-0.0.4.993-py2.py3-none-any.whl.zip --markdown 20230523/s/spotON_sdk/0.0.4.992-0.0.4.993/diff.md --exclude *.pyd
+[2023-05-23 19:18:21] INFO root fetch - processPackages [openworld-sdk-python-core]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-23 19:18:21] INFO root fetch - processPackages [archinfo]: Start processing: adaptive-cards-py
+[2023-05-23 19:18:21] INFO root fetch - main [MainThread]: End processing [archinfo]: success
+[2023-05-23 19:18:21] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-05-23 19:18:21] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230523/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-23 19:18:21] INFO root fetch - processPackages [adaptive-cards-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-23 19:18:21] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-23 19:18:21] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/13/78/8fc20495e17bb0a6ab3eba2e37e66acbd3d753e6cba22248727033bcd0eb/openworld-sdk-python-core-0.6.2.tar.gz
+[2023-05-23 19:18:21] INFO root fetch - processPackages [adaptive-cards-py]: Downloading https://files.pythonhosted.org/packages/cc/66/d15a06eebec650219ba40b6f80fd785a836b0a88a91d161b05dc0ad5008a/adaptive-cards-py-0.0.6.tar.gz
+[2023-05-23 19:18:22] INFO root fetch - main [MainThread]: End processing [aniwrap]: success
+[2023-05-23 19:18:22] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/8b/9c/a0b123c5fd47db6141e0cc5caf57d67f1f52901f2efc93297200eecd5519/openworld-sdk-python-core-0.7.0.tar.gz
+[2023-05-23 19:18:22] INFO root fetch - processPackages [adaptive-cards-py]: Downloading https://files.pythonhosted.org/packages/52/39/87f04603705b6d41bdadc2a34e04cf7fa073de13bde51cccec26e61b888c/adaptive-cards-py-0.0.7.tar.gz
+[2023-05-23 19:18:22] INFO root fetch - processPackages [openworld-sdk-python-core]: executing diffoscope
+[2023-05-23 19:18:22] INFO root fetch - processPackages [openworld-sdk-python-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-core-0.6.2.tar.gz tmp/openworld-sdk-python-core-0.7.0.tar.gz --markdown 20230523/o/openworld-sdk-python-core/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-23 19:18:22] INFO root fetch - processPackages [adaptive-cards-py]: executing diffoscope
+[2023-05-23 19:18:22] INFO root fetch - processPackages [adaptive-cards-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive-cards-py-0.0.6.tar.gz tmp/adaptive-cards-py-0.0.7.tar.gz --markdown 20230523/a/adaptive-cards-py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-23 19:18:22] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-23 19:18:22] INFO root fetch - main [MainThread]: End processing [angr-management]: success
+[2023-05-23 19:18:22] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-23 19:18:23] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-core]: success
+[2023-05-23 19:18:23] INFO root fetch - main [MainThread]: End processing [adaptive-cards-py]: success
+[2023-05-23 19:18:24] INFO root fetch - main [MainThread]: End processing [pyvex]: success
+[2023-05-23 19:18:24] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-05-23 19:18:33] INFO root fetch - main [MainThread]: End processing [angr]: success
+[2023-05-23 19:18:33] INFO root fetch - main [MainThread]: Store serial: [18217521]

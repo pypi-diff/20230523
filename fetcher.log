@@ -9804,3 +9804,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:40:09] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
 [2023-05-23 08:40:13] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
 [2023-05-23 08:40:13] INFO root fetch - main [MainThread]: Store serial: [18209890]
+[2023-05-23 08:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209890]
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmsdna-lakeapi
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrImageIndexer
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-model-validation
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragas
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pequena
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shopee-etcd-eaglectl
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvc-gs
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unyts
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: democracy
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netping-contr
+[2023-05-23 08:45:24] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-23 08:45:24] WARNING root fetch - processPackages [flask-model-validation]: Skipping, unable to determine old version
+[2023-05-23 08:45:24] INFO root fetch - processPackages [flask-model-validation]: Start processing: aiokeepin
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: End processing [flask-model-validation] error
+[2023-05-23 08:45:24] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:45:24] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.2.3.tar.gz tmp/bmsdna_lakeapi-0.2.4.tar.gz --markdown 20230523/b/bmsdna-lakeapi/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-23 08:45:24] INFO root fetch - processPackages [qrImageIndexer]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-23 08:45:24] WARNING root fetch - processPackages [shopee-etcd-eaglectl]: Skipping, unable to determine old version
+[2023-05-23 08:45:24] INFO root fetch - processPackages [shopee-etcd-eaglectl]: Start processing: aws-iam-tester
+[2023-05-23 08:45:24] WARNING root fetch - processPackages [netping-contr]: Skipping, unable to determine old version
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: End processing [shopee-etcd-eaglectl] error
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: End processing [netping-contr] error
+[2023-05-23 08:45:24] INFO root fetch - processPackages [dvc-gs]: New version: [2.22.1] Old Version: [2.22.0]
+[2023-05-23 08:45:24] WARNING root fetch - processPackages [democracy]: Skipping, unable to determine old version
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: End processing [democracy] error
+[2023-05-23 08:45:24] INFO root fetch - processPackages [unyts]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-23 08:45:24] WARNING root fetch - processPackages [aiokeepin]: Skipping, unable to determine old version
+[2023-05-23 08:45:24] INFO root fetch - main [MainThread]: End processing [aiokeepin] error
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ragas]: New version: [0.0.2] Old Version: [0.0.1a7]
+[2023-05-23 08:45:24] INFO root fetch - processPackages [aws-iam-tester]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 08:45:24] INFO root fetch - processPackages [dvc-gs]: Downloading https://files.pythonhosted.org/packages/bb/0c/16abbf42826e892e65f4d952e8582f6132597e52375a8e4c630ac1049b84/dvc-gs-2.22.0.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [qrImageIndexer]: Downloading https://files.pythonhosted.org/packages/2e/73/92efb48db0edca1642a434567f3e02b935823f993a8238d6ae19803989aa/qrImageIndexer-0.7.3.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/9e/02/6f75772fcdf86c2fbb4aff1fadebeb1cada20c174f50c229be7006970914/unyts-0.5.8.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/ad/1d/ad8f4b9a3b07e39880834fc9cf1cdecd683f7d923facc7bec6c4e245bd21/ragas-0.0.1a7.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [aws-iam-tester]: Downloading https://files.pythonhosted.org/packages/8e/11/ce2ece565cb662b0cb32d833c8c29cff52edca25582ba9f0a5c42705e20e/aws_iam_tester-1.0.1.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230523/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 08:45:24] INFO root fetch - processPackages [qrImageIndexer]: Downloading https://files.pythonhosted.org/packages/a1/8e/8460e0a678855b75c86f74f433b7dc24b8d151412aaee2b7a930e1142a67/qrImageIndexer-0.7.4.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [dvc-gs]: Downloading https://files.pythonhosted.org/packages/cd/e9/c87d2302056ad792561a80e26ffa5c6164db0d679dc2ee83a0af54f6e29f/dvc-gs-2.22.1.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/ca/6f/db92024ef2e09c96670c80d54592acd2249baed14c562ec6ca3c1070adcd/ragas-0.0.2.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/c7/6a/cc3cd429172cf74c9782d186f4a1c34cb9c0989d9e598c920b9ca0960baf/unyts-0.5.9.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [unyts]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [unyts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unyts-0.5.8.tar.gz tmp/unyts-0.5.9.tar.gz --markdown 20230523/u/unyts/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-23 08:45:24] INFO root fetch - processPackages [aws-iam-tester]: Downloading https://files.pythonhosted.org/packages/44/6f/f3897a4557249733945639914bea0ec4ae5869c5c2db6e1095d949d35162/aws_iam_tester-1.0.2.tar.gz
+[2023-05-23 08:45:24] INFO root fetch - processPackages [qrImageIndexer]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [qrImageIndexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrImageIndexer-0.7.3.tar.gz tmp/qrImageIndexer-0.7.4.tar.gz --markdown 20230523/q/qrImageIndexer/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-23 08:45:24] INFO root fetch - processPackages [dvc-gs]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [dvc-gs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-gs-2.22.0.tar.gz tmp/dvc-gs-2.22.1.tar.gz --markdown 20230523/d/dvc-gs/2.22.0-2.22.1/diff.md --exclude *.pyd
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-05-23 08:45:24] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.1a7.tar.gz tmp/ragas-0.0.2.tar.gz --markdown 20230523/r/ragas/0.0.1a7-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 08:45:25] INFO root fetch - processPackages [aws-iam-tester]: executing diffoscope
+[2023-05-23 08:45:25] INFO root fetch - processPackages [aws-iam-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_iam_tester-1.0.1.tar.gz tmp/aws_iam_tester-1.0.2.tar.gz --markdown 20230523/a/aws-iam-tester/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 08:45:25] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-23 08:45:25] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [qrImageIndexer]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [aws-iam-tester]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [dvc-gs]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [unyts]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-05-23 08:45:26] INFO root fetch - main [MainThread]: Store serial: [18209935]

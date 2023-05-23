@@ -7451,3 +7451,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [pyMSVC]: success
 [2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-lu-ecdf]: success
 [2023-05-23 05:51:57] INFO root fetch - main [MainThread]: Store serial: [18208580]
+[2023-05-23 05:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208580]
+[2023-05-23 05:57:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tenforce
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaware
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingtalk2
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xyz-util
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyComputer
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oebuild
+[2023-05-23 05:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-l10n-ch-lsv-dd
+[2023-05-23 05:57:06] WARNING root fetch - processPackages [tenforce]: Skipping, unable to determine old version
+[2023-05-23 05:57:06] INFO root fetch - main [MainThread]: End processing [tenforce] error
+[2023-05-23 05:57:06] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 05:57:06] INFO root fetch - processPackages [PyComputer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 05:57:06] INFO root fetch - processPackages [pyaware]: New version: [6.1.0] Old Version: [6.0.0.dev0]
+[2023-05-23 05:57:06] INFO root fetch - processPackages [dingtalk2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 05:57:06] INFO root fetch - processPackages [xyz-util]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-23 05:57:07] INFO root fetch - processPackages [odoo9-addon-l10n-ch-lsv-dd]: New version: [9.0.1.0.0.99.dev37] Old Version: [9.0.1.0.0.99.dev36]
+[2023-05-23 05:57:07] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 05:57:07] INFO root fetch - processPackages [PyComputer]: Downloading https://files.pythonhosted.org/packages/82/d0/b65358d481f6a6e871f0b1fc2d5519f6ea0eeb114e59461042a13bdcb22d/PyComputer-1.0.2.tar.gz
+[2023-05-23 05:57:07] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/5d/0c/872a400eecaa55ee1697fd5e7eb3b7506b46370cd086e8cb4e3a1b5217de/xyz_util-0.7.8-py3-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [dingtalk2]: Downloading https://files.pythonhosted.org/packages/4e/18/4a18e439522988c0b7ee7eda56cc900d5de0c40be57c9d17420703ab3fe1/dingtalk2-0.1.2.tar.gz
+[2023-05-23 05:57:07] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/f7/c1/17b78843190152e5a00e8d9893db26a0800293ed38fe6836bba944932a50/pyaware-6.0.0.dev0-py3-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [odoo9-addon-l10n-ch-lsv-dd]: Downloading https://files.pythonhosted.org/packages/c8/e5/ae5a62240053f6f9150cf3b2c57139a0cf23b331142d2044b6e8a7fad01e/odoo9_addon_l10n_ch_lsv_dd-9.0.1.0.0.99.dev36-py2-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [PyComputer]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [PyComputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyComputer-1.0.1.tar.gz tmp/PyComputer-1.0.2.tar.gz --markdown 20230523/P/PyComputer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230523/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [dingtalk2]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [dingtalk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk2-0.1.1.tar.gz tmp/dingtalk2-0.1.2.tar.gz --markdown 20230523/d/dingtalk2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230523/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/8a/6a/c955938c353c5eabd7c04894a975c4abe028d944102c76d072fee8e78ce2/pyaware-6.1.0-py3-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/18/21/740885711ec8b1b2af373a45be8f3107f48dff754a7f0ae735e1f705908e/xyz_util-0.7.9-py3-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [odoo9-addon-l10n-ch-lsv-dd]: Downloading https://files.pythonhosted.org/packages/79/6d/4f64558e3dd6eefd0ebc90b7bfbace9dd9388d7fb3e55d325546d61776eb/odoo9_addon_l10n_ch_lsv_dd-9.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-05-23 05:57:07] INFO root fetch - processPackages [odoo9-addon-l10n-ch-lsv-dd]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [odoo9-addon-l10n-ch-lsv-dd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_ch_lsv_dd-9.0.1.0.0.99.dev36-py2-none-any.whl.zip tmp/odoo9_addon_l10n_ch_lsv_dd-9.0.1.0.0.99.dev37-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-l10n-ch-lsv-dd/9.0.1.0.0.99.dev36-9.0.1.0.0.99.dev37/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [pyaware]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [pyaware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaware-6.0.0.dev0-py3-none-any.whl.zip tmp/pyaware-6.1.0-py3-none-any.whl.zip --markdown 20230523/p/pyaware/6.0.0.dev0-6.1.0/diff.md --exclude *.pyd
+[2023-05-23 05:57:07] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-05-23 05:57:07] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.8-py3-none-any.whl.zip tmp/xyz_util-0.7.9-py3-none-any.whl.zip --markdown 20230523/x/xyz-util/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-23 05:57:08] INFO root fetch - main [MainThread]: End processing [PyComputer]: success
+[2023-05-23 05:57:08] INFO root fetch - main [MainThread]: End processing [dingtalk2]: success
+[2023-05-23 05:57:08] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-23 05:57:08] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-05-23 05:57:09] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-05-23 05:57:09] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-ch-lsv-dd]: success
+[2023-05-23 05:57:10] INFO root fetch - main [MainThread]: End processing [pyaware]: success
+[2023-05-23 05:57:10] INFO root fetch - main [MainThread]: Store serial: [18208603]

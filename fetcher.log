@@ -20925,3 +20925,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 18:01:15] INFO root fetch - main [MainThread]: End processing [gemd]: success
 [2023-05-23 18:01:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-23 18:01:17] INFO root fetch - main [MainThread]: Store serial: [18216610]
+[2023-05-23 18:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216610]
+[2023-05-23 18:06:28] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awadb
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mocksafe
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horton-part
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codezen
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sppd
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embedbase-client
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-by-clf
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deadnews-template-python
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lndb_storage
+[2023-05-23 18:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pywxdll
+[2023-05-23 18:06:28] INFO root fetch - processPackages [embedbase-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 18:06:28] WARNING root fetch - processPackages [horton-part]: Skipping, unable to determine old version
+[2023-05-23 18:06:28] INFO root fetch - processPackages [mocksafe]: New version: [0.4.1a0] Old Version: [0.4.0a0]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [horton-part]: Start processing: FLAML
+[2023-05-23 18:06:28] INFO root fetch - processPackages [awadb]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 18:06:28] INFO root fetch - main [MainThread]: End processing [horton-part] error
+[2023-05-23 18:06:28] INFO root fetch - processPackages [pywxdll]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [codezen]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [lndb_storage]: New version: [0.3.0] Old Version: [0.2rc6]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [sppd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 18:06:28] ERROR root fetch - processPackages [get-by-clf]: Unable to get metadata: No such project 'get-by-clf'
+[2023-05-23 18:06:28] INFO root fetch - processPackages [deadnews-template-python]: New version: [1.0.3a2] Old Version: [1.0.2a6]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [get-by-clf]: Start processing: groundingdino-py
+[2023-05-23 18:06:28] INFO root fetch - main [MainThread]: End processing [get-by-clf] error
+[2023-05-23 18:06:28] INFO root fetch - processPackages [embedbase-client]: executing diffoscope
+[2023-05-23 18:06:28] INFO root fetch - processPackages [embedbase-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase_client-0.1.2.tar.gz tmp/embedbase_client-0.1.3.tar.gz --markdown 20230523/e/embedbase-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 18:06:28] INFO root fetch - processPackages [groundingdino-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-23 18:06:28] INFO root fetch - processPackages [codezen]: Downloading https://files.pythonhosted.org/packages/9a/87/d86abe1401846dcf53efc296ac600a1be8809323f80ca12b7445cb5530aa/codezen-0.1.0.tar.gz
+[2023-05-23 18:06:28] INFO root fetch - processPackages [FLAML]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-23 18:06:29] INFO root fetch - processPackages [lndb_storage]: Downloading https://files.pythonhosted.org/packages/29/0c/7a8bce9e150d311e65a00400e3980b6fd3530955e5b476bf15f4f13ab826/lndb_storage-0.2rc6.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [mocksafe]: Downloading https://files.pythonhosted.org/packages/1c/5d/c227c94002727e65964a053ed63364a21a6e951a118ae8a517f0758f29ab/mocksafe-0.4.0a0.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/ff/56/2245ade9ff580263461720a01679463e18e30c7717be95752211b570be71/awadb-0.1.0-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-23 18:06:29] INFO root fetch - processPackages [sppd]: Downloading https://files.pythonhosted.org/packages/0d/89/c6a00b5120920e05b0ca300959a9b0400b09e398c2485c420863474e516a/sppd-0.1.1.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [deadnews-template-python]: Downloading https://files.pythonhosted.org/packages/d6/82/c045a135dcfbae57b1c33b75ca3af992b9fc8b21b180e4d8cba17add59ea/deadnews_template_python-1.0.2a6.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [FLAML]: Downloading https://files.pythonhosted.org/packages/fe/3a/c949f18124eba30f4764806e23c64a416c0b87dd538daa09a2e7926808a9/FLAML-1.2.3.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/bd/33/c831f772a0fa9cd9d9ccf9bfe3127cefe8d3b7302e0535fc5c2250ace767/pywxdll-0.1.5.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [codezen]: Downloading https://files.pythonhosted.org/packages/b9/bd/3f3e20a125f0f4495f6fbc56c318ed8c2ce21a5ad491a66e606654a03fef/codezen-0.1.1.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [sppd]: Downloading https://files.pythonhosted.org/packages/4e/e1/8d22386a7e6a91c26a38f30bbb54ca64c3e90fb012a4180ee6a55f2effdb/sppd-0.1.2.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [groundingdino-py]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [groundingdino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groundingdino-py-0.2.0.tar.gz tmp/groundingdino-py-0.3.0.tar.gz --markdown 20230523/g/groundingdino-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [lndb_storage]: Downloading https://files.pythonhosted.org/packages/29/4a/b16c250acc11e402eb6fd8e33d644568df872306202b6797be2653bc377b/lndb_storage-0.3.0.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.1.4.tar.gz tmp/pywxdll-0.1.5.tar.gz --markdown 20230523/p/pywxdll/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [sppd]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [sppd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppd-0.1.1.tar.gz tmp/sppd-0.1.2.tar.gz --markdown 20230523/s/sppd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [lndb_storage]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [lndb_storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb_storage-0.2rc6.tar.gz tmp/lndb_storage-0.3.0.tar.gz --markdown 20230523/l/lndb_storage/0.2rc6-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [FLAML]: Downloading https://files.pythonhosted.org/packages/92/54/ac2f5a8e2c0182867efd7ef9a05706d5e230da84f8fe2996dbf2db0e8b43/FLAML-1.2.4.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/f4/d7/d198f5fc686627b247892eadba6a56551effc5301d0f0313f6f48c8ac7b2/awadb-0.2.0-cp311-cp311-macosx_12_0_universal2.whl
+[2023-05-23 18:06:29] INFO root fetch - processPackages [codezen]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [codezen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codezen-0.1.0.tar.gz tmp/codezen-0.1.1.tar.gz --markdown 20230523/c/codezen/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [deadnews-template-python]: Downloading https://files.pythonhosted.org/packages/5e/5e/4ac6d24fdff4c14a356ca8da333e680d98c013127adb6f8ddf08b3d50365/deadnews_template_python-1.0.3a2.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [mocksafe]: Downloading https://files.pythonhosted.org/packages/56/35/3bac689f64e363953cc18abb6bccde88ef496107cfa8cbb86f9abedf5c33/mocksafe-0.4.1a0.tar.gz
+[2023-05-23 18:06:29] INFO root fetch - processPackages [FLAML]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [FLAML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAML-1.2.3.tar.gz tmp/FLAML-1.2.4.tar.gz --markdown 20230523/F/FLAML/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [deadnews-template-python]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [deadnews-template-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadnews_template_python-1.0.2a6.tar.gz tmp/deadnews_template_python-1.0.3a2.tar.gz --markdown 20230523/d/deadnews-template-python/1.0.2a6-1.0.3a2/diff.md --exclude *.pyd
+[2023-05-23 18:06:29] INFO root fetch - processPackages [mocksafe]: executing diffoscope
+[2023-05-23 18:06:29] INFO root fetch - processPackages [mocksafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocksafe-0.4.0a0.tar.gz tmp/mocksafe-0.4.1a0.tar.gz --markdown 20230523/m/mocksafe/0.4.0a0-0.4.1a0/diff.md --exclude *.pyd
+[2023-05-23 18:06:30] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-05-23 18:06:30] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.1.0-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.2.0-cp311-cp311-macosx_12_0_universal2.whl.zip --markdown 20230523/a/awadb/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 18:06:30] INFO root fetch - processPackages [embedbase-client]: Start processing: spectralcluster
+[2023-05-23 18:06:30] INFO root fetch - main [MainThread]: End processing [embedbase-client]: success
+[2023-05-23 18:06:30] INFO root fetch - processPackages [spectralcluster]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 18:06:30] INFO root fetch - processPackages [spectralcluster]: executing diffoscope
+[2023-05-23 18:06:30] INFO root fetch - processPackages [spectralcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralcluster-0.2.8.tar.gz tmp/spectralcluster-0.2.9.tar.gz --markdown 20230523/s/spectralcluster/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 18:06:30] INFO root fetch - processPackages [pywxdll]: Start processing: djangoldp-tzcld
+[2023-05-23 18:06:30] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2023-05-23 18:06:30] INFO root fetch - processPackages [sppd]: Start processing: factscore
+[2023-05-23 18:06:30] INFO root fetch - main [MainThread]: End processing [sppd]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [factscore]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 18:06:31] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 18:06:31] INFO root fetch - processPackages [factscore]: Downloading https://files.pythonhosted.org/packages/9a/bd/9e0450dd157441f26f3d82b3f7b0b7da7e740541eae17b96e6e62d9e899b/factscore-0.1.0.tar.gz
+[2023-05-23 18:06:31] INFO root fetch - processPackages [groundingdino-py]: Start processing: eyesegpy
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [groundingdino-py]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [codezen]: Start processing: geotribu
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [codezen]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [lndb_storage]: Start processing: amazon-braket-build-tools
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [lndb_storage]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [factscore]: Downloading https://files.pythonhosted.org/packages/c1/ad/5ce1e5f083305f9f6127419aa0d7faab4f4a657b2f89f67a2bb1e11ce8bf/factscore-0.1.1.tar.gz
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [mocksafe]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [eyesegpy]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [deadnews-template-python]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [factscore]: executing diffoscope
+[2023-05-23 18:06:31] INFO root fetch - processPackages [factscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factscore-0.1.0.tar.gz tmp/factscore-0.1.1.tar.gz --markdown 20230523/f/factscore/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 18:06:31] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 18:06:31] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-05-23 18:06:31] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.8.tar.gz tmp/djangoldp_tzcld-1.0.9.tar.gz --markdown 20230523/d/djangoldp-tzcld/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 18:06:31] INFO root fetch - processPackages [amazon-braket-build-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 18:06:31] INFO root fetch - processPackages [eyesegpy]: Downloading https://files.pythonhosted.org/packages/a6/7f/5e251e2f5fbc60c96338739bacd5b5edce153a73137d46074e5743dd1192/eyesegpy-0.1.0.tar.gz
+[2023-05-23 18:06:31] WARNING root fetch - processPackages [eyesegpy]: Skipping package: exceeds size limit 13231858>=10485760
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [eyesegpy] error
+[2023-05-23 18:06:31] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-23 18:06:31] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230523/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [FLAML]: success
+[2023-05-23 18:06:31] INFO root fetch - processPackages [amazon-braket-build-tools]: Downloading https://files.pythonhosted.org/packages/ef/5f/63120c7b153fc05de6286f4e2f0920be93ce5993730563b7e9931982ec0e/amazon-braket-build-tools-0.2.2.tar.gz
+[2023-05-23 18:06:31] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-05-23 18:06:32] INFO root fetch - processPackages [amazon-braket-build-tools]: executing diffoscope
+[2023-05-23 18:06:32] INFO root fetch - processPackages [amazon-braket-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-build-tools-0.2.1.tar.gz tmp/amazon-braket-build-tools-0.2.2.tar.gz --markdown 20230523/a/amazon-braket-build-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 18:06:32] INFO root fetch - main [MainThread]: End processing [spectralcluster]: success
+[2023-05-23 18:06:32] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-05-23 18:06:33] INFO root fetch - main [MainThread]: End processing [factscore]: success
+[2023-05-23 18:06:33] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-23 18:06:33] INFO root fetch - main [MainThread]: End processing [amazon-braket-build-tools]: success
+[2023-05-23 18:06:33] INFO root fetch - main [MainThread]: Store serial: [18216668]

@@ -16178,3 +16178,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:35:21] INFO root fetch - main [MainThread]: End processing [bibat]: success
 [2023-05-23 14:35:21] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-23 14:35:21] INFO root fetch - main [MainThread]: Store serial: [18213599]
+[2023-05-23 14:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213599]
+[2023-05-23 14:40:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-shopify
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discminer
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MandiriUtils
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smoltools
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencanary
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vot-trax
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudmesh-vpn
+[2023-05-23 14:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stigg-api-client
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [MandiriUtils]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [tap-shopify]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:40:31] INFO root fetch - processPackages [cloudmesh-vpn]: New version: [4.3.5] Old Version: [4.3.4]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [vot-trax]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [opencanary]: New version: [0.9.0] Old Version: [0.7.1]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:40:31] INFO root fetch - processPackages [smoltools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:40:31] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:40:31] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 14:40:31] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.8.tar.gz tmp/MandiriUtils-0.9.tar.gz --markdown 20230523/M/MandiriUtils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 14:40:31] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-05-23 14:40:31] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-05-23 14:40:31] INFO root fetch - processPackages [discminer]: Start processing: quickmpc
+[2023-05-23 14:40:31] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-05-23 14:40:31] INFO root fetch - processPackages [vot-trax]: Downloading https://files.pythonhosted.org/packages/a3/ff/b6457e40f2325b5a1d36fc6011edd71b214ba4c945ebf476eb99e073c93b/vot-trax-4.0.0.tar.gz
+[2023-05-23 14:40:31] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/28/b2/d611b0bacd897c45604de47d88ba287c139bca5e4a6fa1bb44865dad4b1a/tap-shopify-1.7.3.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [cloudmesh-vpn]: Downloading https://files.pythonhosted.org/packages/79/9e/0b76e238a6217ae6fae1ef085739398ee5718b942637036a7763c21a1d4b/cloudmesh-vpn-4.3.4.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [smoltools]: Downloading https://files.pythonhosted.org/packages/58/31/2b63e4681f010481543b264dae746f3c67e211d5d272af5e4d9c25fe3ec5/smoltools-1.0.8.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [quickmpc]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 14:40:32] INFO root fetch - processPackages [opencanary]: Downloading https://files.pythonhosted.org/packages/1e/39/cc7dc5bda61e89ad143698d4c1ef9ee4336bc48dca32588522f2022a92fb/opencanary-0.7.1.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/70/0f/155e5a42b73403bee3c3be3bdac0bdfe6221ecfbcc7a1360e78bb87c59b2/tap-shopify-1.7.4.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [vot-trax]: Downloading https://files.pythonhosted.org/packages/71/bf/c1dbff143fbb2537427bb87798ded81b3bd0c8be4a46882f904dbc0ce4f6/vot-trax-4.0.1.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/9b/91/06c153e81364d25b4f381d3ca1696eb6498e85ad984a4830302d4f907ff9/quickmpc-0.3.8.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [cloudmesh-vpn]: Downloading https://files.pythonhosted.org/packages/e7/f9/257aa04b9003f5734acff0580ba6fa52e70f4e068486dbf90c86a29a4e2b/cloudmesh-vpn-4.3.5.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [tap-shopify]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [tap-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-shopify-1.7.3.tar.gz tmp/tap-shopify-1.7.4.tar.gz --markdown 20230523/t/tap-shopify/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-05-23 14:40:32] INFO root fetch - processPackages [smoltools]: Downloading https://files.pythonhosted.org/packages/61/c1/efdedec54eedb625aac6cfd89e93270163ba7f828c12d45cdb0b80a2ed8a/smoltools-1.0.9.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [cloudmesh-vpn]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [cloudmesh-vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-vpn-4.3.4.tar.gz tmp/cloudmesh-vpn-4.3.5.tar.gz --markdown 20230523/c/cloudmesh-vpn/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2023-05-23 14:40:32] INFO root fetch - processPackages [vot-trax]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [vot-trax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vot-trax-4.0.0.tar.gz tmp/vot-trax-4.0.1.tar.gz --markdown 20230523/v/vot-trax/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-23 14:40:32] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/5b/6f/6f1053f2f186d8c46cef3668a01724ee90c75f8009fc395e29f010b5c9f5/quickmpc-0.3.9.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [smoltools]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [smoltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoltools-1.0.8.tar.gz tmp/smoltools-1.0.9.tar.gz --markdown 20230523/s/smoltools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 14:40:32] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.8.tar.gz tmp/quickmpc-0.3.9.tar.gz --markdown 20230523/q/quickmpc/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 14:40:32] INFO root fetch - processPackages [opencanary]: Downloading https://files.pythonhosted.org/packages/88/b4/1f59b8e0d1212b72a5a1c89b6bb96c16d16b6d202926bfe7389f1a0254f7/opencanary-0.9.0.tar.gz
+[2023-05-23 14:40:32] INFO root fetch - processPackages [opencanary]: executing diffoscope
+[2023-05-23 14:40:32] INFO root fetch - processPackages [opencanary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencanary-0.7.1.tar.gz tmp/opencanary-0.9.0.tar.gz --markdown 20230523/o/opencanary/0.7.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 14:40:33] INFO root fetch - processPackages [stigg-api-client]: Start processing: MandiriUtils
+[2023-05-23 14:40:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:40:33] INFO root fetch - processPackages [MandiriUtils]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 14:40:33] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 14:40:33] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.8.tar.gz tmp/MandiriUtils-0.9.tar.gz --markdown 20230523/M/MandiriUtils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 14:40:33] INFO root fetch - processPackages [MandiriUtils]: Start processing: stigg-api-client
+[2023-05-23 14:40:33] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 14:40:33] INFO root fetch - processPackages [stigg-api-client]: Start processing: bmsdna-lakeapi
+[2023-05-23 14:40:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:40:33] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:40:33] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-23 14:40:33] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:40:33] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:40:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/bd/a4/a00f2947df5e77565d6b168c54a07a80d608a6af22b23ca3a0cc65ba52fb/bmsdna_lakeapi-0.2.5.tar.gz
+[2023-05-23 14:40:33] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-23 14:40:33] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.2.4.tar.gz tmp/bmsdna_lakeapi-0.2.5.tar.gz --markdown 20230523/b/bmsdna-lakeapi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-23 14:40:33] INFO root fetch - processPackages [tap-shopify]: Start processing: odoo-addon-attachment-queue
+[2023-05-23 14:40:33] INFO root fetch - main [MainThread]: End processing [tap-shopify]: success
+[2023-05-23 14:40:34] WARNING root fetch - processPackages [odoo-addon-attachment-queue]: Skipping, unable to determine old version
+[2023-05-23 14:40:34] INFO root fetch - processPackages [odoo-addon-attachment-queue]: Start processing: gandai
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-queue] error
+[2023-05-23 14:40:34] INFO root fetch - processPackages [cloudmesh-vpn]: Start processing: finetune-eval-harness
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [cloudmesh-vpn]: success
+[2023-05-23 14:40:34] INFO root fetch - processPackages [gandai]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-23 14:40:34] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.9.dev1] Old Version: [0.6.8.dev1]
+[2023-05-23 14:40:34] INFO root fetch - processPackages [stigg-api-client]: Start processing: tensorcircuit-nightly
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:40:34] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230522] Old Version: [0.9.1.dev20230521]
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [smoltools]: success
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-05-23 14:40:34] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/5c/3d/b4f49a093cfef8281287afd1c26bd2f78a4483d2a9656a3ae7fd80157bbf/gandai-1.1.8.tar.gz
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 14:40:34] INFO root fetch - main [MainThread]: End processing [vot-trax]: success
+[2023-05-23 14:40:34] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-05-23 14:40:34] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-23 14:40:34] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.8.dev1.tar.gz tmp/finetune_eval_harness-0.6.9.dev1.tar.gz --markdown 20230523/f/finetune-eval-harness/0.6.8.dev1-0.6.9.dev1/diff.md --exclude *.pyd
+[2023-05-23 14:40:34] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/3a/fa/af563d1c555c63f046af1fe5724a811c53a5d3149fbca553a31cf2bf8c54/tensorcircuit-nightly-0.9.1.dev20230522.tar.gz
+[2023-05-23 14:40:34] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-23 14:40:34] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.8.tar.gz tmp/gandai-1.1.9.tar.gz --markdown 20230523/g/gandai/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:40:34] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-23 14:40:34] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230521.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230522.tar.gz --markdown 20230523/t/tensorcircuit-nightly/0.9.1.dev20230521-0.9.1.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 14:40:35] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-23 14:40:35] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:40:35] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-23 14:40:36] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-23 14:40:36] INFO root fetch - main [MainThread]: End processing [opencanary]: success
+[2023-05-23 14:40:36] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-23 14:40:36] INFO root fetch - main [MainThread]: Store serial: [18213648]

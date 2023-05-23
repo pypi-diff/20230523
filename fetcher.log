@@ -18962,3 +18962,116 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:29:10] INFO root fetch - main [MainThread]: End processing [carpo-teacher]: success
 [2023-05-23 16:29:35] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-23 16:29:35] INFO root fetch - main [MainThread]: Store serial: [18215266]
+[2023-05-23 16:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215266]
+[2023-05-23 16:34:47] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cazy-webscraper
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-aws-forensics
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ncOrtho
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changedetector
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trawler-on-lake
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-id-python
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-bank-python
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQt-Fluent-Widgets
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usbToBNC
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cazy-webscraper]: New version: [2.3.0] Old Version: [2.2.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [auto-aws-forensics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ncOrtho]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 16:34:47] ERROR root fetch - processPackages [usbToBNC]: Unable to get metadata: No such project 'usbToBNC'
+[2023-05-23 16:34:47] INFO root fetch - processPackages [usbToBNC]: Start processing: authomize-rest-api-client
+[2023-05-23 16:34:47] INFO root fetch - main [MainThread]: End processing [usbToBNC] error
+[2023-05-23 16:34:47] INFO root fetch - processPackages [changedetector]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-23 16:34:47] INFO root fetch - processPackages [trawler-on-lake]: Downloading https://files.pythonhosted.org/packages/b5/e1/e62c1fd132cb2ef972418600d65f717d16eadd8ab37e2137fb993c834da1/trawler-on-lake-1.0.8.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:47] INFO root fetch - processPackages [auto-aws-forensics]: Downloading https://files.pythonhosted.org/packages/7f/af/92b3d7867ea68c2fab04d9c0399dabbaa2a6043f4f2e5d2bf11b99a578da/auto_aws_forensics-0.2.8.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [cazy-webscraper]: Downloading https://files.pythonhosted.org/packages/35/f3/35e3270a666d0031c1a0dfc0e86400e8cfc72bc7e92fbf1e6f172c4093d7/cazy_webscraper-2.2.8.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [changedetector]: Downloading https://files.pythonhosted.org/packages/e1/df/496fb29c37894b248917b96266fee7a8fe93241da40555313296a0b720dd/changedetector-0.6.1.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/a1/b5/91358d5a670e0776e037e87973adc330ecf1a3d6e59d52e281edbd9d30c3/ncOrtho-0.3.8.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/a1/54/a3ac3b2d317e5b5e454883419dc087b3b87efded691bb7715f06c6c84012/authomize-rest-api-client-4.1.2.tar.gz
+[2023-05-23 16:34:47] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/fc/f6/4e4687a48c2b322c889c97f1f3dfc4f0b435f1384296754a3f008c9abc7a/PyQt-Fluent-Widgets-0.9.1.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.1.1.tar.gz tmp/authomize-rest-api-client-4.1.2.tar.gz --markdown 20230523/a/authomize-rest-api-client/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [trawler-on-lake]: Downloading https://files.pythonhosted.org/packages/3a/a5/c4e54f361b70bb47f06258494e235e811b1b57ecadef6266bda0da8711a6/trawler-on-lake-1.0.9.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230523/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [cazy-webscraper]: Downloading https://files.pythonhosted.org/packages/52/07/4fa7ee7cac2dc4e9eee6ad41a3387ccb0b92d263e5fb56b63bbbbc0da690/cazy_webscraper-2.3.0.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/4f/be/4b33f65f712eea13f73396afcf2564524a9287b09280b50c3e22fe108ecf/ncOrtho-0.3.9.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [auto-aws-forensics]: Downloading https://files.pythonhosted.org/packages/4f/ec/359831d5f0ef74cff17ab151173ee2027da0f76b487dff19e28340a089d1/auto_aws_forensics-0.2.9.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [changedetector]: Downloading https://files.pythonhosted.org/packages/5c/6c/2ad346849879d0352905b6e394b7fef0ef312b6324871d34af53a8919727/changedetector-0.6.2.tar.gz
+[2023-05-23 16:34:48] INFO root fetch - processPackages [auto-aws-forensics]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [auto-aws-forensics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_aws_forensics-0.2.8.tar.gz tmp/auto_aws_forensics-0.2.9.tar.gz --markdown 20230523/a/auto-aws-forensics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.0.tar.gz tmp/PyQt-Fluent-Widgets-0.9.1.tar.gz --markdown 20230523/P/PyQt-Fluent-Widgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [ncOrtho]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [ncOrtho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncOrtho-0.3.8.tar.gz tmp/ncOrtho-0.3.9.tar.gz --markdown 20230523/n/ncOrtho/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [cazy-webscraper]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [cazy-webscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cazy_webscraper-2.2.8.tar.gz tmp/cazy_webscraper-2.3.0.tar.gz --markdown 20230523/c/cazy-webscraper/2.2.8-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 16:34:48] INFO root fetch - processPackages [changedetector]: executing diffoscope
+[2023-05-23 16:34:48] INFO root fetch - processPackages [changedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetector-0.6.1.tar.gz tmp/changedetector-0.6.2.tar.gz --markdown 20230523/c/changedetector/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 16:34:49] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: django-select2
+[2023-05-23 16:34:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-23 16:34:49] INFO root fetch - processPackages [django-select2]: New version: [8.1.2] Old Version: [8.1.1]
+[2023-05-23 16:34:49] INFO root fetch - processPackages [trawler-on-lake]: Start processing: alacorder
+[2023-05-23 16:34:49] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-23 16:34:49] INFO root fetch - processPackages [alacorder]: New version: [80.7.5] Old Version: [80.7.4]
+[2023-05-23 16:34:49] INFO root fetch - processPackages [django-select2]: Downloading https://files.pythonhosted.org/packages/aa/15/9809333958c92d17315a530b560e363fc02b4453a7e4725cc07d16351f00/django-select2-8.1.1.tar.gz
+[2023-05-23 16:34:49] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/6d/e6/7c5fdfab2c342ee563c661147ef318e857923b53ab322e3610631a8772aa/alacorder-80.7.4.tar.gz
+[2023-05-23 16:34:49] INFO root fetch - processPackages [auto-aws-forensics]: Start processing: neural-anthropometer
+[2023-05-23 16:34:49] INFO root fetch - main [MainThread]: End processing [auto-aws-forensics]: success
+[2023-05-23 16:34:49] INFO root fetch - processPackages [django-select2]: Downloading https://files.pythonhosted.org/packages/7f/af/2fc371e1dea6686b588ab9cd445e55b63248a525f8c90550767a42dd77bb/django_select2-8.1.2.tar.gz
+[2023-05-23 16:34:49] WARNING root fetch - processPackages [neural-anthropometer]: Skipping, unable to determine old version
+[2023-05-23 16:34:49] INFO root fetch - processPackages [neural-anthropometer]: Start processing: deepomatic-oef
+[2023-05-23 16:34:49] INFO root fetch - main [MainThread]: End processing [neural-anthropometer] error
+[2023-05-23 16:34:49] INFO root fetch - processPackages [deepomatic-oef]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-23 16:34:50] INFO root fetch - processPackages [ncOrtho]: Start processing: django-hijack
+[2023-05-23 16:34:50] INFO root fetch - main [MainThread]: End processing [ncOrtho]: success
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-select2]: executing diffoscope
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-select2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-select2-8.1.1.tar.gz tmp/django_select2-8.1.2.tar.gz --markdown 20230523/d/django-select2/8.1.1-8.1.2/diff.md --exclude *.pyd
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-hijack]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-23 16:34:50] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/ec/01/743bf94584908344eb5ad296b46cdd01c081574c68756707719b8ada8c3b/alacorder-80.7.5.tar.gz
+[2023-05-23 16:34:50] INFO root fetch - processPackages [deepomatic-oef]: Downloading https://files.pythonhosted.org/packages/97/76/961b399d36698a369458041a62e33c15445ff534b75658811155072265a0/deepomatic_oef-0.8.5-py3-none-any.whl
+[2023-05-23 16:34:50] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-23 16:34:50] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.4.tar.gz tmp/alacorder-80.7.5.tar.gz --markdown 20230523/a/alacorder/80.7.4-80.7.5/diff.md --exclude *.pyd
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-hijack]: Downloading https://files.pythonhosted.org/packages/74/ea/9607bf2d31e74231cde55cfcce1e64b4c5aecee7fe6e9a1d250022f4981e/django-hijack-3.4.1.tar.gz
+[2023-05-23 16:34:50] INFO root fetch - processPackages [changedetector]: Start processing: dev-gpt
+[2023-05-23 16:34:50] INFO root fetch - main [MainThread]: End processing [changedetector]: success
+[2023-05-23 16:34:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev3] Old Version: [0.18.42.dev1]
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-hijack]: executing diffoscope
+[2023-05-23 16:34:50] INFO root fetch - processPackages [django-hijack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hijack-3.4.0.tar.gz tmp/django-hijack-3.4.1.tar.gz --markdown 20230523/d/django-hijack/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-05-23 16:34:50] INFO root fetch - processPackages [deepomatic-oef]: Downloading https://files.pythonhosted.org/packages/e9/c1/1e57ebd55fca3d7e81b45581450c9bc9f22fe33c2f9c2f5868b0fc9b8ba8/deepomatic_oef-0.9.0-py3-none-any.whl
+[2023-05-23 16:34:50] INFO root fetch - processPackages [deepomatic-oef]: executing diffoscope
+[2023-05-23 16:34:50] INFO root fetch - processPackages [deepomatic-oef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepomatic_oef-0.8.5-py3-none-any.whl.zip tmp/deepomatic_oef-0.9.0-py3-none-any.whl.zip --markdown 20230523/d/deepomatic-oef/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 16:34:50] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/ab/83/3fdedea090a51d63ceb31037d1dccef8b1e748b0e9a9e31a0dd7b0b7db2f/dev-gpt-0.18.42.dev3.tar.gz
+[2023-05-23 16:34:50] INFO root fetch - processPackages [authomize-rest-api-client]: Start processing: rsxml
+[2023-05-23 16:34:50] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-23 16:34:50] WARNING root fetch - processPackages [rsxml]: Skipping, unable to determine old version
+[2023-05-23 16:34:50] INFO root fetch - processPackages [rsxml]: Start processing: dev-gpt
+[2023-05-23 16:34:50] INFO root fetch - main [MainThread]: End processing [rsxml] error
+[2023-05-23 16:34:50] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-23 16:34:50] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev1.tar.gz tmp/dev-gpt-0.18.42.dev3.tar.gz --markdown 20230523/d/dev-gpt/0.18.42.dev1-0.18.42.dev3/diff.md --exclude *.pyd
+[2023-05-23 16:34:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev5] Old Version: [0.18.42.dev3]
+[2023-05-23 16:34:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-23 16:34:51] INFO root fetch - main [MainThread]: End processing [cazy-webscraper]: success
+[2023-05-23 16:34:51] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/b9/f9/3d363da746c29085915219d37c7752e9e561723326676f26ed0f4a4bb237/dev-gpt-0.18.42.dev5.tar.gz
+[2023-05-23 16:34:51] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-23 16:34:51] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev3.tar.gz tmp/dev-gpt-0.18.42.dev5.tar.gz --markdown 20230523/d/dev-gpt/0.18.42.dev3-0.18.42.dev5/diff.md --exclude *.pyd
+[2023-05-23 16:34:51] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-23 16:34:51] INFO root fetch - main [MainThread]: End processing [django-select2]: success
+[2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [django-hijack]: success
+[2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [deepomatic-oef]: success
+[2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-23 16:34:53] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-23 16:34:53] INFO root fetch - main [MainThread]: Store serial: [18215329]

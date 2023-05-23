@@ -8182,3 +8182,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:35:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
 [2023-05-23 06:35:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-stage-state]: success
 [2023-05-23 06:35:57] INFO root fetch - main [MainThread]: Store serial: [18208938]
+[2023-05-23 06:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208938]
+[2023-05-23 06:41:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-task-stage-state
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-stock
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: askCO
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nxs-analysis-tools
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rssbot
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-purchase-add-product-supplierinfo
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-procurement-batch-generator
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spherical-functions
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coredis
+[2023-05-23 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abbrey
+[2023-05-23 06:41:07] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: New version: [15.0.1.0.1.4] Old Version: [15.0.1.0.1.3]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [rssbot]: New version: [330] Old Version: [320]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [askCO]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [spherical-functions]: New version: [2022.4.2] Old Version: [2022.4.1]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [abbrey]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_project_task_stage_state-15.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-project-task-stage-state/15.0.1.0.1.3-15.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/e4/e4/6646caf25fd374fbe3110e9453d2b343238505837996f9e00e024a805dcf/nxs_analysis_tools-0.0.8.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/d4/cc/bcd0d7d1a21242748eee969ca92d2f5a70d13aba3a9895ab0bdcec074388/askCO-0.0.6.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/b3/30/f86f082cfd0b918c0d3d99c6d78f6fdd6ea2ec7a6fe88d84fbd2adf012e1/rssbot-320.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: Downloading https://files.pythonhosted.org/packages/76/e4/6af3156bba037b17051d02bb2577cb23f5c58a504413d8cd09ac195df071/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-23 06:41:07] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/f9/0c/bf2dac4405d7cbd2c62d52c2bf78e68c35e51f40dc8c4a47387bf54a6e84/abbrey-0.0.3.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/9e/15/9498630a748dec93a44ce80042c02bf7978e61fd9f327ff91cdafe3f6552/coredis-4.8.3.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [spherical-functions]: Downloading https://files.pythonhosted.org/packages/c8/21/223be6514d5b962c0ce4f14f04162c4c07cb94cfb88f786733fc33001519/spherical-functions-2022.4.1.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/1a/16/40ada67aee118dbf1352ef0e4b85d499fdfaaa9ab22e6279709773434add/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-05-23 06:41:07] INFO root fetch - processPackages [abbrey]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [abbrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abbrey-0.0.2.tar.gz tmp/abbrey-0.0.3.tar.gz --markdown 20230523/a/abbrey/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [askCO]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [askCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askCO-0.0.5.tar.gz tmp/askCO-0.0.6.tar.gz --markdown 20230523/a/askCO/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/00/4b/5d3ac0f07cb8ee10cad96b62338468321913b17aecf974dba9c42f66df54/nxs_analysis_tools-0.0.9.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/97/e2/cda7fddad53986ff2c595a19446bd155918c57c430020d42f4d5c05560b2/rssbot-330.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230523/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [rssbot]: executing diffoscope
+[2023-05-23 06:41:07] INFO root fetch - processPackages [rssbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssbot-320.tar.gz tmp/rssbot-330.tar.gz --markdown 20230523/r/rssbot/320-330/diff.md --exclude *.pyd
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: Downloading https://files.pythonhosted.org/packages/ec/f5/69261b4e895283aebfc0fee514e97f40edb04decbba95ddfe25c9d7a88cf/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-23 06:41:07] INFO root fetch - processPackages [spherical-functions]: Downloading https://files.pythonhosted.org/packages/ff/4b/224361292f39e3c6dcba40a26f9bdae30486a77b17d54faa215d73a49838/spherical_functions-2022.4.2.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/cf/dc/6d8ed835ed3561c0e006b8e2719ac4acc5b2be330a6c40f810ea0b579237/coredis-4.9.0.tar.gz
+[2023-05-23 06:41:07] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/cb/f8/82f5a3e1b7f20923495a175539f796814101a84e107bf2330027df4fe7cf/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-05-23 06:41:08] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-05-23 06:41:08] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230523/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-23 06:41:08] INFO root fetch - processPackages [spherical-functions]: executing diffoscope
+[2023-05-23 06:41:08] INFO root fetch - processPackages [spherical-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spherical-functions-2022.4.1.tar.gz tmp/spherical_functions-2022.4.2.tar.gz --markdown 20230523/s/spherical-functions/2022.4.1-2022.4.2/diff.md --exclude *.pyd
+[2023-05-23 06:41:08] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: executing diffoscope
+[2023-05-23 06:41:08] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-purchase-add-product-supplierinfo/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-23 06:41:08] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: executing diffoscope
+[2023-05-23 06:41:08] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-procurement-batch-generator/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo-addon-project-stock]: Start processing: pytest-sequence-markers
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo-addon-project-task-stage-state]: Start processing: odoo13-addon-purchase-request
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-stage-state]: success
+[2023-05-23 06:41:09] WARNING root fetch - processPackages [pytest-sequence-markers]: Skipping, unable to determine old version
+[2023-05-23 06:41:09] INFO root fetch - processPackages [pytest-sequence-markers]: Start processing: nxs-analysis-tools
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [pytest-sequence-markers] error
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo13-addon-purchase-request]: New version: [13.0.4.3.1.dev9] Old Version: [13.0.4.3.1.dev7]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [abbrey]: Start processing: odoo14-addon-purchase-stock-secondary-unit
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [abbrey]: success
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [askCO]: Start processing: certora-cli-alpha-jaroslav-parallelSplitting
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [askCO]: success
+[2023-05-23 06:41:09] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: New version: [20230523.4.40.608690] Old Version: [20230521.22.12.411772]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-05-23 06:41:09] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230523/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 06:41:09] INFO root fetch - processPackages [nxs-analysis-tools]: Start processing: apache-airflow-providers-sktvane
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/b8/c6/2b11043db64ec0aea4846a5c7c6ef5b0a82c15c9cd36b9e89335ed114f73/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-23 06:41:09] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Downloading https://files.pythonhosted.org/packages/9a/80/27b2d3aca61e64207c5068b78ba8e49b87a95fbfc90d64e8a989d3bc5342/certora-cli-alpha-jaroslav-parallelSplitting-20230521.22.12.411772.tar.gz
+[2023-05-23 06:41:09] WARNING root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Skipping package: exceeds size limit 38984736>=10485760
+[2023-05-23 06:41:09] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Start processing: odoo14-addon-procurement-batch-generator
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jaroslav-parallelSplitting] error
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo13-addon-purchase-request]: executing diffoscope
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo13-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo13-addon-purchase-request/13.0.4.3.1.dev7-13.0.4.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:41:09] INFO root fetch - processPackages [rssbot]: Start processing: autotraders
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [rssbot]: success
+[2023-05-23 06:41:09] INFO root fetch - processPackages [autotraders]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/f2/d3/80f30c28d278998dc1fc9d8a14fe815f55252848bfcadec28c3bf2aed7c0/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/a5/cc/544c0ec42bc813b8404e89f6c47bbd2a211e1674daf06f34fdf958aec9da/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-23 06:41:09] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/69/69/b51bf6fa65eba5d01aab8a554a9295a85372e3461dfcd508911a25fda611/apache-airflow-providers-sktvane-0.1.4.tar.gz
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: executing diffoscope
+[2023-05-23 06:41:09] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-purchase-stock-secondary-unit/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-23 06:41:09] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-23 06:41:09] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.1.1.tar.gz tmp/autotraders-1.1.2.tar.gz --markdown 20230523/a/autotraders/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-23 06:41:09] INFO root fetch - main [MainThread]: End processing [odoo8-addon-procurement-batch-generator]: success
+[2023-05-23 06:41:10] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/48/67/7604047ba21bb054fec7330e55027bc3a6b68216887ba64145087bf8dcfc/apache-airflow-providers-sktvane-0.1.5.tar.gz
+[2023-05-23 06:41:10] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/d9/ac/7c3253da312d169209b0025252508294bda9147860d8ddcde08b3fdf7359/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-05-23 06:41:10] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: executing diffoscope
+[2023-05-23 06:41:10] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-procurement-batch-generator/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:41:10] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-add-product-supplierinfo]: success
+[2023-05-23 06:41:10] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-05-23 06:41:10] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.1.4.tar.gz tmp/apache-airflow-providers-sktvane-0.1.5.tar.gz --markdown 20230523/a/apache-airflow-providers-sktvane/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 06:41:10] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-05-23 06:41:10] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-stock-secondary-unit]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-procurement-batch-generator]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: End processing [spherical-functions]: success
+[2023-05-23 06:41:11] INFO root fetch - main [MainThread]: Store serial: [18209011]

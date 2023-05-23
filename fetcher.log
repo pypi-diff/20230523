@@ -16380,3 +16380,207 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:46:01] INFO root fetch - main [MainThread]: End processing [zndraw]: success
 [2023-05-23 14:46:05] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-23 14:46:05] INFO root fetch - main [MainThread]: Store serial: [18213699]
+[2023-05-23 14:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213699]
+[2023-05-23 14:51:14] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tupa123
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Shchirov-s-serializer
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-autocomplete-light
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: priceloop-api
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datatoolbox
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specmatic
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fakerMM
+[2023-05-23 14:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eko
+[2023-05-23 14:51:14] INFO root fetch - processPackages [fakerMM]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 14:51:14] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.8rc12] Old Version: [3.9.7]
+[2023-05-23 14:51:14] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-23 14:51:14] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5057432214] Old Version: [2.0.0.dev5002175725]
+[2023-05-23 14:51:14] INFO root fetch - processPackages [datatoolbox]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-23 14:51:14] INFO root fetch - processPackages [fakerMM]: executing diffoscope
+[2023-05-23 14:51:14] INFO root fetch - processPackages [fakerMM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakerMM-0.0.8.tar.gz tmp/fakerMM-0.0.9.tar.gz --markdown 20230523/f/fakerMM/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 14:51:14] WARNING root fetch - processPackages [Shchirov-s-serializer]: Skipping, unable to determine old version
+[2023-05-23 14:51:14] INFO root fetch - processPackages [Shchirov-s-serializer]: Start processing: cm-two
+[2023-05-23 14:51:14] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-23 14:51:14] INFO root fetch - main [MainThread]: End processing [Shchirov-s-serializer] error
+[2023-05-23 14:51:15] INFO root fetch - processPackages [specmatic]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-23 14:51:15] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230523/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [eko]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-23 14:51:15] INFO root fetch - processPackages [cm-two]: New version: [2.3.17] Old Version: [2.3.16]
+[2023-05-23 14:51:15] INFO root fetch - processPackages [datatoolbox]: Downloading https://files.pythonhosted.org/packages/11/cc/3c776395c6df96483ef3fef76a9353d4fee2624b3b8f539893267a06e2af/datatoolbox-0.5.6.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/15/ca/7194fbc5a7dcffe22a2ac27d99340e63dd1c5d8682a6960e9ecb14e43e2a/specmatic-0.3.2.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 14:51:15] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79085910>=10485760
+[2023-05-23 14:51:15] INFO root fetch - processPackages [specmatic]: Start processing: treesimulator
+[2023-05-23 14:51:15] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-23 14:51:15] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/4a/0a/4a38767695ea8d297bf5bcba2b3f798d11e062af57dd08ef0cdedce4da46/cm_two-2.3.17-py3-none-any.whl
+[2023-05-23 14:51:15] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/63/3c/59e2bbd124315f82cc16d388fe54337ce4f02ddbe09cbcd721109cf84aec/recon_lw-2.0.0.dev5057432214.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.7.tar.gz tmp/django-autocomplete-light-3.9.8rc12.tar.gz --markdown 20230523/d/django-autocomplete-light/3.9.7-3.9.8rc12/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [treesimulator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 14:51:15] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5002175725.tar.gz tmp/recon_lw-2.0.0.dev5057432214.tar.gz --markdown 20230523/r/recon-lw/2.0.0.dev5002175725-2.0.0.dev5057432214/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.16-py3-none-any.whl.zip tmp/cm_two-2.3.17-py3-none-any.whl.zip --markdown 20230523/c/cm-two/2.3.16-2.3.17/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230523/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [datatoolbox]: Downloading https://files.pythonhosted.org/packages/de/ca/c5eb60594b81456cd5d3fd0e8e18263372dc92635967267fe9d1220fd038/datatoolbox-0.5.7.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [eko]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [eko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eko-0.9.3.tar.gz tmp/eko-0.9.4.tar.gz --markdown 20230523/e/eko/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [treesimulator]: Downloading https://files.pythonhosted.org/packages/a5/d2/5afb2f81c9e135d954e5178a023cd0408459e66382a429cd615c84a44b5f/treesimulator-0.1.4.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [datatoolbox]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [datatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatoolbox-0.5.6.tar.gz tmp/datatoolbox-0.5.7.tar.gz --markdown 20230523/d/datatoolbox/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 14:51:15] INFO root fetch - processPackages [treesimulator]: Downloading https://files.pythonhosted.org/packages/22/cb/078e48b31294d696f45d20f75095c410bd689bc23451cff1f77bb0ded49e/treesimulator-0.1.5.tar.gz
+[2023-05-23 14:51:15] INFO root fetch - processPackages [treesimulator]: executing diffoscope
+[2023-05-23 14:51:15] INFO root fetch - processPackages [treesimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treesimulator-0.1.4.tar.gz tmp/treesimulator-0.1.5.tar.gz --markdown 20230523/t/treesimulator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 14:51:16] INFO root fetch - processPackages [fakerMM]: Start processing: eFatura
+[2023-05-23 14:51:16] INFO root fetch - main [MainThread]: End processing [fakerMM]: success
+[2023-05-23 14:51:16] INFO root fetch - processPackages [eFatura]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 14:51:16] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-23 14:51:16] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.2.tar.gz tmp/eFatura-1.0.3.tar.gz --markdown 20230523/e/eFatura/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 14:51:16] INFO root fetch - processPackages [recon-lw]: Start processing: at-fetch-data
+[2023-05-23 14:51:16] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-23 14:51:16] WARNING root fetch - processPackages [at-fetch-data]: Skipping, unable to determine old version
+[2023-05-23 14:51:16] INFO root fetch - processPackages [at-fetch-data]: Start processing: bagbag
+[2023-05-23 14:51:16] INFO root fetch - main [MainThread]: End processing [at-fetch-data] error
+[2023-05-23 14:51:16] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 14:51:16] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 14:51:16] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 14:51:17] INFO root fetch - processPackages [tupa123]: Start processing: onnx-predict-yolov8
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-23 14:51:17] WARNING root fetch - processPackages [onnx-predict-yolov8]: Skipping, unable to determine old version
+[2023-05-23 14:51:17] INFO root fetch - processPackages [onnx-predict-yolov8]: Start processing: snaptext
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [onnx-predict-yolov8] error
+[2023-05-23 14:51:17] WARNING root fetch - processPackages [snaptext]: Skipping, unable to determine old version
+[2023-05-23 14:51:17] INFO root fetch - processPackages [snaptext]: Start processing: translateabc
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [snaptext] error
+[2023-05-23 14:51:17] INFO root fetch - processPackages [translateabc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 14:51:17] INFO root fetch - processPackages [treesimulator]: Start processing: smac
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [treesimulator]: success
+[2023-05-23 14:51:17] INFO root fetch - processPackages [smac]: New version: [2.0.1] Old Version: [2.0.0b1]
+[2023-05-23 14:51:17] INFO root fetch - processPackages [translateabc]: Downloading https://files.pythonhosted.org/packages/6a/33/8f97cd44c73a3cb9325528acfcdf93d6f218f5e9bf6dedb5a681cb2212a3/translateabc-1.0.3.tar.gz
+[2023-05-23 14:51:17] INFO root fetch - processPackages [eFatura]: Start processing: django-autocomplete-light
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-23 14:51:17] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.8rc20] Old Version: [3.9.8rc19]
+[2023-05-23 14:51:17] INFO root fetch - processPackages [smac]: Downloading https://files.pythonhosted.org/packages/e8/23/7c14d1876dc4ab3f3e74fbac5120fb3f9b935c8ea04396fcccf156a1978d/smac-2.0.0b1.tar.gz
+[2023-05-23 14:51:17] INFO root fetch - processPackages [translateabc]: executing diffoscope
+[2023-05-23 14:51:17] INFO root fetch - processPackages [translateabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translateabc-1.0.2.tar.gz tmp/translateabc-1.0.3.tar.gz --markdown 20230523/t/translateabc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 14:51:17] INFO root fetch - processPackages [priceloop-api]: Start processing: ut-date
+[2023-05-23 14:51:17] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-23 14:51:17] INFO root fetch - processPackages [ut-date]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-23 14:51:17] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/62/36/c5b343852430dfc38f50750feac26fec3319374c766fdf189a6197317ea6/django-autocomplete-light-3.9.8rc19.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/5c/f0/36d839cccac3df088b53587d1c9a47559b089971ca5c7b2fab8fd3c68f15/ut-date-1.4.5.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [django-autocomplete-light]: Start processing: meesee
+[2023-05-23 14:51:18] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-23 14:51:18] INFO root fetch - processPackages [smac]: Downloading https://files.pythonhosted.org/packages/e7/30/4392ab3139772ab4dda80f2268d3d50a1e7528971b15936628c635cbf3d8/smac-2.0.1.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/c1/fc/736d72fae9f9aca3567d432228c6536692bb28ce9a00e8bfe01f49f6dc2b/django-autocomplete-light-3.9.8rc20.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [smac]: executing diffoscope
+[2023-05-23 14:51:18] INFO root fetch - processPackages [smac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smac-2.0.0b1.tar.gz tmp/smac-2.0.1.tar.gz --markdown 20230523/s/smac/2.0.0b1-2.0.1/diff.md --exclude *.pyd
+[2023-05-23 14:51:18] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 50951676>=10485760
+[2023-05-23 14:51:18] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-05-23 14:51:18] INFO root fetch - processPackages [meesee]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-23 14:51:18] INFO root fetch - processPackages [meesee]: Downloading https://files.pythonhosted.org/packages/1d/9c/e24967321690b0793fb52bb13f44e515ecc4b92741efc1485bac3342a79f/meesee-1.0.0.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-23 14:51:18] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.8rc19.tar.gz tmp/django-autocomplete-light-3.9.8rc20.tar.gz --markdown 20230523/d/django-autocomplete-light/3.9.8rc19-3.9.8rc20/diff.md --exclude *.pyd
+[2023-05-23 14:51:18] INFO root fetch - processPackages [meesee]: Downloading https://files.pythonhosted.org/packages/4a/55/df7b47739695ef9a3d2ad6b45b92eabaa7509628f8cdb81bb727343de737/meesee-1.1.0.tar.gz
+[2023-05-23 14:51:18] INFO root fetch - processPackages [meesee]: executing diffoscope
+[2023-05-23 14:51:18] INFO root fetch - processPackages [meesee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meesee-1.0.0.tar.gz tmp/meesee-1.1.0.tar.gz --markdown 20230523/m/meesee/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 14:51:19] INFO root fetch - main [MainThread]: End processing [translateabc]: success
+[2023-05-23 14:51:19] INFO root fetch - main [MainThread]: End processing [eko]: success
+[2023-05-23 14:51:19] INFO root fetch - main [MainThread]: End processing [meesee]: success
+[2023-05-23 14:51:20] INFO root fetch - main [MainThread]: End processing [smac]: success
+[2023-05-23 14:51:21] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 14:51:21] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 14:51:22] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-23 14:51:25] INFO root fetch - main [MainThread]: End processing [datatoolbox]: success
+[2023-05-23 14:51:56] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-23 14:51:56] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-23 14:51:56] INFO root fetch - main [MainThread]: Store serial: [18213773]

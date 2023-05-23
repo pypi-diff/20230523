@@ -4262,3 +4262,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:34:58] INFO root fetch - main [MainThread]: End processing [looqbox]: success
 [2023-05-23 03:35:18] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
 [2023-05-23 03:35:18] INFO root fetch - main [MainThread]: Store serial: [18207003]
+[2023-05-23 03:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207003]
+[2023-05-23 03:40:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellxgene-census
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnssanalysis
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-05-23 03:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-05-23 03:40:29] INFO root fetch - processPackages [cellxgene-census]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:40:29] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/ce/75/f6669601720bbe787e18a45112a6448530f02fdac2fe2738fe17cead81ba/cellxgene_census-1.0.1.tar.gz
+[2023-05-23 03:40:29] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230523/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230523/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230523/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-23 03:40:29] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230523/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:40:29] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/2c/94/e3ec242abeb1890ddca9c40537b84b8e04e67520171c30a9fe852e57ef2b/cellxgene_census-1.0.2.tar.gz
+[2023-05-23 03:40:30] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-23 03:40:30] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230523/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:40:30] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-05-23 03:40:30] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.0.1.tar.gz tmp/cellxgene_census-1.0.2.tar.gz --markdown 20230523/c/cellxgene-census/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 03:40:30] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-05-23 03:40:30] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-23 03:40:30] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230523/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-05-23 03:40:31] INFO root fetch - main [MainThread]: Store serial: [18207038]

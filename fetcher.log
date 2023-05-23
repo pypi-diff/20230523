@@ -1386,3 +1386,84 @@
 [2023-05-23 02:09:25] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
 [2023-05-23 02:09:32] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-05-23 02:09:32] INFO root fetch - main [MainThread]: Store serial: [18205398]
+[2023-05-23 02:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205398]
+[2023-05-23 02:14:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsversioner
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardamom-ai
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aws-discord-notifiers
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-jbank
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-iot-core-certificates
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speakeasy-client-sdk-python
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chromadb
+[2023-05-23 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2023-05-23 02:14:42] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 02:14:42] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 02:14:42] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230522] Old Version: [3.0.1.dev20230521]
+[2023-05-23 02:14:42] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 02:14:43] WARNING root fetch - processPackages [cardamom-ai]: Skipping, unable to determine old version
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cardamom-ai]: Start processing: ramodels
+[2023-05-23 02:14:43] INFO root fetch - main [MainThread]: End processing [cardamom-ai] error
+[2023-05-23 02:14:43] WARNING root fetch - processPackages [dsversioner]: Skipping, unable to determine old version
+[2023-05-23 02:14:43] INFO root fetch - processPackages [dsversioner]: Start processing: cdk-watchful
+[2023-05-23 02:14:43] INFO root fetch - main [MainThread]: End processing [dsversioner] error
+[2023-05-23 02:14:43] INFO root fetch - processPackages [chromadb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [django-jbank]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-watchful]: New version: [0.6.99] Old Version: [0.6.98]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230523/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230523/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230523/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230523/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/da/e2/e1a6d646291a83041b846afc54f4aaea3a3c7b536f000d88e092fe0657b6/openbb_nightly-3.0.1.dev20230522.tar.gz
+[2023-05-23 02:14:43] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/a0/7f/975827ac11ddaae01d5da22e4ac5d8eeedcb1054cb797857cde23daf41bd/chromadb-0.3.7.tar.gz
+[2023-05-23 02:14:43] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/88/4e/1781a2aa403427ad4ae7773f66606903763313225174be0317c8141b618d/django-jbank-4.2.1.tar.gz
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-watchful]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [cdk-watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-watchful-0.6.98.tar.gz tmp/cdk-watchful-0.6.99.tar.gz --markdown 20230523/c/cdk-watchful/0.6.98-0.6.99/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/78/e5/06ed0f471f70543edcff9bca24405db2091e7dd7181e729d8ac3a4aee8d2/django-jbank-4.2.2.tar.gz
+[2023-05-23 02:14:43] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230523/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230523/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/f7/18/d8e27cccc90edd5a15525a33800c89c70a96662187510b6ec833428d7c64/chromadb-0.3.8.tar.gz
+[2023-05-23 02:14:43] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.2.1.tar.gz tmp/django-jbank-4.2.2.tar.gz --markdown 20230523/d/django-jbank/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-23 02:14:43] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-05-23 02:14:43] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.3.7.tar.gz tmp/chromadb-0.3.8.tar.gz --markdown 20230523/c/chromadb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-skylight
+[2023-05-23 02:14:44] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: typing-extensions
+[2023-05-23 02:14:44] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: cdktf-gitlab-runner
+[2023-05-23 02:14:44] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:14:44] INFO root fetch - processPackages [typing-extensions]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-05-23 02:14:44] INFO root fetch - main [MainThread]: End processing [cdk-watchful]: success
+[2023-05-23 02:14:44] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-05-23 02:14:44] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.1.dev20230521.tar.gz tmp/openbb_nightly-3.0.1.dev20230522.tar.gz --markdown 20230523/o/openbb-nightly/3.0.1.dev20230521-3.0.1.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 02:14:44] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/d3/20/06270dac7316220643c32ae61694e451c98f8caf4c8eab3aa80a2bedf0df/typing_extensions-4.5.0.tar.gz
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-05-23 02:14:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230523/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:14:45] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-23 02:14:45] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-05-23 02:14:45] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230523/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-23 02:14:45] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/e4/03/4670b4c206e1dc869f2f0120c3d0a2b17d42526ab2b5a8f66d4cd8642ef3/typing_extensions-4.6.0.tar.gz
+[2023-05-23 02:14:45] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-23 02:14:45] INFO root fetch - processPackages [typing-extensions]: executing diffoscope
+[2023-05-23 02:14:45] INFO root fetch - processPackages [typing-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_extensions-4.5.0.tar.gz tmp/typing_extensions-4.6.0.tar.gz --markdown 20230523/t/typing-extensions/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-05-23 02:14:45] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-05-23 02:14:46] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-05-23 02:14:46] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-05-23 02:14:46] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-05-23 02:14:46] INFO root fetch - main [MainThread]: End processing [typing-extensions]: success
+[2023-05-23 02:14:48] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-05-23 02:14:56] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-05-23 02:14:56] INFO root fetch - main [MainThread]: Store serial: [18205450]

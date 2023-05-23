@@ -14423,3 +14423,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:13:17] INFO root fetch - main [MainThread]: End processing [TradeGate]: success
 [2023-05-23 13:13:18] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-05-23 13:13:18] INFO root fetch - main [MainThread]: Store serial: [18212684]
+[2023-05-23 13:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212684]
+[2023-05-23 13:18:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huspacy
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zndraw
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-robotics-sdk
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-private-bucket
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tryceratops
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyFibreBundle
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rhods-model-registry-poc
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: celebrity-check
+[2023-05-23 13:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-23 13:18:27] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:18:27] WARNING root fetch - processPackages [celebrity-check]: Skipping, unable to determine old version
+[2023-05-23 13:18:27] INFO root fetch - processPackages [celebrity-check]: Start processing: mysmallutils
+[2023-05-23 13:18:27] INFO root fetch - main [MainThread]: End processing [celebrity-check] error
+[2023-05-23 13:18:27] INFO root fetch - processPackages [cognite-robotics-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [zndraw]: New version: [0.2.0a1] Old Version: [0.1.8]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [PyFibreBundle]: New version: [1.3.1] Old Version: [1.3]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [huspacy]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [tryceratops]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-23 13:18:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:18:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:18:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:18:27] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-23 13:18:27] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.7.tar.gz tmp/rhods_model_registry_poc-0.1.8.tar.gz --markdown 20230523/r/rhods-model-registry-poc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 13:18:27] INFO root fetch - processPackages [mysmallutils]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-23 13:18:27] INFO root fetch - processPackages [zndraw]: Downloading https://files.pythonhosted.org/packages/45/81/c38dd506e565fe675a93a516190d5632e9188a5e74c1e70e97a0690c7fce/zndraw-0.1.8.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [huspacy]: Downloading https://files.pythonhosted.org/packages/13/6a/37002c20e089ad5be4b24c8c7e5eae3a60f8876f0964b75b605025ff1b39/huspacy-0.8.1-py3-none-any.whl
+[2023-05-23 13:18:28] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/78/be/393ec257d602bc5acd0c8f74b0cf1e8885addf8047d57116d0ea7021b27b/cognite_robotics_sdk-0.1.6.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [PyFibreBundle]: Downloading https://files.pythonhosted.org/packages/c8/d3/5bdfed8dc738166be39d3d6e0af248b8b8a1ae603ccbd305ca4db27cc94e/PyFibreBundle-1.3.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [tryceratops]: Downloading https://files.pythonhosted.org/packages/f2/28/4101173d8229257552d5e6cb0f4d00886a4145e40ddf083e666909f5fdab/tryceratops-2.3.2.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/1b/06/fccd967e4776dfb25c5281c531d2fd2704fdecc2560a92bd0211edbc2351/mysmallutils-2.0.2.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [tryceratops]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [tryceratops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryceratops-2.3.1.tar.gz tmp/tryceratops-2.3.2.tar.gz --markdown 20230523/t/tryceratops/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-23 13:18:28] INFO root fetch - processPackages [huspacy]: Downloading https://files.pythonhosted.org/packages/9f/cb/d923909f08c36927843be22eef4b0cb019dffbe0856bd765f57b7ac60db4/huspacy-0.9.0-py3-none-any.whl
+[2023-05-23 13:18:28] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/22/9f/b43149441ce608a0c980fbdfe91eb3a068617fa715e8dc61dfb13b5f1641/cognite_robotics_sdk-0.1.7.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.1.8.tar.gz tmp/zndraw-0.2.0a1.tar.gz --markdown 20230523/z/zndraw/0.1.8-0.2.0a1/diff.md --exclude *.pyd
+[2023-05-23 13:18:28] INFO root fetch - processPackages [PyFibreBundle]: Downloading https://files.pythonhosted.org/packages/17/ed/0743de7b490300f8f691622f11ecb8e3807d83013a09a68a43800b1fbe16/PyFibreBundle-1.3.1.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [huspacy]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [huspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy-0.8.1-py3-none-any.whl.zip tmp/huspacy-0.9.0-py3-none-any.whl.zip --markdown 20230523/h/huspacy/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 13:18:28] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/f9/e6/27eeb416c4aa2ea5b793da10c116c98dd7d0e92659f08b33fa75dc690919/mysmallutils-2.0.3.tar.gz
+[2023-05-23 13:18:28] INFO root fetch - processPackages [cognite-robotics-sdk]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [cognite-robotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_robotics_sdk-0.1.6.tar.gz tmp/cognite_robotics_sdk-0.1.7.tar.gz --markdown 20230523/c/cognite-robotics-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 13:18:28] INFO root fetch - processPackages [PyFibreBundle]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [PyFibreBundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFibreBundle-1.3.tar.gz tmp/PyFibreBundle-1.3.1.tar.gz --markdown 20230523/P/PyFibreBundle/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-05-23 13:18:28] INFO root fetch - processPackages [mysmallutils]: executing diffoscope
+[2023-05-23 13:18:28] INFO root fetch - processPackages [mysmallutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysmallutils-2.0.2.tar.gz tmp/mysmallutils-2.0.3.tar.gz --markdown 20230523/m/mysmallutils/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-23 13:18:29] INFO root fetch - processPackages [rhods-model-registry-poc]: Start processing: websockets-groups
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-23 13:18:29] WARNING root fetch - processPackages [websockets-groups]: Skipping, unable to determine old version
+[2023-05-23 13:18:29] INFO root fetch - processPackages [websockets-groups]: Start processing: comathon
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [websockets-groups] error
+[2023-05-23 13:18:29] INFO root fetch - processPackages [comathon]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: zzz233
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-23 13:18:29] INFO root fetch - processPackages [tryceratops]: Start processing: fmvmm
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [tryceratops]: success
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-23 13:18:29] WARNING root fetch - processPackages [zzz233]: Skipping, unable to determine old version
+[2023-05-23 13:18:29] INFO root fetch - processPackages [zzz233]: Start processing: pepperize.cdk-private-bucket
+[2023-05-23 13:18:29] INFO root fetch - main [MainThread]: End processing [zzz233] error
+[2023-05-23 13:18:29] INFO root fetch - processPackages [fmvmm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:18:29] INFO root fetch - processPackages [fmvmm]: executing diffoscope
+[2023-05-23 13:18:29] INFO root fetch - processPackages [fmvmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmvmm-1.0.8.tar.gz tmp/fmvmm-1.0.9.tar.gz --markdown 20230523/f/fmvmm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-23 13:18:29] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:18:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-23 13:18:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:18:30] INFO root fetch - processPackages [comathon]: executing diffoscope
+[2023-05-23 13:18:30] INFO root fetch - processPackages [comathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comathon-0.0.8-py3-none-any.whl.zip tmp/comathon-0.0.9-py3-none-any.whl.zip --markdown 20230523/c/comathon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:18:30] INFO root fetch - processPackages [mysmallutils]: Start processing: jcmutils
+[2023-05-23 13:18:30] INFO root fetch - main [MainThread]: End processing [mysmallutils]: success
+[2023-05-23 13:18:30] INFO root fetch - processPackages [jcmutils]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-23 13:18:30] INFO root fetch - processPackages [cognite-robotics-sdk]: Start processing: matter-exceptions
+[2023-05-23 13:18:30] INFO root fetch - main [MainThread]: End processing [cognite-robotics-sdk]: success
+[2023-05-23 13:18:30] INFO root fetch - processPackages [matter-exceptions]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-23 13:18:30] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/88/2e/88c5d0f3df0bb1c77ce0325fe2da77b12b8bcc8d0a6fdae0a69a7529d6a2/jcmutils-1.5.9.tar.gz
+[2023-05-23 13:18:30] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-23 13:18:30] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.8.tar.gz tmp/jcmutils-1.5.9.tar.gz --markdown 20230523/j/jcmutils/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-23 13:18:30] INFO root fetch - processPackages [matter-exceptions]: Downloading https://files.pythonhosted.org/packages/13/2b/8b9393a67c297db2c3d1343cee2eb185a75a248aba3cfbe204c754b45f7c/matter_exceptions-1.1.0-py3-none-any.whl
+[2023-05-23 13:18:30] INFO root fetch - processPackages [PyFibreBundle]: Start processing: zbuilder
+[2023-05-23 13:18:30] INFO root fetch - main [MainThread]: End processing [PyFibreBundle]: success
+[2023-05-23 13:18:30] INFO root fetch - processPackages [matter-exceptions]: Downloading https://files.pythonhosted.org/packages/d2/19/c24bb2708de24cd160447f1ae68a547d17a92f45069267a34c8017db4297/matter_exceptions-1.2.0-py3-none-any.whl
+[2023-05-23 13:18:30] INFO root fetch - processPackages [zbuilder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:18:30] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:18:30] INFO root fetch - processPackages [zbuilder]: executing diffoscope
+[2023-05-23 13:18:30] INFO root fetch - processPackages [zbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbuilder-0.0.8.tar.gz tmp/zbuilder-0.0.9.tar.gz --markdown 20230523/z/zbuilder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:18:31] INFO root fetch - processPackages [matter-exceptions]: executing diffoscope
+[2023-05-23 13:18:31] INFO root fetch - processPackages [matter-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_exceptions-1.1.0-py3-none-any.whl.zip tmp/matter_exceptions-1.2.0-py3-none-any.whl.zip --markdown 20230523/m/matter-exceptions/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [huspacy]: success
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [comathon]: success
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [fmvmm]: success
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-23 13:18:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-23 13:18:32] INFO root fetch - main [MainThread]: End processing [matter-exceptions]: success
+[2023-05-23 13:18:32] INFO root fetch - main [MainThread]: End processing [zbuilder]: success
+[2023-05-23 13:18:46] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-05-23 13:18:46] INFO root fetch - main [MainThread]: Store serial: [18212751]

@@ -14340,3 +14340,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:07:30] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
 [2023-05-23 13:08:01] INFO root fetch - main [MainThread]: End processing [pdcom5]: success
 [2023-05-23 13:08:01] INFO root fetch - main [MainThread]: Store serial: [18212639]
+[2023-05-23 13:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212639]
+[2023-05-23 13:13:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gopro-overlay
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-utils
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docarray
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huspacy-nightly
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zbuilder
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansible
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dinohub-seedwork-be
+[2023-05-23 13:13:13] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev222] Old Version: [0.9.0.dev221]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ansible]: New version: [8.0.0b1] Old Version: [8.0.0a3]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [video-utils]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230523/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [gopro-overlay]: New version: [0.95.0] Old Version: [0.94.0]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [zbuilder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/d9/56/463e14ca702c7a57cea63778a0377723a978a5bb8862e8a1d737c63152bf/huspacy_nightly-0.9.0.dev222-py3-none-any.whl
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/f6/54/d161658b9d80ba0923d884aac74423a0952b12ac8c06f55491761dd101ea/ansible-8.0.0a3.tar.gz
+[2023-05-23 13:13:13] INFO root fetch - processPackages [zbuilder]: Downloading https://files.pythonhosted.org/packages/87/25/dfba17538b61710bf548592778075ea442a2b43ac645f31915a179fa1666/zbuilder-0.0.8.tar.gz
+[2023-05-23 13:13:13] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 36073598>=10485760
+[2023-05-23 13:13:13] INFO root fetch - processPackages [ansible]: Start processing: rhods-model-registry-poc
+[2023-05-23 13:13:13] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2023-05-23 13:13:13] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev221-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev222-py3-none-any.whl.zip --markdown 20230523/h/huspacy-nightly/0.9.0.dev221-0.9.0.dev222/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [video-utils]: Downloading https://files.pythonhosted.org/packages/f4/ba/41505e27da4897160540872024bd2816fe9621cee49c1c5000eddac96a74/video_utils-2.3.1.tar.gz
+[2023-05-23 13:13:13] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230523/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 13:13:13] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.94.0.tar.gz tmp/gopro-overlay-0.95.0.tar.gz --markdown 20230523/g/gopro-overlay/0.94.0-0.95.0/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230523/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [video-utils]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [video-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_utils-2.3.0.tar.gz tmp/video_utils-2.3.1.tar.gz --markdown 20230523/v/video-utils/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-23 13:13:13] INFO root fetch - processPackages [zbuilder]: Downloading https://files.pythonhosted.org/packages/11/8d/dc511928e1e22d6863f3e332b1f6252c217b35f3ad4213a2c045484bf0bd/zbuilder-0.0.9.tar.gz
+[2023-05-23 13:13:13] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-23 13:13:13] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.7.tar.gz tmp/rhods_model_registry_poc-0.1.8.tar.gz --markdown 20230523/r/rhods-model-registry-poc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 13:13:14] INFO root fetch - processPackages [zbuilder]: executing diffoscope
+[2023-05-23 13:13:14] INFO root fetch - processPackages [zbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbuilder-0.0.8.tar.gz tmp/zbuilder-0.0.9.tar.gz --markdown 20230523/z/zbuilder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:13:14] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: TradeGate
+[2023-05-23 13:13:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-23 13:13:14] INFO root fetch - processPackages [TradeGate]: New version: [0.3.7] Old Version: [0.3.6.1]
+[2023-05-23 13:13:15] INFO root fetch - processPackages [TradeGate]: Downloading https://files.pythonhosted.org/packages/a8/2e/3b1ce8fe29222006aff5ce38423657b56d1899f64470398279ae19ae799a/TradeGate-0.3.6.1.tar.gz
+[2023-05-23 13:13:15] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-23 13:13:15] INFO root fetch - processPackages [huspacy-nightly]: Start processing: jcmutils
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-05-23 13:13:15] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:13:15] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: FPL-data-loader
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-23 13:13:15] INFO root fetch - processPackages [jcmutils]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-05-23 13:13:15] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-23 13:13:15] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:13:15] INFO root fetch - processPackages [TradeGate]: Downloading https://files.pythonhosted.org/packages/c4/ed/e4b7a46e3d5abe871dba18aa1b3feaca2b29dac8f61b924f877717eb7244/TradeGate-0.3.7.tar.gz
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-23 13:13:15] WARNING root fetch - processPackages [FPL-data-loader]: Skipping, unable to determine old version
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [FPL-data-loader] error
+[2023-05-23 13:13:15] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/b8/98/8748b6274ced1c639e43d4900d01041baf0dc017d1731dce4592ba3b0ad4/jcmutils-1.5.8.tar.gz
+[2023-05-23 13:13:15] INFO root fetch - processPackages [TradeGate]: executing diffoscope
+[2023-05-23 13:13:15] INFO root fetch - processPackages [TradeGate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TradeGate-0.3.6.1.tar.gz tmp/TradeGate-0.3.7.tar.gz --markdown 20230523/T/TradeGate/0.3.6.1-0.3.7/diff.md --exclude *.pyd
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [zbuilder]: success
+[2023-05-23 13:13:15] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-23 13:13:15] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.7.tar.gz tmp/jcmutils-1.5.8.tar.gz --markdown 20230523/j/jcmutils/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [video-utils]: success
+[2023-05-23 13:13:15] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-05-23 13:13:16] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-23 13:13:16] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-23 13:13:16] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-23 13:13:17] INFO root fetch - main [MainThread]: End processing [TradeGate]: success
+[2023-05-23 13:13:18] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-23 13:13:18] INFO root fetch - main [MainThread]: Store serial: [18212684]

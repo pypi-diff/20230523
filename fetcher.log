@@ -7748,3 +7748,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:13:34] INFO root fetch - main [MainThread]: End processing [pyanalyze]: success
 [2023-05-23 06:13:42] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-05-23 06:13:42] INFO root fetch - main [MainThread]: Store serial: [18208736]
+[2023-05-23 06:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208736]
+[2023-05-23 06:18:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ditty
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genet
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Rabbit-in-a-Blender
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tenforce
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedops
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hello2
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perseus-restful-api-framework
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docker-composer
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-partner-financial-risk
+[2023-05-23 06:18:53] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [tenforce]: New version: [0.1.1] Old Version: [0.1.0b0]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [fedops]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo8-addon-partner-financial-risk]: New version: [8.0.1.1.1.99.dev5] Old Version: [8.0.1.1.1.99.dev4]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [docker-composer]: New version: [2.17.2] Old Version: [2.17.1]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ditty]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [genet]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.19.tar.gz tmp/Rabbit-in-a-Blender-0.0.20.tar.gz --markdown 20230523/R/Rabbit-in-a-Blender/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [hello2]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-23 06:18:53] INFO root fetch - processPackages [tenforce]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [tenforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenforce-0.1.0b0.tar.gz tmp/tenforce-0.1.1.tar.gz --markdown 20230523/t/tenforce/0.1.0b0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-0.1.4.tar.gz tmp/fedops-0.1.5.tar.gz --markdown 20230523/f/fedops/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [docker-composer]: Downloading https://files.pythonhosted.org/packages/6a/c8/a3b7cd56d0bef6ea43c6c7653558e85238899af005838c559ccc2efa37ad/docker_composer-2.17.1.tar.gz
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo8-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/cf/38/6cff83b5c9a72b60b1024014b4cdb6e542b2aa94fdd8bc1831d3e563be8f/odoo8_addon_partner_financial_risk-8.0.1.1.1.99.dev4-py2-none-any.whl
+[2023-05-23 06:18:53] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/7d/a1/cabc376bda6cc44ecfd8350be88212696987fa78d3482bcb9701886ce808/genet-0.5.2-py3-none-any.whl
+[2023-05-23 06:18:53] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/04/11/7c5384e80060a4f869568e12ca302d32e27eedd30bcb1078388152265c07/hello2-1.7.0.tar.gz
+[2023-05-23 06:18:53] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230523/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ditty]: Downloading https://files.pythonhosted.org/packages/2e/b6/2c75f63f59af4c21cd402841226ab110355f9dee596d49d046144cd3ba0f/ditty-0.1.2.tar.gz
+[2023-05-23 06:18:53] INFO root fetch - processPackages [docker-composer]: Downloading https://files.pythonhosted.org/packages/15/87/782a216e17427dc5f1d6c90a461ce43258a1dbd93b565bd629a14179426a/docker_composer-2.17.2.tar.gz
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ditty]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [ditty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditty-0.1.1.tar.gz tmp/ditty-0.1.2.tar.gz --markdown 20230523/d/ditty/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [docker-composer]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [docker-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_composer-2.17.1.tar.gz tmp/docker_composer-2.17.2.tar.gz --markdown 20230523/d/docker-composer/2.17.1-2.17.2/diff.md --exclude *.pyd
+[2023-05-23 06:18:53] INFO root fetch - processPackages [odoo8-addon-partner-financial-risk]: Downloading https://files.pythonhosted.org/packages/65/dc/a67b8c1d6971a64e757a9a0fd4888d19317981c7250eebb1e487ac15910f/odoo8_addon_partner_financial_risk-8.0.1.1.1.99.dev5-py2-none-any.whl
+[2023-05-23 06:18:53] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/b7/38/7b2c5cd8c77e3729f9b36ca20ab5b00afd3d82e96a6c3393ece02683697a/genet-0.5.3-py3-none-any.whl
+[2023-05-23 06:18:53] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/52/11/401f57372b2137a52f9ae5ce8e8a458642f068f652d2e8f86624cc9347ff/hello2-1.7.1.tar.gz
+[2023-05-23 06:18:53] INFO root fetch - processPackages [genet]: executing diffoscope
+[2023-05-23 06:18:53] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.5.2-py3-none-any.whl.zip tmp/genet-0.5.3-py3-none-any.whl.zip --markdown 20230523/g/genet/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-23 06:18:54] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-23 06:18:54] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.7.0.tar.gz tmp/hello2-1.7.1.tar.gz --markdown 20230523/h/hello2/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-23 06:18:54] INFO root fetch - processPackages [odoo8-addon-partner-financial-risk]: executing diffoscope
+[2023-05-23 06:18:54] INFO root fetch - processPackages [odoo8-addon-partner-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_partner_financial_risk-8.0.1.1.1.99.dev4-py2-none-any.whl.zip tmp/odoo8_addon_partner_financial_risk-8.0.1.1.1.99.dev5-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-partner-financial-risk/8.0.1.1.1.99.dev4-8.0.1.1.1.99.dev5/diff.md --exclude *.pyd
+[2023-05-23 06:18:55] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2023-05-23 06:18:55] INFO root fetch - main [MainThread]: End processing [ditty]: success
+[2023-05-23 06:18:55] INFO root fetch - main [MainThread]: End processing [docker-composer]: success
+[2023-05-23 06:18:55] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2023-05-23 06:18:55] INFO root fetch - main [MainThread]: End processing [tenforce]: success
+[2023-05-23 06:18:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-partner-financial-risk]: success
+[2023-05-23 06:18:56] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-05-23 06:18:57] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-23 06:18:58] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-23 06:19:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-05-23 06:19:01] INFO root fetch - main [MainThread]: Store serial: [18208770]

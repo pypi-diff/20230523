@@ -13519,3 +13519,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:08:10] INFO root fetch - main [MainThread]: End processing [blond]: success
 [2023-05-23 12:08:15] INFO root fetch - main [MainThread]: End processing [great-components]: success
 [2023-05-23 12:08:15] INFO root fetch - main [MainThread]: Store serial: [18212060]
+[2023-05-23 12:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212060]
+[2023-05-23 12:13:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: travel
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyHP3325A
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magicsoup
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoxx
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dm-reverb-nightly
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FishProcessManagement
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fetchify
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duty
+[2023-05-23 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wxc-sdk
+[2023-05-23 12:13:25] INFO root fetch - processPackages [travel]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [autoxx]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-23 12:13:25] WARNING root fetch - processPackages [PyHP3325A]: Skipping, unable to determine old version
+[2023-05-23 12:13:25] INFO root fetch - processPackages [PyHP3325A]: Start processing: lyscripts
+[2023-05-23 12:13:25] INFO root fetch - main [MainThread]: End processing [PyHP3325A] error
+[2023-05-23 12:13:25] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [fetchify]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.6] Old Version: [2023.5.23.5]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [wxc-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [duty]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [lyscripts]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-23 12:13:25] INFO root fetch - processPackages [travel]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [travel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travel-0.8.0.tar.gz tmp/travel-0.8.1.tar.gz --markdown 20230523/t/travel/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/b0/78/f33b9ca76402d3bf1c58e094ae3faff5d04dd08699bfa7c1aacf00385080/autoxx-0.0.24.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/1d/15/75d12f88705be873f867d4399597f1f9e1d125d721864056a2daab05e9e7/magicsoup-0.3.8.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230523/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/65/68/6b828b0a26e40300376631622bcaaca6866bdef28e75f6ed444823a77fde/wxc_sdk-1.8.0.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [duty]: Downloading https://files.pythonhosted.org/packages/dc/36/768c03df29cba4074c36fd220ac246c2b053ee26da16879999bd8b3c3105/duty-0.8.0.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/8d/58/7c19f005df6438b4c77d7b6e98881ae0e7e3f8514763366d42a5455726d1/FishProcessManagement-2023.5.23.6.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/c0/60/aa6cc37a61dd8a1dab90789d4f11b671e8cdfbf8d1ef725f5f09cc155bfe/amukhsimov-jupyter-templates-bigdata-0.0.4.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/8b/f8/f47721df2aae9758132acc9b08c7d6d71f1d86ee1d1cf85b972a1a95dd11/lyscripts-0.6.6.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.3.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.4.tar.gz --markdown 20230523/a/amukhsimov-jupyter-templates-bigdata/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [fetchify]: Downloading https://files.pythonhosted.org/packages/f2/87/2f63a7c4a3d34e21f99087963d8043ebfd65dba2d3e7d55723b3184da894/fetchify-1.1.0.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/b6/f0/368080cbb9897317ae7f04666bdeea0f9c05000ed70d7d94d13b19d4468d/autoxx-0.0.25.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.5.tar.gz tmp/FishProcessManagement-2023.5.23.6.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23.5-2023.5.23.6/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [duty]: Downloading https://files.pythonhosted.org/packages/1c/93/0a57500a1565315818b0e682d1e9da2bcc3163ebb78c92e1a7cfe11c097b/duty-0.9.0.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [fetchify]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [fetchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchify-1.0.4.tar.gz tmp/fetchify-1.1.0.tar.gz --markdown 20230523/f/fetchify/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/72/a3/9eef156eb094560fd8e51976567cb24941adc6bf0bbfda80c31be184525d/magicsoup-0.3.9.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 12:13:25] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.24.tar.gz tmp/autoxx-0.0.25.tar.gz --markdown 20230523/a/autoxx/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-23 12:13:25] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/3e/ca/aaf7cecba5b35a662002acb68c785a03eb5f3c85d5a96b58d0aa4d096101/wxc_sdk-1.9.0.tar.gz
+[2023-05-23 12:13:25] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/e9/f0/5625dd063481791e78b83d53fef085176a1b6c639a45435e803ed209c3bb/lyscripts-0.6.7.tar.gz
+[2023-05-23 12:13:26] INFO root fetch - processPackages [duty]: executing diffoscope
+[2023-05-23 12:13:26] INFO root fetch - processPackages [duty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duty-0.8.0.tar.gz tmp/duty-0.9.0.tar.gz --markdown 20230523/d/duty/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:13:26] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-23 12:13:26] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230523/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 12:13:26] INFO root fetch - processPackages [lyscripts]: executing diffoscope
+[2023-05-23 12:13:26] INFO root fetch - processPackages [lyscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyscripts-0.6.6.tar.gz tmp/lyscripts-0.6.7.tar.gz --markdown 20230523/l/lyscripts/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-23 12:13:26] INFO root fetch - processPackages [wxc-sdk]: executing diffoscope
+[2023-05-23 12:13:26] INFO root fetch - processPackages [wxc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxc_sdk-1.8.0.tar.gz tmp/wxc_sdk-1.9.0.tar.gz --markdown 20230523/w/wxc-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:13:26] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Start processing: pysurfex
+[2023-05-23 12:13:26] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-05-23 12:13:26] INFO root fetch - processPackages [pysurfex]: New version: [0.0.4] Old Version: [0.0.3.4]
+[2023-05-23 12:13:27] INFO root fetch - processPackages [pysurfex]: Downloading https://files.pythonhosted.org/packages/36/dc/0fae8905d5db0ab0e145c7fd5f0ef5544766a4a21ad40f9a099d1edcfbeb/pysurfex-0.0.3.4.tar.gz
+[2023-05-23 12:13:27] INFO root fetch - processPackages [travel]: Start processing: hashwire
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [travel]: success
+[2023-05-23 12:13:27] WARNING root fetch - processPackages [hashwire]: Skipping, unable to determine old version
+[2023-05-23 12:13:27] INFO root fetch - processPackages [hashwire]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [hashwire] error
+[2023-05-23 12:13:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [fetchify]: success
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 12:13:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 12:13:27] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 12:13:27] INFO root fetch - processPackages [pysurfex]: Downloading https://files.pythonhosted.org/packages/eb/b7/c8ab4aa9493c1dbb76da42992d0de5302bf40426caca063fcad01d8bc0d6/pysurfex-0.0.4.tar.gz
+[2023-05-23 12:13:27] INFO root fetch - main [MainThread]: End processing [duty]: success
+[2023-05-23 12:13:27] INFO root fetch - processPackages [pysurfex]: executing diffoscope
+[2023-05-23 12:13:27] INFO root fetch - processPackages [pysurfex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysurfex-0.0.3.4.tar.gz tmp/pysurfex-0.0.4.tar.gz --markdown 20230523/p/pysurfex/0.0.3.4-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 12:13:28] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-23 12:13:28] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 12:13:28] INFO root fetch - main [MainThread]: End processing [wxc-sdk]: success
+[2023-05-23 12:13:29] INFO root fetch - main [MainThread]: End processing [pysurfex]: success
+[2023-05-23 12:13:29] INFO root fetch - main [MainThread]: End processing [lyscripts]: success
+[2023-05-23 12:14:18] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-23 12:14:18] INFO root fetch - main [MainThread]: Store serial: [18212117]

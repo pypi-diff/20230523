@@ -6984,3 +6984,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 05:19:10] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
 [2023-05-23 05:19:10] INFO root fetch - main [MainThread]: End processing [doughnuts]: success
 [2023-05-23 05:19:10] INFO root fetch - main [MainThread]: Store serial: [18208383]
+[2023-05-23 05:24:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208383]
+[2023-05-23 05:24:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-fieldservice
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicegpt
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anduin
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barnhunt
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MandiriUtils
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-fieldservice
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fieldservice
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fieldservice
+[2023-05-23 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-databricks
+[2023-05-23 05:24:19] INFO root fetch - processPackages [MandiriUtils]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [nicegpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo13-addon-fieldservice]: New version: [13.0.1.2.2.dev9] Old Version: [13.0.1.2.2.dev8]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [barnhunt]: New version: [1.2.1rc1] Old Version: [1.2.0rc6]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [anduin]: New version: [8.4.9] Old Version: [8.4.8]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-23 05:24:19] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/cf/bb/f81adbc6d2dce0bdf28c582d12dffe23e84643f3253567bf6e4b2255f236/MandiriUtils-0.1.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230523/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [nicegpt]: Downloading https://files.pythonhosted.org/packages/91/ec/28d70ef987b70f9b3ebd255daf41b82e374cdc64870fbce4b6bb193e54e3/nicegpt-0.0.6.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/07/a9/1dba1c398d0b9eeef9dc3133b93755a197ba2fb47c5947329d4fe4c049e9/odoo_addon_fieldservice-16.0.1.0.1.7-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/07/a9/1dba1c398d0b9eeef9dc3133b93755a197ba2fb47c5947329d4fe4c049e9/odoo_addon_fieldservice-16.0.1.0.1.7-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/b7/f9/6204173f92df7282c97674995816c023b608fe25cdc6387dbf29e051f546/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [anduin]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [anduin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anduin-8.4.8.tar.gz tmp/anduin-8.4.9.tar.gz --markdown 20230523/a/anduin/8.4.8-8.4.9/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [barnhunt]: Downloading https://files.pythonhosted.org/packages/34/49/a7947967605d867fb615319c481c4fec87f9a9fddce3ad786a3448ffc2f4/barnhunt-1.2.0rc6.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/9c/4c/8372bd5b006008574a6377e97d3098f392861d06b4b78edc973d087e3072/cdktf-cdktf-provider-databricks-7.0.3.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/ad/50/aa624cf97bb3b523fe419e8cdbe4a0fe10f6ac01190e26d727072830a67b/MandiriUtils-0.2.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [nicegpt]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [nicegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegpt-0.0.5.tar.gz tmp/nicegpt-0.0.6.tar.gz --markdown 20230523/n/nicegpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [barnhunt]: Downloading https://files.pythonhosted.org/packages/aa/64/713e5698d372610c427023dfb71e1a5c1d44b631d4d770da25f6ae86ea6e/barnhunt-1.2.1rc1.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/45/0e/3702a2b37a8675f2c719893a338623af7532f287568fcfc3d32b1ab978b7/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.1.tar.gz tmp/MandiriUtils-0.2.tar.gz --markdown 20230523/M/MandiriUtils/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [barnhunt]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [barnhunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barnhunt-1.2.0rc6.tar.gz tmp/barnhunt-1.2.1rc1.tar.gz --markdown 20230523/b/barnhunt/1.2.0rc6-1.2.1rc1/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-fieldservice/16.0.1.0.1.7-16.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-fieldservice/16.0.1.0.1.7-16.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo13-addon-fieldservice]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo13-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo13-addon-fieldservice/13.0.1.2.2.dev8-13.0.1.2.2.dev9/diff.md --exclude *.pyd
+[2023-05-23 05:24:19] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2023-05-23 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/8c/8a/632c180560f654c4388fc5bb85059947d2771169abfe6c8d9e4c1208c0b9/cdktf-cdktf-provider-databricks-7.0.4.tar.gz
+[2023-05-23 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2023-05-23 05:24:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-7.0.3.tar.gz tmp/cdktf-cdktf-provider-databricks-7.0.4.tar.gz --markdown 20230523/c/cdktf-cdktf-provider-databricks/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-05-23 05:24:20] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-05-23 05:24:20] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-23 05:24:20] INFO root fetch - processPackages [nicegpt]: Start processing: odoo12-addon-fleet-vehicle-inspection-template
+[2023-05-23 05:24:20] INFO root fetch - main [MainThread]: End processing [nicegpt]: success
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo12-addon-fleet-vehicle-inspection-template]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-05-23 05:24:21] INFO root fetch - processPackages [anduin]: Start processing: odoo13-addon-fleet-vehicle-inspection-template
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [anduin]: success
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo13-addon-fleet-vehicle-inspection-template]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-05-23 05:24:21] INFO root fetch - processPackages [MandiriUtils]: Start processing: pytest-relaxed
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pytest-relaxed]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo12-addon-fleet-vehicle-inspection-template]: Downloading https://files.pythonhosted.org/packages/25/25/1ea514a7e5c532675ac0613129ce978c391ed3ab2a7e7269287d5ac4b804/odoo12_addon_fleet_vehicle_inspection_template-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Start processing: ana-sdk
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pytest-relaxed]: Downloading https://files.pythonhosted.org/packages/d9/9a/d5301bb0dcff9c722215f21f8e301fcef2d50960433f809fceb561e672fc/pytest-relaxed-2.0.0.tar.gz
+[2023-05-23 05:24:21] WARNING root fetch - processPackages [ana-sdk]: Skipping, unable to determine old version
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [ana-sdk] error
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo12-addon-fleet-vehicle-inspection-template]: executing diffoscope
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo12-addon-fleet-vehicle-inspection-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fleet_vehicle_inspection_template-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_fleet_vehicle_inspection_template-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230523/o/odoo12-addon-fleet-vehicle-inspection-template/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo13-addon-fleet-vehicle-inspection-template]: executing diffoscope
+[2023-05-23 05:24:21] INFO root fetch - processPackages [odoo13-addon-fleet-vehicle-inspection-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fleet_vehicle_inspection_template-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_fleet_vehicle_inspection_template-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo13-addon-fleet-vehicle-inspection-template/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [barnhunt]: success
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pytest-relaxed]: Downloading https://files.pythonhosted.org/packages/a0/b9/8935faaef0998fc1e396b87246d79860675dd067b5ef236cf1d7c71f9358/pytest-relaxed-2.0.1.tar.gz
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pytest-relaxed]: executing diffoscope
+[2023-05-23 05:24:21] INFO root fetch - processPackages [pytest-relaxed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-relaxed-2.0.0.tar.gz tmp/pytest-relaxed-2.0.1.tar.gz --markdown 20230523/p/pytest-relaxed/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-23 05:24:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-05-23 05:24:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice]: success
+[2023-05-23 05:24:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-05-23 05:24:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-05-23 05:24:22] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fleet-vehicle-inspection-template]: success
+[2023-05-23 05:24:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fleet-vehicle-inspection-template]: success
+[2023-05-23 05:24:23] INFO root fetch - main [MainThread]: End processing [pytest-relaxed]: success
+[2023-05-23 05:24:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2023-05-23 05:24:28] INFO root fetch - main [MainThread]: Store serial: [18208417]

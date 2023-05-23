@@ -7708,3 +7708,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:08:20] INFO root fetch - main [MainThread]: End processing [odoo9-addon-quality-control]: success
 [2023-05-23 06:08:22] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-05-23 06:08:22] INFO root fetch - main [MainThread]: Store serial: [18208715]
+[2023-05-23 06:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208715]
+[2023-05-23 06:13:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-quality-control-oca
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-manufacture
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanalyze
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoxx
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pathling
+[2023-05-23 06:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [autoxx]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: New version: [14.0.20230522.0] Old Version: [14.0.20230320.0]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pyanalyze]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pathling]: New version: [6.2.0.dev0] Old Version: [6.2.0]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [dvc]: New version: [3.0.0a0] Old Version: [2.9.5]
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pyanalyze]: Downloading https://files.pythonhosted.org/packages/80/81/e51d25e8296d30ce900c4aca15b0d5b0d3666989fdde640fc8b69e1df408/pyanalyze-0.8.0.tar.gz
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/5e/67/96d5ba10189249c099334c8db737e567ac38caf3cb64c5ad5d901b713c6c/pathling-6.2.0.tar.gz
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/ef/30/3404f12c62d33fbff649b63d99860c55046a7faab2e36bb2b6bc57dad31f/odoo14_addons_oca_manufacture-14.0.20230320.0-py3-none-any.whl
+[2023-05-23 06:13:31] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/5e/05/3b99d2cad9ffba93319207459173725eed781ff113497a93cf7485ee19e8/autoxx-0.0.19.tar.gz
+[2023-05-23 06:13:31] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/ce/d3/6f1d01a6b21709fc382077a24e835e203e6c2176aa87048ee5230418ec3a/dvc-3.0.0a0.tar.gz
+[2023-05-23 06:13:31] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 06:13:31] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.18.tar.gz tmp/autoxx-0.0.19.tar.gz --markdown 20230523/a/autoxx/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/4c/7c/7feb82c274edccefaab7f959388e23bc83628317fc037298f7388504a3b9/odoo_addon_quality_control_oca-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-23 06:13:31] WARNING root fetch - processPackages [pathling]: Skipping package: exceeds size limit 59644165>=10485760
+[2023-05-23 06:13:31] INFO root fetch - main [MainThread]: End processing [pathling] error
+[2023-05-23 06:13:31] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-23 06:13:31] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.5.tar.gz tmp/dvc-3.0.0a0.tar.gz --markdown 20230523/d/dvc/2.9.5-3.0.0a0/diff.md --exclude *.pyd
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/43/81/b768e6c281d0690e9b7cb82f6b78eaf98e5a9629027a032512813ff527ef/odoo14_addons_oca_manufacture-14.0.20230522.0-py3-none-any.whl
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-quality-control-oca/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pyanalyze]: Downloading https://files.pythonhosted.org/packages/8d/08/84b99031bff93f28da513af6336a9bc27b728c2748b50132fc21f8a34bf0/pyanalyze-0.9.0.tar.gz
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: executing diffoscope
+[2023-05-23 06:13:31] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture-14.0.20230320.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture-14.0.20230522.0-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addons-oca-manufacture/14.0.20230320.0-14.0.20230522.0/diff.md --exclude *.pyd
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pyanalyze]: executing diffoscope
+[2023-05-23 06:13:31] INFO root fetch - processPackages [pyanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanalyze-0.8.0.tar.gz tmp/pyanalyze-0.9.0.tar.gz --markdown 20230523/p/pyanalyze/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 06:13:32] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 06:13:32] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture]: success
+[2023-05-23 06:13:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-05-23 06:13:34] INFO root fetch - main [MainThread]: End processing [pyanalyze]: success
+[2023-05-23 06:13:42] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-23 06:13:42] INFO root fetch - main [MainThread]: Store serial: [18208736]

@@ -10234,3 +10234,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:13:29] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-05-23 09:13:42] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-23 09:13:42] INFO root fetch - main [MainThread]: Store serial: [18210120]
+[2023-05-23 09:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210120]
+[2023-05-23 09:18:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olive-ai
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparrow-order-lib
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-python-utilities
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-wrapper
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stopcli
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: php2py
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-hub-nightly
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finpy-tse
+[2023-05-23 09:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qufit
+[2023-05-23 09:18:51] INFO root fetch - processPackages [olive-ai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [finpy-tse]: New version: [1.2.3] Old Version: [1.2.1]
+[2023-05-23 09:18:51] WARNING root fetch - processPackages [stopcli]: Skipping, unable to determine old version
+[2023-05-23 09:18:51] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [stopcli]: Start processing: sgid-client
+[2023-05-23 09:18:51] INFO root fetch - main [MainThread]: End processing [stopcli] error
+[2023-05-23 09:18:51] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.0] Old Version: [4.13.9]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [php2py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [sgid-client]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-05-23 09:18:51] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/3b/04/57f89dbf424d5c1a414ac827dc50e99a1219988536595447f91be64eefbb/finpy_tse-1.2.1.tar.gz
+[2023-05-23 09:18:51] INFO root fetch - processPackages [php2py]: Downloading https://files.pythonhosted.org/packages/2d/b0/bfd5d02be99c2e4499cc4b24a7827fa9c26ad5f03e3fedcab5ce539614da/php2py-0.1.0.tar.gz
+[2023-05-23 09:18:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-23 09:18:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230523/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 09:18:51] INFO root fetch - processPackages [sgid-client]: Downloading https://files.pythonhosted.org/packages/5d/70/34c48973a9de63b39a5ad43b7748f8c171da849e60c67b7145c53867e715/sgid_client-0.1.0.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/e6/6b/fdac3f60895cbf3cf00aef74556421caab6829d6151f771b72fab35ef169/openshift-python-utilities-4.14.0.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/b3/3b/ee721b7bde5957f546163fed6d6987f389b077722a83029d3555317ecb03/sparrow-order-lib-0.1.96.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.9.tar.gz tmp/openshift-python-utilities-4.14.0.tar.gz --markdown 20230523/o/openshift-python-utilities/4.13.9-4.14.0/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.95.tar.gz tmp/sparrow-order-lib-0.1.96.tar.gz --markdown 20230523/s/sparrow-order-lib/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230523/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/d3/a6/21f584a293a9da17a2d0de47a350a7ef84368aa62407f807647f58ce1e8c/olive_ai-0.2.1-py3-none-any.whl
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sgid-client]: Downloading https://files.pythonhosted.org/packages/2f/23/138adedf99fa1a9600799050d64c04e96a4ac5897b3b58c896584c21c41e/sgid_client-0.1.0a0.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [php2py]: Downloading https://files.pythonhosted.org/packages/b0/92/0775d0cb768fa774f1598beab5633b232fcd9cce1d27cac6d9dcb0f7588b/php2py-0.1.1.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [olive-ai]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [olive-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olive_ai-0.2.0-py3-none-any.whl.zip tmp/olive_ai-0.2.1-py3-none-any.whl.zip --markdown 20230523/o/olive-ai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/90/eb/96d2da4af7102ff238dbb32baeab94a46f7b687e4871f4714d1b21430e58/finpy_tse-1.2.3.tar.gz
+[2023-05-23 09:18:52] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230523/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [php2py]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [php2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/php2py-0.1.0.tar.gz tmp/php2py-0.1.1.tar.gz --markdown 20230523/p/php2py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230523/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [finpy-tse]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [finpy-tse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finpy_tse-1.2.1.tar.gz tmp/finpy_tse-1.2.3.tar.gz --markdown 20230523/f/finpy-tse/1.2.1-1.2.3/diff.md --exclude *.pyd
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sgid-client]: executing diffoscope
+[2023-05-23 09:18:52] INFO root fetch - processPackages [sgid-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgid_client-0.1.0.tar.gz tmp/sgid_client-0.1.0a0.tar.gz --markdown 20230523/s/sgid-client/0.1.0-0.1.0a0/diff.md --exclude *.pyd
+[2023-05-23 09:18:53] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: sqladmin
+[2023-05-23 09:18:53] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-23 09:18:53] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 09:18:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: th2-check2-recon
+[2023-05-23 09:18:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-23 09:18:53] INFO root fetch - main [MainThread]: End processing [sgid-client]: success
+[2023-05-23 09:18:53] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-05-23 09:18:54] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-05-23 09:18:54] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230523/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-05-23 09:18:54] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2023-05-23 09:18:54] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-05-23 09:18:54] INFO root fetch - main [MainThread]: End processing [php2py]: success
+[2023-05-23 09:18:54] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-05-23 09:18:54] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-05-23 09:18:54] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2023-05-23 09:18:54] INFO root fetch - main [MainThread]: End processing [finpy-tse]: success
+[2023-05-23 09:18:54] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-05-23 09:18:54] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230523/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 09:18:55] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-05-23 09:18:55] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-05-23 09:18:55] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
+[2023-05-23 09:18:56] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-05-23 09:18:56] INFO root fetch - main [MainThread]: Store serial: [18210156]

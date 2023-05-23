@@ -7405,3 +7405,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [align4d]: success
 [2023-05-23 05:46:43] INFO root fetch - main [MainThread]: End processing [bookocr]: success
 [2023-05-23 05:46:43] INFO root fetch - main [MainThread]: Store serial: [18208562]
+[2023-05-23 05:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18208562]
+[2023-05-23 05:51:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-l10n-lu-ecdf
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyComputer
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkkang-utils
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyMSVC
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkkang-utils
+[2023-05-23 05:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-doc-py
+[2023-05-23 05:51:55] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: New version: [8.0.1.1.0.99.dev8] Old Version: [8.0.1.1.0.99.dev7]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [pyMSVC]: New version: [0.5.1] Old Version: [0.4.0]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [7.0.7] Old Version: [7.0.6]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [PyComputer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [dbt-doc-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 05:51:55] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Downloading https://files.pythonhosted.org/packages/d4/2d/059e8f1b666286c3017c03ac365333e73a855e832e0de3eb790189279e53/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev7-py2-none-any.whl
+[2023-05-23 05:51:55] INFO root fetch - processPackages [PyComputer]: Downloading https://files.pythonhosted.org/packages/e3/d9/2a0954ddae0a638bba69b765a37ec7e21a834ddd0adbbdb5aaa49a91242f/PyComputer-1.0.0.tar.gz
+[2023-05-23 05:51:55] INFO root fetch - processPackages [pyMSVC]: Downloading https://files.pythonhosted.org/packages/b0/f5/5275cf004a214b9a73ad39eedbe548145a0999dab49494f76df06f0bf27a/pyMSVC-0.4.0.tar.gz
+[2023-05-23 05:51:55] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/ca/f4/16b4b9685d6faa882d6f13cd85038c34922c8f87b1aacacc0f57b3489276/cdktf-cdktf-provider-google-7.0.6.tar.gz
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/c0/d5/f3dc269e696d423559ce0867d37d4044dd6244c52a3ec001a9d74a999cd6/hkkang_utils-0.1.90.tar.gz
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/c0/d5/f3dc269e696d423559ce0867d37d4044dd6244c52a3ec001a9d74a999cd6/hkkang_utils-0.1.90.tar.gz
+[2023-05-23 05:51:55] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 19101746>=10485760
+[2023-05-23 05:51:55] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.9.tar.gz tmp/hkkang_utils-0.1.90.tar.gz --markdown 20230523/h/hkkang-utils/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-05-23 05:51:55] INFO root fetch - processPackages [PyComputer]: Downloading https://files.pythonhosted.org/packages/83/ee/71b275b0252ceb572305441562b4eaaf1ee70d2881934a7ad9f7b8170020/PyComputer-1.0.1.tar.gz
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-23 05:51:55] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.9.tar.gz tmp/hkkang_utils-0.1.90.tar.gz --markdown 20230523/h/hkkang-utils/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-05-23 05:51:56] INFO root fetch - processPackages [dbt-doc-py]: executing diffoscope
+[2023-05-23 05:51:56] INFO root fetch - processPackages [dbt-doc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doc-py-0.1.8.tar.gz tmp/dbt-doc-py-0.1.9.tar.gz --markdown 20230523/d/dbt-doc-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 05:51:56] INFO root fetch - processPackages [PyComputer]: executing diffoscope
+[2023-05-23 05:51:56] INFO root fetch - processPackages [PyComputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyComputer-1.0.0.tar.gz tmp/PyComputer-1.0.1.tar.gz --markdown 20230523/P/PyComputer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 05:51:56] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Downloading https://files.pythonhosted.org/packages/ae/85/c0b897a6e220eb5c62981b3d69c31d3cf80b4a9853549ba9905cb401fff9/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-05-23 05:51:56] INFO root fetch - processPackages [pyMSVC]: Downloading https://files.pythonhosted.org/packages/3c/72/d341cee84c4a8c41bc44c3d276b84d34a0632199e782fa0eb0cc86a8a032/pyMSVC-0.5.1.tar.gz
+[2023-05-23 05:51:56] INFO root fetch - processPackages [pyMSVC]: executing diffoscope
+[2023-05-23 05:51:56] INFO root fetch - processPackages [pyMSVC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMSVC-0.4.0.tar.gz tmp/pyMSVC-0.5.1.tar.gz --markdown 20230523/p/pyMSVC/0.4.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-23 05:51:56] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: executing diffoscope
+[2023-05-23 05:51:56] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev8-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-l10n-lu-ecdf/8.0.1.1.0.99.dev7-8.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [dbt-doc-py]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [PyComputer]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [pyMSVC]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-lu-ecdf]: success
+[2023-05-23 05:51:57] INFO root fetch - main [MainThread]: Store serial: [18208580]

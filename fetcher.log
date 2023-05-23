@@ -22642,3 +22642,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:29:09] INFO root fetch - main [MainThread]: End processing [np-session]: success
 [2023-05-23 19:29:15] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-23 19:29:15] INFO root fetch - main [MainThread]: Store serial: [18217643]
+[2023-05-23 19:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217643]
+[2023-05-23 19:34:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Candataloader
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-pipeline-qc
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarracen
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-account
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotON_sdk
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: x-dgcnn
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kgeneric
+[2023-05-23 19:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meow-sim
+[2023-05-23 19:34:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.6.0.2] Old Version: [14.0.6.0.1.dev1]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.995] Old Version: [0.0.4.994]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [Candataloader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [x-dgcnn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [np-pipeline-qc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-05-23 19:34:25] WARNING root fetch - processPackages [kgeneric]: Skipping, unable to determine old version
+[2023-05-23 19:34:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.6.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.6.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-l10n-br-account/14.0.6.0.1.dev1-14.0.6.0.2/diff.md --exclude *.pyd
+[2023-05-23 19:34:25] INFO root fetch - processPackages [kgeneric]: Start processing: opvious
+[2023-05-23 19:34:25] INFO root fetch - main [MainThread]: End processing [kgeneric] error
+[2023-05-23 19:34:25] INFO root fetch - processPackages [sarracen]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-23 19:34:25] INFO root fetch - processPackages [meow-sim]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230523/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 19:34:25] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-23 19:34:25] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-23 19:34:25] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230523/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 19:34:25] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/9e/1f/8d92eba535b596d59e7fdc83ca495c1a239228e1e2e7e825b9f1ed3ddce4/x-dgcnn-0.1.1.tar.gz
+[2023-05-23 19:34:25] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/21/af/49b947d40e470a59280a5875c9518a574a3a7ab9dc4d6549a7ddb0b3960f/spotON_sdk-0.0.4.995.tar.gz
+[2023-05-23 19:34:25] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-23 19:34:25] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230523/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-23 19:34:25] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/7a/99/82bb931f355fc064269d8c91c329fe9a2253637073607182ff830e40f8dd/Candataloader-1.0.0.tar.gz
+[2023-05-23 19:34:25] INFO root fetch - processPackages [sarracen]: Downloading https://files.pythonhosted.org/packages/02/12/5ebdb06dc9897f2578be14a17847fd53d5f55e38a00088b7cf11e80abfa7/sarracen-1.2.0.tar.gz
+[2023-05-23 19:34:25] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-23 19:34:25] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.994.tar.gz tmp/spotON_sdk-0.0.4.995.tar.gz --markdown 20230523/s/spotON_sdk/0.0.4.994-0.0.4.995/diff.md --exclude *.pyd
+[2023-05-23 19:34:26] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/ad/79/02ad142d25187cb5e87d7570b789a7b3fe481b72e55662c3c6cbda6d8eeb/meow-sim-0.3.1.tar.gz
+[2023-05-23 19:34:26] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/73/a9/b59b64a03460b45c0b9c42a707a2e169e34fa04d87c1ccc6f2971c2a7c6b/x-dgcnn-0.1.2.tar.gz
+[2023-05-23 19:34:26] INFO root fetch - processPackages [Candataloader]: Downloading https://files.pythonhosted.org/packages/ea/23/907fcd8b52f2511d3ceec22e98cbb0732ad25c7bdbd47cf342c38a77babf/Candataloader-1.0.1.tar.gz
+[2023-05-23 19:34:26] INFO root fetch - processPackages [np-pipeline-qc]: executing diffoscope
+[2023-05-23 19:34:26] INFO root fetch - processPackages [np-pipeline-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-pipeline-qc-0.0.8.tar.gz tmp/np-pipeline-qc-0.0.9.tar.gz --markdown 20230523/n/np-pipeline-qc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:34:26] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-05-23 19:34:26] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.0.tar.gz tmp/meow-sim-0.3.1.tar.gz --markdown 20230523/m/meow-sim/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 19:34:26] INFO root fetch - processPackages [x-dgcnn]: executing diffoscope
+[2023-05-23 19:34:26] INFO root fetch - processPackages [x-dgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-dgcnn-0.1.1.tar.gz tmp/x-dgcnn-0.1.2.tar.gz --markdown 20230523/x/x-dgcnn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 19:34:26] INFO root fetch - processPackages [Candataloader]: executing diffoscope
+[2023-05-23 19:34:26] INFO root fetch - processPackages [Candataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Candataloader-1.0.0.tar.gz tmp/Candataloader-1.0.1.tar.gz --markdown 20230523/C/Candataloader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 19:34:26] INFO root fetch - processPackages [sarracen]: Downloading https://files.pythonhosted.org/packages/23/36/2b5a52f35a7486a45975189ea007f302ec1107ce177aa43a7bc46c8e986d/sarracen-1.2.1.tar.gz
+[2023-05-23 19:34:26] INFO root fetch - processPackages [sarracen]: executing diffoscope
+[2023-05-23 19:34:26] INFO root fetch - processPackages [sarracen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarracen-1.2.0.tar.gz tmp/sarracen-1.2.1.tar.gz --markdown 20230523/s/sarracen/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-23 19:34:27] INFO root fetch - processPackages [opvious]: Start processing: pubpaste
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: modal-client
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [spotON_sdk]: Start processing: docxreviews2txt
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [docxreviews2txt]: New version: [0.3] Old Version: [0.2]
+[2023-05-23 19:34:27] INFO root fetch - processPackages [modal-client]: New version: [0.49.2236] Old Version: [0.49.2230]
+[2023-05-23 19:34:27] INFO root fetch - processPackages [pubpaste]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-23 19:34:27] INFO root fetch - processPackages [docxreviews2txt]: Downloading https://files.pythonhosted.org/packages/2f/19/4f59ebbccc6874cc184f5f6c57d6ca80bc797d1f087367cd37e69c78d28a/docxreviews2txt-0.2.tar.gz
+[2023-05-23 19:34:27] INFO root fetch - processPackages [Candataloader]: Start processing: mygrations
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [Candataloader]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [pubpaste]: Downloading https://files.pythonhosted.org/packages/17/0d/2dd686f18125f5588da78634a07d3438b13bec4bcb5cda978d23bf7d670e/pubpaste-0.8.3-py3-none-any.whl
+[2023-05-23 19:34:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Start processing: MGP-SDK
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/04/58/695b212bf4bbff9342e536b420971bb74c27974f94dbb3de7df78c42765f/modal_client-0.49.2236-py3-none-any.whl
+[2023-05-23 19:34:27] INFO root fetch - processPackages [mygrations]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-05-23 19:34:27] INFO root fetch - main [MainThread]: End processing [x-dgcnn]: success
+[2023-05-23 19:34:27] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-23 19:34:27] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2230-py3-none-any.whl.zip tmp/modal_client-0.49.2236-py3-none-any.whl.zip --markdown 20230523/m/modal-client/0.49.2230-0.49.2236/diff.md --exclude *.pyd
+[2023-05-23 19:34:28] INFO root fetch - processPackages [docxreviews2txt]: executing diffoscope
+[2023-05-23 19:34:28] INFO root fetch - processPackages [docxreviews2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docxreviews2txt-0.2.tar.gz tmp/docxreviews2txt-0.3.tar.gz --markdown 20230523/d/docxreviews2txt/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-23 19:34:28] INFO root fetch - processPackages [pubpaste]: Downloading https://files.pythonhosted.org/packages/ae/e4/f97dfec4aae3ad580c96b65717ee92f75b7d686f133e799bf2e22e1e76ba/pubpaste-0.8.4-py3-none-any.whl
+[2023-05-23 19:34:28] INFO root fetch - processPackages [MGP-SDK]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-23 19:34:28] INFO root fetch - processPackages [mygrations]: Downloading https://files.pythonhosted.org/packages/09/67/59be7ff10343b59bc9619f666056784738bf37088931c4a9c3383fc04ed8/mygrations-1.0.4.tar.gz
+[2023-05-23 19:34:28] INFO root fetch - processPackages [pubpaste]: executing diffoscope
+[2023-05-23 19:34:28] INFO root fetch - processPackages [pubpaste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubpaste-0.8.3-py3-none-any.whl.zip tmp/pubpaste-0.8.4-py3-none-any.whl.zip --markdown 20230523/p/pubpaste/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-23 19:34:28] INFO root fetch - processPackages [MGP-SDK]: Downloading https://files.pythonhosted.org/packages/56/a3/8a50df4b28c6ba0cf1c98c59f8653c1dc95e8becd715b7a657091367ce91/MGP_SDK-1.1.1.tar.gz
+[2023-05-23 19:34:28] INFO root fetch - processPackages [mygrations]: Downloading https://files.pythonhosted.org/packages/73/f9/a3c5a69dda80c8852becbc233b9eb79d318c7391ca3592b10ee827a890e4/mygrations-1.0.5.tar.gz
+[2023-05-23 19:34:28] INFO root fetch - processPackages [MGP-SDK]: executing diffoscope
+[2023-05-23 19:34:28] INFO root fetch - processPackages [MGP-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGP_SDK-1.1.0.tar.gz tmp/MGP_SDK-1.1.1.tar.gz --markdown 20230523/M/MGP-SDK/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 19:34:28] INFO root fetch - processPackages [mygrations]: executing diffoscope
+[2023-05-23 19:34:28] INFO root fetch - processPackages [mygrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrations-1.0.4.tar.gz tmp/mygrations-1.0.5.tar.gz --markdown 20230523/m/mygrations/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 19:34:28] INFO root fetch - main [MainThread]: End processing [sarracen]: success
+[2023-05-23 19:34:29] INFO root fetch - main [MainThread]: End processing [pubpaste]: success
+[2023-05-23 19:34:29] INFO root fetch - main [MainThread]: End processing [docxreviews2txt]: success
+[2023-05-23 19:34:29] INFO root fetch - main [MainThread]: End processing [np-pipeline-qc]: success
+[2023-05-23 19:34:29] INFO root fetch - main [MainThread]: End processing [MGP-SDK]: success
+[2023-05-23 19:34:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-23 19:34:30] INFO root fetch - main [MainThread]: End processing [mygrations]: success
+[2023-05-23 19:34:31] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-23 19:34:31] INFO root fetch - main [MainThread]: Store serial: [18217691]

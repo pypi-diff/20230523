@@ -14210,3 +14210,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:57:01] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-23 12:57:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-23 12:57:03] INFO root fetch - main [MainThread]: Store serial: [18212524]
+[2023-05-23 13:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212524]
+[2023-05-23 13:02:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: functions-trio
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-framework
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrew
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csv-parakeet
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcf-backend
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funke-enrichment-core
+[2023-05-23 13:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2023-05-23 13:02:12] INFO root fetch - processPackages [common-framework]: New version: [2023.5.1] Old Version: [2023.2.1]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:02:12] WARNING root fetch - processPackages [functions-trio]: Skipping, unable to determine old version
+[2023-05-23 13:02:12] INFO root fetch - main [MainThread]: End processing [functions-trio] error
+[2023-05-23 13:02:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202305231059] Old Version: [99.0.202305221957]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [csv-parakeet]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-23 13:02:12] INFO root fetch - processPackages [hcf-backend]: New version: [0.5.2.4] Old Version: [0.5.2.3]
+[2023-05-23 13:02:13] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [funke-enrichment-core]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 13:02:13] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [common-framework]: Downloading https://files.pythonhosted.org/packages/ed/e4/d74a1f3f5b87c1fb0f35300efe5367f1a357dda83e2af5a36cb32c4d1da2/common_framework-2023.2.1-py3-none-any.whl
+[2023-05-23 13:02:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/92/85/88d3f2c814c33f3f88e6d98a68eb5fd1bb82e4d8910c5146d347019ed147/kfish-99.0.202305231059-py3-none-any.whl
+[2023-05-23 13:02:13] INFO root fetch - processPackages [csv-parakeet]: Downloading https://files.pythonhosted.org/packages/01/cf/36b29b05bfb4d7cd98e447d3e468fc879b231abba329ee6617b4fa3da9bf/csv_parakeet-1.0.0.tar.gz
+[2023-05-23 13:02:13] INFO root fetch - processPackages [funke-enrichment-core]: Downloading https://files.pythonhosted.org/packages/f9/62/2507f076d879ba3390f29a2a33133304511373bfcff43edcea0953323ed9/funke_enrichment_core-1.8.tar.gz
+[2023-05-23 13:02:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305221957-py3-none-any.whl.zip tmp/kfish-99.0.202305231059-py3-none-any.whl.zip --markdown 20230523/k/kfish/99.0.202305221957-99.0.202305231059/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [hcf-backend]: Downloading https://files.pythonhosted.org/packages/15/76/55ced8771be83c5fee4d6b7750b86de74acdd4fc9a0a3a684efe0e663565/hcf-backend-0.5.2.4.tar.gz
+[2023-05-23 13:02:13] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230523/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [csv-parakeet]: Downloading https://files.pythonhosted.org/packages/21/be/802239b9ca562e246755f21a90c8a3fc890048aac2f4f1eeb4424828a6c5/csv_parakeet-1.0.1.tar.gz
+[2023-05-23 13:02:13] INFO root fetch - processPackages [funke-enrichment-core]: Downloading https://files.pythonhosted.org/packages/4e/c2/5bb95dbc845ea2c67c3d384a6b4c88212f3e88a458b02b9ac2a6031049fa/funke_enrichment_core-1.9.tar.gz
+[2023-05-23 13:02:13] INFO root fetch - processPackages [common-framework]: Downloading https://files.pythonhosted.org/packages/79/e8/b081aab44daa30f30def1ca3908ee522729ad5aba554f915b561718893cb/common_framework-2023.5.1-py3-none-any.whl
+[2023-05-23 13:02:13] INFO root fetch - processPackages [csv-parakeet]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [csv-parakeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_parakeet-1.0.0.tar.gz tmp/csv_parakeet-1.0.1.tar.gz --markdown 20230523/c/csv-parakeet/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [funke-enrichment-core]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [funke-enrichment-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funke_enrichment_core-1.8.tar.gz tmp/funke_enrichment_core-1.9.tar.gz --markdown 20230523/f/funke-enrichment-core/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [hcf-backend]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [hcf-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcf-backend-0.5.2.3.tar.gz tmp/hcf-backend-0.5.2.4.tar.gz --markdown 20230523/h/hcf-backend/0.5.2.3-0.5.2.4/diff.md --exclude *.pyd
+[2023-05-23 13:02:13] INFO root fetch - processPackages [common-framework]: executing diffoscope
+[2023-05-23 13:02:13] INFO root fetch - processPackages [common-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_framework-2023.2.1-py3-none-any.whl.zip tmp/common_framework-2023.5.1-py3-none-any.whl.zip --markdown 20230523/c/common-framework/2023.2.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-23 13:02:14] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 13:02:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-23 13:02:14] INFO root fetch - main [MainThread]: End processing [csv-parakeet]: success
+[2023-05-23 13:02:14] INFO root fetch - main [MainThread]: End processing [funke-enrichment-core]: success
+[2023-05-23 13:02:14] INFO root fetch - main [MainThread]: End processing [hcf-backend]: success
+[2023-05-23 13:02:15] INFO root fetch - main [MainThread]: End processing [common-framework]: success
+[2023-05-23 13:02:15] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-23 13:02:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:02:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 13:02:17] INFO root fetch - main [MainThread]: Store serial: [18212572]

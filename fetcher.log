@@ -8453,3 +8453,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:51:39] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-rental]: success
 [2023-05-23 06:51:39] INFO root fetch - main [MainThread]: End processing [bumble]: success
 [2023-05-23 06:51:39] INFO root fetch - main [MainThread]: Store serial: [18209068]
+[2023-05-23 06:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209068]
+[2023-05-23 06:56:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-sale-isolated-quotation
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-sale-product-set
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo11-addon-sale-product-set
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sale-blanket-order
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alignn
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argus-alm
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nspyre
+[2023-05-23 06:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-elaboration
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-isolated-quotation]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-product-set]: New version: [11.0.1.1.0.99.dev3] Old Version: [11.0.1.1.0.99.dev2]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo10-addon-sale-product-set]: New version: [10.0.1.0.2.99.dev9] Old Version: [10.0.1.0.2.99.dev8]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [15.0.3.1.0.1] Old Version: [15.0.3.1.0]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [alignn]: New version: [2023.5.3] Old Version: [2023.5.20]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [nspyre]: New version: [0.6.0.1] Old Version: [0.6.0]
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-isolated-quotation]: Downloading https://files.pythonhosted.org/packages/5a/1b/36210bc66b5c5d903134315508560938dd8005e8b7a9d40fb9c445dff53b/odoo11_addon_sale_isolated_quotation-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/fb/28/5f172c06526716720f5149eceecb7306f2a2efda3e9b92ff5f76b31ab6c0/odoo11_addon_sale_product_set-11.0.1.1.0.99.dev2-py2.py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo10-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/67/a9/f704a370476ed0ae76c8698fde31cb8d363617566f7c55c7b2a680348dff/odoo10_addon_sale_product_set-10.0.1.0.2.99.dev8-py2-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/df/cf/e95ce9ab2dddb734a9d3f6f4b93da7c31c890e6afd58db0ed1b0843c4ecb/odoo_addon_sale_elaboration-15.0.3.1.0.1-py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/cc/d9/3d347f8997b06fa0fb9cef0155642378ef9aef6f61a1d9f6764dfe8fa8e2/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [alignn]: Downloading https://files.pythonhosted.org/packages/94/20/0b6537a66bc0648ddfbb9dd0ab05470ca24a6756fd0d9e32c29fdc201e85/alignn-2023.5.20.tar.gz
+[2023-05-23 06:56:50] INFO root fetch - processPackages [nspyre]: Downloading https://files.pythonhosted.org/packages/97/d8/f64aa8df1476a04182378bb5cf48395da78bcd49cc6c536b81b440f46203/nspyre-0.6.0.1.tar.gz
+[2023-05-23 06:56:50] WARNING root fetch - processPackages [alignn]: Skipping package: exceeds size limit 30080696>=10485760
+[2023-05-23 06:56:50] INFO root fetch - main [MainThread]: End processing [alignn] error
+[2023-05-23 06:56:50] INFO root fetch - processPackages [nspyre]: executing diffoscope
+[2023-05-23 06:56:50] INFO root fetch - processPackages [nspyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nspyre-0.6.0.tar.gz tmp/nspyre-0.6.0.1.tar.gz --markdown 20230523/n/nspyre/0.6.0-0.6.0.1/diff.md --exclude *.pyd
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-15.0.3.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-15.0.3.1.0.1-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-sale-elaboration/15.0.3.1.0-15.0.3.1.0.1/diff.md --exclude *.pyd
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-isolated-quotation]: Downloading https://files.pythonhosted.org/packages/70/40/e8b23676f8d11e0d1c7bcb642af66c07e1d52f03a5d5a525f5082670d24a/odoo11_addon_sale_isolated_quotation-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2023-05-23 06:56:50] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20230523/a/argus-alm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/10/6d/3518762e21a3611531b5bd9038529ede4065c72ab565aa04a3a090e063ac/odoo11_addon_sale_product_set-11.0.1.1.0.99.dev3-py2.py3-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo10-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/5b/b6/5ec2de9b84135f03b859f1ce1b5984d46044afda90a5309017b692c21a21/odoo10_addon_sale_product_set-10.0.1.0.2.99.dev9-py2-none-any.whl
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-isolated-quotation]: executing diffoscope
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-isolated-quotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_isolated_quotation-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_isolated_quotation-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230523/o/odoo11-addon-sale-isolated-quotation/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-product-set]: executing diffoscope
+[2023-05-23 06:56:50] INFO root fetch - processPackages [odoo11-addon-sale-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_product_set-11.0.1.1.0.99.dev2-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_product_set-11.0.1.1.0.99.dev3-py2.py3-none-any.whl.zip --markdown 20230523/o/odoo11-addon-sale-product-set/11.0.1.1.0.99.dev2-11.0.1.1.0.99.dev3/diff.md --exclude *.pyd
+[2023-05-23 06:56:51] INFO root fetch - processPackages [odoo10-addon-sale-product-set]: executing diffoscope
+[2023-05-23 06:56:51] INFO root fetch - processPackages [odoo10-addon-sale-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_sale_product_set-10.0.1.0.2.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_sale_product_set-10.0.1.0.2.99.dev9-py2-none-any.whl.zip --markdown 20230523/o/odoo10-addon-sale-product-set/10.0.1.0.2.99.dev8-10.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:56:51] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/1e/45/6dbdb3eee4920a7de3bc5944fd8341d9b5bc029ad486041447963cf1f074/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-05-23 06:56:51] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: executing diffoscope
+[2023-05-23 06:56:51] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo12-addon-sale-blanket-order/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [nspyre]: success
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-isolated-quotation]: success
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-product-set]: success
+[2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
+[2023-05-23 06:56:53] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-product-set]: success
+[2023-05-23 06:56:53] INFO root fetch - main [MainThread]: Store serial: [18209090]

@@ -4406,3 +4406,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
 [2023-05-23 03:50:54] INFO root fetch - main [MainThread]: End processing [torch-activation]: success
 [2023-05-23 03:50:54] INFO root fetch - main [MainThread]: Store serial: [18207095]
+[2023-05-23 03:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207095]
+[2023-05-23 03:56:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-db
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ana-sdk
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmADTs
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sidetrek
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-tools
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-redisdb
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phidata
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweetrpg-web-core
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweetrpg-api-core
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweetrpg-library-objects
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sweetrpg-db]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [openai-tools]: New version: [0.0.0.1.dev2] Old Version: [0.0.0.1.dev1]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [cdk-redisdb]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ana-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [phidata]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/46/1e/c9fd22cbc5517fe752e8eafa256a2dbd233423aaeda19af0ad5455a54d41/sidetrek-0.0.81.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [openai-tools]: Downloading https://files.pythonhosted.org/packages/8f/d3/1890ec867a8581dd14c32e8c63a4c90a55f138250d979b2e3b501fc6d86c/openai-tools-0.0.0.1.dev2.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/35/f8/c78bd8c1adbbe8a5a542c19977a7587b7427fe821f929b2c804e03db585a/phidata-1.6.9.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/50/9c/dd5be8fcf5064d68033190c2b49f5f9979d28b926edcf4eb0b8f407388ab/algorithmadts-0.2.0.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/2e/32/f39b9fb32e9937a30f57e1798df40c1e8249d7c6c03f71f74f18264e92ab/ana_sdk-0.1.2.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/7e/57/f7a04c7445d5a66a3d484e06fe4f41ee17b160997e16bdc807dc22e07fbe/cdk-redisdb-0.0.25.tar.gz
+[2023-05-23 03:56:03] INFO root fetch - processPackages [openai-tools]: executing diffoscope
+[2023-05-23 03:56:03] INFO root fetch - processPackages [openai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-tools-0.0.0.1.dev1.tar.gz tmp/openai-tools-0.0.0.1.dev2.tar.gz --markdown 20230523/o/openai-tools/0.0.0.1.dev1-0.0.0.1.dev2/diff.md --exclude *.pyd
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-23 03:56:03] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.81.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230523/s/sidetrek/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-05-23 03:56:03] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.1.1.tar.gz tmp/ana_sdk-0.1.2.tar.gz --markdown 20230523/a/ana-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 03:56:03] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-23 03:56:03] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.8.tar.gz tmp/phidata-1.6.9.tar.gz --markdown 20230523/p/phidata/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 03:56:03] INFO root fetch - processPackages [cdk-redisdb]: executing diffoscope
+[2023-05-23 03:56:03] INFO root fetch - processPackages [cdk-redisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-redisdb-0.0.24.tar.gz tmp/cdk-redisdb-0.0.25.tar.gz --markdown 20230523/c/cdk-redisdb/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-db]: executing diffoscope
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-db-0.0.98.tar.gz tmp/sweetrpg-db-0.0.99.tar.gz --markdown 20230523/s/sweetrpg-db/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230523/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230523/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:56:04] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/eb/74/26dd6ac53c52a630cc7467e8b656794128181884d150ec6f1d3519813d3f/algorithmadts-0.2.1.tar.gz
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-05-23 03:56:04] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230523/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:56:04] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-23 03:56:04] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.2.0.tar.gz tmp/algorithmadts-0.2.1.tar.gz --markdown 20230523/A/AlgorithmADTs/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 03:56:05] INFO root fetch - processPackages [ana-sdk]: Start processing: mlbi-at-dku-lib
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-05-23 03:56:05] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 03:56:05] INFO root fetch - processPackages [openai-tools]: Start processing: mlforecast
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [openai-tools]: success
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [cdk-redisdb]: success
+[2023-05-23 03:56:05] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/8b/d8/830d915b0947d94e2599ca760768dee29064e8780ea9d2f3a8b451a2dcf5/mlbi_at_dku_lib-0.1.0.tar.gz
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-05-23 03:56:05] INFO root fetch - processPackages [mlforecast]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-23 03:56:05] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/73/a1/ca19b1b4826afff90c62065fa11e3f9de06a83ed00c96178b026badf72e5/mlbi_at_dku_lib-0.1.1.tar.gz
+[2023-05-23 03:56:05] INFO root fetch - main [MainThread]: End processing [sweetrpg-db]: success
+[2023-05-23 03:56:05] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/74/1d/7e529fc47b477c8e5b987e39ac7ef3894ddcd4ed86f056c42e415298e661/mlforecast-0.7.2.tar.gz
+[2023-05-23 03:56:06] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-05-23 03:56:06] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.0.tar.gz tmp/mlbi_at_dku_lib-0.1.1.tar.gz --markdown 20230523/m/mlbi-at-dku-lib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 03:56:06] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-05-23 03:56:06] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/78/1f/ec9a0dc0e4728158a04bb664a7110fac681fa3b0c440af4e8886004a6a18/mlforecast-0.7.3.tar.gz
+[2023-05-23 03:56:06] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-05-23 03:56:06] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.7.2.tar.gz tmp/mlforecast-0.7.3.tar.gz --markdown 20230523/m/mlforecast/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-23 03:56:07] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-05-23 03:56:07] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-05-23 03:56:07] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-23 03:56:07] INFO root fetch - main [MainThread]: Store serial: [18207128]

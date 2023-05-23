@@ -19210,3 +19210,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:40:11] INFO root fetch - main [MainThread]: End processing [sports2d]: success
 [2023-05-23 16:40:11] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
 [2023-05-23 16:40:11] INFO root fetch - main [MainThread]: Store serial: [18215410]
+[2023-05-23 16:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215410]
+[2023-05-23 16:45:21] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-cuber
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itca
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kbib
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covalent-cloud
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qg-botsdk
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cubicweb-bootstrap
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindsdb-sql
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alacorder
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flashy
+[2023-05-23 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: changedetector
+[2023-05-23 16:45:21] INFO root fetch - processPackages [itca]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 16:45:21] WARNING root fetch - processPackages [nonebot-plugin-cuber]: Skipping, unable to determine old version
+[2023-05-23 16:45:21] INFO root fetch - processPackages [nonebot-plugin-cuber]: Start processing: arraykit
+[2023-05-23 16:45:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cuber] error
+[2023-05-23 16:45:21] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.16.2rc0]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [qg-botsdk]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [flashy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [kbib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [cubicweb-bootstrap]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [changedetector]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [alacorder]: New version: [80.7.7] Old Version: [80.7.6]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [arraykit]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-23 16:45:21] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/f7/18/c67fb5461c28a48f21f6b725dd09f608f551bc35695a05644aa788635f3b/covalent-cloud-0.16.2rc0.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [flashy]: Downloading https://files.pythonhosted.org/packages/f2/0d/304260fc5aabca4c8bf7764bc7b6f7a27f09c6d7fe04265c18a7b3b46c05/flashy-0.0.0.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/bc/6a/9b17c4771c530f941c8b29c3962c465c08249e31b75ef36390f85b9328ea/mindsdb_sql-0.6.1.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/ae/d8/25f99140bbc9fb7cf36d9f2e1bd3a3ed818d88ac334ef6cd252da38a62ce/alacorder-80.7.6.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [itca]: Downloading https://files.pythonhosted.org/packages/43/cb/911e67d0080276cd619cef38f4f72fb69cacb37889921d26576f5dec8c01/itca-0.1.0.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [changedetector]: Downloading https://files.pythonhosted.org/packages/54/63/4af2d674e6e66b5c61d6d289a78cdbf59e621d3713c89fe782f6df4fc9a2/changedetector-0.6.3.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [kbib]: Downloading https://files.pythonhosted.org/packages/7d/fb/53ec89dcd183cb9fa3cd398537b6aba8fc41d1b9a78caad5047e47300748/kbib-0.1.6.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [qg-botsdk]: Downloading https://files.pythonhosted.org/packages/68/fc/e6b702edd78cecdb0e9b5479b45ba5ed1dca0c74fe77d07298e9c2124a9f/qg-botsdk-3.0.1.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [changedetector]: executing diffoscope
+[2023-05-23 16:45:21] INFO root fetch - processPackages [changedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetector-0.6.2.tar.gz tmp/changedetector-0.6.3.tar.gz --markdown 20230523/c/changedetector/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-23 16:45:21] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/3b/e3/830d956ba29b5d5fec7546d2a463005e4b42c8fccb05af3060fa445e0f2c/arraykit-0.4.5.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [cubicweb-bootstrap]: executing diffoscope
+[2023-05-23 16:45:21] INFO root fetch - processPackages [cubicweb-bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-bootstrap-1.8.0.tar.gz tmp/cubicweb-bootstrap-1.9.0.tar.gz --markdown 20230523/c/cubicweb-bootstrap/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 16:45:21] INFO root fetch - processPackages [qg-botsdk]: executing diffoscope
+[2023-05-23 16:45:21] INFO root fetch - processPackages [qg-botsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg-botsdk-3.0.0.tar.gz tmp/qg-botsdk-3.0.1.tar.gz --markdown 20230523/q/qg-botsdk/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-23 16:45:21] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [flashy]: Downloading https://files.pythonhosted.org/packages/be/0b/9175b1289487f1fa38c28e40ea8fc9f9ae7fd962944fc8f054524c187d6c/flashy-0.0.1.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [itca]: Downloading https://files.pythonhosted.org/packages/fa/4c/d227b14e6b5bda4407994bdf0bd212e26b0f03a53833e35953bc13f8f345/itca-0.1.1.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/40/2b/c9de5c50b39d4307f7eaac68176c1b720b448afeb9b8fbbcb8d50e2022c8/mindsdb_sql-0.6.2.tar.gz
+[2023-05-23 16:45:21] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/5d/46/1246aa407c38c0a9482b232655217545285bba68c42cf7dafdffc4da4959/alacorder-80.7.7.tar.gz
+[2023-05-23 16:45:22] INFO root fetch - processPackages [kbib]: Downloading https://files.pythonhosted.org/packages/eb/90/b75d031dc0b40a89ef91ea29fa3ad843c931257e749c803fed3d2290bbca/kbib-0.1.7.tar.gz
+[2023-05-23 16:45:22] INFO root fetch - processPackages [flashy]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [flashy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashy-0.0.0.tar.gz tmp/flashy-0.0.1.tar.gz --markdown 20230523/f/flashy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-23 16:45:22] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.6.tar.gz tmp/alacorder-80.7.7.tar.gz --markdown 20230523/a/alacorder/80.7.6-80.7.7/diff.md --exclude *.pyd
+[2023-05-23 16:45:22] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.6.1.tar.gz tmp/mindsdb_sql-0.6.2.tar.gz --markdown 20230523/m/mindsdb-sql/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 16:45:22] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.4.4.tar.gz tmp/arraykit-0.4.5.tar.gz --markdown 20230523/a/arraykit/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-23 16:45:22] INFO root fetch - processPackages [kbib]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [kbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbib-0.1.6.tar.gz tmp/kbib-0.1.7.tar.gz --markdown 20230523/k/kbib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 16:45:22] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-05-23 16:45:22] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.16.2rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230523/c/covalent-cloud/0.16.2rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-05-23 16:45:23] INFO root fetch - processPackages [itca]: executing diffoscope
+[2023-05-23 16:45:23] INFO root fetch - processPackages [itca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itca-0.1.0.tar.gz tmp/itca-0.1.1.tar.gz --markdown 20230523/i/itca/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 16:45:23] INFO root fetch - processPackages [changedetector]: Start processing: openlane
+[2023-05-23 16:45:23] INFO root fetch - main [MainThread]: End processing [changedetector]: success
+[2023-05-23 16:45:23] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-23 16:45:23] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-05-23 16:45:23] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230523/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-23 16:45:23] INFO root fetch - processPackages [kbib]: Start processing: whitson-tool-helper
+[2023-05-23 16:45:23] INFO root fetch - main [MainThread]: End processing [kbib]: success
+[2023-05-23 16:45:23] INFO root fetch - processPackages [whitson-tool-helper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 16:45:23] INFO root fetch - processPackages [arraykit]: Start processing: libcst
+[2023-05-23 16:45:23] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-23 16:45:23] INFO root fetch - processPackages [libcst]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-23 16:45:23] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/08/69/d2e113f22af07f9ff3f77b8b70fa0b6dc3e2420e1d169773e758abb8814e/whitson_tool_helper-0.1.3.tar.gz
+[2023-05-23 16:45:23] INFO root fetch - processPackages [flashy]: Start processing: django-staff-sso-client
+[2023-05-23 16:45:23] INFO root fetch - main [MainThread]: End processing [flashy]: success
+[2023-05-23 16:45:23] INFO root fetch - processPackages [django-staff-sso-client]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-05-23 16:45:23] INFO root fetch - processPackages [libcst]: Downloading https://files.pythonhosted.org/packages/09/e8/3e6cc21f4fe3651a051f387ae7696366c4705ef3399ba6ac78132298fedb/libcst-0.4.8.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [alacorder]: Start processing: cognite-power-ops
+[2023-05-23 16:45:24] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-23 16:45:24] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-23 16:45:24] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/0c/23/48c6839868b607f9663d2696f17404a6e0f83ebb6acf79fc0acfb8d7e3a7/whitson_tool_helper-0.1.4.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [covalent-cloud]: Start processing: libcnmc
+[2023-05-23 16:45:24] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-23 16:45:24] INFO root fetch - processPackages [whitson-tool-helper]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [whitson-tool-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitson_tool_helper-0.1.3.tar.gz tmp/whitson_tool_helper-0.1.4.tar.gz --markdown 20230523/w/whitson-tool-helper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [django-staff-sso-client]: Downloading https://files.pythonhosted.org/packages/da/bb/72c4e748008683cadf89bef11211557d754ed99e20d433416fa6ff8f04a0/django_staff_sso_client-4.1.1.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230523/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/cf/8f/88e45f098a676cf2d3215167a346f0c9a50f79b949126e90514980ea6c85/cognite_power_ops-0.7.0.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcst]: Downloading https://files.pythonhosted.org/packages/fa/4d/366f6fede5c5121fdda08db85a79f8b602a24378394cd9f87c917232d578/libcst-0.4.9.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [django-staff-sso-client]: Downloading https://files.pythonhosted.org/packages/01/ee/54daf98d0932afa9f2ede94d4008d3bae6aa96c76b5ad902e55c600974cb/django_staff_sso_client-4.2.0.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcst]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [libcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcst-0.4.8.tar.gz tmp/libcst-0.4.9.tar.gz --markdown 20230523/l/libcst/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [django-staff-sso-client]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [django-staff-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_staff_sso_client-4.1.1.tar.gz tmp/django_staff_sso_client-4.2.0.tar.gz --markdown 20230523/d/django-staff-sso-client/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/fe/b7/8d760079590252625223f1f5fefbb0f4ce26da15f3446b404b745b0934aa/cognite_power_ops-0.7.1.tar.gz
+[2023-05-23 16:45:24] INFO root fetch - processPackages [mindsdb-sql]: Start processing: langchain
+[2023-05-23 16:45:24] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2023-05-23 16:45:24] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-23 16:45:24] INFO root fetch - processPackages [qg-botsdk]: Start processing: hbm
+[2023-05-23 16:45:24] INFO root fetch - main [MainThread]: End processing [qg-botsdk]: success
+[2023-05-23 16:45:24] WARNING root fetch - processPackages [hbm]: Skipping, unable to determine old version
+[2023-05-23 16:45:24] INFO root fetch - processPackages [hbm]: Start processing: pineko
+[2023-05-23 16:45:24] INFO root fetch - main [MainThread]: End processing [hbm] error
+[2023-05-23 16:45:24] INFO root fetch - processPackages [pineko]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-23 16:45:24] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230523/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-23 16:45:24] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.7.0.tar.gz tmp/cognite_power_ops-0.7.1.tar.gz --markdown 20230523/c/cognite-power-ops/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-23 16:45:24] INFO root fetch - processPackages [pineko]: Downloading https://files.pythonhosted.org/packages/95/37/f44c58d51b389690915149309b194303577475bdb60bcb8c04e36c3d5d27/pineko-0.3.3.tar.gz
+[2023-05-23 16:45:25] INFO root fetch - processPackages [pineko]: Downloading https://files.pythonhosted.org/packages/89/28/09716daf89dbc866bd06181c3a0396caf42f9b91e6fefb00f1c15e8d3670/pineko-0.4.0.tar.gz
+[2023-05-23 16:45:25] INFO root fetch - processPackages [pineko]: executing diffoscope
+[2023-05-23 16:45:25] INFO root fetch - processPackages [pineko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineko-0.3.3.tar.gz tmp/pineko-0.4.0.tar.gz --markdown 20230523/p/pineko/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-23 16:45:25] INFO root fetch - main [MainThread]: End processing [cubicweb-bootstrap]: success
+[2023-05-23 16:45:25] INFO root fetch - main [MainThread]: End processing [whitson-tool-helper]: success
+[2023-05-23 16:45:25] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-05-23 16:45:26] INFO root fetch - main [MainThread]: End processing [django-staff-sso-client]: success
+[2023-05-23 16:45:26] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-23 16:45:26] INFO root fetch - main [MainThread]: End processing [pineko]: success
+[2023-05-23 16:45:26] INFO root fetch - main [MainThread]: End processing [itca]: success
+[2023-05-23 16:45:27] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-23 16:45:28] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-23 16:45:28] INFO root fetch - main [MainThread]: End processing [libcst]: success
+[2023-05-23 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18215542]

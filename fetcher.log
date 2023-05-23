@@ -19852,3 +19852,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:07:20] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2023-05-23 17:07:22] INFO root fetch - main [MainThread]: End processing [module-qc-tools]: success
 [2023-05-23 17:07:22] INFO root fetch - main [MainThread]: Store serial: [18215861]
+[2023-05-23 17:12:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215861]
+[2023-05-23 17:12:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-cost-estimation
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplegeomap
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: histomicstk
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformer-embeddings
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-security-group
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-nitro-web
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: h2o-nitro
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dev-gpt
+[2023-05-23 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rmpy
+[2023-05-23 17:12:33] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-23 17:12:33] WARNING root fetch - processPackages [llm-cost-estimation]: Skipping, unable to determine old version
+[2023-05-23 17:12:33] INFO root fetch - processPackages [transformer-embeddings]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [llm-cost-estimation]: Start processing: pygnssutils
+[2023-05-23 17:12:33] INFO root fetch - main [MainThread]: End processing [llm-cost-estimation] error
+[2023-05-23 17:12:33] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev5] Old Version: [0.18.42.dev3]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [histomicstk]: New version: [1.2.8.dev2] Old Version: [1.2.7.dev2]
+[2023-05-23 17:12:33] WARNING root fetch - processPackages [rmpy]: Skipping, unable to determine old version
+[2023-05-23 17:12:33] INFO root fetch - processPackages [rmpy]: Start processing: psychopy1-usbToBNC
+[2023-05-23 17:12:33] INFO root fetch - main [MainThread]: End processing [rmpy] error
+[2023-05-23 17:12:33] INFO root fetch - processPackages [coiled]: New version: [0.6.7.dev9] Old Version: [0.6.7.dev8]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [h2o-nitro]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [h2o-nitro-web]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-23 17:12:33] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev3.tar.gz tmp/dev-gpt-0.18.42.dev5.tar.gz --markdown 20230523/d/dev-gpt/0.18.42.dev3-0.18.42.dev5/diff.md --exclude *.pyd
+[2023-05-23 17:12:33] INFO root fetch - processPackages [pygnssutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 17:12:33] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/ee/40/7c24d80c8518b86876908db27f81206e33bc30e088b5ef51829a2b8b53ee/simplegeomap-0.0.21.tar.gz
+[2023-05-23 17:12:33] WARNING root fetch - processPackages [psychopy1-usbToBNC]: Skipping, unable to determine old version
+[2023-05-23 17:12:33] INFO root fetch - processPackages [psychopy1-usbToBNC]: Start processing: jupyter-Pandas-GUI
+[2023-05-23 17:12:33] INFO root fetch - main [MainThread]: End processing [psychopy1-usbToBNC] error
+[2023-05-23 17:12:33] INFO root fetch - processPackages [jupyter-Pandas-GUI]: New version: [0.8.0.dev1] Old Version: [0.8.0.dev0]
+[2023-05-23 17:12:34] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/24/79/539b533fbe87dd70b5aec5d919a70012708799ca20898e66ebb1c7a7f684/histomicstk-1.2.7.dev2.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/90/71/356067a3aec9b5cc573618c9bac9d492723bc276b69a30c14846f30c9167/transformer_embeddings-4.0.0.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro-web]: Downloading https://files.pythonhosted.org/packages/38/fe/d6470aa09be1e43c1dfa7bbf62286df500cf962346edfc65f39484e0acde/h2o_nitro_web-0.19.0-py3-none-any.whl
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro]: Downloading https://files.pythonhosted.org/packages/69/85/0defef71fd0881f12d4b4ca41907b633df6ac60cc014d706d81f5aa57c96/h2o_nitro-0.9.1-py3-none-any.whl
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/16/7e/091892ce757059cd8b75192008396545c82fdbf8efedca672d7e3add77f9/pygnssutils-1.0.8.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [jupyter-Pandas-GUI]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [jupyter-Pandas-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_Pandas_GUI-0.8.0.dev0.tar.gz tmp/jupyter_Pandas_GUI-0.8.0.dev1.tar.gz --markdown 20230523/j/jupyter-Pandas-GUI/0.8.0.dev0-0.8.0.dev1/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] WARNING root fetch - processPackages [histomicstk]: Skipping package: exceeds size limit 26141429>=10485760
+[2023-05-23 17:12:34] INFO root fetch - processPackages [histomicstk]: Start processing: dimm-utils
+[2023-05-23 17:12:34] INFO root fetch - main [MainThread]: End processing [histomicstk] error
+[2023-05-23 17:12:34] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/d2/93/b95230ff61e0ad66f668e62505684b4d633fea3c4390299b59997ae5c87a/simplegeomap-0.0.22-py3-none-any.whl
+[2023-05-23 17:12:34] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/a1/e0/84a824cd5948114189e322bff7f50df37cae974170651e9d7f643cfc242f/transformer_embeddings-4.0.1.tar.gz
+[2023-05-23 17:12:34] WARNING root fetch - processPackages [simplegeomap]: Skipping package: exceeds size limit 89302454>=10485760
+[2023-05-23 17:12:34] INFO root fetch - processPackages [simplegeomap]: Start processing: echofish-aws-indexing-lambda
+[2023-05-23 17:12:34] INFO root fetch - main [MainThread]: End processing [simplegeomap] error
+[2023-05-23 17:12:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.7.dev8.tar.gz tmp/coiled-0.6.7.dev9.tar.gz --markdown 20230523/c/coiled/0.6.7.dev8-0.6.7.dev9/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [transformer-embeddings]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230523150221] Old Version: [1.0.0.dev20230522135447]
+[2023-05-23 17:12:34] INFO root fetch - processPackages [transformer-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_embeddings-4.0.0.tar.gz tmp/transformer_embeddings-4.0.1.tar.gz --markdown 20230523/t/transformer-embeddings/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro-web]: Downloading https://files.pythonhosted.org/packages/f0/9d/52ecc34a8c9fdcf7e110f86f3d05b0bcfa6422010478c73772cd3e0e13a2/h2o_nitro_web-0.20.0-py3-none-any.whl
+[2023-05-23 17:12:34] INFO root fetch - processPackages [dimm-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 17:12:34] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230522135447.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230523150221.tar.gz --markdown 20230523/e/echofish-aws-indexing-lambda/1.0.0.dev20230522135447-1.0.0.dev20230523150221/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/8f/a5/b347422af7aafd4bf552de83c9fdf85bca7e93d6f4160961525964fc1163/pygnssutils-1.0.9.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [dimm-utils]: Downloading https://files.pythonhosted.org/packages/67/a2/0f96fe848233f75a21850990f75eca23edd6316d6488635cd1756a7a288f/dimm_utils-0.1.1.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pygnssutils]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [pygnssutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnssutils-1.0.8.tar.gz tmp/pygnssutils-1.0.9.tar.gz --markdown 20230523/p/pygnssutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro-web]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_nitro_web-0.19.0-py3-none-any.whl.zip tmp/h2o_nitro_web-0.20.0-py3-none-any.whl.zip --markdown 20230523/h/h2o-nitro-web/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-05-23 17:12:34] INFO root fetch - processPackages [dimm-utils]: Downloading https://files.pythonhosted.org/packages/c0/fb/b309c6dc86c4a639cc43900f45e3ec83b6f548db431e350c98b564c6f06d/dimm_utils-0.1.2.tar.gz
+[2023-05-23 17:12:34] INFO root fetch - processPackages [h2o-nitro]: Downloading https://files.pythonhosted.org/packages/de/5d/c58581ca6fd37303b29cff4df1b790d8d448c6a65ef9d7172bab15074e36/h2o_nitro-0.9.2-py3-none-any.whl
+[2023-05-23 17:12:34] INFO root fetch - processPackages [dimm-utils]: executing diffoscope
+[2023-05-23 17:12:34] INFO root fetch - processPackages [dimm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimm_utils-0.1.1.tar.gz tmp/dimm_utils-0.1.2.tar.gz --markdown 20230523/d/dimm-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 17:12:35] INFO root fetch - processPackages [h2o-nitro]: executing diffoscope
+[2023-05-23 17:12:35] INFO root fetch - processPackages [h2o-nitro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_nitro-0.9.1-py3-none-any.whl.zip tmp/h2o_nitro-0.9.2-py3-none-any.whl.zip --markdown 20230523/h/h2o-nitro/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 17:12:35] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: codezen
+[2023-05-23 17:12:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-23 17:12:35] WARNING root fetch - processPackages [codezen]: Skipping, unable to determine old version
+[2023-05-23 17:12:35] INFO root fetch - processPackages [codezen]: Start processing: kodexa
+[2023-05-23 17:12:35] INFO root fetch - main [MainThread]: End processing [codezen] error
+[2023-05-23 17:12:35] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 17:12:35] INFO root fetch - main [MainThread]: End processing [transformer-embeddings]: success
+[2023-05-23 17:12:35] INFO root fetch - main [MainThread]: End processing [jupyter-Pandas-GUI]: success
+[2023-05-23 17:12:35] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-23 17:12:36] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-23 17:12:36] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 17:12:36] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 17:12:36] INFO root fetch - main [MainThread]: End processing [dimm-utils]: success
+[2023-05-23 17:12:36] INFO root fetch - main [MainThread]: End processing [pygnssutils]: success
+[2023-05-23 17:12:37] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 17:12:55] INFO root fetch - main [MainThread]: End processing [h2o-nitro-web]: success
+[2023-05-23 17:12:57] INFO root fetch - main [MainThread]: End processing [h2o-nitro]: success
+[2023-05-23 17:13:15] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-23 17:13:15] INFO root fetch - main [MainThread]: Store serial: [18215920]

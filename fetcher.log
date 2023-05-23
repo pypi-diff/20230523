@@ -17630,3 +17630,175 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [lightning-graphcore]: success
 [2023-05-23 15:39:31] INFO root fetch - main [MainThread]: End processing [hyperactive]: success
 [2023-05-23 15:39:31] INFO root fetch - main [MainThread]: Store serial: [18214411]
+[2023-05-23 15:44:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214411]
+[2023-05-23 15:44:40] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weni-rp-apps
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayra
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tera-toolbox
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyroFork-dev
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbtgenlib
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-organization-python
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serverless-aws-lambda-sdk
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2023-05-23 15:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drf-pydantic-openapi
+[2023-05-23 15:44:40] INFO root fetch - processPackages [py-Ayra]: New version: [8.7.8] Old Version: [8.7.6]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [tera-toolbox]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.0.dev202305231339] Old Version: [2.2.0.dev202305231258]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.2a0] Old Version: [2.4.2]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [drf-pydantic-openapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:44:40] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/42/bc/d1aab7e236627ef9d90ae1c110c4820c4805f38534af1e7a2c53eb267823/py-Ayra-8.7.6.tar.gz
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-23 15:44:40] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:40] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/de/4c/4735b43798371ba98c64133821378fc328294f73870c1a44327a8750c16c/PyroFork-dev-2.2.0.dev202305231258.tar.gz
+[2023-05-23 15:44:40] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/82/31/73040ab93471f2a617cc2734b39037f0bde98ebb32e3501566e35d5ed45f/amukhsimov-jupyter-templates-bigdata-0.0.7.tar.gz
+[2023-05-23 15:44:40] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-23 15:44:40] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230523/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:40] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/7b/51/1808fb0bb3ea0855ecb97f0e568c721c43e49b29221ff327968d56816638/drf_pydantic_openapi-0.1.0.tar.gz
+[2023-05-23 15:44:40] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/1c/0e/dfe0b166d0f724defdd98cd61481c607ac71d3f549da315e62a2f33b004d/serverless-aws-lambda-sdk-0.1.8.tar.gz
+[2023-05-23 15:44:40] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/be/a7/be8fdd750155a0a5649dd75ddffc5613775604f9791d49d6b1fa015b66f8/weni_rp_apps-2.4.2a0.tar.gz
+[2023-05-23 15:44:41] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/eb/df/dabf5f95625601b3790c903d38ff296ddcacd66ac01dca82be09f4b9d2a8/py-Ayra-8.7.8.tar.gz
+[2023-05-23 15:44:41] INFO root fetch - processPackages [tera-toolbox]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [tera-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tera-toolbox-0.0.5.tar.gz tmp/tera-toolbox-0.0.8.tar.gz --markdown 20230523/t/tera-toolbox/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/43/6d/b84a40570ed665ec231cba38d020d25d7bfa3d72589ace6b2458da4a2409/PyroFork-dev-2.2.0.dev202305231339.tar.gz
+[2023-05-23 15:44:41] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/3e/fa/20f4c41cae8fc8bf7badb45be2831f85765806500fb6f5d1ea4941e99f4e/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz
+[2023-05-23 15:44:41] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.2.tar.gz tmp/weni_rp_apps-2.4.2a0.tar.gz --markdown 20230523/w/weni-rp-apps/2.4.2-2.4.2a0/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.7.6.tar.gz tmp/py-Ayra-8.7.8.tar.gz --markdown 20230523/p/py-Ayra/8.7.6-8.7.8/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/d0/c4/29688e65f8630a00f5408276ec95ac029504202c399db2b1eab2e8eb5544/drf_pydantic_openapi-0.1.1-py3-none-any.whl
+[2023-05-23 15:44:41] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.0.dev202305231258.tar.gz tmp/PyroFork-dev-2.2.0.dev202305231339.tar.gz --markdown 20230523/P/PyroFork-dev/2.2.0.dev202305231258-2.2.0.dev202305231339/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.7.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz --markdown 20230523/a/amukhsimov-jupyter-templates-bigdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [drf-pydantic-openapi]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [drf-pydantic-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_pydantic_openapi-0.1.0.tar.gz tmp/drf_pydantic_openapi-0.1.1-py3-none-any.whl.zip --markdown 20230523/d/drf-pydantic-openapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 15:44:41] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Downloading https://files.pythonhosted.org/packages/b5/2a/f5c55c0452e5ab15284437193ec91cd126bcc89cf50096da00f21c05b321/serverless-aws-lambda-sdk-0.1.9.tar.gz
+[2023-05-23 15:44:41] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: executing diffoscope
+[2023-05-23 15:44:41] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-aws-lambda-sdk-0.1.8.tar.gz tmp/serverless-aws-lambda-sdk-0.1.9.tar.gz --markdown 20230523/s/serverless-aws-lambda-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:42] INFO root fetch - processPackages [dbtgenlib]: Start processing: multipronto
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-23 15:44:42] WARNING root fetch - processPackages [multipronto]: Skipping, unable to determine old version
+[2023-05-23 15:44:42] INFO root fetch - processPackages [multipronto]: Start processing: atproto
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [multipronto] error
+[2023-05-23 15:44:42] INFO root fetch - processPackages [atproto]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 15:44:42] INFO root fetch - processPackages [tera-toolbox]: Start processing: cybrid-api-id-python
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [tera-toolbox]: success
+[2023-05-23 15:44:42] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-23 15:44:42] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-23 15:44:42] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230523/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:42] INFO root fetch - processPackages [drf-pydantic-openapi]: Start processing: globalnoc-wsc
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [drf-pydantic-openapi]: success
+[2023-05-23 15:44:42] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-05-23 15:44:42] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Start processing: macrosynergy
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-05-23 15:44:42] INFO root fetch - processPackages [globalnoc-wsc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 15:44:42] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-05-23 15:44:42] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.7.tar.gz tmp/atproto-0.0.8.tar.gz --markdown 20230523/a/atproto/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 15:44:42] INFO root fetch - processPackages [macrosynergy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:44:42] INFO root fetch - processPackages [py-Ayra]: Start processing: sesg
+[2023-05-23 15:44:42] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-05-23 15:44:42] INFO root fetch - processPackages [globalnoc-wsc]: Downloading https://files.pythonhosted.org/packages/e6/ec/b950acecd388af4a8823a58d45696d959792ed2a2220fa219750466e8de6/globalnoc_wsc-1.0.1.tar.gz
+[2023-05-23 15:44:43] INFO root fetch - processPackages [serverless-aws-lambda-sdk]: Start processing: bitmovin-api-sdk
+[2023-05-23 15:44:43] INFO root fetch - main [MainThread]: End processing [serverless-aws-lambda-sdk]: success
+[2023-05-23 15:44:43] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:44:43] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-23 15:44:43] INFO root fetch - processPackages [macrosynergy]: executing diffoscope
+[2023-05-23 15:44:43] INFO root fetch - processPackages [macrosynergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrosynergy-0.0.8.tar.gz tmp/macrosynergy-0.0.9.tar.gz --markdown 20230523/m/macrosynergy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:43] INFO root fetch - processPackages [globalnoc-wsc]: Downloading https://files.pythonhosted.org/packages/c0/a1/41a2d36f1b197a6eeaaaf619e9283a061ed0b6707b318860996f95289945/globalnoc_wsc-1.0.2.tar.gz
+[2023-05-23 15:44:43] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-05-23 15:44:43] INFO root fetch - processPackages [weni-rp-apps]: Start processing: audiodiffusion
+[2023-05-23 15:44:43] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-23 15:44:43] INFO root fetch - processPackages [globalnoc-wsc]: executing diffoscope
+[2023-05-23 15:44:43] INFO root fetch - processPackages [globalnoc-wsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalnoc_wsc-1.0.1.tar.gz tmp/globalnoc_wsc-1.0.2.tar.gz --markdown 20230523/g/globalnoc-wsc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 15:44:43] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-23 15:44:43] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230523/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:43] INFO root fetch - processPackages [audiodiffusion]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-23 15:44:43] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-05-23 15:44:43] INFO root fetch - processPackages [audiodiffusion]: Downloading https://files.pythonhosted.org/packages/2c/aa/e8203657931b6130cb4abd0f6ee29f5edc333f969fc9327d5607cffa03ee/audiodiffusion-1.5.5.tar.gz
+[2023-05-23 15:44:43] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: siat
+[2023-05-23 15:44:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-23 15:44:43] INFO root fetch - processPackages [siat]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-23 15:44:43] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-05-23 15:44:43] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230523/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-23 15:44:43] INFO root fetch - processPackages [audiodiffusion]: executing diffoscope
+[2023-05-23 15:44:43] INFO root fetch - processPackages [audiodiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiodiffusion-1.5.4.tar.gz tmp/audiodiffusion-1.5.5.tar.gz --markdown 20230523/a/audiodiffusion/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-23 15:44:44] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-05-23 15:44:44] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.3-py3-none-any.whl.zip tmp/siat-2.0.4-py3-none-any.whl.zip --markdown 20230523/s/siat/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-23 15:44:44] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: troncos
+[2023-05-23 15:44:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-23 15:44:44] INFO root fetch - processPackages [troncos]: New version: [4.0.0b1] Old Version: [3.3.0]
+[2023-05-23 15:44:44] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/9c/17/dc46bbcf8a9bb446d48403713ba7bfed6146acee2f6e6d10857d4ea6257b/troncos-3.3.0.tar.gz
+[2023-05-23 15:44:44] INFO root fetch - processPackages [globalnoc-wsc]: Start processing: bmsdna-lakeapi
+[2023-05-23 15:44:44] INFO root fetch - main [MainThread]: End processing [globalnoc-wsc]: success
+[2023-05-23 15:44:44] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-23 15:44:44] INFO root fetch - processPackages [sesg]: Start processing: cg
+[2023-05-23 15:44:44] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-23 15:44:44] INFO root fetch - processPackages [cg]: New version: [31.1.6] Old Version: [31.1.5]
+[2023-05-23 15:44:45] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-23 15:44:45] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.1.5.tar.gz tmp/cg-31.1.6.tar.gz --markdown 20230523/c/cg/31.1.5-31.1.6/diff.md --exclude *.pyd
+[2023-05-23 15:44:45] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/06/8d/f5ae3fabf9bff283e4b3a0168b3f8b957c701aa82966e9092fad59176c4b/troncos-4.0.0b1.tar.gz
+[2023-05-23 15:44:45] INFO root fetch - processPackages [macrosynergy]: Start processing: fbgemm-gpu-nightly
+[2023-05-23 15:44:45] INFO root fetch - main [MainThread]: End processing [macrosynergy]: success
+[2023-05-23 15:44:45] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-05-23 15:44:45] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-3.3.0.tar.gz tmp/troncos-4.0.0b1.tar.gz --markdown 20230523/t/troncos/3.3.0-4.0.0b1/diff.md --exclude *.pyd
+[2023-05-23 15:44:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.23] Old Version: [2023.5.22]
+[2023-05-23 15:44:45] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/2a/a4/e6beabba3c1a90b5b6313458d9f77b1dee4f8c06933f864f19f702712aa5/bmsdna_lakeapi-0.3.0.tar.gz
+[2023-05-23 15:44:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/3d/8b/81bc12355e87f7fc9ea3f809015d777400ddbd4271b7a9f4ecf4774cf4c4/fbgemm_gpu_nightly-2023.5.22-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-23 15:44:45] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-23 15:44:45] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.2.5.tar.gz tmp/bmsdna_lakeapi-0.3.0.tar.gz --markdown 20230523/b/bmsdna-lakeapi/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 15:44:45] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 283990230>=10485760
+[2023-05-23 15:44:45] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: aiotiktok
+[2023-05-23 15:44:45] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-23 15:44:45] INFO root fetch - processPackages [aiotiktok]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-05-23 15:44:45] INFO root fetch - processPackages [aiotiktok]: Downloading https://files.pythonhosted.org/packages/13/85/1585c97ff76bb63d23bbc18bbfbb73a859f74ebea97b75670ce10f881fc0/aiotiktok-2.6.2.tar.gz
+[2023-05-23 15:44:45] INFO root fetch - processPackages [audiodiffusion]: Start processing: zesty.zbs-api-securonix
+[2023-05-23 15:44:45] INFO root fetch - main [MainThread]: End processing [audiodiffusion]: success
+[2023-05-23 15:44:45] INFO root fetch - processPackages [aiotiktok]: executing diffoscope
+[2023-05-23 15:44:45] INFO root fetch - processPackages [aiotiktok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotiktok-2.6.1.tar.gz tmp/aiotiktok-2.6.2.tar.gz --markdown 20230523/a/aiotiktok/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-05-23 15:44:46] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.5.7.1683455929] Old Version: [1.0.2023.5.23.1684849413]
+[2023-05-23 15:44:46] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/b2/08/89b17b10cf68fa4e1143e0673473f4ca54f6a8bee750d981748743965550/zesty.zbs-api-securonix-1.0.2023.5.23.1684849413.tar.gz
+[2023-05-23 15:44:46] INFO root fetch - processPackages [siat]: Start processing: ethpm-types
+[2023-05-23 15:44:46] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-05-23 15:44:46] INFO root fetch - processPackages [ethpm-types]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-23 15:44:46] INFO root fetch - processPackages [troncos]: Start processing: kynaylibs
+[2023-05-23 15:44:46] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-05-23 15:44:46] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-05-23 15:44:46] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/17/6b/3197980f92502e981d727a8218778b86ae2e6c47d1be3bec5a56d8d3c3bb/zesty.zbs-api-securonix-1.0.2023.5.7.1683455929.tar.gz
+[2023-05-23 15:44:46] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/a8/00/d774c945c59fabb97a4cd23c6a0c16ce65ed4f610eeb414f87914ca0dcc8/ethpm-types-0.5.0.tar.gz
+[2023-05-23 15:44:46] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: unitlab
+[2023-05-23 15:44:46] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-23 15:44:46] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/92/2b/839116655f84de687ecfeb2e768dbf76e2667dfd5b392aac92a3e0c1e07f/kynaylibs-1.7.8.tar.gz
+[2023-05-23 15:44:46] INFO root fetch - processPackages [unitlab]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-05-23 15:44:46] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-05-23 15:44:46] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.5.23.1684849413.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.5.7.1683455929.tar.gz --markdown 20230523/z/zesty.zbs-api-securonix/1.0.2023.5.23.1684849413-1.0.2023.5.7.1683455929/diff.md --exclude *.pyd
+[2023-05-23 15:44:46] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-23 15:44:46] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.7.tar.gz tmp/kynaylibs-1.7.8.tar.gz --markdown 20230523/k/kynaylibs/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-05-23 15:44:46] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-05-23 15:44:46] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.4.tar.gz tmp/unitlab-1.8.5.tar.gz --markdown 20230523/u/unitlab/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-05-23 15:44:46] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/2b/09/c9a17c29a0f06231a6b2b498ca4756beba8bb2e5d6ad8bd72010e3ea547b/ethpm-types-0.5.1.tar.gz
+[2023-05-23 15:44:47] INFO root fetch - processPackages [ethpm-types]: executing diffoscope
+[2023-05-23 15:44:47] INFO root fetch - processPackages [ethpm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethpm-types-0.5.0.tar.gz tmp/ethpm-types-0.5.1.tar.gz --markdown 20230523/e/ethpm-types/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-23 15:44:47] INFO root fetch - processPackages [aiotiktok]: Start processing: dbtgenlib
+[2023-05-23 15:44:47] INFO root fetch - main [MainThread]: End processing [aiotiktok]: success
+[2023-05-23 15:44:47] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:44:47] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-23 15:44:47] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230523/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:44:47] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-23 15:44:47] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-23 15:44:48] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-05-23 15:44:48] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-23 15:44:48] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-05-23 15:44:48] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-05-23 15:44:48] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-23 15:44:50] INFO root fetch - main [MainThread]: End processing [ethpm-types]: success
+[2023-05-23 15:44:59] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-23 15:45:20] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-05-23 15:45:20] INFO root fetch - main [MainThread]: Store serial: [18214506]

@@ -11536,3 +11536,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:23:35] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
 [2023-05-23 10:24:20] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
 [2023-05-23 10:24:20] INFO root fetch - main [MainThread]: Store serial: [18210901]
+[2023-05-23 10:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210901]
+[2023-05-23 10:29:30] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendal
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OctoPrint
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwxlib
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: besecure-developer-toolkit
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viur-core
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-local-exec
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipinfo-db
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NuMeTriS
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlbi-at-dku-lib
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metablock
+[2023-05-23 10:29:30] INFO root fetch - processPackages [viur-core]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [NuMeTriS]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.1.tar.gz tmp/mlbi_at_dku_lib-0.1.2.tar.gz --markdown 20230523/m/mlbi-at-dku-lib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ipinfo-db]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [OctoPrint]: New version: [1.9.0rc6] Old Version: [1.9.0rc5]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [besecure-developer-toolkit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [metablock]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mwxlib]: New version: [0.83.6] Old Version: [0.83.0]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [opendal]: New version: [0.35.0] Old Version: [0.34.0]
+[2023-05-23 10:29:30] INFO root fetch - processPackages [NuMeTriS]: Downloading https://files.pythonhosted.org/packages/06/f3/15bab768d8c065fe9b1572191033559f550e4dbda96c5cd6fe8758a83005/NuMeTriS-0.0.7.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.4.1-py3-none-any.whl.zip tmp/viur_core-3.4.2-py3-none-any.whl.zip --markdown 20230523/v/viur-core/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ipinfo-db]: Downloading https://files.pythonhosted.org/packages/ca/63/5cdb72cca180b38347f8fffe9e795679210282f750f288f957c1300f51ca/ipinfo_db-0.0.1-py3-none-any.whl
+[2023-05-23 10:29:30] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/b2/39/44f457e8bad3d38e75deddce1cfb6138155cbf4ed54b2e81d5194a02e03b/OctoPrint-1.9.0rc5.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/72/e3/919350850528602d10fbf14480ae222ece57928904040810de8f27aef80c/cdktf-local-exec-0.2.5.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/1a/bf/fc6c0347b73fc8c8024bf731cd7c046f75f0d58247e307a4db79c006f7b9/besecure_developer_toolkit-0.0.4.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/cd/85/bc26c06e7c7f9e14486f2e8d89f641d426c55ef2e713238c6ff9a48c5f90/opendal-0.34.0.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/4e/c3/a20b550653554da8a07719181561313ce1b5818730c4af6dafbac3652c56/mwxlib-0.83.0-py3-none-any.whl
+[2023-05-23 10:29:30] INFO root fetch - processPackages [NuMeTriS]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [NuMeTriS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuMeTriS-0.0.6.tar.gz tmp/NuMeTriS-0.0.7.tar.gz --markdown 20230523/N/NuMeTriS/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [metablock]: Downloading https://files.pythonhosted.org/packages/1e/21/b65d654a0709461ae70340019aa6a72f7dfa463f7d1eaa2e47451c9a1249/metablock-0.6.0.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/53/6a/bfcb81743236727f34cb1926e1e23acbf4bc0b1f93e34734e61bd70e0cbe/besecure_developer_toolkit-0.0.5.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [metablock]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [metablock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metablock-0.5.3.tar.gz tmp/metablock-0.6.0.tar.gz --markdown 20230523/m/metablock/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/fb/78/b52449586a9b8170e8fb82db995249e7fae2dcea3b0ce00801783a486bd0/cdktf-local-exec-0.2.7.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [besecure-developer-toolkit]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [besecure-developer-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besecure_developer_toolkit-0.0.4.tar.gz tmp/besecure_developer_toolkit-0.0.5.tar.gz --markdown 20230523/b/besecure-developer-toolkit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/c3/99/4ddd24f4963ef619b87c30ac0469849cc02da823d08ff2f9155f2b6b5fa5/mwxlib-0.83.6-py3-none-any.whl
+[2023-05-23 10:29:30] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/9b/47/21ebe2a955d35b019d7a79926eaef7cc75eb3eb56fc45e229ba045981332/opendal-0.35.0.tar.gz
+[2023-05-23 10:29:30] INFO root fetch - processPackages [ipinfo-db]: Downloading https://files.pythonhosted.org/packages/1a/08/2703a02ccef7397132f3ecbd15d3e7de956dc52922efd2269b22fc350cef/ipinfo_db-0.0.2-py3-none-any.whl
+[2023-05-23 10:29:30] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.5.tar.gz tmp/cdktf-local-exec-0.2.7.tar.gz --markdown 20230523/c/cdktf-local-exec/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.83.0-py3-none-any.whl.zip tmp/mwxlib-0.83.6-py3-none-any.whl.zip --markdown 20230523/m/mwxlib/0.83.0-0.83.6/diff.md --exclude *.pyd
+[2023-05-23 10:29:30] INFO root fetch - processPackages [opendal]: executing diffoscope
+[2023-05-23 10:29:30] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.34.0.tar.gz tmp/opendal-0.35.0.tar.gz --markdown 20230523/o/opendal/0.34.0-0.35.0/diff.md --exclude *.pyd
+[2023-05-23 10:29:31] INFO root fetch - processPackages [ipinfo-db]: executing diffoscope
+[2023-05-23 10:29:31] INFO root fetch - processPackages [ipinfo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipinfo_db-0.0.1-py3-none-any.whl.zip tmp/ipinfo_db-0.0.2-py3-none-any.whl.zip --markdown 20230523/i/ipinfo-db/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 10:29:31] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/41/13/d038a800093d99c3ec5b63809bd5b920eb4caf0570aebb570764fcf59a05/OctoPrint-1.9.0rc6.tar.gz
+[2023-05-23 10:29:31] INFO root fetch - processPackages [OctoPrint]: executing diffoscope
+[2023-05-23 10:29:31] INFO root fetch - processPackages [OctoPrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoPrint-1.9.0rc5.tar.gz tmp/OctoPrint-1.9.0rc6.tar.gz --markdown 20230523/O/OctoPrint/1.9.0rc5-1.9.0rc6/diff.md --exclude *.pyd
+[2023-05-23 10:29:31] INFO root fetch - processPackages [mlbi-at-dku-lib]: Start processing: odoo14-addon-mrp-component-operation-scrap-reason
+[2023-05-23 10:29:31] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-05-23 10:29:31] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: Downloading https://files.pythonhosted.org/packages/f3/ce/b5094fd1b8fa11ec8d28cd635fd5ab6f83d5f30cf329733175ee9c9c6567/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-23 10:29:32] INFO root fetch - processPackages [metablock]: Start processing: cdktf-cdk8s
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [metablock]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: Downloading https://files.pythonhosted.org/packages/01/b4/4e2552859d4ddd52a2f31681a981e7784d622eb89bdd2a67000cba45d33b/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/09/40/b8f8d50f35d10040b891f9bd1405494668c2c9537378c23cf89d610f11ff/cdktf-cdk8s-0.5.7.tar.gz
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-local-exec]: Start processing: alibabacloud-ocr-api20210707-py2
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [viur-core]: Start processing: alibabacloud-ocr-api20210707
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [ipinfo-db]: Start processing: rudderclient
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [ipinfo-db]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [rudderclient]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [besecure-developer-toolkit]: Start processing: plutous-trade
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [besecure-developer-toolkit]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [plutous-trade]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/01/2c/28f0b5f8f77c2e17b5216b8b80c46d60b1d59933aba59ea93febac06723e/cdktf-cdk8s-0.5.8.tar.gz
+[2023-05-23 10:29:32] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: executing diffoscope
+[2023-05-23 10:29:32] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-mrp-component-operation-scrap-reason/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-23 10:29:32] INFO root fetch - processPackages [plutous-trade]: executing diffoscope
+[2023-05-23 10:29:32] INFO root fetch - processPackages [plutous-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade-0.0.1.tar.gz tmp/plutous_trade-0.0.2.tar.gz --markdown 20230523/p/plutous-trade/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 10:29:32] INFO root fetch - processPackages [mwxlib]: Start processing: SpectroscopicBinarySystem
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [NuMeTriS]: Start processing: FishProcessManagement
+[2023-05-23 10:29:32] INFO root fetch - main [MainThread]: End processing [NuMeTriS]: success
+[2023-05-23 10:29:32] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.1] Old Version: [2023.5.23]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2023-05-23 10:29:32] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.5.7.tar.gz tmp/cdktf-cdk8s-0.5.8.tar.gz --markdown 20230523/c/cdktf-cdk8s/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-23 10:29:32] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/4f/99/cd2512cd59d20077212d9e147bc65d62c7fee3a565bfcf7cd323d5944b57/rudderclient-1.1.1.tar.gz
+[2023-05-23 10:29:32] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-23 10:29:32] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-23 10:29:32] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.1.0.tar.gz tmp/rudderclient-1.1.1.tar.gz --markdown 20230523/r/rudderclient/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 10:29:32] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 10:29:32] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.tar.gz tmp/FishProcessManagement-2023.5.23.1.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23-2023.5.23.1/diff.md --exclude *.pyd
+[2023-05-23 10:29:33] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: executing diffoscope
+[2023-05-23 10:29:33] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707_py2-1.1.7.tar.gz tmp/alibabacloud_ocr-api20210707_py2-1.1.8.tar.gz --markdown 20230523/a/alibabacloud-ocr-api20210707-py2/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-23 10:29:33] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/77/17/b80a3def5aa7f96f43b3561d9c5460ff05af20d955efc0f0cafe30200ad1/SpectroscopicBinarySystem-1.3.1.tar.gz
+[2023-05-23 10:29:33] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: executing diffoscope
+[2023-05-23 10:29:33] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707-1.1.7.tar.gz tmp/alibabacloud_ocr-api20210707-1.1.8.tar.gz --markdown 20230523/a/alibabacloud-ocr-api20210707/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-23 10:29:33] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-05-23 10:29:33] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.3.1.tar.gz tmp/SpectroscopicBinarySystem-1.4.0.tar.gz --markdown 20230523/S/SpectroscopicBinarySystem/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-23 10:29:34] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: Start processing: revTongYi
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-component-operation-scrap-reason]: success
+[2023-05-23 10:29:34] INFO root fetch - processPackages [revTongYi]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2023-05-23 10:29:34] INFO root fetch - processPackages [revTongYi]: Downloading https://files.pythonhosted.org/packages/91/8b/3e04cc84f3de62bdb8825920081b2d8486822478da183d99ad226d2eeeef/revtongyi-0.0.0.1.tar.gz
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [plutous-trade]: success
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 10:29:34] INFO root fetch - processPackages [revTongYi]: Downloading https://files.pythonhosted.org/packages/fe/76/8e3cdae78eef81c734f95b337804d53322bbcc2365729a7964de607ff192/revtongyi-0.0.0.2.tar.gz
+[2023-05-23 10:29:34] INFO root fetch - processPackages [revTongYi]: executing diffoscope
+[2023-05-23 10:29:34] INFO root fetch - processPackages [revTongYi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revtongyi-0.0.0.1.tar.gz tmp/revtongyi-0.0.0.2.tar.gz --markdown 20230523/r/revTongYi/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-23 10:29:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707]: success
+[2023-05-23 10:29:35] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-05-23 10:29:35] INFO root fetch - main [MainThread]: End processing [revTongYi]: success
+[2023-05-23 10:29:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707-py2]: success
+[2023-05-23 10:29:36] INFO root fetch - main [MainThread]: End processing [opendal]: success
+[2023-05-23 10:29:38] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
+[2023-05-23 10:29:38] INFO root fetch - main [MainThread]: Store serial: [18210959]

@@ -11178,3 +11178,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:02:26] INFO root fetch - main [MainThread]: End processing [hepcrawl]: success
 [2023-05-23 10:02:31] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-23 10:02:31] INFO root fetch - main [MainThread]: Store serial: [18210690]
+[2023-05-23 10:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210690]
+[2023-05-23 10:07:40] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MandiriUtils
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cheap-pie
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmpydummy
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tKot
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muffin
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoxx
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-grpc-lw-data-provider
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nashbanksync
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoxx
+[2023-05-23 10:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sicor
+[2023-05-23 10:07:41] INFO root fetch - processPackages [MandiriUtils]: New version: [0.7] Old Version: [0.6]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cheap-pie]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [sicor]: New version: [0.19.0] Old Version: [0.18.0]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.21.tar.gz tmp/autoxx-0.0.22.tar.gz --markdown 20230523/a/autoxx/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] WARNING root fetch - processPackages [cmpydummy]: Skipping, unable to determine old version
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cmpydummy]: Start processing: mlcvzoo-base
+[2023-05-23 10:07:41] INFO root fetch - main [MainThread]: End processing [cmpydummy] error
+[2023-05-23 10:07:41] INFO root fetch - processPackages [tKot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5054740739]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [muffin]: New version: [0.98.0] Old Version: [0.97.2]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.21.tar.gz tmp/autoxx-0.0.22.tar.gz --markdown 20230523/a/autoxx/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/cb/07/186393f18a4db5749a0428db4f2d8fc0acbc775ff090593ccf92a06000cc/MandiriUtils-0.7.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [mlcvzoo-base]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/52/ba/67892b56f87df0d42abf0d567e03606c13cd2cb63c32d699dbc02d67fd4d/th2_grpc_lw_data_provider-2.0.0.dev5054740739.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [sicor]: Downloading https://files.pythonhosted.org/packages/24/12/445fa75ab65e255ff1de82a9d0c43558b0024ae97d1515e03d820554f5e0/sicor-0.18.0.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230523/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/d5/8f/60725e1b287cb1096e40d7dba2c9b7aafa9c7479975e79aaed02a3c7c920/muffin-0.97.2.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.6.tar.gz tmp/MandiriUtils-0.7.tar.gz --markdown 20230523/M/MandiriUtils/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/a5/d0/75a5b85d903afd520b2593f6f328d60e59ea5a956ef52754e2c0008d641c/tKot-0.3.4.tar.gz
+[2023-05-23 10:07:41] WARNING root fetch - processPackages [sicor]: Skipping package: exceeds size limit 68709188>=10485760
+[2023-05-23 10:07:41] INFO root fetch - processPackages [sicor]: Start processing: census-colendi
+[2023-05-23 10:07:41] INFO root fetch - main [MainThread]: End processing [sicor] error
+[2023-05-23 10:07:41] WARNING root fetch - processPackages [census-colendi]: Skipping, unable to determine old version
+[2023-05-23 10:07:41] INFO root fetch - processPackages [census-colendi]: Start processing: cloudreactor-aws-setup-wizard
+[2023-05-23 10:07:41] INFO root fetch - main [MainThread]: End processing [census-colendi] error
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cheap-pie]: Downloading https://files.pythonhosted.org/packages/5b/18/138042d807f6a366e47878f3f59298c1e381673ac001d66c00da36ffaf53/cheap_pie-1.0.1.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/6d/e3/486766e6bf37ad67807284dfbaf41041e5b3539fb660414f7b4eb23d9b0a/mlcvzoo_base-5.3.2.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.3.3.tar.gz tmp/tKot-0.3.4.tar.gz --markdown 20230523/t/tKot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cloudreactor-aws-setup-wizard]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 10:07:41] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5054740739.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230523/t/th2-grpc-lw-data-provider/2.0.0.dev5054740739-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cheap-pie]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cheap-pie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheap_pie-1.0.0.tar.gz tmp/cheap_pie-1.0.1.tar.gz --markdown 20230523/c/cheap-pie/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/41/e2/a4c23c3efa84559625477b35b3ddbac2327e6a1132d237e4b9a21c59ee1b/muffin-0.98.0.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/45/b3/413d77c8a88af71258dc76b10b1d0fa691ff1ec523273fd81c1501af935a/mlcvzoo_base-5.3.3.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [cloudreactor-aws-setup-wizard]: Downloading https://files.pythonhosted.org/packages/4a/ba/22929ecf01aeb2cda0a06007f5204e2f43c60a113fe0747e9a72477fe470/cloudreactor_aws_setup_wizard-1.0.0.tar.gz
+[2023-05-23 10:07:41] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.97.2.tar.gz tmp/muffin-0.98.0.tar.gz --markdown 20230523/m/muffin/0.97.2-0.98.0/diff.md --exclude *.pyd
+[2023-05-23 10:07:41] INFO root fetch - processPackages [mlcvzoo-base]: executing diffoscope
+[2023-05-23 10:07:41] INFO root fetch - processPackages [mlcvzoo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_base-5.3.2.tar.gz tmp/mlcvzoo_base-5.3.3.tar.gz --markdown 20230523/m/mlcvzoo-base/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-05-23 10:07:42] INFO root fetch - processPackages [cloudreactor-aws-setup-wizard]: Downloading https://files.pythonhosted.org/packages/1f/bf/75e0eeccf0fda4362b793e5e6666ceeb9c17383a4a7c71084414adc2c8ae/cloudreactor_aws_setup_wizard-1.0.1.tar.gz
+[2023-05-23 10:07:42] INFO root fetch - processPackages [cloudreactor-aws-setup-wizard]: executing diffoscope
+[2023-05-23 10:07:42] INFO root fetch - processPackages [cloudreactor-aws-setup-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudreactor_aws_setup_wizard-1.0.0.tar.gz tmp/cloudreactor_aws_setup_wizard-1.0.1.tar.gz --markdown 20230523/c/cloudreactor-aws-setup-wizard/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 10:07:42] INFO root fetch - processPackages [autoxx]: Start processing: tomte
+[2023-05-23 10:07:42] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 10:07:42] INFO root fetch - processPackages [tomte]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 10:07:42] INFO root fetch - processPackages [autoxx]: Start processing: directory-validators
+[2023-05-23 10:07:42] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 10:07:42] INFO root fetch - processPackages [MandiriUtils]: Start processing: ambient-package-update
+[2023-05-23 10:07:42] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 10:07:42] INFO root fetch - processPackages [directory-validators]: New version: [9.3.0] Old Version: [9.2.2]
+[2023-05-23 10:07:42] INFO root fetch - processPackages [tKot]: Start processing: isystem.connect
+[2023-05-23 10:07:42] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-23 10:07:42] INFO root fetch - processPackages [ambient-package-update]: New version: [23.5.9] Old Version: [23.5.8]
+[2023-05-23 10:07:42] INFO root fetch - processPackages [tomte]: executing diffoscope
+[2023-05-23 10:07:42] INFO root fetch - processPackages [tomte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomte-0.2.8.tar.gz tmp/tomte-0.2.9.tar.gz --markdown 20230523/t/tomte/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 10:07:43] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-05-23 10:07:43] INFO root fetch - processPackages [directory-validators]: Downloading https://files.pythonhosted.org/packages/6b/a6/ea2cf395a2cd06891c6ed8fb8bdca1d6cf5aacf14317130a1f0907e8901c/directory_validators-9.2.2-py3-none-any.whl
+[2023-05-23 10:07:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: argparsecfg
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-05-23 10:07:43] INFO root fetch - processPackages [ambient-package-update]: executing diffoscope
+[2023-05-23 10:07:43] INFO root fetch - processPackages [ambient-package-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-package-update-23.5.8.tar.gz tmp/ambient-package-update-23.5.9.tar.gz --markdown 20230523/a/ambient-package-update/23.5.8-23.5.9/diff.md --exclude *.pyd
+[2023-05-23 10:07:43] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-05-23 10:07:43] INFO root fetch - processPackages [argparsecfg]: New version: [0.2.2] Old Version: [0.0.1]
+[2023-05-23 10:07:43] INFO root fetch - processPackages [muffin]: Start processing: pyglove
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-05-23 10:07:43] INFO root fetch - processPackages [directory-validators]: Downloading https://files.pythonhosted.org/packages/5d/08/b02763b202b3f067e8f7306bfb4d107cf7e131cc2c7d09aa862fdcd2c06e/directory_validators-9.3.0-py3-none-any.whl
+[2023-05-23 10:07:43] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230522] Old Version: [0.3.1.dev20230521]
+[2023-05-23 10:07:43] INFO root fetch - processPackages [nashbanksync]: Start processing: stigg-api-client
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-23 10:07:43] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.0]
+[2023-05-23 10:07:43] INFO root fetch - processPackages [cheap-pie]: Start processing: bigraphs
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [cheap-pie]: success
+[2023-05-23 10:07:43] WARNING root fetch - processPackages [bigraphs]: Skipping, unable to determine old version
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [bigraphs] error
+[2023-05-23 10:07:43] INFO root fetch - processPackages [directory-validators]: executing diffoscope
+[2023-05-23 10:07:43] INFO root fetch - processPackages [directory-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_validators-9.2.2-py3-none-any.whl.zip tmp/directory_validators-9.3.0-py3-none-any.whl.zip --markdown 20230523/d/directory-validators/9.2.2-9.3.0/diff.md --exclude *.pyd
+[2023-05-23 10:07:43] INFO root fetch - processPackages [argparsecfg]: Downloading https://files.pythonhosted.org/packages/55/b3/87ade4161bc109b1ee814908160010c2f020594c77edd3b30ade4d7a80f0/argparsecfg-0.0.1.tar.gz
+[2023-05-23 10:07:43] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 10:07:43] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 10:07:43] INFO root fetch - main [MainThread]: End processing [cloudreactor-aws-setup-wizard]: success
+[2023-05-23 10:07:43] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/8f/e7/0e4e1a4027d3f4dc19507d05dca0b30df5c3979559c31a67f30f50187852/pyglove-0.3.1.dev20230522.tar.gz
+[2023-05-23 10:07:43] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-23 10:07:43] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230521.tar.gz tmp/pyglove-0.3.1.dev20230522.tar.gz --markdown 20230523/p/pyglove/0.3.1.dev20230521-0.3.1.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 10:07:43] INFO root fetch - processPackages [argparsecfg]: Downloading https://files.pythonhosted.org/packages/2d/66/d5c2c59baeda6b0e254676ca2819da17f8d21ad809d114c02d42e0e158eb/argparsecfg-0.2.2.tar.gz
+[2023-05-23 10:07:43] INFO root fetch - processPackages [argparsecfg]: executing diffoscope
+[2023-05-23 10:07:43] INFO root fetch - processPackages [argparsecfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparsecfg-0.0.1.tar.gz tmp/argparsecfg-0.2.2.tar.gz --markdown 20230523/a/argparsecfg/0.0.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 10:07:44] INFO root fetch - main [MainThread]: End processing [tomte]: success
+[2023-05-23 10:07:44] INFO root fetch - main [MainThread]: End processing [mlcvzoo-base]: success
+[2023-05-23 10:07:44] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-05-23 10:07:44] INFO root fetch - main [MainThread]: End processing [directory-validators]: success
+[2023-05-23 10:07:44] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 10:07:44] INFO root fetch - main [MainThread]: End processing [ambient-package-update]: success
+[2023-05-23 10:07:45] INFO root fetch - main [MainThread]: End processing [argparsecfg]: success
+[2023-05-23 10:07:45] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-05-23 10:07:45] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230523/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-05-23 10:07:46] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-23 10:07:47] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-05-23 10:07:47] INFO root fetch - main [MainThread]: Store serial: [18210756]

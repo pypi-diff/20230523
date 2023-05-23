@@ -12378,3 +12378,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 11:11:43] INFO root fetch - main [MainThread]: End processing [beaker-pyteal]: success
 [2023-05-23 11:11:43] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
 [2023-05-23 11:11:43] INFO root fetch - main [MainThread]: Store serial: [18211351]
+[2023-05-23 11:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211351]
+[2023-05-23 11:16:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beaker-pyteal
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hrin-msb
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MindsDB
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elm-messenger
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.projen-awscdk-construct
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-sdk
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libcnmc
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-braintree
+[2023-05-23 11:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-requests
+[2023-05-23 11:16:53] INFO root fetch - processPackages [beaker-pyteal]: New version: [1.0.2b1] Old Version: [1.0.1b1]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [elm-messenger]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230522] Old Version: [2.14.0.dev20230521]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-braintree]: New version: [4.20.0.0] Old Version: [4.19.0.1]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [MindsDB]: New version: [23.5.4.1] Old Version: [23.5.3.2]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-requests]: New version: [2.31.0.0] Old Version: [2.30.0.0]
+[2023-05-23 11:16:53] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230523/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [beaker-pyteal]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [beaker-pyteal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker_pyteal-1.0.1b1-py3-none-any.whl.zip tmp/beaker_pyteal-1.0.2b1-py3-none-any.whl.zip --markdown 20230523/b/beaker-pyteal/1.0.1b1-1.0.2b1/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/3b/a7/7d6dab83a48eff91ff75e21b2aaefd7419a29d5b1b1b8025d4a78ade0017/types-requests-2.30.0.0.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230523/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/19/b2/6e6f2f1ce8d4ffa26deb7633d68b39ae757dfcafe530b77499328fb264ac/qwak_sdk-0.5.3.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/6f/d1/c205902220efcb7e87d5ddaa5dfa4161c586c805d5f9fdd5035ea54df1c0/types-braintree-4.19.0.1.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/fc/dc/2a660702a3c1094ef7d68e1536aaf80700c1db5c27f5a52868ab439ad03d/MindsDB-23.5.3.2.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/70/1e/24c19d0557f15b14a61dd2e54ee5c84aa4664579bc5c06bf1dfc8bf2815f/elm-messenger-0.1.8.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230521-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230522-cp39-cp39-win_amd64.whl.zip --markdown 20230523/t/tf-nightly/2.14.0.dev20230521-2.14.0.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/95/77/b036fc5823e1b69f070f7c7815aee15dd69f4fc11dcebd08f5c7493464d1/types-requests-2.31.0.0.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.1.7.tar.gz tmp/elm-messenger-0.1.8.tar.gz --markdown 20230523/e/elm-messenger/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/f2/4f/dfbb04a48c96fbdc8cc7061f172b480a5280b665164f28166a4695c548be/qwak_sdk-0.5.4.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/3f/da/66ba5b66807c66d165e8098c045e79915c97b23ae663d869d930bf56b988/types-braintree-4.20.0.0.tar.gz
+[2023-05-23 11:16:53] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.3.tar.gz tmp/qwak_sdk-0.5.4.tar.gz --markdown 20230523/q/qwak-sdk/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-braintree]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-braintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-braintree-4.19.0.1.tar.gz tmp/types-braintree-4.20.0.0.tar.gz --markdown 20230523/t/types-braintree/4.19.0.1-4.20.0.0/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-requests]: executing diffoscope
+[2023-05-23 11:16:53] INFO root fetch - processPackages [types-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-requests-2.30.0.0.tar.gz tmp/types-requests-2.31.0.0.tar.gz --markdown 20230523/t/types-requests/2.30.0.0-2.31.0.0/diff.md --exclude *.pyd
+[2023-05-23 11:16:53] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/d9/a4/c679089645ac387c748c730cbb262a67793670743a7ddae9aabd6055341c/MindsDB-23.5.4.1.tar.gz
+[2023-05-23 11:16:54] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-05-23 11:16:54] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.5.3.2.tar.gz tmp/MindsDB-23.5.4.1.tar.gz --markdown 20230523/M/MindsDB/23.5.3.2-23.5.4.1/diff.md --exclude *.pyd
+[2023-05-23 11:16:54] INFO root fetch - processPackages [tf-nightly]: Start processing: crabpy
+[2023-05-23 11:16:54] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [crabpy]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-23 11:16:55] INFO root fetch - processPackages [beaker-pyteal]: Start processing: jcmutils
+[2023-05-23 11:16:55] INFO root fetch - main [MainThread]: End processing [beaker-pyteal]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [jcmutils]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-23 11:16:55] INFO root fetch - processPackages [elm-messenger]: Start processing: pepperize.projen-awscdk-construct
+[2023-05-23 11:16:55] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 11:16:55] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-23 11:16:55] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.6.tar.gz tmp/jcmutils-1.5.7.tar.gz --markdown 20230523/j/jcmutils/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-05-23 11:16:55] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/9d/b1/486729d5131fb64037ab6a890015160b9ee1bad15df57cd1368dc88e76dc/crabpy-1.2.3.tar.gz
+[2023-05-23 11:16:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-05-23 11:16:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 11:16:55] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: mouette
+[2023-05-23 11:16:55] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [types-requests]: Start processing: fmvmm
+[2023-05-23 11:16:55] INFO root fetch - main [MainThread]: End processing [types-requests]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [fmvmm]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 11:16:55] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/6d/c2/6793a3341a57b99bfeb2971a86cf04eb9849bb6616eac64310d8c632ab9b/crabpy-1.2.4.tar.gz
+[2023-05-23 11:16:55] INFO root fetch - processPackages [mouette]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-23 11:16:55] INFO root fetch - processPackages [crabpy]: executing diffoscope
+[2023-05-23 11:16:55] INFO root fetch - processPackages [crabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy-1.2.3.tar.gz tmp/crabpy-1.2.4.tar.gz --markdown 20230523/c/crabpy/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-23 11:16:55] INFO root fetch - processPackages [fmvmm]: Downloading https://files.pythonhosted.org/packages/59/07/10734a56b0a73836ece8ee7efc20f05462c00ced9e11b4a5482cb34f0679/fmvmm-1.0.4.tar.gz
+[2023-05-23 11:16:55] INFO root fetch - processPackages [mouette]: Downloading https://files.pythonhosted.org/packages/4e/03/702c0f367f22e0325fe12f4288a8da99c6cba9d254eab5ef4898a2d74af6/mouette-1.1.2.tar.gz
+[2023-05-23 11:16:55] INFO root fetch - main [MainThread]: End processing [types-braintree]: success
+[2023-05-23 11:16:55] INFO root fetch - processPackages [fmvmm]: Downloading https://files.pythonhosted.org/packages/e3/08/83d1cc1a6c35929f92f9fb34d1a2aad344ecb54827b8b785f8ce0754a4a9/fmvmm-1.0.5.tar.gz
+[2023-05-23 11:16:56] INFO root fetch - processPackages [mouette]: Downloading https://files.pythonhosted.org/packages/b3/75/74e533bd3e0691fed3c1219bafe44e1067a015a11ff58a8487238fdfca98/mouette-1.1.3.tar.gz
+[2023-05-23 11:16:56] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-23 11:16:56] INFO root fetch - processPackages [fmvmm]: executing diffoscope
+[2023-05-23 11:16:56] INFO root fetch - processPackages [fmvmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmvmm-1.0.4.tar.gz tmp/fmvmm-1.0.5.tar.gz --markdown 20230523/f/fmvmm/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 11:16:56] INFO root fetch - processPackages [mouette]: executing diffoscope
+[2023-05-23 11:16:56] INFO root fetch - processPackages [mouette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouette-1.1.2.tar.gz tmp/mouette-1.1.3.tar.gz --markdown 20230523/m/mouette/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-23 11:16:56] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-23 11:16:56] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-05-23 11:16:56] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-05-23 11:16:56] INFO root fetch - main [MainThread]: End processing [crabpy]: success
+[2023-05-23 11:16:57] INFO root fetch - main [MainThread]: End processing [fmvmm]: success
+[2023-05-23 11:16:58] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-23 11:16:58] INFO root fetch - main [MainThread]: End processing [mouette]: success
+[2023-05-23 11:17:07] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-05-23 11:17:07] INFO root fetch - main [MainThread]: Store serial: [18211406]

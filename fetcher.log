@@ -16074,3 +16074,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 14:29:57] INFO root fetch - main [MainThread]: End processing [jupyterlab-vega3]: success
 [2023-05-23 14:30:01] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2023-05-23 14:30:01] INFO root fetch - main [MainThread]: Store serial: [18213540]
+[2023-05-23 14:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18213540]
+[2023-05-23 14:35:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foxai
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx-predict-yolov8
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bibat
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boxmot
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tdb-io
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolibri-explore-plugin
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-utils
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-cube
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: schatsi
+[2023-05-23 14:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: disjoint-set
+[2023-05-23 14:35:13] INFO root fetch - processPackages [foxai]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [boxmot]: New version: [10.0.3] Old Version: [10.0.2]
+[2023-05-23 14:35:13] WARNING root fetch - processPackages [onnx-predict-yolov8]: Skipping, unable to determine old version
+[2023-05-23 14:35:13] INFO root fetch - processPackages [onnx-predict-yolov8]: Start processing: Simba-UW-tf-dev
+[2023-05-23 14:35:13] INFO root fetch - main [MainThread]: End processing [onnx-predict-yolov8] error
+[2023-05-23 14:35:13] INFO root fetch - processPackages [bibat]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [tdb-io]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [langchain-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 14:35:13] WARNING root fetch - processPackages [nonebot-plugin-cube]: Skipping, unable to determine old version
+[2023-05-23 14:35:13] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: translateabc
+[2023-05-23 14:35:13] INFO root fetch - processPackages [schatsi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:35:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube] error
+[2023-05-23 14:35:13] INFO root fetch - processPackages [disjoint-set]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.60.4] Old Version: [1.60.3]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [translateabc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 14:35:13] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/c6/ec/2c1a8c0cbf78534fb616f582c7a5dc753fab69d341fe0156aabb155b0869/boxmot-10.0.3.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [tdb-io]: Downloading https://files.pythonhosted.org/packages/21/06/c0cdc031961a6921f651a657676f32e2d2a585a7d14fe4701ecac1a325a4/tdb_io-0.5.8.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [bibat]: Downloading https://files.pythonhosted.org/packages/ed/a5/b3e4c2a8f4f29af83a553d6e5d80bbac68c0844371927aad5c2f8d5a8330/bibat-0.1.4.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [disjoint-set]: Downloading https://files.pythonhosted.org/packages/66/a9/bdf6b6a34c908d32f91b8074421cceff1fc0f52d5a4cb0cb0f9a67d0bce4/disjoint_set-0.7.3.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/ed/42/38265ed6803431868e658a5078f79ccb848d32899c882250d9f4c0d0e4a0/langchain_utils-0.3.8.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [translateabc]: Downloading https://files.pythonhosted.org/packages/62/d0/b846a0b949fb9e0d938b3599bf79b0af87cf264acc3d067be3cf15aad517/translateabc-1.0.1.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [schatsi]: Downloading https://files.pythonhosted.org/packages/4b/55/f796806f98761ad95fb17017bf49b4f748af1e03f583b41f82b844799ce2/schatsi-0.1.8.tar.gz
+[2023-05-23 14:35:13] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-05-23 14:35:13] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.2.tar.gz tmp/boxmot-10.0.3.tar.gz --markdown 20230523/b/boxmot/10.0.2-10.0.3/diff.md --exclude *.pyd
+[2023-05-23 14:35:13] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/38/a2/655cf5b428e1d48bad60bde2aecf0905adb7eefd04b253b6e523dafa4404/kolibri_explore_plugin-6.0.0-py2.py3-none-any.whl
+[2023-05-23 14:35:13] INFO root fetch - processPackages [foxai]: Downloading https://files.pythonhosted.org/packages/08/4f/bc9c2a1caa5526cb00eacd69aae871d2d427dc1c9303bf763b56dae76113/foxai-0.6.0.tar.gz
+[2023-05-23 14:35:13] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 16554277>=10485760
+[2023-05-23 14:35:13] INFO root fetch - processPackages [kolibri-explore-plugin]: Start processing: pyloobins
+[2023-05-23 14:35:13] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-05-23 14:35:13] INFO root fetch - processPackages [foxai]: executing diffoscope
+[2023-05-23 14:35:13] INFO root fetch - processPackages [foxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxai-0.5.4.tar.gz tmp/foxai-0.6.0.tar.gz --markdown 20230523/f/foxai/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 14:35:13] INFO root fetch - processPackages [pyloobins]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 14:35:14] INFO root fetch - processPackages [tdb-io]: Downloading https://files.pythonhosted.org/packages/12/d1/fe6a741ade65702e473c0df9f2f05b3b1f61f50f6465146715ef172a98ac/tdb_io-0.5.9.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [translateabc]: Downloading https://files.pythonhosted.org/packages/84/ba/e18d11a7cb435f8b6d928ee5b79f58962c7037f3ed62fcab2d279f8be80a/translateabc-1.0.2.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [disjoint-set]: Downloading https://files.pythonhosted.org/packages/ee/36/a1e5952c493f4cbc264515a7d23d144b53359c94f8f449a958ef159344d9/disjoint_set-0.7.4.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/7f/7b/4dc261eabc6b4d39d1920c16b4f8f9915e4a77ea5476538838fbe9fc8400/Simba-UW-tf-dev-1.60.4.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/d9/96/f800f28c9ccf7aaee9fee12181bc183690e4a5ac5f366cca776e8daa302a/langchain_utils-0.3.9.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [schatsi]: Downloading https://files.pythonhosted.org/packages/ac/40/4affcfdce54f53f87b59fa0fc510effd70827bcc69241ab37ee18e47747e/schatsi-0.1.9.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [tdb-io]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [tdb-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdb_io-0.5.8.tar.gz tmp/tdb_io-0.5.9.tar.gz --markdown 20230523/t/tdb-io/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [disjoint-set]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [disjoint-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disjoint_set-0.7.3.tar.gz tmp/disjoint_set-0.7.4.tar.gz --markdown 20230523/d/disjoint-set/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [pyloobins]: Downloading https://files.pythonhosted.org/packages/2c/97/7e383b7aa6038e1e468057bb0607f965b7f6bffa8988c54db68d9e05a99c/pyloobins-0.1.8.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.3.8.tar.gz tmp/langchain_utils-0.3.9.tar.gz --markdown 20230523/l/langchain-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [translateabc]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [translateabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translateabc-1.0.1.tar.gz tmp/translateabc-1.0.2.tar.gz --markdown 20230523/t/translateabc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [schatsi]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [schatsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schatsi-0.1.8.tar.gz tmp/schatsi-0.1.9.tar.gz --markdown 20230523/s/schatsi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.60.3.tar.gz tmp/Simba-UW-tf-dev-1.60.4.tar.gz --markdown 20230523/S/Simba-UW-tf-dev/1.60.3-1.60.4/diff.md --exclude *.pyd
+[2023-05-23 14:35:14] INFO root fetch - processPackages [pyloobins]: Downloading https://files.pythonhosted.org/packages/e9/0a/f1ac82acc12df34acdb31943f33da7ccfdc7bb55bd87547887568b20903f/pyloobins-0.1.9.tar.gz
+[2023-05-23 14:35:14] INFO root fetch - processPackages [pyloobins]: executing diffoscope
+[2023-05-23 14:35:14] INFO root fetch - processPackages [pyloobins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyloobins-0.1.8.tar.gz tmp/pyloobins-0.1.9.tar.gz --markdown 20230523/p/pyloobins/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 14:35:15] INFO root fetch - processPackages [bibat]: Downloading https://files.pythonhosted.org/packages/99/e0/3f2e8fa36f1d3331186723b174785fa460086059f62520671b44b0972601/bibat-0.1.5.tar.gz
+[2023-05-23 14:35:15] INFO root fetch - processPackages [bibat]: executing diffoscope
+[2023-05-23 14:35:15] INFO root fetch - processPackages [bibat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibat-0.1.4.tar.gz tmp/bibat-0.1.5.tar.gz --markdown 20230523/b/bibat/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-23 14:35:15] INFO root fetch - processPackages [disjoint-set]: Start processing: stigg-api-client
+[2023-05-23 14:35:15] INFO root fetch - main [MainThread]: End processing [disjoint-set]: success
+[2023-05-23 14:35:15] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:35:15] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:35:15] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:35:15] INFO root fetch - processPackages [boxmot]: Start processing: Simba-UW-tf-dev
+[2023-05-23 14:35:15] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-05-23 14:35:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.60.6] Old Version: [1.60.5]
+[2023-05-23 14:35:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/ac/d3/5fce41fe0c8d00067f712fed851f8712d05cf87bc9118e5445105bfec5e6/Simba-UW-tf-dev-1.60.5.tar.gz
+[2023-05-23 14:35:15] INFO root fetch - processPackages [schatsi]: Start processing: stigg-api-client
+[2023-05-23 14:35:15] INFO root fetch - main [MainThread]: End processing [schatsi]: success
+[2023-05-23 14:35:15] INFO root fetch - processPackages [translateabc]: Start processing: djangoldp-application
+[2023-05-23 14:35:15] INFO root fetch - main [MainThread]: End processing [translateabc]: success
+[2023-05-23 14:35:15] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.442.1]
+[2023-05-23 14:35:16] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-23 14:35:16] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.442.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230523/s/stigg-api-client/0.442.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-23 14:35:16] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2023-05-23 14:35:16] INFO root fetch - processPackages [djangoldp-application]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-23 14:35:16] INFO root fetch - main [MainThread]: End processing [tdb-io]: success
+[2023-05-23 14:35:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/78/c1/37004975853059042da8b92c839bb32bc58f2fdd67c25b81929c46200576/Simba-UW-tf-dev-1.60.6.tar.gz
+[2023-05-23 14:35:16] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/04/ea/ad511b37e695c1ba5420f6f77e1b1b391d4730e421505101c626531c69c8/djangoldp_application-1.1.6.tar.gz
+[2023-05-23 14:35:16] INFO root fetch - main [MainThread]: End processing [foxai]: success
+[2023-05-23 14:35:16] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-23 14:35:16] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.1.5.tar.gz tmp/djangoldp_application-1.1.6.tar.gz --markdown 20230523/d/djangoldp-application/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-23 14:35:16] INFO root fetch - main [MainThread]: End processing [pyloobins]: success
+[2023-05-23 14:35:16] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:35:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-23 14:35:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.60.5.tar.gz tmp/Simba-UW-tf-dev-1.60.6.tar.gz --markdown 20230523/S/Simba-UW-tf-dev/1.60.5-1.60.6/diff.md --exclude *.pyd
+[2023-05-23 14:35:17] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-23 14:35:19] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-23 14:35:19] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-23 14:35:21] INFO root fetch - main [MainThread]: End processing [bibat]: success
+[2023-05-23 14:35:21] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-23 14:35:21] INFO root fetch - main [MainThread]: Store serial: [18213599]

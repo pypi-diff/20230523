@@ -8604,3 +8604,125 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 07:02:09] INFO root fetch - main [MainThread]: End processing [policyuniverse]: success
 [2023-05-23 07:02:39] INFO root fetch - main [MainThread]: End processing [flybirds]: success
 [2023-05-23 07:02:39] INFO root fetch - main [MainThread]: Store serial: [18209125]
+[2023-05-23 07:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209125]
+[2023-05-23 07:07:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-auth-totp
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-auth-totp
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftrixminer
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abbrey
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdict
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satcfdi
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-changeset
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shopcloud-serverless
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: the-compiler
+[2023-05-23 07:07:53] INFO root fetch - processPackages [abbrey]: New version: [0.0.3a0] Old Version: [0.0.3]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [the-compiler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [odoo9-addon-auth-totp]: New version: [9.0.1.1.0.99.dev4] Old Version: [9.0.1.1.0.99.dev3]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [ftrixminer]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [odoo14-addon-base-changeset]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [bigdict]: New version: [22.5.29] Old Version: [21.4.11]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230523] Old Version: [23.6.0a230522]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [odoo8-addon-auth-totp]: New version: [8.0.1.0.0.99.dev3] Old Version: [8.0.1.0.0.99.dev2]
+[2023-05-23 07:07:53] INFO root fetch - processPackages [odoo9-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/7f/2e/d884827b2d37446d44e1ee16e7d495ae16757779012d44828916d7eceb88/odoo9_addon_auth_totp-9.0.1.1.0.99.dev3-py2-none-any.whl
+[2023-05-23 07:07:53] INFO root fetch - processPackages [bigdict]: executing diffoscope
+[2023-05-23 07:07:53] INFO root fetch - processPackages [bigdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdict-21.4.11.tar.gz tmp/bigdict-22.5.29.tar.gz --markdown 20230523/b/bigdict/21.4.11-22.5.29/diff.md --exclude *.pyd
+[2023-05-23 07:07:53] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/24/14/541aee917cc4fc35bbe1d64c4af9cec41023680c80ee7428953469131283/the-compiler-0.1.6.tar.gz
+[2023-05-23 07:07:53] INFO root fetch - processPackages [abbrey]: Downloading https://files.pythonhosted.org/packages/21/88/c7039b94ffc6ccf5a04276665b7204db891ff934bfc7d3e721ac59e5f6a4/abbrey-0.0.3a0.tar.gz
+[2023-05-23 07:07:53] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/e2/d6/375edaf0658a821ca84c3272ee9e2db8ab7f91cb99562b3606904078ee0b/satcfdi-4.0.8.tar.gz
+[2023-05-23 07:07:53] INFO root fetch - processPackages [odoo8-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/79/21/6d7940952261da811bec79fd9fe795d4290d32ba428f97e00e65f5e44a83/odoo8_addon_auth_totp-8.0.1.0.0.99.dev2-py2-none-any.whl
+[2023-05-23 07:07:53] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e3/60/999c21af7abcb88f140d96c8ced038a0e516dfbed3cdde2de6535557b181/dask-cuda-23.6.0a230523.tar.gz
+[2023-05-23 07:07:54] INFO root fetch - processPackages [abbrey]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [abbrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abbrey-0.0.3.tar.gz tmp/abbrey-0.0.3a0.tar.gz --markdown 20230523/a/abbrey/0.0.3-0.0.3a0/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/5e/09/e906e738b14898afec0759c954a63a4fb2557f39ce09b3251f36097cad59/ftrixminer-1.3.2.tar.gz
+[2023-05-23 07:07:54] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230523/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo14-addon-base-changeset]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo14-addon-base-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-base-changeset/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230522.tar.gz tmp/dask-cuda-23.6.0a230523.tar.gz --markdown 20230523/d/dask-cuda/23.6.0a230522-23.6.0a230523/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [ftrixminer]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [ftrixminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrixminer-1.3.1.tar.gz tmp/ftrixminer-1.3.2.tar.gz --markdown 20230523/f/ftrixminer/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [the-compiler]: Downloading https://files.pythonhosted.org/packages/9b/47/2eca2e55cfde597a82985333c3e99ce083051ddeb1e368d575e8edb2bfa6/the-compiler-0.1.7.tar.gz
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo9-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/89/79/1b80d568cfb2103c0f0da43632374e95a41d6868a5b433dbf94c09b5df81/odoo9_addon_auth_totp-9.0.1.1.0.99.dev4-py2-none-any.whl
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo8-addon-auth-totp]: Downloading https://files.pythonhosted.org/packages/8d/97/fa1d3f64055cb28688de5d1b73f3b6fe8d533954ac7749d68dbc88c271a1/odoo8_addon_auth_totp-8.0.1.0.0.99.dev3-py2-none-any.whl
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo9-addon-auth-totp]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo9-addon-auth-totp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_auth_totp-9.0.1.1.0.99.dev3-py2-none-any.whl.zip tmp/odoo9_addon_auth_totp-9.0.1.1.0.99.dev4-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-auth-totp/9.0.1.1.0.99.dev3-9.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo8-addon-auth-totp]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [odoo8-addon-auth-totp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_auth_totp-8.0.1.0.0.99.dev2-py2-none-any.whl.zip tmp/odoo8_addon_auth_totp-8.0.1.0.0.99.dev3-py2-none-any.whl.zip --markdown 20230523/o/odoo8-addon-auth-totp/8.0.1.0.0.99.dev2-8.0.1.0.0.99.dev3/diff.md --exclude *.pyd
+[2023-05-23 07:07:54] INFO root fetch - processPackages [the-compiler]: executing diffoscope
+[2023-05-23 07:07:54] INFO root fetch - processPackages [the-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the-compiler-0.1.6.tar.gz tmp/the-compiler-0.1.7.tar.gz --markdown 20230523/t/the-compiler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 07:07:55] INFO root fetch - processPackages [bigdict]: Start processing: rapid-pe
+[2023-05-23 07:07:55] INFO root fetch - main [MainThread]: End processing [bigdict]: success
+[2023-05-23 07:07:55] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230523] Old Version: [0.1.1.dev20230522]
+[2023-05-23 07:07:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/71/22/04c391c371fb5836af292c3c17536e7925cde41c6b02d1240848cc294f51/rapid_pe-0.1.1.dev20230523.tar.gz
+[2023-05-23 07:07:55] INFO root fetch - processPackages [abbrey]: Start processing: multi-model-server
+[2023-05-23 07:07:55] INFO root fetch - main [MainThread]: End processing [abbrey]: success
+[2023-05-23 07:07:55] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/be/13/8394d3dd0f36b7eeb02321c07bd92764b9d1f283649098cbbe0d1ceb0b77/satcfdi-4.0.9.tar.gz
+[2023-05-23 07:07:55] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230523] Old Version: [1.1.8b20230522]
+[2023-05-23 07:07:55] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-23 07:07:55] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230522.tar.gz tmp/rapid_pe-0.1.1.dev20230523.tar.gz --markdown 20230523/r/rapid-pe/0.1.1.dev20230522-0.1.1.dev20230523/diff.md --exclude *.pyd
+[2023-05-23 07:07:55] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/ca/f5/0c3403ccd9bd7e6f2067ba8df7292adfa315e7e29371b597970234d7dc6e/multi_model_server-1.1.8b20230523-py2.py3-none-any.whl
+[2023-05-23 07:07:55] INFO root fetch - processPackages [shopcloud-serverless]: Start processing: calfps
+[2023-05-23 07:07:55] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-23 07:07:55] INFO root fetch - processPackages [calfps]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 07:07:55] INFO root fetch - processPackages [calfps]: Downloading https://files.pythonhosted.org/packages/d0/66/3d46d73c091d9e587568b7845c4a78aaa79e57ef423c11a9661cb8115bc4/calfps-0.0.2.tar.gz
+[2023-05-23 07:07:55] INFO root fetch - processPackages [the-compiler]: Start processing: python-calamine
+[2023-05-23 07:07:55] INFO root fetch - main [MainThread]: End processing [the-compiler]: success
+[2023-05-23 07:07:55] INFO root fetch - processPackages [calfps]: Downloading https://files.pythonhosted.org/packages/0d/19/c6a3ae26a218bf335e15f26d61bb75dc9cf5e9e88a6922d981647b736ed2/calfps-0.0.3.tar.gz
+[2023-05-23 07:07:55] INFO root fetch - processPackages [ftrixminer]: Start processing: odoo14-addon-base-tier-validation
+[2023-05-23 07:07:55] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
+[2023-05-23 07:07:56] INFO root fetch - processPackages [calfps]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [calfps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfps-0.0.2.tar.gz tmp/calfps-0.0.3.tar.gz --markdown 20230523/c/calfps/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: New version: [14.0.2.9.3.dev2] Old Version: [14.0.2.9.3.dev1]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [python-calamine]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo9-addon-auth-totp]: Start processing: revTongYi
+[2023-05-23 07:07:56] INFO root fetch - main [MainThread]: End processing [odoo9-addon-auth-totp]: success
+[2023-05-23 07:07:56] WARNING root fetch - processPackages [revTongYi]: Skipping, unable to determine old version
+[2023-05-23 07:07:56] INFO root fetch - processPackages [revTongYi]: Start processing: odoo-addon-base-tier-validation
+[2023-05-23 07:07:56] INFO root fetch - main [MainThread]: End processing [revTongYi] error
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo8-addon-auth-totp]: Start processing: odoo-addon-base-custom-filter
+[2023-05-23 07:07:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-auth-totp]: success
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/a4/41/f6e395b9f5937455356910186875b19fa954e93ff9234913ca6fbf9a4826/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Start processing: policyengine-canada
+[2023-05-23 07:07:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-changeset]: success
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.21]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/96/7a/06f7942e5c338f7e88b8c006fc10fb01dd8e0ab627739ae3f543007cfcf8/python_calamine-0.1.1.tar.gz
+[2023-05-23 07:07:56] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230523/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-23 07:07:56] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230522-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230523-py2.py3-none-any.whl.zip --markdown 20230523/m/multi-model-server/1.1.8b20230522-1.1.8b20230523/diff.md --exclude *.pyd
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/90/1f/0e73797e11411f62c9cd6ab2f69e2923f085dba871dd39a722f3cfe175de/odoo_addon_base_tier_validation-16.0.1.0.4.21-py3-none-any.whl
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/73/89/7073b56a745671f832b25a39cb81b5ea7fb5f16de94186cd6e016b7723d0/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl
+[2023-05-23 07:07:56] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/27/80/f14389760221740e564e82640a1449e4b4675006121fb1b38fe87967ed4d/python_calamine-0.1.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-23 07:07:56] INFO root fetch - processPackages [rapid-pe]: Start processing: odoo-addon-base-tier-validation
+[2023-05-23 07:07:56] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.21]
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/90/1f/0e73797e11411f62c9cd6ab2f69e2923f085dba871dd39a722f3cfe175de/odoo_addon_base_tier_validation-16.0.1.0.4.21-py3-none-any.whl
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addon-base-tier-validation/14.0.2.9.3.dev1-14.0.2.9.3.dev2/diff.md --exclude *.pyd
+[2023-05-23 07:07:56] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230523/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: executing diffoscope
+[2023-05-23 07:07:56] INFO root fetch - processPackages [odoo-addon-base-custom-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_custom_filter-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_custom_filter-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-base-custom-filter/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-23 07:07:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-05-23 07:07:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-05-23 07:07:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.21-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-base-tier-validation/16.0.1.0.4.21-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-05-23 07:07:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.21-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-base-tier-validation/16.0.1.0.4.21-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-05-23 07:07:57] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-23 07:07:57] INFO root fetch - main [MainThread]: End processing [calfps]: success
+[2023-05-23 07:07:58] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-05-23 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-custom-filter]: success
+[2023-05-23 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation]: success
+[2023-05-23 07:07:58] INFO root fetch - processPackages [python-calamine]: executing diffoscope
+[2023-05-23 07:07:58] INFO root fetch - processPackages [python-calamine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_calamine-0.1.1.tar.gz tmp/python_calamine-0.1.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230523/p/python-calamine/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-05-23 07:07:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-05-23 07:07:59] INFO root fetch - main [MainThread]: End processing [python-calamine]: success
+[2023-05-23 07:08:03] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-05-23 07:10:48] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-23 07:10:48] INFO root fetch - main [MainThread]: Store serial: [18209208]

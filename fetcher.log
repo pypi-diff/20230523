@@ -23311,3 +23311,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 20:11:45] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-23 20:11:54] INFO root fetch - main [MainThread]: End processing [symgt]: success
 [2023-05-23 20:11:54] INFO root fetch - main [MainThread]: Store serial: [18218175]
+[2023-05-23 20:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18218175]
+[2023-05-23 20:17:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asgihandler
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phylum
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oceano-algos
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: szamlazz.py
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freetar
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steamship
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jeeves-shell
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: im-squeck
+[2023-05-23 20:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symgt
+[2023-05-23 20:17:04] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [modal-client]: New version: [0.49.2279] Old Version: [0.49.2236]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [im-squeck]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [asgihandler]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-23 20:17:04] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230523/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 20:17:04] WARNING root fetch - processPackages [freetar]: Skipping, unable to determine old version
+[2023-05-23 20:17:04] INFO root fetch - processPackages [jeeves-shell]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [freetar]: Start processing: google-cloud-pubsub
+[2023-05-23 20:17:04] INFO root fetch - main [MainThread]: End processing [freetar] error
+[2023-05-23 20:17:04] INFO root fetch - processPackages [szamlazz.py]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [symgt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [phylum]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [google-cloud-pubsub]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-23 20:17:04] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-23 20:17:04] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230523/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 20:17:04] INFO root fetch - processPackages [im-squeck]: executing diffoscope
+[2023-05-23 20:17:04] INFO root fetch - processPackages [im-squeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-squeck-1.0.1.tar.gz tmp/im-squeck-1.0.2.tar.gz --markdown 20230523/i/im-squeck/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 20:17:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/8e/33/b096b0e9657b842c59a1308f5bd07bc6423fcfbffcb1f9ac941a5c27fca4/modal_client-0.49.2279-py3-none-any.whl
+[2023-05-23 20:17:04] INFO root fetch - processPackages [symgt]: Downloading https://files.pythonhosted.org/packages/ad/41/fdfb93cdefd5abd54a92029df0a8181b6d7f2f574bc510817fcc6e3af7e2/symgt-0.0.7.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [szamlazz.py]: Downloading https://files.pythonhosted.org/packages/00/30/daf415180393b3a6d52f40110dd153cae96eed2ba1de7d1813548e353697/szamlazz.py-1.1.0.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [phylum]: Downloading https://files.pythonhosted.org/packages/37/4e/41266fcf993f1a49a31c58ba110656032f751026d9a406718dc4c9173158/phylum-0.9.0.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/70/b1/a3fb0ff5d57b25d93370c74b193665f7d02725f39458479b6baa077fb387/google-cloud-pubsub-2.8.0.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/c2/3c/ed8dc0e9f86871ce1ec1d007c3d742cb00e1d6ab18fba6185bda93ee558e/asgihandler-0.4.2.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-23 20:17:04] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2236-py3-none-any.whl.zip tmp/modal_client-0.49.2279-py3-none-any.whl.zip --markdown 20230523/m/modal-client/0.49.2236-0.49.2279/diff.md --exclude *.pyd
+[2023-05-23 20:17:04] INFO root fetch - processPackages [symgt]: Downloading https://files.pythonhosted.org/packages/75/4b/6ec82d0d1d000ce02f297e34a9892d8aec3ac23697af1c971f64948ed38f/symgt-0.0.8.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [szamlazz.py]: Downloading https://files.pythonhosted.org/packages/03/b4/9e1b7ae3a939ead5a9f634b6e43533b259b619dc1bc21e5e643576383444/szamlazz.py-1.2.0.tar.gz
+[2023-05-23 20:17:04] INFO root fetch - processPackages [jeeves-shell]: executing diffoscope
+[2023-05-23 20:17:04] INFO root fetch - processPackages [jeeves-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_shell-2.1.8.tar.gz tmp/jeeves_shell-2.1.9.tar.gz --markdown 20230523/j/jeeves-shell/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/e3/d6/8cde40432cac31c8f811cee72044adf491e66a2af9ded4d1774ca1ee4825/google-cloud-pubsub-2.9.0.tar.gz
+[2023-05-23 20:17:05] INFO root fetch - processPackages [szamlazz.py]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [szamlazz.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szamlazz.py-1.1.0.tar.gz tmp/szamlazz.py-1.2.0.tar.gz --markdown 20230523/s/szamlazz.py/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [phylum]: Downloading https://files.pythonhosted.org/packages/c6/84/cd0cff92b7198afbfc8857ec37b2af61b15ae7edd4d42e783db4b8de9ffd/phylum-0.9.1.tar.gz
+[2023-05-23 20:17:05] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.4.1.tar.gz tmp/asgihandler-0.4.2.tar.gz --markdown 20230523/a/asgihandler/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [phylum]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [phylum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylum-0.9.0.tar.gz tmp/phylum-0.9.1.tar.gz --markdown 20230523/p/phylum/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [symgt]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [symgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symgt-0.0.7.tar.gz tmp/symgt-0.0.8.tar.gz --markdown 20230523/s/symgt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [google-cloud-pubsub]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [google-cloud-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-pubsub-2.8.0.tar.gz tmp/google-cloud-pubsub-2.9.0.tar.gz --markdown 20230523/g/google-cloud-pubsub/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-23 20:17:05] INFO root fetch - processPackages [oceano-algos]: Start processing: filter-vcf
+[2023-05-23 20:17:05] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-23 20:17:05] INFO root fetch - processPackages [filter-vcf]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-23 20:17:05] INFO root fetch - processPackages [filter-vcf]: executing diffoscope
+[2023-05-23 20:17:05] INFO root fetch - processPackages [filter-vcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter-vcf-0.1.7.tar.gz tmp/filter-vcf-0.1.8.tar.gz --markdown 20230523/f/filter-vcf/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 20:17:06] INFO root fetch - processPackages [im-squeck]: Start processing: edx-event-bus-redis
+[2023-05-23 20:17:06] INFO root fetch - main [MainThread]: End processing [im-squeck]: success
+[2023-05-23 20:17:06] INFO root fetch - processPackages [edx-event-bus-redis]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-23 20:17:06] INFO root fetch - processPackages [jeeves-shell]: Start processing: pollination-two-phase-daylight-coefficient
+[2023-05-23 20:17:06] INFO root fetch - main [MainThread]: End processing [jeeves-shell]: success
+[2023-05-23 20:17:06] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-23 20:17:06] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/cb/88/e003cd3b64938eea31b2abbf9320f03c13bd4335d07665ca388d6e4fa78d/edx_event_bus_redis-0.2.1.tar.gz
+[2023-05-23 20:17:06] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-05-23 20:17:06] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/a3/37/b2270db2fef2efea307f8b989b166589d5ca1be50d1e12df3959f9337c5c/edx_event_bus_redis-0.3.0.tar.gz
+[2023-05-23 20:17:06] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: Downloading https://files.pythonhosted.org/packages/f0/8d/3f45c52cdf2d2af0c925bcfc4f272478ba7299a2a7d00ad7a589e8580b98/pollination-two-phase-daylight-coefficient-1.1.0.tar.gz
+[2023-05-23 20:17:06] INFO root fetch - main [MainThread]: End processing [szamlazz.py]: success
+[2023-05-23 20:17:06] INFO root fetch - main [MainThread]: End processing [phylum]: success
+[2023-05-23 20:17:06] INFO root fetch - processPackages [edx-event-bus-redis]: executing diffoscope
+[2023-05-23 20:17:06] INFO root fetch - processPackages [edx-event-bus-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_redis-0.2.1.tar.gz tmp/edx_event_bus_redis-0.3.0.tar.gz --markdown 20230523/e/edx-event-bus-redis/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 20:17:06] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: executing diffoscope
+[2023-05-23 20:17:06] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-two-phase-daylight-coefficient-1.0.9.tar.gz tmp/pollination-two-phase-daylight-coefficient-1.1.0.tar.gz --markdown 20230523/p/pollination-two-phase-daylight-coefficient/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 20:17:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-23 20:17:07] INFO root fetch - main [MainThread]: End processing [filter-vcf]: success
+[2023-05-23 20:17:08] INFO root fetch - main [MainThread]: End processing [edx-event-bus-redis]: success
+[2023-05-23 20:17:08] INFO root fetch - main [MainThread]: End processing [pollination-two-phase-daylight-coefficient]: success
+[2023-05-23 20:17:10] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-23 20:17:10] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
+[2023-05-23 20:17:21] INFO root fetch - main [MainThread]: End processing [symgt]: success
+[2023-05-23 20:17:21] INFO root fetch - main [MainThread]: Store serial: [18218223]

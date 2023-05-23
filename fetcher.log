@@ -13877,3 +13877,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:30:44] INFO root fetch - main [MainThread]: End processing [ichika]: success
 [2023-05-23 12:30:46] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-05-23 12:30:46] INFO root fetch - main [MainThread]: Store serial: [18212280]
+[2023-05-23 12:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212280]
+[2023-05-23 12:35:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conniosdk
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huspacy-nightly
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NetBone
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmpydummy
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moralis
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svgecko
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mdf-iter
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrew
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-pfx
+[2023-05-23 12:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vagd
+[2023-05-23 12:35:55] WARNING root fetch - processPackages [NetBone]: Skipping, unable to determine old version
+[2023-05-23 12:35:55] INFO root fetch - processPackages [NetBone]: Start processing: curated-tokenizers
+[2023-05-23 12:35:55] INFO root fetch - main [MainThread]: End processing [NetBone] error
+[2023-05-23 12:35:55] INFO root fetch - processPackages [conniosdk]: New version: [0.36] Old Version: [0.35]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev221] Old Version: [0.9.0.dev220]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [cmpydummy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [moralis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 12:35:55] WARNING root fetch - processPackages [svgecko]: Skipping, unable to determine old version
+[2023-05-23 12:35:55] INFO root fetch - processPackages [mdf-iter]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [svgecko]: Start processing: pyikarus
+[2023-05-23 12:35:55] INFO root fetch - processPackages [vagd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 12:35:55] INFO root fetch - main [MainThread]: End processing [svgecko] error
+[2023-05-23 12:35:55] INFO root fetch - processPackages [curated-tokenizers]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 12:35:55] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-23 12:35:56] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230523054213] Old Version: [0.3.3.dev20230522210851]
+[2023-05-23 12:35:56] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230522210851.tar.gz tmp/pyikarus-0.3.3.dev20230523054213.tar.gz --markdown 20230523/p/pyikarus/0.3.3.dev20230522210851-0.3.3.dev20230523054213/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230523/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [cmpydummy]: Downloading https://files.pythonhosted.org/packages/2e/ea/596f935e4c1e6fd1633ba3983434b2dc39a6960ac864b328c52af8235710/cmpydummy-0.0.4.tar.gz
+[2023-05-23 12:35:56] INFO root fetch - processPackages [mdf-iter]: Downloading https://files.pythonhosted.org/packages/b3/70/4ebd3dc6e7775027aafcc220576d488ec49bfa3c32e54f3ba16bcc57c05f/mdf_iter-2.0.5-cp37-abi3-win_amd64.whl
+[2023-05-23 12:35:56] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/d3/56/7a7a01cacbd5ac35a955ed4a9afe427bfcc7423db83f0138f8ec30785508/huspacy_nightly-0.9.0.dev221-py3-none-any.whl
+[2023-05-23 12:35:56] INFO root fetch - processPackages [curated-tokenizers]: Downloading https://files.pythonhosted.org/packages/a8/4f/7190248c036d05895b53b7c637bb5784daa4adff09961b7ed2ef40142b86/curated-tokenizers-0.0.6.tar.gz
+[2023-05-23 12:35:56] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/e3/af/ccff581691faf816d06f244c720896fc080e1500e5035d8ddfe5c069cb77/conniosdk-0.36-py3-none-any.whl
+[2023-05-23 12:35:56] INFO root fetch - processPackages [cmpydummy]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [cmpydummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmpydummy-0.0.3.tar.gz tmp/cmpydummy-0.0.4.tar.gz --markdown 20230523/c/cmpydummy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/69/c5/006c0c379c284ea2c3726aee642f799449e2a7a01d05ac09dd2014dbfddf/vagd-0.3.9.tar.gz
+[2023-05-23 12:35:56] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev220-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev221-py3-none-any.whl.zip --markdown 20230523/h/huspacy-nightly/0.9.0.dev220-0.9.0.dev221/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [moralis]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [moralis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moralis-0.1.8.tar.gz tmp/moralis-0.1.9.tar.gz --markdown 20230523/m/moralis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.3.8.tar.gz tmp/vagd-0.3.9.tar.gz --markdown 20230523/v/vagd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.35-py3-none-any.whl.zip tmp/conniosdk-0.36-py3-none-any.whl.zip --markdown 20230523/c/conniosdk/0.35-0.36/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [curated-tokenizers]: Downloading https://files.pythonhosted.org/packages/61/26/e823bf07b6f7894f4abfe56058d26ce438bd98b8efeaf4f3a06277d55c97/curated-tokenizers-0.0.7.tar.gz
+[2023-05-23 12:35:56] INFO root fetch - processPackages [mdf-iter]: Downloading https://files.pythonhosted.org/packages/f2/ef/17a1a491ce0f716f5346dda1f0a750f04d429c2c2aff9de71f6bd79eef08/mdf_iter-2.0.6-cp37-abi3-win_amd64.whl
+[2023-05-23 12:35:56] INFO root fetch - processPackages [mdf-iter]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [mdf-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdf_iter-2.0.5-cp37-abi3-win_amd64.whl.zip tmp/mdf_iter-2.0.6-cp37-abi3-win_amd64.whl.zip --markdown 20230523/m/mdf-iter/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-23 12:35:56] INFO root fetch - processPackages [curated-tokenizers]: executing diffoscope
+[2023-05-23 12:35:56] INFO root fetch - processPackages [curated-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-tokenizers-0.0.6.tar.gz tmp/curated-tokenizers-0.0.7.tar.gz --markdown 20230523/c/curated-tokenizers/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-23 12:35:57] INFO root fetch - processPackages [pyrew]: Start processing: celsus-colendi
+[2023-05-23 12:35:57] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 12:35:57] INFO root fetch - processPackages [celsus-colendi]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-05-23 12:35:57] ERROR root fetch - processPackages [celsus-colendi]: Unable to fetch info: No such project/version 'celsus-colendi' 0.0.1
+[2023-05-23 12:35:57] INFO root fetch - main [MainThread]: End processing [celsus-colendi] error
+[2023-05-23 12:35:57] INFO root fetch - main [MainThread]: End processing [cmpydummy]: success
+[2023-05-23 12:35:57] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-23 12:35:57] INFO root fetch - main [MainThread]: End processing [mdf-iter]: success
+[2023-05-23 12:35:58] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-05-23 12:35:58] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-05-23 12:35:59] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-05-23 12:35:59] INFO root fetch - main [MainThread]: End processing [curated-tokenizers]: success
+[2023-05-23 12:36:01] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-23 12:36:04] INFO root fetch - main [MainThread]: End processing [moralis]: success
+[2023-05-23 12:36:04] INFO root fetch - main [MainThread]: Store serial: [18212357]

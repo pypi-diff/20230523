@@ -20208,3 +20208,116 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:23:59] INFO root fetch - main [MainThread]: End processing [KDEpy]: success
 [2023-05-23 17:24:02] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-23 17:24:02] INFO root fetch - main [MainThread]: Store serial: [18216094]
+[2023-05-23 17:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216094]
+[2023-05-23 17:29:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lpython-emulation
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lacuscore
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datarobotx
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lpynn
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planetmapper
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-rs
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: koji
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-gladiator
+[2023-05-23 17:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dschain
+[2023-05-23 17:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iga
+[2023-05-23 17:29:13] INFO root fetch - processPackages [iga]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpynn]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lacuscore]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-23 17:29:13] WARNING root fetch - processPackages [gpt-gladiator]: Skipping, unable to determine old version
+[2023-05-23 17:29:13] INFO root fetch - processPackages [gpt-gladiator]: Start processing: apify
+[2023-05-23 17:29:13] WARNING root fetch - processPackages [dschain]: Skipping, unable to determine old version
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpython-emulation]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-05-23 17:29:13] INFO root fetch - main [MainThread]: End processing [gpt-gladiator] error
+[2023-05-23 17:29:13] INFO root fetch - processPackages [dschain]: Start processing: wr-cloner
+[2023-05-23 17:29:13] INFO root fetch - processPackages [datarobotx]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 17:29:13] INFO root fetch - main [MainThread]: End processing [dschain] error
+[2023-05-23 17:29:13] INFO root fetch - processPackages [koji]: New version: [1.33.0] Old Version: [1.32.1]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [planetmapper]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [llm-rs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [apify]: New version: [1.1.0b7] Old Version: [1.1.0b6]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [wr-cloner]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-23 17:29:13] INFO root fetch - processPackages [iga]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iga-1.0.0.tar.gz tmp/iga-1.0.1.tar.gz --markdown 20230523/i/iga/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpynn]: Downloading https://files.pythonhosted.org/packages/d9/bd/4459bc06e9195ccf5e4b54be36365334182ba7597ed3400846699b7e1e1a/lpynn-0.0.2.1.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [koji]: Downloading https://files.pythonhosted.org/packages/1a/f6/66b7d8b74e94813a6e6806c050c4e39c553edf95c369fcebe030d4e510e1/koji-1.32.1.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/72/dd/7e47949715beeaf4713afd3a2f7caf4b858cb0d89d79da7287553910beed/planetmapper-1.7.0.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/2b/5e/de4ce8aab8bb111a7a6c3a4a01b94e39794fa59febf3a371329ca1ed4164/lpython_emulation-0.0.1.8.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [datarobotx]: Downloading https://files.pythonhosted.org/packages/c2/6f/e94288a141b1e9953abdd7fd3980f8cf8e595725f3beb8067909d42058c9/datarobotx-0.1.7-py3-none-any.whl
+[2023-05-23 17:29:13] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/a5/8b/f41ac6c348c1f0200609f726b5d2c6b8eb9e6354785cff9fec9c5cc83851/apify-1.1.0b7.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [wr-cloner]: Downloading https://files.pythonhosted.org/packages/62/1d/6a178e7b37c1bbc0ffeae9dd65848d780868dbd877c252447a47a63f6b16/wr-cloner-1.9.1.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.4.8.tar.gz tmp/lacuscore-1.4.9.tar.gz --markdown 20230523/l/lacuscore/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/c9/71/a0bfd851e6cd34cf24e73ce355ff879e7497122b9b23f3d35a6ee026ea25/llm_rs-0.2.2.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b6.tar.gz tmp/apify-1.1.0b7.tar.gz --markdown 20230523/a/apify/1.1.0b6-1.1.0b7/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [koji]: Downloading https://files.pythonhosted.org/packages/fc/e7/f2ac68e8c298ea65cf9340a00df724c81279d7295c266edc62683ba8cc8c/koji-1.33.0.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [datarobotx]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [datarobotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobotx-0.1.6-py3-none-any.whl.zip tmp/datarobotx-0.1.7-py3-none-any.whl.zip --markdown 20230523/d/datarobotx/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/3b/ea/e392b1f97afe6dc0b02fcf9de606590a8a859a0dc8a50dc52bc5722ad04d/lpython_emulation-0.0.1.9.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [wr-cloner]: Downloading https://files.pythonhosted.org/packages/f0/a1/0dcf6d02355a8932e230f32170057f8f11c362e2f74f51a5a109ab19ae8f/wr-cloner-1.9.2.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/8b/0f/b31b42c67d678fb5867dc5f56ce0040428ded3f9734eaa2dda7bb3754bca/planetmapper-1.7.1.tar.gz
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpython-emulation]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [lpython-emulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpython_emulation-0.0.1.8.tar.gz tmp/lpython_emulation-0.0.1.9.tar.gz --markdown 20230523/l/lpython-emulation/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.2.1.tar.gz tmp/llm_rs-0.2.2.tar.gz --markdown 20230523/l/llm-rs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [koji]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [koji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koji-1.32.1.tar.gz tmp/koji-1.33.0.tar.gz --markdown 20230523/k/koji/1.32.1-1.33.0/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.7.0.tar.gz tmp/planetmapper-1.7.1.tar.gz --markdown 20230523/p/planetmapper/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-23 17:29:13] INFO root fetch - processPackages [wr-cloner]: executing diffoscope
+[2023-05-23 17:29:13] INFO root fetch - processPackages [wr-cloner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wr-cloner-1.9.1.tar.gz tmp/wr-cloner-1.9.2.tar.gz --markdown 20230523/w/wr-cloner/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-23 17:29:14] INFO root fetch - processPackages [lpynn]: Downloading https://files.pythonhosted.org/packages/fb/0c/3d8900463a6e1a971d423b2ac27bdbcfd080a1ef5465d5836cfa36777980/lpynn-0.0.2.2.tar.gz
+[2023-05-23 17:29:14] INFO root fetch - processPackages [lpynn]: executing diffoscope
+[2023-05-23 17:29:14] INFO root fetch - processPackages [lpynn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpynn-0.0.2.1.tar.gz tmp/lpynn-0.0.2.2.tar.gz --markdown 20230523/l/lpynn/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-05-23 17:29:14] INFO root fetch - processPackages [lacuscore]: Start processing: renamed-project-orl
+[2023-05-23 17:29:14] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-05-23 17:29:14] WARNING root fetch - processPackages [renamed-project-orl]: Skipping, unable to determine old version
+[2023-05-23 17:29:14] INFO root fetch - processPackages [renamed-project-orl]: Start processing: pepperize.cdk-security-group
+[2023-05-23 17:29:14] INFO root fetch - main [MainThread]: End processing [renamed-project-orl] error
+[2023-05-23 17:29:15] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 17:29:15] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-23 17:29:15] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 17:29:15] INFO root fetch - processPackages [apify]: Start processing: ytsaurus-spyt
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-05-23 17:29:15] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b449.post22078803.dev12] Old Version: [1.70.1b449.post22078803.dev11]
+[2023-05-23 17:29:15] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-23 17:29:15] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b449.post22078803.dev11.tar.gz tmp/ytsaurus-spyt-1.70.1b449.post22078803.dev12.tar.gz --markdown 20230523/y/ytsaurus-spyt/1.70.1b449.post22078803.dev11-1.70.1b449.post22078803.dev12/diff.md --exclude *.pyd
+[2023-05-23 17:29:15] INFO root fetch - processPackages [lpython-emulation]: Start processing: clear-skies
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [lpython-emulation]: success
+[2023-05-23 17:29:15] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 17:29:15] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-23 17:29:15] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230523/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 17:29:15] INFO root fetch - processPackages [lpynn]: Start processing: antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [lpynn]: success
+[2023-05-23 17:29:15] INFO root fetch - processPackages [datarobotx]: Start processing: Smart-Solver
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [datarobotx]: success
+[2023-05-23 17:29:15] INFO root fetch - processPackages [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 17:29:15] WARNING root fetch - processPackages [Smart-Solver]: Skipping, unable to determine old version
+[2023-05-23 17:29:15] INFO root fetch - processPackages [Smart-Solver]: Start processing: genomehubs
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [Smart-Solver] error
+[2023-05-23 17:29:15] INFO root fetch - processPackages [llm-rs]: Start processing: os2mo-fastapi-utils
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-23 17:29:15] INFO root fetch - processPackages [genomehubs]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-23 17:29:15] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: Downloading https://files.pythonhosted.org/packages/b9/76/c2c2cfb9d8ec18a29362b4d9ccfe5ffa829a50fc6cc83eeba3cd9555896a/antchain_ak_a1f82644937c486c81a62b0e5a6b4fbe-1.0.2.tar.gz
+[2023-05-23 17:29:16] INFO root fetch - main [MainThread]: End processing [koji]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [os2mo-fastapi-utils]: New version: [1.3.3] Old Version: [1.3.0]
+[2023-05-23 17:29:16] INFO root fetch - main [MainThread]: End processing [wr-cloner]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [os2mo-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/42/ed/a6bd4dc5a999d230bf536e667c772c84b24b70687a855d2507627ffb62f3/os2mo-fastapi-utils-1.3.0.tar.gz
+[2023-05-23 17:29:16] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/0d/53/1f5a9eee78555bd7a88eacc26df79aadcac1256ab75a8574463554b874cc/genomehubs-2.7.1.tar.gz
+[2023-05-23 17:29:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: Downloading https://files.pythonhosted.org/packages/9e/13/b280750bc41227ca6931f43b96a3236213fdbaeb93dd8d9ac89787c6e50a/antchain_ak_a1f82644937c486c81a62b0e5a6b4fbe-1.0.3.tar.gz
+[2023-05-23 17:29:16] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2023-05-23 17:29:16] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.7.0.tar.gz tmp/genomehubs-2.7.1.tar.gz --markdown 20230523/g/genomehubs/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-23 17:29:16] INFO root fetch - main [MainThread]: End processing [iga]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [os2mo-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/c2/ae/493d86dec02071a8e3d9a87ea2f95ea42ed0dd5889e8705b36072337d58f/os2mo_fastapi_utils-1.3.3.tar.gz
+[2023-05-23 17:29:16] INFO root fetch - processPackages [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: executing diffoscope
+[2023-05-23 17:29:16] INFO root fetch - processPackages [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_a1f82644937c486c81a62b0e5a6b4fbe-1.0.2.tar.gz tmp/antchain_ak_a1f82644937c486c81a62b0e5a6b4fbe-1.0.3.tar.gz --markdown 20230523/a/antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:29:16] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-23 17:29:16] INFO root fetch - processPackages [os2mo-fastapi-utils]: executing diffoscope
+[2023-05-23 17:29:16] INFO root fetch - processPackages [os2mo-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2mo-fastapi-utils-1.3.0.tar.gz tmp/os2mo_fastapi_utils-1.3.3.tar.gz --markdown 20230523/o/os2mo-fastapi-utils/1.3.0-1.3.3/diff.md --exclude *.pyd
+[2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [os2mo-fastapi-utils]: success
+[2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2023-05-23 17:29:17] INFO root fetch - main [MainThread]: End processing [antchain-ak-a1f82644937c486c81a62b0e5a6b4fbe]: success
+[2023-05-23 17:29:17] INFO root fetch - main [MainThread]: Store serial: [18216196]

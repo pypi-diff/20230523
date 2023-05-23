@@ -10641,3 +10641,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:40:08] INFO root fetch - main [MainThread]: End processing [alphamini]: success
 [2023-05-23 09:40:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-23 09:40:11] INFO root fetch - main [MainThread]: Store serial: [18210408]
+[2023-05-23 09:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210408]
+[2023-05-23 09:45:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoxx
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paaster
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathactive
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tKot
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Econ-linux
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-pfx
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparkverse
+[2023-05-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reytool
+[2023-05-23 09:45:21] INFO root fetch - processPackages [tKot]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [mathactive]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [autoxx]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [paaster]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [Econ-linux]: New version: [8.0] Old Version: [7.0]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [sparkverse]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 09:45:21] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-23 09:45:21] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230523/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-23 09:45:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:45:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:45:21] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-23 09:45:21] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.3.0.tar.gz tmp/tKot-0.3.1.tar.gz --markdown 20230523/t/tKot/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 09:45:21] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/8d/8b/8e419b8c582301ced9ad8ef0b6220acfa3d873f42037a1f88f91a87dd060/paaster-1.0.3.tar.gz
+[2023-05-23 09:45:22] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/47/03/24ade71b69d220e5c6c5e78943fe8a53ef9c6d10a6bb1d62cd5dae900363/autoxx-0.0.22.tar.gz
+[2023-05-23 09:45:22] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/91/21/ff1063ba7f58134993990fed8fd250e8cc1b595d8d87d901e2dc029ce49d/mathactive-0.0.8.tar.gz
+[2023-05-23 09:45:22] INFO root fetch - processPackages [Econ-linux]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [Econ-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_linux-7.0.tar.gz tmp/Econ_linux-8.0.tar.gz --markdown 20230523/E/Econ-linux/7.0-8.0/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230523/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [mathactive]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [mathactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathactive-0.0.7.tar.gz tmp/mathactive-0.0.8.tar.gz --markdown 20230523/m/mathactive/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230523/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [sparkverse]: Downloading https://files.pythonhosted.org/packages/4f/85/aedd35996394b13878d3e44568bce528ee5b838510b1d1ddf9a31ee35c56/sparkverse-0.0.4.tar.gz
+[2023-05-23 09:45:22] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.21.tar.gz tmp/autoxx-0.0.22.tar.gz --markdown 20230523/a/autoxx/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/7d/d7/e7d230068f9c377a5749752535cc0e24ff41ccdb5715d92cdffb6847e494/paaster-1.0.4.tar.gz
+[2023-05-23 09:45:22] INFO root fetch - processPackages [sparkverse]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [sparkverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkverse-0.0.3-py3-none-any.whl.zip tmp/sparkverse-0.0.4.tar.gz --markdown 20230523/s/sparkverse/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 09:45:22] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2023-05-23 09:45:22] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.0.3.tar.gz tmp/paaster-1.0.4.tar.gz --markdown 20230523/p/paaster/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 09:45:23] INFO root fetch - processPackages [tKot]: Start processing: django-pfx
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-23 09:45:23] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-23 09:45:23] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-23 09:45:23] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230523/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-23 09:45:23] INFO root fetch - processPackages [Econ-linux]: Start processing: wizata-dsapi
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [Econ-linux]: success
+[2023-05-23 09:45:23] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 09:45:23] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-23 09:45:23] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230523/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [mathactive]: success
+[2023-05-23 09:45:23] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [sparkverse]: success
+[2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-23 09:45:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:45:25] INFO root fetch - main [MainThread]: Store serial: [18210441]

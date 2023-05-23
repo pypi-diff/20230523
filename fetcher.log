@@ -1619,3 +1619,170 @@
 [2023-05-23 02:28:20] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
 [2023-05-23 02:28:20] INFO root fetch - main [MainThread]: End processing [types-unopy] error
 [2023-05-23 02:28:20] INFO root fetch - main [MainThread]: Store serial: [18205530]
+[2023-05-23 02:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205530]
+[2023-05-23 02:33:29] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rds-core
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip-audit
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aitomatic
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-serverless-clamscan
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bertagent
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: release-gitter
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dicommeta
+[2023-05-23 02:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyextrasafe
+[2023-05-23 02:33:29] INFO root fetch - processPackages [rds-core]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [pip-audit]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [bertagent]: New version: [0.0.8] Old Version: [0.0.7.post0.dev1]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [release-gitter]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-05-23 02:33:29] WARNING root fetch - processPackages [pyextrasafe]: Skipping, unable to determine old version
+[2023-05-23 02:33:29] INFO root fetch - processPackages [pyextrasafe]: Start processing: cdk-certbot-dns-route53
+[2023-05-23 02:33:29] INFO root fetch - main [MainThread]: End processing [pyextrasafe] error
+[2023-05-23 02:33:29] INFO root fetch - processPackages [dicommeta]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [aitomatic]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-23 02:33:29] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/cc/ab/22070615db4802ee69c4267de2d967516096281742ed3270d0c1910acedc/dicommeta-0.6.1.tar.gz
+[2023-05-23 02:33:29] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/17/0b/314d4c7953dafae8215ac3ccf6c693d60c4758d0c685ce030007db98b97b/rds-core-0.0.18.tar.gz
+[2023-05-23 02:33:29] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/f3/42/c6c9826f061aa9a24791d43eb16bd6e3ace69940b2a195809b32242541a3/aitomatic-1.2.6.tar.gz
+[2023-05-23 02:33:29] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/8e/c2/a5fdf97eead59a69ebd0e109096c69318eba29a30033e7917bdb3b006572/release-gitter-1.2.0.tar.gz
+[2023-05-23 02:33:29] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/c2/17/6d3dc833570867a1c9ba011e82edc9e5622bff08292fe6ff9e253550943a/pip_audit-2.5.5.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/dd/04/8c1b4614e9a3b35e4d18504bc7c31279686a71ebc6f6fae0601f2c3e6f57/rds-core-0.0.19.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [release-gitter]: Downloading https://files.pythonhosted.org/packages/40/14/114ef6a2a15e1459ed12c344ce9581186102c156fb4376e5f31f8f5d860a/release-gitter-2.0.0.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/f9/b0/4a1062fdfca2335cc5b00eec5a597036f1ff2cd9bdeacbc3e76ac4097a62/pip_audit-2.5.6.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [release-gitter]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [release-gitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release-gitter-1.2.0.tar.gz tmp/release-gitter-2.0.0.tar.gz --markdown 20230523/r/release-gitter/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.0.18.tar.gz tmp/rds-core-0.0.19.tar.gz --markdown 20230523/r/rds-core/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [dicommeta]: Downloading https://files.pythonhosted.org/packages/fc/ef/f66477c72ff954b91a8054d2f998c0eda17c562b0cc8e69e492ac9fbe968/dicommeta-0.6.2.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230523/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230523/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230523/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/22/c3/117234ad66dde66594d1e1f822b2a64433fa01d86404963a263882483266/aitomatic-1.2.7.tar.gz
+[2023-05-23 02:33:30] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-0.0.7.post0.dev1-py3-none-any.whl.zip tmp/bertagent-0.0.8-py3-none-any.whl.zip --markdown 20230523/b/bertagent/0.0.7.post0.dev1-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [pip-audit]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [pip-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_audit-2.5.5.tar.gz tmp/pip_audit-2.5.6.tar.gz --markdown 20230523/p/pip-audit/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [dicommeta]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [dicommeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicommeta-0.6.1.tar.gz tmp/dicommeta-0.6.2.tar.gz --markdown 20230523/d/dicommeta/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-23 02:33:30] INFO root fetch - processPackages [aitomatic]: executing diffoscope
+[2023-05-23 02:33:30] INFO root fetch - processPackages [aitomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitomatic-1.2.6.tar.gz tmp/aitomatic-1.2.7.tar.gz --markdown 20230523/a/aitomatic/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-23 02:33:31] INFO root fetch - processPackages [release-gitter]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-05-23 02:33:31] INFO root fetch - main [MainThread]: End processing [release-gitter]: success
+[2023-05-23 02:33:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 02:33:31] INFO root fetch - processPackages [rds-core]: Start processing: typecode
+[2023-05-23 02:33:31] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-05-23 02:33:31] INFO root fetch - processPackages [typecode]: New version: [30.0.1] Old Version: [30.0.0]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [typecode]: Downloading https://files.pythonhosted.org/packages/a0/ea/6e1432db5c62f903fb84bef8228d6b857f4e79463555d20bc3db3f11b0c9/typecode-30.0.0.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230523/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk-aurora-globaldatabase
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [dicommeta]: Start processing: cdktf-github-actions
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [dicommeta]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [bertagent]: Start processing: cdk-gitlab-runner
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: AlgorithmADTs
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pip-audit]: Start processing: cdktf-proxmox
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [pip-audit]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pepperize.cdk-github]: Start processing: pepperize.cdk-github
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: esrp-release-test
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230523/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [esrp-release-test]: New version: [8] Old Version: [14]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230523/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230523/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/f4/b5/2b7ddcf9df969748da4f0292f0c59d817bbb250a6cf80adbd8f746a99647/cdktf-proxmox-0.0.86.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [esrp-release-test]: Downloading https://files.pythonhosted.org/packages/e0/9f/18084a57db5fa3db31ba83235383a75fa333b41d5890f1bd03e0c3135323/esrp-release-test-14.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/a7/8d/fef3780490e59227631194c6a93c406ce4919ad6a2cbead09a42f67ce982/algorithmadts-0.1.6.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.5.tar.gz tmp/algorithmadts-0.1.6.tar.gz --markdown 20230523/A/AlgorithmADTs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.86.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230523/c/cdktf-proxmox/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:33:32] INFO root fetch - processPackages [aitomatic]: Start processing: pyapp-flow
+[2023-05-23 02:33:32] INFO root fetch - main [MainThread]: End processing [aitomatic]: success
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 02:33:32] INFO root fetch - processPackages [typecode]: Downloading https://files.pythonhosted.org/packages/82/05/b0c0c8248dc90d9f700ba9608e7be7860e6789515ca509a52abb7590a942/typecode-30.0.1.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [esrp-release-test]: Downloading https://files.pythonhosted.org/packages/c4/8e/294ba9e46d48e415a3c263cc3b46709d55f51f93c87be49a6085cc0d0c3b/esrp-release-test-8.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-05-23 02:33:32] INFO root fetch - processPackages [esrp-release-test]: executing diffoscope
+[2023-05-23 02:33:32] INFO root fetch - processPackages [esrp-release-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrp-release-test-14.tar.gz tmp/esrp-release-test-8.tar.gz --markdown 20230523/e/esrp-release-test/14-8/diff.md --exclude *.pyd
+[2023-05-23 02:33:33] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-05-23 02:33:33] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-05-23 02:33:33] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230523/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 02:33:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: virtualenv-tools3
+[2023-05-23 02:33:33] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-05-23 02:33:33] INFO root fetch - processPackages [typecode]: executing diffoscope
+[2023-05-23 02:33:33] INFO root fetch - processPackages [typecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typecode-30.0.0.tar.gz tmp/typecode-30.0.1.tar.gz --markdown 20230523/t/typecode/30.0.0-30.0.1/diff.md --exclude *.pyd
+[2023-05-23 02:33:33] INFO root fetch - processPackages [virtualenv-tools3]: New version: [3.0.0] Old Version: [2.0.5]
+[2023-05-23 02:33:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: aeppl-nightly
+[2023-05-23 02:33:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-23 02:33:33] INFO root fetch - processPackages [virtualenv-tools3]: Downloading https://files.pythonhosted.org/packages/06/de/13307c0a757d1fe7e927ec6c9c4e56b5ae43246292555fc414748ed4dccd/virtualenv-tools3-2.0.5.tar.gz
+[2023-05-23 02:33:33] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230523] Old Version: [0.1.4.dev20230522]
+[2023-05-23 02:33:34] INFO root fetch - processPackages [cdktf-github-actions]: Start processing: django-jbank
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [django-jbank]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-05-23 02:33:34] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: kahypar
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [virtualenv-tools3]: Downloading https://files.pythonhosted.org/packages/7a/65/8e85718836e10fb91bb23d70696054f8f1d5db532a280c151d3389233a73/virtualenv_tools3-3.0.0.tar.gz
+[2023-05-23 02:33:34] INFO root fetch - processPackages [kahypar]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-23 02:33:34] INFO root fetch - processPackages [virtualenv-tools3]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [virtualenv-tools3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv-tools3-2.0.5.tar.gz tmp/virtualenv_tools3-3.0.0.tar.gz --markdown 20230523/v/virtualenv-tools3/2.0.5-3.0.0/diff.md --exclude *.pyd
+[2023-05-23 02:33:34] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/49/4e/453205846d712772b061f23aa5f6cb629db2e57dca07810500bb4daf0a76/aeppl-nightly-0.1.4.dev20230522.tar.gz
+[2023-05-23 02:33:34] INFO root fetch - processPackages [esrp-release-test]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [esrp-release-test]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/b1/36/43529c9dfc94c5846ba32bbd3f695d90a8fed42f3c415a85faf5d9223fbb/django-jbank-4.2.3.tar.gz
+[2023-05-23 02:33:34] INFO root fetch - processPackages [AlgorithmADTs]: Start processing: rds-core
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [rds-core]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-23 02:33:34] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.2.2.tar.gz tmp/django-jbank-4.2.3.tar.gz --markdown 20230523/d/django-jbank/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-05-23 02:33:34] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/98/59/30295726b16d739b3749ec5a1c81c428ba0b153c2f9a570d565648781530/aeppl-nightly-0.1.4.dev20230523.tar.gz
+[2023-05-23 02:33:34] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 02:33:34] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.0.18.tar.gz tmp/rds-core-0.0.19.tar.gz --markdown 20230523/r/rds-core/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-23 02:33:34] INFO root fetch - processPackages [kahypar]: Downloading https://files.pythonhosted.org/packages/28/6f/228cce1b06beb33fffb6a8ec7cc789e0020d94e1fd1f7913e438072b5be9/kahypar-1.3.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-23 02:33:34] INFO root fetch - processPackages [cdktf-proxmox]: Start processing: AlgorithmADTs
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230522.tar.gz tmp/aeppl-nightly-0.1.4.dev20230523.tar.gz --markdown 20230523/a/aeppl-nightly/0.1.4.dev20230522-0.1.4.dev20230523/diff.md --exclude *.pyd
+[2023-05-23 02:33:34] INFO root fetch - processPackages [AlgorithmADTs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 02:33:34] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-05-23 02:33:34] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230523/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 02:33:34] INFO root fetch - processPackages [AlgorithmADTs]: Downloading https://files.pythonhosted.org/packages/e7/21/634713b8c8ef4cb34b5f0ba818817841f2fe516b5c3e94939d1865666c14/algorithmadts-0.1.7.tar.gz
+[2023-05-23 02:33:34] INFO root fetch - processPackages [kahypar]: Downloading https://files.pythonhosted.org/packages/de/b2/31f874667c41f388f2d39b2e81241bd2d6c84b303469f6680fb6c0b3d4d1/kahypar-1.3.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-23 02:33:34] INFO root fetch - processPackages [kahypar]: executing diffoscope
+[2023-05-23 02:33:34] INFO root fetch - processPackages [kahypar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kahypar-1.3.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/kahypar-1.3.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230523/k/kahypar/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-23 02:33:35] INFO root fetch - processPackages [AlgorithmADTs]: executing diffoscope
+[2023-05-23 02:33:35] INFO root fetch - processPackages [AlgorithmADTs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorithmadts-0.1.6.tar.gz tmp/algorithmadts-0.1.7.tar.gz --markdown 20230523/A/AlgorithmADTs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 02:33:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-05-23 02:33:35] INFO root fetch - main [MainThread]: End processing [virtualenv-tools3]: success
+[2023-05-23 02:33:35] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-05-23 02:33:35] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-23 02:33:36] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-23 02:33:36] INFO root fetch - main [MainThread]: End processing [AlgorithmADTs]: success
+[2023-05-23 02:33:38] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-05-23 02:33:41] INFO root fetch - main [MainThread]: End processing [typecode]: success
+[2023-05-23 02:33:52] INFO root fetch - main [MainThread]: End processing [kahypar]: success
+[2023-05-23 02:33:52] INFO root fetch - main [MainThread]: Store serial: [18205623]

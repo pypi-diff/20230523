@@ -11450,3 +11450,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:18:15] INFO root fetch - main [MainThread]: End processing [tksheet]: success
 [2023-05-23 10:18:22] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-05-23 10:18:22] INFO root fetch - main [MainThread]: Store serial: [18210847]
+[2023-05-23 10:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210847]
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-two-factor-auth-ovh-gateway
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FishProcessManagement
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easytqdm
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curated-tokenizers
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgerun-galileo-experiments
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NuMeTriS
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hrin-msb
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: muffin
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyPLNmodels
+[2023-05-23 10:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyWinBox
+[2023-05-23 10:23:31] INFO root fetch - processPackages [edgerun-galileo-experiments]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [NuMeTriS]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 10:23:31] WARNING root fetch - processPackages [PyWinBox]: Skipping, unable to determine old version
+[2023-05-23 10:23:31] INFO root fetch - processPackages [PyWinBox]: Start processing: interactions.py
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: End processing [PyWinBox] error
+[2023-05-23 10:23:31] INFO root fetch - processPackages [muffin]: New version: [0.98.0] Old Version: [0.97.2]
+[2023-05-23 10:23:31] WARNING root fetch - processPackages [curated-tokenizers]: Skipping, unable to determine old version
+[2023-05-23 10:23:31] INFO root fetch - processPackages [curated-tokenizers]: Start processing: phic
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: End processing [curated-tokenizers] error
+[2023-05-23 10:23:31] WARNING root fetch - processPackages [django-two-factor-auth-ovh-gateway]: Skipping, unable to determine old version
+[2023-05-23 10:23:31] INFO root fetch - processPackages [django-two-factor-auth-ovh-gateway]: Start processing: loggingx
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: End processing [django-two-factor-auth-ovh-gateway] error
+[2023-05-23 10:23:31] WARNING root fetch - processPackages [easytqdm]: Skipping, unable to determine old version
+[2023-05-23 10:23:31] INFO root fetch - processPackages [easytqdm]: Start processing: discord-py-interactions
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: End processing [easytqdm] error
+[2023-05-23 10:23:31] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.1] Old Version: [2023.5.23]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-05-23 10:23:31] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.97.2.tar.gz tmp/muffin-0.98.0.tar.gz --markdown 20230523/m/muffin/0.97.2-0.98.0/diff.md --exclude *.pyd
+[2023-05-23 10:23:31] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [edgerun-galileo-experiments]: executing diffoscope
+[2023-05-23 10:23:31] INFO root fetch - processPackages [edgerun-galileo-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgerun-galileo-experiments-0.0.2.dev8.tar.gz tmp/edgerun-galileo-experiments-0.0.2.dev9.tar.gz --markdown 20230523/e/edgerun-galileo-experiments/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-05-23 10:23:31] INFO root fetch - processPackages [interactions.py]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-05-23 10:23:31] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230523/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:23:31] INFO root fetch - processPackages [NuMeTriS]: Downloading https://files.pythonhosted.org/packages/53/92/7434a8b01ab9ee750c32b93ade08437d82fe99b45b219871aee7522a2d6f/NuMeTriS-0.0.6.tar.gz
+[2023-05-23 10:23:31] INFO root fetch - processPackages [phic]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-23 10:23:31] WARNING root fetch - processPackages [loggingx]: Skipping, unable to determine old version
+[2023-05-23 10:23:31] INFO root fetch - processPackages [loggingx]: Start processing: perf-class
+[2023-05-23 10:23:31] INFO root fetch - main [MainThread]: End processing [loggingx] error
+[2023-05-23 10:23:31] INFO root fetch - processPackages [discord-py-interactions]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-05-23 10:23:31] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/f3/da/7f040572c3bb0278f6095cb2dbfcad1472591197e73d8318e496f8cbc946/FishProcessManagement-2023.5.23.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [perf-class]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 10:23:32] INFO root fetch - processPackages [phic]: Downloading https://files.pythonhosted.org/packages/f0/7c/e940cc558a2e9cba95350933edaad214d53a49c063b39801065b6de41a89/phic-2.0.8-py3-none-any.whl
+[2023-05-23 10:23:32] INFO root fetch - processPackages [NuMeTriS]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [NuMeTriS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuMeTriS-0.0.5.tar.gz tmp/NuMeTriS-0.0.6.tar.gz --markdown 20230523/N/NuMeTriS/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/69/64/57db389799f1a75b293413032de4d3dc06048eced6eb9ed82680d9507eaf/interactions.py-5.5.1.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [phic]: Downloading https://files.pythonhosted.org/packages/c3/90/c6919a05963a1a7c722d894b4510dcba7cb41fba3385a6998bf505eb36ad/phic-2.0.9-py3-none-any.whl
+[2023-05-23 10:23:32] INFO root fetch - processPackages [perf-class]: Downloading https://files.pythonhosted.org/packages/ec/b6/281073ae6a1e8babf94545e3f0803804482ca9d81e7e0c870a074291cf7d/perf-class-1.0.4.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/a8/f2/124daf336b91eccd44cbcc56e1e8b6e6c599c1d6bb917dc62da30bccd816/FishProcessManagement-2023.5.23.1.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [phic]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [phic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phic-2.0.8-py3-none-any.whl.zip tmp/phic-2.0.9-py3-none-any.whl.zip --markdown 20230523/p/phic/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/6d/6a/ae8d78be296eadec53333b0755277488ea5e8178e9de2bfd6a5bb2629b39/discord-py-interactions-5.5.1.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [interactions.py]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [interactions.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions.py-5.5.0.tar.gz tmp/interactions.py-5.5.1.tar.gz --markdown 20230523/i/interactions.py/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.tar.gz tmp/FishProcessManagement-2023.5.23.1.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23-2023.5.23.1/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [perf-class]: Downloading https://files.pythonhosted.org/packages/d0/26/e03497107a090a1c71bf0cdedb8447dbd918f4b6929343d9b07e42b34106/perf-class-1.0.5.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-05-23 10:23:32] INFO root fetch - processPackages [discord-py-interactions]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [discord-py-interactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-py-interactions-5.5.0.tar.gz tmp/discord-py-interactions-5.5.1.tar.gz --markdown 20230523/d/discord-py-interactions/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [perf-class]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [perf-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perf-class-1.0.4.tar.gz tmp/perf-class-1.0.5.tar.gz --markdown 20230523/p/perf-class/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 10:23:32] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-23 10:23:32] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230523/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 10:23:33] INFO root fetch - processPackages [muffin]: Start processing: oarepo-model-builder-vocabularies
+[2023-05-23 10:23:33] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-05-23 10:23:33] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: New version: [4.0.0] Old Version: [1.0.9]
+[2023-05-23 10:23:33] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/88/b4/fb9641bc77435ce2c1d1385002adc0ab292526c31745c2760e7a7e0261de/oarepo-model-builder-vocabularies-1.0.9.tar.gz
+[2023-05-23 10:23:33] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 10:23:33] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/8f/ef/a63d421021c71ebe4589e4f2dbb35e5c7ca46325883504e1fe6d7cfe659d/oarepo-model-builder-vocabularies-4.0.0.tar.gz
+[2023-05-23 10:23:33] INFO root fetch - main [MainThread]: End processing [phic]: success
+[2023-05-23 10:23:33] INFO root fetch - main [MainThread]: End processing [edgerun-galileo-experiments]: success
+[2023-05-23 10:23:33] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: executing diffoscope
+[2023-05-23 10:23:33] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-vocabularies-1.0.9.tar.gz tmp/oarepo-model-builder-vocabularies-4.0.0.tar.gz --markdown 20230523/o/oarepo-model-builder-vocabularies/1.0.9-4.0.0/diff.md --exclude *.pyd
+[2023-05-23 10:23:33] INFO root fetch - main [MainThread]: End processing [perf-class]: success
+[2023-05-23 10:23:34] INFO root fetch - main [MainThread]: End processing [NuMeTriS]: success
+[2023-05-23 10:23:34] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-vocabularies]: success
+[2023-05-23 10:23:35] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-23 10:23:35] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-05-23 10:23:35] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
+[2023-05-23 10:24:20] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
+[2023-05-23 10:24:20] INFO root fetch - main [MainThread]: Store serial: [18210901]

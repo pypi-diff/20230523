@@ -22241,3 +22241,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
 [2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
 [2023-05-23 19:07:14] INFO root fetch - main [MainThread]: Store serial: [18217385]
+[2023-05-23 19:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217385]
+[2023-05-23 19:12:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-audit-tool
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-vss
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-vss
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-lti
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apify
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redreactor
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scinumtools
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-26
+[2023-05-23 19:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apify-client
+[2023-05-23 19:12:25] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cloud-audit-tool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify]: New version: [1.1.0b8] Old Version: [1.1.0b7]
+[2023-05-23 19:12:25] WARNING root fetch - processPackages [scinumtools]: Skipping, unable to determine old version
+[2023-05-23 19:12:25] INFO root fetch - processPackages [scinumtools]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-23 19:12:25] INFO root fetch - main [MainThread]: End processing [scinumtools] error
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify-client]: New version: [1.2.1b2] Old Version: [1.2.1b1]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [1.1] Old Version: [1.0]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230523/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [django-lti]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.1.0b7.tar.gz tmp/apify-1.1.0b8.tar.gz --markdown 20230523/a/apify/1.1.0b7-1.1.0b8/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] WARNING root fetch - processPackages [redreactor]: Skipping, unable to determine old version
+[2023-05-23 19:12:25] INFO root fetch - processPackages [redreactor]: Start processing: heudiconv
+[2023-05-23 19:12:25] INFO root fetch - main [MainThread]: End processing [redreactor] error
+[2023-05-23 19:12:25] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-1.0.tar.gz tmp/mkdocs-simple-tags-plugin-1.1.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cloud-audit-tool]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [cloud-audit-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-audit-tool-0.0.3.tar.gz tmp/cloud-audit-tool-0.0.4.tar.gz --markdown 20230523/c/cloud-audit-tool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [heudiconv]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-23 19:12:25] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a3-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a4-py3-none-any.whl.zip --markdown 20230523/d/datasette-sqlite-vss/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/27/26/dff148fd560e5b2bd903277eaf8bbf59e35ef377b0c449d80a38b0f24c5a/apify_client-1.2.1b2.tar.gz
+[2023-05-23 19:12:25] INFO root fetch - processPackages [django-lti]: Downloading https://files.pythonhosted.org/packages/3d/fa/9ea89a7ed9bf0d82dfc0086d70222dd48bf2597da772ef2ef13db7a3979e/django-lti-0.3.2.tar.gz
+[2023-05-23 19:12:25] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230523/s/sqlite-vss/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-23 19:12:25] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.2.1b1.tar.gz tmp/apify_client-1.2.1b2.tar.gz --markdown 20230523/a/apify-client/1.2.1b1-1.2.1b2/diff.md --exclude *.pyd
+[2023-05-23 19:12:25] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/51/a3/2fd7b184110322ac2b307b0287bca325b8b23f53fd76b75e8416d4146591/heudiconv-0.8.0.tar.gz
+[2023-05-23 19:12:26] INFO root fetch - processPackages [django-lti]: Downloading https://files.pythonhosted.org/packages/6b/f1/af7b1491de58b6a66e64c2681b9ab03b3dd1f47e9b000a3481ae52b0ca5b/django-lti-0.4.0.tar.gz
+[2023-05-23 19:12:26] INFO root fetch - processPackages [django-lti]: executing diffoscope
+[2023-05-23 19:12:26] INFO root fetch - processPackages [django-lti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lti-0.3.2.tar.gz tmp/django-lti-0.4.0.tar.gz --markdown 20230523/d/django-lti/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-23 19:12:26] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/c8/a2/5fbdba6a39ebe2257fa8df8bfb672ee3b6a4f840dfc772e510c40c225d02/heudiconv-0.9.0.tar.gz
+[2023-05-23 19:12:26] INFO root fetch - processPackages [heudiconv]: executing diffoscope
+[2023-05-23 19:12:26] INFO root fetch - processPackages [heudiconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heudiconv-0.8.0.tar.gz tmp/heudiconv-0.9.0.tar.gz --markdown 20230523/h/heudiconv/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 19:12:27] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: audiomath
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 19:12:27] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: musicntwrk
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-23 19:12:27] INFO root fetch - processPackages [audiomath]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 19:12:27] INFO root fetch - processPackages [musicntwrk]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-23 19:12:27] INFO root fetch - processPackages [cloud-audit-tool]: Start processing: spatialdata-io
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
+[2023-05-23 19:12:27] INFO root fetch - processPackages [audiomath]: Downloading https://files.pythonhosted.org/packages/60/0e/a7ce72deb4beb674d57e4600a147d625e6f503f1cca4618db441eecdb33f/audiomath-1.8.0-py2.py3-none-any.whl
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-23 19:12:27] WARNING root fetch - processPackages [audiomath]: Skipping package: exceeds size limit 15430174>=10485760
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [audiomath] error
+[2023-05-23 19:12:27] INFO root fetch - processPackages [spatialdata-io]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 19:12:27] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/db/b0/33a1d7d52fd51dce61dfff102411b95254fdc0a41aaf69600c7f5d277b8a/musicntwrk-2.2.8.tar.gz
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [django-lti]: success
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-23 19:12:27] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2023-05-23 19:12:27] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/eb/54/cfcd0ec154a945cf9ea03456f0b5db99228d517531e7f6568ba971ed433e/musicntwrk-2.2.9.tar.gz
+[2023-05-23 19:12:28] INFO root fetch - processPackages [musicntwrk]: executing diffoscope
+[2023-05-23 19:12:28] INFO root fetch - processPackages [musicntwrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicntwrk-2.2.8.tar.gz tmp/musicntwrk-2.2.9.tar.gz --markdown 20230523/m/musicntwrk/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-23 19:12:28] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/22/2d/1a05e82dcac2971f268d985ce0c1e33f3d5969f518b5ed9dd0d755724c46/spatialdata_io-0.0.4.tar.gz
+[2023-05-23 19:12:28] INFO root fetch - processPackages [spatialdata-io]: executing diffoscope
+[2023-05-23 19:12:28] INFO root fetch - processPackages [spatialdata-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_io-0.0.3.tar.gz tmp/spatialdata_io-0.0.4.tar.gz --markdown 20230523/s/spatialdata-io/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 19:12:29] INFO root fetch - main [MainThread]: End processing [spatialdata-io]: success
+[2023-05-23 19:12:29] INFO root fetch - main [MainThread]: End processing [musicntwrk]: success
+[2023-05-23 19:12:30] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
+[2023-05-23 19:12:30] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-23 19:13:04] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-23 19:13:04] INFO root fetch - main [MainThread]: Store serial: [18217429]

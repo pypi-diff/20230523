@@ -19075,3 +19075,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 16:34:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-23 16:34:53] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-05-23 16:34:53] INFO root fetch - main [MainThread]: Store serial: [18215329]
+[2023-05-23 16:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18215329]
+[2023-05-23 16:40:05] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiomisc
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychopy-usbToBNC
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bootstrap-colors
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-advanced-search
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nefila
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sports2d
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scinumtools
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dora-search
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alacorder
+[2023-05-23 16:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysparse-array
+[2023-05-23 16:40:05] INFO root fetch - processPackages [sports2d]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [django-bootstrap-colors]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [alacorder]: New version: [80.7.5] Old Version: [80.7.4]
+[2023-05-23 16:40:05] WARNING root fetch - processPackages [scinumtools]: Skipping, unable to determine old version
+[2023-05-23 16:40:05] INFO root fetch - processPackages [nefila]: New version: [0.0.5] Old Version: [0.0.4.dev0]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [scinumtools]: Start processing: regula.documentreader.webclient
+[2023-05-23 16:40:05] INFO root fetch - main [MainThread]: End processing [scinumtools] error
+[2023-05-23 16:40:05] WARNING root fetch - processPackages [psychopy-usbToBNC]: Skipping, unable to determine old version
+[2023-05-23 16:40:05] INFO root fetch - processPackages [psychopy-usbToBNC]: Start processing: spotON_sdk
+[2023-05-23 16:40:05] INFO root fetch - main [MainThread]: End processing [psychopy-usbToBNC] error
+[2023-05-23 16:40:05] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [pysparse-array]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [django-bootstrap-colors]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [django-bootstrap-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bootstrap_colors-5.2.0-py3-none-any.whl.zip tmp/django_bootstrap_colors-5.2.1-py3-none-any.whl.zip --markdown 20230523/d/django-bootstrap-colors/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-05-23 16:40:05] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.2.0.tar.gz tmp/sports2d-0.2.1.tar.gz --markdown 20230523/s/sports2d/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 16:40:05] INFO root fetch - processPackages [dora-search]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.4.tar.gz tmp/alacorder-80.7.5.tar.gz --markdown 20230523/a/alacorder/80.7.4-80.7.5/diff.md --exclude *.pyd
+[2023-05-23 16:40:05] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.97] Old Version: [0.0.4.96]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [regula.documentreader.webclient]: New version: [6.8.0] Old Version: [6.7.2]
+[2023-05-23 16:40:05] INFO root fetch - processPackages [nefila]: Downloading https://files.pythonhosted.org/packages/e0/6e/a503129c00cb58ab7eac606af88061101b9ee72c6e6ce5f1a24692a010d7/nefila-0.0.4.dev0.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [dora-search]: Downloading https://files.pythonhosted.org/packages/f7/ad/53327fcb979720695f44c0de78f8a7693a9471ee8c6aebe14cf49cfc8686/dora_search-0.1.8.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/42/76/becc31593aa8c4de500f7059ee1e0b3529221af439e73b3db6e3c133a0ba/odoo_addon_web_advanced_search-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-23 16:40:05] INFO root fetch - processPackages [pysparse-array]: Downloading https://files.pythonhosted.org/packages/03/56/ed94add9d9785d0258655b713ee8fa9828b8227a7c6f3cf8120b8ed25f3e/pysparse-array-1.0.5.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [regula.documentreader.webclient]: Downloading https://files.pythonhosted.org/packages/df/c1/a8f93c6a4a97b66449944ca1bc0cb1d8b4dd4809b70ac60c564ae1521f93/regula.documentreader.webclient-6.7.2.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/d7/69/d5b6ae7d9e29b79bf41831e7d12acc7d980814acf91c1f843a925ab8dd07/spotON_sdk-0.0.4.97.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.96.tar.gz tmp/spotON_sdk-0.0.4.97.tar.gz --markdown 20230523/s/spotON_sdk/0.0.4.96-0.0.4.97/diff.md --exclude *.pyd
+[2023-05-23 16:40:05] INFO root fetch - processPackages [nefila]: Downloading https://files.pythonhosted.org/packages/d1/b9/0cf3aae559f6018efd9f03a7e3724a657e2a07696996142994367fbeaf77/nefila-0.0.5.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [pysparse-array]: Downloading https://files.pythonhosted.org/packages/ab/11/98fcee3e1530b3083e8072ff63100cd2871e341aaac4b216f9ac3c7a19fe/pysparse-array-1.0.6.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [regula.documentreader.webclient]: Downloading https://files.pythonhosted.org/packages/49/cb/aeb7ae7b66a1e05746861a5795fd8b541bdee6dc414ec4551d313e27029d/regula.documentreader.webclient-6.8.0.tar.gz
+[2023-05-23 16:40:05] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/5e/e7/5cf9bd978c68a4be8722d96d047a14a3d901a14783e444628610476c8db9/odoo_addon_web_advanced_search-16.0.1.0.2-py3-none-any.whl
+[2023-05-23 16:40:05] INFO root fetch - processPackages [nefila]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [nefila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nefila-0.0.4.dev0.tar.gz tmp/nefila-0.0.5.tar.gz --markdown 20230523/n/nefila/0.0.4.dev0-0.0.5/diff.md --exclude *.pyd
+[2023-05-23 16:40:05] INFO root fetch - processPackages [pysparse-array]: executing diffoscope
+[2023-05-23 16:40:05] INFO root fetch - processPackages [pysparse-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparse-array-1.0.5.tar.gz tmp/pysparse-array-1.0.6.tar.gz --markdown 20230523/p/pysparse-array/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] INFO root fetch - processPackages [regula.documentreader.webclient]: executing diffoscope
+[2023-05-23 16:40:06] INFO root fetch - processPackages [regula.documentreader.webclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regula.documentreader.webclient-6.7.2.tar.gz tmp/regula.documentreader.webclient-6.8.0.tar.gz --markdown 20230523/r/regula.documentreader.webclient/6.7.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: executing diffoscope
+[2023-05-23 16:40:06] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-05-23 16:40:06] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_advanced_search-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_web_advanced_search-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-web-advanced-search/16.0.1.0.1.2-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-05-23 16:40:06] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230523/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] INFO root fetch - processPackages [dora-search]: Downloading https://files.pythonhosted.org/packages/69/c5/d7ae597003a9f04b89ba8cb0d7c6223974cf7a73e4f5326113acfaf3d5d7/dora_search-0.1.9.tar.gz
+[2023-05-23 16:40:06] INFO root fetch - processPackages [django-bootstrap-colors]: Start processing: rsxml
+[2023-05-23 16:40:06] INFO root fetch - main [MainThread]: End processing [django-bootstrap-colors]: success
+[2023-05-23 16:40:06] INFO root fetch - processPackages [dora-search]: executing diffoscope
+[2023-05-23 16:40:06] INFO root fetch - processPackages [dora-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dora_search-0.1.8.tar.gz tmp/dora_search-0.1.9.tar.gz --markdown 20230523/d/dora-search/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] WARNING root fetch - processPackages [rsxml]: Skipping, unable to determine old version
+[2023-05-23 16:40:06] INFO root fetch - processPackages [rsxml]: Start processing: pix-framework
+[2023-05-23 16:40:06] INFO root fetch - main [MainThread]: End processing [rsxml] error
+[2023-05-23 16:40:06] INFO root fetch - processPackages [pix-framework]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-23 16:40:06] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-05-23 16:40:06] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.4.tar.gz tmp/pix_framework-0.8.5.tar.gz --markdown 20230523/p/pix-framework/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-23 16:40:06] INFO root fetch - processPackages [alacorder]: Start processing: rmpy
+[2023-05-23 16:40:06] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-23 16:40:07] WARNING root fetch - processPackages [rmpy]: Skipping, unable to determine old version
+[2023-05-23 16:40:07] INFO root fetch - processPackages [rmpy]: Start processing: x-transformers
+[2023-05-23 16:40:07] INFO root fetch - main [MainThread]: End processing [rmpy] error
+[2023-05-23 16:40:07] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-23 16:40:07] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-23 16:40:07] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230523/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-23 16:40:07] INFO root fetch - processPackages [spotON_sdk]: Start processing: pickled-carrots
+[2023-05-23 16:40:07] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-23 16:40:07] INFO root fetch - processPackages [nefila]: Start processing: geti-sdk
+[2023-05-23 16:40:07] INFO root fetch - main [MainThread]: End processing [nefila]: success
+[2023-05-23 16:40:07] INFO root fetch - processPackages [pickled-carrots]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 16:40:07] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-23 16:40:07] INFO root fetch - processPackages [pysparse-array]: Start processing: pyPCIe
+[2023-05-23 16:40:07] INFO root fetch - main [MainThread]: End processing [pysparse-array]: success
+[2023-05-23 16:40:07] INFO root fetch - processPackages [pyPCIe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 16:40:07] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/cc/bc/49c560bd8cae8135c918c6b5e1bbc03a7e1ca0568faddc91d6d91fd10cc7/geti-sdk-1.5.5.tar.gz
+[2023-05-23 16:40:07] INFO root fetch - processPackages [pickled-carrots]: Downloading https://files.pythonhosted.org/packages/44/5d/981c6c6c38fc921b66487cacbe1431aa4b7275df2276757d7d10181af829/pickled_carrots-0.1.4.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [aiomisc]: Start processing: diffsims
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pickled-carrots]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pickled-carrots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickled_carrots-0.1.3.tar.gz tmp/pickled_carrots-0.1.4.tar.gz --markdown 20230523/p/pickled-carrots/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pyPCIe]: Downloading https://files.pythonhosted.org/packages/95/3a/b681f2596a2e16edb46dd7422b7719554117079af9b5a859c629990bee03/pyPCIe-0.1.0.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [diffsims]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-23 16:40:08] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/74/6f/bfb8fc39f42d4f3a641b9656445112febf09f51d0eb303bd851ea98688c7/geti-sdk-1.5.6.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Start processing: psychopy1-usbToBNC
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pyPCIe]: Downloading https://files.pythonhosted.org/packages/e8/f4/a69b4d53ac2306e8b3b4ad964b8a85bc136a65e6a57be061670c6f440ba7/pyPCIe-0.1.1.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.5.tar.gz tmp/geti-sdk-1.5.6.tar.gz --markdown 20230523/g/geti-sdk/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [dora-search]: Start processing: funke-enrichment-core
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [dora-search]: success
+[2023-05-23 16:40:08] INFO root fetch - processPackages [diffsims]: Downloading https://files.pythonhosted.org/packages/7f/fa/616ec79422d79691af7c03b09e4af51dad504323efe0277d4e9240ba9380/diffsims-0.5.1.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [funke-enrichment-core]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 16:40:08] ERROR root fetch - processPackages [psychopy1-usbToBNC]: Unable to get metadata: No such project 'psychopy1-usbToBNC'
+[2023-05-23 16:40:08] INFO root fetch - processPackages [psychopy1-usbToBNC]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [psychopy1-usbToBNC] error
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pyPCIe]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pyPCIe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPCIe-0.1.0.tar.gz tmp/pyPCIe-0.1.1.tar.gz --markdown 20230523/p/pyPCIe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.4] Old Version: [0.3]
+[2023-05-23 16:40:08] INFO root fetch - processPackages [pix-framework]: Start processing: otools-rpc
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-05-23 16:40:08] INFO root fetch - processPackages [funke-enrichment-core]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [funke-enrichment-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funke_enrichment_core-1.8.tar.gz tmp/funke_enrichment_core-1.9.tar.gz --markdown 20230523/f/funke-enrichment-core/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [otools-rpc]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-23 16:40:08] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/f6/26/d397c6f710f783dcf81096cd135fb2edd96c6fa4a05c2d219ffce16419c3/mkdocs-simple-tags-plugin-0.4.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [diffsims]: Downloading https://files.pythonhosted.org/packages/82/df/4d693827a0763ef900fcf03d3f6a2bad28d8ddaed32c4325654cde18725f/diffsims-0.5.2.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.3.tar.gz tmp/mkdocs-simple-tags-plugin-0.4.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [diffsims]: executing diffoscope
+[2023-05-23 16:40:08] INFO root fetch - processPackages [diffsims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffsims-0.5.1.tar.gz tmp/diffsims-0.5.2.tar.gz --markdown 20230523/d/diffsims/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-23 16:40:08] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/20/c8/3dc0a21b35f952a0f41a892b8c9fb28aacc4bcae47d2b63ef3e549203276/otools-rpc-0.2.6.tar.gz
+[2023-05-23 16:40:08] INFO root fetch - main [MainThread]: End processing [regula.documentreader.webclient]: success
+[2023-05-23 16:40:09] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2023-05-23 16:40:09] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.2.5.tar.gz tmp/otools-rpc-0.2.6.tar.gz --markdown 20230523/o/otools-rpc/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-23 16:40:09] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-23 16:40:09] INFO root fetch - main [MainThread]: End processing [pyPCIe]: success
+[2023-05-23 16:40:09] INFO root fetch - main [MainThread]: End processing [funke-enrichment-core]: success
+[2023-05-23 16:40:09] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 16:40:10] INFO root fetch - main [MainThread]: End processing [pickled-carrots]: success
+[2023-05-23 16:40:10] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2023-05-23 16:40:10] INFO root fetch - main [MainThread]: End processing [diffsims]: success
+[2023-05-23 16:40:11] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-05-23 16:40:11] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-23 16:40:11] INFO root fetch - main [MainThread]: Store serial: [18215410]

@@ -12904,3 +12904,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 11:36:21] INFO root fetch - main [MainThread]: End processing [zod]: success
 [2023-05-23 11:36:23] INFO root fetch - main [MainThread]: End processing [PyBigDFT]: success
 [2023-05-23 11:36:23] INFO root fetch - main [MainThread]: Store serial: [18211662]
+[2023-05-23 11:41:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211662]
+[2023-05-23 11:41:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: directory-components
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rook
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MandiriUtils
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connect-cli
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-analytics-reference-architecture
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tailraiders
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiversx-sdk-cli
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Qsim-trapped-ions
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: personal-knowledge-library
+[2023-05-23 11:41:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elementapi
+[2023-05-23 11:41:34] INFO root fetch - processPackages [MandiriUtils]: New version: [0.8] Old Version: [0.7]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [Qsim-trapped-ions]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [rook]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.0.0b0] Old Version: [6.2.1]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [tailraiders]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [elementapi]: New version: [0.5] Old Version: [0.4]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [personal-knowledge-library]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [directory-components]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [rook]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [rook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rook-0.1.98.tar.gz tmp/rook-0.1.99.tar.gz --markdown 20230523/r/rook/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [connect-cli]: New version: [27.3] Old Version: [27.2]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [Qsim-trapped-ions]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [Qsim-trapped-ions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qsim_trapped_ions-1.0.0.tar.gz tmp/Qsim_trapped_ions-1.0.1.tar.gz --markdown 20230523/Q/Qsim-trapped-ions/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-6.2.1.tar.gz tmp/multiversx_sdk_cli-7.0.0b0.tar.gz --markdown 20230523/m/multiversx-sdk-cli/6.2.1-7.0.0b0/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/b6/f8/feb7cc5218bef34642ede0477d4ae6f6397748fbb6d6b7bb03786a71cb14/MandiriUtils-0.8.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.7.tar.gz tmp/MandiriUtils-0.8.tar.gz --markdown 20230523/M/MandiriUtils/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [directory-components]: Downloading https://files.pythonhosted.org/packages/55/4b/db24aa9446a167f3acf696f2407f84891e252102cdf5b6ba94cea1035383/directory_components-9.8.0-py3-none-any.whl
+[2023-05-23 11:41:34] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/3c/e9/c2bd65e3c2e7848f17e5ded29d23760058b5cfd9f4d98478000c36495931/personal_knowledge_library-0.9.5.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/a0/85/21377ef57c51c8d536b7b0afad80243d742f6d50d72eaec6309dcb904276/connect_cli-27.2.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [elementapi]: Downloading https://files.pythonhosted.org/packages/9b/a8/71cff70d480d0c49d5ab8e81861c0fa75ae8e682b926dea42bf49ece36ec/elementapi-0.4.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [tailraiders]: Downloading https://files.pythonhosted.org/packages/a7/fc/4b765dbf6b68325769b2ea9b23326c4dda7bdac3155a606633cdc4797961/tailraiders-0.0.4.tar.gz
+[2023-05-23 11:41:34] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-05-23 11:41:34] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: llmspec
+[2023-05-23 11:41:34] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-05-23 11:41:34] INFO root fetch - processPackages [llmspec]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 11:41:34] INFO root fetch - processPackages [elementapi]: Downloading https://files.pythonhosted.org/packages/84/0e/ae0bcf5a8701a4c9eb199fc3afceb9e3cbd70bf6c31a9a8d448e5cc0d12d/elementapi-0.5.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/a8/52/e2f6a61e9913ba5753d1b3c3f112e42499ad2fb1976c8274b17aa0671c7d/personal_knowledge_library-0.9.6.tar.gz
+[2023-05-23 11:41:34] INFO root fetch - processPackages [tailraiders]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [tailraiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailraiders-0.0.3.tar.gz tmp/tailraiders-0.0.4.tar.gz --markdown 20230523/t/tailraiders/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-05-23 11:41:34] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.0.tar.gz tmp/llmspec-0.3.1.tar.gz --markdown 20230523/l/llmspec/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 11:41:34] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/e5/3c/8dc15fb123be19fb873676420b2351e98e7e92eb0b8f1d91c322a9819a25/connect_cli-27.3.tar.gz
+[2023-05-23 11:41:35] INFO root fetch - processPackages [elementapi]: executing diffoscope
+[2023-05-23 11:41:35] INFO root fetch - processPackages [elementapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementapi-0.4.tar.gz tmp/elementapi-0.5.tar.gz --markdown 20230523/e/elementapi/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-23 11:41:35] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-05-23 11:41:35] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-0.9.5.tar.gz tmp/personal_knowledge_library-0.9.6.tar.gz --markdown 20230523/p/personal-knowledge-library/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-23 11:41:35] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-05-23 11:41:35] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-27.2.tar.gz tmp/connect_cli-27.3.tar.gz --markdown 20230523/c/connect-cli/27.2-27.3/diff.md --exclude *.pyd
+[2023-05-23 11:41:35] INFO root fetch - processPackages [directory-components]: Downloading https://files.pythonhosted.org/packages/0a/9d/20ca61fcddeeef139b61ec589184e299d6438e308c8948a236ec9d23708e/directory_components-9.9.0-py3-none-any.whl
+[2023-05-23 11:41:35] INFO root fetch - processPackages [MandiriUtils]: Start processing: MandiriUtils
+[2023-05-23 11:41:35] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 11:41:35] INFO root fetch - processPackages [MandiriUtils]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 11:41:36] INFO root fetch - processPackages [directory-components]: executing diffoscope
+[2023-05-23 11:41:36] INFO root fetch - processPackages [directory-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_components-9.8.0-py3-none-any.whl.zip tmp/directory_components-9.9.0-py3-none-any.whl.zip --markdown 20230523/d/directory-components/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-05-23 11:41:36] INFO root fetch - processPackages [MandiriUtils]: Downloading https://files.pythonhosted.org/packages/87/f8/002e98b75f4cfc325c1cd25b11d892c11afe8709e0ec0a1c3bdf1c1fe521/MandiriUtils-0.9.tar.gz
+[2023-05-23 11:41:36] INFO root fetch - processPackages [MandiriUtils]: executing diffoscope
+[2023-05-23 11:41:36] INFO root fetch - processPackages [MandiriUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MandiriUtils-0.8.tar.gz tmp/MandiriUtils-0.9.tar.gz --markdown 20230523/M/MandiriUtils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 11:41:36] INFO root fetch - processPackages [elementapi]: Start processing: pozalabs-compose
+[2023-05-23 11:41:36] INFO root fetch - main [MainThread]: End processing [elementapi]: success
+[2023-05-23 11:41:36] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-05-23 11:41:36] INFO root fetch - main [MainThread]: End processing [tailraiders]: success
+[2023-05-23 11:41:36] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 11:41:36] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-05-23 11:41:36] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2023-05-23 11:41:36] INFO root fetch - main [MainThread]: End processing [Qsim-trapped-ions]: success
+[2023-05-23 11:41:36] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2023-05-23 11:41:36] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2023-05-23 11:41:36] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20230523/p/pozalabs-compose/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 11:41:37] INFO root fetch - main [MainThread]: End processing [MandiriUtils]: success
+[2023-05-23 11:41:37] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2023-05-23 11:41:38] INFO root fetch - main [MainThread]: End processing [rook]: success
+[2023-05-23 11:41:38] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-05-23 11:41:40] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-05-23 11:41:46] INFO root fetch - main [MainThread]: End processing [directory-components]: success
+[2023-05-23 11:41:46] INFO root fetch - main [MainThread]: Store serial: [18211732]

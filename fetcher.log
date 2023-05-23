@@ -13077,3 +13077,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 11:47:01] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-05-23 11:47:01] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
 [2023-05-23 11:47:01] INFO root fetch - main [MainThread]: Store serial: [18211793]
+[2023-05-23 11:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211793]
+[2023-05-23 11:52:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrin-msb
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cgcs20211111-py2
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ptapi42
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huspacy-nightly
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rudderclient
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cgcs20211111
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mountaintop
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: segment-anything-utils
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cxwidgets
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: siat
+[2023-05-23 11:52:10] INFO root fetch - processPackages [rudderclient]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.8.1.dev217] Old Version: [0.8.1.dev215]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [alibabacloud-cgcs20211111-py2]: New version: [2.7.5] Old Version: [2.5.0]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [segment-anything-utils]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [ptapi42]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [cxwidgets]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: New version: [2.7.5] Old Version: [2.5.0]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [mountaintop]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-05-23 11:52:10] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.8.1.dev215-py3-none-any.whl.zip tmp/huspacy_nightly-0.8.1.dev217-py3-none-any.whl.zip --markdown 20230523/h/huspacy-nightly/0.8.1.dev215-0.8.1.dev217/diff.md --exclude *.pyd
+[2023-05-23 11:52:10] INFO root fetch - processPackages [siat]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-23 11:52:10] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-23 11:52:10] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230523/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/89/ac/fea2498bc92abefa0321d2a63df737dfd1d1dae8796a083fafc6a0a6c589/rudderclient-1.2.0.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.1.1.tar.gz tmp/rudderclient-1.2.0.tar.gz --markdown 20230523/r/rudderclient/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [ptapi42]: Downloading https://files.pythonhosted.org/packages/e7/1a/7e8f9f78fb2f487155e4e380baed4c4c395b02104fb6efc56e40708351ec/ptapi42-1.0.3.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111-py2]: Downloading https://files.pythonhosted.org/packages/d9/83/b28bf377ef04514a9478d2637eb1cddfa07187355cad059815cecbc4ae08/alibabacloud_cgcs20211111_py2-2.5.0.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [segment-anything-utils]: Downloading https://files.pythonhosted.org/packages/da/dd/e11ad05df5141e41e2d35a522c5748b8331cf753f61dcd0f77644fd45cc0/segment_anything_utils-0.1.0.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [cxwidgets]: Downloading https://files.pythonhosted.org/packages/0b/34/66ecca65454a0494a48bf1a8e7e661880554d242b69ec0d433887575d151/cxwidgets-0.8.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [mountaintop]: Downloading https://files.pythonhosted.org/packages/3a/fe/5b5f75f7a2ee5675d08ca3112b4f5efd63725b8647ea74c2403b86aa64cf/mountaintop-0.1.2.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Downloading https://files.pythonhosted.org/packages/5c/80/8a1ac4648dddad4270345f1c56714f141e3af1631bd3762d563b9dead1c0/alibabacloud_cgcs20211111-2.5.0.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/db/ab/8e201fefbadef6efd13089b77bc39dbb00cc74c494ec6ac59d89f7ec5a01/siat-2.0.3-py3-none-any.whl
+[2023-05-23 11:52:11] INFO root fetch - processPackages [ptapi42]: Downloading https://files.pythonhosted.org/packages/54/8d/2e82e96a7b682397c1e5f89a6f79b3eb07ed8961f75d981cf93acffdf4d0/ptapi42-1.0.4.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Downloading https://files.pythonhosted.org/packages/f8/55/e2a4884de2148c27d0c446190ca58e1dc6258ff3a53020395657fdeec8fd/alibabacloud_cgcs20211111-2.7.5.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [segment-anything-utils]: Downloading https://files.pythonhosted.org/packages/4c/e7/327dda554555a0e0b95ce60a4d12c5589ed5a7b27364bbdd0b9cdf673abd/segment_anything_utils-0.2.0.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [mountaintop]: Downloading https://files.pythonhosted.org/packages/2e/5a/7d8728c52c22a86ac11f0283606e1d7900afc4a8e7e38316f0280822149b/mountaintop-0.1.3-py3-none-any.whl
+[2023-05-23 11:52:11] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/82/39/5f6276549bea7c1f2f94345c34735d0dc6c47c0674fd39f78fa6840cdb93/siat-2.0.4-py3-none-any.whl
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111-py2]: Downloading https://files.pythonhosted.org/packages/80/ff/e91a92ecf10e2258383623166fd8ec8ed2e762e695a6f8e729581b0686af/alibabacloud_cgcs20211111_py2-2.7.5.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [cxwidgets]: Downloading https://files.pythonhosted.org/packages/22/90/40815cae2167bf49db2a3b7ab84976be8125869b1604ab25592b2806f2c6/cxwidgets-0.9.tar.gz
+[2023-05-23 11:52:11] INFO root fetch - processPackages [cxwidgets]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [cxwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxwidgets-0.8.tar.gz tmp/cxwidgets-0.9.tar.gz --markdown 20230523/c/cxwidgets/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [ptapi42]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [ptapi42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptapi42-1.0.3.tar.gz tmp/ptapi42-1.0.4.tar.gz --markdown 20230523/p/ptapi42/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cgcs20211111-2.5.0.tar.gz tmp/alibabacloud_cgcs20211111-2.7.5.tar.gz --markdown 20230523/a/alibabacloud-cgcs20211111/2.5.0-2.7.5/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [segment-anything-utils]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [segment-anything-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment_anything_utils-0.1.0.tar.gz tmp/segment_anything_utils-0.2.0.tar.gz --markdown 20230523/s/segment-anything-utils/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [mountaintop]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [mountaintop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaintop-0.1.2.tar.gz tmp/mountaintop-0.1.3-py3-none-any.whl.zip --markdown 20230523/m/mountaintop/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111-py2]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [alibabacloud-cgcs20211111-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cgcs20211111_py2-2.5.0.tar.gz tmp/alibabacloud_cgcs20211111_py2-2.7.5.tar.gz --markdown 20230523/a/alibabacloud-cgcs20211111-py2/2.5.0-2.7.5/diff.md --exclude *.pyd
+[2023-05-23 11:52:11] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-05-23 11:52:11] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.3-py3-none-any.whl.zip tmp/siat-2.0.4-py3-none-any.whl.zip --markdown 20230523/s/siat/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-23 11:52:12] INFO root fetch - processPackages [rudderclient]: Start processing: UEVaultManager
+[2023-05-23 11:52:12] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-23 11:52:12] INFO root fetch - processPackages [UEVaultManager]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-23 11:52:12] INFO root fetch - processPackages [huspacy-nightly]: Start processing: nlpaf
+[2023-05-23 11:52:12] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-05-23 11:52:12] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-05-23 11:52:12] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-05-23 11:52:12] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-23 11:52:12] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.3.0.tar.gz tmp/UEVaultManager-1.4.0.tar.gz --markdown 20230523/U/UEVaultManager/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-23 11:52:12] INFO root fetch - processPackages [cxwidgets]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 11:52:12] INFO root fetch - main [MainThread]: End processing [cxwidgets]: success
+[2023-05-23 11:52:12] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-05-23 11:52:12] INFO root fetch - processPackages [nlpaf]: Start processing: huspacy-nightly
+[2023-05-23 11:52:12] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-05-23 11:52:12] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev219] Old Version: [0.9.0.dev218]
+[2023-05-23 11:52:12] INFO root fetch - processPackages [segment-anything-utils]: Start processing: range-compression
+[2023-05-23 11:52:12] INFO root fetch - main [MainThread]: End processing [segment-anything-utils]: success
+[2023-05-23 11:52:13] INFO root fetch - main [MainThread]: End processing [ptapi42]: success
+[2023-05-23 11:52:13] WARNING root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Skipping, unable to determine old version
+[2023-05-23 11:52:13] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata] error
+[2023-05-23 11:52:13] INFO root fetch - processPackages [range-compression]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-23 11:52:13] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/f2/de/1987e87bdb6e18b9727c19af04f095197b0a11eff17b190373f98e5ef7a1/huspacy_nightly-0.9.0.dev218-py3-none-any.whl
+[2023-05-23 11:52:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-cgcs20211111-py2]: success
+[2023-05-23 11:52:13] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/92/6c/83f704d7e19bee7572587aeb12437146a24f122483a3311977e7f8c86320/range_compression-0.1.1.tar.gz
+[2023-05-23 11:52:13] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-23 11:52:13] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/af/f8/4b899d38b0e0116b39d8e945f8cf0ec93f4d20cd0cc0c61dc7ee8572dcc5/huspacy_nightly-0.9.0.dev219-py3-none-any.whl
+[2023-05-23 11:52:13] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-05-23 11:52:13] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev218-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev219-py3-none-any.whl.zip --markdown 20230523/h/huspacy-nightly/0.9.0.dev218-0.9.0.dev219/diff.md --exclude *.pyd
+[2023-05-23 11:52:13] INFO root fetch - processPackages [range-compression]: Downloading https://files.pythonhosted.org/packages/b2/11/755c351b71acf88a776473545992fee40269b66bd4ceee9ef189321d1c7f/range_compression-0.2.0.tar.gz
+[2023-05-23 11:52:13] INFO root fetch - processPackages [range-compression]: executing diffoscope
+[2023-05-23 11:52:13] INFO root fetch - processPackages [range-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/range_compression-0.1.1.tar.gz tmp/range_compression-0.2.0.tar.gz --markdown 20230523/r/range-compression/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 11:52:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-cgcs20211111]: success
+[2023-05-23 11:52:14] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-05-23 11:52:14] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-05-23 11:52:14] INFO root fetch - main [MainThread]: End processing [range-compression]: success
+[2023-05-23 11:52:14] INFO root fetch - main [MainThread]: End processing [mountaintop]: success
+[2023-05-23 11:52:16] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-23 11:52:16] INFO root fetch - main [MainThread]: Store serial: [18211835]

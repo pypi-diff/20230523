@@ -17430,3 +17430,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:26:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-23 15:26:43] INFO root fetch - main [MainThread]: End processing [MEArec]: success
 [2023-05-23 15:26:43] INFO root fetch - main [MainThread]: Store serial: [18214259]
+[2023-05-23 15:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214259]
+[2023-05-23 15:31:53] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reaktion
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rekuest
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylacus
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkitekt
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: im-squeck
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbsite
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-hijack
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supertokens-python
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2023-05-23 15:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-oasis4
+[2023-05-23 15:31:53] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [im-squeck]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [django-hijack]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [pylacus]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.1a1] Old Version: [1.1.1a0]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 15:31:53] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 15:31:53] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230523/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-hijack]: Downloading https://files.pythonhosted.org/packages/61/ed/41e2c281649e08182f23d797e7146479094ac1d9c22765a195219ea40d2a/django-hijack-3.3.0.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [im-squeck]: Downloading https://files.pythonhosted.org/packages/f3/fe/f52f1a07c338a3ddfd1cf0e82ac57d67601fcc9f871472d762f0987e38b7/im-squeck-1.0.1.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [pylacus]: Downloading https://files.pythonhosted.org/packages/71/94/996bac6f9548c7ef2ba4fe691b5ba92603d12b8b55da0783ecc611a16c65/pylacus-1.4.1.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/fc/58/e3ad57eb86d26893e449bc4339187aceffe935322213f201462d09cdc86b/django_oasis4-1.1.1a1-py3-none-any.whl
+[2023-05-23 15:31:54] INFO root fetch - processPackages [im-squeck]: Downloading https://files.pythonhosted.org/packages/6d/ae/1fa4f33eb05777f9b502238568308c320aa66d46e1600291afd1554cd20b/im-squeck-1.0.2.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230523/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230523/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230523/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [im-squeck]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [im-squeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-squeck-1.0.1.tar.gz tmp/im-squeck-1.0.2.tar.gz --markdown 20230523/i/im-squeck/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230523/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-hijack]: Downloading https://files.pythonhosted.org/packages/70/f7/280c51cd69e1e1392b91d2ce482f7a16e9cb323b9d47f039d223ad88d078/django-hijack-3.4.0.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [pylacus]: Downloading https://files.pythonhosted.org/packages/25/c0/938b6598f03e64b2d361d5d06083ed40d6e39438d47c7a58765ba3922e86/pylacus-1.4.2.tar.gz
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.1a0.tar.gz tmp/django_oasis4-1.1.1a1-py3-none-any.whl.zip --markdown 20230523/d/django-oasis4/1.1.1a0-1.1.1a1/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [pylacus]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [pylacus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylacus-1.4.1.tar.gz tmp/pylacus-1.4.2.tar.gz --markdown 20230523/p/pylacus/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-hijack]: executing diffoscope
+[2023-05-23 15:31:54] INFO root fetch - processPackages [django-hijack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hijack-3.3.0.tar.gz tmp/django-hijack-3.4.0.tar.gz --markdown 20230523/d/django-hijack/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-23 15:31:55] INFO root fetch - processPackages [im-squeck]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-05-23 15:31:55] INFO root fetch - main [MainThread]: End processing [im-squeck]: success
+[2023-05-23 15:31:55] INFO root fetch - processPackages [reaktion]: Start processing: ep-stats
+[2023-05-23 15:31:55] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-23 15:31:55] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-23 15:31:55] INFO root fetch - processPackages [ep-stats]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-23 15:31:55] INFO root fetch - processPackages [rekuest]: Start processing: nice-sql
+[2023-05-23 15:31:55] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-23 15:31:55] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-05-23 15:31:55] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.4.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.6.tar.gz --markdown 20230523/a/amukhsimov-jupyter-templates-bigdata/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 15:31:55] INFO root fetch - processPackages [ep-stats]: executing diffoscope
+[2023-05-23 15:31:55] INFO root fetch - processPackages [ep-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ep-stats-1.7.0.tar.gz tmp/ep-stats-1.7.1.tar.gz --markdown 20230523/e/ep-stats/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-23 15:31:56] INFO root fetch - processPackages [pylacus]: Start processing: mercury
+[2023-05-23 15:31:56] INFO root fetch - main [MainThread]: End processing [pylacus]: success
+[2023-05-23 15:31:56] INFO root fetch - processPackages [arkitekt]: Start processing: certora-cli-alpha-jaroslav-parallelSplitting
+[2023-05-23 15:31:56] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-23 15:31:56] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: New version: [20230523.4.40.608690] Old Version: [20230521.22.12.411772]
+[2023-05-23 15:31:56] INFO root fetch - processPackages [mercury]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-05-23 15:31:56] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Downloading https://files.pythonhosted.org/packages/9a/80/27b2d3aca61e64207c5068b78ba8e49b87a95fbfc90d64e8a989d3bc5342/certora-cli-alpha-jaroslav-parallelSplitting-20230521.22.12.411772.tar.gz
+[2023-05-23 15:31:56] WARNING root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Skipping package: exceeds size limit 38984736>=10485760
+[2023-05-23 15:31:56] INFO root fetch - processPackages [certora-cli-alpha-jaroslav-parallelSplitting]: Start processing: django-oasis4-auth
+[2023-05-23 15:31:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jaroslav-parallelSplitting] error
+[2023-05-23 15:31:56] INFO root fetch - processPackages [nice-sql]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-05-23 15:31:56] INFO root fetch - main [MainThread]: End processing [django-hijack]: success
+[2023-05-23 15:31:56] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/3a/cb/b7b5d936c7c6517705017333d00d5a8725afb6574b8de481e83782092000/mercury-2.2.9.tar.gz
+[2023-05-23 15:31:56] INFO root fetch - processPackages [django-oasis4-auth]: New version: [1.0.9b0] Old Version: [1.0.9]
+[2023-05-23 15:31:56] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/ef/6a/ce201b86b228089e2139995fa003934f24c004062526751a27a83bdba0de/nice-sql-0.0.7.tar.gz
+[2023-05-23 15:31:56] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-23 15:31:56] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/d5/fc/8ef0e5be74d3d60c4484a30e7e7697c568d20b0ecb7128412e0a78cfe97c/mercury-2.3.0.tar.gz
+[2023-05-23 15:31:56] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/d5/cb/00dbe5e27d393399dd484040ee3b337a623d04ec407d996eb597ffa8dff4/nice-sql-1.0.0.tar.gz
+[2023-05-23 15:31:56] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-05-23 15:31:56] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.9.tar.gz tmp/mercury-2.3.0.tar.gz --markdown 20230523/m/mercury/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-05-23 15:31:56] INFO root fetch - processPackages [nice-sql]: executing diffoscope
+[2023-05-23 15:31:56] INFO root fetch - processPackages [nice-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice-sql-0.0.7.tar.gz tmp/nice-sql-1.0.0.tar.gz --markdown 20230523/n/nice-sql/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 15:31:56] INFO root fetch - processPackages [django-oasis4-auth]: executing diffoscope
+[2023-05-23 15:31:56] INFO root fetch - processPackages [django-oasis4-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-auth-1.0.9.tar.gz tmp/django-oasis4-auth-1.0.9b0.tar.gz --markdown 20230523/d/django-oasis4-auth/1.0.9-1.0.9b0/diff.md --exclude *.pyd
+[2023-05-23 15:31:57] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-05-23 15:31:57] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-05-23 15:31:57] INFO root fetch - main [MainThread]: End processing [ep-stats]: success
+[2023-05-23 15:31:58] INFO root fetch - main [MainThread]: End processing [django-oasis4-auth]: success
+[2023-05-23 15:31:58] INFO root fetch - main [MainThread]: End processing [nice-sql]: success
+[2023-05-23 15:31:59] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-05-23 15:32:35] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 15:34:14] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-05-23 15:34:14] INFO root fetch - main [MainThread]: Store serial: [18214343]

@@ -9699,3 +9699,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 08:29:31] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-23 08:29:41] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-23 08:29:41] INFO root fetch - main [MainThread]: Store serial: [18209820]
+[2023-05-23 08:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209820]
+[2023-05-23 08:34:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-resource
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifctester
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrSpiders
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: php2py
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jwtools
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coastseg
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-depends
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [ifctester]: New version: [0.0.230523] Old Version: [0.0.230518]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [jwtools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230523/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 08:34:53] WARNING root fetch - processPackages [php2py]: Skipping, unable to determine old version
+[2023-05-23 08:34:53] INFO root fetch - processPackages [fast-depends]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-23 08:34:53] INFO root fetch - main [MainThread]: End processing [php2py] error
+[2023-05-23 08:34:53] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [fast-resource]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-23 08:34:53] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230523/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-23 08:34:53] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/4b/3b/63462e7a9ceb159bf2b0df4729a1223b5efc0e0ba1de5c1aad00f0a638a5/fast_depends-1.1.3.tar.gz
+[2023-05-23 08:34:53] INFO root fetch - processPackages [fast-resource]: Downloading https://files.pythonhosted.org/packages/b2/d9/da7e39dcbacfd2e2858fc553aa88d34449830126130e6673fdb191d3502e/fast-resource-0.1.0.tar.gz
+[2023-05-23 08:34:53] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [jwtools]: Downloading https://files.pythonhosted.org/packages/9c/7f/ffe4fb1da75ecfafb1f659a60bd7c84203e656852ab362bc9e58e9c1e13d/jwtools-0.1.7.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/f6/64/fd8f5eff3b5ed4139f2492f1a09ec76fc84afe6df7f90762c7ba823430e0/ifctester-0.0.230523.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/c8/e1/2866139e66d99e3a352c2f76120c91f38eb0bfda53d08a3380a1d7c403d6/PrSpiders-0.4.9.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/1f/a1/a3530389e8bbcffbb001c2e79281e6339ba8966cdcbf44a8e11d1a051954/fast_depends-1.1.4.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [jwtools]: executing diffoscope
+[2023-05-23 08:34:54] INFO root fetch - processPackages [jwtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtools-0.1.6.tar.gz tmp/jwtools-0.1.7.tar.gz --markdown 20230523/j/jwtools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 08:34:54] INFO root fetch - processPackages [ifctester]: executing diffoscope
+[2023-05-23 08:34:54] INFO root fetch - processPackages [ifctester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifctester-0.0.230518.tar.gz tmp/ifctester-0.0.230523.tar.gz --markdown 20230523/i/ifctester/0.0.230518-0.0.230523/diff.md --exclude *.pyd
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-resource]: Downloading https://files.pythonhosted.org/packages/91/78/83bacb2bfc3123a2f9015591aa5f0ff14f7a96d737320228bf601552669a/fast-resource-0.1.1.tar.gz
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-1.1.3.tar.gz tmp/fast_depends-1.1.4.tar.gz --markdown 20230523/f/fast-depends/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-23 08:34:54] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-23 08:34:54] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.8.tar.gz tmp/PrSpiders-0.4.9.tar.gz --markdown 20230523/P/PrSpiders/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-resource]: executing diffoscope
+[2023-05-23 08:34:54] INFO root fetch - processPackages [fast-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-resource-0.1.0.tar.gz tmp/fast-resource-0.1.1.tar.gz --markdown 20230523/f/fast-resource/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-23 08:34:54] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-23 08:34:54] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [jwtools]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [ifctester]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: End processing [fast-resource]: success
+[2023-05-23 08:34:55] INFO root fetch - main [MainThread]: Store serial: [18209861]

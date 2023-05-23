@@ -16984,3 +16984,193 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 15:08:33] INFO root fetch - main [MainThread]: End processing [datatoolbox]: success
 [2023-05-23 15:09:18] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2023-05-23 15:09:18] INFO root fetch - main [MainThread]: Store serial: [18214020]
+[2023-05-23 15:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18214020]
+[2023-05-23 15:14:41] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talondoc
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhases
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zbuilder
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyinflux3-cli
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebeer
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyinflux3
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: charex
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: viktor
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: directory-cms-client
+[2023-05-23 15:14:41] INFO root fetch - processPackages [talondoc]: New version: [1.0.0rc4] Old Version: [1.0.0rc0]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [ebeer]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [zbuilder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [pyinflux3]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [pyinflux3-cli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [directory-cms-client]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [charex]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [pyPhases]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [viktor]: New version: [14.1.0] Old Version: [14.0.0rc1]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:41] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/51/a1/b6b1ef69635ffcf123402e1ec6446f6b99b744b88be769ce3f723a2f6221/directory_cms_client-8.3.0-py3-none-any.whl
+[2023-05-23 15:14:41] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/ba/9b/78d2f89d659b2ca6b90b177fa39dd5cc3fd66cb02cbd1d5990256bed9d12/pyinflux3-0.9.1.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/ae/2c/63864b0fe533c9368ace89013bb8fe1e47219bd098d3caf49664fc29544f/viktor-14.0.0rc1-cp39-cp39-win_amd64.whl
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3-cli]: Downloading https://files.pythonhosted.org/packages/53/9b/d6f6542f13075380aab945b268f3c7a2da0b3014d6c8a851026ed013a199/pyinflux3-cli-0.9.2.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/9a/18/851c0963caf8a01c86d41fa759b9b02e779a7867cd4617c9e135b64a6667/ebeer-0.0.19.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [talondoc]: Downloading https://files.pythonhosted.org/packages/0d/c8/5ec25b9efd30082c1945791d953f1b55d8eec87894a856f9e272bd7bb553/talondoc-1.0.0rc4.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyPhases]: Downloading https://files.pythonhosted.org/packages/b2/a2/5a555d974ef9f0073b3d30691cecc0b2fc1dd22fef55c0fedca409fbffb3/pyPhases-1.2.1.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [charex]: Downloading https://files.pythonhosted.org/packages/39/8b/7a3a9681227a366537140eb6d81a6219cd3270f2c23637abff3387b65f12/charex-0.1.0.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3-cli]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-cli-0.9.1.tar.gz tmp/pyinflux3-cli-0.9.2.tar.gz --markdown 20230523/p/pyinflux3-cli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230523/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyPhases]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyPhases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhases-1.2.0.tar.gz tmp/pyPhases-1.2.1.tar.gz --markdown 20230523/p/pyPhases/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/74/4a/cc10cfcbb2f46bad5733fdacd55698b2811ecfb0e07c37ac02b1356ba493/pyinflux3-0.9.2.tar.gz
+[2023-05-23 15:14:42] INFO root fetch - processPackages [charex]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [charex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charex-0.0.2.tar.gz tmp/charex-0.1.0.tar.gz --markdown 20230523/c/charex/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [zbuilder]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [zbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbuilder-0.0.8.tar.gz tmp/zbuilder-0.0.9.tar.gz --markdown 20230523/z/zbuilder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [talondoc]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [talondoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talondoc-1.0.0rc0.tar.gz tmp/talondoc-1.0.0rc4.tar.gz --markdown 20230523/t/talondoc/1.0.0rc0-1.0.0rc4/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [pyinflux3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-0.9.1.tar.gz tmp/pyinflux3-0.9.2.tar.gz --markdown 20230523/p/pyinflux3/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-23 15:14:42] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/14/5f/3669664f07e98869762da026ce7ccaca9ca6a4d54425930c48e5252b3f79/directory_cms_client-9.0.0-py3-none-any.whl
+[2023-05-23 15:14:42] INFO root fetch - processPackages [directory-cms-client]: executing diffoscope
+[2023-05-23 15:14:42] INFO root fetch - processPackages [directory-cms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip --markdown 20230523/d/directory-cms-client/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-23 15:14:43] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-23 15:14:43] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.18.tar.gz tmp/ebeer-0.0.19.tar.gz --markdown 20230523/e/ebeer/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-23 15:14:43] INFO root fetch - processPackages [pyinflux3-cli]: Start processing: etsy-apiv3
+[2023-05-23 15:14:43] INFO root fetch - main [MainThread]: End processing [pyinflux3-cli]: success
+[2023-05-23 15:14:43] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/57/02/71b1dfb4cfb24691b3ef49b8aa93b06cc6a10bb7a98eccdd7c62be9d6546/viktor-14.1.0-cp39-cp39-win_amd64.whl
+[2023-05-23 15:14:43] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-23 15:14:43] INFO root fetch - processPackages [pyPhases]: Start processing: issue-db-api
+[2023-05-23 15:14:43] INFO root fetch - main [MainThread]: End processing [pyPhases]: success
+[2023-05-23 15:14:43] INFO root fetch - processPackages [issue-db-api]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/f8/b8/b260b47888ae23d5450bd5e95d10c0d1edb36172b6cb01bc11e932a9ba6f/etsy-apiv3-1.8.3.tar.gz
+[2023-05-23 15:14:44] INFO root fetch - processPackages [pyinflux3]: Start processing: netbone
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [pyinflux3]: success
+[2023-05-23 15:14:44] WARNING root fetch - processPackages [netbone]: Skipping, unable to determine old version
+[2023-05-23 15:14:44] INFO root fetch - processPackages [netbone]: Start processing: dbml-to-fides
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [netbone] error
+[2023-05-23 15:14:44] INFO root fetch - processPackages [directory-cms-client]: Start processing: certego-saas
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [directory-cms-client]: success
+[2023-05-23 15:14:44] INFO root fetch - processPackages [dbml-to-fides]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.2.tar.gz tmp/etsy-apiv3-1.8.3.tar.gz --markdown 20230523/e/etsy-apiv3/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [zbuilder]: Start processing: certora-cli-alpha-antti-lemma-type-filter
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [zbuilder]: success
+[2023-05-23 15:14:44] INFO root fetch - processPackages [dbml-to-fides]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [dbml-to-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbml-to-fides-1.0.0a4.tar.gz tmp/dbml-to-fides-1.0.0a5.tar.gz --markdown 20230523/d/dbml-to-fides/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certego-saas]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/ca/b4/e0ea551def974e01cb586e47ccbfa22da8d9370d8bde45d0460b5b6ef129/issue_db_api-0.9.4.tar.gz
+[2023-05-23 15:14:44] WARNING root fetch - processPackages [certora-cli-alpha-antti-lemma-type-filter]: Skipping, unable to determine old version
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certora-cli-alpha-antti-lemma-type-filter]: Start processing: nbdev-pandas
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-lemma-type-filter] error
+[2023-05-23 15:14:44] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certego-saas]: Downloading https://files.pythonhosted.org/packages/6a/94/bfdc2c31f66c4847b46640102de009fa1238be3cb01c7f7abe757f8cf573/certego_saas-0.5.0.tar.gz
+[2023-05-23 15:14:44] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.9.3.tar.gz tmp/issue_db_api-0.9.4.tar.gz --markdown 20230523/i/issue-db-api/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [charex]: Start processing: kstreams
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [charex]: success
+[2023-05-23 15:14:44] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230523/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.0.0rc1-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230523/v/viktor/14.0.0rc1-14.1.0/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certego-saas]: Downloading https://files.pythonhosted.org/packages/14/78/ec1e5d52b42d053b13e1ae6c43f5d1271f2db416b69d32d56d1d3424d7d6/certego_saas-0.6.0.tar.gz
+[2023-05-23 15:14:44] INFO root fetch - processPackages [nbdev-numpy]: Start processing: meloetta
+[2023-05-23 15:14:44] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-23 15:14:44] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certego-saas]: executing diffoscope
+[2023-05-23 15:14:44] INFO root fetch - processPackages [certego-saas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certego_saas-0.5.0.tar.gz tmp/certego_saas-0.6.0.tar.gz --markdown 20230523/c/certego-saas/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-23 15:14:44] INFO root fetch - processPackages [meloetta]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-23 15:14:44] INFO root fetch - processPackages [meloetta]: Downloading https://files.pythonhosted.org/packages/62/6c/21af11915dd3946ce7ca8b21c581f5a708e38a10ea3c45101d7f218df7c0/meloetta-1.0.4.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [talondoc]: Start processing: pyflame
+[2023-05-23 15:14:45] INFO root fetch - main [MainThread]: End processing [talondoc]: success
+[2023-05-23 15:14:45] WARNING root fetch - processPackages [meloetta]: Skipping package: exceeds size limit 16297675>=10485760
+[2023-05-23 15:14:45] INFO root fetch - processPackages [meloetta]: Start processing: asset-tracking-pepsico
+[2023-05-23 15:14:45] INFO root fetch - main [MainThread]: End processing [meloetta] error
+[2023-05-23 15:14:45] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyflame]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 15:14:45] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-05-23 15:14:45] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230523/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 15:14:45] WARNING root fetch - processPackages [asset-tracking-pepsico]: Skipping, unable to determine old version
+[2023-05-23 15:14:45] INFO root fetch - processPackages [asset-tracking-pepsico]: Start processing: pyterrain
+[2023-05-23 15:14:45] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico] error
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyterrain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyflame]: Downloading https://files.pythonhosted.org/packages/cb/57/7037a9bd5cdea84b1408f4bd3bafdeae4498af25dfd97c37bb7f9a7d28b4/pyflame-0.3.0.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyterrain]: Downloading https://files.pythonhosted.org/packages/90/c6/7dd81380291f622d3ffaad671892099458681856372bc4993782cfd789d7/pyterrain-0.0.1.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [dbml-to-fides]: Start processing: nbdev-pytorch
+[2023-05-23 15:14:45] INFO root fetch - main [MainThread]: End processing [dbml-to-fides]: success
+[2023-05-23 15:14:45] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:45] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-23 15:14:45] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230523/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyflame]: Downloading https://files.pythonhosted.org/packages/0f/78/04a296a7488dddf81476d997d0c24f4872943501a26d02cee418b9fc53e0/pyflame-0.3.1.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyterrain]: Downloading https://files.pythonhosted.org/packages/0d/11/62f7d269ad03631991e9c2d8398d91abf47efb981d587270949c098f81b1/pyterrain-0.0.2.tar.gz
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyflame]: executing diffoscope
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyflame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflame-0.3.0.tar.gz tmp/pyflame-0.3.1.tar.gz --markdown 20230523/p/pyflame/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 15:14:45] INFO root fetch - processPackages [nbdev-pandas]: Start processing: CardGameBase
+[2023-05-23 15:14:45] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyterrain]: executing diffoscope
+[2023-05-23 15:14:45] INFO root fetch - processPackages [pyterrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyterrain-0.0.1.tar.gz tmp/pyterrain-0.0.2.tar.gz --markdown 20230523/p/pyterrain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 15:14:45] INFO root fetch - processPackages [CardGameBase]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-23 15:14:46] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/54/86/f87d5f97ac53588fc3e8396e2a683116c71a39456c245a2187c2a7580fe4/CardGameBase-1.0.4.tar.gz
+[2023-05-23 15:14:46] INFO root fetch - processPackages [issue-db-api]: Start processing: cognite-neat
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-23 15:14:46] INFO root fetch - processPackages [CardGameBase]: executing diffoscope
+[2023-05-23 15:14:46] INFO root fetch - processPackages [CardGameBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CardGameBase-1.0.3.tar.gz tmp/CardGameBase-1.0.4.tar.gz --markdown 20230523/C/CardGameBase/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-23 15:14:46] INFO root fetch - processPackages [cognite-neat]: New version: [0.11.5] Old Version: [0.11.4]
+[2023-05-23 15:14:46] INFO root fetch - processPackages [etsy-apiv3]: Start processing: pymaidol
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-23 15:14:46] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-05-23 15:14:46] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.11.4.tar.gz tmp/cognite_neat-0.11.5.tar.gz --markdown 20230523/c/cognite-neat/0.11.4-0.11.5/diff.md --exclude *.pyd
+[2023-05-23 15:14:46] WARNING root fetch - processPackages [pymaidol]: Skipping, unable to determine old version
+[2023-05-23 15:14:46] INFO root fetch - processPackages [pymaidol]: Start processing: oarepo-cli
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [pymaidol] error
+[2023-05-23 15:14:46] INFO root fetch - processPackages [kstreams]: Start processing: pyworxcloud
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-05-23 15:14:46] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-23 15:14:46] INFO root fetch - processPackages [certego-saas]: Start processing: nonebot-plugin-cube
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [certego-saas]: success
+[2023-05-23 15:14:46] WARNING root fetch - processPackages [nonebot-plugin-cube]: Skipping, unable to determine old version
+[2023-05-23 15:14:46] INFO root fetch - processPackages [nonebot-plugin-cube]: Start processing: nbdev-scipy
+[2023-05-23 15:14:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cube] error
+[2023-05-23 15:14:46] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-23 15:14:46] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:47] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-23 15:14:47] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230523/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-23 15:14:47] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-23 15:14:47] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230523/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pyflame]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-23 15:14:47] INFO root fetch - main [MainThread]: End processing [pyflame]: success
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/25/e7/2c14088664cc15b3aadc50c7e6823bd3c0479d894d1374ddbcaf2f649ef8/pyworxcloud-3.1.9.tar.gz
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pyterrain]: Start processing: pylookyloomonitoring
+[2023-05-23 15:14:47] INFO root fetch - main [MainThread]: End processing [pyterrain]: success
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.8.tar.gz tmp/pyworxcloud-3.1.9.tar.gz --markdown 20230523/p/pyworxcloud/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pylookyloomonitoring]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/65/6b/3e3c91f9d7a3a9ea46eb4e907e384c4bc33fceff5d64642a9920f86ad576/pylookyloomonitoring-1.0.4.tar.gz
+[2023-05-23 15:14:47] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/1d/14/6db416afb2283c211dd0477228c7336cca29f45a1b37038805ac1ff3381a/pylookyloomonitoring-1.0.5.tar.gz
+[2023-05-23 15:14:47] INFO root fetch - processPackages [CardGameBase]: Start processing: fdtd
+[2023-05-23 15:14:47] INFO root fetch - main [MainThread]: End processing [CardGameBase]: success
+[2023-05-23 15:14:48] INFO root fetch - processPackages [pylookyloomonitoring]: executing diffoscope
+[2023-05-23 15:14:48] INFO root fetch - processPackages [pylookyloomonitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylookyloomonitoring-1.0.4.tar.gz tmp/pylookyloomonitoring-1.0.5.tar.gz --markdown 20230523/p/pylookyloomonitoring/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 15:14:48] INFO root fetch - processPackages [fdtd]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-05-23 15:14:48] INFO root fetch - processPackages [fdtd]: Downloading https://files.pythonhosted.org/packages/a1/8f/30d42b97869f2aaec3314a8d55d18b88bdd57c6712a116bb3d6f04e734f1/fdtd-0.2.8.tar.gz
+[2023-05-23 15:14:48] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: nbdev-sphinx
+[2023-05-23 15:14:48] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-23 15:14:48] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 15:14:48] INFO root fetch - processPackages [fdtd]: Downloading https://files.pythonhosted.org/packages/0a/8d/ec6eb9dfeb0f089774d9b2ebcbd88b35d3c65a0a165954fd0a4daa025f47/fdtd-0.3.0.tar.gz
+[2023-05-23 15:14:48] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-05-23 15:14:48] INFO root fetch - processPackages [fdtd]: executing diffoscope
+[2023-05-23 15:14:48] INFO root fetch - processPackages [fdtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdtd-0.2.8.tar.gz tmp/fdtd-0.3.0.tar.gz --markdown 20230523/f/fdtd/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-05-23 15:14:49] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-23 15:14:49] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230523/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [pylookyloomonitoring]: success
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-23 15:14:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-23 15:14:50] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-23 15:14:50] INFO root fetch - main [MainThread]: End processing [fdtd]: success
+[2023-05-23 15:14:57] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2023-05-23 15:14:57] INFO root fetch - main [MainThread]: Store serial: [18214132]

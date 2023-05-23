@@ -14269,3 +14269,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 13:02:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-23 13:02:17] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-23 13:02:17] INFO root fetch - main [MainThread]: Store serial: [18212572]
+[2023-05-23 13:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212572]
+[2023-05-23 13:07:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdcom5
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiwitcms-github-marketplace
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pm-slack
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tKot
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yjbmagic
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parameterspace
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrew
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-wait
+[2023-05-23 13:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fmvmm
+[2023-05-23 13:07:26] INFO root fetch - processPackages [tKot]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-23 13:07:26] WARNING root fetch - processPackages [yjbmagic]: Skipping, unable to determine old version
+[2023-05-23 13:07:26] INFO root fetch - processPackages [yjbmagic]: Start processing: applovin-report
+[2023-05-23 13:07:26] INFO root fetch - main [MainThread]: End processing [yjbmagic] error
+[2023-05-23 13:07:26] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.16]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [fmvmm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [parameterspace]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [simple-wait]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [pdcom5]: New version: [5.1.0] Old Version: [5.0.0b3]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [kiwitcms-github-marketplace]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-23 13:07:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [fmvmm]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [fmvmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmvmm-1.0.8.tar.gz tmp/fmvmm-1.0.9.tar.gz --markdown 20230523/f/fmvmm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] ERROR root fetch - processPackages [applovin-report]: Unable to get metadata: No such project 'applovin-report'
+[2023-05-23 13:07:27] INFO root fetch - processPackages [applovin-report]: Start processing: gopro-overlay
+[2023-05-23 13:07:27] INFO root fetch - main [MainThread]: End processing [applovin-report] error
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/f0/66/16cdce45a3ace11814b3362977ce43c6cb17d7880d1fe53ce2a9a8854ebf/pm_slack-0.2.16.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/bd/09/10d36e0f8695816fd660ddf003d77d568f3eb2461c087250c9c62d9e8464/tKot-0.3.6.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [parameterspace]: Downloading https://files.pythonhosted.org/packages/6b/ae/596a31e90c347cd3ff04858999d0de87872fcdf91a412ed24d7702b27a43/parameterspace-0.9.0.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [simple-wait]: Downloading https://files.pythonhosted.org/packages/0a/da/255a6bd8a9d3ff214d349eaf806a6d1216ae8d1f071e36a7fb123d181f07/simple-wait-1.0.7.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/44/82/1dcc5f0fa8a5535b7e4ea05a948ea83a333c46941d5f5b1ac978918b398a/kiwitcms-github-marketplace-2.3.5.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/08/5e/70fb8f7eb800107446969d220d1ee6e3da6d67edc85ece6d53c79b9c7b45/pdcom5-5.0.0b3-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2023-05-23 13:07:27] INFO root fetch - processPackages [gopro-overlay]: New version: [0.95.0] Old Version: [0.94.0]
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230523/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [simple-wait]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [simple-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wait-1.0.6.tar.gz tmp/simple-wait-1.0.7.tar.gz --markdown 20230523/s/simple-wait/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [tKot]: Downloading https://files.pythonhosted.org/packages/9c/ca/b2fb42fa1c967ccd697f451cb2c181c7dba1dceeb14f6054c76ac0677775/tKot-0.3.7.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [parameterspace]: Downloading https://files.pythonhosted.org/packages/d8/3d/89d7473a2072e8f76f094ae9a283f78387e46f4d52696275a64c6053563c/parameterspace-0.9.1.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.16.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230523/p/pm-slack/0.2.16-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/68/0a/5c9697c089502b972b0b40a3c8daddfda9cbc1f7130c43b38f3e262e9859/kiwitcms-github-marketplace-2.3.6.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [parameterspace]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [parameterspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterspace-0.9.0.tar.gz tmp/parameterspace-0.9.1.tar.gz --markdown 20230523/p/parameterspace/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [kiwitcms-github-marketplace]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [kiwitcms-github-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-github-marketplace-2.3.5.tar.gz tmp/kiwitcms-github-marketplace-2.3.6.tar.gz --markdown 20230523/k/kiwitcms-github-marketplace/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [tKot]: executing diffoscope
+[2023-05-23 13:07:27] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/91/fb/5bc2da0ac7ed6b20789da44ac74869c3ee66f175c754a5ec27f31dc053c9/gopro-overlay-0.94.0.tar.gz
+[2023-05-23 13:07:27] INFO root fetch - processPackages [tKot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tKot-0.3.6.tar.gz tmp/tKot-0.3.7.tar.gz --markdown 20230523/t/tKot/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-23 13:07:27] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/7d/9f/ce20feafccbf2cf0ecbcdea260cac96895bd3e4bb378d34f11c70b5513c2/gopro-overlay-0.95.0.tar.gz
+[2023-05-23 13:07:28] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-05-23 13:07:28] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.94.0.tar.gz tmp/gopro-overlay-0.95.0.tar.gz --markdown 20230523/g/gopro-overlay/0.94.0-0.95.0/diff.md --exclude *.pyd
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [fmvmm]: success
+[2023-05-23 13:07:28] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/ec/a4/d4b60ffdf777411e39e3968ca8940ff45b4eb8cd6a18ca1ee03fecade7d2/pdcom5-5.1.0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [simple-wait]: success
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-23 13:07:28] INFO root fetch - processPackages [pdcom5]: executing diffoscope
+[2023-05-23 13:07:28] INFO root fetch - processPackages [pdcom5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcom5-5.0.0b3-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip tmp/pdcom5-5.1.0-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl.zip --markdown 20230523/p/pdcom5/5.0.0b3-5.1.0/diff.md --exclude *.pyd
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [parameterspace]: success
+[2023-05-23 13:07:28] INFO root fetch - main [MainThread]: End processing [tKot]: success
+[2023-05-23 13:07:29] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
+[2023-05-23 13:07:29] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-23 13:07:30] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-05-23 13:08:01] INFO root fetch - main [MainThread]: End processing [pdcom5]: success
+[2023-05-23 13:08:01] INFO root fetch - main [MainThread]: Store serial: [18212639]

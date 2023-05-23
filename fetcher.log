@@ -10709,3 +10709,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:45:24] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
 [2023-05-23 09:45:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-23 09:45:25] INFO root fetch - main [MainThread]: Store serial: [18210441]
+[2023-05-23 09:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210441]
+[2023-05-23 09:50:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-studio
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-test
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wadi
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LasBuildSeg
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MacFSEvents
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mobio-dedupe-sdk-test
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ExoPSI
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cytomine-pims
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FishProcessManagement
+[2023-05-23 09:50:36] INFO root fetch - processPackages [wadi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ExoPSI]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-23 09:50:36] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-23 09:50:36] WARNING root fetch - processPackages [FishProcessManagement]: Skipping, unable to determine old version
+[2023-05-23 09:50:36] INFO root fetch - processPackages [FishProcessManagement]: Start processing: bigraphs
+[2023-05-23 09:50:36] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-05-23 09:50:36] INFO root fetch - main [MainThread]: End processing [FishProcessManagement] error
+[2023-05-23 09:50:36] INFO root fetch - processPackages [common-test]: New version: [29.9.41] Old Version: [29.9.40]
+[2023-05-23 09:50:36] WARNING root fetch - processPackages [cytomine-pims]: Skipping, unable to determine old version
+[2023-05-23 09:50:36] INFO root fetch - processPackages [MacFSEvents]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-23 09:50:36] INFO root fetch - processPackages [cytomine-pims]: Start processing: ebchannel
+[2023-05-23 09:50:36] INFO root fetch - main [MainThread]: End processing [cytomine-pims] error
+[2023-05-23 09:50:36] INFO root fetch - processPackages [seven-studio]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-23 09:50:36] WARNING root fetch - processPackages [bigraphs]: Skipping, unable to determine old version
+[2023-05-23 09:50:36] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:50:36] INFO root fetch - processPackages [bigraphs]: Start processing: quorum-eth-py
+[2023-05-23 09:50:36] INFO root fetch - main [MainThread]: End processing [bigraphs] error
+[2023-05-23 09:50:36] WARNING root fetch - processPackages [ebchannel]: Skipping, unable to determine old version
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ebchannel]: Start processing: ramodels
+[2023-05-23 09:50:36] INFO root fetch - main [MainThread]: End processing [ebchannel] error
+[2023-05-23 09:50:36] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-23 09:50:36] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-05-23 09:50:36] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wadi-0.1.5.tar.gz tmp/wadi-0.1.6.tar.gz --markdown 20230523/w/wadi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-23 09:50:36] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-23 09:50:36] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.40.tar.gz tmp/common-test-29.9.41.tar.gz --markdown 20230523/c/common-test/29.9.40-29.9.41/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/35/66/22650e21d952bd03b77fae239c93272e414580ba0a128e19df22919d68f7/LasBuildSeg-0.1.19.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [quorum-eth-py]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-23 09:50:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230523/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [MacFSEvents]: Downloading https://files.pythonhosted.org/packages/f3/80/0d780e46286819558305c3d698f0c700cba2af0b04e86840f528cc302802/MacFSEvents-0.8.4.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/40/2a/3ec27ddb5fcb6840a0773fb40858696f7187afb1acdaa7f2e62fcd029433/mobio-dedupe-sdk-test-1.0.3.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ExoPSI]: Downloading https://files.pythonhosted.org/packages/55/24/5e7d39744790494f87d82487a0f48e076ab373331028379b1a8e86460b98/ExoPSI-1.0.4.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/39/74/b051620044097b888021dfa1b9d495310aabab86a29ef1b19fc70b3c72c5/seven_studio-1.4.0.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/d8/e0/3e091f4630c753c993980c3883569f978aaed61ec3864d3ad50206cc1207/quorum_eth_py-0.3.1.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [MacFSEvents]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/85/1a/ddc1245466e2ac06807daafff622ce328d9bb44ae77b47087b302a1b81a4/LasBuildSeg-0.1.20.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [MacFSEvents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacFSEvents-0.8.3.tar.gz tmp/MacFSEvents-0.8.4.tar.gz --markdown 20230523/M/MacFSEvents/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.2.tar.gz tmp/mobio-dedupe-sdk-test-1.0.3.tar.gz --markdown 20230523/m/mobio-dedupe-sdk-test/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ExoPSI]: Downloading https://files.pythonhosted.org/packages/c1/bb/bd132f0a9d835fb5ff6dc5d70760961c5d6d1a1146d4dcf52d839ee853e7/ExoPSI-1.0.5.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/60/30/e47de327695719d630bbe2fc91d45398e944284a415b53f6c0ef9a73f588/seven_studio-1.5.0.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.1.19.tar.gz tmp/LasBuildSeg-0.1.20.tar.gz --markdown 20230523/L/LasBuildSeg/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [quorum-eth-py]: Downloading https://files.pythonhosted.org/packages/7f/7a/078148e66a2bff69ac292f05ac192024a759b5ba13e85beb42556a2a2f08/quorum_eth_py-0.4.0.tar.gz
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ExoPSI]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [ExoPSI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoPSI-1.0.4.tar.gz tmp/ExoPSI-1.0.5.tar.gz --markdown 20230523/E/ExoPSI/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [seven-studio]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [seven-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_studio-1.4.0.tar.gz tmp/seven_studio-1.5.0.tar.gz --markdown 20230523/s/seven-studio/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-23 09:50:37] INFO root fetch - processPackages [quorum-eth-py]: executing diffoscope
+[2023-05-23 09:50:37] INFO root fetch - processPackages [quorum-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_eth_py-0.3.1.tar.gz tmp/quorum_eth_py-0.4.0.tar.gz --markdown 20230523/q/quorum-eth-py/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-23 09:50:38] INFO root fetch - processPackages [ramodels]: Start processing: tf-nightly-cpu
+[2023-05-23 09:50:38] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-23 09:50:38] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-05-23 09:50:38] INFO root fetch - main [MainThread]: End processing [MacFSEvents]: success
+[2023-05-23 09:50:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:50:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230523] Old Version: [2.14.0.dev20230522]
+[2023-05-23 09:50:39] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-05-23 09:50:39] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-23 09:50:39] INFO root fetch - main [MainThread]: End processing [ExoPSI]: success
+[2023-05-23 09:50:39] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-23 09:50:39] INFO root fetch - main [MainThread]: End processing [quorum-eth-py]: success
+[2023-05-23 09:50:39] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/35/d4/e1ccfdc124a90d619c1ba70391ce9c4ad5dcaa9375c8d9290ca7ec041266/tf_nightly_cpu-2.14.0.dev20230523-cp39-cp39-win_amd64.whl
+[2023-05-23 09:50:39] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-23 09:50:39] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230522-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230523-cp39-cp39-win_amd64.whl.zip --markdown 20230523/t/tf-nightly-cpu/2.14.0.dev20230522-2.14.0.dev20230523/diff.md --exclude *.pyd
+[2023-05-23 09:50:40] INFO root fetch - main [MainThread]: End processing [seven-studio]: success
+[2023-05-23 09:50:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-23 09:50:40] INFO root fetch - main [MainThread]: Store serial: [18210502]

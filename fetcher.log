@@ -4516,3 +4516,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 04:01:18] INFO root fetch - main [MainThread]: End processing [phiterm]: success
 [2023-05-23 04:01:18] INFO root fetch - main [MainThread]: End processing [tremolo]: success
 [2023-05-23 04:01:18] INFO root fetch - main [MainThread]: Store serial: [18207145]
+[2023-05-23 04:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18207145]
+[2023-05-23 04:06:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-sqlserver
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql2data
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql2dataframe
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phidata
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cedargrove-nau7802
+[2023-05-23 04:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phiterm
+[2023-05-23 04:06:27] INFO root fetch - processPackages [dbt-sqlserver]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-23 04:06:27] WARNING root fetch - processPackages [sql2dataframe]: Skipping, unable to determine old version
+[2023-05-23 04:06:27] INFO root fetch - main [MainThread]: End processing [sql2dataframe] error
+[2023-05-23 04:06:27] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-23 04:06:27] WARNING root fetch - processPackages [sql2data]: Skipping, unable to determine old version
+[2023-05-23 04:06:27] INFO root fetch - main [MainThread]: End processing [sql2data] error
+[2023-05-23 04:06:27] WARNING root fetch - processPackages [cedargrove-nau7802]: Skipping, unable to determine old version
+[2023-05-23 04:06:27] INFO root fetch - main [MainThread]: End processing [cedargrove-nau7802] error
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phiterm]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phidata]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.8.tar.gz tmp/phiterm-1.6.9.tar.gz --markdown 20230523/p/phiterm/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-23 04:06:27] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.8.tar.gz tmp/phidata-1.6.9.tar.gz --markdown 20230523/p/phidata/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-23 04:06:27] INFO root fetch - processPackages [dbt-sqlserver]: Downloading https://files.pythonhosted.org/packages/1e/4b/08a695278caa6a1f9fae76e40ca64368e629834fd11763c0b5e1efbf9975/dbt-sqlserver-1.4.3.tar.gz
+[2023-05-23 04:06:27] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-23 04:06:27] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230523/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-23 04:06:27] INFO root fetch - processPackages [dbt-sqlserver]: executing diffoscope
+[2023-05-23 04:06:27] INFO root fetch - processPackages [dbt-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-sqlserver-1.4.2.tar.gz tmp/dbt-sqlserver-1.4.3.tar.gz --markdown 20230523/d/dbt-sqlserver/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-23 04:06:29] INFO root fetch - main [MainThread]: End processing [dbt-sqlserver]: success
+[2023-05-23 04:06:29] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 04:06:30] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-23 04:06:32] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-23 04:06:32] INFO root fetch - main [MainThread]: Store serial: [18207171]

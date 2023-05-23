@@ -13819,3 +13819,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 12:25:30] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
 [2023-05-23 12:25:31] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
 [2023-05-23 12:25:31] INFO root fetch - main [MainThread]: Store serial: [18212240]
+[2023-05-23 12:30:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18212240]
+[2023-05-23 12:30:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxwidgets
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeforlife-portal
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfl-common
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmergenetyper
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strawberry-azure-auth
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ichika
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: democracy
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyE2
+[2023-05-23 12:30:40] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [strawberry-azure-auth]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [cxwidgets]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [ichika]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [democracy]: New version: [1.0.23] Old Version: [1.0.22]
+[2023-05-23 12:30:40] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-23 12:30:41] INFO root fetch - processPackages [PyE2]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-23 12:30:41] INFO root fetch - processPackages [cxwidgets]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [cxwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxwidgets-0.8.tar.gz tmp/cxwidgets-0.9.tar.gz --markdown 20230523/c/cxwidgets/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/2b/43/d179be7c5e5df4bdfe4f21e2fe80079e5d6662ef9acf17dc362d8061085c/democracy-1.0.22.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [ichika]: Downloading https://files.pythonhosted.org/packages/63/74/a91eba42cc38b6a2bb9768138a09e0ea3ff45143abb2c2c997a069526038/ichika-0.0.6.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [strawberry-azure-auth]: Downloading https://files.pythonhosted.org/packages/1a/29/1c2606c525ef97f710f3f9455f1ee540b1daad22242ad0c8dd897907b58d/strawberry_azure_auth-1.0.0.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/e3/e7/127c1d33013b6176bd975ec56c2793b2888b903479794639d464251ebf17/kmergenetyper-1.0.8.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/75/ad/1892d8d1123da078950a8e5eda739f26eb6873077f0c695cb7b2226ed90a/pye2-0.4.1.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230523/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230523/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230523/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/5e/0e/919761228807872e8281b383bfd8ebbb29c5dd4fbd8e2359542fa14618e4/democracy-1.0.23.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [strawberry-azure-auth]: Downloading https://files.pythonhosted.org/packages/fe/f6/568138951c77dc89871617c64f3e6348b917d21b6101de40cfde5f2c6cfa/strawberry_azure_auth-1.1.0.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/c3/39/5a31b8fe5e0ead24f3a2f5dceb4df560dfdb2140e162a8ba79a5df61b422/pye2-0.4.2.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [ichika]: Downloading https://files.pythonhosted.org/packages/83/6e/1403ccdbd554885b7b068b10079f607b3867ae48596f35dcecebcb33bafb/ichika-0.0.7.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [strawberry-azure-auth]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [strawberry-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_azure_auth-1.0.0.tar.gz tmp/strawberry_azure_auth-1.1.0.tar.gz --markdown 20230523/s/strawberry-azure-auth/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/5d/ae/321fdf636e730e328a51851060905d6ad88481ecfc38352aafe0bb250ef7/kmergenetyper-1.0.9.tar.gz
+[2023-05-23 12:30:41] INFO root fetch - processPackages [democracy]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [democracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/democracy-1.0.22.tar.gz tmp/democracy-1.0.23.tar.gz --markdown 20230523/d/democracy/1.0.22-1.0.23/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [ichika]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [ichika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ichika-0.0.6.tar.gz tmp/ichika-0.0.7.tar.gz --markdown 20230523/i/ichika/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.4.1.tar.gz tmp/pye2-0.4.2.tar.gz --markdown 20230523/P/PyE2/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-23 12:30:41] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-05-23 12:30:41] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230523/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 12:30:42] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [cxwidgets]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [democracy]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-05-23 12:30:43] INFO root fetch - main [MainThread]: End processing [strawberry-azure-auth]: success
+[2023-05-23 12:30:44] INFO root fetch - main [MainThread]: End processing [ichika]: success
+[2023-05-23 12:30:46] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-05-23 12:30:46] INFO root fetch - main [MainThread]: Store serial: [18212280]

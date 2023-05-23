@@ -11729,3 +11729,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 10:34:51] INFO root fetch - main [MainThread]: End processing [solc-json-parser]: success
 [2023-05-23 10:35:45] INFO root fetch - main [MainThread]: End processing [sccache]: success
 [2023-05-23 10:35:45] INFO root fetch - main [MainThread]: Store serial: [18211014]
+[2023-05-23 10:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18211014]
+[2023-05-23 10:41:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solc-json-parser
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fipper
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redis-simple-orm
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-paiplugin20220112-py2
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmvmm
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-paiplugin20220112
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: silicron
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getgeo-python
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FishProcessManagement
+[2023-05-23 10:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2023-05-23 10:41:08] WARNING root fetch - processPackages [fmvmm]: Skipping, unable to determine old version
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fmvmm]: Start processing: tf-estimator-nightly
+[2023-05-23 10:41:08] INFO root fetch - main [MainThread]: End processing [fmvmm] error
+[2023-05-23 10:41:08] INFO root fetch - processPackages [FishProcessManagement]: New version: [2023.5.23.3] Old Version: [2023.5.23.1]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [solc-json-parser]: New version: [0.1.8] Old Version: [0.1.5]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fipper]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev3]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 10:41:08] WARNING root fetch - processPackages [silicron]: Skipping, unable to determine old version
+[2023-05-23 10:41:08] INFO root fetch - processPackages [silicron]: Start processing: checkov
+[2023-05-23 10:41:08] INFO root fetch - main [MainThread]: End processing [silicron] error
+[2023-05-23 10:41:08] INFO root fetch - processPackages [redis-simple-orm]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-23 10:41:08] WARNING root fetch - processPackages [getgeo-python]: Skipping, unable to determine old version
+[2023-05-23 10:41:08] INFO root fetch - processPackages [getgeo-python]: Start processing: odoo-addon-stock-operating-unit
+[2023-05-23 10:41:08] INFO root fetch - main [MainThread]: End processing [getgeo-python] error
+[2023-05-23 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230523/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230523/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [FishProcessManagement]: Downloading https://files.pythonhosted.org/packages/75/65/26894ba6ac6eb113792614e631ef1a5eb13d4c9e766226f583f4d976f466/FishProcessManagement-2023.5.23.3.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [odoo-addon-stock-operating-unit]: New version: [15.0.1.2.0.1] Old Version: [15.0.1.2.0]
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112-py2]: Downloading https://files.pythonhosted.org/packages/f6/4f/9368b1ec45d4b71530ebb3997896a3bfda1565fbf633b845ef1f6174a07d/alibabacloud_paiplugin20220112_py2-1.0.8.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/10/6b/b6248c76127ecbba7db998ed02ed33e867eb8d3fff71567bd3301af6f05e/fipper-0.0.1.dev3.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112]: Downloading https://files.pythonhosted.org/packages/64/1a/bdbdc5cd6b69e5bf976f329d45ceb837c900324bda41a940f1e0f6165444/alibabacloud_paiplugin20220112-1.0.8.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [FishProcessManagement]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [FishProcessManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FishProcessManagement-2023.5.23.1.tar.gz tmp/FishProcessManagement-2023.5.23.3.tar.gz --markdown 20230523/F/FishProcessManagement/2023.5.23.1-2023.5.23.3/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [odoo-addon-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/87/71/1cb00b9aa0c45fcfea12ead0ec4180cf46f94164cfd5e5a6229ab58e32e8/odoo_addon_stock_operating_unit-15.0.1.2.0-py3-none-any.whl
+[2023-05-23 10:41:08] INFO root fetch - processPackages [redis-simple-orm]: Downloading https://files.pythonhosted.org/packages/c9/fd/b7a5ac35ee03e40127156cf4b42b9d70941fefb298d956c1b84986b7c50a/redis_simple_orm-2.1.2.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [solc-json-parser]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [solc-json-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solc-json-parser-0.1.5.tar.gz tmp/solc-json-parser-0.1.8.tar.gz --markdown 20230523/s/solc-json-parser/0.1.5-0.1.8/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112-py2]: Downloading https://files.pythonhosted.org/packages/0b/51/4b164d059ff00e74fa2c0c83c917ae63a2f06542fb9e01d942b888969e50/alibabacloud_paiplugin20220112_py2-1.0.9.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/e3/25/e90093e179c9010c096439173a2d4f2adde3c85dd3d68fcad8ebe7bc701e/fipper-0.0.1.dev5.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [redis-simple-orm]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [redis-simple-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_simple_orm-2.1.1.tar.gz tmp/redis_simple_orm-2.1.2.tar.gz --markdown 20230523/r/redis-simple-orm/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230523/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112]: Downloading https://files.pythonhosted.org/packages/38/f3/3bbb95f6695a2889dd80fea0673c3795bf073a16746f3e965ee5399f4fdb/alibabacloud_paiplugin20220112-1.0.9.tar.gz
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112-py2]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_paiplugin20220112_py2-1.0.8.tar.gz tmp/alibabacloud_paiplugin20220112_py2-1.0.9.tar.gz --markdown 20230523/a/alibabacloud-paiplugin20220112-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [odoo-addon-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/e0/f3/cdd688f7af64969f1060584c4a0b68b6f8d3e61acd7b00d3d70690fb7b1d/odoo_addon_stock_operating_unit-15.0.1.2.0.1-py3-none-any.whl
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [alibabacloud-paiplugin20220112]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_paiplugin20220112-1.0.8.tar.gz tmp/alibabacloud_paiplugin20220112-1.0.9.tar.gz --markdown 20230523/a/alibabacloud-paiplugin20220112/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.1.dev3.tar.gz tmp/fipper-0.0.1.dev5.tar.gz --markdown 20230523/f/fipper/0.0.1.dev3-0.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-23 10:41:08] INFO root fetch - processPackages [odoo-addon-stock-operating-unit]: executing diffoscope
+[2023-05-23 10:41:08] INFO root fetch - processPackages [odoo-addon-stock-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_operating_unit-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_stock_operating_unit-15.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230523/o/odoo-addon-stock-operating-unit/15.0.1.2.0-15.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-23 10:41:09] INFO root fetch - processPackages [FishProcessManagement]: Start processing: dfmodule
+[2023-05-23 10:41:09] INFO root fetch - main [MainThread]: End processing [FishProcessManagement]: success
+[2023-05-23 10:41:09] INFO root fetch - processPackages [dfmodule]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 10:41:09] INFO root fetch - processPackages [solc-json-parser]: Start processing: datareservoirio
+[2023-05-23 10:41:09] INFO root fetch - main [MainThread]: End processing [solc-json-parser]: success
+[2023-05-23 10:41:10] INFO root fetch - processPackages [datareservoirio]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-23 10:41:10] INFO root fetch - main [MainThread]: End processing [redis-simple-orm]: success
+[2023-05-23 10:41:10] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/b3/3e/c9ec47365e4d91455d40f8f7e812c6f00a5124b48df66302ecc3a5e0b83d/dfmodule-0.0.3.tar.gz
+[2023-05-23 10:41:10] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/c4/10/8819372e9d504951c92770ad52b3eb53b08ea312fa74a580420b90be65a0/datareservoirio-0.9.7-py3-none-any.whl
+[2023-05-23 10:41:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-paiplugin20220112-py2]: success
+[2023-05-23 10:41:10] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-23 10:41:10] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.2.tar.gz tmp/dfmodule-0.0.3.tar.gz --markdown 20230523/d/dfmodule/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 10:41:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-operating-unit]: success
+[2023-05-23 10:41:10] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/2e/42/24c3d90de624f9ac84d221f31604d69a317022b864738a238689db39ec8f/datareservoirio-0.9.8-py3-none-any.whl
+[2023-05-23 10:41:10] INFO root fetch - processPackages [datareservoirio]: executing diffoscope
+[2023-05-23 10:41:10] INFO root fetch - processPackages [datareservoirio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datareservoirio-0.9.7-py3-none-any.whl.zip tmp/datareservoirio-0.9.8-py3-none-any.whl.zip --markdown 20230523/d/datareservoirio/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-23 10:41:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-paiplugin20220112]: success
+[2023-05-23 10:41:11] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-23 10:41:11] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-23 10:41:11] INFO root fetch - main [MainThread]: End processing [datareservoirio]: success
+[2023-05-23 10:41:13] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-23 10:41:17] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-05-23 10:41:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-23 10:41:47] INFO root fetch - main [MainThread]: Store serial: [18211061]

@@ -10311,3 +10311,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 09:18:55] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
 [2023-05-23 09:18:56] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
 [2023-05-23 09:18:56] INFO root fetch - main [MainThread]: Store serial: [18210156]
+[2023-05-23 09:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18210156]
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebio
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addanase
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnadb
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stopcli
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: searchlogit
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groupdocs-editor-cloud
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bentoml-core
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bosch-alarm-mode2
+[2023-05-23 09:24:05] INFO root fetch - processPackages [dnadb]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [groupdocs-editor-cloud]: New version: [23.5] Old Version: [22.5]
+[2023-05-23 09:24:05] WARNING root fetch - processPackages [addanase]: Skipping, unable to determine old version
+[2023-05-23 09:24:05] INFO root fetch - processPackages [addanase]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: End processing [addanase] error
+[2023-05-23 09:24:05] WARNING root fetch - processPackages [ebio]: Skipping, unable to determine old version
+[2023-05-23 09:24:05] WARNING root fetch - processPackages [stopcli]: Skipping, unable to determine old version
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ebio]: Start processing: ih-common
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: End processing [ebio] error
+[2023-05-23 09:24:05] INFO root fetch - processPackages [stopcli]: Start processing: quironproject-utils-QuironDev
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: End processing [stopcli] error
+[2023-05-23 09:24:05] WARNING root fetch - processPackages [bentoml-core]: Skipping, unable to determine old version
+[2023-05-23 09:24:05] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [bentoml-core]: Start processing: quality-result-gui
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: End processing [bentoml-core] error
+[2023-05-23 09:24:05] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [dvc]: New version: [3.0.0a0] Old Version: [2.9.5]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-23 09:24:05] WARNING root fetch - processPackages [quironproject-utils-QuironDev]: Skipping, unable to determine old version
+[2023-05-23 09:24:05] INFO root fetch - processPackages [quironproject-utils-QuironDev]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-23 09:24:05] INFO root fetch - main [MainThread]: End processing [quironproject-utils-QuironDev] error
+[2023-05-23 09:24:05] INFO root fetch - processPackages [quality-result-gui]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [groupdocs-editor-cloud]: Downloading https://files.pythonhosted.org/packages/da/16/85bb47c8c92498246a60539bd786ea26ed1a565e66bd01d7bf9bda29113d/groupdocs-editor-cloud-22.5.tar.gz
+[2023-05-23 09:24:05] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/81/ce/29462337808e567bf615278ce54500b375cffafc2930d706aba39f3765b5/bosch_alarm_mode2-0.3.1.tar.gz
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230523/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-23 09:24:05] INFO root fetch - processPackages [dnadb]: Downloading https://files.pythonhosted.org/packages/d1/3d/2ad6e343e6b98a780658d8c2bdae2b2992d474df9743cf4c63452a3d4173/dnadb-0.6.3.tar.gz
+[2023-05-23 09:24:05] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230523/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-23 09:24:05] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-23 09:24:05] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230523/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 09:24:05] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.5.tar.gz tmp/dvc-3.0.0a0.tar.gz --markdown 20230523/d/dvc/2.9.5-3.0.0a0/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/29/2b/ce31c1a41e37c78a25c60c0b9769397ebd51a10e4bdd63a5f8d1580254b0/quality-result-gui-1.1.5.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230523/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [dnadb]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [dnadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnadb-0.6.2.tar.gz tmp/dnadb-0.6.3.tar.gz --markdown 20230523/d/dnadb/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/9b/8d/9d4c974e0ece57b8399087c98b556d2afe5f8fbf31093f73a9de6767f14a/bosch_alarm_mode2-0.3.2.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [groupdocs-editor-cloud]: Downloading https://files.pythonhosted.org/packages/53/88/6a7e49daf7c1f06d0cebe7e86f3da8de2552bbf243b6e0be6a6371090de0/groupdocs-editor-cloud-23.5.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [groupdocs-editor-cloud]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [groupdocs-editor-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-editor-cloud-22.5.tar.gz tmp/groupdocs-editor-cloud-23.5.tar.gz --markdown 20230523/g/groupdocs-editor-cloud/22.5-23.5/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.1.tar.gz tmp/bosch_alarm_mode2-0.3.2.tar.gz --markdown 20230523/b/bosch-alarm-mode2/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/8e/44/84897b185591f1a369b79311e7fc27d10792cb94641b24976c3e4f36ceea/quality-result-gui-1.1.6.tar.gz
+[2023-05-23 09:24:06] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20230523/i/ih-common/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-23 09:24:06] INFO root fetch - processPackages [quality-result-gui]: executing diffoscope
+[2023-05-23 09:24:06] INFO root fetch - processPackages [quality-result-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quality-result-gui-1.1.5.tar.gz tmp/quality-result-gui-1.1.6.tar.gz --markdown 20230523/q/quality-result-gui/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-23 09:24:07] INFO root fetch - main [MainThread]: End processing [dnadb]: success
+[2023-05-23 09:24:07] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-23 09:24:07] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2023-05-23 09:24:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-23 09:24:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-23 09:24:08] INFO root fetch - main [MainThread]: End processing [quality-result-gui]: success
+[2023-05-23 09:24:08] INFO root fetch - main [MainThread]: End processing [groupdocs-editor-cloud]: success
+[2023-05-23 09:24:08] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-23 09:24:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-23 09:24:20] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-23 09:24:20] INFO root fetch - main [MainThread]: Store serial: [18210234]

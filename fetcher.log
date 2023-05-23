@@ -2109,3 +2109,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-05-23 02:57:21] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-05-23 02:57:21] INFO root fetch - main [MainThread]: Store serial: [18205730]
+[2023-05-23 03:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205730]
+[2023-05-23 03:02:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raydp-nightly
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitosheet3
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gh-env-manager
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifx-cli
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpr
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: structure-py
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-05-23 03:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cliffy
+[2023-05-23 03:02:29] INFO root fetch - processPackages [lifx-cli]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [gh-env-manager]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [cliffy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230522] Old Version: [0.0.8.dev20230521]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.5.23.dev0] Old Version: [2023.5.19.dev0]
+[2023-05-23 03:02:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-23 03:02:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230523/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/39/11/f1d1ae582b25fba9dba0fe2779f37a0549ee2f7f4895c998508d44aecd5e/lifx_cli-2.5.5.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [gh-env-manager]: Downloading https://files.pythonhosted.org/packages/46/23/ed7a01c133577e498c17176db71e30cd893838b1af517124f1c8d0cdbc28/gh_env_manager-0.4.0.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.5.4.tar.gz tmp/lifx_cli-2.5.5.tar.gz --markdown 20230523/l/lifx-cli/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/94/a2/00b87c6ec459f9311bf8c989849276b4abeda38dfcf540c58066fecd3535/aemcmc-nightly-0.0.8.dev20230522.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/dd/b1/f089fed8d7cc78671b1393e40ec5bf95effbc03924138a337fe1bcbd89ec/cliffy-0.2.9.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230521.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230522.tar.gz --markdown 20230523/a/aemcmc-nightly/0.0.8.dev20230521-0.0.8.dev20230522/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230523/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/be/ab/b13e917de3fe414d5522fd33eb8233c993b2b27be9b8be64d4633f725978/raydp_nightly-2023.5.23.dev0-py3-none-any.whl
+[2023-05-23 03:02:30] INFO root fetch - processPackages [cliffy]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [cliffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliffy-0.2.8.tar.gz tmp/cliffy-0.2.9.tar.gz --markdown 20230523/c/cliffy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230523/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [gh-env-manager]: Downloading https://files.pythonhosted.org/packages/73/8c/02274ee0dcd541df26c70cbdf1b818601e9587b83b6c7e09a93b9168db5d/gh_env_manager-0.4.1.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230523/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-05-23 03:02:30] INFO root fetch - processPackages [gh-env-manager]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [gh-env-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_env_manager-0.4.0.tar.gz tmp/gh_env_manager-0.4.1.tar.gz --markdown 20230523/g/gh-env-manager/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.5.19.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.5.23.dev0-py3-none-any.whl.zip --markdown 20230523/r/raydp-nightly/2023.5.19.dev0-2023.5.23.dev0/diff.md --exclude *.pyd
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-05-23 03:02:30] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230523/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-23 03:02:31] INFO root fetch - processPackages [lifx-cli]: Start processing: pyagrum-nightly
+[2023-05-23 03:02:31] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-23 03:02:31] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.0.9.dev202305221684706696] Old Version: [1.8.0.9.dev202305211684601026]
+[2023-05-23 03:02:31] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-23 03:02:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-23 03:02:31] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/52/05/8f06acb21d1c6cac49dd0e3272f81b47ce7d8f29beb10695fd275d6ccfbf/pyAgrum_nightly-1.8.0.9.dev202305221684706696-cp39-cp39-win_amd64.whl
+[2023-05-23 03:02:32] INFO root fetch - main [MainThread]: End processing [gh-env-manager]: success
+[2023-05-23 03:02:32] INFO root fetch - main [MainThread]: End processing [cliffy]: success
+[2023-05-23 03:02:32] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-05-23 03:02:32] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-23 03:02:32] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.0.9.dev202305211684601026-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.0.9.dev202305221684706696-cp39-cp39-win_amd64.whl.zip --markdown 20230523/p/pyagrum-nightly/1.8.0.9.dev202305211684601026-1.8.0.9.dev202305221684706696/diff.md --exclude *.pyd
+[2023-05-23 03:02:32] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-23 03:02:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-23 03:02:34] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-23 03:02:36] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-05-23 03:05:04] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-05-23 03:05:04] INFO root fetch - main [MainThread]: Store serial: [18205783]

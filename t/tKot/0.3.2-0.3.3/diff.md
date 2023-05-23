@@ -1,0 +1,85 @@
+# Comparing `tmp/tKot-0.3.2.tar.gz` & `tmp/tKot-0.3.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "tKot-0.3.2.tar", last modified: Tue May 23 07:41:13 2023, max compression
++gzip compressed data, was "tKot-0.3.3.tar", last modified: Tue May 23 07:55:46 2023, max compression
+```
+
+## Comparing `tKot-0.3.2.tar` & `tKot-0.3.3.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,18 @@
+-drwxrwxrwx   0        0        0        0 2023-05-23 07:41:13.817829 tKot-0.3.2/
+--rw-rw-rw-   0        0        0      483 2023-05-23 07:41:13.816860 tKot-0.3.2/PKG-INFO
+--rw-rw-rw-   0        0        0       30 2023-02-27 11:57:31.000000 tKot-0.3.2/README.md
+--rw-rw-rw-   0        0        0      602 2023-05-23 07:38:30.000000 tKot-0.3.2/pyproject.toml
+--rw-rw-rw-   0        0        0       42 2023-05-23 07:41:13.817829 tKot-0.3.2/setup.cfg
+--rw-rw-rw-   0        0        0      311 2023-02-27 12:07:32.000000 tKot-0.3.2/setup.py
+-drwxrwxrwx   0        0        0        0 2023-05-23 07:41:13.754508 tKot-0.3.2/src/
+-drwxrwxrwx   0        0        0        0 2023-05-23 07:41:13.768507 tKot-0.3.2/src/tKot/
+--rw-rw-rw-   0        0        0       60 2023-02-28 12:42:47.000000 tKot-0.3.2/src/tKot/__init__.py
+--rw-rw-rw-   0        0        0     2827 2023-05-23 07:38:30.000000 tKot-0.3.2/src/tKot/buttons.py
+--rw-rw-rw-   0        0        0      324 2023-05-23 06:47:52.000000 tKot-0.3.2/src/tKot/common.py
+--rw-rw-rw-   0        0        0     2972 2023-05-03 11:19:55.000000 tKot-0.3.2/src/tKot/frames.py
+-drwxrwxrwx   0        0        0        0 2023-05-23 07:41:13.814830 tKot-0.3.2/src/tKot.egg-info/
+--rw-rw-rw-   0        0        0      483 2023-05-23 07:41:13.000000 tKot-0.3.2/src/tKot.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      271 2023-05-23 07:41:13.000000 tKot-0.3.2/src/tKot.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-05-23 07:41:13.000000 tKot-0.3.2/src/tKot.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       14 2023-05-23 07:41:13.000000 tKot-0.3.2/src/tKot.egg-info/requires.txt
+--rw-rw-rw-   0        0        0        5 2023-05-23 07:41:13.000000 tKot-0.3.2/src/tKot.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2023-05-23 07:55:46.171561 tKot-0.3.3/
++-rw-rw-rw-   0        0        0      483 2023-05-23 07:55:46.170530 tKot-0.3.3/PKG-INFO
++-rw-rw-rw-   0        0        0       30 2023-02-27 11:57:31.000000 tKot-0.3.3/README.md
++-rw-rw-rw-   0        0        0      602 2023-05-23 07:53:58.000000 tKot-0.3.3/pyproject.toml
++-rw-rw-rw-   0        0        0       42 2023-05-23 07:55:46.171561 tKot-0.3.3/setup.cfg
++-rw-rw-rw-   0        0        0      311 2023-02-27 12:07:32.000000 tKot-0.3.3/setup.py
++drwxrwxrwx   0        0        0        0 2023-05-23 07:55:46.112731 tKot-0.3.3/src/
++drwxrwxrwx   0        0        0        0 2023-05-23 07:55:46.127760 tKot-0.3.3/src/tKot/
++-rw-rw-rw-   0        0        0       60 2023-02-28 12:42:47.000000 tKot-0.3.3/src/tKot/__init__.py
++-rw-rw-rw-   0        0        0     2827 2023-05-23 07:38:30.000000 tKot-0.3.3/src/tKot/buttons.py
++-rw-rw-rw-   0        0        0      697 2023-05-23 07:53:58.000000 tKot-0.3.3/src/tKot/common.py
++-rw-rw-rw-   0        0        0     2972 2023-05-03 11:19:55.000000 tKot-0.3.3/src/tKot/frames.py
++drwxrwxrwx   0        0        0        0 2023-05-23 07:55:46.168531 tKot-0.3.3/src/tKot.egg-info/
++-rw-rw-rw-   0        0        0      483 2023-05-23 07:55:46.000000 tKot-0.3.3/src/tKot.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      271 2023-05-23 07:55:46.000000 tKot-0.3.3/src/tKot.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-05-23 07:55:46.000000 tKot-0.3.3/src/tKot.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       14 2023-05-23 07:55:46.000000 tKot-0.3.3/src/tKot.egg-info/requires.txt
++-rw-rw-rw-   0        0        0        5 2023-05-23 07:55:46.000000 tKot-0.3.3/src/tKot.egg-info/top_level.txt
+```
+
+### Comparing `tKot-0.3.2/pyproject.toml` & `tKot-0.3.3/pyproject.toml`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ["setuptools", "setuptools-scm"]
+ build-backed = "setuptools.build_meta"
+ 
+ [project]
+ name = "tKot"
+-version = "0.3.2"
++version = "0.3.3"
+ authors = [
+     {name="Serj Kotilevski", email="youserj@outlook.com"}
+ ]
+ readme = "README.md"
+ requires-python = ">=3.11"
+ classifiers = [
+     "Programming Language :: Python :: 3",
+```
+
+### Comparing `tKot-0.3.2/src/tKot/buttons.py` & `tKot-0.3.3/src/tKot/buttons.py`
+
+ * *Files identical despite different names*
+
+### Comparing `tKot-0.3.2/src/tKot/frames.py` & `tKot-0.3.3/src/tKot/frames.py`
+
+ * *Files identical despite different names*
+

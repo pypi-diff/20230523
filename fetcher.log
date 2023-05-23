@@ -22112,3 +22112,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 19:01:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-23 19:01:59] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
 [2023-05-23 19:01:59] INFO root fetch - main [MainThread]: Store serial: [18217304]
+[2023-05-23 19:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217304]
+[2023-05-23 19:07:08] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covidcast
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recon-lw
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qm-tools-aw
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bandwidth-sdk
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panoptic
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysparse-array
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervisely
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cernrequests
+[2023-05-23 19:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vellum-ai
+[2023-05-23 19:07:08] INFO root fetch - processPackages [covidcast]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-23 19:07:08] INFO root fetch - processPackages [panoptic]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 19:07:08] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [1.1] Old Version: [1.0]
+[2023-05-23 19:07:08] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5060048573] Old Version: [2.0.0.dev5057432214]
+[2023-05-23 19:07:08] INFO root fetch - processPackages [qm-tools-aw]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-23 19:07:08] INFO root fetch - processPackages [bandwidth-sdk]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-05-23 19:07:09] INFO root fetch - processPackages [cernrequests]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 19:07:09] INFO root fetch - processPackages [pysparse-array]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-23 19:07:09] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-23 19:07:09] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-23 19:07:09] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230523/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/28/0a/c978b839dd760ac84214998ede335d78dce52da98b6739924c1792115e71/mkdocs-simple-tags-plugin-1.0.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/1f/ed/2204e0f1c708d0748994ff1fbd9fce5b945890ed9d62144947ed2f9ca701/panoptic-0.0.7.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [pysparse-array]: Downloading https://files.pythonhosted.org/packages/49/30/94c1b530cbba68677c407283aec8561161c7b07de9955a9f2786e490c3bd/pysparse-array-1.0.7.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/de/88/270609cb9b03e5f2724ff6cf032bc0a0b50c0e518df4967620f0a9309199/cernrequests-0.3.1.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [covidcast]: Downloading https://files.pythonhosted.org/packages/76/ce/5d200fe1774c39b1ad42203b44a06a4103ec74291b40ab1729190f9863fd/covidcast-0.1.5.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [bandwidth-sdk]: Downloading https://files.pythonhosted.org/packages/fd/e3/c25d992879ca54af0eee0c72d77d0aeddd3de88ca946457953c27d1a037a/bandwidth-sdk-9.1.0.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [qm-tools-aw]: Downloading https://files.pythonhosted.org/packages/a3/24/f5edfd7e8d8a5619d087bfd2786b9c3b2a1e99d5c5bd009ff163ddb5faf3/qm_tools_aw-1.1.1.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [pysparse-array]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [pysparse-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparse-array-1.0.6.tar.gz tmp/pysparse-array-1.0.7.tar.gz --markdown 20230523/p/pysparse-array/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/61/53/0e0570289c9114d0d3030dc5ed5d75a95ca12a39b4e9969e9a5e08010166/recon_lw-2.0.0.dev5060048573.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/3f/02/9e063bae2f6736a287e2f98e337285ab3e9b93ad6a46628bb48a31e7f802/mkdocs-simple-tags-plugin-1.1.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/c7/a0/763926007609ae380d125483ec28f2b3bb3d22402568f77a2426ec24929e/cernrequests-0.3.2.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230523/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/d5/ee/cbc4c7073915c63af182f01361afec910847e842a35abc75c231e5f89d41/panoptic-0.0.8.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [qm-tools-aw]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [qm-tools-aw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qm_tools_aw-1.1.0.tar.gz tmp/qm_tools_aw-1.1.1.tar.gz --markdown 20230523/q/qm-tools-aw/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-1.0.tar.gz tmp/mkdocs-simple-tags-plugin-1.1.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [cernrequests]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [cernrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cernrequests-0.3.1.tar.gz tmp/cernrequests-0.3.2.tar.gz --markdown 20230523/c/cernrequests/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5057432214.tar.gz tmp/recon_lw-2.0.0.dev5060048573.tar.gz --markdown 20230523/r/recon-lw/2.0.0.dev5057432214-2.0.0.dev5060048573/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [covidcast]: Downloading https://files.pythonhosted.org/packages/87/52/f71607ceabc9c515e45204ab6fcc30b2aebf1ee9d8c7310bf0942543625b/covidcast-0.2.0.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [bandwidth-sdk]: Downloading https://files.pythonhosted.org/packages/a1/5b/fe592f0a48436d963f4a2a731dbcbdfd34b8e467fba571a44d8447e642fe/bandwidth-sdk-9.2.0.tar.gz
+[2023-05-23 19:07:09] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.7.tar.gz tmp/panoptic-0.0.8.tar.gz --markdown 20230523/p/panoptic/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [bandwidth-sdk]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [bandwidth-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandwidth-sdk-9.1.0.tar.gz tmp/bandwidth-sdk-9.2.0.tar.gz --markdown 20230523/b/bandwidth-sdk/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-05-23 19:07:09] INFO root fetch - processPackages [covidcast]: executing diffoscope
+[2023-05-23 19:07:09] INFO root fetch - processPackages [covidcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covidcast-0.1.5.tar.gz tmp/covidcast-0.2.0.tar.gz --markdown 20230523/c/covidcast/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 19:07:10] INFO root fetch - processPackages [pysparse-array]: Start processing: certora-cli-alpha-EyalH-SeparationOfCompileAndCheck
+[2023-05-23 19:07:10] INFO root fetch - main [MainThread]: End processing [pysparse-array]: success
+[2023-05-23 19:07:10] WARNING root fetch - processPackages [certora-cli-alpha-EyalH-SeparationOfCompileAndCheck]: Skipping, unable to determine old version
+[2023-05-23 19:07:10] INFO root fetch - processPackages [certora-cli-alpha-EyalH-SeparationOfCompileAndCheck]: Start processing: cloudmesh-vpn
+[2023-05-23 19:07:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-EyalH-SeparationOfCompileAndCheck] error
+[2023-05-23 19:07:10] INFO root fetch - processPackages [cloudmesh-vpn]: New version: [4.3.6] Old Version: [4.3.5]
+[2023-05-23 19:07:10] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: cloud-audit-tool
+[2023-05-23 19:07:10] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 19:07:10] INFO root fetch - processPackages [cloud-audit-tool]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-vpn]: Downloading https://files.pythonhosted.org/packages/07/e4/e62665e5f70bde71a0afdbdd9888304c750bd7fcc0530c02b567847dce66/cloudmesh-vpn-4.3.6.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [recon-lw]: Start processing: wf-video-io
+[2023-05-23 19:07:11] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-23 19:07:11] INFO root fetch - processPackages [wf-video-io]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-23 19:07:11] INFO root fetch - processPackages [qm-tools-aw]: Start processing: cloudmesh-rivanna
+[2023-05-23 19:07:11] INFO root fetch - main [MainThread]: End processing [qm-tools-aw]: success
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloud-audit-tool]: Downloading https://files.pythonhosted.org/packages/5b/26/0ac7b111bb86eb37066f8cfcaaecc2a7c00c196e7f2327bdcac6bb1a62d5/cloud-audit-tool-0.0.3.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-vpn]: executing diffoscope
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-vpn-4.3.5.tar.gz tmp/cloudmesh-vpn-4.3.6.tar.gz --markdown 20230523/c/cloudmesh-vpn/4.3.5-4.3.6/diff.md --exclude *.pyd
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-rivanna]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-05-23 19:07:11] INFO root fetch - processPackages [wf-video-io]: Downloading https://files.pythonhosted.org/packages/05/46/fc6563ad15abda665bcdc41414f93c3589f934ca15a95b06f8ef72e7d47b/wf_video_io-3.2.3.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloud-audit-tool]: executing diffoscope
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloud-audit-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-audit-tool-0.0.2.tar.gz tmp/cloud-audit-tool-0.0.3.tar.gz --markdown 20230523/c/cloud-audit-tool/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/a9/7d/4898565493eb4682f3efd3ebf4ef1fac7d2d238b44e3347de7adb2abf3f5/cloudmesh-rivanna-4.3.7.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cernrequests]: Start processing: aish
+[2023-05-23 19:07:11] INFO root fetch - main [MainThread]: End processing [cernrequests]: success
+[2023-05-23 19:07:11] INFO root fetch - processPackages [aish]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-23 19:07:11] INFO root fetch - processPackages [wf-video-io]: Downloading https://files.pythonhosted.org/packages/5a/ec/5f05229e513132a3e7af3447b66c0b736c9c9d3470fdb16cd42700e2c8db/wf_video_io-3.2.4.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [vellum-ai]: Start processing: utilki
+[2023-05-23 19:07:11] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-05-23 19:07:11] INFO root fetch - processPackages [wf-video-io]: executing diffoscope
+[2023-05-23 19:07:11] INFO root fetch - processPackages [wf-video-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_video_io-3.2.3.tar.gz tmp/wf_video_io-3.2.4.tar.gz --markdown 20230523/w/wf-video-io/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-23 19:07:11] INFO root fetch - processPackages [aish]: executing diffoscope
+[2023-05-23 19:07:11] INFO root fetch - processPackages [aish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aish-0.1.1.tar.gz tmp/aish-0.1.3.tar.gz --markdown 20230523/a/aish/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 19:07:11] INFO root fetch - processPackages [utilki]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/8e/b7/af580f77c415e3f230c8dd6478393df55e1cfef04b4cb397ab8a9312d846/cloudmesh-rivanna-4.3.8.tar.gz
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-rivanna]: executing diffoscope
+[2023-05-23 19:07:11] INFO root fetch - processPackages [cloudmesh-rivanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-rivanna-4.3.7.tar.gz tmp/cloudmesh-rivanna-4.3.8.tar.gz --markdown 20230523/c/cloudmesh-rivanna/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-05-23 19:07:12] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/a2/7c/e6f705aade8b7a020d38dcef07ec7485c250fe1e58faf5a9db04810528cc/utilki-0.3.1.tar.gz
+[2023-05-23 19:07:12] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-05-23 19:07:12] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.3.0.tar.gz tmp/utilki-0.3.1.tar.gz --markdown 20230523/u/utilki/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-23 19:07:12] INFO root fetch - processPackages [covidcast]: Start processing: pysnooz
+[2023-05-23 19:07:12] INFO root fetch - main [MainThread]: End processing [covidcast]: success
+[2023-05-23 19:07:12] INFO root fetch - processPackages [cloudmesh-vpn]: Start processing: seleniumbot
+[2023-05-23 19:07:12] INFO root fetch - main [MainThread]: End processing [cloudmesh-vpn]: success
+[2023-05-23 19:07:12] WARNING root fetch - processPackages [seleniumbot]: Skipping, unable to determine old version
+[2023-05-23 19:07:12] INFO root fetch - processPackages [seleniumbot]: Start processing: QPUIQ
+[2023-05-23 19:07:12] INFO root fetch - main [MainThread]: End processing [seleniumbot] error
+[2023-05-23 19:07:12] INFO root fetch - processPackages [pysnooz]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-23 19:07:12] INFO root fetch - processPackages [QPUIQ]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-23 19:07:12] INFO root fetch - processPackages [pysnooz]: Downloading https://files.pythonhosted.org/packages/74/1e/9007f705ed43bc7a352daaa96c5b494d65c67042907832736b5e5e7b4f81/pysnooz-0.8.3.tar.gz
+[2023-05-23 19:07:12] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/17/95/ce7e55b8c40da105fd4fedd941a1e93a31685e858c36a443d0675ce309ec/QPUIQ-0.2.0.tar.gz
+[2023-05-23 19:07:13] INFO root fetch - processPackages [wf-video-io]: Start processing: cloud-audit-tool
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [wf-video-io]: success
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [aish]: success
+[2023-05-23 19:07:13] INFO root fetch - processPackages [cloud-audit-tool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
+[2023-05-23 19:07:13] INFO root fetch - processPackages [pysnooz]: Downloading https://files.pythonhosted.org/packages/da/ce/efb2c4714ba882e00bb767ad093c6ff161edf5ec83a945ec6eab269e0052/pysnooz-0.8.4.tar.gz
+[2023-05-23 19:07:13] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/e3/15/fd199947b523c8f5233f31f661d08c00ace430c537d05c082fa5942f0893/QPUIQ-0.2.1.tar.gz
+[2023-05-23 19:07:13] INFO root fetch - processPackages [pysnooz]: executing diffoscope
+[2023-05-23 19:07:13] INFO root fetch - processPackages [pysnooz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnooz-0.8.3.tar.gz tmp/pysnooz-0.8.4.tar.gz --markdown 20230523/p/pysnooz/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-23 19:07:13] INFO root fetch - processPackages [cloud-audit-tool]: Downloading https://files.pythonhosted.org/packages/76/50/bdc2592ee9e80e4060a59e7fc54650c014d78a1b458d525696d5bf08b31f/cloud-audit-tool-0.0.4.tar.gz
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-05-23 19:07:13] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-05-23 19:07:13] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.2.0.tar.gz tmp/QPUIQ-0.2.1.tar.gz --markdown 20230523/Q/QPUIQ/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-23 19:07:13] INFO root fetch - processPackages [cloud-audit-tool]: executing diffoscope
+[2023-05-23 19:07:13] INFO root fetch - processPackages [cloud-audit-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-audit-tool-0.0.3.tar.gz tmp/cloud-audit-tool-0.0.4.tar.gz --markdown 20230523/c/cloud-audit-tool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
+[2023-05-23 19:07:13] INFO root fetch - main [MainThread]: End processing [bandwidth-sdk]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [pysnooz]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [cloud-audit-tool]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-05-23 19:07:14] INFO root fetch - main [MainThread]: Store serial: [18217385]

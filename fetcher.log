@@ -21842,3 +21842,177 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 18:50:42] INFO root fetch - main [MainThread]: End processing [graspologic]: success
 [2023-05-23 18:50:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-23 18:50:43] INFO root fetch - main [MainThread]: Store serial: [18217152]
+[2023-05-23 18:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18217152]
+[2023-05-23 18:55:53] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zibanu-django
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dare-datasets
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-persona
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptgladiator
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motion-python
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tupa123
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drake
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotipy-pandas
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dapr-dev
+[2023-05-23 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kodexa
+[2023-05-23 18:55:53] INFO root fetch - processPackages [zibanu-django]: New version: [1.2.0a8] Old Version: [1.2.0a6]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dare-datasets]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [motion-python]: New version: [0.1.43] Old Version: [0.1.41]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [gptgladiator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [fern-persona]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [drake]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [spotipy-pandas]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dapr-dev]: New version: [1.9.0rc1.dev1567] Old Version: [1.9.0rc1.dev1553]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230523/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dare-datasets]: Downloading https://files.pythonhosted.org/packages/f4/f2/bba9e1c16cf895e58f73b81d7844ba1af93a672955a7e326ded4e54a67ad/dare_datasets-0.1.0.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [drake]: Downloading https://files.pythonhosted.org/packages/b6/6c/0383b9abe98450561fd00bfd545f735243b97ce409352dc8b73f3c94d3ec/drake-1.8.0-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-23 18:55:53] INFO root fetch - processPackages [spotipy-pandas]: Downloading https://files.pythonhosted.org/packages/c8/02/5f6b01a4b15507b5788349c818635d6c4f116fa38255538be8ab4b5fc1e6/spotipy-pandas-0.1.1.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [gptgladiator]: Downloading https://files.pythonhosted.org/packages/56/c3/e4012cb35d50e87078fd23e392434caac2adfddd7264c9893f590b228ee0/gptgladiator-0.1.4.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/90/82/1fc0174b2e6bf9e82abb3ee2216e8c3bd11fdabfbf495672b61fc5890271/motion_python-0.1.41.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/b7/04/cac3585c0a70ba57ba96f3585249191a6426f3662dfb389c68866e7c0185/zibanu-django-1.2.0a6.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [fern-persona]: Downloading https://files.pythonhosted.org/packages/69/e2/9a2595354e6e6f47ee7b025a12758aa5e2b0ac851b9c541f2336a466c50f/fern_persona-0.0.1.tar.gz
+[2023-05-23 18:55:53] WARNING root fetch - processPackages [drake]: Skipping package: exceeds size limit 87469921>=10485760
+[2023-05-23 18:55:53] INFO root fetch - processPackages [drake]: Start processing: pyrasta
+[2023-05-23 18:55:53] INFO root fetch - main [MainThread]: End processing [drake] error
+[2023-05-23 18:55:53] INFO root fetch - processPackages [pyrasta]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-23 18:55:53] INFO root fetch - processPackages [gptgladiator]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [gptgladiator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptgladiator-0.1.3.tar.gz tmp/gptgladiator-0.1.4.tar.gz --markdown 20230523/g/gptgladiator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dapr-dev]: Downloading https://files.pythonhosted.org/packages/cb/36/3aa2af98d5491d5d05ad169975af5fb8c3bdf03083d3bdbbe166c2787685/dapr-dev-1.9.0rc1.dev1567.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [pyrasta]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [pyrasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrasta-1.3.8.tar.gz tmp/pyrasta-1.3.9.tar.gz --markdown 20230523/p/pyrasta/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dare-datasets]: Downloading https://files.pythonhosted.org/packages/30/71/bf7d08fe8bb53ae37a2fa19c288a7740a8cf50e98a382d956aa96419bfc5/dare_datasets-0.1.2.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [spotipy-pandas]: Downloading https://files.pythonhosted.org/packages/c7/95/3298cf81926401879553d2a840fb6b227d96b90d99ab516dedab94ae6251/spotipy-pandas-0.2.0.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/69/39/116df229a82a784c5d6db7c3a3dbfa99389e84f5829f156ccbedcae67ee6/motion_python-0.1.43.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [fern-persona]: Downloading https://files.pythonhosted.org/packages/36/24/d43b549d5f04ea6f688b44fd1e6e09e3714c00e8fddcd5d09148c1cfa8b1/fern_persona-0.0.2.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/4c/fb/6faba55cb39a19f49f4e5d4822422b7856bbfb27f1b0a81cda877f1af262/zibanu-django-1.2.0a8.tar.gz
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dapr-dev]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-dev-1.9.0rc1.dev1553.tar.gz tmp/dapr-dev-1.9.0rc1.dev1567.tar.gz --markdown 20230523/d/dapr-dev/1.9.0rc1.dev1553-1.9.0rc1.dev1567/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dare-datasets]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [dare-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dare_datasets-0.1.0.tar.gz tmp/dare_datasets-0.1.2.tar.gz --markdown 20230523/d/dare-datasets/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [spotipy-pandas]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [spotipy-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotipy-pandas-0.1.1.tar.gz tmp/spotipy-pandas-0.2.0.tar.gz --markdown 20230523/s/spotipy-pandas/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.41.tar.gz tmp/motion_python-0.1.43.tar.gz --markdown 20230523/m/motion-python/0.1.41-0.1.43/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-1.2.0a6.tar.gz tmp/zibanu-django-1.2.0a8.tar.gz --markdown 20230523/z/zibanu-django/1.2.0a6-1.2.0a8/diff.md --exclude *.pyd
+[2023-05-23 18:55:53] INFO root fetch - processPackages [fern-persona]: executing diffoscope
+[2023-05-23 18:55:53] INFO root fetch - processPackages [fern-persona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_persona-0.0.1.tar.gz tmp/fern_persona-0.0.2.tar.gz --markdown 20230523/f/fern-persona/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 18:55:54] INFO root fetch - processPackages [tupa123]: Start processing: dapr-ext-workflow-dev
+[2023-05-23 18:55:54] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-23 18:55:54] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.0.1rc1.dev1567] Old Version: [0.0.1rc1.dev1553]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [kodexa]: Start processing: mkdocs-simple-tags-plugin
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [gptgladiator]: Start processing: flask-dapr-dev
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [gptgladiator]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/8f/ce/84a3c4412d407ffb2b9539ee2b6dcf6420f1f2b366d4f8c43d3962f6bfe4/dapr-ext-workflow-dev-0.0.1rc1.dev1567.tar.gz
+[2023-05-23 18:55:55] INFO root fetch - processPackages [flask-dapr-dev]: New version: [1.9.0rc1.dev1567] Old Version: [1.9.0rc1.dev1553]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Downloading https://files.pythonhosted.org/packages/0d/f7/85f2c6d4aad1f408f24165e18f8ce8af52634a8df5e9c2dbeee5cd4b02bf/mkdocs-simple-tags-plugin-0.9.tar.gz
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1553.tar.gz tmp/dapr-ext-workflow-dev-0.0.1rc1.dev1567.tar.gz --markdown 20230523/d/dapr-ext-workflow-dev/0.0.1rc1.dev1553-0.0.1rc1.dev1567/diff.md --exclude *.pyd
+[2023-05-23 18:55:55] INFO root fetch - processPackages [spotipy-pandas]: Start processing: kodexa
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [spotipy-pandas]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: executing diffoscope
+[2023-05-23 18:55:55] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-simple-tags-plugin-0.8.tar.gz tmp/mkdocs-simple-tags-plugin-0.9.tar.gz --markdown 20230523/m/mkdocs-simple-tags-plugin/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 18:55:55] INFO root fetch - processPackages [pyrasta]: Start processing: aish
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [pyrasta]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [aish]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [flask-dapr-dev]: Downloading https://files.pythonhosted.org/packages/39/f2/96e54779d686ec01ad0cdea62b24410288fafe5079480e1e1a30934f3a23/flask-dapr-dev-1.9.0rc1.dev1567.tar.gz
+[2023-05-23 18:55:55] INFO root fetch - processPackages [motion-python]: Start processing: dapr-ext-grpc-dev
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 18:55:55] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-grpc-dev]: New version: [1.9.0rc1.dev1567] Old Version: [1.9.0rc1.dev1553]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [flask-dapr-dev]: executing diffoscope
+[2023-05-23 18:55:55] INFO root fetch - processPackages [flask-dapr-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dapr-dev-1.9.0rc1.dev1553.tar.gz tmp/flask-dapr-dev-1.9.0rc1.dev1567.tar.gz --markdown 20230523/f/flask-dapr-dev/1.9.0rc1.dev1553-1.9.0rc1.dev1567/diff.md --exclude *.pyd
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-dev]: Start processing: dapr-ext-fastapi-dev
+[2023-05-23 18:55:55] INFO root fetch - main [MainThread]: End processing [dapr-dev]: success
+[2023-05-23 18:55:55] INFO root fetch - processPackages [aish]: Downloading https://files.pythonhosted.org/packages/02/d9/5130ce16c6de6df343857855b3df5123ab267d7b327bba2e8ebb923cb0d7/aish-0.1.3.tar.gz
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: New version: [1.9.0rc1.dev1567] Old Version: [1.9.0rc1.dev1553]
+[2023-05-23 18:55:55] INFO root fetch - processPackages [aish]: executing diffoscope
+[2023-05-23 18:55:55] INFO root fetch - processPackages [aish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aish-0.1.1.tar.gz tmp/aish-0.1.3.tar.gz --markdown 20230523/a/aish/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-23 18:55:55] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Downloading https://files.pythonhosted.org/packages/f2/8b/c6465d2faf65c8a9da820a87783a0d00da69feff2a4f0b2e080574a36847/dapr-ext-grpc-dev-1.9.0rc1.dev1567.tar.gz
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-grpc-dev]: executing diffoscope
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1553.tar.gz tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1567.tar.gz --markdown 20230523/d/dapr-ext-grpc-dev/1.9.0rc1.dev1553-1.9.0rc1.dev1567/diff.md --exclude *.pyd
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Downloading https://files.pythonhosted.org/packages/6c/3a/58608428e7b9f86087ff21d1967e0a9b9a7e264fc2cca6f13a0903d7f339/dapr-ext-fastapi-dev-1.9.0rc1.dev1567.tar.gz
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: executing diffoscope
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1553.tar.gz tmp/dapr-ext-fastapi-dev-1.9.0rc1.dev1567.tar.gz --markdown 20230523/d/dapr-ext-fastapi-dev/1.9.0rc1.dev1553-1.9.0rc1.dev1567/diff.md --exclude *.pyd
+[2023-05-23 18:55:56] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: ezQpy
+[2023-05-23 18:55:56] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2023-05-23 18:55:56] INFO root fetch - processPackages [ezQpy]: New version: [1.0.0] Old Version: [0.2.0.5]
+[2023-05-23 18:55:56] INFO root fetch - processPackages [mkdocs-simple-tags-plugin]: Start processing: kodexa
+[2023-05-23 18:55:56] INFO root fetch - main [MainThread]: End processing [mkdocs-simple-tags-plugin]: success
+[2023-05-23 18:55:56] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:57] INFO root fetch - processPackages [flask-dapr-dev]: Start processing: watermark
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [flask-dapr-dev]: success
+[2023-05-23 18:55:57] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/dc/62/5c665dd3e947ee304c114032b6c5bdde77e290d46bec055f611644c01714/ezQpy-0.2.0.5.tar.gz
+[2023-05-23 18:55:57] INFO root fetch - processPackages [watermark]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [watermark]: executing diffoscope
+[2023-05-23 18:55:57] INFO root fetch - processPackages [watermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watermark-2.3.1.tar.gz tmp/watermark-2.4.0.tar.gz --markdown 20230523/w/watermark/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-05-23 18:55:57] INFO root fetch - processPackages [zibanu-django]: Start processing: hail
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2023-05-23 18:55:57] INFO root fetch - processPackages [hail]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/39/84/33e279045269f70a22f316a2c2e21a13b09b6b193d2bd1a7a0d393437200/ezQpy-1.0.0-py3-none-any.whl
+[2023-05-23 18:55:57] INFO root fetch - processPackages [aish]: Start processing: amid
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [aish]: success
+[2023-05-23 18:55:57] INFO root fetch - processPackages [ezQpy]: executing diffoscope
+[2023-05-23 18:55:57] INFO root fetch - processPackages [ezQpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezQpy-0.2.0.5.tar.gz tmp/ezQpy-1.0.0-py3-none-any.whl.zip --markdown 20230523/e/ezQpy/0.2.0.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-23 18:55:57] INFO root fetch - processPackages [amid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [hail]: Downloading https://files.pythonhosted.org/packages/1d/79/af3836ea0d871c9eef733651d0c9a76f631ea963e14203f63b4e1ff97a49/hail-0.2.98-py3-none-any.whl
+[2023-05-23 18:55:57] INFO root fetch - processPackages [dare-datasets]: Start processing: kodexa
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [dare-datasets]: success
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [dapr-ext-grpc-dev]: Start processing: openai-shell-craft
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [dapr-ext-grpc-dev]: success
+[2023-05-23 18:55:57] WARNING root fetch - processPackages [hail]: Skipping package: exceeds size limit 99410480>=10485760
+[2023-05-23 18:55:57] INFO root fetch - processPackages [hail]: Start processing: kodexa
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [hail] error
+[2023-05-23 18:55:57] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/63/b6/7b8fbac0e861e9709a550fb10b182f206e9daf576813d1ab075397ecd4bc/amid-0.9.0.tar.gz
+[2023-05-23 18:55:57] INFO root fetch - processPackages [dapr-ext-fastapi-dev]: Start processing: pyezQ
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [dapr-ext-fastapi-dev]: success
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:57] INFO root fetch - processPackages [openai-shell-craft]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-23 18:55:57] WARNING root fetch - processPackages [pyezQ]: Skipping, unable to determine old version
+[2023-05-23 18:55:57] INFO root fetch - processPackages [pyezQ]: Start processing: gcloud-rest-storage
+[2023-05-23 18:55:57] INFO root fetch - main [MainThread]: End processing [pyezQ] error
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-23 18:55:57] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230523/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-23 18:55:58] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/d5/da/c71bdd2ac73d2a59a82db5358e1ec917ae6919536814564ef58883dc78de/openai_shell_craft-0.8.0.tar.gz
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-rest-storage]: New version: [8.2.1a0] Old Version: [8.2.0]
+[2023-05-23 18:55:58] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/0b/92/30a29361e79dfdb9bd10412e1465fd6fb5e780e40a34f24dc5f071fc07bc/amid-0.9.1.tar.gz
+[2023-05-23 18:55:58] INFO root fetch - processPackages [amid]: executing diffoscope
+[2023-05-23 18:55:58] INFO root fetch - processPackages [amid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amid-0.9.0.tar.gz tmp/amid-0.9.1.tar.gz --markdown 20230523/a/amid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-rest-storage]: Downloading https://files.pythonhosted.org/packages/d8/7b/ab6028cd74c8ec8b291bfa5f7d4e03a7477d3c13714686f136c9bd1f87d8/gcloud_rest_storage-8.2.0.tar.gz
+[2023-05-23 18:55:58] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/57/12/07fea4687b9b88f597e0c9227244b6e33ec38b96909e5e53c544dbe9e50b/openai_shell_craft-0.8.1.tar.gz
+[2023-05-23 18:55:58] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-05-23 18:55:58] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.8.0.tar.gz tmp/openai_shell_craft-0.8.1.tar.gz --markdown 20230523/o/openai-shell-craft/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-rest-storage]: Downloading https://files.pythonhosted.org/packages/b2/28/fe04daeecec4edc73952c1d241f83d29fd5117b6e2f07a03d69c85fc9e66/gcloud_rest_storage-8.2.1a0.tar.gz
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-rest-storage]: executing diffoscope
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-rest-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud_rest_storage-8.2.0.tar.gz tmp/gcloud_rest_storage-8.2.1a0.tar.gz --markdown 20230523/g/gcloud-rest-storage/8.2.0-8.2.1a0/diff.md --exclude *.pyd
+[2023-05-23 18:55:58] INFO root fetch - processPackages [watermark]: Start processing: gcloud-aio-storage
+[2023-05-23 18:55:58] INFO root fetch - main [MainThread]: End processing [watermark]: success
+[2023-05-23 18:55:58] INFO root fetch - processPackages [gcloud-aio-storage]: New version: [8.2.0] Old Version: [8.1.0]
+[2023-05-23 18:55:58] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 18:55:59] INFO root fetch - processPackages [gcloud-aio-storage]: Downloading https://files.pythonhosted.org/packages/85/39/52cabbe7100efe83bdd12b81f8055b3cced7b0f7c2e93c1fcc021cf118c1/gcloud_aio_storage-8.1.0.tar.gz
+[2023-05-23 18:55:59] INFO root fetch - main [MainThread]: End processing [ezQpy]: success
+[2023-05-23 18:55:59] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 18:55:59] INFO root fetch - processPackages [gcloud-aio-storage]: Downloading https://files.pythonhosted.org/packages/06/46/721406eba9444ac1edeb559078e4cc1b019d6420e6cf4e21d69269588f19/gcloud_aio_storage-8.2.0.tar.gz
+[2023-05-23 18:55:59] INFO root fetch - processPackages [gcloud-aio-storage]: executing diffoscope
+[2023-05-23 18:55:59] INFO root fetch - processPackages [gcloud-aio-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud_aio_storage-8.1.0.tar.gz tmp/gcloud_aio_storage-8.2.0.tar.gz --markdown 20230523/g/gcloud-aio-storage/8.1.0-8.2.0/diff.md --exclude *.pyd
+[2023-05-23 18:55:59] INFO root fetch - main [MainThread]: End processing [gcloud-rest-storage]: success
+[2023-05-23 18:56:00] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 18:56:00] INFO root fetch - main [MainThread]: End processing [gcloud-aio-storage]: success
+[2023-05-23 18:56:00] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-05-23 18:56:00] INFO root fetch - main [MainThread]: End processing [amid]: success
+[2023-05-23 18:56:01] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-23 18:56:02] INFO root fetch - main [MainThread]: End processing [fern-persona]: success
+[2023-05-23 18:56:02] INFO root fetch - main [MainThread]: Store serial: [18217252]

@@ -8506,3 +8506,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-23 06:56:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
 [2023-05-23 06:56:53] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-product-set]: success
 [2023-05-23 06:56:53] INFO root fetch - main [MainThread]: Store serial: [18209090]
+[2023-05-23 07:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209090]
+[2023-05-23 07:02:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-sale-workflow
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmo
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyuniverse
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfmodule
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsetmc
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlat
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qlat-cps
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qlat-grid
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qlat-utils
+[2023-05-23 07:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-attachment-base-synchronize
+[2023-05-23 07:02:01] INFO root fetch - processPackages [dfmodule]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [qlat]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [qlat-grid]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: New version: [14.0.20230522.0] Old Version: [14.0.20230511.0]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: New version: [9.0.1.0.0.99.dev31] Old Version: [9.0.1.0.0.99.dev30]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [llmo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [qlat-utils]: New version: [0.9] Old Version: [0.8]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [qlat-cps]: New version: [0.34] Old Version: [0.33]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [policyuniverse]: New version: [1.5.0.20230523] Old Version: [1.5.0.20220613]
+[2023-05-23 07:02:01] INFO root fetch - processPackages [tsetmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-23 07:02:02] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/b7/86/d07c7893ef38c879276f08c65c2f20de723ac987b468f773f2097096323c/dfmodule-0.0.1.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/56/88/0fa5bfa19e0defd5480ac9d551b01b7ed2b0a6b018665574bb4d8f6c60d9/odoo14_addons_oca_sale_workflow-14.0.20230511.0-py3-none-any.whl
+[2023-05-23 07:02:02] INFO root fetch - processPackages [policyuniverse]: Downloading https://files.pythonhosted.org/packages/4d/f0/70508150bc8c650025c14437e220358a59ebe568721a495ec5c8e7167d40/policyuniverse-1.5.0.20220613.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [llmo]: Downloading https://files.pythonhosted.org/packages/34/d8/d7dff05c3c740a2bb4d4a83ece572f1a4785da5ed8459e3379804a9bd7a8/llmo-0.2.1.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat]: Downloading https://files.pythonhosted.org/packages/c1/78/3a21dfaa66aadd58ff521b3bbe198adc1082646f3b916b87ce3c16a06a4b/qlat-0.8.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-grid]: Downloading https://files.pythonhosted.org/packages/cf/0f/594acbf132deaec157f4f6359b76028d1dc4d7f5664ef0481e1697ff48ef/qlat_grid-0.8.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Downloading https://files.pythonhosted.org/packages/8f/3b/6d62a1063781af7fedafc65f49b59419a4690ef0f0517c907ce6d5e79584/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev30-py2-none-any.whl
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-cps]: Downloading https://files.pythonhosted.org/packages/36/2a/300fae66d2702405778e605352867df27d8de03250c9db4bfde91aafcb05/qlat_cps-0.33.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-utils]: Downloading https://files.pythonhosted.org/packages/7c/2b/2132e4683879343a8503be10dfddbda8ef69bed2da3406817f3c6cbb1ea4/qlat_utils-0.8.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/e9/89/591bbad4fd0fe61938b4209f60e88c1fb470f266fe465ce188ca3fa4c499/tsetmc-0.9.0.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e1/81/bf53dff7e2b72a8ecdca979c4d8ed0a661c41a6eaed6a880256a60936b61/odoo14_addons_oca_sale_workflow-14.0.20230522.0-py3-none-any.whl
+[2023-05-23 07:02:02] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/28/07/3c8e0eeb540136d2af0df04e60a0884dec0e2bad84cc01915c800ee2ffa4/dfmodule-0.0.2.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [policyuniverse]: Downloading https://files.pythonhosted.org/packages/5e/4a/c6c6cfff2eba0c565c818e7a2c21a65442640a66a3c77ccd60587382170a/policyuniverse-1.5.0.20230523.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-cps]: Downloading https://files.pythonhosted.org/packages/55/9c/fb4bbb241a21ddace5888071c8c5545b6049217128ca6c7cadfc327d9d96/qlat_cps-0.34.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [llmo]: Downloading https://files.pythonhosted.org/packages/a2/b9/1717628de2cccb4e402d9dc5f0ae1238641b61a14f35b2ea314b748b904e/llmo-0.2.2.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Downloading https://files.pythonhosted.org/packages/53/4b/24836a4e81e706273e77b77994abc23ed22878b4745af888e0a973afcd4b/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev31-py2-none-any.whl
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_workflow-14.0.20230511.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_workflow-14.0.20230522.0-py3-none-any.whl.zip --markdown 20230523/o/odoo14-addons-oca-sale-workflow/14.0.20230511.0-14.0.20230522.0/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.1.tar.gz tmp/dfmodule-0.0.2.tar.gz --markdown 20230523/d/dfmodule/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-cps]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-grid]: Downloading https://files.pythonhosted.org/packages/a2/eb/4942d98922c17c64af3ee3db55ec8fc6ef5e9d228f9c6d009457e1ddaf61/qlat_grid-0.9.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-cps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat_cps-0.33.tar.gz tmp/qlat_cps-0.34.tar.gz --markdown 20230523/q/qlat-cps/0.33-0.34/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [llmo]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [llmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmo-0.2.1.tar.gz tmp/llmo-0.2.2.tar.gz --markdown 20230523/l/llmo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [policyuniverse]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [policyuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyuniverse-1.5.0.20220613.tar.gz tmp/policyuniverse-1.5.0.20230523.tar.gz --markdown 20230523/p/policyuniverse/1.5.0.20220613-1.5.0.20230523/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev30-py2-none-any.whl.zip tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev31-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-attachment-base-synchronize/9.0.1.0.0.99.dev30-9.0.1.0.0.99.dev31/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat]: Downloading https://files.pythonhosted.org/packages/a0/e1/78310cfcdfaadaa0349840d9886556d6fb5ad85d743641d50f280a9e08df/qlat-0.9.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-utils]: Downloading https://files.pythonhosted.org/packages/db/40/6e58c3038e9046dd51fa42c9748ef7c8c65466165c0e9a6ed71064e6ca6b/qlat_utils-0.9.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/58/ff/602c329041abb143266ea818f96ae044114643056881f5b90ee954fa644d/tsetmc-0.9.1.tar.gz
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-grid]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat_grid-0.8.tar.gz tmp/qlat_grid-0.9.tar.gz --markdown 20230523/q/qlat-grid/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat-0.8.tar.gz tmp/qlat-0.9.tar.gz --markdown 20230523/q/qlat/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-utils]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [qlat-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat_utils-0.8.tar.gz tmp/qlat_utils-0.9.tar.gz --markdown 20230523/q/qlat-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-23 07:02:02] INFO root fetch - processPackages [tsetmc]: executing diffoscope
+[2023-05-23 07:02:02] INFO root fetch - processPackages [tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsetmc-0.9.0.tar.gz tmp/tsetmc-0.9.1.tar.gz --markdown 20230523/t/tsetmc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-23 07:02:03] INFO root fetch - processPackages [dfmodule]: Start processing: fyerspysdk1
+[2023-05-23 07:02:03] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-23 07:02:03] INFO root fetch - processPackages [fyerspysdk1]: New version: [1.3] Old Version: [1.2]
+[2023-05-23 07:02:04] INFO root fetch - processPackages [fyerspysdk1]: executing diffoscope
+[2023-05-23 07:02:04] INFO root fetch - processPackages [fyerspysdk1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyerspysdk1-1.2-py3-none-any.whl.zip tmp/fyerspysdk1-1.3-py3-none-any.whl.zip --markdown 20230523/f/fyerspysdk1/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-23 07:02:04] INFO root fetch - processPackages [llmo]: Start processing: odoo9-addon-auto-backup
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [llmo]: success
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Start processing: flybirds
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-workflow]: success
+[2023-05-23 07:02:04] INFO root fetch - processPackages [qlat-cps]: Start processing: openai-parallel-toolkit
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [qlat-cps]: success
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo9-addon-auto-backup]: New version: [9.0.1.1.1.99.dev7] Old Version: [9.0.1.1.1.99.dev6]
+[2023-05-23 07:02:04] INFO root fetch - processPackages [flybirds]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-23 07:02:04] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.3] Old Version: [0.2]
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [qlat-grid]: success
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/b5/b1/e9b6c1f81e586341cdbbd07ef099b8e7e0739ca916ed4e7ca4adbb3912c6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl
+[2023-05-23 07:02:04] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/47/7f/0e4a22468125daff8a96176049be702fe4b2e1ff4d073bc82c31dd1d1025/flybirds-0.5.6.tar.gz
+[2023-05-23 07:02:04] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/99/22/7bbe5b68eba2a38eb405e0b7f3a85dd4896e600e0a3a224d43e264dfa844/openai_parallel_toolkit-0.3-py3-none-any.whl
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [tsetmc]: success
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [odoo9-addon-attachment-base-synchronize]: success
+[2023-05-23 07:02:04] INFO root fetch - main [MainThread]: End processing [qlat-utils]: success
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/36/f9/fc8f26956a3c3b9c409b1c88dd4902b068abae0ad46b7f9d2e5ee07b69f6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl
+[2023-05-23 07:02:04] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-05-23 07:02:04] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.2.tar.gz tmp/openai_parallel_toolkit-0.3-py3-none-any.whl.zip --markdown 20230523/o/openai-parallel-toolkit/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo9-addon-auto-backup]: executing diffoscope
+[2023-05-23 07:02:04] INFO root fetch - processPackages [odoo9-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl.zip --markdown 20230523/o/odoo9-addon-auto-backup/9.0.1.1.1.99.dev6-9.0.1.1.1.99.dev7/diff.md --exclude *.pyd
+[2023-05-23 07:02:05] INFO root fetch - main [MainThread]: End processing [fyerspysdk1]: success
+[2023-05-23 07:02:05] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/3a/64/4ce02314d98ec4d3661c0b10ca59f7ffc1371af58d45879d3c8c96f00a6b/flybirds-0.5.7.tar.gz
+[2023-05-23 07:02:05] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-05-23 07:02:06] INFO root fetch - main [MainThread]: End processing [odoo9-addon-auto-backup]: success
+[2023-05-23 07:02:08] INFO root fetch - main [MainThread]: End processing [qlat]: success
+[2023-05-23 07:02:08] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-05-23 07:02:08] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.5.6.tar.gz tmp/flybirds-0.5.7.tar.gz --markdown 20230523/f/flybirds/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-23 07:02:09] INFO root fetch - main [MainThread]: End processing [policyuniverse]: success
+[2023-05-23 07:02:39] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-05-23 07:02:39] INFO root fetch - main [MainThread]: Store serial: [18209125]

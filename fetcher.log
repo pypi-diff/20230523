@@ -2232,3 +2232,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-23 03:10:17] INFO root fetch - main [MainThread]: End processing [cqlpy]: success
 [2023-05-23 03:10:17] INFO root fetch - main [MainThread]: End processing [arraykit]: success
 [2023-05-23 03:10:17] INFO root fetch - main [MainThread]: Store serial: [18205855]
+[2023-05-23 03:15:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18205855]
+[2023-05-23 03:15:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phiterm
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llambda
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mia-accounting
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pelican-granular-signals
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2023-05-23 03:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bandplot
+[2023-05-23 03:15:26] INFO root fetch - processPackages [pelican-granular-signals]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-23 03:15:26] WARNING root fetch - processPackages [llambda]: Skipping, unable to determine old version
+[2023-05-23 03:15:26] INFO root fetch - main [MainThread]: End processing [llambda] error
+[2023-05-23 03:15:26] INFO root fetch - processPackages [mia-accounting]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-23 03:15:26] INFO root fetch - processPackages [phiterm]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-23 03:15:26] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-23 03:15:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-23 03:15:26] INFO root fetch - processPackages [bandplot]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230523/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-23 03:15:27] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/d7/91/cdd4c582a143cc258ba85e678f5f4bf35e63838ae6e03b3fecd150758f02/mia-accounting-1.5.6.tar.gz
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pelican-granular-signals]: Downloading https://files.pythonhosted.org/packages/36/25/37c4a182fde84033d7100a266b8e2c6b022f4d9e4294eaacb24a96506b76/pelican-granular-signals-1.0.1.tar.gz
+[2023-05-23 03:15:27] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230523/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-23 03:15:27] INFO root fetch - processPackages [mia-accounting]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [mia-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia-accounting-1.5.5.tar.gz tmp/mia-accounting-1.5.6.tar.gz --markdown 20230523/m/mia-accounting/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-23 03:15:27] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/e4/3b/b74e46fa610c7101a65e30779772b591b4e7cad5f52259f7bff47dcea447/phiterm-1.6.8.tar.gz
+[2023-05-23 03:15:27] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.7.tar.gz tmp/phiterm-1.6.8.tar.gz --markdown 20230523/p/phiterm/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-23 03:15:27] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/82/2a/d25a6bcbb0b8e40458c44f2fac218d480f4ab44ad1d10fa70bc8e2139355/bandplot-0.1.5.3-py3-none-any.whl
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pelican-granular-signals]: Downloading https://files.pythonhosted.org/packages/9b/74/18c9524b88c86f127165733634e58266aa6b3df0368b65613f1a93a99f59/pelican_granular_signals-1.1.0.tar.gz
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pelican-granular-signals]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [pelican-granular-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-granular-signals-1.0.1.tar.gz tmp/pelican_granular_signals-1.1.0.tar.gz --markdown 20230523/p/pelican-granular-signals/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-23 03:15:27] INFO root fetch - processPackages [bandplot]: executing diffoscope
+[2023-05-23 03:15:27] INFO root fetch - processPackages [bandplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandplot-0.1.5.2-py3-none-any.whl.zip tmp/bandplot-0.1.5.3-py3-none-any.whl.zip --markdown 20230523/b/bandplot/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-05-23 03:15:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-23 03:15:28] INFO root fetch - main [MainThread]: End processing [pelican-granular-signals]: success
+[2023-05-23 03:15:28] INFO root fetch - main [MainThread]: End processing [bandplot]: success
+[2023-05-23 03:15:28] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-23 03:15:28] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-23 03:15:29] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
+[2023-05-23 03:15:29] INFO root fetch - main [MainThread]: Store serial: [18205879]

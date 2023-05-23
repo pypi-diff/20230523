@@ -9252,3 +9252,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-05-23 07:46:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
 [2023-05-23 07:46:46] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-23 07:46:46] INFO root fetch - main [MainThread]: Store serial: [18209478]
+[2023-05-23 07:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18209478]
+[2023-05-23 07:51:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymycobot
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyOpenGL-accelerate
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioratelimits
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydflow
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-data-mock
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plutous
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrew
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fedops
+[2023-05-23 07:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: searchlogit
+[2023-05-23 07:51:55] INFO root fetch - processPackages [plutous]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [pymycobot]: New version: [3.1.0b1] Old Version: [3.0.9]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1684820943] Old Version: [0.1.1684809577]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [PyOpenGL-accelerate]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-05-23 07:51:55] WARNING root fetch - processPackages [py-data-mock]: Skipping, unable to determine old version
+[2023-05-23 07:51:55] INFO root fetch - processPackages [fedops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-23 07:51:55] INFO root fetch - main [MainThread]: End processing [py-data-mock] error
+[2023-05-23 07:51:55] INFO root fetch - processPackages [aioratelimits]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 07:51:55] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230523/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230523/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230523/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/e2/de/972e8d135a7f4afe0bf18af7fc1864ee0912454e63a1e58546e88d203c5c/eia-odin-pkg-rioatmadja2018-0.1.1684809577.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/aa/b6/1979ff941a39c772430a81e590e0dfe96028546f21783e23c85a0392134a/fedops-0.1.9.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/7b/87/46b01464a031b3864589f4a2f515085b798f18797f8b387d7b906381ae01/plutous-0.0.8.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/98/c7/2ed54d14a45d430553cd33fbb5ad03f11a7d81bd5d9bef74ccbd695eb0c5/pymycobot-3.0.9.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [PyOpenGL-accelerate]: Downloading https://files.pythonhosted.org/packages/8e/47/64aa665af0f7d0c2f6c4a865c1d521c3697504da971366d4dea12ce8b339/PyOpenGL-accelerate-3.1.6.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [aioratelimits]: Downloading https://files.pythonhosted.org/packages/e4/fd/f91d1c5cd5ddc0cfce5377316fa8c37331db5c7754a250bd90091b805a1e/aioratelimits-0.2.5.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-0.1.8.tar.gz tmp/fedops-0.1.9.tar.gz --markdown 20230523/f/fedops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.7.tar.gz tmp/plutous-0.0.8.tar.gz --markdown 20230523/p/plutous/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/13/e1/48579c3ba1d723135293e69860252d659d7094aeae4182cd8be71271302e/eia-odin-pkg-rioatmadja2018-0.1.1684820943.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/56/87/89dfc92a07d035353c1f7e25c32c66706e75ac92999640898b015cd43b66/pymycobot-3.1.0b1.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [PyOpenGL-accelerate]: Downloading https://files.pythonhosted.org/packages/93/09/d08b3d07dbd88258276496a47273778f330f5ccf8390cb21b16b29d660de/PyOpenGL-accelerate-3.1.7.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1684809577.tar.gz tmp/eia-odin-pkg-rioatmadja2018-0.1.1684820943.tar.gz --markdown 20230523/e/eia-odin-pkg-rioatmadja2018/0.1.1684809577-0.1.1684820943/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [aioratelimits]: Downloading https://files.pythonhosted.org/packages/ad/57/0df52f6091689ca53e6a93e7e7394504e2077eda137a8b5296ac5028cb4b/aioratelimits-0.2.6.tar.gz
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.0.9.tar.gz tmp/pymycobot-3.1.0b1.tar.gz --markdown 20230523/p/pymycobot/3.0.9-3.1.0b1/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [aioratelimits]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [aioratelimits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioratelimits-0.2.5.tar.gz tmp/aioratelimits-0.2.6.tar.gz --markdown 20230523/a/aioratelimits/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-23 07:51:56] INFO root fetch - processPackages [PyOpenGL-accelerate]: executing diffoscope
+[2023-05-23 07:51:56] INFO root fetch - processPackages [PyOpenGL-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOpenGL-accelerate-3.1.6.tar.gz tmp/PyOpenGL-accelerate-3.1.7.tar.gz --markdown 20230523/P/PyOpenGL-accelerate/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-05-23 07:51:57] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-23 07:51:57] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-05-23 07:51:57] INFO root fetch - main [MainThread]: End processing [aioratelimits]: success
+[2023-05-23 07:51:57] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-23 07:51:57] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2023-05-23 07:51:58] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-05-23 07:51:58] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-23 07:51:59] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-23 07:52:00] INFO root fetch - main [MainThread]: End processing [PyOpenGL-accelerate]: success
+[2023-05-23 07:52:00] INFO root fetch - main [MainThread]: Store serial: [18209551]

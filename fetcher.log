@@ -20707,3 +20707,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-23 17:50:38] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
 [2023-05-23 17:50:39] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-05-23 17:50:39] INFO root fetch - main [MainThread]: Store serial: [18216441]
+[2023-05-23 17:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18216441]
+[2023-05-23 17:55:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automatix
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyteseo
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-rs
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: northgravity
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superfluid
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: watermark
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: galileo-db
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapfun
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenRadio
+[2023-05-23 17:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrasta
+[2023-05-23 17:55:49] INFO root fetch - processPackages [superfluid]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [northgravity]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-23 17:55:49] WARNING root fetch - processPackages [OpenRadio]: Skipping, unable to determine old version
+[2023-05-23 17:55:49] INFO root fetch - processPackages [OpenRadio]: Start processing: PyWinBox
+[2023-05-23 17:55:49] INFO root fetch - main [MainThread]: End processing [OpenRadio] error
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyteseo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyrasta]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-23 17:55:49] WARNING root fetch - processPackages [mapfun]: Skipping, unable to determine old version
+[2023-05-23 17:55:49] INFO root fetch - processPackages [galileo-db]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [mapfun]: Start processing: seakybox
+[2023-05-23 17:55:49] INFO root fetch - main [MainThread]: End processing [mapfun] error
+[2023-05-23 17:55:49] INFO root fetch - processPackages [superfluid]: executing diffoscope
+[2023-05-23 17:55:49] INFO root fetch - processPackages [watermark]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [superfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superfluid-0.0.1.tar.gz tmp/superfluid-0.0.3.tar.gz --markdown 20230523/s/superfluid/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-23 17:55:49] WARNING root fetch - processPackages [PyWinBox]: Skipping, unable to determine old version
+[2023-05-23 17:55:49] INFO root fetch - processPackages [automatix]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [PyWinBox]: Start processing: unified-planning
+[2023-05-23 17:55:49] INFO root fetch - main [MainThread]: End processing [PyWinBox] error
+[2023-05-23 17:55:49] INFO root fetch - processPackages [northgravity]: executing diffoscope
+[2023-05-23 17:55:49] INFO root fetch - processPackages [northgravity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/northgravity-0.1.6.tar.gz tmp/northgravity-0.1.7.tar.gz --markdown 20230523/n/northgravity/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-23 17:55:49] INFO root fetch - processPackages [llm-rs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [seakybox]: New version: [0.2] Old Version: [0.1]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [galileo-db]: Downloading https://files.pythonhosted.org/packages/49/22/669dc020b7733b876002bf463963718f1d56434e7c2bae95ff7d5a099fbf/galileo-db-0.7.0.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.56.dev1]
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/26/95/876df8e65f7aeefad4a45be03c9dd18c2d195575717cdea6d482de616146/pyrasta-1.3.8.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyteseo]: Downloading https://files.pythonhosted.org/packages/3e/9f/245d21b2ea8d0e45bf496d719467cd3d44e7cf127b8854ef53f4861057e9/pyteseo-0.0.5.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [watermark]: Downloading https://files.pythonhosted.org/packages/03/c6/429eafdf291e9dfb460a770abe7be8ca0f2f20399e8281023b917de4a8ea/watermark-2.3.1.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [automatix]: Downloading https://files.pythonhosted.org/packages/f3/89/2ce617452ca92cdc65449aaf1e1b5425f553c840d76743a0057a2b12595b/automatix-1.8.2.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/e5/34/27e66d7a1a8ddf081afc9be58bea06e2512e178c3b022b366df58b343de4/unified_planning-0.6.0.56.dev1.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [seakybox]: Downloading https://files.pythonhosted.org/packages/0a/67/6c307bddb473c37fbe8bbdfa6474ef032018a14962c242362bb9ed944306/seakybox-0.1.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/37/bc/980c9d9027e1067ec79dc875a1f910bf35785d2b1e19c6cf3eae0200167d/llm_rs-0.2.3.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [watermark]: Downloading https://files.pythonhosted.org/packages/6f/eb/6abcd1f8580cdc2e8aa858f1f4a1fe11830d182556f176d80db56bd32860/watermark-2.4.0.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/40/4b/717bc7c9626096e5d6f681e721bc2fef5029ecc0f19d0a4a2a13cf9ab5f2/pyrasta-1.3.9.tar.gz
+[2023-05-23 17:55:49] INFO root fetch - processPackages [pyteseo]: Downloading https://files.pythonhosted.org/packages/d7/11/249c902c70a70ee2341b112ab1a27a21f91be38cdeb4c77333ae397bc73a/pyteseo-0.0.6.tar.gz
+[2023-05-23 17:55:50] INFO root fetch - processPackages [watermark]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [watermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watermark-2.3.1.tar.gz tmp/watermark-2.4.0.tar.gz --markdown 20230523/w/watermark/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [automatix]: Downloading https://files.pythonhosted.org/packages/66/e3/733d110d6cf43c581cdaf3448c4ab371c568ab2f6287d5c9381348bc549d/automatix-1.9.0.tar.gz
+[2023-05-23 17:55:50] INFO root fetch - processPackages [galileo-db]: Downloading https://files.pythonhosted.org/packages/1f/06/6b88f1b01c09ee4f39972dad909c0960ce1ab5245307d57f60308fdb8786/galileo-db-0.8.0.tar.gz
+[2023-05-23 17:55:50] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.2.2.tar.gz tmp/llm_rs-0.2.3.tar.gz --markdown 20230523/l/llm-rs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [pyrasta]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [pyrasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrasta-1.3.8.tar.gz tmp/pyrasta-1.3.9.tar.gz --markdown 20230523/p/pyrasta/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [automatix]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [automatix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatix-1.8.2.tar.gz tmp/automatix-1.9.0.tar.gz --markdown 20230523/a/automatix/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.56.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230523/u/unified-planning/0.6.0.56.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [pyteseo]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [pyteseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyteseo-0.0.5.tar.gz tmp/pyteseo-0.0.6.tar.gz --markdown 20230523/p/pyteseo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [seakybox]: Downloading https://files.pythonhosted.org/packages/5f/da/650eb2eeb0f047d633b9b085269a5c2e43564e07177281b23802620e6900/seakybox-0.2.tar.gz
+[2023-05-23 17:55:50] INFO root fetch - processPackages [galileo-db]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [galileo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo-db-0.7.0.tar.gz tmp/galileo-db-0.8.0.tar.gz --markdown 20230523/g/galileo-db/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [seakybox]: executing diffoscope
+[2023-05-23 17:55:50] INFO root fetch - processPackages [seakybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seakybox-0.1.tar.gz tmp/seakybox-0.2.tar.gz --markdown 20230523/s/seakybox/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-23 17:55:50] INFO root fetch - processPackages [superfluid]: Start processing: horton-grid
+[2023-05-23 17:55:50] INFO root fetch - main [MainThread]: End processing [superfluid]: success
+[2023-05-23 17:55:50] WARNING root fetch - processPackages [horton-grid]: Skipping, unable to determine old version
+[2023-05-23 17:55:50] INFO root fetch - processPackages [horton-grid]: Start processing: deprecation-alias
+[2023-05-23 17:55:50] INFO root fetch - main [MainThread]: End processing [horton-grid] error
+[2023-05-23 17:55:50] INFO root fetch - processPackages [northgravity]: Start processing: pyfsdb-viewer
+[2023-05-23 17:55:50] INFO root fetch - main [MainThread]: End processing [northgravity]: success
+[2023-05-23 17:55:50] INFO root fetch - processPackages [deprecation-alias]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-23 17:55:51] WARNING root fetch - processPackages [pyfsdb-viewer]: Skipping, unable to determine old version
+[2023-05-23 17:55:51] INFO root fetch - processPackages [pyfsdb-viewer]: Start processing: magicsoup
+[2023-05-23 17:55:51] INFO root fetch - main [MainThread]: End processing [pyfsdb-viewer] error
+[2023-05-23 17:55:51] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-23 17:55:51] INFO root fetch - processPackages [deprecation-alias]: Downloading https://files.pythonhosted.org/packages/dd/ff/1fad44ddd106869ce3c6a4e076470cead966dd07d2801d9c898de203052c/deprecation-alias-0.3.1.tar.gz
+[2023-05-23 17:55:51] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-23 17:55:51] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230523/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-23 17:55:51] INFO root fetch - processPackages [deprecation-alias]: Downloading https://files.pythonhosted.org/packages/f1/93/80482aa4afceaf83025617c2ec1ea48e619cb81ee26673fc7ba971cf45bf/deprecation-alias-0.3.2.tar.gz
+[2023-05-23 17:55:51] INFO root fetch - processPackages [deprecation-alias]: executing diffoscope
+[2023-05-23 17:55:51] INFO root fetch - processPackages [deprecation-alias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprecation-alias-0.3.1.tar.gz tmp/deprecation-alias-0.3.2.tar.gz --markdown 20230523/d/deprecation-alias/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-23 17:55:51] INFO root fetch - processPackages [pyrasta]: Start processing: google-custom-search
+[2023-05-23 17:55:51] INFO root fetch - main [MainThread]: End processing [pyrasta]: success
+[2023-05-23 17:55:51] INFO root fetch - main [MainThread]: End processing [watermark]: success
+[2023-05-23 17:55:51] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-23 17:55:51] INFO root fetch - processPackages [google-custom-search]: New version: [3.0.0rc0] Old Version: [3.0.0a0]
+[2023-05-23 17:55:52] INFO root fetch - main [MainThread]: End processing [automatix]: success
+[2023-05-23 17:55:52] INFO root fetch - processPackages [google-custom-search]: Downloading https://files.pythonhosted.org/packages/ed/82/ed257f4329b6367688f7a8f25646afa23841e2fd755f6be3adb7fb2f44ec/google-custom-search-3.0.0a0.tar.gz
+[2023-05-23 17:55:52] INFO root fetch - main [MainThread]: End processing [seakybox]: success
+[2023-05-23 17:55:52] INFO root fetch - processPackages [google-custom-search]: Downloading https://files.pythonhosted.org/packages/d8/ae/5b1723f86c2fd29d0b828dc93734cc9e44d6e16fb11df3b534a39692d0b3/google-custom-search-3.0.0rc0.tar.gz
+[2023-05-23 17:55:52] INFO root fetch - main [MainThread]: End processing [galileo-db]: success
+[2023-05-23 17:55:52] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-23 17:55:52] INFO root fetch - processPackages [google-custom-search]: executing diffoscope
+[2023-05-23 17:55:52] INFO root fetch - processPackages [google-custom-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230523:/home/abi/fetcher/20230523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-custom-search-3.0.0a0.tar.gz tmp/google-custom-search-3.0.0rc0.tar.gz --markdown 20230523/g/google-custom-search/3.0.0a0-3.0.0rc0/diff.md --exclude *.pyd
+[2023-05-23 17:55:52] INFO root fetch - main [MainThread]: End processing [deprecation-alias]: success
+[2023-05-23 17:55:53] INFO root fetch - main [MainThread]: End processing [google-custom-search]: success
+[2023-05-23 17:55:54] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-23 17:55:59] INFO root fetch - main [MainThread]: End processing [pyteseo]: success
+[2023-05-23 17:55:59] INFO root fetch - main [MainThread]: Store serial: [18216530]
